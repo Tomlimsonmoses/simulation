@@ -341,8 +341,7 @@ left_col, right_col = st.columns([1.2, 1.8])
 with left_col:
     # Patient Configuration Panel
     with st.container():
-        st.markdown('<div class="control-panel">', unsafe_allow_html=True)
-        st.markdown('<div class="panel-title">👤 Patient Biological Configuration</div>', unsafe_allow_html=True)
+        st.subheader("👤 Patient Biological Configuration", divider="blue")
         
         with st.expander("📋 Demographics & Vitals", expanded=True):
             col_a, col_b = st.columns(2)
@@ -389,12 +388,10 @@ with left_col:
                                    st.session_state.biological_state['inflammation_level'],
                                    key="inflammation_slider")
         
-        st.markdown('</div>', unsafe_allow_html=True)
+        # End Patient Biological Configuration container
     
     # Drug Selection Panel
-    with st.container():
-        st.markdown('<div class="control-panel">', unsafe_allow_html=True)
-        st.markdown('<div class="panel-title">💊 Drug Therapy Configuration</div>', unsafe_allow_html=True)
+    with st.expander("💊 Drug Therapy Configuration", expanded=True):
         
         # Smart drug filtering
         filtered_drugs = []
@@ -438,7 +435,7 @@ with left_col:
                 drug2 = None
                 dose2 = 0.0
         
-        st.markdown('</div>', unsafe_allow_html=True)
+        # End Drug Selection container
     
     # Update session state
     st.session_state.patient_data.update({
@@ -576,10 +573,7 @@ with right_col:
     simulation_results = run_simulation()
     
     if simulation_results:
-        # Simulation Visualization
-        st.markdown('<div class="control-panel">', unsafe_allow_html=True)
-        st.markdown('<div class="panel-title">📊 Real-time Simulation Results</div>', unsafe_allow_html=True)
-        
+        st.subheader("📊 Real-time Simulation Results", divider="blue")
         # Create interactive plot
         fig = go.Figure()
         
@@ -636,7 +630,7 @@ with right_col:
             template='plotly_white'
         )
         
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width='stretch')
         
         # Outcome and Recommendation
         st.markdown("---")
@@ -678,7 +672,7 @@ with right_col:
             else:
                 st.success("**Current regimen appears optimal. Continue monitoring.**")
         
-        st.markdown('</div>', unsafe_allow_html=True)
+        # End simulation container
     else:
         st.error("Simulation engine error. Please check your configuration.")
 
