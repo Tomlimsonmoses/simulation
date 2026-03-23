@@ -1,0 +1,501 @@
+biomarker_id,biomarker_name,biomarker_type,organ_source,normal_range_min,normal_range_max,unit,assay_method,stability,half_life,disease_associations,drug_effects
+BM_0000,Biomarker_0,enzymatic,heart,41.92693808669258,86.18610897178374,mg/dL,PCR,stable,7.4736576936351184,Disease_87,Effect_32
+BM_0001,Biomarker_1,genetic,heart,52.10626833756889,250.4440094087801,mg/dL,Flow Cytometry,moderately stable,16.225940832068382,Disease_97,Effect_21
+BM_0002,Biomarker_2,inflammatory,liver,89.41720395992716,308.869093581564,IU/L,ELISA,unstable,45.56819887246905,Disease_46,Effect_3
+BM_0003,Biomarker_3,genetic,pancreas,43.40599086585724,158.2126434497252,pg/mL,Flow Cytometry,stable,17.581174094264874,Disease_32,Effect_9
+BM_0004,Biomarker_4,enzymatic,liver,47.90648278327329,94.28245171655317,U/L,LC-MS/MS,stable,11.686647630437243,Disease_3,Effect_9
+BM_0005,Biomarker_5,metabolic,muscle,63.67921186757676,295.7261830743914,ng/mL,PCR,stable,22.888414892917933,Disease_79,Effect_6
+BM_0006,Biomarker_6,metabolic,kidneys,25.830313158182587,76.62259373947228,pg/mL,Flow Cytometry,moderately stable,22.315961262770475,Disease_12,Effect_9
+BM_0007,Biomarker_7,cellular,thyroid,88.51023407946698,226.29234276733064,IU/L,ELISA,moderately stable,68.2360147225572,Disease_17,Effect_23
+BM_0008,Biomarker_8,inflammatory,brain,35.08535977267966,167.9785941264663,IU/L,ELISA,moderately stable,56.58707932306753,Disease_19,Effect_45
+BM_0009,Biomarker_9,cellular,muscle,73.50205582711442,177.48872901896587,pmol/L,ELISA,stable,34.36502145669781,Disease_19,Effect_36
+BM_0010,Biomarker_10,hormonal,heart,4.458247379106462,6.672513664269324,U/L,Flow Cytometry,unstable,15.59535858003745,Disease_46,Effect_7
+BM_0011,Biomarker_11,enzymatic,pancreas,46.81340184566855,116.3166708203722,ng/mL,Flow Cytometry,moderately stable,16.52191134707365,Disease_77,Effect_3
+BM_0012,Biomarker_12,enzymatic,kidneys,46.3323394343847,76.76197290168516,pg/mL,ELISA,moderately stable,32.56820794505237,Disease_94,Effect_1
+BM_0013,Biomarker_13,inflammatory,muscle,69.62507549946469,256.9809383095988,ng/mL,Flow Cytometry,stable,24.49626367395968,Disease_75,Effect_32
+BM_0014,Biomarker_14,cellular,heart,24.225205264358927,98.83068220860171,U/L,Immunoassay,stable,46.980277888390624,Disease_14,Effect_26
+BM_0015,Biomarker_15,metabolic,muscle,69.1148697164954,222.73794605050352,pg/mL,Flow Cytometry,moderately stable,61.54426882188899,Disease_6,Effect_5
+BM_0016,Biomarker_16,metabolic,muscle,30.129406312479823,142.34638080871548,pg/mL,ELISA,moderately stable,23.188396568736586,Disease_31,Effect_16
+BM_0017,Biomarker_17,inflammatory,brain,99.6800650434418,463.1239699440606,pmol/L,Flow Cytometry,moderately stable,53.03803197780384,Disease_21,Effect_43
+BM_0018,Biomarker_18,inflammatory,kidneys,55.151265047644515,155.88277172568297,mg/dL,Immunoassay,stable,56.92306804739776,Disease_57,Effect_43
+BM_0019,Biomarker_19,cellular,muscle,87.07603127391472,261.02070609219015,mg/dL,Flow Cytometry,stable,24.881711671983762,Disease_61,Effect_27
+BM_0020,Biomarker_20,inflammatory,pancreas,76.52393619652202,181.54696142453284,pmol/L,ELISA,stable,9.758369915519722,Disease_14,Effect_27
+BM_0021,Biomarker_21,enzymatic,muscle,40.45110786552762,79.4572732003342,pg/mL,Flow Cytometry,unstable,31.50501100259419,Disease_89,Effect_34
+BM_0022,Biomarker_22,enzymatic,brain,13.379321299421223,29.946898898521955,pg/mL,Immunoassay,stable,27.68422657448162,Disease_8,Effect_24
+BM_0023,Biomarker_23,inflammatory,heart,59.14383347403535,284.1714419838958,pg/mL,PCR,stable,33.471948780836,Disease_70,Effect_28
+BM_0024,Biomarker_24,inflammatory,kidneys,52.699694030216925,115.87250404406646,ng/mL,LC-MS/MS,stable,15.838214303085971,Disease_62,Effect_5
+BM_0025,Biomarker_25,metabolic,muscle,19.394489801622182,92.21297365851633,pg/mL,Immunoassay,stable,31.145559083986083,Disease_26,Effect_26
+BM_0026,Biomarker_26,genetic,brain,52.30213912282649,107.66600572576598,IU/L,LC-MS/MS,stable,62.55038313670833,Disease_68,Effect_31
+BM_0027,Biomarker_27,hormonal,liver,7.017402933488436,12.128966702153829,pmol/L,Flow Cytometry,stable,5.936702348712172,Disease_13,Effect_15
+BM_0028,Biomarker_28,inflammatory,heart,26.850180797612836,106.50985828841002,pmol/L,Immunoassay,unstable,42.07355007846186,Disease_54,Effect_35
+BM_0029,Biomarker_29,inflammatory,adrenal,38.10795965210009,161.65667330776216,U/L,LC-MS/MS,stable,63.64790309084232,Disease_29,Effect_14
+BM_0030,Biomarker_30,inflammatory,heart,69.15694194041869,209.66116046151512,ng/mL,LC-MS/MS,moderately stable,11.214153898094235,Disease_67,Effect_2
+BM_0031,Biomarker_31,genetic,adrenal,99.54665614831964,274.7283474714199,ng/mL,LC-MS/MS,moderately stable,70.83792234401938,Disease_31,Effect_40
+BM_0032,Biomarker_32,inflammatory,kidneys,89.17474074519106,395.24769207518597,mg/dL,PCR,stable,14.642193776182577,Disease_39,Effect_11
+BM_0033,Biomarker_33,metabolic,thyroid,34.4476604792987,78.90168632375656,pg/mL,PCR,stable,55.546766671057625,Disease_55,Effect_48
+BM_0034,Biomarker_34,inflammatory,pancreas,6.047677670570691,22.728598492264165,mg/dL,LC-MS/MS,moderately stable,21.068417344877624,Disease_39,Effect_28
+BM_0035,Biomarker_35,hormonal,thyroid,1.6434791281108625,3.0612399423971173,U/L,LC-MS/MS,stable,10.386143399365006,Disease_49,Effect_10
+BM_0036,Biomarker_36,enzymatic,muscle,28.14180805220055,57.08181434741197,pmol/L,LC-MS/MS,stable,8.759802514351858,Disease_76,Effect_22
+BM_0037,Biomarker_37,enzymatic,kidneys,40.1402735063836,117.03339455157335,mg/dL,PCR,unstable,39.463401831166685,Disease_7,Effect_49
+BM_0038,Biomarker_38,cellular,liver,35.64422042909504,85.77401224044404,IU/L,PCR,stable,50.92647375555066,Disease_58,Effect_7
+BM_0039,Biomarker_39,enzymatic,thyroid,44.49501672029328,82.56604404177307,pg/mL,Flow Cytometry,moderately stable,3.869194193917073,Disease_47,Effect_15
+BM_0040,Biomarker_40,hormonal,heart,0.5012296473703832,0.6362458020940029,ng/mL,Immunoassay,unstable,3.9726150825785123,Disease_87,Effect_22
+BM_0041,Biomarker_41,inflammatory,muscle,62.17245177328718,187.86734612979026,pg/mL,LC-MS/MS,moderately stable,37.496570797331174,Disease_20,Effect_26
+BM_0042,Biomarker_42,inflammatory,thyroid,5.412266887074644,24.665980103028996,U/L,Flow Cytometry,moderately stable,49.14126826064103,Disease_95,Effect_4
+BM_0043,Biomarker_43,genetic,adrenal,41.47826877533752,126.04148941590805,pmol/L,LC-MS/MS,moderately stable,8.724836933014675,Disease_57,Effect_16
+BM_0044,Biomarker_44,cellular,thyroid,77.58964859051841,254.34573239416315,pmol/L,LC-MS/MS,moderately stable,29.735835632901715,Disease_93,Effect_30
+BM_0045,Biomarker_45,cellular,heart,86.46235141322224,398.77427059575314,IU/L,ELISA,stable,17.76402604036256,Disease_31,Effect_47
+BM_0046,Biomarker_46,inflammatory,brain,40.11879954444022,113.92059034828291,IU/L,PCR,moderately stable,9.100958541410384,Disease_4,Effect_4
+BM_0047,Biomarker_47,cellular,brain,85.77320553308539,276.6137939246706,pg/mL,ELISA,moderately stable,50.69106474229411,Disease_16,Effect_9
+BM_0048,Biomarker_48,genetic,kidneys,2.9318063872714593,13.468033930173142,IU/L,Flow Cytometry,stable,25.898900685176258,Disease_62,Effect_26
+BM_0049,Biomarker_49,hormonal,brain,1.8654033188188106,2.5939461613880708,IU/L,PCR,stable,4.7308758254334995,Disease_10,Effect_25
+BM_0050,Biomarker_50,genetic,thyroid,64.4318210529693,301.0570024480289,IU/L,PCR,moderately stable,66.02514857476001,Disease_61,Effect_18
+BM_0051,Biomarker_51,cellular,adrenal,46.40977590552928,229.38429816670802,ng/mL,PCR,moderately stable,57.2926318030713,Disease_48,Effect_28
+BM_0052,Biomarker_52,cellular,kidneys,40.30602455011785,188.18713758280705,pg/mL,Immunoassay,stable,39.77194941912312,Disease_21,Effect_37
+BM_0053,Biomarker_53,enzymatic,muscle,29.096646925466892,74.91748150530786,mg/dL,PCR,unstable,13.2567209994714,Disease_99,Effect_48
+BM_0054,Biomarker_54,genetic,pancreas,2.7605566602641782,8.45015490877188,mg/dL,PCR,moderately stable,56.897853588012836,Disease_56,Effect_38
+BM_0055,Biomarker_55,cellular,liver,48.0658057498413,235.45783878750282,IU/L,Immunoassay,stable,37.09651072613233,Disease_92,Effect_49
+BM_0056,Biomarker_56,enzymatic,muscle,44.902008805871766,124.96836964627768,ng/mL,ELISA,moderately stable,9.728158212696083,Disease_60,Effect_38
+BM_0057,Biomarker_57,cellular,thyroid,46.71329316951988,149.34741070394324,IU/L,Flow Cytometry,stable,20.44682620665182,Disease_95,Effect_21
+BM_0058,Biomarker_58,genetic,pancreas,53.57233680261022,251.21818616354633,ng/mL,ELISA,moderately stable,16.880994878379347,Disease_95,Effect_47
+BM_0059,Biomarker_59,metabolic,heart,59.473800835150875,163.74563549317037,U/L,Flow Cytometry,stable,47.438639880541054,Disease_25,Effect_1
+BM_0060,Biomarker_60,metabolic,pancreas,48.32952812231144,136.83282462074723,pmol/L,ELISA,stable,31.621522398088494,Disease_74,Effect_23
+BM_0061,Biomarker_61,cellular,muscle,9.392755456844698,31.809700589504818,IU/L,ELISA,moderately stable,51.7632555145141,Disease_70,Effect_20
+BM_0062,Biomarker_62,cellular,heart,83.39522314583319,371.900966050613,ng/mL,Flow Cytometry,moderately stable,48.85854904696203,Disease_73,Effect_48
+BM_0063,Biomarker_63,inflammatory,heart,58.54275670085184,195.7064631453923,pg/mL,Flow Cytometry,unstable,68.63827524713855,Disease_29,Effect_31
+BM_0064,Biomarker_64,cellular,thyroid,72.6339547718675,152.5160940330506,IU/L,PCR,unstable,70.05060595835111,Disease_22,Effect_16
+BM_0065,Biomarker_65,enzymatic,muscle,40.48479262307581,77.40063980838278,IU/L,PCR,stable,7.248125121532993,Disease_57,Effect_10
+BM_0066,Biomarker_66,enzymatic,liver,31.869991912525116,71.89889948990495,U/L,ELISA,stable,14.651037572260948,Disease_51,Effect_19
+BM_0067,Biomarker_67,genetic,liver,42.93840836929085,188.45182505916787,pg/mL,Flow Cytometry,moderately stable,55.78102032743506,Disease_37,Effect_12
+BM_0068,Biomarker_68,genetic,muscle,47.143863064819264,170.20489830799715,U/L,Flow Cytometry,stable,69.00559357480088,Disease_71,Effect_31
+BM_0069,Biomarker_69,inflammatory,brain,35.501933975833154,117.90422493677558,U/L,Flow Cytometry,unstable,56.22318237438732,Disease_80,Effect_9
+BM_0070,Biomarker_70,metabolic,liver,13.131186917064591,43.469076906552864,mg/dL,PCR,stable,54.733495263046606,Disease_88,Effect_7
+BM_0071,Biomarker_71,enzymatic,heart,32.23988446529589,68.32969574396738,pmol/L,ELISA,stable,20.94346126737354,Disease_35,Effect_28
+BM_0072,Biomarker_72,hormonal,liver,8.105808685344991,10.808808743544978,ng/mL,PCR,moderately stable,14.94209555673161,Disease_94,Effect_39
+BM_0073,Biomarker_73,hormonal,kidneys,3.6810917095633027,4.737782855910284,IU/L,Immunoassay,stable,12.85962385387944,Disease_91,Effect_16
+BM_0074,Biomarker_74,hormonal,kidneys,3.522488467844869,4.456749325558241,U/L,Immunoassay,moderately stable,14.01904252804972,Disease_41,Effect_39
+BM_0075,Biomarker_75,genetic,pancreas,98.35874670404905,198.97672588176377,mg/dL,PCR,stable,59.99103015141724,Disease_96,Effect_19
+BM_0076,Biomarker_76,hormonal,adrenal,9.80474972998418,11.97490220378091,pg/mL,Immunoassay,stable,8.37571141175425,Disease_76,Effect_25
+BM_0077,Biomarker_77,enzymatic,liver,11.489629977790944,20.69159048033183,pmol/L,Flow Cytometry,stable,15.129729040846023,Disease_92,Effect_19
+BM_0078,Biomarker_78,hormonal,liver,3.4946054235354285,6.684239337791715,pg/mL,LC-MS/MS,unstable,20.71666639153027,Disease_54,Effect_18
+BM_0079,Biomarker_79,cellular,muscle,10.858556773360297,46.53345519067706,IU/L,ELISA,stable,21.208122789230124,Disease_97,Effect_24
+BM_0080,Biomarker_80,metabolic,brain,31.315308028906525,156.43322373501746,U/L,LC-MS/MS,stable,25.24035060641303,Disease_71,Effect_34
+BM_0081,Biomarker_81,genetic,kidneys,84.08179645721727,298.326664786799,pg/mL,Flow Cytometry,stable,7.114022251730243,Disease_41,Effect_39
+BM_0082,Biomarker_82,enzymatic,adrenal,36.40628808455102,83.21888839642713,mg/dL,LC-MS/MS,unstable,32.018659488532364,Disease_93,Effect_38
+BM_0083,Biomarker_83,hormonal,adrenal,5.124709003130959,9.071312686100997,pmol/L,ELISA,unstable,14.713082761124193,Disease_6,Effect_27
+BM_0084,Biomarker_84,inflammatory,kidneys,59.35589871499123,294.8290529965788,mg/dL,LC-MS/MS,stable,25.535991121976302,Disease_78,Effect_27
+BM_0085,Biomarker_85,genetic,heart,2.9389459849357076,9.771127877957662,IU/L,ELISA,stable,18.91765865848847,Disease_13,Effect_14
+BM_0086,Biomarker_86,inflammatory,muscle,11.386391861539918,41.797332366918795,IU/L,Flow Cytometry,moderately stable,21.41980353752996,Disease_61,Effect_33
+BM_0087,Biomarker_87,hormonal,brain,9.003285332496937,14.126511270678838,IU/L,LC-MS/MS,stable,2.3467915352067603,Disease_43,Effect_17
+BM_0088,Biomarker_88,cellular,pancreas,63.603044154382154,209.50073403536916,pg/mL,Flow Cytometry,stable,23.012127311408115,Disease_43,Effect_34
+BM_0089,Biomarker_89,genetic,kidneys,74.26621543557523,182.04064659990058,IU/L,Flow Cytometry,moderately stable,35.31429244635712,Disease_84,Effect_27
+BM_0090,Biomarker_90,hormonal,heart,2.5799488607975345,4.043502625429888,pmol/L,Flow Cytometry,unstable,4.559350810395461,Disease_55,Effect_9
+BM_0091,Biomarker_91,genetic,heart,42.37230705297845,204.79452160514498,U/L,Flow Cytometry,stable,23.98149309004248,Disease_99,Effect_20
+BM_0092,Biomarker_92,enzymatic,muscle,40.26080109777733,89.41011508757435,pg/mL,ELISA,moderately stable,22.652779096038604,Disease_7,Effect_6
+BM_0093,Biomarker_93,cellular,brain,96.7526933979355,325.7904231355957,mg/dL,Immunoassay,moderately stable,23.8895413340457,Disease_32,Effect_41
+BM_0094,Biomarker_94,cellular,heart,98.93608966375577,233.6066206066634,IU/L,Immunoassay,stable,60.925753164345096,Disease_28,Effect_25
+BM_0095,Biomarker_95,cellular,muscle,83.71496795766524,348.68001375066115,mg/dL,Immunoassay,unstable,71.11982047095162,Disease_45,Effect_21
+BM_0096,Biomarker_96,inflammatory,liver,2.3214376997114874,7.009641610412028,U/L,PCR,stable,57.40602901048818,Disease_50,Effect_17
+BM_0097,Biomarker_97,genetic,heart,25.721718865446416,94.95128090567692,pg/mL,PCR,stable,16.077922170103665,Disease_43,Effect_18
+BM_0098,Biomarker_98,inflammatory,brain,86.37273152897612,364.8712356084239,U/L,PCR,stable,12.847056818169271,Disease_79,Effect_12
+BM_0099,Biomarker_99,hormonal,heart,8.723823630901132,11.741602512876817,mg/dL,Immunoassay,moderately stable,1.2042316915674725,Disease_9,Effect_19
+BM_0100,Biomarker_100,genetic,pancreas,78.12312957570562,368.32043388346955,U/L,Immunoassay,stable,10.127660730467237,Disease_90,Effect_17
+BM_0101,Biomarker_101,enzymatic,liver,13.160719452285296,33.32514569237758,pg/mL,ELISA,moderately stable,44.12050127570441,Disease_90,Effect_32
+BM_0102,Biomarker_102,hormonal,liver,4.059326961953281,6.521391928650772,pmol/L,PCR,stable,16.208926153530022,Disease_2,Effect_14
+BM_0103,Biomarker_103,hormonal,heart,2.3616984735576017,4.006264997230925,U/L,ELISA,moderately stable,1.088739886179201,Disease_10,Effect_27
+BM_0104,Biomarker_104,cellular,heart,71.44229059347556,266.0296079179475,pg/mL,Flow Cytometry,moderately stable,20.391691888756277,Disease_86,Effect_32
+BM_0105,Biomarker_105,inflammatory,thyroid,41.763906357448946,106.60041070408428,mg/dL,PCR,stable,49.791933995242545,Disease_34,Effect_33
+BM_0106,Biomarker_106,cellular,pancreas,56.066761717355924,164.10542928867898,IU/L,Flow Cytometry,stable,60.48726030432769,Disease_7,Effect_23
+BM_0107,Biomarker_107,genetic,adrenal,49.896876375294084,178.16962522906869,ng/mL,PCR,stable,39.07882557550588,Disease_64,Effect_27
+BM_0108,Biomarker_108,cellular,adrenal,62.12954924343609,159.33755913652337,IU/L,PCR,stable,23.449539081159212,Disease_61,Effect_10
+BM_0109,Biomarker_109,inflammatory,adrenal,98.56160653664435,215.792094029223,pg/mL,Immunoassay,stable,32.95515273126176,Disease_62,Effect_45
+BM_0110,Biomarker_110,enzymatic,heart,19.79003126950433,31.64329279628986,IU/L,Flow Cytometry,stable,18.58985991683332,Disease_22,Effect_40
+BM_0111,Biomarker_111,metabolic,thyroid,99.44769913419847,343.4591856115648,ng/mL,Immunoassay,unstable,29.395388576671316,Disease_57,Effect_1
+BM_0112,Biomarker_112,enzymatic,heart,46.87603004674151,95.0916281463933,U/L,ELISA,moderately stable,7.964544153642888,Disease_73,Effect_11
+BM_0113,Biomarker_113,enzymatic,pancreas,22.865539690928177,61.87550134358356,ng/mL,PCR,moderately stable,3.9354374041230082,Disease_5,Effect_29
+BM_0114,Biomarker_114,enzymatic,adrenal,24.029600965054193,65.71658996396468,IU/L,PCR,stable,26.066304505962986,Disease_56,Effect_15
+BM_0115,Biomarker_115,inflammatory,muscle,41.13365218097709,194.2892140977036,pg/mL,LC-MS/MS,moderately stable,22.584444137546612,Disease_35,Effect_18
+BM_0116,Biomarker_116,hormonal,kidneys,9.911953502796285,18.23609007278589,pmol/L,Immunoassay,stable,22.249062199913148,Disease_89,Effect_4
+BM_0117,Biomarker_117,genetic,muscle,19.539621817607102,73.6930162326779,IU/L,ELISA,stable,28.727126066734467,Disease_34,Effect_10
+BM_0118,Biomarker_118,hormonal,muscle,4.729084088703335,7.688201965570192,ng/mL,Immunoassay,moderately stable,6.816890311221128,Disease_59,Effect_5
+BM_0119,Biomarker_119,hormonal,thyroid,4.767390990910606,7.705286675764249,ng/mL,ELISA,moderately stable,10.742791407717199,Disease_16,Effect_40
+BM_0120,Biomarker_120,cellular,heart,33.02585448774233,110.86740530127949,IU/L,Immunoassay,unstable,46.11995789944717,Disease_46,Effect_31
+BM_0121,Biomarker_121,metabolic,pancreas,23.170171866125482,72.59809505910883,ng/mL,Flow Cytometry,unstable,27.32295132054552,Disease_70,Effect_40
+BM_0122,Biomarker_122,metabolic,pancreas,77.75101049087549,172.35920889647267,pg/mL,PCR,moderately stable,21.673444089771685,Disease_66,Effect_41
+BM_0123,Biomarker_123,metabolic,brain,81.51008211469616,211.75162755778322,ng/mL,LC-MS/MS,stable,23.460253532325684,Disease_85,Effect_10
+BM_0124,Biomarker_124,enzymatic,muscle,44.627314224739784,89.80354153562175,pmol/L,Flow Cytometry,moderately stable,18.009527761366723,Disease_33,Effect_47
+BM_0125,Biomarker_125,enzymatic,pancreas,12.261232572175551,28.610281790701304,pg/mL,PCR,stable,2.639154159401331,Disease_74,Effect_23
+BM_0126,Biomarker_126,genetic,adrenal,4.555203960361258,21.73126602732374,ng/mL,ELISA,stable,22.518197627884245,Disease_86,Effect_24
+BM_0127,Biomarker_127,hormonal,brain,0.4480406398861875,0.5564464330164768,ng/mL,Immunoassay,moderately stable,1.238297131689594,Disease_13,Effect_48
+BM_0128,Biomarker_128,hormonal,adrenal,6.811535193286637,8.435357519079208,ng/mL,Immunoassay,moderately stable,23.720080417696224,Disease_48,Effect_23
+BM_0129,Biomarker_129,enzymatic,adrenal,35.62281219955801,80.06137652270911,U/L,Immunoassay,moderately stable,41.07722730010964,Disease_63,Effect_29
+BM_0130,Biomarker_130,cellular,thyroid,3.292809228210911,14.608537190242554,U/L,LC-MS/MS,unstable,20.601198129890562,Disease_43,Effect_49
+BM_0131,Biomarker_131,inflammatory,adrenal,40.62612640465807,158.59408965034524,IU/L,PCR,stable,34.05639439647066,Disease_3,Effect_9
+BM_0132,Biomarker_132,metabolic,pancreas,59.725353982722844,214.1822482042844,mg/dL,Flow Cytometry,stable,11.551164338135978,Disease_50,Effect_3
+BM_0133,Biomarker_133,enzymatic,pancreas,36.93295281460111,110.23296574676506,U/L,LC-MS/MS,stable,25.504696444728232,Disease_25,Effect_17
+BM_0134,Biomarker_134,inflammatory,muscle,66.01092887502124,208.85161837436073,IU/L,PCR,moderately stable,59.493556252869574,Disease_93,Effect_19
+BM_0135,Biomarker_135,metabolic,muscle,27.103948188047625,90.35155425914972,pmol/L,LC-MS/MS,stable,6.32860359849761,Disease_63,Effect_25
+BM_0136,Biomarker_136,enzymatic,muscle,38.92211974302871,114.42978827024344,IU/L,LC-MS/MS,stable,34.12482391464857,Disease_15,Effect_11
+BM_0137,Biomarker_137,hormonal,pancreas,5.8670558943858655,8.230139860800762,mg/dL,ELISA,stable,0.8468202407474719,Disease_74,Effect_37
+BM_0138,Biomarker_138,hormonal,adrenal,7.629622449635126,12.98972460856115,ng/mL,PCR,moderately stable,19.647891995652287,Disease_73,Effect_28
+BM_0139,Biomarker_139,inflammatory,heart,5.434061638231741,21.764480797475297,ng/mL,PCR,unstable,51.9056543153748,Disease_81,Effect_1
+BM_0140,Biomarker_140,metabolic,thyroid,14.600273728292095,64.0271432624542,IU/L,PCR,unstable,22.274168473297998,Disease_63,Effect_32
+BM_0141,Biomarker_141,inflammatory,kidneys,57.19643606971058,283.85386539928817,ng/mL,ELISA,moderately stable,28.59265369124912,Disease_81,Effect_13
+BM_0142,Biomarker_142,hormonal,thyroid,3.93278110191285,6.621473657435661,pg/mL,ELISA,moderately stable,23.975809167551805,Disease_85,Effect_10
+BM_0143,Biomarker_143,inflammatory,brain,33.00868503757072,91.16830042740598,pmol/L,LC-MS/MS,moderately stable,42.14606810558333,Disease_97,Effect_2
+BM_0144,Biomarker_144,metabolic,kidneys,51.162114458259914,216.51677068529943,U/L,ELISA,moderately stable,58.87570961329867,Disease_69,Effect_23
+BM_0145,Biomarker_145,genetic,adrenal,86.07237985477627,276.1339644368274,pmol/L,Flow Cytometry,stable,31.237446881704276,Disease_6,Effect_22
+BM_0146,Biomarker_146,enzymatic,thyroid,29.61902244357912,46.97667236314326,pg/mL,LC-MS/MS,moderately stable,42.14795272899551,Disease_80,Effect_10
+BM_0147,Biomarker_147,genetic,thyroid,19.276383536762204,74.86660498636792,mg/dL,Immunoassay,moderately stable,9.229246610596157,Disease_46,Effect_45
+BM_0148,Biomarker_148,hormonal,liver,4.068583179323651,7.61428072729345,pmol/L,LC-MS/MS,moderately stable,20.610967166824192,Disease_88,Effect_35
+BM_0149,Biomarker_149,hormonal,brain,6.524721387121919,9.561576729692195,pg/mL,Flow Cytometry,stable,21.911268304204746,Disease_97,Effect_28
+BM_0150,Biomarker_150,genetic,kidneys,64.44146780875914,168.15943114187976,U/L,LC-MS/MS,moderately stable,44.78591610460979,Disease_53,Effect_30
+BM_0151,Biomarker_151,enzymatic,liver,17.23329977927557,31.4886578903016,pg/mL,LC-MS/MS,stable,38.89955499435878,Disease_39,Effect_12
+BM_0152,Biomarker_152,hormonal,heart,6.461960102818222,12.27232161473525,IU/L,Immunoassay,stable,6.614886206389652,Disease_50,Effect_47
+BM_0153,Biomarker_153,inflammatory,heart,1.540231623926693,5.857650208703976,U/L,LC-MS/MS,moderately stable,32.43644210789565,Disease_38,Effect_7
+BM_0154,Biomarker_154,cellular,brain,16.407136763853785,46.841087186676496,ng/mL,LC-MS/MS,stable,15.605314436168038,Disease_22,Effect_27
+BM_0155,Biomarker_155,hormonal,pancreas,1.9568426087399007,2.579281385428208,pg/mL,ELISA,unstable,21.164978416590134,Disease_47,Effect_25
+BM_0156,Biomarker_156,enzymatic,heart,36.671929519122834,85.44760593869525,mg/dL,ELISA,stable,4.186939718798855,Disease_85,Effect_3
+BM_0157,Biomarker_157,enzymatic,thyroid,14.622437137898846,34.950612719777965,pg/mL,LC-MS/MS,unstable,39.0363628411773,Disease_18,Effect_45
+BM_0158,Biomarker_158,inflammatory,adrenal,57.843103231367984,156.819597728676,U/L,LC-MS/MS,moderately stable,6.493858255608548,Disease_57,Effect_21
+BM_0159,Biomarker_159,inflammatory,thyroid,91.90154160423421,421.86045290140066,ng/mL,LC-MS/MS,moderately stable,14.05461401756197,Disease_40,Effect_7
+BM_0160,Biomarker_160,enzymatic,thyroid,22.262094342636466,53.582192117180696,IU/L,ELISA,moderately stable,10.757541264537608,Disease_56,Effect_10
+BM_0161,Biomarker_161,enzymatic,liver,49.362759568838825,123.12626752174346,IU/L,Flow Cytometry,stable,30.854085268865965,Disease_88,Effect_43
+BM_0162,Biomarker_162,cellular,thyroid,41.34266988227157,98.14585529404212,ng/mL,Flow Cytometry,moderately stable,43.6562046156816,Disease_28,Effect_10
+BM_0163,Biomarker_163,hormonal,adrenal,5.981697106529807,8.198155135736407,pg/mL,PCR,moderately stable,11.694520207380172,Disease_92,Effect_41
+BM_0164,Biomarker_164,metabolic,brain,55.6739303384386,216.26608817576874,mg/dL,PCR,moderately stable,38.49068865143891,Disease_68,Effect_43
+BM_0165,Biomarker_165,cellular,adrenal,68.7394819518883,291.7597683188311,U/L,ELISA,unstable,69.77732601331573,Disease_27,Effect_23
+BM_0166,Biomarker_166,inflammatory,pancreas,98.40589084028876,381.4889875313449,U/L,ELISA,stable,15.459667273817555,Disease_2,Effect_9
+BM_0167,Biomarker_167,cellular,adrenal,94.67567530361143,220.1728101166626,mg/dL,Flow Cytometry,stable,37.68413359448317,Disease_50,Effect_15
+BM_0168,Biomarker_168,genetic,kidneys,33.28165756574171,161.1608902487701,IU/L,Flow Cytometry,stable,71.53808718920354,Disease_95,Effect_44
+BM_0169,Biomarker_169,cellular,adrenal,28.585363506028873,84.6640555209792,U/L,ELISA,stable,32.0748740578617,Disease_21,Effect_1
+BM_0170,Biomarker_170,metabolic,pancreas,5.01102093318612,24.47333522949484,ng/mL,Immunoassay,moderately stable,30.971493312702293,Disease_94,Effect_37
+BM_0171,Biomarker_171,enzymatic,muscle,40.06029001256033,72.71443434361274,ng/mL,ELISA,moderately stable,18.400153187608826,Disease_93,Effect_11
+BM_0172,Biomarker_172,enzymatic,muscle,35.34699324534482,87.35425365604884,pg/mL,ELISA,moderately stable,16.81655490952935,Disease_43,Effect_10
+BM_0173,Biomarker_173,metabolic,kidneys,81.1513751297632,384.955378618872,IU/L,PCR,moderately stable,19.317735700665693,Disease_69,Effect_23
+BM_0174,Biomarker_174,enzymatic,liver,23.391314419790284,41.738930826282385,pg/mL,Immunoassay,stable,3.9169449347266907,Disease_30,Effect_43
+BM_0175,Biomarker_175,cellular,muscle,56.954641448589825,136.50897827842905,ng/mL,Immunoassay,unstable,34.9333460183563,Disease_78,Effect_3
+BM_0176,Biomarker_176,enzymatic,kidneys,24.014573622422333,44.60681353957047,U/L,ELISA,stable,42.3275226083053,Disease_4,Effect_21
+BM_0177,Biomarker_177,enzymatic,adrenal,29.004222850496134,66.51364478564398,ng/mL,Flow Cytometry,stable,15.43796014964065,Disease_86,Effect_11
+BM_0178,Biomarker_178,genetic,pancreas,88.95135023909661,183.38333727714294,pg/mL,Immunoassay,stable,7.195250602343522,Disease_12,Effect_22
+BM_0179,Biomarker_179,metabolic,kidneys,8.053681067702648,27.318898202497593,mg/dL,Flow Cytometry,moderately stable,38.07209544058357,Disease_71,Effect_10
+BM_0180,Biomarker_180,inflammatory,liver,33.36630408326325,118.14376683617363,pg/mL,Immunoassay,moderately stable,40.93655634054724,Disease_90,Effect_37
+BM_0181,Biomarker_181,metabolic,muscle,8.094727123616703,30.40131758921634,ng/mL,LC-MS/MS,stable,30.8491180171197,Disease_86,Effect_48
+BM_0182,Biomarker_182,cellular,thyroid,97.56165387771179,484.29013896804236,IU/L,Immunoassay,stable,54.05988609596382,Disease_18,Effect_17
+BM_0183,Biomarker_183,metabolic,adrenal,31.668896130503366,136.40025865874992,pmol/L,ELISA,moderately stable,55.1112113677881,Disease_48,Effect_19
+BM_0184,Biomarker_184,genetic,adrenal,4.433458798823398,16.946270676085714,pmol/L,Immunoassay,moderately stable,69.12590941519282,Disease_58,Effect_6
+BM_0185,Biomarker_185,metabolic,heart,21.662353123752816,68.52367907775631,IU/L,PCR,stable,69.05534600293268,Disease_27,Effect_9
+BM_0186,Biomarker_186,metabolic,pancreas,48.17425126831112,104.80028944660427,pg/mL,PCR,stable,14.130239074856188,Disease_2,Effect_16
+BM_0187,Biomarker_187,enzymatic,adrenal,35.43658116144,104.18259107489541,IU/L,Flow Cytometry,moderately stable,38.926866171871254,Disease_91,Effect_38
+BM_0188,Biomarker_188,enzymatic,thyroid,18.666082950190162,37.63914465519805,ng/mL,Immunoassay,stable,19.227736168164355,Disease_66,Effect_6
+BM_0189,Biomarker_189,genetic,adrenal,20.46826469118927,64.60849372407898,ng/mL,ELISA,stable,27.09735042547187,Disease_85,Effect_7
+BM_0190,Biomarker_190,hormonal,liver,5.478964028391391,6.593141370197578,mg/dL,Immunoassay,unstable,23.51833765096999,Disease_46,Effect_16
+BM_0191,Biomarker_191,cellular,heart,79.94760969252187,273.66455146398835,ng/mL,LC-MS/MS,stable,6.19414545396914,Disease_58,Effect_17
+BM_0192,Biomarker_192,enzymatic,thyroid,21.30283465670732,37.48007832814887,pg/mL,ELISA,stable,37.14391815273332,Disease_85,Effect_47
+BM_0193,Biomarker_193,inflammatory,brain,95.91452160342497,350.2388760956259,mg/dL,PCR,moderately stable,10.646167298667125,Disease_52,Effect_6
+BM_0194,Biomarker_194,genetic,liver,40.64641649359359,166.42280181267304,ng/mL,Immunoassay,unstable,57.37041452377373,Disease_14,Effect_21
+BM_0195,Biomarker_195,cellular,pancreas,33.779629030150105,101.84250093790855,pmol/L,Immunoassay,stable,26.461565737595816,Disease_36,Effect_34
+BM_0196,Biomarker_196,enzymatic,muscle,26.630872317461783,60.7407880736978,IU/L,Flow Cytometry,stable,31.35540463881116,Disease_75,Effect_3
+BM_0197,Biomarker_197,metabolic,adrenal,3.237375194059294,11.890435275743346,IU/L,LC-MS/MS,moderately stable,34.940437912597716,Disease_42,Effect_39
+BM_0198,Biomarker_198,cellular,pancreas,47.201663020097904,134.40264921678113,pg/mL,ELISA,unstable,28.33047086399939,Disease_62,Effect_1
+BM_0199,Biomarker_199,enzymatic,liver,13.898027204679092,29.15353151885813,pmol/L,ELISA,stable,38.430044633414234,Disease_56,Effect_36
+BM_0200,Biomarker_200,enzymatic,muscle,35.146516201281194,57.82924017120186,mg/dL,LC-MS/MS,unstable,42.11796645930316,Disease_43,Effect_1
+BM_0201,Biomarker_201,inflammatory,muscle,97.13549127358381,440.62120665402506,mg/dL,LC-MS/MS,unstable,43.855775763978635,Disease_51,Effect_31
+BM_0202,Biomarker_202,metabolic,pancreas,96.04187917743721,423.8986660762494,pg/mL,Immunoassay,stable,64.80983831778194,Disease_4,Effect_31
+BM_0203,Biomarker_203,metabolic,heart,98.71005971530032,198.17417625702913,ng/mL,Flow Cytometry,stable,37.32681651921491,Disease_7,Effect_41
+BM_0204,Biomarker_204,genetic,thyroid,62.921217453862965,178.668514336855,pg/mL,PCR,stable,25.936230095193725,Disease_40,Effect_33
+BM_0205,Biomarker_205,enzymatic,liver,31.474338418890135,55.180212093041646,pmol/L,ELISA,unstable,46.281854290684606,Disease_54,Effect_26
+BM_0206,Biomarker_206,metabolic,liver,96.24660771143895,267.7445118702617,IU/L,Immunoassay,stable,69.69281283631948,Disease_90,Effect_46
+BM_0207,Biomarker_207,genetic,muscle,47.35927621287986,215.19475736228046,pmol/L,LC-MS/MS,stable,61.22377751353944,Disease_51,Effect_15
+BM_0208,Biomarker_208,genetic,heart,36.23662762412142,165.1621544743399,pmol/L,Immunoassay,stable,68.09176935989814,Disease_74,Effect_22
+BM_0209,Biomarker_209,cellular,kidneys,32.04362761459507,74.19615768510995,ng/mL,Immunoassay,moderately stable,31.813934348725848,Disease_65,Effect_40
+BM_0210,Biomarker_210,metabolic,kidneys,71.90583585218641,349.0565108699974,U/L,LC-MS/MS,moderately stable,13.364246738346466,Disease_50,Effect_28
+BM_0211,Biomarker_211,genetic,muscle,56.06901441740139,215.3973654781714,U/L,Flow Cytometry,stable,7.937565978155867,Disease_93,Effect_9
+BM_0212,Biomarker_212,enzymatic,thyroid,18.646363022514127,39.72587925274966,pg/mL,LC-MS/MS,stable,2.063323730510096,Disease_88,Effect_10
+BM_0213,Biomarker_213,enzymatic,adrenal,13.790898003028254,25.9651439966377,ng/mL,LC-MS/MS,stable,6.719351873963912,Disease_4,Effect_34
+BM_0214,Biomarker_214,hormonal,adrenal,4.88640305239139,7.92661822274276,pmol/L,PCR,stable,8.708189612659297,Disease_3,Effect_29
+BM_0215,Biomarker_215,metabolic,muscle,32.377160467634724,81.87135896364144,mg/dL,PCR,moderately stable,66.96683232504994,Disease_34,Effect_10
+BM_0216,Biomarker_216,cellular,brain,63.78035232465729,312.9446024527728,pg/mL,Immunoassay,stable,55.05998417491082,Disease_4,Effect_3
+BM_0217,Biomarker_217,cellular,adrenal,32.925986994479715,94.78563490487439,pg/mL,Immunoassay,stable,16.19667650368453,Disease_49,Effect_35
+BM_0218,Biomarker_218,inflammatory,muscle,30.71108344755352,61.472061250449684,IU/L,PCR,moderately stable,29.814860214456875,Disease_13,Effect_18
+BM_0219,Biomarker_219,metabolic,heart,35.330651308584024,133.23054445674555,mg/dL,Immunoassay,stable,70.64252905259625,Disease_47,Effect_15
+BM_0220,Biomarker_220,cellular,thyroid,5.1094562984936385,20.2133838305106,mg/dL,ELISA,moderately stable,28.271536294973636,Disease_65,Effect_16
+BM_0221,Biomarker_221,hormonal,kidneys,9.059635985465484,16.343728881709467,pmol/L,Immunoassay,moderately stable,23.804751364295637,Disease_38,Effect_11
+BM_0222,Biomarker_222,inflammatory,thyroid,54.00332583764925,268.1770280173172,pg/mL,Immunoassay,unstable,71.43074500103177,Disease_67,Effect_30
+BM_0223,Biomarker_223,cellular,liver,29.609573025106574,79.48444593318423,ng/mL,Immunoassay,stable,9.726057223190185,Disease_47,Effect_21
+BM_0224,Biomarker_224,cellular,thyroid,41.345786835980846,205.45968185620433,U/L,PCR,stable,28.99597869548261,Disease_92,Effect_46
+BM_0225,Biomarker_225,inflammatory,heart,87.45934610562361,204.49950075745727,IU/L,LC-MS/MS,unstable,66.20818155541846,Disease_47,Effect_18
+BM_0226,Biomarker_226,cellular,adrenal,30.860290244229375,127.27937971161242,IU/L,PCR,moderately stable,54.154180368252945,Disease_83,Effect_5
+BM_0227,Biomarker_227,metabolic,pancreas,93.13673536141893,319.4963829915236,pmol/L,ELISA,stable,68.6115942671576,Disease_51,Effect_30
+BM_0228,Biomarker_228,inflammatory,pancreas,56.017883236414264,272.3297427674093,U/L,ELISA,stable,27.577671315919112,Disease_5,Effect_8
+BM_0229,Biomarker_229,inflammatory,pancreas,14.937236313841376,41.59444134957173,IU/L,Immunoassay,moderately stable,18.66419889602476,Disease_3,Effect_24
+BM_0230,Biomarker_230,genetic,kidneys,57.86102584748788,245.43813978675564,mg/dL,LC-MS/MS,unstable,42.444799526940145,Disease_39,Effect_14
+BM_0231,Biomarker_231,metabolic,muscle,71.62258905019895,163.29909819458888,IU/L,Immunoassay,unstable,36.63225006427402,Disease_70,Effect_34
+BM_0232,Biomarker_232,enzymatic,liver,47.99064214439773,142.97660052728705,mg/dL,LC-MS/MS,moderately stable,17.547207553512045,Disease_37,Effect_18
+BM_0233,Biomarker_233,hormonal,heart,5.834982699441148,11.58942225278037,ng/mL,LC-MS/MS,stable,13.862167654188866,Disease_61,Effect_42
+BM_0234,Biomarker_234,metabolic,pancreas,91.83700979370757,269.75458835516764,ng/mL,LC-MS/MS,stable,66.56941293904448,Disease_67,Effect_34
+BM_0235,Biomarker_235,cellular,pancreas,62.43735525536916,263.03193425423734,pg/mL,Flow Cytometry,stable,56.412227604749525,Disease_39,Effect_3
+BM_0236,Biomarker_236,cellular,adrenal,12.519706990389237,44.6306326437913,pg/mL,Flow Cytometry,moderately stable,54.64394085377631,Disease_7,Effect_44
+BM_0237,Biomarker_237,enzymatic,pancreas,42.889359187618545,99.27927939070257,pg/mL,PCR,stable,4.0074612490499595,Disease_72,Effect_10
+BM_0238,Biomarker_238,genetic,adrenal,89.65850071005275,196.15918043818385,pmol/L,ELISA,stable,49.95271983084537,Disease_94,Effect_20
+BM_0239,Biomarker_239,genetic,liver,73.01921686479017,257.02644232790067,pmol/L,PCR,unstable,65.07023846248168,Disease_12,Effect_27
+BM_0240,Biomarker_240,genetic,heart,23.043112955787155,109.89576403574922,ng/mL,ELISA,unstable,28.311869146072976,Disease_61,Effect_22
+BM_0241,Biomarker_241,inflammatory,kidneys,12.784638783249722,45.730670376008874,pg/mL,Flow Cytometry,stable,63.21141735038213,Disease_33,Effect_43
+BM_0242,Biomarker_242,cellular,pancreas,70.43023787231115,320.95979107494406,pmol/L,Flow Cytometry,stable,44.168739697430006,Disease_24,Effect_23
+BM_0243,Biomarker_243,genetic,muscle,83.21797652796899,303.7593316207881,pg/mL,ELISA,stable,70.89593923079772,Disease_54,Effect_21
+BM_0244,Biomarker_244,cellular,liver,4.493737243501229,12.648742813297325,ng/mL,ELISA,moderately stable,53.037333912479106,Disease_83,Effect_6
+BM_0245,Biomarker_245,enzymatic,pancreas,41.44381215610021,104.3645925918413,mg/dL,LC-MS/MS,moderately stable,3.2353657775264217,Disease_23,Effect_25
+BM_0246,Biomarker_246,genetic,pancreas,65.10845839113126,276.1115574858632,ng/mL,Immunoassay,stable,12.18617730195426,Disease_10,Effect_12
+BM_0247,Biomarker_247,inflammatory,heart,21.45623576937449,57.65222566031928,IU/L,ELISA,moderately stable,30.984787029014186,Disease_56,Effect_12
+BM_0248,Biomarker_248,cellular,liver,60.662344643367405,161.0773050369465,U/L,ELISA,moderately stable,11.735594760494212,Disease_57,Effect_5
+BM_0249,Biomarker_249,genetic,kidneys,96.00964681754992,207.86979677708243,ng/mL,ELISA,stable,35.433974226137835,Disease_74,Effect_41
+BM_0250,Biomarker_250,inflammatory,thyroid,96.50511295827509,395.7250448631868,ng/mL,Immunoassay,moderately stable,53.37800796461873,Disease_24,Effect_24
+BM_0251,Biomarker_251,cellular,brain,89.20711240272406,308.51534134223385,pg/mL,LC-MS/MS,stable,27.705257154316214,Disease_53,Effect_10
+BM_0252,Biomarker_252,hormonal,heart,6.7264725902404425,9.124467646578458,pmol/L,ELISA,unstable,2.4298815310801105,Disease_78,Effect_43
+BM_0253,Biomarker_253,inflammatory,kidneys,91.11795002248799,225.12457545312105,ng/mL,PCR,stable,23.87833465368093,Disease_52,Effect_40
+BM_0254,Biomarker_254,inflammatory,muscle,74.4977981656548,325.3775631801946,U/L,Immunoassay,stable,70.98960418167506,Disease_96,Effect_48
+BM_0255,Biomarker_255,inflammatory,brain,51.84100061972572,126.2792151452058,U/L,Immunoassay,stable,47.90894360777045,Disease_92,Effect_48
+BM_0256,Biomarker_256,inflammatory,muscle,32.71918153263225,120.0957994657752,mg/dL,Immunoassay,stable,36.59082695738134,Disease_94,Effect_43
+BM_0257,Biomarker_257,hormonal,muscle,2.5011853628048204,3.396918773802338,pg/mL,PCR,stable,21.33343254717525,Disease_1,Effect_39
+BM_0258,Biomarker_258,enzymatic,brain,17.215819370650827,42.66535952532906,pg/mL,LC-MS/MS,stable,18.93940131179468,Disease_65,Effect_2
+BM_0259,Biomarker_259,enzymatic,thyroid,49.45909016666572,120.60568256158069,pg/mL,Flow Cytometry,moderately stable,47.70913150493217,Disease_29,Effect_37
+BM_0260,Biomarker_260,inflammatory,adrenal,55.65549390927305,134.55349230257013,ng/mL,PCR,stable,34.52532065456016,Disease_37,Effect_44
+BM_0261,Biomarker_261,genetic,thyroid,23.610087146106764,69.82729623601313,pmol/L,Immunoassay,stable,7.947665028744071,Disease_52,Effect_34
+BM_0262,Biomarker_262,inflammatory,brain,93.0026163828807,268.78737559581106,IU/L,Immunoassay,stable,55.91747554986381,Disease_42,Effect_4
+BM_0263,Biomarker_263,genetic,liver,79.06209248272316,250.05784614387937,mg/dL,Immunoassay,moderately stable,71.1577009634722,Disease_19,Effect_48
+BM_0264,Biomarker_264,inflammatory,heart,96.92556472693045,408.4011842483866,pg/mL,Flow Cytometry,stable,41.792176985591645,Disease_16,Effect_48
+BM_0265,Biomarker_265,hormonal,liver,2.059538618451158,3.243437726894626,IU/L,PCR,moderately stable,1.5545717114055133,Disease_3,Effect_14
+BM_0266,Biomarker_266,hormonal,thyroid,2.8074470649905017,3.837936184426953,U/L,PCR,stable,21.216382773061444,Disease_56,Effect_13
+BM_0267,Biomarker_267,genetic,thyroid,4.697819032669227,10.19191368892285,pmol/L,Immunoassay,unstable,23.232195529065642,Disease_52,Effect_43
+BM_0268,Biomarker_268,hormonal,muscle,9.622297050678037,11.896147672709725,ng/mL,PCR,unstable,8.216271710376514,Disease_99,Effect_26
+BM_0269,Biomarker_269,metabolic,adrenal,6.729889471397889,16.759345143990846,mg/dL,LC-MS/MS,unstable,60.96468283282669,Disease_81,Effect_21
+BM_0270,Biomarker_270,inflammatory,pancreas,52.6568123782408,243.3565515809478,mg/dL,LC-MS/MS,stable,51.57094465654509,Disease_89,Effect_35
+BM_0271,Biomarker_271,cellular,liver,23.06757780859646,78.50016455027502,pg/mL,PCR,stable,9.237624108243274,Disease_58,Effect_48
+BM_0272,Biomarker_272,cellular,muscle,59.943621402180064,183.92863530069263,IU/L,LC-MS/MS,stable,42.65223669618012,Disease_38,Effect_26
+BM_0273,Biomarker_273,cellular,muscle,66.5597992191399,149.69050997956126,U/L,PCR,stable,14.217013277389546,Disease_26,Effect_7
+BM_0274,Biomarker_274,cellular,thyroid,49.683473680283925,110.52383399916225,U/L,Immunoassay,unstable,49.212539341456804,Disease_36,Effect_34
+BM_0275,Biomarker_275,inflammatory,liver,81.81777130382073,193.3799168723512,ng/mL,LC-MS/MS,unstable,54.59179231687991,Disease_86,Effect_13
+BM_0276,Biomarker_276,enzymatic,liver,19.193236608363286,38.91650987526768,ng/mL,Immunoassay,moderately stable,10.592590996640302,Disease_10,Effect_19
+BM_0277,Biomarker_277,genetic,kidneys,82.92304125972815,375.27815347956175,mg/dL,Immunoassay,unstable,41.50722079719552,Disease_43,Effect_30
+BM_0278,Biomarker_278,metabolic,kidneys,79.44614546167055,212.9597928195253,ng/mL,Flow Cytometry,unstable,30.181453689697797,Disease_24,Effect_7
+BM_0279,Biomarker_279,hormonal,thyroid,1.6862956773086388,3.139786431701874,pmol/L,ELISA,moderately stable,7.400968115207633,Disease_35,Effect_16
+BM_0280,Biomarker_280,genetic,heart,69.40767205215023,304.90885278578526,ng/mL,Flow Cytometry,stable,53.959689720072284,Disease_19,Effect_17
+BM_0281,Biomarker_281,metabolic,pancreas,66.25672410642822,176.72737459902967,pmol/L,Flow Cytometry,unstable,7.183054876404759,Disease_44,Effect_25
+BM_0282,Biomarker_282,inflammatory,liver,40.82901452415078,181.7550658379798,pmol/L,Flow Cytometry,moderately stable,59.45681637468731,Disease_76,Effect_46
+BM_0283,Biomarker_283,genetic,liver,35.3391303769088,73.02936498503401,IU/L,PCR,unstable,58.706206608436155,Disease_35,Effect_7
+BM_0284,Biomarker_284,metabolic,brain,20.15819036507474,50.634034477042825,mg/dL,Immunoassay,stable,25.6009291356715,Disease_7,Effect_43
+BM_0285,Biomarker_285,cellular,heart,9.7693297394801,33.958192244812395,IU/L,ELISA,stable,51.28625399750492,Disease_58,Effect_30
+BM_0286,Biomarker_286,enzymatic,heart,39.19696462004397,100.68876736378488,IU/L,Flow Cytometry,unstable,39.043334311992496,Disease_8,Effect_37
+BM_0287,Biomarker_287,cellular,heart,73.33534313929546,168.19336723641473,pmol/L,PCR,stable,49.205753484975254,Disease_10,Effect_7
+BM_0288,Biomarker_288,genetic,kidneys,36.68010386092337,168.1187929720168,mg/dL,PCR,moderately stable,35.978643877862545,Disease_2,Effect_15
+BM_0289,Biomarker_289,metabolic,brain,50.8867423739395,160.114907499958,mg/dL,LC-MS/MS,moderately stable,47.21985567751943,Disease_78,Effect_8
+BM_0290,Biomarker_290,enzymatic,kidneys,18.524352763549782,47.032777403786255,ng/mL,LC-MS/MS,moderately stable,25.762159786664736,Disease_99,Effect_35
+BM_0291,Biomarker_291,metabolic,brain,84.31864729223021,188.6802871633501,IU/L,LC-MS/MS,stable,66.56340827658195,Disease_91,Effect_49
+BM_0292,Biomarker_292,genetic,muscle,16.887006800272243,47.35556345531412,mg/dL,LC-MS/MS,stable,48.931755267049546,Disease_55,Effect_19
+BM_0293,Biomarker_293,hormonal,kidneys,7.209214408713312,10.836153770152622,IU/L,LC-MS/MS,unstable,7.882447355243325,Disease_36,Effect_20
+BM_0294,Biomarker_294,inflammatory,thyroid,8.66047436802083,39.40497249812794,IU/L,Immunoassay,stable,59.53740845235021,Disease_56,Effect_41
+BM_0295,Biomarker_295,cellular,muscle,40.74174428354349,148.04270015749196,IU/L,LC-MS/MS,moderately stable,21.236692855304824,Disease_13,Effect_22
+BM_0296,Biomarker_296,genetic,liver,68.58288478823766,203.7903776318368,U/L,Immunoassay,stable,11.099805640971805,Disease_31,Effect_42
+BM_0297,Biomarker_297,enzymatic,liver,27.65928216290854,76.83695003115892,pg/mL,PCR,unstable,32.83232640737751,Disease_95,Effect_37
+BM_0298,Biomarker_298,metabolic,kidneys,67.71549415131008,136.65966958464267,IU/L,Flow Cytometry,unstable,18.281592665900618,Disease_40,Effect_34
+BM_0299,Biomarker_299,metabolic,muscle,7.2830943080787485,31.79823656074833,mg/dL,Immunoassay,stable,36.00148886863125,Disease_55,Effect_27
+BM_0300,Biomarker_300,hormonal,thyroid,1.3106883720594122,2.5130441015202662,ng/mL,Immunoassay,unstable,2.5489747482899903,Disease_11,Effect_4
+BM_0301,Biomarker_301,cellular,liver,24.51346895751933,116.6471840893343,pg/mL,Immunoassay,moderately stable,27.03896317812797,Disease_17,Effect_30
+BM_0302,Biomarker_302,cellular,brain,15.400485260136517,45.54336410512934,ng/mL,LC-MS/MS,unstable,45.61298969566931,Disease_8,Effect_35
+BM_0303,Biomarker_303,enzymatic,thyroid,12.497837034874442,26.186903841452477,pmol/L,ELISA,stable,27.110232967668644,Disease_52,Effect_36
+BM_0304,Biomarker_304,inflammatory,thyroid,30.915569842921048,78.56365207704167,ng/mL,Immunoassay,stable,56.52529898984684,Disease_26,Effect_29
+BM_0305,Biomarker_305,enzymatic,muscle,20.443832564722083,38.78478795432585,ng/mL,Immunoassay,moderately stable,23.399405954438233,Disease_28,Effect_13
+BM_0306,Biomarker_306,genetic,liver,44.44379227008029,187.4275872143058,pmol/L,LC-MS/MS,stable,20.52286946767372,Disease_70,Effect_28
+BM_0307,Biomarker_307,genetic,pancreas,49.18180967317846,229.5942213007028,mg/dL,ELISA,moderately stable,26.127172495123624,Disease_61,Effect_2
+BM_0308,Biomarker_308,inflammatory,thyroid,11.152287797256784,47.53955078343189,pmol/L,PCR,stable,12.293899638993164,Disease_99,Effect_24
+BM_0309,Biomarker_309,inflammatory,pancreas,89.22018211417456,388.19785291956003,U/L,LC-MS/MS,stable,52.90316655189951,Disease_2,Effect_23
+BM_0310,Biomarker_310,hormonal,pancreas,2.6113218031057417,3.3179939034016317,ng/mL,Immunoassay,stable,22.159690293768616,Disease_42,Effect_34
+BM_0311,Biomarker_311,metabolic,brain,13.88348298561442,39.654301079272884,IU/L,PCR,stable,27.24653117777366,Disease_42,Effect_44
+BM_0312,Biomarker_312,hormonal,thyroid,2.3403916724356857,3.935295418268382,pg/mL,PCR,stable,4.166394653084416,Disease_89,Effect_8
+BM_0313,Biomarker_313,cellular,adrenal,97.79681201542908,284.54175025167405,ng/mL,ELISA,moderately stable,25.562648824935202,Disease_39,Effect_46
+BM_0314,Biomarker_314,enzymatic,pancreas,29.139586793961744,72.46351077571525,ng/mL,Flow Cytometry,stable,34.30578731183443,Disease_24,Effect_24
+BM_0315,Biomarker_315,metabolic,liver,50.33929661004759,141.0997586214375,mg/dL,Flow Cytometry,stable,18.01954311330867,Disease_91,Effect_43
+BM_0316,Biomarker_316,enzymatic,liver,49.293953184242866,112.661141994138,mg/dL,Immunoassay,stable,16.674123708843144,Disease_31,Effect_42
+BM_0317,Biomarker_317,cellular,brain,15.178961092008642,41.74816118333189,mg/dL,ELISA,stable,7.861867156012128,Disease_95,Effect_30
+BM_0318,Biomarker_318,metabolic,heart,61.067707128426605,190.23973771089138,pmol/L,Flow Cytometry,moderately stable,32.92584569899461,Disease_93,Effect_33
+BM_0319,Biomarker_319,inflammatory,liver,93.78619312645904,271.1980122806015,ng/mL,Immunoassay,unstable,24.052361598014674,Disease_21,Effect_48
+BM_0320,Biomarker_320,enzymatic,brain,12.574810929033454,29.431505127744643,mg/dL,Flow Cytometry,unstable,23.17995384751322,Disease_97,Effect_41
+BM_0321,Biomarker_321,hormonal,adrenal,3.2338928845370067,5.007717874889507,pg/mL,ELISA,stable,14.273791215827845,Disease_26,Effect_26
+BM_0322,Biomarker_322,cellular,pancreas,42.19527434998122,105.42487836085239,ng/mL,PCR,unstable,12.453857393083032,Disease_26,Effect_36
+BM_0323,Biomarker_323,cellular,liver,31.939131863043446,132.35691546137116,mg/dL,Immunoassay,unstable,51.70660187239072,Disease_73,Effect_47
+BM_0324,Biomarker_324,genetic,adrenal,39.839103869857965,148.31117415502408,pmol/L,Flow Cytometry,stable,25.15278438233243,Disease_11,Effect_4
+BM_0325,Biomarker_325,cellular,kidneys,53.172169588150865,123.46649852818126,IU/L,PCR,stable,53.98267239675703,Disease_39,Effect_21
+BM_0326,Biomarker_326,enzymatic,adrenal,29.48207976766532,69.14625098460114,ng/mL,ELISA,stable,19.230366926701944,Disease_85,Effect_27
+BM_0327,Biomarker_327,hormonal,heart,1.2287380733868012,1.6101252963838522,IU/L,PCR,stable,16.35077084455232,Disease_41,Effect_25
+BM_0328,Biomarker_328,genetic,liver,88.08422489502364,181.56310285530594,pg/mL,Immunoassay,unstable,37.489621888192715,Disease_23,Effect_32
+BM_0329,Biomarker_329,enzymatic,liver,37.555283514256914,87.70848751573568,IU/L,LC-MS/MS,unstable,25.771496342813,Disease_65,Effect_24
+BM_0330,Biomarker_330,genetic,liver,93.14134791311157,399.73459694089485,U/L,Immunoassay,stable,45.77604340720841,Disease_3,Effect_22
+BM_0331,Biomarker_331,cellular,muscle,52.29472536336626,182.59063479813085,pmol/L,Immunoassay,moderately stable,6.902617456832882,Disease_2,Effect_6
+BM_0332,Biomarker_332,enzymatic,thyroid,12.45728899116726,19.27794532792715,IU/L,Immunoassay,unstable,24.67109829888475,Disease_51,Effect_35
+BM_0333,Biomarker_333,cellular,adrenal,24.476528450086484,50.0947366898202,ng/mL,PCR,unstable,38.19348914501211,Disease_86,Effect_46
+BM_0334,Biomarker_334,genetic,muscle,35.953132650843024,128.3459380805747,pmol/L,Flow Cytometry,stable,37.43969697980175,Disease_23,Effect_11
+BM_0335,Biomarker_335,metabolic,heart,8.799531464686666,32.04159261618179,mg/dL,Flow Cytometry,stable,48.787675582794485,Disease_98,Effect_42
+BM_0336,Biomarker_336,metabolic,thyroid,76.39294061974613,303.28168112989044,pg/mL,PCR,stable,61.68123745285541,Disease_81,Effect_42
+BM_0337,Biomarker_337,inflammatory,thyroid,70.99721422850787,172.9534003986863,ng/mL,LC-MS/MS,stable,26.15296391526814,Disease_35,Effect_31
+BM_0338,Biomarker_338,enzymatic,thyroid,38.771297393055804,61.90530467338442,IU/L,PCR,unstable,22.868691213991113,Disease_3,Effect_28
+BM_0339,Biomarker_339,hormonal,brain,2.7975233910034993,4.440160939224629,pmol/L,LC-MS/MS,moderately stable,8.588238953294091,Disease_94,Effect_49
+BM_0340,Biomarker_340,cellular,thyroid,27.129325077816457,133.38833217244152,pmol/L,LC-MS/MS,stable,48.561706780863446,Disease_52,Effect_11
+BM_0341,Biomarker_341,cellular,liver,78.14035837503708,208.51873402908032,mg/dL,ELISA,moderately stable,10.467347422525068,Disease_25,Effect_48
+BM_0342,Biomarker_342,enzymatic,liver,43.28015060646589,68.99086825080575,mg/dL,Immunoassay,moderately stable,17.510246559532895,Disease_90,Effect_24
+BM_0343,Biomarker_343,cellular,muscle,67.9701151873408,284.7839022353881,pmol/L,Flow Cytometry,moderately stable,71.6363917962351,Disease_6,Effect_23
+BM_0344,Biomarker_344,genetic,liver,37.871578096944226,121.79495723363245,U/L,LC-MS/MS,stable,35.8933641413804,Disease_19,Effect_25
+BM_0345,Biomarker_345,enzymatic,liver,46.81901390289275,130.05892519792636,pg/mL,Immunoassay,stable,4.617479482584997,Disease_34,Effect_1
+BM_0346,Biomarker_346,enzymatic,thyroid,24.885392985471107,51.607143259574855,ng/mL,Immunoassay,stable,18.375530149397523,Disease_28,Effect_1
+BM_0347,Biomarker_347,hormonal,adrenal,4.754899883718524,5.8844392703260135,pmol/L,LC-MS/MS,moderately stable,21.583263430657336,Disease_86,Effect_18
+BM_0348,Biomarker_348,genetic,muscle,71.69942325277206,252.28278312733832,ng/mL,Immunoassay,stable,69.56859498169676,Disease_19,Effect_40
+BM_0349,Biomarker_349,hormonal,liver,8.182949048281914,11.272427616247551,pmol/L,Flow Cytometry,moderately stable,7.924263562715476,Disease_10,Effect_42
+BM_0350,Biomarker_350,metabolic,adrenal,48.663460897936936,139.5628536771796,mg/dL,Flow Cytometry,stable,19.4916918148062,Disease_91,Effect_32
+BM_0351,Biomarker_351,enzymatic,heart,23.01791758485456,55.47940860500966,mg/dL,Flow Cytometry,stable,30.64150663305332,Disease_90,Effect_5
+BM_0352,Biomarker_352,enzymatic,heart,16.747547948688197,28.255755863856432,pg/mL,Immunoassay,moderately stable,46.940617076798105,Disease_4,Effect_39
+BM_0353,Biomarker_353,inflammatory,liver,15.499006956846813,69.70680009334069,pmol/L,ELISA,stable,51.19223886754825,Disease_7,Effect_34
+BM_0354,Biomarker_354,metabolic,muscle,23.470235509357448,95.89152880548436,pg/mL,ELISA,moderately stable,41.75860894826183,Disease_53,Effect_6
+BM_0355,Biomarker_355,genetic,heart,33.27226277777253,162.95833894924044,IU/L,PCR,moderately stable,39.61239121265254,Disease_70,Effect_12
+BM_0356,Biomarker_356,cellular,adrenal,94.29805741045594,301.9347514869655,U/L,Flow Cytometry,unstable,71.30635173901211,Disease_10,Effect_43
+BM_0357,Biomarker_357,hormonal,thyroid,3.4167063434214064,6.499780386651942,pg/mL,PCR,moderately stable,14.662678784435883,Disease_29,Effect_23
+BM_0358,Biomarker_358,hormonal,heart,3.5937668315655036,6.818295820980362,IU/L,LC-MS/MS,stable,5.092275074712275,Disease_38,Effect_9
+BM_0359,Biomarker_359,cellular,muscle,46.68846720007895,100.59715577495602,mg/dL,ELISA,moderately stable,38.64264805245517,Disease_2,Effect_8
+BM_0360,Biomarker_360,genetic,adrenal,79.78607739036647,242.04143277638636,ng/mL,Immunoassay,moderately stable,68.38392408270578,Disease_12,Effect_1
+BM_0361,Biomarker_361,metabolic,heart,25.456265849191144,66.21268926464482,IU/L,ELISA,stable,27.28371743325267,Disease_19,Effect_17
+BM_0362,Biomarker_362,enzymatic,heart,33.008065907982086,59.156172288593375,pg/mL,ELISA,moderately stable,14.475905997957621,Disease_51,Effect_38
+BM_0363,Biomarker_363,genetic,liver,74.62535158854983,339.75130695398684,ng/mL,LC-MS/MS,moderately stable,67.08768656209028,Disease_22,Effect_26
+BM_0364,Biomarker_364,inflammatory,pancreas,21.08084581511527,91.85040781007437,pg/mL,Flow Cytometry,stable,9.030005072371484,Disease_85,Effect_30
+BM_0365,Biomarker_365,hormonal,thyroid,2.7904002008448776,3.9818101962171033,mg/dL,ELISA,stable,19.37102716553562,Disease_86,Effect_46
+BM_0366,Biomarker_366,inflammatory,adrenal,96.79528608895039,215.44780056887677,IU/L,LC-MS/MS,stable,55.573357506682484,Disease_27,Effect_26
+BM_0367,Biomarker_367,genetic,pancreas,17.843415290502822,76.2113433096441,ng/mL,ELISA,unstable,61.135707248124355,Disease_14,Effect_37
+BM_0368,Biomarker_368,metabolic,kidneys,73.5193024968769,349.31164491519974,pg/mL,LC-MS/MS,moderately stable,66.27110143897372,Disease_59,Effect_23
+BM_0369,Biomarker_369,genetic,heart,91.96555220749214,259.11079619339733,U/L,Immunoassay,unstable,61.91482344633733,Disease_95,Effect_11
+BM_0370,Biomarker_370,hormonal,pancreas,8.057040696555429,10.635167360037146,IU/L,ELISA,unstable,5.054601211400617,Disease_32,Effect_13
+BM_0371,Biomarker_371,hormonal,adrenal,1.6981053891446183,3.379501480989641,ng/mL,Flow Cytometry,stable,6.81247773202605,Disease_61,Effect_29
+BM_0372,Biomarker_372,cellular,kidneys,74.8093077697824,202.76574316487074,pg/mL,LC-MS/MS,unstable,71.05644936408171,Disease_34,Effect_21
+BM_0373,Biomarker_373,cellular,thyroid,1.488192544850424,6.459363953288605,mg/dL,PCR,moderately stable,28.89629350620757,Disease_54,Effect_3
+BM_0374,Biomarker_374,cellular,kidneys,55.156937305545135,135.0293825800612,pmol/L,PCR,stable,34.61151512764221,Disease_91,Effect_28
+BM_0375,Biomarker_375,metabolic,heart,10.643858981942458,23.167124554000115,pg/mL,PCR,stable,16.063614343002108,Disease_38,Effect_9
+BM_0376,Biomarker_376,hormonal,kidneys,6.72160117032459,12.26928111109684,ng/mL,LC-MS/MS,moderately stable,11.022622390855851,Disease_19,Effect_12
+BM_0377,Biomarker_377,inflammatory,kidneys,26.941823001642415,93.54292091071365,U/L,ELISA,moderately stable,21.47419505375749,Disease_62,Effect_29
+BM_0378,Biomarker_378,inflammatory,thyroid,36.617044597567784,118.96225646484469,pmol/L,ELISA,stable,30.90398743503674,Disease_88,Effect_37
+BM_0379,Biomarker_379,inflammatory,liver,49.45723037346611,113.29745993354628,pmol/L,Immunoassay,moderately stable,55.82383276636615,Disease_12,Effect_19
+BM_0380,Biomarker_380,cellular,brain,98.14954429110756,366.8049809979646,IU/L,Immunoassay,moderately stable,60.00209513881694,Disease_21,Effect_3
+BM_0381,Biomarker_381,metabolic,kidneys,73.82061929854304,149.34131558085537,IU/L,Flow Cytometry,moderately stable,70.24629207703929,Disease_48,Effect_41
+BM_0382,Biomarker_382,metabolic,adrenal,48.72704123532694,153.7516816277736,mg/dL,LC-MS/MS,moderately stable,31.59728785613032,Disease_51,Effect_1
+BM_0383,Biomarker_383,inflammatory,kidneys,67.92896295854361,337.48380362328135,ng/mL,ELISA,moderately stable,11.738043502403874,Disease_19,Effect_26
+BM_0384,Biomarker_384,genetic,liver,87.59017317987744,263.3979433955174,pmol/L,Immunoassay,unstable,42.06649780164558,Disease_81,Effect_27
+BM_0385,Biomarker_385,genetic,liver,3.775943905355896,12.618520100433761,pg/mL,PCR,moderately stable,58.221944527769594,Disease_56,Effect_3
+BM_0386,Biomarker_386,inflammatory,thyroid,9.55310238399106,34.68139584491836,IU/L,ELISA,stable,6.109973850853901,Disease_68,Effect_31
+BM_0387,Biomarker_387,enzymatic,adrenal,14.207262956375786,28.316978864868663,pg/mL,ELISA,stable,2.971110309102979,Disease_77,Effect_25
+BM_0388,Biomarker_388,hormonal,kidneys,5.012319816207171,7.339154712332161,pmol/L,PCR,unstable,3.307596989902432,Disease_18,Effect_9
+BM_0389,Biomarker_389,metabolic,heart,28.197347112862523,59.33633076859268,ng/mL,Flow Cytometry,moderately stable,36.68059159471362,Disease_54,Effect_46
+BM_0390,Biomarker_390,cellular,adrenal,74.78633793657254,372.15543796610626,pg/mL,ELISA,moderately stable,34.29452096427816,Disease_54,Effect_2
+BM_0391,Biomarker_391,metabolic,adrenal,11.238093780025464,47.61549713702307,ng/mL,Immunoassay,stable,69.90079772093327,Disease_58,Effect_46
+BM_0392,Biomarker_392,genetic,heart,59.51051019742634,237.46171129770352,U/L,Immunoassay,moderately stable,17.3971553275615,Disease_62,Effect_8
+BM_0393,Biomarker_393,enzymatic,heart,12.738648865626834,24.972769163527772,pg/mL,PCR,moderately stable,43.50121202593669,Disease_70,Effect_17
+BM_0394,Biomarker_394,genetic,thyroid,95.56802142176787,264.1371051614837,pmol/L,PCR,stable,20.744612714767914,Disease_97,Effect_14
+BM_0395,Biomarker_395,genetic,thyroid,98.14097367019549,321.92353706549267,mg/dL,Flow Cytometry,stable,18.70767234161567,Disease_23,Effect_1
+BM_0396,Biomarker_396,hormonal,kidneys,5.048184301843295,7.61348789619366,U/L,Immunoassay,moderately stable,23.92374630030832,Disease_29,Effect_32
+BM_0397,Biomarker_397,hormonal,muscle,8.586667467409837,12.42214751820767,mg/dL,Flow Cytometry,stable,19.71955557973475,Disease_41,Effect_40
+BM_0398,Biomarker_398,metabolic,liver,34.67567947873529,139.7428353878052,U/L,Immunoassay,moderately stable,27.287409659738763,Disease_15,Effect_25
+BM_0399,Biomarker_399,inflammatory,thyroid,81.3686090578575,334.0450489492798,ng/mL,LC-MS/MS,stable,54.61078570589308,Disease_7,Effect_16
+BM_0400,Biomarker_400,genetic,thyroid,86.4721258068797,305.65564394605565,mg/dL,Immunoassay,stable,54.648695079460154,Disease_96,Effect_30
+BM_0401,Biomarker_401,inflammatory,muscle,35.918618416160804,96.00598752775532,pg/mL,LC-MS/MS,moderately stable,58.36718236710463,Disease_98,Effect_41
+BM_0402,Biomarker_402,genetic,heart,75.24593424672186,334.9105642531401,mg/dL,ELISA,stable,6.059849619763541,Disease_53,Effect_24
+BM_0403,Biomarker_403,genetic,heart,54.50063119206641,120.69702522769404,ng/mL,PCR,stable,25.61515873410783,Disease_81,Effect_47
+BM_0404,Biomarker_404,genetic,liver,98.94981008787425,348.27604193443347,ng/mL,ELISA,stable,24.190401033283532,Disease_28,Effect_23
+BM_0405,Biomarker_405,inflammatory,adrenal,69.5752001046511,175.11892822047642,IU/L,LC-MS/MS,unstable,6.563331803931777,Disease_33,Effect_11
+BM_0406,Biomarker_406,hormonal,muscle,8.793879661119227,14.596911752777677,U/L,LC-MS/MS,unstable,9.13515510570827,Disease_15,Effect_5
+BM_0407,Biomarker_407,hormonal,kidneys,5.358147380308309,6.578607670088284,pg/mL,PCR,stable,4.744953118511692,Disease_89,Effect_31
+BM_0408,Biomarker_408,metabolic,kidneys,98.81720971630274,347.82266344315053,U/L,Immunoassay,stable,8.812725626037722,Disease_40,Effect_8
+BM_0409,Biomarker_409,metabolic,brain,8.581850129627632,29.18130789907751,pmol/L,LC-MS/MS,stable,56.7805792299164,Disease_32,Effect_23
+BM_0410,Biomarker_410,cellular,kidneys,87.92059190662832,361.3018093062354,ng/mL,LC-MS/MS,stable,15.909985431778178,Disease_37,Effect_11
+BM_0411,Biomarker_411,inflammatory,adrenal,83.72952566821976,296.8658752841814,ng/mL,ELISA,stable,36.19885045926097,Disease_42,Effect_3
+BM_0412,Biomarker_412,enzymatic,brain,13.854939471884986,40.850156703595125,IU/L,LC-MS/MS,moderately stable,45.23165834979078,Disease_49,Effect_44
+BM_0413,Biomarker_413,metabolic,muscle,45.64713252460855,125.08786898624582,pmol/L,LC-MS/MS,stable,32.221907390431596,Disease_48,Effect_22
+BM_0414,Biomarker_414,cellular,brain,62.495549145615016,201.69075423312884,mg/dL,Immunoassay,stable,9.553198143031244,Disease_4,Effect_4
+BM_0415,Biomarker_415,metabolic,brain,65.59063221775591,208.84352601150152,ng/mL,LC-MS/MS,unstable,25.848110625792675,Disease_14,Effect_20
+BM_0416,Biomarker_416,hormonal,pancreas,3.2408480235822763,4.3800147563343375,ng/mL,LC-MS/MS,unstable,4.047092322526421,Disease_50,Effect_36
+BM_0417,Biomarker_417,enzymatic,muscle,44.650716365069144,127.47906592945691,mg/dL,LC-MS/MS,moderately stable,30.391077044325126,Disease_50,Effect_33
+BM_0418,Biomarker_418,metabolic,thyroid,22.442873009808025,75.82015166981596,ng/mL,LC-MS/MS,stable,69.46089678024592,Disease_97,Effect_49
+BM_0419,Biomarker_419,cellular,brain,38.06022348990933,187.89132448419514,pg/mL,Flow Cytometry,unstable,23.96545829375241,Disease_53,Effect_12
+BM_0420,Biomarker_420,enzymatic,liver,39.73304570758833,75.3181258626062,ng/mL,Flow Cytometry,stable,17.065072719388255,Disease_81,Effect_21
+BM_0421,Biomarker_421,enzymatic,adrenal,23.186632954178364,56.32255219132477,pmol/L,ELISA,stable,20.082467874788204,Disease_75,Effect_49
+BM_0422,Biomarker_422,hormonal,muscle,3.8942945268672315,7.083089861596159,pmol/L,ELISA,stable,17.880369300927672,Disease_19,Effect_23
+BM_0423,Biomarker_423,inflammatory,heart,28.160180897946343,75.21830051173652,pmol/L,PCR,moderately stable,42.55959843045498,Disease_52,Effect_42
+BM_0424,Biomarker_424,hormonal,muscle,5.702757810005126,7.064550814773861,ng/mL,ELISA,stable,22.185073509170245,Disease_88,Effect_11
+BM_0425,Biomarker_425,hormonal,muscle,6.065991498892339,11.377631723590143,IU/L,LC-MS/MS,moderately stable,20.344522678232412,Disease_42,Effect_31
+BM_0426,Biomarker_426,cellular,muscle,7.138828161533057,19.53335336959621,U/L,PCR,stable,29.341566909476064,Disease_41,Effect_4
+BM_0427,Biomarker_427,inflammatory,kidneys,99.56436951037114,387.5197687156477,pmol/L,Flow Cytometry,unstable,7.842854509125568,Disease_48,Effect_35
+BM_0428,Biomarker_428,genetic,thyroid,36.830628912935886,143.73558010929227,IU/L,ELISA,moderately stable,65.15918365197072,Disease_13,Effect_39
+BM_0429,Biomarker_429,inflammatory,heart,40.85928908481505,181.58616105981454,pg/mL,LC-MS/MS,stable,19.237320513760068,Disease_9,Effect_4
+BM_0430,Biomarker_430,hormonal,pancreas,3.0025404218939786,3.9090204492186755,pg/mL,Flow Cytometry,stable,17.83924621098324,Disease_85,Effect_2
+BM_0431,Biomarker_431,inflammatory,brain,53.486748905212394,162.98934121145243,IU/L,Flow Cytometry,moderately stable,37.44071164453901,Disease_27,Effect_37
+BM_0432,Biomarker_432,hormonal,heart,0.7971398575761265,1.3061123939161046,pg/mL,PCR,stable,4.140255594731225,Disease_70,Effect_12
+BM_0433,Biomarker_433,enzymatic,liver,18.04219117279368,36.22701732145738,IU/L,Flow Cytometry,stable,14.58335431047679,Disease_3,Effect_28
+BM_0434,Biomarker_434,cellular,kidneys,65.19801569042555,157.44049530271948,pmol/L,LC-MS/MS,unstable,18.188680899620636,Disease_53,Effect_32
+BM_0435,Biomarker_435,metabolic,heart,67.97259001284162,312.73317372665167,pmol/L,Immunoassay,stable,60.748062525421645,Disease_10,Effect_28
+BM_0436,Biomarker_436,enzymatic,heart,41.140494440084225,96.98998351524627,ng/mL,Flow Cytometry,stable,17.903175084103903,Disease_88,Effect_12
+BM_0437,Biomarker_437,genetic,kidneys,29.498949397282267,83.53997628482325,mg/dL,Flow Cytometry,stable,13.247398276836423,Disease_42,Effect_49
+BM_0438,Biomarker_438,inflammatory,muscle,47.99404678825131,154.50433260214098,mg/dL,ELISA,moderately stable,31.308675194111593,Disease_96,Effect_37
+BM_0439,Biomarker_439,genetic,adrenal,4.781751956848457,18.698630484426268,IU/L,Flow Cytometry,moderately stable,10.646672679951767,Disease_21,Effect_38
+BM_0440,Biomarker_440,genetic,kidneys,99.18529421081548,456.6104199557663,pg/mL,PCR,unstable,23.014349632239938,Disease_44,Effect_14
+BM_0441,Biomarker_441,hormonal,liver,4.822747643316638,8.766003960174167,IU/L,PCR,stable,0.9137890439144675,Disease_51,Effect_6
+BM_0442,Biomarker_442,enzymatic,adrenal,12.845622632091898,34.73847530586906,IU/L,LC-MS/MS,moderately stable,8.62688142485122,Disease_68,Effect_23
+BM_0443,Biomarker_443,genetic,thyroid,71.56249637556624,268.992425053287,pg/mL,Immunoassay,stable,14.729897427060362,Disease_53,Effect_49
+BM_0444,Biomarker_444,genetic,thyroid,67.14618894477069,179.2653189020772,pmol/L,Immunoassay,unstable,26.088485768150598,Disease_82,Effect_22
+BM_0445,Biomarker_445,metabolic,kidneys,74.55343602473415,288.8563377302167,mg/dL,Immunoassay,stable,62.554709666061065,Disease_85,Effect_6
+BM_0446,Biomarker_446,metabolic,liver,42.47844086208146,117.98257409975582,IU/L,Flow Cytometry,stable,69.38972222984859,Disease_79,Effect_8
+BM_0447,Biomarker_447,enzymatic,muscle,40.3568482197278,117.48032252282775,U/L,PCR,unstable,25.701832967194697,Disease_40,Effect_33
+BM_0448,Biomarker_448,hormonal,liver,6.109152736149612,11.426295443309366,mg/dL,ELISA,stable,6.820816686348321,Disease_39,Effect_30
+BM_0449,Biomarker_449,genetic,adrenal,16.694733232959152,53.46216953888962,mg/dL,PCR,stable,65.31429111208806,Disease_91,Effect_14
+BM_0450,Biomarker_450,genetic,thyroid,46.47444031658481,215.82617980415867,IU/L,Flow Cytometry,stable,55.3817190220212,Disease_64,Effect_28
+BM_0451,Biomarker_451,enzymatic,pancreas,30.203715277828195,83.09477518586033,ng/mL,PCR,stable,29.729883426187634,Disease_25,Effect_18
+BM_0452,Biomarker_452,genetic,heart,63.83402154574658,131.3911919528445,mg/dL,Flow Cytometry,stable,25.552962771292652,Disease_90,Effect_42
+BM_0453,Biomarker_453,genetic,heart,15.15281128628856,68.05384460822489,mg/dL,Immunoassay,unstable,19.918050408768877,Disease_9,Effect_16
+BM_0454,Biomarker_454,hormonal,liver,0.6612182941957785,1.2661884789091575,IU/L,Immunoassay,stable,21.525496254198103,Disease_91,Effect_43
+BM_0455,Biomarker_455,metabolic,adrenal,70.27820789636367,145.50498203628072,pg/mL,Immunoassay,unstable,25.909605066240434,Disease_2,Effect_36
+BM_0456,Biomarker_456,genetic,muscle,33.76423981865663,134.3217784901441,ng/mL,LC-MS/MS,stable,67.62905033612608,Disease_75,Effect_15
+BM_0457,Biomarker_457,genetic,thyroid,15.894870724770072,61.767513071711655,pmol/L,Immunoassay,moderately stable,64.08022987266789,Disease_14,Effect_2
+BM_0458,Biomarker_458,enzymatic,brain,17.354383447654808,34.8904351416554,IU/L,ELISA,stable,8.056338970503099,Disease_68,Effect_14
+BM_0459,Biomarker_459,enzymatic,liver,34.700392360064974,61.224997860270825,IU/L,ELISA,stable,16.816969088281027,Disease_55,Effect_25
+BM_0460,Biomarker_460,hormonal,brain,7.265777706017877,9.86663631268723,mg/dL,Immunoassay,moderately stable,22.91947127982555,Disease_61,Effect_3
+BM_0461,Biomarker_461,inflammatory,adrenal,1.2552441042312994,4.7876281135243355,mg/dL,Flow Cytometry,moderately stable,31.207745737785046,Disease_32,Effect_5
+BM_0462,Biomarker_462,enzymatic,heart,21.46818059764561,50.17435903208887,U/L,ELISA,stable,9.124197290835896,Disease_95,Effect_28
+BM_0463,Biomarker_463,hormonal,brain,5.912043817646954,8.452925915611205,U/L,Immunoassay,moderately stable,15.501095060943223,Disease_49,Effect_37
+BM_0464,Biomarker_464,inflammatory,thyroid,5.200442990899563,15.109794458203591,mg/dL,Immunoassay,stable,45.19004185186171,Disease_56,Effect_41
+BM_0465,Biomarker_465,hormonal,brain,5.177375166727303,10.23580888537582,pg/mL,ELISA,stable,9.026505046523848,Disease_97,Effect_17
+BM_0466,Biomarker_466,inflammatory,liver,80.83303360925866,310.38371926117827,pmol/L,PCR,stable,18.240776660803984,Disease_92,Effect_14
+BM_0467,Biomarker_467,inflammatory,kidneys,6.632444472783046,15.718247742763737,U/L,Immunoassay,unstable,28.296773696921466,Disease_80,Effect_28
+BM_0468,Biomarker_468,inflammatory,brain,84.40571724369033,168.8734021983917,IU/L,Flow Cytometry,moderately stable,20.81109799566888,Disease_5,Effect_42
+BM_0469,Biomarker_469,inflammatory,adrenal,15.440516116431954,67.39454867468514,pmol/L,ELISA,stable,39.121613322964954,Disease_25,Effect_19
+BM_0470,Biomarker_470,cellular,kidneys,41.389551305942334,102.57783614641134,pmol/L,LC-MS/MS,stable,10.13794713200733,Disease_23,Effect_39
+BM_0471,Biomarker_471,enzymatic,liver,33.992220444304806,96.56628974266968,mg/dL,Flow Cytometry,stable,28.89812981384394,Disease_17,Effect_11
+BM_0472,Biomarker_472,metabolic,liver,42.348989215395854,156.84799967186558,U/L,ELISA,unstable,33.702370685012625,Disease_32,Effect_10
+BM_0473,Biomarker_473,cellular,muscle,61.00532198314342,161.06196146607053,IU/L,Immunoassay,stable,58.634267735862,Disease_77,Effect_46
+BM_0474,Biomarker_474,genetic,liver,34.116932511489104,98.77466777700418,ng/mL,LC-MS/MS,moderately stable,14.348043038216131,Disease_72,Effect_48
+BM_0475,Biomarker_475,genetic,kidneys,19.537603781828388,91.01083331594367,pmol/L,Immunoassay,moderately stable,7.9843878179179635,Disease_44,Effect_29
+BM_0476,Biomarker_476,genetic,liver,13.043469547841564,62.51863466549934,ng/mL,PCR,unstable,36.02642211140238,Disease_38,Effect_24
+BM_0477,Biomarker_477,cellular,thyroid,57.5394928350288,195.66489531287235,ng/mL,PCR,stable,53.787947848730475,Disease_12,Effect_30
+BM_0478,Biomarker_478,metabolic,thyroid,86.43934811996418,234.3882864495995,U/L,PCR,moderately stable,23.00615835984562,Disease_1,Effect_40
+BM_0479,Biomarker_479,hormonal,adrenal,7.829449510834584,10.115969252045758,U/L,PCR,stable,14.307830432171563,Disease_85,Effect_33
+BM_0480,Biomarker_480,inflammatory,kidneys,89.37182516615886,224.14662841005168,mg/dL,Flow Cytometry,stable,56.29017407899095,Disease_76,Effect_23
+BM_0481,Biomarker_481,hormonal,brain,9.639613473812314,14.454379544236383,mg/dL,LC-MS/MS,moderately stable,8.008834830768237,Disease_25,Effect_47
+BM_0482,Biomarker_482,metabolic,muscle,70.84304213972196,196.39885687609333,mg/dL,Flow Cytometry,stable,33.37384595412004,Disease_45,Effect_1
+BM_0483,Biomarker_483,enzymatic,kidneys,32.76606148488064,66.28330129727709,U/L,LC-MS/MS,stable,47.877991533886295,Disease_95,Effect_40
+BM_0484,Biomarker_484,hormonal,pancreas,8.335486670295946,14.776251113554977,pmol/L,LC-MS/MS,stable,5.2143043808041485,Disease_1,Effect_30
+BM_0485,Biomarker_485,metabolic,heart,60.84286583145068,143.02527990183358,U/L,PCR,stable,57.92885661093167,Disease_60,Effect_34
+BM_0486,Biomarker_486,cellular,muscle,68.85277998949668,312.5358179181716,pmol/L,Flow Cytometry,unstable,53.667346426529875,Disease_59,Effect_39
+BM_0487,Biomarker_487,hormonal,heart,4.550259291022248,7.45015607199338,U/L,ELISA,stable,3.9087591811813933,Disease_48,Effect_18
+BM_0488,Biomarker_488,hormonal,thyroid,1.105351771136702,1.4190781851355032,pg/mL,Immunoassay,stable,12.005660159273349,Disease_4,Effect_11
+BM_0489,Biomarker_489,genetic,kidneys,80.96542530897796,177.56852502195247,pmol/L,Flow Cytometry,stable,11.178887929207365,Disease_10,Effect_26
+BM_0490,Biomarker_490,cellular,liver,41.42309137912038,130.83581046664094,IU/L,PCR,stable,41.42202650975256,Disease_91,Effect_35
+BM_0491,Biomarker_491,enzymatic,brain,36.211311197427975,88.01037526249715,ng/mL,Flow Cytometry,stable,9.728486898422602,Disease_70,Effect_40
+BM_0492,Biomarker_492,genetic,brain,57.995966089829224,161.5391343406148,mg/dL,Flow Cytometry,unstable,33.40577576565079,Disease_74,Effect_1
+BM_0493,Biomarker_493,enzymatic,kidneys,30.725170000313675,91.26373242819088,pmol/L,PCR,stable,32.5872451172161,Disease_88,Effect_46
+BM_0494,Biomarker_494,enzymatic,brain,39.17468065777879,115.12575608958035,ng/mL,Immunoassay,stable,11.434108226373956,Disease_97,Effect_25
+BM_0495,Biomarker_495,genetic,kidneys,70.88840776924923,302.96093714662567,mg/dL,Immunoassay,moderately stable,9.69605870235295,Disease_99,Effect_25
+BM_0496,Biomarker_496,inflammatory,heart,55.76510601743135,113.19490002333731,pmol/L,LC-MS/MS,stable,19.976972783423978,Disease_51,Effect_40
+BM_0497,Biomarker_497,cellular,heart,93.4905383149347,265.33907741830916,U/L,LC-MS/MS,stable,55.776945288215096,Disease_80,Effect_19
+BM_0498,Biomarker_498,hormonal,brain,2.5778116961780935,4.860861086364061,IU/L,Immunoassay,stable,12.543740975096084,Disease_10,Effect_41
+BM_0499,Biomarker_499,cellular,adrenal,84.36038542032628,272.0632129493578,U/L,LC-MS/MS,unstable,27.61370383475819,Disease_53,Effect_48
