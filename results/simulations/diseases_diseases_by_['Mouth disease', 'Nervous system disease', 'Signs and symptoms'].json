@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Mouth disease', 'Nervous system disease', 'Signs and symptoms']",
+    "export_timestamp": "2026-03-28T22:11:36.001884",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D005158",
+      "DiseaseName": "Facial Paralysis",
+      "DiseaseDescription": "Severe or complete loss of facial muscle motor function. This condition may result from central or peripheral lesions. Damage to CNS motor pathways from the cerebral cortex to the facial nuclei in the pons leads to facial weakness that generally spares the forehead muscles. FACIAL NERVE DISEASES generally results in generalized hemifacial weakness. NEUROMUSCULAR JUNCTION DISEASES and MUSCULAR DISEASES may also cause facial paralysis or paresis.",
+      "SlimMapping": "['Mouth disease', 'Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005158",
+        "standardized_id": "MESH:D005158",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Facial Paralysis",
+        "standardized_name": "Facial Paralysis",
+        "normalized_name": "facial paralysis",
+        "synonyms": [],
+        "search_terms": [
+          "facial paralysis",
+          "paralysis",
+          "facial"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Severe or complete loss of facial muscle motor function. This condition may result from central or peripheral lesions. Damage to CNS motor pathways from the cerebral cortex to the facial nuclei in the pons leads to facial weakness that generally spares the forehead muscles. FACIAL NERVE DISEASES generally results in generalized hemifacial weakness. NEUROMUSCULAR JUNCTION DISEASES and MUSCULAR DISEASES may also cause facial paralysis or paresis.",
+        "cleaned_description": "Severe or complete loss of facial muscle motor function. This condition may result from central or peripheral lesions. Damage to CNS motor pathways from the cerebral cortex to the facial nuclei in the pons leads to facial weakness that generally spares the forehead muscles. FACIAL NERVE DISEASES generally results in generalized hemifacial weakness. NEUROMUSCULAR JUNCTION DISEASES and MUSCULAR DISEASES may also cause facial paralysis or paresis.",
+        "description_summary": "Severe or complete loss of facial muscle motor function.",
+        "key_terms": [],
+        "word_count": 66
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mouth disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Mouth disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mouth disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.515088",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Blood disease', 'Genetic disease (inborn)', 'Metabolic disease']",
+    "export_timestamp": "2026-03-28T22:11:36.010105",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D005199",
+      "DiseaseName": "Fanconi Anemia",
+      "DiseaseDescription": "Congenital disorder affecting all bone marrow elements, resulting in ANEMIA; LEUKOPENIA; and THROMBOPENIA, and associated with cardiac, renal, and limb malformations as well as dermal pigmentary changes. Spontaneous CHROMOSOME BREAKAGE is a feature of this disease along with predisposition to LEUKEMIA. There are at least 7 complementation groups in Fanconi anemia: FANCA, FANCB, FANCC, FANCD1, FANCD2, FANCE, FANCF, FANCG, and FANCL. (from Online Mendelian Inheritance in Man, http://www.ncbi.nlm.nih.gov/entrez/dispomim.cgi?id=227650, August 20, 2004)",
+      "SlimMapping": "['Blood disease', 'Genetic disease (inborn)', 'Metabolic disease']",
+      "PathwayNames": "Ubiquitin mediated proteolysis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005199",
+        "standardized_id": "MESH:D005199",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Fanconi Anemia",
+        "standardized_name": "Fanconi Anemia",
+        "normalized_name": "fanconi anemia",
+        "synonyms": [],
+        "search_terms": [
+          "fanconi anemia",
+          "anemia",
+          "fanconi"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Congenital disorder affecting all bone marrow elements, resulting in ANEMIA; LEUKOPENIA; and THROMBOPENIA, and associated with cardiac, renal, and limb malformations as well as dermal pigmentary changes. Spontaneous CHROMOSOME BREAKAGE is a feature of this disease along with predisposition to LEUKEMIA. There are at least 7 complementation groups in Fanconi anemia: FANCA, FANCB, FANCC, FANCD1, FANCD2, FANCE, FANCF, FANCG, and FANCL. (from Online Mendelian Inheritance in Man, http://www.ncbi.nlm.nih.gov/entrez/dispomim.cgi?id=227650, August 20, 2004)",
+        "cleaned_description": "Congenital disorder affecting all bone marrow elements, resulting in ANEMIA; LEUKOPENIA; and THROMBOPENIA, and associated with cardiac, renal, and limb malformations as well as dermal pigmentary changes. Spontaneous CHROMOSOME BREAKAGE is a feature of this disease along with predisposition to LEUKEMIA. There are at least 7 complementation groups in Fanconi anemia: FANCA, FANCB, FANCC, FANCD1, FANCD2, FANCE, FANCF, FANCG, and FANCL. (from Online Mendelian Inheritance in Man, http://www.ncbi.nlm.nih.gov/entrez/dispomim.cgi?id=227650, August 20, 2004)",
+        "description_summary": "Congenital disorder affecting all bone marrow elements, resulting in ANEMIA; LEUKOPENIA; and THROMBOPENIA, and associated with cardiac, renal, and limb malformations as well as dermal pigmentary changes.",
+        "key_terms": [
+          "ANEMIA",
+          "anemia",
+          "LEUKEMIA"
+        ],
+        "word_count": 71
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Blood disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Ubiquitin mediated proteolysis",
+        "pathway_list": [
+          "Ubiquitin mediated proteolysis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.516692",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

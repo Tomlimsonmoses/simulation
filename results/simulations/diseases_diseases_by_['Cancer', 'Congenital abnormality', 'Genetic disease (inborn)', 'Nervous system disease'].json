@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Congenital abnormality', 'Genetic disease (inborn)', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.321483",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D014402",
+      "DiseaseName": "Tuberous Sclerosis",
+      "DiseaseDescription": "Autosomal dominant neurocutaneous syndrome classically characterized by MENTAL RETARDATION; EPILEPSY; and skin lesions (e.g., adenoma sebaceum and hypomelanotic macules). There is, however, considerable heterogeneity in the neurologic manifestations. It is also associated with cortical tuber and HAMARTOMAS formation throughout the body, especially the heart, kidneys, and eyes. Mutations in two loci TSC1 and TSC2 that encode hamartin and tuberin, respectively, are associated with the disease.",
+      "SlimMapping": "['Cancer', 'Congenital abnormality', 'Genetic disease (inborn)', 'Nervous system disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014402",
+        "standardized_id": "MESH:D014402",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Tuberous Sclerosis",
+        "standardized_name": "Tuberous Sclerosis",
+        "normalized_name": "tuberous sclerosis",
+        "synonyms": [],
+        "search_terms": [
+          "sclerosis",
+          "tuberous",
+          "tuberous sclerosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Autosomal dominant neurocutaneous syndrome classically characterized by MENTAL RETARDATION; EPILEPSY; and skin lesions (e.g., adenoma sebaceum and hypomelanotic macules). There is, however, considerable heterogeneity in the neurologic manifestations. It is also associated with cortical tuber and HAMARTOMAS formation throughout the body, especially the heart, kidneys, and eyes. Mutations in two loci TSC1 and TSC2 that encode hamartin and tuberin, respectively, are associated with the disease.",
+        "cleaned_description": "Autosomal dominant neurocutaneous syndrome classically characterized by MENTAL RETARDATION; EPILEPSY; and skin lesions (e.g., adenoma sebaceum and hypomelanotic macules). There is, however, considerable heterogeneity in the neurologic manifestations. It is also associated with cortical tuber and HAMARTOMAS formation throughout the body, especially the heart, kidneys, and eyes. Mutations in two loci TSC1 and TSC2 that encode hamartin and tuberin, respectively, are associated with the disease.",
+        "description_summary": "Autosomal dominant neurocutaneous syndrome classically characterized by MENTAL RETARDATION; EPILEPSY; and skin lesions (e.",
+        "key_terms": [],
+        "word_count": 65
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Congenital abnormality",
+          "Genetic disease (inborn)"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.007332",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

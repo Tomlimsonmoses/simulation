@@ -1,0 +1,201 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Ear-nose-throat disease']",
+    "export_timestamp": "2026-03-28T22:11:35.881542",
+    "total_records": 3
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D015834",
+      "DiseaseName": "Cochlear Diseases",
+      "DiseaseDescription": "Pathological processes of the snail-like structure (COCHLEA) of the inner ear (LABYRINTH) which can involve its nervous tissue, blood vessels, or fluid (ENDOLYMPH).",
+      "SlimMapping": "['Ear-nose-throat disease']",
+      "PathwayNames": "Peroxisome",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D015834",
+        "standardized_id": "MESH:D015834",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cochlear Diseases",
+        "standardized_name": "Cochlear Diseases",
+        "normalized_name": "cochlear diseases",
+        "synonyms": [],
+        "search_terms": [
+          "cochlear",
+          "diseases",
+          "cochlear diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological processes of the snail-like structure (COCHLEA) of the inner ear (LABYRINTH) which can involve its nervous tissue, blood vessels, or fluid (ENDOLYMPH).",
+        "cleaned_description": "Pathological processes of the snail-like structure (COCHLEA) of the inner ear (LABYRINTH) which can involve its nervous tissue, blood vessels, or fluid (ENDOLYMPH).",
+        "description_summary": "Pathological processes of the snail-like structure (COCHLEA) of the inner ear (LABYRINTH) which can involve its nervous tissue, blood vessels, or fluid (ENDOLYMPH).",
+        "key_terms": [],
+        "word_count": 23
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Ear-nose-throat disease"
+        ],
+        "primary_categories": [
+          "Ear-nose-throat disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Ear-nose-throat disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Peroxisome",
+        "pathway_list": [
+          "Peroxisome"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.446189",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004427",
+      "DiseaseName": "Ear Diseases",
+      "DiseaseDescription": "Pathological processes of the ear, the hearing, and the equilibrium system of the body.",
+      "SlimMapping": "['Ear-nose-throat disease']",
+      "PathwayNames": "Transport of inorganic cations/anions and amino acids/oligopeptides",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004427",
+        "standardized_id": "MESH:D004427",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Ear Diseases",
+        "standardized_name": "Ear Diseases",
+        "normalized_name": "ear diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "ear diseases",
+          "ear"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological processes of the ear, the hearing, and the equilibrium system of the body.",
+        "cleaned_description": "Pathological processes of the ear, the hearing, and the equilibrium system of the body.",
+        "description_summary": "Pathological processes of the ear, the hearing, and the equilibrium system of the body.",
+        "key_terms": [],
+        "word_count": 14
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Ear-nose-throat disease"
+        ],
+        "primary_categories": [
+          "Ear-nose-throat disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Ear-nose-throat disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of inorganic cations/anions and amino acids/oligopeptides",
+        "pathway_list": [
+          "Transport of inorganic cations/anions and amino acids/oligopeptides"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.490572",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D015837",
+      "DiseaseName": "Vestibular Diseases",
+      "DiseaseDescription": "Pathological processes of the VESTIBULAR LABYRINTH which contains part of the balancing apparatus. Patients with vestibular diseases show instability and are at risk of frequent falls.",
+      "SlimMapping": "['Ear-nose-throat disease']",
+      "PathwayNames": "VEGF signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D015837",
+        "standardized_id": "MESH:D015837",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Vestibular Diseases",
+        "standardized_name": "Vestibular Diseases",
+        "normalized_name": "vestibular diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "vestibular",
+          "vestibular diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological processes of the VESTIBULAR LABYRINTH which contains part of the balancing apparatus. Patients with vestibular diseases show instability and are at risk of frequent falls.",
+        "cleaned_description": "Pathological processes of the VESTIBULAR LABYRINTH which contains part of the balancing apparatus. Patients with vestibular diseases show instability and are at risk of frequent falls.",
+        "description_summary": "Pathological processes of the VESTIBULAR LABYRINTH which contains part of the balancing apparatus.",
+        "key_terms": [],
+        "word_count": 26
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Ear-nose-throat disease"
+        ],
+        "primary_categories": [
+          "Ear-nose-throat disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Ear-nose-throat disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGF signaling pathway",
+        "pathway_list": [
+          "VEGF signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGF signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.023678",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

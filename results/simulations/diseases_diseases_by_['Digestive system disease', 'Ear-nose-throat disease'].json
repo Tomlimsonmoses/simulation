@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Digestive system disease', 'Ear-nose-throat disease']",
+    "export_timestamp": "2026-03-28T22:11:35.933676",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D003680",
+      "DiseaseName": "Deglutition Disorders",
+      "DiseaseDescription": "Difficulty in SWALLOWING which may result from neuromuscular disorder or mechanical obstruction. Dysphagia is classified into two distinct types: oropharyngeal dysphagia due to malfunction of the PHARYNX and UPPER ESOPHAGEAL SPHINCTER; and esophageal dysphagia due to malfunction of the ESOPHAGUS.",
+      "SlimMapping": "['Digestive system disease', 'Ear-nose-throat disease']",
+      "PathwayNames": "tRNA processing in the nucleus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003680",
+        "standardized_id": "MESH:D003680",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Deglutition Disorders",
+        "standardized_name": "Deglutition Disorders",
+        "normalized_name": "deglutition disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "deglutition disorders",
+          "deglutition"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Difficulty in SWALLOWING which may result from neuromuscular disorder or mechanical obstruction. Dysphagia is classified into two distinct types: oropharyngeal dysphagia due to malfunction of the PHARYNX and UPPER ESOPHAGEAL SPHINCTER; and esophageal dysphagia due to malfunction of the ESOPHAGUS.",
+        "cleaned_description": "Difficulty in SWALLOWING which may result from neuromuscular disorder or mechanical obstruction. Dysphagia is classified into two distinct types: oropharyngeal dysphagia due to malfunction of the PHARYNX and UPPER ESOPHAGEAL SPHINCTER; and esophageal dysphagia due to malfunction of the ESOPHAGUS.",
+        "description_summary": "Difficulty in SWALLOWING which may result from neuromuscular disorder or mechanical obstruction.",
+        "key_terms": [],
+        "word_count": 40
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease",
+          "Ear-nose-throat disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease",
+          "Ear-nose-throat disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease",
+          "Ear-nose-throat disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "tRNA processing in the nucleus",
+        "pathway_list": [
+          "tRNA processing in the nucleus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.470257",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Genetic disease (inborn)', 'Musculoskeletal disease']",
+    "export_timestamp": "2026-03-28T22:11:36.257805",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D010009",
+      "DiseaseName": "Osteochondrodysplasias",
+      "DiseaseDescription": "Abnormal development of cartilage and bone.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Musculoskeletal disease']",
+      "PathwayNames": "Visual phototransduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010009",
+        "standardized_id": "MESH:D010009",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Osteochondrodysplasias",
+        "standardized_name": "Osteochondrodysplasias",
+        "normalized_name": "osteochondrodysplasias",
+        "synonyms": [],
+        "search_terms": [
+          "osteochondrodysplasias"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormal development of cartilage and bone.",
+        "cleaned_description": "Abnormal development of cartilage and bone.",
+        "description_summary": "Abnormal development of cartilage and bone.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Visual phototransduction",
+        "pathway_list": [
+          "Visual phototransduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.898118",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

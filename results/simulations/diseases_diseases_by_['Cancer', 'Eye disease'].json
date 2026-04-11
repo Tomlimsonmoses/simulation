@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Eye disease']",
+    "export_timestamp": "2026-03-28T22:11:35.998688",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D005134",
+      "DiseaseName": "Eye Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the EYE.",
+      "SlimMapping": "['Cancer', 'Eye disease']",
+      "PathwayNames": "VEGF signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005134",
+        "standardized_id": "MESH:D005134",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Eye Neoplasms",
+        "standardized_name": "Eye Neoplasms",
+        "normalized_name": "eye neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "eye",
+          "eye neoplasms"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the EYE.",
+        "cleaned_description": "Tumors or cancer of the EYE.",
+        "description_summary": "Tumors or cancer of the EYE.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Eye disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Eye disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Eye disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGF signaling pathway",
+        "pathway_list": [
+          "VEGF signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGF signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.514268",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012175",
+      "DiseaseName": "Retinoblastoma",
+      "DiseaseDescription": "A malignant tumor arising from the nuclear layer of the retina that is the most common primary tumor of the eye in children. The tumor tends to occur in early childhood or infancy and may be present at birth. The majority are sporadic, but the condition may be transmitted as an autosomal dominant trait. Histologic features include dense cellularity, small round polygonal cells, and areas of calcification and necrosis. An abnormal pupil reflex (leukokoria); NYSTAGMUS, PATHOLOGIC; STRABISMUS; and visual loss represent common clinical characteristics of this condition. (From DeVita et al., Cancer: Principles and Practice of Oncology, 5th ed, p2104)",
+      "SlimMapping": "['Cancer', 'Eye disease']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012175",
+        "standardized_id": "MESH:D012175",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Retinoblastoma",
+        "standardized_name": "Retinoblastoma",
+        "normalized_name": "retinoblastoma",
+        "synonyms": [],
+        "search_terms": [
+          "retinoblastoma"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A malignant tumor arising from the nuclear layer of the retina that is the most common primary tumor of the eye in children. The tumor tends to occur in early childhood or infancy and may be present at birth. The majority are sporadic, but the condition may be transmitted as an autosomal dominant trait. Histologic features include dense cellularity, small round polygonal cells, and areas of calcification and necrosis. An abnormal pupil reflex (leukokoria); NYSTAGMUS, PATHOLOGIC; STRABISMUS; and visual loss represent common clinical characteristics of this condition. (From DeVita et al., Cancer: Principles and Practice of Oncology, 5th ed, p2104)",
+        "cleaned_description": "A malignant tumor arising from the nuclear layer of the retina that is the most common primary tumor of the eye in children. The tumor tends to occur in early childhood or infancy and may be present at birth. The majority are sporadic, but the condition may be transmitted as an autosomal dominant trait. Histologic features include dense cellularity, small round polygonal cells, and areas of calcification and necrosis. An abnormal pupil reflex (leukokoria); NYSTAGMUS, PATHOLOGIC; STRABISMUS; and visual loss represent common clinical characteristics of this condition. (From DeVita et al., Cancer: Principles and Practice of Oncology, 5th ed, p2104)",
+        "description_summary": "A malignant tumor arising from the nuclear layer of the retina that is the most common primary tumor of the eye in children.",
+        "key_terms": [
+          "necrosis"
+        ],
+        "word_count": 100
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Eye disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Eye disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Eye disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.955883",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

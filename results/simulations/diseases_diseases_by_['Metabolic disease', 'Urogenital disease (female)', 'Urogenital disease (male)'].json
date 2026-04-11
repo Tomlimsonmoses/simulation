@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Metabolic disease', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+    "export_timestamp": "2026-03-28T22:11:36.225028",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D009397",
+      "DiseaseName": "Nephrocalcinosis",
+      "DiseaseDescription": "A condition characterized by calcification of the renal tissue itself. It is usually seen in distal RENAL TUBULAR ACIDOSIS with calcium deposition in the DISTAL KIDNEY TUBULES and the surrounding interstitium. Nephrocalcinosis causes RENAL INSUFFICIENCY.",
+      "SlimMapping": "['Metabolic disease', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Transport of inorganic cations/anions and amino acids/oligopeptides",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009397",
+        "standardized_id": "MESH:D009397",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Nephrocalcinosis",
+        "standardized_name": "Nephrocalcinosis",
+        "normalized_name": "nephrocalcinosis",
+        "synonyms": [],
+        "search_terms": [
+          "nephrocalcinosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition characterized by calcification of the renal tissue itself. It is usually seen in distal RENAL TUBULAR ACIDOSIS with calcium deposition in the DISTAL KIDNEY TUBULES and the surrounding interstitium. Nephrocalcinosis causes RENAL INSUFFICIENCY.",
+        "cleaned_description": "A condition characterized by calcification of the renal tissue itself. It is usually seen in distal RENAL TUBULAR ACIDOSIS with calcium deposition in the DISTAL KIDNEY TUBULES and the surrounding interstitium. Nephrocalcinosis causes RENAL INSUFFICIENCY.",
+        "description_summary": "A condition characterized by calcification of the renal tissue itself.",
+        "key_terms": [
+          "Nephrocalcinosis",
+          "ACIDOSIS"
+        ],
+        "word_count": 35
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Metabolic disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of inorganic cations/anions and amino acids/oligopeptides",
+        "pathway_list": [
+          "Transport of inorganic cations/anions and amino acids/oligopeptides"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.875796",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

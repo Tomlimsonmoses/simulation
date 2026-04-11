@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Pathology (anatomical condition)']",
+    "export_timestamp": "2026-03-28T22:11:35.907238",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D003560",
+      "DiseaseName": "Cysts",
+      "DiseaseDescription": "Any fluid-filled closed cavity or sac that is lined by an EPITHELIUM. Cysts can be of normal, abnormal, non-neoplastic, or neoplastic tissues.",
+      "SlimMapping": "['Cancer', 'Pathology (anatomical condition)']",
+      "PathwayNames": "VxPx cargo-targeting to cilium",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003560",
+        "standardized_id": "MESH:D003560",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cysts",
+        "standardized_name": "Cysts",
+        "normalized_name": "cysts",
+        "synonyms": [],
+        "search_terms": [
+          "cysts"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Any fluid-filled closed cavity or sac that is lined by an EPITHELIUM. Cysts can be of normal, abnormal, non-neoplastic, or neoplastic tissues.",
+        "cleaned_description": "Any fluid-filled closed cavity or sac that is lined by an EPITHELIUM. Cysts can be of normal, abnormal, non-neoplastic, or neoplastic tissues.",
+        "description_summary": "Any fluid-filled closed cavity or sac that is lined by an EPITHELIUM.",
+        "key_terms": [],
+        "word_count": 22
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Pathology (anatomical condition)"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Pathology (anatomical condition)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Pathology (anatomical condition)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "VxPx cargo-targeting to cilium",
+        "pathway_list": [
+          "VxPx cargo-targeting to cilium"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.465613",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

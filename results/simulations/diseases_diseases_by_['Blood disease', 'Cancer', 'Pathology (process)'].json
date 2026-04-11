@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Blood disease', 'Cancer', 'Pathology (process)']",
+    "export_timestamp": "2026-03-28T22:11:35.724755",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D001752",
+      "DiseaseName": "Blast Crisis",
+      "DiseaseDescription": "An advanced phase of chronic myelogenous leukemia, characterized by a rapid increase in the proportion of immature white blood cells (blasts) in the blood and bone marrow to greater than 30%.",
+      "SlimMapping": "['Blood disease', 'Cancer', 'Pathology (process)']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001752",
+        "standardized_id": "MESH:D001752",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Blast Crisis",
+        "standardized_name": "Blast Crisis",
+        "normalized_name": "blast crisis",
+        "synonyms": [],
+        "search_terms": [
+          "blast crisis",
+          "blast",
+          "crisis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An advanced phase of chronic myelogenous leukemia, characterized by a rapid increase in the proportion of immature white blood cells (blasts) in the blood and bone marrow to greater than 30%.",
+        "cleaned_description": "An advanced phase of chronic myelogenous leukemia, characterized by a rapid increase in the proportion of immature white blood cells (blasts) in the blood and bone marrow to greater than 30%.",
+        "description_summary": "An advanced phase of chronic myelogenous leukemia, characterized by a rapid increase in the proportion of immature white blood cells (blasts) in the blood and bone marrow to greater than 30%.",
+        "key_terms": [
+          "leukemia"
+        ],
+        "word_count": 31
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Cancer",
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Cancer",
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease",
+          "Cancer",
+          "Pathology (process)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.396731",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D015464",
+      "DiseaseName": "Leukemia, Myelogenous, Chronic, BCR-ABL Positive",
+      "DiseaseDescription": "Clonal hematopoetic disorder caused by an acquired genetic defect in PLURIPOTENT STEM CELLS. It starts in MYELOID CELLS of the bone marrow, invades the blood and then other organs. The condition progresses from a stable, more indolent, chronic phase (LEUKEMIA, MYELOID, CHRONIC PHASE) lasting up to 7 years, to an advanced phase composed of an accelerated phase (LEUKEMIA, MYELOID, ACCELERATED PHASE) and BLAST CRISIS.",
+      "SlimMapping": "['Blood disease', 'Cancer', 'Pathology (process)']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D015464",
+        "standardized_id": "MESH:D015464",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Leukemia, Myelogenous, Chronic, BCR-ABL Positive",
+        "standardized_name": "Leukemia, Myelogenous, Chronic, BCR-ABL Positive",
+        "normalized_name": "leukemia myelogenous chronic bcr-abl positive",
+        "synonyms": [],
+        "search_terms": [
+          "positive",
+          "myelogenous,",
+          "leukemia,",
+          "chronic,",
+          "bcr-abl",
+          "leukemia, myelogenous, chronic, bcr-abl positive"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Clonal hematopoetic disorder caused by an acquired genetic defect in PLURIPOTENT STEM CELLS. It starts in MYELOID CELLS of the bone marrow, invades the blood and then other organs. The condition progresses from a stable, more indolent, chronic phase (LEUKEMIA, MYELOID, CHRONIC PHASE) lasting up to 7 years, to an advanced phase composed of an accelerated phase (LEUKEMIA, MYELOID, ACCELERATED PHASE) and BLAST CRISIS.",
+        "cleaned_description": "Clonal hematopoetic disorder caused by an acquired genetic defect in PLURIPOTENT STEM CELLS. It starts in MYELOID CELLS of the bone marrow, invades the blood and then other organs. The condition progresses from a stable, more indolent, chronic phase (LEUKEMIA, MYELOID, CHRONIC PHASE) lasting up to 7 years, to an advanced phase composed of an accelerated phase (LEUKEMIA, MYELOID, ACCELERATED PHASE) and BLAST CRISIS.",
+        "description_summary": "Clonal hematopoetic disorder caused by an acquired genetic defect in PLURIPOTENT STEM CELLS.",
+        "key_terms": [
+          "LEUKEMIA"
+        ],
+        "word_count": 64
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Cancer",
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Cancer",
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease",
+          "Cancer",
+          "Pathology (process)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.810607",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

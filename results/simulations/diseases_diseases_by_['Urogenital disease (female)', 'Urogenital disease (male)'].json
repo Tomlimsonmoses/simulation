@@ -1,0 +1,2018 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Urogenital disease (female)', 'Urogenital disease (male)']",
+    "export_timestamp": "2026-03-28T22:11:35.324634",
+    "total_records": 30
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D058186",
+      "DiseaseName": "Acute Kidney Injury",
+      "DiseaseDescription": "Abrupt reduction in kidney function. Acute kidney injury encompasses the entire spectrum of the syndrome including acute kidney failure; ACUTE KIDNEY TUBULAR NECROSIS; and other less severe conditions.",
+      "SlimMapping": "['Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D058186",
+        "standardized_id": "MESH:D058186",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Acute Kidney Injury",
+        "standardized_name": "Acute Kidney Injury",
+        "normalized_name": "acute kidney injury",
+        "synonyms": [],
+        "search_terms": [
+          "kidney",
+          "injury",
+          "acute kidney injury",
+          "acute"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abrupt reduction in kidney function. Acute kidney injury encompasses the entire spectrum of the syndrome including acute kidney failure; ACUTE KIDNEY TUBULAR NECROSIS; and other less severe conditions.",
+        "cleaned_description": "Abrupt reduction in kidney function. Acute kidney injury encompasses the entire spectrum of the syndrome including acute kidney failure; ACUTE KIDNEY TUBULAR NECROSIS; and other less severe conditions.",
+        "description_summary": "Abrupt reduction in kidney function.",
+        "key_terms": [
+          "NECROSIS"
+        ],
+        "word_count": 28
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.355177",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001002",
+      "DiseaseName": "Anuria",
+      "DiseaseDescription": "Absence of urine formation. It is usually associated with complete bilateral ureteral (URETER) obstruction, complete lower urinary tract obstruction, or unilateral ureteral obstruction when a solitary kidney is present.",
+      "SlimMapping": "['Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001002",
+        "standardized_id": "MESH:D001002",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Anuria",
+        "standardized_name": "Anuria",
+        "normalized_name": "anuria",
+        "synonyms": [],
+        "search_terms": [
+          "anuria"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Absence of urine formation. It is usually associated with complete bilateral ureteral (URETER) obstruction, complete lower urinary tract obstruction, or unilateral ureteral obstruction when a solitary kidney is present.",
+        "cleaned_description": "Absence of urine formation. It is usually associated with complete bilateral ureteral (URETER) obstruction, complete lower urinary tract obstruction, or unilateral ureteral obstruction when a solitary kidney is present.",
+        "description_summary": "Absence of urine formation.",
+        "key_terms": [],
+        "word_count": 29
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.370756",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003556",
+      "DiseaseName": "Cystitis",
+      "DiseaseDescription": "Inflammation of the URINARY BLADDER, either from bacterial or non-bacterial causes. Cystitis is usually associated with painful urination (dysuria), increased frequency, urgency, and suprapubic pain.",
+      "SlimMapping": "['Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003556",
+        "standardized_id": "MESH:D003556",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cystitis",
+        "standardized_name": "Cystitis",
+        "normalized_name": "cystitis",
+        "synonyms": [],
+        "search_terms": [
+          "cystitis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inflammation of the URINARY BLADDER, either from bacterial or non-bacterial causes. Cystitis is usually associated with painful urination (dysuria), increased frequency, urgency, and suprapubic pain.",
+        "cleaned_description": "Inflammation of the URINARY BLADDER, either from bacterial or non-bacterial causes. Cystitis is usually associated with painful urination (dysuria), increased frequency, urgency, and suprapubic pain.",
+        "description_summary": "Inflammation of the URINARY BLADDER, either from bacterial or non-bacterial causes.",
+        "key_terms": [
+          "Cystitis"
+        ],
+        "word_count": 25
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.465350",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D018856",
+      "DiseaseName": "Cystitis, Interstitial",
+      "DiseaseDescription": "A condition with recurring discomfort or pain in the URINARY BLADDER and the surrounding pelvic region without an identifiable disease. Severity of pain in interstitial cystitis varies greatly and often is accompanied by increased urination frequency and urgency.",
+      "SlimMapping": "['Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Toll-like receptor signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018856",
+        "standardized_id": "MESH:D018856",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cystitis, Interstitial",
+        "standardized_name": "Cystitis, Interstitial",
+        "normalized_name": "cystitis interstitial",
+        "synonyms": [],
+        "search_terms": [
+          "interstitial",
+          "cystitis,",
+          "cystitis, interstitial"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition with recurring discomfort or pain in the URINARY BLADDER and the surrounding pelvic region without an identifiable disease. Severity of pain in interstitial cystitis varies greatly and often is accompanied by increased urination frequency and urgency.",
+        "cleaned_description": "A condition with recurring discomfort or pain in the URINARY BLADDER and the surrounding pelvic region without an identifiable disease. Severity of pain in interstitial cystitis varies greatly and often is accompanied by increased urination frequency and urgency.",
+        "description_summary": "A condition with recurring discomfort or pain in the URINARY BLADDER and the surrounding pelvic region without an identifiable disease.",
+        "key_terms": [
+          "cystitis"
+        ],
+        "word_count": 38
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Toll-like receptor signaling pathway",
+        "pathway_list": [
+          "Toll-like receptor signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Toll-like receptor signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.465490",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D018500",
+      "DiseaseName": "Diabetes Insipidus, Nephrogenic",
+      "DiseaseDescription": "A genetic or acquired polyuric disorder characterized by persistent hypotonic urine and HYPOKALEMIA. This condition is due to renal tubular insensitivity to VASOPRESSIN and failure to reduce urine volume. It may be the result of mutations of genes encoding VASOPRESSIN RECEPTORS or AQUAPORIN-2; KIDNEY DISEASES; adverse drug effects; or complications from PREGNANCY.",
+      "SlimMapping": "['Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018500",
+        "standardized_id": "MESH:D018500",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Diabetes Insipidus, Nephrogenic",
+        "standardized_name": "Diabetes Insipidus, Nephrogenic",
+        "normalized_name": "diabetes insipidus nephrogenic",
+        "synonyms": [],
+        "search_terms": [
+          "diabetes",
+          "nephrogenic",
+          "insipidus,",
+          "diabetes insipidus, nephrogenic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A genetic or acquired polyuric disorder characterized by persistent hypotonic urine and HYPOKALEMIA. This condition is due to renal tubular insensitivity to VASOPRESSIN and failure to reduce urine volume. It may be the result of mutations of genes encoding VASOPRESSIN RECEPTORS or AQUAPORIN-2; KIDNEY DISEASES; adverse drug effects; or complications from PREGNANCY.",
+        "cleaned_description": "A genetic or acquired polyuric disorder characterized by persistent hypotonic urine and HYPOKALEMIA. This condition is due to renal tubular insensitivity to VASOPRESSIN and failure to reduce urine volume. It may be the result of mutations of genes encoding VASOPRESSIN RECEPTORS or AQUAPORIN-2; KIDNEY DISEASES; adverse drug effects; or complications from PREGNANCY.",
+        "description_summary": "A genetic or acquired polyuric disorder characterized by persistent hypotonic urine and HYPOKALEMIA.",
+        "key_terms": [
+          "HYPOKALEMIA"
+        ],
+        "word_count": 52
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.479442",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005921",
+      "DiseaseName": "Glomerulonephritis",
+      "DiseaseDescription": "Inflammation of the renal glomeruli (KIDNEY GLOMERULUS) that can be classified by the type of glomerular injuries including antibody deposition, complement activation, cellular proliferation, and glomerulosclerosis. These structural and functional abnormalities usually lead to HEMATURIA; PROTEINURIA; HYPERTENSION; and RENAL INSUFFICIENCY.",
+      "SlimMapping": "['Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005921",
+        "standardized_id": "MESH:D005921",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Glomerulonephritis",
+        "standardized_name": "Glomerulonephritis",
+        "normalized_name": "glomerulonephritis",
+        "synonyms": [],
+        "search_terms": [
+          "glomerulonephritis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inflammation of the renal glomeruli (KIDNEY GLOMERULUS) that can be classified by the type of glomerular injuries including antibody deposition, complement activation, cellular proliferation, and glomerulosclerosis. These structural and functional abnormalities usually lead to HEMATURIA; PROTEINURIA; HYPERTENSION; and RENAL INSUFFICIENCY.",
+        "cleaned_description": "Inflammation of the renal glomeruli (KIDNEY GLOMERULUS) that can be classified by the type of glomerular injuries including antibody deposition, complement activation, cellular proliferation, and glomerulosclerosis. These structural and functional abnormalities usually lead to HEMATURIA; PROTEINURIA; HYPERTENSION; and RENAL INSUFFICIENCY.",
+        "description_summary": "Inflammation of the renal glomeruli (KIDNEY GLOMERULUS) that can be classified by the type of glomerular injuries including antibody deposition, complement activation, cellular proliferation, and glomerulosclerosis.",
+        "key_terms": [
+          "glomerulosclerosis"
+        ],
+        "word_count": 40
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.543442",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005923",
+      "DiseaseName": "Glomerulosclerosis, Focal Segmental",
+      "DiseaseDescription": "A clinicopathological syndrome or diagnostic term for a type of glomerular injury that has multiple causes, primary or secondary. Clinical features include PROTEINURIA, reduced GLOMERULAR FILTRATION RATE, and EDEMA. Kidney biopsy initially indicates focal segmental glomerular consolidation (hyalinosis) or scarring which can progress to globally sclerotic glomeruli leading to eventual KIDNEY FAILURE.",
+      "SlimMapping": "['Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005923",
+        "standardized_id": "MESH:D005923",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Glomerulosclerosis, Focal Segmental",
+        "standardized_name": "Glomerulosclerosis, Focal Segmental",
+        "normalized_name": "glomerulosclerosis focal segmental",
+        "synonyms": [],
+        "search_terms": [
+          "glomerulosclerosis, focal segmental",
+          "glomerulosclerosis,",
+          "segmental",
+          "focal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A clinicopathological syndrome or diagnostic term for a type of glomerular injury that has multiple causes, primary or secondary. Clinical features include PROTEINURIA, reduced GLOMERULAR FILTRATION RATE, and EDEMA. Kidney biopsy initially indicates focal segmental glomerular consolidation (hyalinosis) or scarring which can progress to globally sclerotic glomeruli leading to eventual KIDNEY FAILURE.",
+        "cleaned_description": "A clinicopathological syndrome or diagnostic term for a type of glomerular injury that has multiple causes, primary or secondary. Clinical features include PROTEINURIA, reduced GLOMERULAR FILTRATION RATE, and EDEMA. Kidney biopsy initially indicates focal segmental glomerular consolidation (hyalinosis) or scarring which can progress to globally sclerotic glomeruli leading to eventual KIDNEY FAILURE.",
+        "description_summary": "A clinicopathological syndrome or diagnostic term for a type of glomerular injury that has multiple causes, primary or secondary.",
+        "key_terms": [
+          "hyalinosis"
+        ],
+        "word_count": 52
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.545051",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006869",
+      "DiseaseName": "Hydronephrosis",
+      "DiseaseDescription": "Abnormal enlargement or swelling of a KIDNEY due to dilation of the KIDNEY CALICES and the KIDNEY PELVIS. It is often associated with obstruction of the URETER or chronic kidney diseases that prevents normal drainage of urine into the URINARY BLADDER.",
+      "SlimMapping": "['Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "VEGF signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006869",
+        "standardized_id": "MESH:D006869",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hydronephrosis",
+        "standardized_name": "Hydronephrosis",
+        "normalized_name": "hydronephrosis",
+        "synonyms": [],
+        "search_terms": [
+          "hydronephrosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormal enlargement or swelling of a KIDNEY due to dilation of the KIDNEY CALICES and the KIDNEY PELVIS. It is often associated with obstruction of the URETER or chronic kidney diseases that prevents normal drainage of urine into the URINARY BLADDER.",
+        "cleaned_description": "Abnormal enlargement or swelling of a KIDNEY due to dilation of the KIDNEY CALICES and the KIDNEY PELVIS. It is often associated with obstruction of the URETER or chronic kidney diseases that prevents normal drainage of urine into the URINARY BLADDER.",
+        "description_summary": "Abnormal enlargement or swelling of a KIDNEY due to dilation of the KIDNEY CALICES and the KIDNEY PELVIS.",
+        "key_terms": [],
+        "word_count": 41
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGF signaling pathway",
+        "pathway_list": [
+          "VEGF signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGF signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.672644",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006959",
+      "DiseaseName": "Hyperoxaluria",
+      "DiseaseDescription": "Excretion of an excessive amount of OXALATES in the urine.",
+      "SlimMapping": "['Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006959",
+        "standardized_id": "MESH:D006959",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperoxaluria",
+        "standardized_name": "Hyperoxaluria",
+        "normalized_name": "hyperoxaluria",
+        "synonyms": [],
+        "search_terms": [
+          "hyperoxaluria"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Excretion of an excessive amount of OXALATES in the urine.",
+        "cleaned_description": "Excretion of an excessive amount of OXALATES in the urine.",
+        "description_summary": "Excretion of an excessive amount of OXALATES in the urine.",
+        "key_terms": [],
+        "word_count": 10
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.737859",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007674",
+      "DiseaseName": "Kidney Diseases",
+      "DiseaseDescription": "Pathological processes of the KIDNEY or its component tissues.",
+      "SlimMapping": "['Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007674",
+        "standardized_id": "MESH:D007674",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Kidney Diseases",
+        "standardized_name": "Kidney Diseases",
+        "normalized_name": "kidney diseases",
+        "synonyms": [],
+        "search_terms": [
+          "kidney",
+          "diseases",
+          "kidney diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological processes of the KIDNEY or its component tissues.",
+        "cleaned_description": "Pathological processes of the KIDNEY or its component tissues.",
+        "description_summary": "Pathological processes of the KIDNEY or its component tissues.",
+        "key_terms": [],
+        "word_count": 9
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.798859",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D052177",
+      "DiseaseName": "Kidney Diseases, Cystic",
+      "DiseaseDescription": "A heterogeneous group of hereditary and acquired disorders in which the KIDNEY contains one or more CYSTS unilaterally or bilaterally (KIDNEY, CYSTIC).",
+      "SlimMapping": "['Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D052177",
+        "standardized_id": "MESH:D052177",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Kidney Diseases, Cystic",
+        "standardized_name": "Kidney Diseases, Cystic",
+        "normalized_name": "kidney diseases cystic",
+        "synonyms": [],
+        "search_terms": [
+          "diseases,",
+          "cystic",
+          "kidney diseases, cystic",
+          "kidney"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A heterogeneous group of hereditary and acquired disorders in which the KIDNEY contains one or more CYSTS unilaterally or bilaterally (KIDNEY, CYSTIC).",
+        "cleaned_description": "A heterogeneous group of hereditary and acquired disorders in which the KIDNEY contains one or more CYSTS unilaterally or bilaterally (KIDNEY, CYSTIC).",
+        "description_summary": "A heterogeneous group of hereditary and acquired disorders in which the KIDNEY contains one or more CYSTS unilaterally or bilaterally (KIDNEY, CYSTIC).",
+        "key_terms": [],
+        "word_count": 22
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.799082",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007683",
+      "DiseaseName": "Kidney Tubular Necrosis, Acute",
+      "DiseaseDescription": "Acute kidney failure resulting from destruction of EPITHELIAL CELLS of the KIDNEY TUBULES. It is commonly attributed to exposure to toxic agents or renal ISCHEMIA following severe TRAUMA.",
+      "SlimMapping": "['Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007683",
+        "standardized_id": "MESH:D007683",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Kidney Tubular Necrosis, Acute",
+        "standardized_name": "Kidney Tubular Necrosis, Acute",
+        "normalized_name": "kidney tubular necrosis acute",
+        "synonyms": [],
+        "search_terms": [
+          "tubular",
+          "necrosis,",
+          "acute",
+          "kidney tubular necrosis, acute",
+          "kidney"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Acute kidney failure resulting from destruction of EPITHELIAL CELLS of the KIDNEY TUBULES. It is commonly attributed to exposure to toxic agents or renal ISCHEMIA following severe TRAUMA.",
+        "cleaned_description": "Acute kidney failure resulting from destruction of EPITHELIAL CELLS of the KIDNEY TUBULES. It is commonly attributed to exposure to toxic agents or renal ISCHEMIA following severe TRAUMA.",
+        "description_summary": "Acute kidney failure resulting from destruction of EPITHELIAL CELLS of the KIDNEY TUBULES.",
+        "key_terms": [
+          "ISCHEMIA"
+        ],
+        "word_count": 28
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.799862",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009393",
+      "DiseaseName": "Nephritis",
+      "DiseaseDescription": "Inflammation of any part of the KIDNEY.",
+      "SlimMapping": "['Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009393",
+        "standardized_id": "MESH:D009393",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Nephritis",
+        "standardized_name": "Nephritis",
+        "normalized_name": "nephritis",
+        "synonyms": [],
+        "search_terms": [
+          "nephritis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inflammation of any part of the KIDNEY.",
+        "cleaned_description": "Inflammation of any part of the KIDNEY.",
+        "description_summary": "Inflammation of any part of the KIDNEY.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.875083",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009395",
+      "DiseaseName": "Nephritis, Interstitial",
+      "DiseaseDescription": "Inflammation of the interstitial tissue of the kidney. This term is generally used for primary inflammation of KIDNEY TUBULES and/or surrounding interstitium. For primary inflammation of glomerular interstitium, see GLOMERULONEPHRITIS. Infiltration of the inflammatory cells into the interstitial compartment results in EDEMA, increased spaces between the tubules, and tubular renal dysfunction.",
+      "SlimMapping": "['Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009395",
+        "standardized_id": "MESH:D009395",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Nephritis, Interstitial",
+        "standardized_name": "Nephritis, Interstitial",
+        "normalized_name": "nephritis interstitial",
+        "synonyms": [],
+        "search_terms": [
+          "nephritis,",
+          "interstitial",
+          "nephritis, interstitial"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inflammation of the interstitial tissue of the kidney. This term is generally used for primary inflammation of KIDNEY TUBULES and/or surrounding interstitium. For primary inflammation of glomerular interstitium, see GLOMERULONEPHRITIS. Infiltration of the inflammatory cells into the interstitial compartment results in EDEMA, increased spaces between the tubules, and tubular renal dysfunction.",
+        "cleaned_description": "Inflammation of the interstitial tissue of the kidney. This term is generally used for primary inflammation of KIDNEY TUBULES and/or surrounding interstitium. For primary inflammation of glomerular interstitium, see GLOMERULONEPHRITIS. Infiltration of the inflammatory cells into the interstitial compartment results in EDEMA, increased spaces between the tubules, and tubular renal dysfunction.",
+        "description_summary": "Inflammation of the interstitial tissue of the kidney.",
+        "key_terms": [
+          "GLOMERULONEPHRITIS"
+        ],
+        "word_count": 51
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.875455",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D053040",
+      "DiseaseName": "Nephrolithiasis",
+      "DiseaseDescription": "Formation of stones in the KIDNEY.",
+      "SlimMapping": "['Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Vitamins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D053040",
+        "standardized_id": "MESH:D053040",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Nephrolithiasis",
+        "standardized_name": "Nephrolithiasis",
+        "normalized_name": "nephrolithiasis",
+        "synonyms": [],
+        "search_terms": [
+          "nephrolithiasis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Formation of stones in the KIDNEY.",
+        "cleaned_description": "Formation of stones in the KIDNEY.",
+        "description_summary": "Formation of stones in the KIDNEY.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamins",
+        "pathway_list": [
+          "Vitamins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.875954",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009400",
+      "DiseaseName": "Nephrosclerosis",
+      "DiseaseDescription": "Hardening of the KIDNEY due to infiltration by fibrous connective tissue (FIBROSIS), usually caused by renovascular diseases or chronic HYPERTENSION. Nephrosclerosis leads to renal ISCHEMIA.",
+      "SlimMapping": "['Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009400",
+        "standardized_id": "MESH:D009400",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Nephrosclerosis",
+        "standardized_name": "Nephrosclerosis",
+        "normalized_name": "nephrosclerosis",
+        "synonyms": [],
+        "search_terms": [
+          "nephrosclerosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Hardening of the KIDNEY due to infiltration by fibrous connective tissue (FIBROSIS), usually caused by renovascular diseases or chronic HYPERTENSION. Nephrosclerosis leads to renal ISCHEMIA.",
+        "cleaned_description": "Hardening of the KIDNEY due to infiltration by fibrous connective tissue (FIBROSIS), usually caused by renovascular diseases or chronic HYPERTENSION. Nephrosclerosis leads to renal ISCHEMIA.",
+        "description_summary": "Hardening of the KIDNEY due to infiltration by fibrous connective tissue (FIBROSIS), usually caused by renovascular diseases or chronic HYPERTENSION.",
+        "key_terms": [
+          "FIBROSIS",
+          "Nephrosclerosis",
+          "ISCHEMIA"
+        ],
+        "word_count": 25
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.876214",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009401",
+      "DiseaseName": "Nephrosis",
+      "DiseaseDescription": "Pathological processes of the KIDNEY without inflammatory or neoplastic components. Nephrosis may be a primary disorder or secondary complication of other diseases. It is characterized by the NEPHROTIC SYNDROME indicating the presence of PROTEINURIA and HYPOALBUMINEMIA with accompanying EDEMA.",
+      "SlimMapping": "['Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009401",
+        "standardized_id": "MESH:D009401",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Nephrosis",
+        "standardized_name": "Nephrosis",
+        "normalized_name": "nephrosis",
+        "synonyms": [],
+        "search_terms": [
+          "nephrosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological processes of the KIDNEY without inflammatory or neoplastic components. Nephrosis may be a primary disorder or secondary complication of other diseases. It is characterized by the NEPHROTIC SYNDROME indicating the presence of PROTEINURIA and HYPOALBUMINEMIA with accompanying EDEMA.",
+        "cleaned_description": "Pathological processes of the KIDNEY without inflammatory or neoplastic components. Nephrosis may be a primary disorder or secondary complication of other diseases. It is characterized by the NEPHROTIC SYNDROME indicating the presence of PROTEINURIA and HYPOALBUMINEMIA with accompanying EDEMA.",
+        "description_summary": "Pathological processes of the KIDNEY without inflammatory or neoplastic components.",
+        "key_terms": [
+          "Nephrosis",
+          "HYPOALBUMINEMIA"
+        ],
+        "word_count": 39
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.876748",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009402",
+      "DiseaseName": "Nephrosis, Lipoid",
+      "DiseaseDescription": "A kidney disease with no or minimal histological glomerular changes on light microscopy and with no immune deposits. It is characterized by lipid accumulation in the epithelial cells of KIDNEY TUBULES and in the URINE. Patients usually show NEPHROTIC SYNDROME indicating the presence of PROTEINURIA with accompanying EDEMA.",
+      "SlimMapping": "['Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Nephrin interactions",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009402",
+        "standardized_id": "MESH:D009402",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Nephrosis, Lipoid",
+        "standardized_name": "Nephrosis, Lipoid",
+        "normalized_name": "nephrosis lipoid",
+        "synonyms": [],
+        "search_terms": [
+          "nephrosis, lipoid",
+          "lipoid",
+          "nephrosis,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A kidney disease with no or minimal histological glomerular changes on light microscopy and with no immune deposits. It is characterized by lipid accumulation in the epithelial cells of KIDNEY TUBULES and in the URINE. Patients usually show NEPHROTIC SYNDROME indicating the presence of PROTEINURIA with accompanying EDEMA.",
+        "cleaned_description": "A kidney disease with no or minimal histological glomerular changes on light microscopy and with no immune deposits. It is characterized by lipid accumulation in the epithelial cells of KIDNEY TUBULES and in the URINE. Patients usually show NEPHROTIC SYNDROME indicating the presence of PROTEINURIA with accompanying EDEMA.",
+        "description_summary": "A kidney disease with no or minimal histological glomerular changes on light microscopy and with no immune deposits.",
+        "key_terms": [],
+        "word_count": 48
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Nephrin interactions",
+        "pathway_list": [
+          "Nephrin interactions"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.877123",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009404",
+      "DiseaseName": "Nephrotic Syndrome",
+      "DiseaseDescription": "A condition characterized by severe PROTEINURIA, greater than 3.5 g/day in an average adult. The substantial loss of protein in the urine results in complications such as HYPOPROTEINEMIA; generalized EDEMA; HYPERTENSION; and HYPERLIPIDEMIAS. Diseases associated with nephrotic syndrome generally cause chronic kidney dysfunction.",
+      "SlimMapping": "['Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Visual phototransduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009404",
+        "standardized_id": "MESH:D009404",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Nephrotic Syndrome",
+        "standardized_name": "Nephrotic Syndrome",
+        "normalized_name": "nephrotic syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "nephrotic",
+          "syndrome",
+          "nephrotic syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition characterized by severe PROTEINURIA, greater than 3.5 g/day in an average adult. The substantial loss of protein in the urine results in complications such as HYPOPROTEINEMIA; generalized EDEMA; HYPERTENSION; and HYPERLIPIDEMIAS. Diseases associated with nephrotic syndrome generally cause chronic kidney dysfunction.",
+        "cleaned_description": "A condition characterized by severe PROTEINURIA, greater than 3.5 g/day in an average adult. The substantial loss of protein in the urine results in complications such as HYPOPROTEINEMIA; generalized EDEMA; HYPERTENSION; and HYPERLIPIDEMIAS. Diseases associated with nephrotic syndrome generally cause chronic kidney dysfunction.",
+        "description_summary": "A condition characterized by severe PROTEINURIA, greater than 3.",
+        "key_terms": [
+          "HYPOPROTEINEMIA"
+        ],
+        "word_count": 43
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Visual phototransduction",
+        "pathway_list": [
+          "Visual phototransduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.877443",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011704",
+      "DiseaseName": "Pyelonephritis",
+      "DiseaseDescription": "Inflammation of the KIDNEY involving the renal parenchyma (the NEPHRONS); KIDNEY PELVIS; and KIDNEY CALICES. It is characterized by ABDOMINAL PAIN; FEVER; NAUSEA; VOMITING; and occasionally DIARRHEA.",
+      "SlimMapping": "['Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Signaling by Interleukins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011704",
+        "standardized_id": "MESH:D011704",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pyelonephritis",
+        "standardized_name": "Pyelonephritis",
+        "normalized_name": "pyelonephritis",
+        "synonyms": [],
+        "search_terms": [
+          "pyelonephritis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inflammation of the KIDNEY involving the renal parenchyma (the NEPHRONS); KIDNEY PELVIS; and KIDNEY CALICES. It is characterized by ABDOMINAL PAIN; FEVER; NAUSEA; VOMITING; and occasionally DIARRHEA.",
+        "cleaned_description": "Inflammation of the KIDNEY involving the renal parenchyma (the NEPHRONS); KIDNEY PELVIS; and KIDNEY CALICES. It is characterized by ABDOMINAL PAIN; FEVER; NAUSEA; VOMITING; and occasionally DIARRHEA.",
+        "description_summary": "Inflammation of the KIDNEY involving the renal parenchyma (the NEPHRONS); KIDNEY PELVIS; and KIDNEY CALICES.",
+        "key_terms": [],
+        "word_count": 27
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signaling by Interleukins",
+        "pathway_list": [
+          "Signaling by Interleukins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.943053",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D051437",
+      "DiseaseName": "Renal Insufficiency",
+      "DiseaseDescription": "Conditions in which the KIDNEYS perform below the normal level in the ability to remove wastes, concentrate URINE, and maintain ELECTROLYTE BALANCE; BLOOD PRESSURE; and CALCIUM metabolism. Renal insufficiency can be classified by the degree of kidney damage (as measured by the level of PROTEINURIA) and reduction in GLOMERULAR FILTRATION RATE.",
+      "SlimMapping": "['Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Vitamins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D051437",
+        "standardized_id": "MESH:D051437",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Renal Insufficiency",
+        "standardized_name": "Renal Insufficiency",
+        "normalized_name": "renal insufficiency",
+        "synonyms": [],
+        "search_terms": [
+          "renal",
+          "insufficiency",
+          "renal insufficiency"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Conditions in which the KIDNEYS perform below the normal level in the ability to remove wastes, concentrate URINE, and maintain ELECTROLYTE BALANCE; BLOOD PRESSURE; and CALCIUM metabolism. Renal insufficiency can be classified by the degree of kidney damage (as measured by the level of PROTEINURIA) and reduction in GLOMERULAR FILTRATION RATE.",
+        "cleaned_description": "Conditions in which the KIDNEYS perform below the normal level in the ability to remove wastes, concentrate URINE, and maintain ELECTROLYTE BALANCE; BLOOD PRESSURE; and CALCIUM metabolism. Renal insufficiency can be classified by the degree of kidney damage (as measured by the level of PROTEINURIA) and reduction in GLOMERULAR FILTRATION RATE.",
+        "description_summary": "Conditions in which the KIDNEYS perform below the normal level in the ability to remove wastes, concentrate URINE, and maintain ELECTROLYTE BALANCE; BLOOD PRESSURE; and CALCIUM metabolism.",
+        "key_terms": [],
+        "word_count": 51
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamins",
+        "pathway_list": [
+          "Vitamins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.946317",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014511",
+      "DiseaseName": "Uremia",
+      "DiseaseDescription": "A clinical syndrome associated with the retention of renal waste products or uremic toxins in the blood. It is usually the result of RENAL INSUFFICIENCY. Most uremic toxins are end products of protein or nitrogen CATABOLISM, such as UREA or CREATININE. Severe uremia can lead to multiple organ dysfunctions with a constellation of symptoms.",
+      "SlimMapping": "['Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014511",
+        "standardized_id": "MESH:D014511",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Uremia",
+        "standardized_name": "Uremia",
+        "normalized_name": "uremia",
+        "synonyms": [],
+        "search_terms": [
+          "uremia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A clinical syndrome associated with the retention of renal waste products or uremic toxins in the blood. It is usually the result of RENAL INSUFFICIENCY. Most uremic toxins are end products of protein or nitrogen CATABOLISM, such as UREA or CREATININE. Severe uremia can lead to multiple organ dysfunctions with a constellation of symptoms.",
+        "cleaned_description": "A clinical syndrome associated with the retention of renal waste products or uremic toxins in the blood. It is usually the result of RENAL INSUFFICIENCY. Most uremic toxins are end products of protein or nitrogen CATABOLISM, such as UREA or CREATININE. Severe uremia can lead to multiple organ dysfunctions with a constellation of symptoms.",
+        "description_summary": "A clinical syndrome associated with the retention of renal waste products or uremic toxins in the blood.",
+        "key_terms": [
+          "uremia"
+        ],
+        "word_count": 54
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.009801",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014517",
+      "DiseaseName": "Ureteral Obstruction",
+      "DiseaseDescription": "Blockage in any part of the URETER causing obstruction of urine flow from the kidney to the URINARY BLADDER. The obstruction may be congenital, acquired, unilateral, bilateral, complete, partial, acute, or chronic. Depending on the degree and duration of the obstruction, clinical features vary greatly such as HYDRONEPHROSIS and obstructive nephropathy.",
+      "SlimMapping": "['Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014517",
+        "standardized_id": "MESH:D014517",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Ureteral Obstruction",
+        "standardized_name": "Ureteral Obstruction",
+        "normalized_name": "ureteral obstruction",
+        "synonyms": [],
+        "search_terms": [
+          "ureteral",
+          "obstruction",
+          "ureteral obstruction"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Blockage in any part of the URETER causing obstruction of urine flow from the kidney to the URINARY BLADDER. The obstruction may be congenital, acquired, unilateral, bilateral, complete, partial, acute, or chronic. Depending on the degree and duration of the obstruction, clinical features vary greatly such as HYDRONEPHROSIS and obstructive nephropathy.",
+        "cleaned_description": "Blockage in any part of the URETER causing obstruction of urine flow from the kidney to the URINARY BLADDER. The obstruction may be congenital, acquired, unilateral, bilateral, complete, partial, acute, or chronic. Depending on the degree and duration of the obstruction, clinical features vary greatly such as HYDRONEPHROSIS and obstructive nephropathy.",
+        "description_summary": "Blockage in any part of the URETER causing obstruction of urine flow from the kidney to the URINARY BLADDER.",
+        "key_terms": [
+          "nephropathy",
+          "HYDRONEPHROSIS"
+        ],
+        "word_count": 51
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.010696",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001745",
+      "DiseaseName": "Urinary Bladder Diseases",
+      "DiseaseDescription": "Pathological processes of the URINARY BLADDER.",
+      "SlimMapping": "['Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001745",
+        "standardized_id": "MESH:D001745",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Urinary Bladder Diseases",
+        "standardized_name": "Urinary Bladder Diseases",
+        "normalized_name": "urinary bladder diseases",
+        "synonyms": [],
+        "search_terms": [
+          "urinary",
+          "bladder",
+          "urinary bladder diseases",
+          "diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological processes of the URINARY BLADDER.",
+        "cleaned_description": "Pathological processes of the URINARY BLADDER.",
+        "description_summary": "Pathological processes of the URINARY BLADDER.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.011088",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001748",
+      "DiseaseName": "Urinary Bladder Neck Obstruction",
+      "DiseaseDescription": "Blocked urine flow through the bladder neck, the narrow internal urethral opening at the base of the URINARY BLADDER. Narrowing or strictures of the URETHRA can be congenital or acquired. It is often observed in males with enlarged PROSTATE glands.",
+      "SlimMapping": "['Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "VEGF signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001748",
+        "standardized_id": "MESH:D001748",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Urinary Bladder Neck Obstruction",
+        "standardized_name": "Urinary Bladder Neck Obstruction",
+        "normalized_name": "urinary bladder neck obstruction",
+        "synonyms": [],
+        "search_terms": [
+          "obstruction",
+          "bladder",
+          "urinary",
+          "neck",
+          "urinary bladder neck obstruction"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Blocked urine flow through the bladder neck, the narrow internal urethral opening at the base of the URINARY BLADDER. Narrowing or strictures of the URETHRA can be congenital or acquired. It is often observed in males with enlarged PROSTATE glands.",
+        "cleaned_description": "Blocked urine flow through the bladder neck, the narrow internal urethral opening at the base of the URINARY BLADDER. Narrowing or strictures of the URETHRA can be congenital or acquired. It is often observed in males with enlarged PROSTATE glands.",
+        "description_summary": "Blocked urine flow through the bladder neck, the narrow internal urethral opening at the base of the URINARY BLADDER.",
+        "key_terms": [],
+        "word_count": 40
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGF signaling pathway",
+        "pathway_list": [
+          "VEGF signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGF signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.011377",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D016055",
+      "DiseaseName": "Urinary Retention",
+      "DiseaseDescription": "Inability to empty the URINARY BLADDER with voiding (URINATION).",
+      "SlimMapping": "['Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "TNF signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D016055",
+        "standardized_id": "MESH:D016055",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Urinary Retention",
+        "standardized_name": "Urinary Retention",
+        "normalized_name": "urinary retention",
+        "synonyms": [],
+        "search_terms": [
+          "urinary",
+          "retention",
+          "urinary retention"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inability to empty the URINARY BLADDER with voiding (URINATION).",
+        "cleaned_description": "Inability to empty the URINARY BLADDER with voiding (URINATION).",
+        "description_summary": "Inability to empty the URINARY BLADDER with voiding (URINATION).",
+        "key_terms": [],
+        "word_count": 9
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "TNF signaling pathway",
+        "pathway_list": [
+          "TNF signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "TNF signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.012413",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014552",
+      "DiseaseName": "Urinary Tract Infections",
+      "DiseaseDescription": "Inflammatory responses of the epithelium of the URINARY TRACT to microbial invasions. They are often bacterial infections with associated BACTERIURIA and PYURIA.",
+      "SlimMapping": "['Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014552",
+        "standardized_id": "MESH:D014552",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Urinary Tract Infections",
+        "standardized_name": "Urinary Tract Infections",
+        "normalized_name": "urinary tract infections",
+        "synonyms": [],
+        "search_terms": [
+          "urinary",
+          "infections",
+          "tract",
+          "urinary tract infections"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inflammatory responses of the epithelium of the URINARY TRACT to microbial invasions. They are often bacterial infections with associated BACTERIURIA and PYURIA.",
+        "cleaned_description": "Inflammatory responses of the epithelium of the URINARY TRACT to microbial invasions. They are often bacterial infections with associated BACTERIURIA and PYURIA.",
+        "description_summary": "Inflammatory responses of the epithelium of the URINARY TRACT to microbial invasions.",
+        "key_terms": [],
+        "word_count": 22
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.012652",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014555",
+      "DiseaseName": "Urination Disorders",
+      "DiseaseDescription": "Abnormalities in the process of URINE voiding, including bladder control, frequency of URINATION, as well as the volume and composition of URINE.",
+      "SlimMapping": "['Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014555",
+        "standardized_id": "MESH:D014555",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Urination Disorders",
+        "standardized_name": "Urination Disorders",
+        "normalized_name": "urination disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "urination disorders",
+          "urination"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormalities in the process of URINE voiding, including bladder control, frequency of URINATION, as well as the volume and composition of URINE.",
+        "cleaned_description": "Abnormalities in the process of URINE voiding, including bladder control, frequency of URINATION, as well as the volume and composition of URINE.",
+        "description_summary": "Abnormalities in the process of URINE voiding, including bladder control, frequency of URINATION, as well as the volume and composition of URINE.",
+        "key_terms": [],
+        "word_count": 22
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.012882",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D052878",
+      "DiseaseName": "Urolithiasis",
+      "DiseaseDescription": "Formation of stones in any part of the URINARY TRACT, usually in the KIDNEY; URINARY BLADDER; or the URETER.",
+      "SlimMapping": "['Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Ubiquinone and other terpenoid-quinone biosynthesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D052878",
+        "standardized_id": "MESH:D052878",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Urolithiasis",
+        "standardized_name": "Urolithiasis",
+        "normalized_name": "urolithiasis",
+        "synonyms": [],
+        "search_terms": [
+          "urolithiasis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Formation of stones in any part of the URINARY TRACT, usually in the KIDNEY; URINARY BLADDER; or the URETER.",
+        "cleaned_description": "Formation of stones in any part of the URINARY TRACT, usually in the KIDNEY; URINARY BLADDER; or the URETER.",
+        "description_summary": "Formation of stones in any part of the URINARY TRACT, usually in the KIDNEY; URINARY BLADDER; or the URETER.",
+        "key_terms": [],
+        "word_count": 19
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Ubiquinone and other terpenoid-quinone biosynthesis",
+        "pathway_list": [
+          "Ubiquinone and other terpenoid-quinone biosynthesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.013515",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014718",
+      "DiseaseName": "Vesico-Ureteral Reflux",
+      "DiseaseDescription": "Retrograde flow of urine from the URINARY BLADDER into the URETER. This is often due to incompetence of the vesicoureteral valve.",
+      "SlimMapping": "['Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014718",
+        "standardized_id": "MESH:D014718",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Vesico-Ureteral Reflux",
+        "standardized_name": "Vesico-Ureteral Reflux",
+        "normalized_name": "vesico-ureteral reflux",
+        "synonyms": [],
+        "search_terms": [
+          "vesico-ureteral",
+          "vesico-ureteral reflux",
+          "reflux"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Retrograde flow of urine from the URINARY BLADDER into the URETER. This is often due to incompetence of the vesicoureteral valve.",
+        "cleaned_description": "Retrograde flow of urine from the URINARY BLADDER into the URETER. This is often due to incompetence of the vesicoureteral valve.",
+        "description_summary": "Retrograde flow of urine from the URINARY BLADDER into the URETER.",
+        "key_terms": [],
+        "word_count": 21
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.023546",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Blood disease', 'Cancer', 'Cardiovascular disease', 'Immune system disease', 'Lymphatic disease']",
+    "export_timestamp": "2026-03-28T22:11:36.345205",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D008258",
+      "DiseaseName": "Waldenstrom Macroglobulinemia",
+      "DiseaseDescription": "A lymphoproliferative disorder characterized by pleomorphic B-LYMPHOCYTES including PLASMA CELLS, with increased levels of monoclonal serum IMMUNOGLOBULIN M. There is lymphoplasmacytic cells infiltration into bone marrow and often other tissues, also known as lymphoplasmacytic lymphoma. Clinical features include ANEMIA; HEMORRHAGES; and hyperviscosity.",
+      "SlimMapping": "['Blood disease', 'Cancer', 'Cardiovascular disease', 'Immune system disease', 'Lymphatic disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008258",
+        "standardized_id": "MESH:D008258",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Waldenstrom Macroglobulinemia",
+        "standardized_name": "Waldenstrom Macroglobulinemia",
+        "normalized_name": "waldenstrom macroglobulinemia",
+        "synonyms": [],
+        "search_terms": [
+          "waldenstrom",
+          "macroglobulinemia",
+          "waldenstrom macroglobulinemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A lymphoproliferative disorder characterized by pleomorphic B-LYMPHOCYTES including PLASMA CELLS, with increased levels of monoclonal serum IMMUNOGLOBULIN M. There is lymphoplasmacytic cells infiltration into bone marrow and often other tissues, also known as lymphoplasmacytic lymphoma. Clinical features include ANEMIA; HEMORRHAGES; and hyperviscosity.",
+        "cleaned_description": "A lymphoproliferative disorder characterized by pleomorphic B-LYMPHOCYTES including PLASMA CELLS, with increased levels of monoclonal serum IMMUNOGLOBULIN M. There is lymphoplasmacytic cells infiltration into bone marrow and often other tissues, also known as lymphoplasmacytic lymphoma. Clinical features include ANEMIA; HEMORRHAGES; and hyperviscosity.",
+        "description_summary": "A lymphoproliferative disorder characterized by pleomorphic B-LYMPHOCYTES including PLASMA CELLS, with increased levels of monoclonal serum IMMUNOGLOBULIN M.",
+        "key_terms": [
+          "ANEMIA"
+        ],
+        "word_count": 42
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Cancer",
+          "Cardiovascular disease",
+          "Immune system disease",
+          "Lymphatic disease"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Cancer",
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular",
+          "immune_system"
+        ],
+        "all_categories": [
+          "Blood disease",
+          "Cancer",
+          "Cardiovascular disease",
+          "Immune system disease",
+          "Lymphatic disease"
+        ],
+        "category_count": 5
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.025445",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

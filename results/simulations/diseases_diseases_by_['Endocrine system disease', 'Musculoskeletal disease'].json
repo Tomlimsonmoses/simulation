@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Endocrine system disease', 'Musculoskeletal disease']",
+    "export_timestamp": "2026-03-28T22:11:35.730737",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D001849",
+      "DiseaseName": "Bone Diseases, Endocrine",
+      "DiseaseDescription": "Diseases of the bones related to hyperfunction or hypofunction of the endocrine glands.",
+      "SlimMapping": "['Endocrine system disease', 'Musculoskeletal disease']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001849",
+        "standardized_id": "MESH:D001849",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Bone Diseases, Endocrine",
+        "standardized_name": "Bone Diseases, Endocrine",
+        "normalized_name": "bone diseases endocrine",
+        "synonyms": [],
+        "search_terms": [
+          "bone",
+          "diseases,",
+          "endocrine",
+          "bone diseases, endocrine"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases of the bones related to hyperfunction or hypofunction of the endocrine glands.",
+        "cleaned_description": "Diseases of the bones related to hyperfunction or hypofunction of the endocrine glands.",
+        "description_summary": "Diseases of the bones related to hyperfunction or hypofunction of the endocrine glands.",
+        "key_terms": [],
+        "word_count": 13
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.398855",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Infant-newborn disease', 'Musculoskeletal disease']",
+    "export_timestamp": "2026-03-28T22:11:36.095867",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D006958",
+      "DiseaseName": "Hyperostosis, Cortical, Congenital",
+      "DiseaseDescription": "A disease of young infants characterized by soft tissue swellings over the affected bones, fever, and irritability, and marked by periods of remission and exacerbation. (Dorland, 27th ed)",
+      "SlimMapping": "['Infant-newborn disease', 'Musculoskeletal disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006958",
+        "standardized_id": "MESH:D006958",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperostosis, Cortical, Congenital",
+        "standardized_name": "Hyperostosis, Cortical, Congenital",
+        "normalized_name": "hyperostosis cortical congenital",
+        "synonyms": [],
+        "search_terms": [
+          "congenital",
+          "hyperostosis,",
+          "hyperostosis, cortical, congenital",
+          "cortical,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A disease of young infants characterized by soft tissue swellings over the affected bones, fever, and irritability, and marked by periods of remission and exacerbation. (Dorland, 27th ed)",
+        "cleaned_description": "A disease of young infants characterized by soft tissue swellings over the affected bones, fever, and irritability, and marked by periods of remission and exacerbation. (Dorland, 27th ed)",
+        "description_summary": "A disease of young infants characterized by soft tissue swellings over the affected bones, fever, and irritability, and marked by periods of remission and exacerbation.",
+        "key_terms": [],
+        "word_count": 28
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Infant-newborn disease",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Infant-newborn disease",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Infant-newborn disease",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.737658",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

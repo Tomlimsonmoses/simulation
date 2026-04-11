@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Blood disease', 'Immune system disease', 'Infant-newborn disease', 'Metabolic disease', 'Nervous system disease', 'Pathology (process)']",
+    "export_timestamp": "2026-03-28T22:11:36.127122",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D007647",
+      "DiseaseName": "Kernicterus",
+      "DiseaseDescription": "A term used pathologically to describe BILIRUBIN staining of the BASAL GANGLIA; BRAIN STEM; and CEREBELLUM and clinically to describe a syndrome associated with HYPERBILIRUBINEMIA. Clinical features include athetosis, MUSCLE SPASTICITY or hypotonia, impaired vertical gaze, and DEAFNESS. Nonconjugated bilirubin enters the brain and acts as a neurotoxin, often in association with conditions that impair the BLOOD-BRAIN BARRIER (e.g., SEPSIS). This condition occurs primarily in neonates (INFANT, NEWBORN), but may rarely occur in adults. (Menkes, Textbook of Child Neurology, 5th ed, p613)",
+      "SlimMapping": "['Blood disease', 'Immune system disease', 'Infant-newborn disease', 'Metabolic disease', 'Nervous system disease', 'Pathology (process)']",
+      "PathwayNames": "Steroid hormone biosynthesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007647",
+        "standardized_id": "MESH:D007647",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Kernicterus",
+        "standardized_name": "Kernicterus",
+        "normalized_name": "kernicterus",
+        "synonyms": [],
+        "search_terms": [
+          "kernicterus"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A term used pathologically to describe BILIRUBIN staining of the BASAL GANGLIA; BRAIN STEM; and CEREBELLUM and clinically to describe a syndrome associated with HYPERBILIRUBINEMIA. Clinical features include athetosis, MUSCLE SPASTICITY or hypotonia, impaired vertical gaze, and DEAFNESS. Nonconjugated bilirubin enters the brain and acts as a neurotoxin, often in association with conditions that impair the BLOOD-BRAIN BARRIER (e.g., SEPSIS). This condition occurs primarily in neonates (INFANT, NEWBORN), but may rarely occur in adults. (Menkes, Textbook of Child Neurology, 5th ed, p613)",
+        "cleaned_description": "A term used pathologically to describe BILIRUBIN staining of the BASAL GANGLIA; BRAIN STEM; and CEREBELLUM and clinically to describe a syndrome associated with HYPERBILIRUBINEMIA. Clinical features include athetosis, MUSCLE SPASTICITY or hypotonia, impaired vertical gaze, and DEAFNESS. Nonconjugated bilirubin enters the brain and acts as a neurotoxin, often in association with conditions that impair the BLOOD-BRAIN BARRIER (e.g., SEPSIS). This condition occurs primarily in neonates (INFANT, NEWBORN), but may rarely occur in adults. (Menkes, Textbook of Child Neurology, 5th ed, p613)",
+        "description_summary": "A term used pathologically to describe BILIRUBIN staining of the BASAL GANGLIA; BRAIN STEM; and CEREBELLUM and clinically to describe a syndrome associated with HYPERBILIRUBINEMIA.",
+        "key_terms": [
+          "athetosis",
+          "HYPERBILIRUBINEMIA"
+        ],
+        "word_count": 82
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Immune system disease",
+          "Infant-newborn disease",
+          "Metabolic disease",
+          "Nervous system disease",
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Immune system disease",
+          "Infant-newborn disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "immune_system"
+        ],
+        "all_categories": [
+          "Blood disease",
+          "Immune system disease",
+          "Infant-newborn disease",
+          "Metabolic disease",
+          "Nervous system disease",
+          "Pathology (process)"
+        ],
+        "category_count": 6
+      },
+      "processed_pathways": {
+        "raw_pathways": "Steroid hormone biosynthesis",
+        "pathway_list": [
+          "Steroid hormone biosynthesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.798444",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

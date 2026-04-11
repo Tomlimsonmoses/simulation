@@ -1,0 +1,1136 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Genetic disease (inborn)', 'Metabolic disease']",
+    "export_timestamp": "2026-03-28T22:11:35.899492",
+    "total_records": 16
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D003554",
+      "DiseaseName": "Cystinosis",
+      "DiseaseDescription": "A metabolic disease characterized by the defective transport of CYSTINE across the lysosomal membrane due to mutation of a membrane protein cystinosin. This results in cystine accumulation and crystallization in the cells causing widespread tissue damage. In the KIDNEY, nephropathic cystinosis is a common cause of RENAL FANCONI SYNDROME.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease']",
+      "PathwayNames": "Transport of inorganic cations/anions and amino acids/oligopeptides",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003554",
+        "standardized_id": "MESH:D003554",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cystinosis",
+        "standardized_name": "Cystinosis",
+        "normalized_name": "cystinosis",
+        "synonyms": [],
+        "search_terms": [
+          "cystinosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A metabolic disease characterized by the defective transport of CYSTINE across the lysosomal membrane due to mutation of a membrane protein cystinosin. This results in cystine accumulation and crystallization in the cells causing widespread tissue damage. In the KIDNEY, nephropathic cystinosis is a common cause of RENAL FANCONI SYNDROME.",
+        "cleaned_description": "A metabolic disease characterized by the defective transport of CYSTINE across the lysosomal membrane due to mutation of a membrane protein cystinosin. This results in cystine accumulation and crystallization in the cells causing widespread tissue damage. In the KIDNEY, nephropathic cystinosis is a common cause of RENAL FANCONI SYNDROME.",
+        "description_summary": "A metabolic disease characterized by the defective transport of CYSTINE across the lysosomal membrane due to mutation of a membrane protein cystinosin.",
+        "key_terms": [
+          "cystinosis"
+        ],
+        "word_count": 49
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of inorganic cations/anions and amino acids/oligopeptides",
+        "pathway_list": [
+          "Transport of inorganic cations/anions and amino acids/oligopeptides"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.465206",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D030401",
+      "DiseaseName": "Cytochrome-c Oxidase Deficiency",
+      "DiseaseDescription": "A disease that results from a congenital defect in ELECTRON TRANSPORT COMPLEX IV. Defects in ELECTRON TRANSPORT COMPLEX IV can be caused by mutations in the SURF1, SCO2, COX10, or SCO1 genes. ELECTRON TRANSPORT COMPLEX IV deficiency caused by mutation in SURF1 manifests itself as LEIGH DISEASE; that caused by mutation in SCO2 as fatal infantile cardioencephalomyopathy; that caused by mutation in COX10 as tubulopathy and leukodystrophy; and that caused by mutation in SCO1 as early-onset hepatic failure and neurologic disorder. (from Online Mendelian Inheritance in Man, http://www.ncbi.nlm.nih.gov/Omim, MIM#220110, May 17, 2001)",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease']",
+      "PathwayNames": "Transcriptional Regulation by TP53",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D030401",
+        "standardized_id": "MESH:D030401",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cytochrome-c Oxidase Deficiency",
+        "standardized_name": "Cytochrome-c Oxidase Deficiency",
+        "normalized_name": "cytochrome-c oxidase deficiency",
+        "synonyms": [],
+        "search_terms": [
+          "oxidase",
+          "deficiency",
+          "cytochrome-c oxidase deficiency",
+          "cytochrome-c"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A disease that results from a congenital defect in ELECTRON TRANSPORT COMPLEX IV. Defects in ELECTRON TRANSPORT COMPLEX IV can be caused by mutations in the SURF1, SCO2, COX10, or SCO1 genes. ELECTRON TRANSPORT COMPLEX IV deficiency caused by mutation in SURF1 manifests itself as LEIGH DISEASE; that caused by mutation in SCO2 as fatal infantile cardioencephalomyopathy; that caused by mutation in COX10 as tubulopathy and leukodystrophy; and that caused by mutation in SCO1 as early-onset hepatic failure and neurologic disorder. (from Online Mendelian Inheritance in Man, http://www.ncbi.nlm.nih.gov/Omim, MIM#220110, May 17, 2001)",
+        "cleaned_description": "A disease that results from a congenital defect in ELECTRON TRANSPORT COMPLEX IV. Defects in ELECTRON TRANSPORT COMPLEX IV can be caused by mutations in the SURF1, SCO2, COX10, or SCO1 genes. ELECTRON TRANSPORT COMPLEX IV deficiency caused by mutation in SURF1 manifests itself as LEIGH DISEASE; that caused by mutation in SCO2 as fatal infantile cardioencephalomyopathy; that caused by mutation in COX10 as tubulopathy and leukodystrophy; and that caused by mutation in SCO1 as early-onset hepatic failure and neurologic disorder. (from Online Mendelian Inheritance in Man, http://www.ncbi.nlm.nih.gov/Omim, MIM#220110, May 17, 2001)",
+        "description_summary": "A disease that results from a congenital defect in ELECTRON TRANSPORT COMPLEX IV.",
+        "key_terms": [
+          "cardioencephalomyopathy",
+          "tubulopathy"
+        ],
+        "word_count": 92
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional Regulation by TP53",
+        "pathway_list": [
+          "Transcriptional Regulation by TP53"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional Regulation by TP53"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.465884",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006008",
+      "DiseaseName": "Glycogen Storage Disease",
+      "DiseaseDescription": "A group of inherited metabolic disorders involving the enzymes responsible for the synthesis and degradation of glycogen. In some patients, prominent liver involvement is presented. In others, more generalized storage of glycogen occurs, sometimes with prominent cardiac involvement.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease']",
+      "PathwayNames": "Starch and sucrose metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006008",
+        "standardized_id": "MESH:D006008",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Glycogen Storage Disease",
+        "standardized_name": "Glycogen Storage Disease",
+        "normalized_name": "glycogen storage disease",
+        "synonyms": [],
+        "search_terms": [
+          "storage",
+          "glycogen",
+          "disease",
+          "glycogen storage disease"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A group of inherited metabolic disorders involving the enzymes responsible for the synthesis and degradation of glycogen. In some patients, prominent liver involvement is presented. In others, more generalized storage of glycogen occurs, sometimes with prominent cardiac involvement.",
+        "cleaned_description": "A group of inherited metabolic disorders involving the enzymes responsible for the synthesis and degradation of glycogen. In some patients, prominent liver involvement is presented. In others, more generalized storage of glycogen occurs, sometimes with prominent cardiac involvement.",
+        "description_summary": "A group of inherited metabolic disorders involving the enzymes responsible for the synthesis and degradation of glycogen.",
+        "key_terms": [],
+        "word_count": 38
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Starch and sucrose metabolism",
+        "pathway_list": [
+          "Starch and sucrose metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.546046",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006432",
+      "DiseaseName": "Hemochromatosis",
+      "DiseaseDescription": "A disorder of iron metabolism characterized by a triad of HEMOSIDEROSIS; LIVER CIRRHOSIS; and DIABETES MELLITUS. It is caused by massive iron deposits in parenchymal cells that may develop after a prolonged increase of iron absorption. (Jablonski's Dictionary of Syndromes & Eponymic Diseases, 2d ed)",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006432",
+        "standardized_id": "MESH:D006432",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hemochromatosis",
+        "standardized_name": "Hemochromatosis",
+        "normalized_name": "hemochromatosis",
+        "synonyms": [],
+        "search_terms": [
+          "hemochromatosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A disorder of iron metabolism characterized by a triad of HEMOSIDEROSIS; LIVER CIRRHOSIS; and DIABETES MELLITUS. It is caused by massive iron deposits in parenchymal cells that may develop after a prolonged increase of iron absorption. (Jablonski's Dictionary of Syndromes & Eponymic Diseases, 2d ed)",
+        "cleaned_description": "A disorder of iron metabolism characterized by a triad of HEMOSIDEROSIS; LIVER CIRRHOSIS; and DIABETES MELLITUS. It is caused by massive iron deposits in parenchymal cells that may develop after a prolonged increase of iron absorption. (Jablonski's Dictionary of Syndromes & Eponymic Diseases, 2d ed)",
+        "description_summary": "A disorder of iron metabolism characterized by a triad of HEMOSIDEROSIS; LIVER CIRRHOSIS; and DIABETES MELLITUS.",
+        "key_terms": [
+          "CIRRHOSIS",
+          "HEMOSIDEROSIS"
+        ],
+        "word_count": 45
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.643567",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006950",
+      "DiseaseName": "Hyperlipidemia, Familial Combined",
+      "DiseaseDescription": "A type of familial lipid metabolism disorder characterized by a variable pattern of elevated plasma CHOLESTEROL and/or TRIGLYCERIDES. Multiple genes on different chromosomes may be involved, such as the major late transcription factor (UPSTREAM STIMULATORY FACTORS) on CHROMOSOME 1.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease']",
+      "PathwayNames": "Visual phototransduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006950",
+        "standardized_id": "MESH:D006950",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperlipidemia, Familial Combined",
+        "standardized_name": "Hyperlipidemia, Familial Combined",
+        "normalized_name": "hyperlipidemia familial combined",
+        "synonyms": [],
+        "search_terms": [
+          "hyperlipidemia,",
+          "hyperlipidemia, familial combined",
+          "familial",
+          "combined"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A type of familial lipid metabolism disorder characterized by a variable pattern of elevated plasma CHOLESTEROL and/or TRIGLYCERIDES. Multiple genes on different chromosomes may be involved, such as the major late transcription factor (UPSTREAM STIMULATORY FACTORS) on CHROMOSOME 1.",
+        "cleaned_description": "A type of familial lipid metabolism disorder characterized by a variable pattern of elevated plasma CHOLESTEROL and/or TRIGLYCERIDES. Multiple genes on different chromosomes may be involved, such as the major late transcription factor (UPSTREAM STIMULATORY FACTORS) on CHROMOSOME 1.",
+        "description_summary": "A type of familial lipid metabolism disorder characterized by a variable pattern of elevated plasma CHOLESTEROL and/or TRIGLYCERIDES.",
+        "key_terms": [],
+        "word_count": 39
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Visual phototransduction",
+        "pathway_list": [
+          "Visual phototransduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.727612",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006938",
+      "DiseaseName": "Hyperlipoproteinemia Type II",
+      "DiseaseDescription": "A group of familial disorders characterized by elevated circulating cholesterol contained in either LOW-DENSITY LIPOPROTEINS alone or also in VERY-LOW-DENSITY LIPOPROTEINS (pre-beta lipoproteins).",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease']",
+      "PathwayNames": "VLDL interactions",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006938",
+        "standardized_id": "MESH:D006938",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperlipoproteinemia Type II",
+        "standardized_name": "Hyperlipoproteinemia Type II",
+        "normalized_name": "hyperlipoproteinemia type ii",
+        "synonyms": [],
+        "search_terms": [
+          "type",
+          "hyperlipoproteinemia",
+          "hyperlipoproteinemia type ii"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A group of familial disorders characterized by elevated circulating cholesterol contained in either LOW-DENSITY LIPOPROTEINS alone or also in VERY-LOW-DENSITY LIPOPROTEINS (pre-beta lipoproteins).",
+        "cleaned_description": "A group of familial disorders characterized by elevated circulating cholesterol contained in either LOW-DENSITY LIPOPROTEINS alone or also in VERY-LOW-DENSITY LIPOPROTEINS (pre-beta lipoproteins).",
+        "description_summary": "A group of familial disorders characterized by elevated circulating cholesterol contained in either LOW-DENSITY LIPOPROTEINS alone or also in VERY-LOW-DENSITY LIPOPROTEINS (pre-beta lipoproteins).",
+        "key_terms": [],
+        "word_count": 23
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "VLDL interactions",
+        "pathway_list": [
+          "VLDL interactions"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.731967",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006952",
+      "DiseaseName": "Hyperlipoproteinemia Type III",
+      "DiseaseDescription": "An autosomal recessively inherited disorder characterized by the accumulation of intermediate-density lipoprotein (IDL or broad-beta-lipoprotein). IDL has a CHOLESTEROL to TRIGLYCERIDES ratio greater than that of VERY-LOW-DENSITY LIPOPROTEINS. This disorder is due to mutation of APOLIPOPROTEINS E, a receptor-binding component of VLDL and CHYLOMICRONS, resulting in their reduced clearance and high plasma levels of both cholesterol and triglycerides.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease']",
+      "PathwayNames": "Visual phototransduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006952",
+        "standardized_id": "MESH:D006952",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperlipoproteinemia Type III",
+        "standardized_name": "Hyperlipoproteinemia Type III",
+        "normalized_name": "hyperlipoproteinemia type iii",
+        "synonyms": [],
+        "search_terms": [
+          "type",
+          "hyperlipoproteinemia",
+          "hyperlipoproteinemia type iii",
+          "iii"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An autosomal recessively inherited disorder characterized by the accumulation of intermediate-density lipoprotein (IDL or broad-beta-lipoprotein). IDL has a CHOLESTEROL to TRIGLYCERIDES ratio greater than that of VERY-LOW-DENSITY LIPOPROTEINS. This disorder is due to mutation of APOLIPOPROTEINS E, a receptor-binding component of VLDL and CHYLOMICRONS, resulting in their reduced clearance and high plasma levels of both cholesterol and triglycerides.",
+        "cleaned_description": "An autosomal recessively inherited disorder characterized by the accumulation of intermediate-density lipoprotein (IDL or broad-beta-lipoprotein). IDL has a CHOLESTEROL to TRIGLYCERIDES ratio greater than that of VERY-LOW-DENSITY LIPOPROTEINS. This disorder is due to mutation of APOLIPOPROTEINS E, a receptor-binding component of VLDL and CHYLOMICRONS, resulting in their reduced clearance and high plasma levels of both cholesterol and triglycerides.",
+        "description_summary": "An autosomal recessively inherited disorder characterized by the accumulation of intermediate-density lipoprotein (IDL or broad-beta-lipoprotein).",
+        "key_terms": [],
+        "word_count": 58
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Visual phototransduction",
+        "pathway_list": [
+          "Visual phototransduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.732381",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006953",
+      "DiseaseName": "Hyperlipoproteinemia Type IV",
+      "DiseaseDescription": "A hypertriglyceridemia disorder, often with autosomal dominant inheritance. It is characterized by the persistent elevations of plasma TRIGLYCERIDES, endogenously synthesized and contained predominantly in VERY-LOW-DENSITY LIPOPROTEINS (pre-beta lipoproteins). In contrast, the plasma CHOLESTEROL and PHOSPHOLIPIDS usually remain within normal limits.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease']",
+      "PathwayNames": "Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006953",
+        "standardized_id": "MESH:D006953",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperlipoproteinemia Type IV",
+        "standardized_name": "Hyperlipoproteinemia Type IV",
+        "normalized_name": "hyperlipoproteinemia type iv",
+        "synonyms": [],
+        "search_terms": [
+          "type",
+          "hyperlipoproteinemia",
+          "hyperlipoproteinemia type iv"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A hypertriglyceridemia disorder, often with autosomal dominant inheritance. It is characterized by the persistent elevations of plasma TRIGLYCERIDES, endogenously synthesized and contained predominantly in VERY-LOW-DENSITY LIPOPROTEINS (pre-beta lipoproteins). In contrast, the plasma CHOLESTEROL and PHOSPHOLIPIDS usually remain within normal limits.",
+        "cleaned_description": "A hypertriglyceridemia disorder, often with autosomal dominant inheritance. It is characterized by the persistent elevations of plasma TRIGLYCERIDES, endogenously synthesized and contained predominantly in VERY-LOW-DENSITY LIPOPROTEINS (pre-beta lipoproteins). In contrast, the plasma CHOLESTEROL and PHOSPHOLIPIDS usually remain within normal limits.",
+        "description_summary": "A hypertriglyceridemia disorder, often with autosomal dominant inheritance.",
+        "key_terms": [
+          "hypertriglyceridemia"
+        ],
+        "word_count": 40
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)",
+        "pathway_list": [
+          "Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.732725",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006954",
+      "DiseaseName": "Hyperlipoproteinemia Type V",
+      "DiseaseDescription": "A severe type of hyperlipidemia, sometimes familial, that is characterized by the elevation of both plasma CHYLOMICRONS and TRIGLYCERIDES contained in VERY-LOW-DENSITY LIPOPROTEINS. Type V hyperlipoproteinemia is often associated with DIABETES MELLITUS and is not caused by reduced LIPOPROTEIN LIPASE activity as in HYPERLIPOPROTEINEMIA TYPE I .",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease']",
+      "PathwayNames": "Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006954",
+        "standardized_id": "MESH:D006954",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperlipoproteinemia Type V",
+        "standardized_name": "Hyperlipoproteinemia Type V",
+        "normalized_name": "hyperlipoproteinemia type v",
+        "synonyms": [],
+        "search_terms": [
+          "type",
+          "hyperlipoproteinemia",
+          "hyperlipoproteinemia type v"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A severe type of hyperlipidemia, sometimes familial, that is characterized by the elevation of both plasma CHYLOMICRONS and TRIGLYCERIDES contained in VERY-LOW-DENSITY LIPOPROTEINS. Type V hyperlipoproteinemia is often associated with DIABETES MELLITUS and is not caused by reduced LIPOPROTEIN LIPASE activity as in HYPERLIPOPROTEINEMIA TYPE I .",
+        "cleaned_description": "A severe type of hyperlipidemia, sometimes familial, that is characterized by the elevation of both plasma CHYLOMICRONS and TRIGLYCERIDES contained in VERY-LOW-DENSITY LIPOPROTEINS. Type V hyperlipoproteinemia is often associated with DIABETES MELLITUS and is not caused by reduced LIPOPROTEIN LIPASE activity as in HYPERLIPOPROTEINEMIA TYPE I .",
+        "description_summary": "A severe type of hyperlipidemia, sometimes familial, that is characterized by the elevation of both plasma CHYLOMICRONS and TRIGLYCERIDES contained in VERY-LOW-DENSITY LIPOPROTEINS.",
+        "key_terms": [
+          "hyperlipidemia",
+          "hyperlipoproteinemia",
+          "HYPERLIPOPROTEINEMIA"
+        ],
+        "word_count": 47
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)",
+        "pathway_list": [
+          "Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.733055",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D052456",
+      "DiseaseName": "Hypoalphalipoproteinemias",
+      "DiseaseDescription": "Conditions with abnormally low levels of ALPHA-LIPOPROTEINS (high-density lipoproteins) in the blood. Hypoalphalipoproteinemia can be associated with mutations in genes encoding APOLIPOPROTEIN A-I; LECITHIN CHOLESTEROL ACYLTRANSFERASE; and ATP-BINDING CASSETTE TRANSPORTERS.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease']",
+      "PathwayNames": "Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D052456",
+        "standardized_id": "MESH:D052456",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypoalphalipoproteinemias",
+        "standardized_name": "Hypoalphalipoproteinemias",
+        "normalized_name": "hypoalphalipoproteinemias",
+        "synonyms": [],
+        "search_terms": [
+          "hypoalphalipoproteinemias"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Conditions with abnormally low levels of ALPHA-LIPOPROTEINS (high-density lipoproteins) in the blood. Hypoalphalipoproteinemia can be associated with mutations in genes encoding APOLIPOPROTEIN A-I; LECITHIN CHOLESTEROL ACYLTRANSFERASE; and ATP-BINDING CASSETTE TRANSPORTERS.",
+        "cleaned_description": "Conditions with abnormally low levels of ALPHA-LIPOPROTEINS (high-density lipoproteins) in the blood. Hypoalphalipoproteinemia can be associated with mutations in genes encoding APOLIPOPROTEIN A-I; LECITHIN CHOLESTEROL ACYLTRANSFERASE; and ATP-BINDING CASSETTE TRANSPORTERS.",
+        "description_summary": "Conditions with abnormally low levels of ALPHA-LIPOPROTEINS (high-density lipoproteins) in the blood.",
+        "key_terms": [
+          "Hypoalphalipoproteinemia"
+        ],
+        "word_count": 30
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)",
+        "pathway_list": [
+          "Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.772861",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007009",
+      "DiseaseName": "Hypolipoproteinemias",
+      "DiseaseDescription": "Conditions with abnormally low levels of LIPOPROTEINS in the blood. This may involve any of the lipoprotein subclasses, including ALPHA-LIPOPROTEINS (high-density lipoproteins); BETA-LIPOPROTEINS (low-density lipoproteins); and PREBETA-LIPOPROTEINS (very-low-density lipoproteins).",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease']",
+      "PathwayNames": "Metabolism of lipids and lipoproteins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007009",
+        "standardized_id": "MESH:D007009",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypolipoproteinemias",
+        "standardized_name": "Hypolipoproteinemias",
+        "normalized_name": "hypolipoproteinemias",
+        "synonyms": [],
+        "search_terms": [
+          "hypolipoproteinemias"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Conditions with abnormally low levels of LIPOPROTEINS in the blood. This may involve any of the lipoprotein subclasses, including ALPHA-LIPOPROTEINS (high-density lipoproteins); BETA-LIPOPROTEINS (low-density lipoproteins); and PREBETA-LIPOPROTEINS (very-low-density lipoproteins).",
+        "cleaned_description": "Conditions with abnormally low levels of LIPOPROTEINS in the blood. This may involve any of the lipoprotein subclasses, including ALPHA-LIPOPROTEINS (high-density lipoproteins); BETA-LIPOPROTEINS (low-density lipoproteins); and PREBETA-LIPOPROTEINS (very-low-density lipoproteins).",
+        "description_summary": "Conditions with abnormally low levels of LIPOPROTEINS in the blood.",
+        "key_terms": [],
+        "word_count": 29
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Metabolism of lipids and lipoproteins",
+        "pathway_list": [
+          "Metabolism of lipids and lipoproteins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.774937",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008064",
+      "DiseaseName": "Lipidoses",
+      "DiseaseDescription": "Conditions characterized by abnormal lipid deposition due to disturbance in lipid metabolism, such as hereditary diseases involving lysosomal enzymes required for lipid breakdown. They are classified either by the enzyme defect or by the type of lipid involved.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease']",
+      "PathwayNames": "XBP1(S) activates chaperone genes",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008064",
+        "standardized_id": "MESH:D008064",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Lipidoses",
+        "standardized_name": "Lipidoses",
+        "normalized_name": "lipidoses",
+        "synonyms": [],
+        "search_terms": [
+          "lipidoses"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Conditions characterized by abnormal lipid deposition due to disturbance in lipid metabolism, such as hereditary diseases involving lysosomal enzymes required for lipid breakdown. They are classified either by the enzyme defect or by the type of lipid involved.",
+        "cleaned_description": "Conditions characterized by abnormal lipid deposition due to disturbance in lipid metabolism, such as hereditary diseases involving lysosomal enzymes required for lipid breakdown. They are classified either by the enzyme defect or by the type of lipid involved.",
+        "description_summary": "Conditions characterized by abnormal lipid deposition due to disturbance in lipid metabolism, such as hereditary diseases involving lysosomal enzymes required for lipid breakdown.",
+        "key_terms": [],
+        "word_count": 38
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "XBP1(S) activates chaperone genes",
+        "pathway_list": [
+          "XBP1(S) activates chaperone genes"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.815769",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008661",
+      "DiseaseName": "Metabolism, Inborn Errors",
+      "DiseaseDescription": "Errors in metabolic processes resulting from inborn genetic mutations that are inherited or acquired in utero.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease']",
+      "PathwayNames": "Vitamin C (ascorbate) metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008661",
+        "standardized_id": "MESH:D008661",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Metabolism, Inborn Errors",
+        "standardized_name": "Metabolism, Inborn Errors",
+        "normalized_name": "metabolism inborn errors",
+        "synonyms": [],
+        "search_terms": [
+          "metabolism, inborn errors",
+          "inborn",
+          "errors",
+          "metabolism,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Errors in metabolic processes resulting from inborn genetic mutations that are inherited or acquired in utero.",
+        "cleaned_description": "Errors in metabolic processes resulting from inborn genetic mutations that are inherited or acquired in utero.",
+        "description_summary": "Errors in metabolic processes resulting from inborn genetic mutations that are inherited or acquired in utero.",
+        "key_terms": [],
+        "word_count": 16
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamin C (ascorbate) metabolism",
+        "pathway_list": [
+          "Vitamin C (ascorbate) metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.847625",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011371",
+      "DiseaseName": "Progeria",
+      "DiseaseDescription": "An abnormal congenital condition, associated with defects in the LAMIN TYPE A gene, which is characterized by premature aging in children, where all the changes of cell senescence occur. It is manifested by premature graying; hair loss; hearing loss (DEAFNESS); cataracts (CATARACT); ARTHRITIS; OSTEOPOROSIS; DIABETES MELLITUS; atrophy of subcutaneous fat; skeletal hypoplasia; elevated urinary HYALURONIC ACID; and accelerated ATHEROSCLEROSIS. Many affected individuals develop malignant tumors, especially SARCOMA.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease']",
+      "PathwayNames": "XBP1(S) activates chaperone genes",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011371",
+        "standardized_id": "MESH:D011371",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Progeria",
+        "standardized_name": "Progeria",
+        "normalized_name": "progeria",
+        "synonyms": [],
+        "search_terms": [
+          "progeria"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An abnormal congenital condition, associated with defects in the LAMIN TYPE A gene, which is characterized by premature aging in children, where all the changes of cell senescence occur. It is manifested by premature graying; hair loss; hearing loss (DEAFNESS); cataracts (CATARACT); ARTHRITIS; OSTEOPOROSIS; DIABETES MELLITUS; atrophy of subcutaneous fat; skeletal hypoplasia; elevated urinary HYALURONIC ACID; and accelerated ATHEROSCLEROSIS. Many affected individuals develop malignant tumors, especially SARCOMA.",
+        "cleaned_description": "An abnormal congenital condition, associated with defects in the LAMIN TYPE A gene, which is characterized by premature aging in children, where all the changes of cell senescence occur. It is manifested by premature graying; hair loss; hearing loss (DEAFNESS); cataracts (CATARACT); ARTHRITIS; OSTEOPOROSIS; DIABETES MELLITUS; atrophy of subcutaneous fat; skeletal hypoplasia; elevated urinary HYALURONIC ACID; and accelerated ATHEROSCLEROSIS. Many affected individuals develop malignant tumors, especially SARCOMA.",
+        "description_summary": "An abnormal congenital condition, associated with defects in the LAMIN TYPE A gene, which is characterized by premature aging in children, where all the changes of cell senescence occur.",
+        "key_terms": [
+          "ARTHRITIS",
+          "ATHEROSCLEROSIS",
+          "OSTEOPOROSIS"
+        ],
+        "word_count": 67
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "XBP1(S) activates chaperone genes",
+        "pathway_list": [
+          "XBP1(S) activates chaperone genes"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.929926",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D056693",
+      "DiseaseName": "Propionic Acidemia",
+      "DiseaseDescription": "Autosomal recessive metabolic disorder caused by mutations in PROPIONYL-COA CARBOXYLASE genes that result in dysfunction of branch chain amino acids and of the metabolism of certain fatty acids. Neonatal clinical onset is characterized by severe metabolic acidemia accompanied by hyperammonemia, HYPERGLYCEMIA, lethargy, vomiting, HYPOTONIA; and HEPATOMEGALY. Survivors of the neonatal onset propionic acidemia often show developmental retardation, and intolerance to dietary proteins. Late-onset form of the disease shows mild mental and/or developmental retardation, sometimes without metabolic acidemia.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease']",
+      "PathwayNames": "Valine, leucine and isoleucine degradation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D056693",
+        "standardized_id": "MESH:D056693",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Propionic Acidemia",
+        "standardized_name": "Propionic Acidemia",
+        "normalized_name": "propionic acidemia",
+        "synonyms": [],
+        "search_terms": [
+          "propionic",
+          "propionic acidemia",
+          "acidemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Autosomal recessive metabolic disorder caused by mutations in PROPIONYL-COA CARBOXYLASE genes that result in dysfunction of branch chain amino acids and of the metabolism of certain fatty acids. Neonatal clinical onset is characterized by severe metabolic acidemia accompanied by hyperammonemia, HYPERGLYCEMIA, lethargy, vomiting, HYPOTONIA; and HEPATOMEGALY. Survivors of the neonatal onset propionic acidemia often show developmental retardation, and intolerance to dietary proteins. Late-onset form of the disease shows mild mental and/or developmental retardation, sometimes without metabolic acidemia.",
+        "cleaned_description": "Autosomal recessive metabolic disorder caused by mutations in PROPIONYL-COA CARBOXYLASE genes that result in dysfunction of branch chain amino acids and of the metabolism of certain fatty acids. Neonatal clinical onset is characterized by severe metabolic acidemia accompanied by hyperammonemia, HYPERGLYCEMIA, lethargy, vomiting, HYPOTONIA; and HEPATOMEGALY. Survivors of the neonatal onset propionic acidemia often show developmental retardation, and intolerance to dietary proteins. Late-onset form of the disease shows mild mental and/or developmental retardation, sometimes without metabolic acidemia.",
+        "description_summary": "Autosomal recessive metabolic disorder caused by mutations in PROPIONYL-COA CARBOXYLASE genes that result in dysfunction of branch chain amino acids and of the metabolism of certain fatty acids.",
+        "key_terms": [
+          "HYPERGLYCEMIA",
+          "hyperammonemia",
+          "acidemia"
+        ],
+        "word_count": 77
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Valine, leucine and isoleucine degradation",
+        "pathway_list": [
+          "leucine and isoleucine degradation",
+          "Valine"
+        ],
+        "pathway_count": 2,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.930652",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014898",
+      "DiseaseName": "Werner Syndrome",
+      "DiseaseDescription": "An autosomal recessive disorder that causes premature aging in adults, characterized by sclerodermal skin changes, cataracts, subcutaneous calcification, muscular atrophy, a tendency to diabetes mellitus, aged appearance of the face, baldness, and a high incidence of neoplastic disease.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease']",
+      "PathwayNames": "Transcriptional Regulation by TP53",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014898",
+        "standardized_id": "MESH:D014898",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Werner Syndrome",
+        "standardized_name": "Werner Syndrome",
+        "normalized_name": "werner syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "werner syndrome",
+          "syndrome",
+          "werner"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An autosomal recessive disorder that causes premature aging in adults, characterized by sclerodermal skin changes, cataracts, subcutaneous calcification, muscular atrophy, a tendency to diabetes mellitus, aged appearance of the face, baldness, and a high incidence of neoplastic disease.",
+        "cleaned_description": "An autosomal recessive disorder that causes premature aging in adults, characterized by sclerodermal skin changes, cataracts, subcutaneous calcification, muscular atrophy, a tendency to diabetes mellitus, aged appearance of the face, baldness, and a high incidence of neoplastic disease.",
+        "description_summary": "An autosomal recessive disorder that causes premature aging in adults, characterized by sclerodermal skin changes, cataracts, subcutaneous calcification, muscular atrophy, a tendency to diabetes mellitus, aged appearance of the face, baldness, and a high incidence of neoplastic disease.",
+        "key_terms": [],
+        "word_count": 38
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional Regulation by TP53",
+        "pathway_list": [
+          "Transcriptional Regulation by TP53"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional Regulation by TP53"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.025986",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

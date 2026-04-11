@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Pathology (anatomical condition)', 'Pathology (process)']",
+    "export_timestamp": "2026-03-28T22:11:36.343852",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D066253",
+      "DiseaseName": "Vascular Remodeling",
+      "DiseaseDescription": "The active alterations of vascular wall structures, often leading to elevated VASCULAR RESISTANCE. It is associated with AGING; ATHEROSCLEROSIS; DIABETES MELLITUS; HYPERTENSION; PREGNANCY; PULMONARY HYPERTENSION; and STROKE, but is also a normal part of EMBRYOGENESIS.",
+      "SlimMapping": "['Pathology (anatomical condition)', 'Pathology (process)']",
+      "PathwayNames": "SUMOylation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D066253",
+        "standardized_id": "MESH:D066253",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Vascular Remodeling",
+        "standardized_name": "Vascular Remodeling",
+        "normalized_name": "vascular remodeling",
+        "synonyms": [],
+        "search_terms": [
+          "vascular remodeling",
+          "vascular",
+          "remodeling"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The active alterations of vascular wall structures, often leading to elevated VASCULAR RESISTANCE. It is associated with AGING; ATHEROSCLEROSIS; DIABETES MELLITUS; HYPERTENSION; PREGNANCY; PULMONARY HYPERTENSION; and STROKE, but is also a normal part of EMBRYOGENESIS.",
+        "cleaned_description": "The active alterations of vascular wall structures, often leading to elevated VASCULAR RESISTANCE. It is associated with AGING; ATHEROSCLEROSIS; DIABETES MELLITUS; HYPERTENSION; PREGNANCY; PULMONARY HYPERTENSION; and STROKE, but is also a normal part of EMBRYOGENESIS.",
+        "description_summary": "The active alterations of vascular wall structures, often leading to elevated VASCULAR RESISTANCE.",
+        "key_terms": [
+          "ATHEROSCLEROSIS"
+        ],
+        "word_count": 35
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (anatomical condition)",
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (anatomical condition)",
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (anatomical condition)",
+          "Pathology (process)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "SUMOylation",
+        "pathway_list": [
+          "SUMOylation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.018810",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

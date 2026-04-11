@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Bacterial infection or mycosis', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.183084",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D008585",
+      "DiseaseName": "Meningitis, Meningococcal",
+      "DiseaseDescription": "A fulminant infection of the meninges and subarachnoid fluid by the bacterium NEISSERIA MENINGITIDIS, producing diffuse inflammation and peri-meningeal venous thromboses. Clinical manifestations include FEVER, nuchal rigidity, SEIZURES, severe HEADACHE, petechial rash, stupor, focal neurologic deficits, HYDROCEPHALUS, and COMA. The organism is usually transmitted via nasopharyngeal secretions and is a leading cause of meningitis in children and young adults. Organisms from Neisseria meningitidis serogroups A, B, C, Y, and W-135 have been reported to cause meningitis. (From Adams et al., Principles of Neurology, 6th ed, pp689-701; Curr Opin Pediatr 1998 Feb;10(1):13-8)",
+      "SlimMapping": "['Bacterial infection or mycosis', 'Nervous system disease']",
+      "PathwayNames": "Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008585",
+        "standardized_id": "MESH:D008585",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Meningitis, Meningococcal",
+        "standardized_name": "Meningitis, Meningococcal",
+        "normalized_name": "meningitis meningococcal",
+        "synonyms": [],
+        "search_terms": [
+          "meningitis, meningococcal",
+          "meningitis,",
+          "meningococcal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A fulminant infection of the meninges and subarachnoid fluid by the bacterium NEISSERIA MENINGITIDIS, producing diffuse inflammation and peri-meningeal venous thromboses. Clinical manifestations include FEVER, nuchal rigidity, SEIZURES, severe HEADACHE, petechial rash, stupor, focal neurologic deficits, HYDROCEPHALUS, and COMA. The organism is usually transmitted via nasopharyngeal secretions and is a leading cause of meningitis in children and young adults. Organisms from Neisseria meningitidis serogroups A, B, C, Y, and W-135 have been reported to cause meningitis. (From Adams et al., Principles of Neurology, 6th ed, pp689-701; Curr Opin Pediatr 1998 Feb;10(1):13-8)",
+        "cleaned_description": "A fulminant infection of the meninges and subarachnoid fluid by the bacterium NEISSERIA MENINGITIDIS, producing diffuse inflammation and peri-meningeal venous thromboses. Clinical manifestations include FEVER, nuchal rigidity, SEIZURES, severe HEADACHE, petechial rash, stupor, focal neurologic deficits, HYDROCEPHALUS, and COMA. The organism is usually transmitted via nasopharyngeal secretions and is a leading cause of meningitis in children and young adults. Organisms from Neisseria meningitidis serogroups A, B, C, Y, and W-135 have been reported to cause meningitis. (From Adams et al., Principles of Neurology, 6th ed, pp689-701; Curr Opin Pediatr 1998 Feb;10(1):13-8)",
+        "description_summary": "A fulminant infection of the meninges and subarachnoid fluid by the bacterium NEISSERIA MENINGITIDIS, producing diffuse inflammation and peri-meningeal venous thromboses.",
+        "key_terms": [
+          "meningitis"
+        ],
+        "word_count": 91
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Bacterial infection or mycosis",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Bacterial infection or mycosis",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Bacterial infection or mycosis",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds",
+        "pathway_list": [
+          "metal ions and amine compounds",
+          "Transport of glucose and other sugars",
+          "bile salts and organic acids"
+        ],
+        "pathway_count": 3,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.843761",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

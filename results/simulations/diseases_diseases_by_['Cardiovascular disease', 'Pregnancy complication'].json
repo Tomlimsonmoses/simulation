@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cardiovascular disease', 'Pregnancy complication']",
+    "export_timestamp": "2026-03-28T22:11:36.098551",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D046110",
+      "DiseaseName": "Hypertension, Pregnancy-Induced",
+      "DiseaseDescription": "A condition in pregnant women with elevated systolic (>140 mm Hg) and diastolic (>90 mm Hg) blood pressure on at least two occasions 6 h apart. HYPERTENSION complicates 8-10% of all pregnancies, generally after 20 weeks of gestation. Gestational hypertension can be divided into several broad categories according to the complexity and associated symptoms, such as EDEMA; PROTEINURIA; SEIZURES; abnormalities in BLOOD COAGULATION and liver functions.",
+      "SlimMapping": "['Cardiovascular disease', 'Pregnancy complication']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D046110",
+        "standardized_id": "MESH:D046110",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypertension, Pregnancy-Induced",
+        "standardized_name": "Hypertension, Pregnancy-Induced",
+        "normalized_name": "hypertension pregnancy-induced",
+        "synonyms": [],
+        "search_terms": [
+          "hypertension,",
+          "pregnancy-induced",
+          "hypertension, pregnancy-induced"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition in pregnant women with elevated systolic (>140 mm Hg) and diastolic (>90 mm Hg) blood pressure on at least two occasions 6 h apart. HYPERTENSION complicates 8-10% of all pregnancies, generally after 20 weeks of gestation. Gestational hypertension can be divided into several broad categories according to the complexity and associated symptoms, such as EDEMA; PROTEINURIA; SEIZURES; abnormalities in BLOOD COAGULATION and liver functions.",
+        "cleaned_description": "A condition in pregnant women with elevated systolic (>140 mm Hg) and diastolic (>90 mm Hg) blood pressure on at least two occasions 6 h apart. HYPERTENSION complicates 8-10% of all pregnancies, generally after 20 weeks of gestation. Gestational hypertension can be divided into several broad categories according to the complexity and associated symptoms, such as EDEMA; PROTEINURIA; SEIZURES; abnormalities in BLOOD COAGULATION and liver functions.",
+        "description_summary": "A condition in pregnant women with elevated systolic (>140 mm Hg) and diastolic (>90 mm Hg) blood pressure on at least two occasions 6 h apart.",
+        "key_terms": [],
+        "word_count": 66
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Pregnancy complication"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Pregnancy complication"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Pregnancy complication"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.768945",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011249",
+      "DiseaseName": "Pregnancy Complications, Cardiovascular",
+      "DiseaseDescription": "The co-occurrence of pregnancy and a cardiovascular disease. The disease may precede or follow FERTILIZATION and it may or may not have a deleterious effect on the pregnant woman or FETUS.",
+      "SlimMapping": "['Cardiovascular disease', 'Pregnancy complication']",
+      "PathwayNames": "Type II diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011249",
+        "standardized_id": "MESH:D011249",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pregnancy Complications, Cardiovascular",
+        "standardized_name": "Pregnancy Complications, Cardiovascular",
+        "normalized_name": "pregnancy complications cardiovascular",
+        "synonyms": [],
+        "search_terms": [
+          "complications,",
+          "pregnancy",
+          "cardiovascular",
+          "pregnancy complications, cardiovascular"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The co-occurrence of pregnancy and a cardiovascular disease. The disease may precede or follow FERTILIZATION and it may or may not have a deleterious effect on the pregnant woman or FETUS.",
+        "cleaned_description": "The co-occurrence of pregnancy and a cardiovascular disease. The disease may precede or follow FERTILIZATION and it may or may not have a deleterious effect on the pregnant woman or FETUS.",
+        "description_summary": "The co-occurrence of pregnancy and a cardiovascular disease.",
+        "key_terms": [],
+        "word_count": 31
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Pregnancy complication"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Pregnancy complication"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Pregnancy complication"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type II diabetes mellitus",
+        "pathway_list": [
+          "Type II diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.927165",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Digestive system disease', 'Metabolic disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.043071",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D006501",
+      "DiseaseName": "Hepatic Encephalopathy",
+      "DiseaseDescription": "A syndrome characterized by central nervous system dysfunction in association with LIVER FAILURE, including portal-systemic shunts. Clinical features include lethargy and CONFUSION (frequently progressing to COMA); ASTERIXIS; NYSTAGMUS, PATHOLOGIC; brisk oculovestibular reflexes; decorticate and decerebrate posturing; MUSCLE SPASTICITY; and bilateral extensor plantar reflexes (see REFLEX, BABINSKI). ELECTROENCEPHALOGRAPHY may demonstrate triphasic waves. (From Adams et al., Principles of Neurology, 6th ed, pp1117-20; Plum & Posner, Diagnosis of Stupor and Coma, 3rd ed, p222-5)",
+      "SlimMapping": "['Digestive system disease', 'Metabolic disease', 'Nervous system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006501",
+        "standardized_id": "MESH:D006501",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hepatic Encephalopathy",
+        "standardized_name": "Hepatic Encephalopathy",
+        "normalized_name": "hepatic encephalopathy",
+        "synonyms": [],
+        "search_terms": [
+          "hepatic",
+          "hepatic encephalopathy",
+          "encephalopathy"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A syndrome characterized by central nervous system dysfunction in association with LIVER FAILURE, including portal-systemic shunts. Clinical features include lethargy and CONFUSION (frequently progressing to COMA); ASTERIXIS; NYSTAGMUS, PATHOLOGIC; brisk oculovestibular reflexes; decorticate and decerebrate posturing; MUSCLE SPASTICITY; and bilateral extensor plantar reflexes (see REFLEX, BABINSKI). ELECTROENCEPHALOGRAPHY may demonstrate triphasic waves. (From Adams et al., Principles of Neurology, 6th ed, pp1117-20; Plum & Posner, Diagnosis of Stupor and Coma, 3rd ed, p222-5)",
+        "cleaned_description": "A syndrome characterized by central nervous system dysfunction in association with LIVER FAILURE, including portal-systemic shunts. Clinical features include lethargy and CONFUSION (frequently progressing to COMA); ASTERIXIS; NYSTAGMUS, PATHOLOGIC; brisk oculovestibular reflexes; decorticate and decerebrate posturing; MUSCLE SPASTICITY; and bilateral extensor plantar reflexes (see REFLEX, BABINSKI). ELECTROENCEPHALOGRAPHY may demonstrate triphasic waves. (From Adams et al., Principles of Neurology, 6th ed, pp1117-20; Plum & Posner, Diagnosis of Stupor and Coma, 3rd ed, p222-5)",
+        "description_summary": "A syndrome characterized by central nervous system dysfunction in association with LIVER FAILURE, including portal-systemic shunts.",
+        "key_terms": [
+          "Diagnosis"
+        ],
+        "word_count": 72
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Digestive system disease",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.645530",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

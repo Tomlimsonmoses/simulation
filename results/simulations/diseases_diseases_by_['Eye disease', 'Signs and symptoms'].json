@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Eye disease', 'Signs and symptoms']",
+    "export_timestamp": "2026-03-28T22:11:35.997439",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D005132",
+      "DiseaseName": "Eye Manifestations",
+      "DiseaseDescription": "Ocular disorders attendant upon non-ocular disease or injury.",
+      "SlimMapping": "['Eye disease', 'Signs and symptoms']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005132",
+        "standardized_id": "MESH:D005132",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Eye Manifestations",
+        "standardized_name": "Eye Manifestations",
+        "normalized_name": "eye manifestations",
+        "synonyms": [],
+        "search_terms": [
+          "eye",
+          "eye manifestations",
+          "manifestations"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Ocular disorders attendant upon non-ocular disease or injury.",
+        "cleaned_description": "Ocular disorders attendant upon non-ocular disease or injury.",
+        "description_summary": "Ocular disorders attendant upon non-ocular disease or injury.",
+        "key_terms": [],
+        "word_count": 8
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Eye disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Eye disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Eye disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.514200",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D058447",
+      "DiseaseName": "Eye Pain",
+      "DiseaseDescription": "A dull or sharp painful sensation associated with the outer or inner structures of the eyeball, having different causes.",
+      "SlimMapping": "['Eye disease', 'Signs and symptoms']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D058447",
+        "standardized_id": "MESH:D058447",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Eye Pain",
+        "standardized_name": "Eye Pain",
+        "normalized_name": "eye pain",
+        "synonyms": [],
+        "search_terms": [
+          "eye",
+          "eye pain",
+          "pain"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A dull or sharp painful sensation associated with the outer or inner structures of the eyeball, having different causes.",
+        "cleaned_description": "A dull or sharp painful sensation associated with the outer or inner structures of the eyeball, having different causes.",
+        "description_summary": "A dull or sharp painful sensation associated with the outer or inner structures of the eyeball, having different causes.",
+        "key_terms": [],
+        "word_count": 19
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Eye disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Eye disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Eye disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.514427",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

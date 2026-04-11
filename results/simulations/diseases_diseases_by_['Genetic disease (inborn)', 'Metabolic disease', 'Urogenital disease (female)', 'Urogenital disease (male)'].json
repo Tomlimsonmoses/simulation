@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Genetic disease (inborn)', 'Metabolic disease', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+    "export_timestamp": "2026-03-28T22:11:35.171390",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000141",
+      "DiseaseName": "Acidosis, Renal Tubular",
+      "DiseaseDescription": "A group of genetic disorders of the KIDNEY TUBULES characterized by the accumulation of metabolically produced acids with elevated plasma chloride, hyperchloremic metabolic ACIDOSIS. Defective renal acidification of URINE (proximal tubules) or low renal acid excretion (distal tubules) can lead to complications such as HYPOKALEMIA, hypercalcinuria with NEPHROLITHIASIS and NEPHROCALCINOSIS, and RICKETS.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Transport of inorganic cations/anions and amino acids/oligopeptides",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000141",
+        "standardized_id": "MESH:D000141",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Acidosis, Renal Tubular",
+        "standardized_name": "Acidosis, Renal Tubular",
+        "normalized_name": "acidosis renal tubular",
+        "synonyms": [],
+        "search_terms": [
+          "renal",
+          "acidosis, renal tubular",
+          "acidosis,",
+          "tubular"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A group of genetic disorders of the KIDNEY TUBULES characterized by the accumulation of metabolically produced acids with elevated plasma chloride, hyperchloremic metabolic ACIDOSIS. Defective renal acidification of URINE (proximal tubules) or low renal acid excretion (distal tubules) can lead to complications such as HYPOKALEMIA, hypercalcinuria with NEPHROLITHIASIS and NEPHROCALCINOSIS, and RICKETS.",
+        "cleaned_description": "A group of genetic disorders of the KIDNEY TUBULES characterized by the accumulation of metabolically produced acids with elevated plasma chloride, hyperchloremic metabolic ACIDOSIS. Defective renal acidification of URINE (proximal tubules) or low renal acid excretion (distal tubules) can lead to complications such as HYPOKALEMIA, hypercalcinuria with NEPHROLITHIASIS and NEPHROCALCINOSIS, and RICKETS.",
+        "description_summary": "A group of genetic disorders of the KIDNEY TUBULES characterized by the accumulation of metabolically produced acids with elevated plasma chloride, hyperchloremic metabolic ACIDOSIS.",
+        "key_terms": [
+          "ACIDOSIS",
+          "NEPHROCALCINOSIS",
+          "HYPOKALEMIA"
+        ],
+        "word_count": 52
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Urogenital disease (female)"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of inorganic cations/anions and amino acids/oligopeptides",
+        "pathway_list": [
+          "Transport of inorganic cations/anions and amino acids/oligopeptides"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.349811",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006030",
+      "DiseaseName": "Glycosuria, Renal",
+      "DiseaseDescription": "An autosomal inherited disorder due to defective reabsorption of GLUCOSE by the PROXIMAL RENAL TUBULES. The urinary loss of glucose can reach beyond 50 g/day. It is attributed to the mutations in the SODIUM-GLUCOSE TRANSPORTER 2 encoded by the SLC5A2 gene.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006030",
+        "standardized_id": "MESH:D006030",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Glycosuria, Renal",
+        "standardized_name": "Glycosuria, Renal",
+        "normalized_name": "glycosuria renal",
+        "synonyms": [],
+        "search_terms": [
+          "glycosuria, renal",
+          "glycosuria,",
+          "renal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An autosomal inherited disorder due to defective reabsorption of GLUCOSE by the PROXIMAL RENAL TUBULES. The urinary loss of glucose can reach beyond 50 g/day. It is attributed to the mutations in the SODIUM-GLUCOSE TRANSPORTER 2 encoded by the SLC5A2 gene.",
+        "cleaned_description": "An autosomal inherited disorder due to defective reabsorption of GLUCOSE by the PROXIMAL RENAL TUBULES. The urinary loss of glucose can reach beyond 50 g/day. It is attributed to the mutations in the SODIUM-GLUCOSE TRANSPORTER 2 encoded by the SLC5A2 gene.",
+        "description_summary": "An autosomal inherited disorder due to defective reabsorption of GLUCOSE by the PROXIMAL RENAL TUBULES.",
+        "key_terms": [],
+        "word_count": 41
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Urogenital disease (female)"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds",
+        "pathway_list": [
+          "metal ions and amine compounds",
+          "Transport of glucose and other sugars",
+          "bile salts and organic acids"
+        ],
+        "pathway_count": 3,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.546450",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

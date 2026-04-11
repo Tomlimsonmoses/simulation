@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Endocrine system disease', 'Metabolic disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.115056",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D007177",
+      "DiseaseName": "Inappropriate ADH Syndrome",
+      "DiseaseDescription": "A condition of HYPONATREMIA and renal salt loss attributed to overexpansion of BODY FLUIDS resulting from sustained release of ANTIDIURETIC HORMONES which stimulates renal resorption of water. It is characterized by normal KIDNEY function, high urine OSMOLALITY, low serum osmolality, and neurological dysfunction. Etiologies include ADH-producing neoplasms, injuries or diseases involving the HYPOTHALAMUS, the PITUITARY GLAND, and the LUNG. This syndrome can also be drug-induced.",
+      "SlimMapping": "['Endocrine system disease', 'Metabolic disease', 'Nervous system disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007177",
+        "standardized_id": "MESH:D007177",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Inappropriate ADH Syndrome",
+        "standardized_name": "Inappropriate ADH Syndrome",
+        "normalized_name": "inappropriate adh syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "inappropriate adh syndrome",
+          "adh",
+          "syndrome",
+          "inappropriate"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition of HYPONATREMIA and renal salt loss attributed to overexpansion of BODY FLUIDS resulting from sustained release of ANTIDIURETIC HORMONES which stimulates renal resorption of water. It is characterized by normal KIDNEY function, high urine OSMOLALITY, low serum osmolality, and neurological dysfunction. Etiologies include ADH-producing neoplasms, injuries or diseases involving the HYPOTHALAMUS, the PITUITARY GLAND, and the LUNG. This syndrome can also be drug-induced.",
+        "cleaned_description": "A condition of HYPONATREMIA and renal salt loss attributed to overexpansion of BODY FLUIDS resulting from sustained release of ANTIDIURETIC HORMONES which stimulates renal resorption of water. It is characterized by normal KIDNEY function, high urine OSMOLALITY, low serum osmolality, and neurological dysfunction. Etiologies include ADH-producing neoplasms, injuries or diseases involving the HYPOTHALAMUS, the PITUITARY GLAND, and the LUNG. This syndrome can also be drug-induced.",
+        "description_summary": "A condition of HYPONATREMIA and renal salt loss attributed to overexpansion of BODY FLUIDS resulting from sustained release of ANTIDIURETIC HORMONES which stimulates renal resorption of water.",
+        "key_terms": [
+          "HYPONATREMIA"
+        ],
+        "word_count": 65
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.783773",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,427 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Mental disorder', 'Nervous system disease', 'Signs and symptoms']",
+    "export_timestamp": "2026-03-28T22:11:35.513039",
+    "total_records": 6
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000647",
+      "DiseaseName": "Amnesia",
+      "DiseaseDescription": "Pathologic partial or complete loss of the ability to recall past experiences (AMNESIA, RETROGRADE) or to form new memories (AMNESIA, ANTEROGRADE). This condition may be of organic or psychologic origin. Organic forms of amnesia are usually associated with dysfunction of the DIENCEPHALON or HIPPOCAMPUS. (From Adams et al., Principles of Neurology, 6th ed, pp426-7)",
+      "SlimMapping": "['Mental disorder', 'Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000647",
+        "standardized_id": "MESH:D000647",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Amnesia",
+        "standardized_name": "Amnesia",
+        "normalized_name": "amnesia",
+        "synonyms": [],
+        "search_terms": [
+          "amnesia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathologic partial or complete loss of the ability to recall past experiences (AMNESIA, RETROGRADE) or to form new memories (AMNESIA, ANTEROGRADE). This condition may be of organic or psychologic origin. Organic forms of amnesia are usually associated with dysfunction of the DIENCEPHALON or HIPPOCAMPUS. (From Adams et al., Principles of Neurology, 6th ed, pp426-7)",
+        "cleaned_description": "Pathologic partial or complete loss of the ability to recall past experiences (AMNESIA, RETROGRADE) or to form new memories (AMNESIA, ANTEROGRADE). This condition may be of organic or psychologic origin. Organic forms of amnesia are usually associated with dysfunction of the DIENCEPHALON or HIPPOCAMPUS. (From Adams et al., Principles of Neurology, 6th ed, pp426-7)",
+        "description_summary": "Pathologic partial or complete loss of the ability to recall past experiences (AMNESIA, RETROGRADE) or to form new memories (AMNESIA, ANTEROGRADE).",
+        "key_terms": [],
+        "word_count": 54
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.361475",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000648",
+      "DiseaseName": "Amnesia, Retrograde",
+      "DiseaseDescription": "Loss of the ability to recall information that had been previously encoded in memory prior to a specified or approximate point in time. This process may be organic or psychogenic in origin. Organic forms may be associated with CRANIOCEREBRAL TRAUMA; CEREBROVASCULAR ACCIDENTS; SEIZURES; DEMENTIA; and a wide variety of other conditions that impair cerebral function. (From Adams et al., Principles of Neurology, 6th ed, pp426-9)",
+      "SlimMapping": "['Mental disorder', 'Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Renin-angiotensin system",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000648",
+        "standardized_id": "MESH:D000648",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Amnesia, Retrograde",
+        "standardized_name": "Amnesia, Retrograde",
+        "normalized_name": "amnesia retrograde",
+        "synonyms": [],
+        "search_terms": [
+          "retrograde",
+          "amnesia, retrograde",
+          "amnesia,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Loss of the ability to recall information that had been previously encoded in memory prior to a specified or approximate point in time. This process may be organic or psychogenic in origin. Organic forms may be associated with CRANIOCEREBRAL TRAUMA; CEREBROVASCULAR ACCIDENTS; SEIZURES; DEMENTIA; and a wide variety of other conditions that impair cerebral function. (From Adams et al., Principles of Neurology, 6th ed, pp426-9)",
+        "cleaned_description": "Loss of the ability to recall information that had been previously encoded in memory prior to a specified or approximate point in time. This process may be organic or psychogenic in origin. Organic forms may be associated with CRANIOCEREBRAL TRAUMA; CEREBROVASCULAR ACCIDENTS; SEIZURES; DEMENTIA; and a wide variety of other conditions that impair cerebral function. (From Adams et al., Principles of Neurology, 6th ed, pp426-9)",
+        "description_summary": "Loss of the ability to recall information that had been previously encoded in memory prior to a specified or approximate point in time.",
+        "key_terms": [
+          "psychogenic"
+        ],
+        "word_count": 65
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Renin-angiotensin system",
+        "pathway_list": [
+          "Renin-angiotensin system"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.361973",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008607",
+      "DiseaseName": "Intellectual Disability",
+      "DiseaseDescription": "Subnormal intellectual functioning which originates during the developmental period. This has multiple potential etiologies, including genetic defects and perinatal insults. Intelligence quotient (IQ) scores are commonly used to determine whether an individual has an intellectual disability. IQ scores between 70 and 79 are in the borderline range. Scores below 67 are in the disabled range. (from Joynt, Clinical Neurology, 1992, Ch55, p28)",
+      "SlimMapping": "['Mental disorder', 'Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008607",
+        "standardized_id": "MESH:D008607",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Intellectual Disability",
+        "standardized_name": "Intellectual Disability",
+        "normalized_name": "intellectual disability",
+        "synonyms": [],
+        "search_terms": [
+          "disability",
+          "intellectual disability",
+          "intellectual"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Subnormal intellectual functioning which originates during the developmental period. This has multiple potential etiologies, including genetic defects and perinatal insults. Intelligence quotient (IQ) scores are commonly used to determine whether an individual has an intellectual disability. IQ scores between 70 and 79 are in the borderline range. Scores below 67 are in the disabled range. (from Joynt, Clinical Neurology, 1992, Ch55, p28)",
+        "cleaned_description": "Subnormal intellectual functioning which originates during the developmental period. This has multiple potential etiologies, including genetic defects and perinatal insults. Intelligence quotient (IQ) scores are commonly used to determine whether an individual has an intellectual disability. IQ scores between 70 and 79 are in the borderline range. Scores below 67 are in the disabled range. (from Joynt, Clinical Neurology, 1992, Ch55, p28)",
+        "description_summary": "Subnormal intellectual functioning which originates during the developmental period.",
+        "key_terms": [],
+        "word_count": 62
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.789292",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007859",
+      "DiseaseName": "Learning Disabilities",
+      "DiseaseDescription": "Conditions characterized by a significant discrepancy between an individual's perceived level of intellect and their ability to acquire new language and other cognitive skills. These may result from organic or psychological conditions. Relatively common subtypes include DYSLEXIA, DYSCALCULIA, and DYSGRAPHIA.",
+      "SlimMapping": "['Mental disorder', 'Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007859",
+        "standardized_id": "MESH:D007859",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Learning Disabilities",
+        "standardized_name": "Learning Disabilities",
+        "normalized_name": "learning disabilities",
+        "synonyms": [],
+        "search_terms": [
+          "disabilities",
+          "learning disabilities",
+          "learning"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Conditions characterized by a significant discrepancy between an individual's perceived level of intellect and their ability to acquire new language and other cognitive skills. These may result from organic or psychological conditions. Relatively common subtypes include DYSLEXIA, DYSCALCULIA, and DYSGRAPHIA.",
+        "cleaned_description": "Conditions characterized by a significant discrepancy between an individual's perceived level of intellect and their ability to acquire new language and other cognitive skills. These may result from organic or psychological conditions. Relatively common subtypes include DYSLEXIA, DYSCALCULIA, and DYSGRAPHIA.",
+        "description_summary": "Conditions characterized by a significant discrepancy between an individual's perceived level of intellect and their ability to acquire new language and other cognitive skills.",
+        "key_terms": [],
+        "word_count": 40
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.804526",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012892",
+      "DiseaseName": "Sleep Deprivation",
+      "DiseaseDescription": "The state of being deprived of sleep under experimental conditions, due to life events, or from a wide variety of pathophysiologic causes such as medication effect, chronic illness, psychiatric illness, or sleep disorder.",
+      "SlimMapping": "['Mental disorder', 'Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Synthesis of Prostaglandins (PG) and Thromboxanes (TX)",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012892",
+        "standardized_id": "MESH:D012892",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Sleep Deprivation",
+        "standardized_name": "Sleep Deprivation",
+        "normalized_name": "sleep deprivation",
+        "synonyms": [],
+        "search_terms": [
+          "sleep",
+          "deprivation",
+          "sleep deprivation"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The state of being deprived of sleep under experimental conditions, due to life events, or from a wide variety of pathophysiologic causes such as medication effect, chronic illness, psychiatric illness, or sleep disorder.",
+        "cleaned_description": "The state of being deprived of sleep under experimental conditions, due to life events, or from a wide variety of pathophysiologic causes such as medication effect, chronic illness, psychiatric illness, or sleep disorder.",
+        "description_summary": "The state of being deprived of sleep under experimental conditions, due to life events, or from a wide variety of pathophysiologic causes such as medication effect, chronic illness, psychiatric illness, or sleep disorder.",
+        "key_terms": [],
+        "word_count": 33
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Synthesis of Prostaglandins (PG) and Thromboxanes (TX)",
+        "pathway_list": [
+          "Synthesis of Prostaglandins (PG) and Thromboxanes (TX)"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.966735",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012893",
+      "DiseaseName": "Sleep Wake Disorders",
+      "DiseaseDescription": "Abnormal sleep-wake schedule or pattern associated with the CIRCADIAN RHYTHM which affect the length, timing, and/or rigidity of the sleep-wake cycle relative to the day-night cycle.",
+      "SlimMapping": "['Mental disorder', 'Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Type I diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012893",
+        "standardized_id": "MESH:D012893",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Sleep Wake Disorders",
+        "standardized_name": "Sleep Wake Disorders",
+        "normalized_name": "sleep wake disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "sleep",
+          "sleep wake disorders",
+          "wake"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormal sleep-wake schedule or pattern associated with the CIRCADIAN RHYTHM which affect the length, timing, and/or rigidity of the sleep-wake cycle relative to the day-night cycle.",
+        "cleaned_description": "Abnormal sleep-wake schedule or pattern associated with the CIRCADIAN RHYTHM which affect the length, timing, and/or rigidity of the sleep-wake cycle relative to the day-night cycle.",
+        "description_summary": "Abnormal sleep-wake schedule or pattern associated with the CIRCADIAN RHYTHM which affect the length, timing, and/or rigidity of the sleep-wake cycle relative to the day-night cycle.",
+        "key_terms": [],
+        "word_count": 26
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type I diabetes mellitus",
+        "pathway_list": [
+          "Type I diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.968816",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

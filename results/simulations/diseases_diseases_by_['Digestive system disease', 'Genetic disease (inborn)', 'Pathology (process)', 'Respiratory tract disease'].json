@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Digestive system disease', 'Genetic disease (inborn)', 'Pathology (process)', 'Respiratory tract disease']",
+    "export_timestamp": "2026-03-28T22:11:35.504044",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D019896",
+      "DiseaseName": "alpha 1-Antitrypsin Deficiency",
+      "DiseaseDescription": "Deficiency of the protease inhibitor ALPHA 1-ANTITRYPSIN that manifests primarily as PULMONARY EMPHYSEMA and LIVER CIRRHOSIS.",
+      "SlimMapping": "['Digestive system disease', 'Genetic disease (inborn)', 'Pathology (process)', 'Respiratory tract disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D019896",
+        "standardized_id": "MESH:D019896",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "alpha 1-Antitrypsin Deficiency",
+        "standardized_name": "alpha 1-Antitrypsin Deficiency",
+        "normalized_name": "alpha 1-antitrypsin deficiency",
+        "synonyms": [],
+        "search_terms": [
+          "1-antitrypsin",
+          "alpha",
+          "deficiency",
+          "alpha 1-antitrypsin deficiency"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Deficiency of the protease inhibitor ALPHA 1-ANTITRYPSIN that manifests primarily as PULMONARY EMPHYSEMA and LIVER CIRRHOSIS.",
+        "cleaned_description": "Deficiency of the protease inhibitor ALPHA 1-ANTITRYPSIN that manifests primarily as PULMONARY EMPHYSEMA and LIVER CIRRHOSIS.",
+        "description_summary": "Deficiency of the protease inhibitor ALPHA 1-ANTITRYPSIN that manifests primarily as PULMONARY EMPHYSEMA and LIVER CIRRHOSIS.",
+        "key_terms": [
+          "CIRRHOSIS"
+        ],
+        "word_count": 16
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease",
+          "Genetic disease (inborn)",
+          "Pathology (process)",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease",
+          "Genetic disease (inborn)",
+          "Pathology (process)"
+        ],
+        "broad_categories": [
+          "respiratory",
+          "genetic"
+        ],
+        "all_categories": [
+          "Digestive system disease",
+          "Genetic disease (inborn)",
+          "Pathology (process)",
+          "Respiratory tract disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.360485",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

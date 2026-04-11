@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Metabolic disease', 'Musculoskeletal disease', 'Nutrition disorder']",
+    "export_timestamp": "2026-03-28T22:11:36.296636",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D012279",
+      "DiseaseName": "Rickets",
+      "DiseaseDescription": "Disorders caused by interruption of BONE MINERALIZATION manifesting as OSTEOMALACIA in adults and characteristic deformities in infancy and childhood due to disturbances in normal BONE FORMATION. The mineralization process may be interrupted by disruption of VITAMIN D; PHOSPHORUS; or CALCIUM homeostasis, resulting from dietary deficiencies, or acquired, or inherited metabolic, or hormonal disturbances.",
+      "SlimMapping": "['Metabolic disease', 'Musculoskeletal disease', 'Nutrition disorder']",
+      "PathwayNames": "Vitamins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012279",
+        "standardized_id": "MESH:D012279",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Rickets",
+        "standardized_name": "Rickets",
+        "normalized_name": "rickets",
+        "synonyms": [],
+        "search_terms": [
+          "rickets"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Disorders caused by interruption of BONE MINERALIZATION manifesting as OSTEOMALACIA in adults and characteristic deformities in infancy and childhood due to disturbances in normal BONE FORMATION. The mineralization process may be interrupted by disruption of VITAMIN D; PHOSPHORUS; or CALCIUM homeostasis, resulting from dietary deficiencies, or acquired, or inherited metabolic, or hormonal disturbances.",
+        "cleaned_description": "Disorders caused by interruption of BONE MINERALIZATION manifesting as OSTEOMALACIA in adults and characteristic deformities in infancy and childhood due to disturbances in normal BONE FORMATION. The mineralization process may be interrupted by disruption of VITAMIN D; PHOSPHORUS; or CALCIUM homeostasis, resulting from dietary deficiencies, or acquired, or inherited metabolic, or hormonal disturbances.",
+        "description_summary": "Disorders caused by interruption of BONE MINERALIZATION manifesting as OSTEOMALACIA in adults and characteristic deformities in infancy and childhood due to disturbances in normal BONE FORMATION.",
+        "key_terms": [],
+        "word_count": 53
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease",
+          "Musculoskeletal disease",
+          "Nutrition disorder"
+        ],
+        "primary_categories": [
+          "Metabolic disease",
+          "Musculoskeletal disease",
+          "Nutrition disorder"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease",
+          "Musculoskeletal disease",
+          "Nutrition disorder"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamins",
+        "pathway_list": [
+          "Vitamins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.957672",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

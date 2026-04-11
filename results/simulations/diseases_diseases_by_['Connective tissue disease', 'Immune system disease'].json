@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Connective tissue disease', 'Immune system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.147162",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D008180",
+      "DiseaseName": "Lupus Erythematosus, Systemic",
+      "DiseaseDescription": "A chronic, relapsing, inflammatory, and often febrile multisystemic disorder of connective tissue, characterized principally by involvement of the skin, joints, kidneys, and serosal membranes. It is of unknown etiology, but is thought to represent a failure of the regulatory mechanisms of the autoimmune system. The disease is marked by a wide range of system dysfunctions, an elevated erythrocyte sedimentation rate, and the formation of LE cells in the blood or bone marrow.",
+      "SlimMapping": "['Connective tissue disease', 'Immune system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008180",
+        "standardized_id": "MESH:D008180",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Lupus Erythematosus, Systemic",
+        "standardized_name": "Lupus Erythematosus, Systemic",
+        "normalized_name": "lupus erythematosus systemic",
+        "synonyms": [],
+        "search_terms": [
+          "lupus",
+          "lupus erythematosus, systemic",
+          "systemic",
+          "erythematosus,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A chronic, relapsing, inflammatory, and often febrile multisystemic disorder of connective tissue, characterized principally by involvement of the skin, joints, kidneys, and serosal membranes. It is of unknown etiology, but is thought to represent a failure of the regulatory mechanisms of the autoimmune system. The disease is marked by a wide range of system dysfunctions, an elevated erythrocyte sedimentation rate, and the formation of LE cells in the blood or bone marrow.",
+        "cleaned_description": "A chronic, relapsing, inflammatory, and often febrile multisystemic disorder of connective tissue, characterized principally by involvement of the skin, joints, kidneys, and serosal membranes. It is of unknown etiology, but is thought to represent a failure of the regulatory mechanisms of the autoimmune system. The disease is marked by a wide range of system dysfunctions, an elevated erythrocyte sedimentation rate, and the formation of LE cells in the blood or bone marrow.",
+        "description_summary": "A chronic, relapsing, inflammatory, and often febrile multisystemic disorder of connective tissue, characterized principally by involvement of the skin, joints, kidneys, and serosal membranes.",
+        "key_terms": [],
+        "word_count": 72
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Connective tissue disease",
+          "Immune system disease"
+        ],
+        "primary_categories": [
+          "Connective tissue disease",
+          "Immune system disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Connective tissue disease",
+          "Immune system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.825421",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

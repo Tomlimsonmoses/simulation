@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Infant-newborn disease', 'Pathology (anatomical condition)']",
+    "export_timestamp": "2026-03-28T22:11:36.056753",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D006554",
+      "DiseaseName": "Hernia, Umbilical",
+      "DiseaseDescription": "A HERNIA due to an imperfect closure or weakness of the umbilical ring. It appears as a skin-covered protrusion at the UMBILICUS during crying, coughing, or straining. The hernia generally consists of OMENTUM or SMALL INTESTINE. The vast majority of umbilical hernias are congenital but can be acquired due to severe abdominal distention.",
+      "SlimMapping": "['Infant-newborn disease', 'Pathology (anatomical condition)']",
+      "PathwayNames": "Transmission across Chemical Synapses",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006554",
+        "standardized_id": "MESH:D006554",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hernia, Umbilical",
+        "standardized_name": "Hernia, Umbilical",
+        "normalized_name": "hernia umbilical",
+        "synonyms": [],
+        "search_terms": [
+          "umbilical",
+          "hernia,",
+          "hernia, umbilical"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A HERNIA due to an imperfect closure or weakness of the umbilical ring. It appears as a skin-covered protrusion at the UMBILICUS during crying, coughing, or straining. The hernia generally consists of OMENTUM or SMALL INTESTINE. The vast majority of umbilical hernias are congenital but can be acquired due to severe abdominal distention.",
+        "cleaned_description": "A HERNIA due to an imperfect closure or weakness of the umbilical ring. It appears as a skin-covered protrusion at the UMBILICUS during crying, coughing, or straining. The hernia generally consists of OMENTUM or SMALL INTESTINE. The vast majority of umbilical hernias are congenital but can be acquired due to severe abdominal distention.",
+        "description_summary": "A HERNIA due to an imperfect closure or weakness of the umbilical ring.",
+        "key_terms": [],
+        "word_count": 53
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Infant-newborn disease",
+          "Pathology (anatomical condition)"
+        ],
+        "primary_categories": [
+          "Infant-newborn disease",
+          "Pathology (anatomical condition)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Infant-newborn disease",
+          "Pathology (anatomical condition)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmission across Chemical Synapses",
+        "pathway_list": [
+          "Transmission across Chemical Synapses"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.656740",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

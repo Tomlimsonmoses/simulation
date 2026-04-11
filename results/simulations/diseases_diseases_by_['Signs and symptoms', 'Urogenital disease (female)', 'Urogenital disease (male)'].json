@@ -1,0 +1,350 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Signs and symptoms', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+    "export_timestamp": "2026-03-28T22:11:35.463580",
+    "total_records": 5
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000419",
+      "DiseaseName": "Albuminuria",
+      "DiseaseDescription": "The presence of albumin in the urine, an indicator of KIDNEY DISEASES.",
+      "SlimMapping": "['Signs and symptoms', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Visual phototransduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000419",
+        "standardized_id": "MESH:D000419",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Albuminuria",
+        "standardized_name": "Albuminuria",
+        "normalized_name": "albuminuria",
+        "synonyms": [],
+        "search_terms": [
+          "albuminuria"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The presence of albumin in the urine, an indicator of KIDNEY DISEASES.",
+        "cleaned_description": "The presence of albumin in the urine, an indicator of KIDNEY DISEASES.",
+        "description_summary": "The presence of albumin in the urine, an indicator of KIDNEY DISEASES.",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Signs and symptoms",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Visual phototransduction",
+        "pathway_list": [
+          "Visual phototransduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.358970",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009846",
+      "DiseaseName": "Oliguria",
+      "DiseaseDescription": "Decreased URINE output that is below the normal range. Oliguria can be defined as urine output of less than or equal to 0.5 or 1 ml/kg/hr depending on the age.",
+      "SlimMapping": "['Signs and symptoms', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009846",
+        "standardized_id": "MESH:D009846",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Oliguria",
+        "standardized_name": "Oliguria",
+        "normalized_name": "oliguria",
+        "synonyms": [],
+        "search_terms": [
+          "oliguria"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Decreased URINE output that is below the normal range. Oliguria can be defined as urine output of less than or equal to 0.5 or 1 ml/kg/hr depending on the age.",
+        "cleaned_description": "Decreased URINE output that is below the normal range. Oliguria can be defined as urine output of less than or equal to 0.5 or 1 ml/kg/hr depending on the age.",
+        "description_summary": "Decreased URINE output that is below the normal range.",
+        "key_terms": [],
+        "word_count": 30
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Signs and symptoms",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.891975",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011141",
+      "DiseaseName": "Polyuria",
+      "DiseaseDescription": "Urination of a large volume of urine with an increase in urinary frequency, commonly seen in diabetes (DIABETES MELLITUS; DIABETES INSIPIDUS).",
+      "SlimMapping": "['Signs and symptoms', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011141",
+        "standardized_id": "MESH:D011141",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Polyuria",
+        "standardized_name": "Polyuria",
+        "normalized_name": "polyuria",
+        "synonyms": [],
+        "search_terms": [
+          "polyuria"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Urination of a large volume of urine with an increase in urinary frequency, commonly seen in diabetes (DIABETES MELLITUS; DIABETES INSIPIDUS).",
+        "cleaned_description": "Urination of a large volume of urine with an increase in urinary frequency, commonly seen in diabetes (DIABETES MELLITUS; DIABETES INSIPIDUS).",
+        "description_summary": "Urination of a large volume of urine with an increase in urinary frequency, commonly seen in diabetes (DIABETES MELLITUS; DIABETES INSIPIDUS).",
+        "key_terms": [],
+        "word_count": 21
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Signs and symptoms",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.924386",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011507",
+      "DiseaseName": "Proteinuria",
+      "DiseaseDescription": "The presence of proteins in the urine, an indicator of KIDNEY DISEASES.",
+      "SlimMapping": "['Signs and symptoms', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011507",
+        "standardized_id": "MESH:D011507",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Proteinuria",
+        "standardized_name": "Proteinuria",
+        "normalized_name": "proteinuria",
+        "synonyms": [],
+        "search_terms": [
+          "proteinuria"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The presence of proteins in the urine, an indicator of KIDNEY DISEASES.",
+        "cleaned_description": "The presence of proteins in the urine, an indicator of KIDNEY DISEASES.",
+        "description_summary": "The presence of proteins in the urine, an indicator of KIDNEY DISEASES.",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Signs and symptoms",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.932914",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D053201",
+      "DiseaseName": "Urinary Bladder, Overactive",
+      "DiseaseDescription": "Symptom of overactive detrusor muscle of the URINARY BLADDER that contracts with abnormally high frequency and urgency. Overactive bladder is characterized by the frequent feeling of needing to urinate during the day, during the night, or both. URINARY INCONTINENCE may or may not be present.",
+      "SlimMapping": "['Signs and symptoms', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "TRP channels",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D053201",
+        "standardized_id": "MESH:D053201",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Urinary Bladder, Overactive",
+        "standardized_name": "Urinary Bladder, Overactive",
+        "normalized_name": "urinary bladder overactive",
+        "synonyms": [],
+        "search_terms": [
+          "urinary",
+          "urinary bladder, overactive",
+          "overactive",
+          "bladder,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Symptom of overactive detrusor muscle of the URINARY BLADDER that contracts with abnormally high frequency and urgency. Overactive bladder is characterized by the frequent feeling of needing to urinate during the day, during the night, or both. URINARY INCONTINENCE may or may not be present.",
+        "cleaned_description": "Symptom of overactive detrusor muscle of the URINARY BLADDER that contracts with abnormally high frequency and urgency. Overactive bladder is characterized by the frequent feeling of needing to urinate during the day, during the night, or both. URINARY INCONTINENCE may or may not be present.",
+        "description_summary": "Symptom of overactive detrusor muscle of the URINARY BLADDER that contracts with abnormally high frequency and urgency.",
+        "key_terms": [],
+        "word_count": 45
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Signs and symptoms",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "TRP channels",
+        "pathway_list": [
+          "TRP channels"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.012241",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Blood disease', 'Pathology (process)', 'Signs and symptoms']",
+    "export_timestamp": "2026-03-28T22:11:36.281475",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D055665",
+      "DiseaseName": "Purpura Fulminans",
+      "DiseaseDescription": "A severe, rapidly fatal reaction occurring most commonly in children following an infectious illness. It is characterized by large, rapidly spreading skin hemorrhages, fever, or shock. Purpura fulminans often accompanies or is triggered by DISSEMINATED INTRAVASCULAR COAGULATION.",
+      "SlimMapping": "['Blood disease', 'Pathology (process)', 'Signs and symptoms']",
+      "PathwayNames": "Transport of gamma-carboxylated protein precursors from the endoplasmic reticulum to the Golgi apparatus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D055665",
+        "standardized_id": "MESH:D055665",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Purpura Fulminans",
+        "standardized_name": "Purpura Fulminans",
+        "normalized_name": "purpura fulminans",
+        "synonyms": [],
+        "search_terms": [
+          "purpura",
+          "purpura fulminans",
+          "fulminans"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A severe, rapidly fatal reaction occurring most commonly in children following an infectious illness. It is characterized by large, rapidly spreading skin hemorrhages, fever, or shock. Purpura fulminans often accompanies or is triggered by DISSEMINATED INTRAVASCULAR COAGULATION.",
+        "cleaned_description": "A severe, rapidly fatal reaction occurring most commonly in children following an infectious illness. It is characterized by large, rapidly spreading skin hemorrhages, fever, or shock. Purpura fulminans often accompanies or is triggered by DISSEMINATED INTRAVASCULAR COAGULATION.",
+        "description_summary": "A severe, rapidly fatal reaction occurring most commonly in children following an infectious illness.",
+        "key_terms": [],
+        "word_count": 37
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Pathology (process)",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Pathology (process)",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease",
+          "Pathology (process)",
+          "Signs and symptoms"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of gamma-carboxylated protein precursors from the endoplasmic reticulum to the Golgi apparatus",
+        "pathway_list": [
+          "Transport of gamma-carboxylated protein precursors from the endoplasmic reticulum to the Golgi apparatus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.942007",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011697",
+      "DiseaseName": "Purpura, Thrombotic Thrombocytopenic",
+      "DiseaseDescription": "An acquired, congenital, or familial disorder caused by PLATELET AGGREGATION with THROMBOSIS in terminal arterioles and capillaries. Clinical features include THROMBOCYTOPENIA; HEMOLYTIC ANEMIA; AZOTEMIA; FEVER; and thrombotic microangiopathy. The classical form also includes neurological symptoms and end-organ damage, such as RENAL FAILURE. Mutations in the ADAMTS13 PROTEIN gene have been identified in familial cases.",
+      "SlimMapping": "['Blood disease', 'Pathology (process)', 'Signs and symptoms']",
+      "PathwayNames": "Post-translational protein modification",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011697",
+        "standardized_id": "MESH:D011697",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Purpura, Thrombotic Thrombocytopenic",
+        "standardized_name": "Purpura, Thrombotic Thrombocytopenic",
+        "normalized_name": "purpura thrombotic thrombocytopenic",
+        "synonyms": [],
+        "search_terms": [
+          "purpura,",
+          "purpura, thrombotic thrombocytopenic",
+          "thrombotic",
+          "thrombocytopenic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An acquired, congenital, or familial disorder caused by PLATELET AGGREGATION with THROMBOSIS in terminal arterioles and capillaries. Clinical features include THROMBOCYTOPENIA; HEMOLYTIC ANEMIA; AZOTEMIA; FEVER; and thrombotic microangiopathy. The classical form also includes neurological symptoms and end-organ damage, such as RENAL FAILURE. Mutations in the ADAMTS13 PROTEIN gene have been identified in familial cases.",
+        "cleaned_description": "An acquired, congenital, or familial disorder caused by PLATELET AGGREGATION with THROMBOSIS in terminal arterioles and capillaries. Clinical features include THROMBOCYTOPENIA; HEMOLYTIC ANEMIA; AZOTEMIA; FEVER; and thrombotic microangiopathy. The classical form also includes neurological symptoms and end-organ damage, such as RENAL FAILURE. Mutations in the ADAMTS13 PROTEIN gene have been identified in familial cases.",
+        "description_summary": "An acquired, congenital, or familial disorder caused by PLATELET AGGREGATION with THROMBOSIS in terminal arterioles and capillaries.",
+        "key_terms": [
+          "ANEMIA",
+          "AZOTEMIA",
+          "THROMBOSIS",
+          "microangiopathy"
+        ],
+        "word_count": 54
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Pathology (process)",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Pathology (process)",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease",
+          "Pathology (process)",
+          "Signs and symptoms"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Post-translational protein modification",
+        "pathway_list": [
+          "Post-translational protein modification"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.942803",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

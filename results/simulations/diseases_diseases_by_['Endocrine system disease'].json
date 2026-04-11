@@ -1,0 +1,1522 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Endocrine system disease']",
+    "export_timestamp": "2026-03-28T22:11:35.427368",
+    "total_records": 23
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000303",
+      "DiseaseName": "Adrenal Cortex Diseases",
+      "DiseaseDescription": "Pathological processes of the ADRENAL CORTEX.",
+      "SlimMapping": "['Endocrine system disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000303",
+        "standardized_id": "MESH:D000303",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Adrenal Cortex Diseases",
+        "standardized_name": "Adrenal Cortex Diseases",
+        "normalized_name": "adrenal cortex diseases",
+        "synonyms": [],
+        "search_terms": [
+          "adrenal cortex diseases",
+          "diseases",
+          "cortex",
+          "adrenal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological processes of the ADRENAL CORTEX.",
+        "cleaned_description": "Pathological processes of the ADRENAL CORTEX.",
+        "description_summary": "Pathological processes of the ADRENAL CORTEX.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.356835",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000307",
+      "DiseaseName": "Adrenal Gland Diseases",
+      "DiseaseDescription": "Pathological processes of the ADRENAL GLANDS.",
+      "SlimMapping": "['Endocrine system disease']",
+      "PathwayNames": "Transport to the Golgi and subsequent modification",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000307",
+        "standardized_id": "MESH:D000307",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Adrenal Gland Diseases",
+        "standardized_name": "Adrenal Gland Diseases",
+        "normalized_name": "adrenal gland diseases",
+        "synonyms": [],
+        "search_terms": [
+          "gland",
+          "diseases",
+          "adrenal gland diseases",
+          "adrenal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological processes of the ADRENAL GLANDS.",
+        "cleaned_description": "Pathological processes of the ADRENAL GLANDS.",
+        "description_summary": "Pathological processes of the ADRENAL GLANDS.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport to the Golgi and subsequent modification",
+        "pathway_list": [
+          "Transport to the Golgi and subsequent modification"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.356917",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000309",
+      "DiseaseName": "Adrenal Insufficiency",
+      "DiseaseDescription": "Conditions in which the production of adrenal CORTICOSTEROIDS falls below the requirement of the body. Adrenal insufficiency can be caused by defects in the ADRENAL GLANDS, the PITUITARY GLAND, or the HYPOTHALAMUS.",
+      "SlimMapping": "['Endocrine system disease']",
+      "PathwayNames": "Transcriptional regulation of pluripotent stem cells",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000309",
+        "standardized_id": "MESH:D000309",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Adrenal Insufficiency",
+        "standardized_name": "Adrenal Insufficiency",
+        "normalized_name": "adrenal insufficiency",
+        "synonyms": [],
+        "search_terms": [
+          "adrenal insufficiency",
+          "insufficiency",
+          "adrenal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Conditions in which the production of adrenal CORTICOSTEROIDS falls below the requirement of the body. Adrenal insufficiency can be caused by defects in the ADRENAL GLANDS, the PITUITARY GLAND, or the HYPOTHALAMUS.",
+        "cleaned_description": "Conditions in which the production of adrenal CORTICOSTEROIDS falls below the requirement of the body. Adrenal insufficiency can be caused by defects in the ADRENAL GLANDS, the PITUITARY GLAND, or the HYPOTHALAMUS.",
+        "description_summary": "Conditions in which the production of adrenal CORTICOSTEROIDS falls below the requirement of the body.",
+        "key_terms": [],
+        "word_count": 32
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional regulation of pluripotent stem cells",
+        "pathway_list": [
+          "Transcriptional regulation of pluripotent stem cells"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional regulation of pluripotent stem cells"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.357418",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003480",
+      "DiseaseName": "Cushing Syndrome",
+      "DiseaseDescription": "A condition caused by prolonged exposure to excess levels of cortisol (HYDROCORTISONE) or other GLUCOCORTICOIDS from endogenous or exogenous sources. It is characterized by upper body OBESITY; OSTEOPOROSIS; HYPERTENSION; DIABETES MELLITUS; HIRSUTISM; AMENORRHEA; and excess body fluid. Endogenous Cushing syndrome or spontaneous hypercortisolism is divided into two groups, those due to an excess of ADRENOCORTICOTROPIN and those that are ACTH-independent.",
+      "SlimMapping": "['Endocrine system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003480",
+        "standardized_id": "MESH:D003480",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cushing Syndrome",
+        "standardized_name": "Cushing Syndrome",
+        "normalized_name": "cushing syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "cushing",
+          "cushing syndrome",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition caused by prolonged exposure to excess levels of cortisol (HYDROCORTISONE) or other GLUCOCORTICOIDS from endogenous or exogenous sources. It is characterized by upper body OBESITY; OSTEOPOROSIS; HYPERTENSION; DIABETES MELLITUS; HIRSUTISM; AMENORRHEA; and excess body fluid. Endogenous Cushing syndrome or spontaneous hypercortisolism is divided into two groups, those due to an excess of ADRENOCORTICOTROPIN and those that are ACTH-independent.",
+        "cleaned_description": "A condition caused by prolonged exposure to excess levels of cortisol (HYDROCORTISONE) or other GLUCOCORTICOIDS from endogenous or exogenous sources. It is characterized by upper body OBESITY; OSTEOPOROSIS; HYPERTENSION; DIABETES MELLITUS; HIRSUTISM; AMENORRHEA; and excess body fluid. Endogenous Cushing syndrome or spontaneous hypercortisolism is divided into two groups, those due to an excess of ADRENOCORTICOTROPIN and those that are ACTH-independent.",
+        "description_summary": "A condition caused by prolonged exposure to excess levels of cortisol (HYDROCORTISONE) or other GLUCOCORTICOIDS from endogenous or exogenous sources.",
+        "key_terms": [
+          "OSTEOPOROSIS"
+        ],
+        "word_count": 60
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.464658",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D048909",
+      "DiseaseName": "Diabetes Complications",
+      "DiseaseDescription": "Conditions or pathological processes associated with the disease of diabetes mellitus. Due to the impaired control of BLOOD GLUCOSE level in diabetic patients, pathological processes develop in numerous tissues and organs including the EYE, the KIDNEY, the BLOOD VESSELS, and the NERVE TISSUE.",
+      "SlimMapping": "['Endocrine system disease']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D048909",
+        "standardized_id": "MESH:D048909",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Diabetes Complications",
+        "standardized_name": "Diabetes Complications",
+        "normalized_name": "diabetes complications",
+        "synonyms": [],
+        "search_terms": [
+          "diabetes",
+          "complications",
+          "diabetes complications"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Conditions or pathological processes associated with the disease of diabetes mellitus. Due to the impaired control of BLOOD GLUCOSE level in diabetic patients, pathological processes develop in numerous tissues and organs including the EYE, the KIDNEY, the BLOOD VESSELS, and the NERVE TISSUE.",
+        "cleaned_description": "Conditions or pathological processes associated with the disease of diabetes mellitus. Due to the impaired control of BLOOD GLUCOSE level in diabetic patients, pathological processes develop in numerous tissues and organs including the EYE, the KIDNEY, the BLOOD VESSELS, and the NERVE TISSUE.",
+        "description_summary": "Conditions or pathological processes associated with the disease of diabetes mellitus.",
+        "key_terms": [],
+        "word_count": 43
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.478751",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004700",
+      "DiseaseName": "Endocrine System Diseases",
+      "DiseaseDescription": "Pathological processes of the ENDOCRINE GLANDS, and diseases resulting from abnormal level of available HORMONES.",
+      "SlimMapping": "['Endocrine system disease']",
+      "PathwayNames": "Vibrio cholerae infection",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004700",
+        "standardized_id": "MESH:D004700",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Endocrine System Diseases",
+        "standardized_name": "Endocrine System Diseases",
+        "normalized_name": "endocrine system diseases",
+        "synonyms": [],
+        "search_terms": [
+          "endocrine",
+          "diseases",
+          "endocrine system diseases",
+          "system"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological processes of the ENDOCRINE GLANDS, and diseases resulting from abnormal level of available HORMONES.",
+        "cleaned_description": "Pathological processes of the ENDOCRINE GLANDS, and diseases resulting from abnormal level of available HORMONES.",
+        "description_summary": "Pathological processes of the ENDOCRINE GLANDS, and diseases resulting from abnormal level of available HORMONES.",
+        "key_terms": [],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vibrio cholerae infection",
+        "pathway_list": [
+          "Vibrio cholerae infection"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.494763",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006042",
+      "DiseaseName": "Goiter",
+      "DiseaseDescription": "Enlargement of the THYROID GLAND that may increase from about 20 grams to hundreds of grams in human adults. Goiter is observed in individuals with normal thyroid function (euthyroidism), thyroid deficiency (HYPOTHYROIDISM), or hormone overproduction (HYPERTHYROIDISM). Goiter may be congenital or acquired, sporadic or endemic (GOITER, ENDEMIC).",
+      "SlimMapping": "['Endocrine system disease']",
+      "PathwayNames": "Tyrosine metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006042",
+        "standardized_id": "MESH:D006042",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Goiter",
+        "standardized_name": "Goiter",
+        "normalized_name": "goiter",
+        "synonyms": [],
+        "search_terms": [
+          "goiter"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Enlargement of the THYROID GLAND that may increase from about 20 grams to hundreds of grams in human adults. Goiter is observed in individuals with normal thyroid function (euthyroidism), thyroid deficiency (HYPOTHYROIDISM), or hormone overproduction (HYPERTHYROIDISM). Goiter may be congenital or acquired, sporadic or endemic (GOITER, ENDEMIC).",
+        "cleaned_description": "Enlargement of the THYROID GLAND that may increase from about 20 grams to hundreds of grams in human adults. Goiter is observed in individuals with normal thyroid function (euthyroidism), thyroid deficiency (HYPOTHYROIDISM), or hormone overproduction (HYPERTHYROIDISM). Goiter may be congenital or acquired, sporadic or endemic (GOITER, ENDEMIC).",
+        "description_summary": "Enlargement of the THYROID GLAND that may increase from about 20 grams to hundreds of grams in human adults.",
+        "key_terms": [],
+        "word_count": 47
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tyrosine metabolism",
+        "pathway_list": [
+          "Tyrosine metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.546795",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006044",
+      "DiseaseName": "Goiter, Nodular",
+      "DiseaseDescription": "An enlarged THYROID GLAND containing multiple nodules (THYROID NODULE), usually resulting from recurrent thyroid HYPERPLASIA and involution over many years to produce the irregular enlargement. Multinodular goiters may be nontoxic or may induce THYROTOXICOSIS.",
+      "SlimMapping": "['Endocrine system disease']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006044",
+        "standardized_id": "MESH:D006044",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Goiter, Nodular",
+        "standardized_name": "Goiter, Nodular",
+        "normalized_name": "goiter nodular",
+        "synonyms": [],
+        "search_terms": [
+          "goiter,",
+          "nodular",
+          "goiter, nodular"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An enlarged THYROID GLAND containing multiple nodules (THYROID NODULE), usually resulting from recurrent thyroid HYPERPLASIA and involution over many years to produce the irregular enlargement. Multinodular goiters may be nontoxic or may induce THYROTOXICOSIS.",
+        "cleaned_description": "An enlarged THYROID GLAND containing multiple nodules (THYROID NODULE), usually resulting from recurrent thyroid HYPERPLASIA and involution over many years to produce the irregular enlargement. Multinodular goiters may be nontoxic or may induce THYROTOXICOSIS.",
+        "description_summary": "An enlarged THYROID GLAND containing multiple nodules (THYROID NODULE), usually resulting from recurrent thyroid HYPERPLASIA and involution over many years to produce the irregular enlargement.",
+        "key_terms": [
+          "THYROTOXICOSIS"
+        ],
+        "word_count": 34
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.547086",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D050031",
+      "DiseaseName": "Hashimoto Disease",
+      "DiseaseDescription": "Chronic autoimmune thyroiditis, characterized by the presence of high serum thyroid AUTOANTIBODIES; GOITER; and HYPOTHYROIDISM.",
+      "SlimMapping": "['Endocrine system disease']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D050031",
+        "standardized_id": "MESH:D050031",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hashimoto Disease",
+        "standardized_name": "Hashimoto Disease",
+        "normalized_name": "hashimoto disease",
+        "synonyms": [],
+        "search_terms": [
+          "hashimoto disease",
+          "disease",
+          "hashimoto"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Chronic autoimmune thyroiditis, characterized by the presence of high serum thyroid AUTOANTIBODIES; GOITER; and HYPOTHYROIDISM.",
+        "cleaned_description": "Chronic autoimmune thyroiditis, characterized by the presence of high serum thyroid AUTOANTIBODIES; GOITER; and HYPOTHYROIDISM.",
+        "description_summary": "Chronic autoimmune thyroiditis, characterized by the presence of high serum thyroid AUTOANTIBODIES; GOITER; and HYPOTHYROIDISM.",
+        "key_terms": [
+          "thyroiditis"
+        ],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.605176",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006929",
+      "DiseaseName": "Hyperaldosteronism",
+      "DiseaseDescription": "A condition caused by the overproduction of ALDOSTERONE. It is characterized by sodium retention and potassium excretion with resultant HYPERTENSION and HYPOKALEMIA.",
+      "SlimMapping": "['Endocrine system disease']",
+      "PathwayNames": "Vascular smooth muscle contraction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006929",
+        "standardized_id": "MESH:D006929",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperaldosteronism",
+        "standardized_name": "Hyperaldosteronism",
+        "normalized_name": "hyperaldosteronism",
+        "synonyms": [],
+        "search_terms": [
+          "hyperaldosteronism"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition caused by the overproduction of ALDOSTERONE. It is characterized by sodium retention and potassium excretion with resultant HYPERTENSION and HYPOKALEMIA.",
+        "cleaned_description": "A condition caused by the overproduction of ALDOSTERONE. It is characterized by sodium retention and potassium excretion with resultant HYPERTENSION and HYPOKALEMIA.",
+        "description_summary": "A condition caused by the overproduction of ALDOSTERONE.",
+        "key_terms": [
+          "HYPOKALEMIA"
+        ],
+        "word_count": 22
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vascular smooth muscle contraction",
+        "pathway_list": [
+          "Vascular smooth muscle contraction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.673003",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006961",
+      "DiseaseName": "Hyperparathyroidism",
+      "DiseaseDescription": "A condition of abnormally elevated output of PARATHYROID HORMONE (or PTH) triggering responses that increase blood CALCIUM. It is characterized by HYPERCALCEMIA and BONE RESORPTION, eventually leading to bone diseases. PRIMARY HYPERPARATHYROIDISM is caused by parathyroid HYPERPLASIA or PARATHYROID NEOPLASMS. SECONDARY HYPERPARATHYROIDISM is increased PTH secretion in response to HYPOCALCEMIA, usually caused by chronic KIDNEY DISEASES.",
+      "SlimMapping": "['Endocrine system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006961",
+        "standardized_id": "MESH:D006961",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperparathyroidism",
+        "standardized_name": "Hyperparathyroidism",
+        "normalized_name": "hyperparathyroidism",
+        "synonyms": [],
+        "search_terms": [
+          "hyperparathyroidism"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition of abnormally elevated output of PARATHYROID HORMONE (or PTH) triggering responses that increase blood CALCIUM. It is characterized by HYPERCALCEMIA and BONE RESORPTION, eventually leading to bone diseases. PRIMARY HYPERPARATHYROIDISM is caused by parathyroid HYPERPLASIA or PARATHYROID NEOPLASMS. SECONDARY HYPERPARATHYROIDISM is increased PTH secretion in response to HYPOCALCEMIA, usually caused by chronic KIDNEY DISEASES.",
+        "cleaned_description": "A condition of abnormally elevated output of PARATHYROID HORMONE (or PTH) triggering responses that increase blood CALCIUM. It is characterized by HYPERCALCEMIA and BONE RESORPTION, eventually leading to bone diseases. PRIMARY HYPERPARATHYROIDISM is caused by parathyroid HYPERPLASIA or PARATHYROID NEOPLASMS. SECONDARY HYPERPARATHYROIDISM is increased PTH secretion in response to HYPOCALCEMIA, usually caused by chronic KIDNEY DISEASES.",
+        "description_summary": "A condition of abnormally elevated output of PARATHYROID HORMONE (or PTH) triggering responses that increase blood CALCIUM.",
+        "key_terms": [
+          "HYPOCALCEMIA",
+          "HYPERCALCEMIA"
+        ],
+        "word_count": 56
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.738388",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006962",
+      "DiseaseName": "Hyperparathyroidism, Secondary",
+      "DiseaseDescription": "Abnormally elevated PARATHYROID HORMONE secretion as a response to HYPOCALCEMIA. It is caused by chronic KIDNEY FAILURE or other abnormalities in the controls of bone and mineral metabolism, leading to various BONE DISEASES, such as RENAL OSTEODYSTROPHY.",
+      "SlimMapping": "['Endocrine system disease']",
+      "PathwayNames": "Vitamin B2 (riboflavin) metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006962",
+        "standardized_id": "MESH:D006962",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperparathyroidism, Secondary",
+        "standardized_name": "Hyperparathyroidism, Secondary",
+        "normalized_name": "hyperparathyroidism secondary",
+        "synonyms": [],
+        "search_terms": [
+          "hyperparathyroidism,",
+          "secondary",
+          "hyperparathyroidism, secondary"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormally elevated PARATHYROID HORMONE secretion as a response to HYPOCALCEMIA. It is caused by chronic KIDNEY FAILURE or other abnormalities in the controls of bone and mineral metabolism, leading to various BONE DISEASES, such as RENAL OSTEODYSTROPHY.",
+        "cleaned_description": "Abnormally elevated PARATHYROID HORMONE secretion as a response to HYPOCALCEMIA. It is caused by chronic KIDNEY FAILURE or other abnormalities in the controls of bone and mineral metabolism, leading to various BONE DISEASES, such as RENAL OSTEODYSTROPHY.",
+        "description_summary": "Abnormally elevated PARATHYROID HORMONE secretion as a response to HYPOCALCEMIA.",
+        "key_terms": [
+          "HYPOCALCEMIA"
+        ],
+        "word_count": 37
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamin B2 (riboflavin) metabolism",
+        "pathway_list": [
+          "Vitamin B2 (riboflavin) metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.739430",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006980",
+      "DiseaseName": "Hyperthyroidism",
+      "DiseaseDescription": "Hypersecretion of THYROID HORMONES from the THYROID GLAND. Elevated levels of thyroid hormones increase BASAL METABOLIC RATE.",
+      "SlimMapping": "['Endocrine system disease']",
+      "PathwayNames": "Vasopressin regulates renal water homeostasis via Aquaporins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006980",
+        "standardized_id": "MESH:D006980",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperthyroidism",
+        "standardized_name": "Hyperthyroidism",
+        "normalized_name": "hyperthyroidism",
+        "synonyms": [],
+        "search_terms": [
+          "hyperthyroidism"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Hypersecretion of THYROID HORMONES from the THYROID GLAND. Elevated levels of thyroid hormones increase BASAL METABOLIC RATE.",
+        "cleaned_description": "Hypersecretion of THYROID HORMONES from the THYROID GLAND. Elevated levels of thyroid hormones increase BASAL METABOLIC RATE.",
+        "description_summary": "Hypersecretion of THYROID HORMONES from the THYROID GLAND.",
+        "key_terms": [],
+        "word_count": 17
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vasopressin regulates renal water homeostasis via Aquaporins",
+        "pathway_list": [
+          "Vasopressin regulates renal water homeostasis via Aquaporins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.769917",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006981",
+      "DiseaseName": "Hyperthyroxinemia",
+      "DiseaseDescription": "Abnormally elevated THYROXINE level in the BLOOD.",
+      "SlimMapping": "['Endocrine system disease']",
+      "PathwayNames": "Thyroxine biosynthesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006981",
+        "standardized_id": "MESH:D006981",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperthyroxinemia",
+        "standardized_name": "Hyperthyroxinemia",
+        "normalized_name": "hyperthyroxinemia",
+        "synonyms": [],
+        "search_terms": [
+          "hyperthyroxinemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormally elevated THYROXINE level in the BLOOD.",
+        "cleaned_description": "Abnormally elevated THYROXINE level in the BLOOD.",
+        "description_summary": "Abnormally elevated THYROXINE level in the BLOOD.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Thyroxine biosynthesis",
+        "pathway_list": [
+          "Thyroxine biosynthesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.770235",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006994",
+      "DiseaseName": "Hypoaldosteronism",
+      "DiseaseDescription": "A congenital or acquired condition of insufficient production of ALDOSTERONE by the ADRENAL CORTEX leading to diminished aldosterone-mediated synthesis of Na(+)-K(+)-EXCHANGING ATPASE in renal tubular cells. Clinical symptoms include HYPERKALEMIA, sodium-wasting, HYPOTENSION, and sometimes metabolic ACIDOSIS.",
+      "SlimMapping": "['Endocrine system disease']",
+      "PathwayNames": "Steroid hormone biosynthesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006994",
+        "standardized_id": "MESH:D006994",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypoaldosteronism",
+        "standardized_name": "Hypoaldosteronism",
+        "normalized_name": "hypoaldosteronism",
+        "synonyms": [],
+        "search_terms": [
+          "hypoaldosteronism"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A congenital or acquired condition of insufficient production of ALDOSTERONE by the ADRENAL CORTEX leading to diminished aldosterone-mediated synthesis of Na(+)-K(+)-EXCHANGING ATPASE in renal tubular cells. Clinical symptoms include HYPERKALEMIA, sodium-wasting, HYPOTENSION, and sometimes metabolic ACIDOSIS.",
+        "cleaned_description": "A congenital or acquired condition of insufficient production of ALDOSTERONE by the ADRENAL CORTEX leading to diminished aldosterone-mediated synthesis of Na(+)-K(+)-EXCHANGING ATPASE in renal tubular cells. Clinical symptoms include HYPERKALEMIA, sodium-wasting, HYPOTENSION, and sometimes metabolic ACIDOSIS.",
+        "description_summary": "A congenital or acquired condition of insufficient production of ALDOSTERONE by the ADRENAL CORTEX leading to diminished aldosterone-mediated synthesis of Na(+)-K(+)-EXCHANGING ATPASE in renal tubular cells.",
+        "key_terms": [
+          "ACIDOSIS",
+          "HYPERKALEMIA"
+        ],
+        "word_count": 36
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Steroid hormone biosynthesis",
+        "pathway_list": [
+          "Steroid hormone biosynthesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.772582",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007006",
+      "DiseaseName": "Hypogonadism",
+      "DiseaseDescription": "Condition resulting from deficient gonadal functions, such as GAMETOGENESIS and the production of GONADAL STEROID HORMONES. It is characterized by delay in GROWTH, germ cell maturation, and development of secondary sex characteristics. Hypogonadism can be due to a deficiency of GONADOTROPINS (hypogonadotropic hypogonadism) or due to primary gonadal failure (hypergonadotropic hypogonadism).",
+      "SlimMapping": "['Endocrine system disease']",
+      "PathwayNames": "Transport to the Golgi and subsequent modification",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007006",
+        "standardized_id": "MESH:D007006",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypogonadism",
+        "standardized_name": "Hypogonadism",
+        "normalized_name": "hypogonadism",
+        "synonyms": [],
+        "search_terms": [
+          "hypogonadism"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Condition resulting from deficient gonadal functions, such as GAMETOGENESIS and the production of GONADAL STEROID HORMONES. It is characterized by delay in GROWTH, germ cell maturation, and development of secondary sex characteristics. Hypogonadism can be due to a deficiency of GONADOTROPINS (hypogonadotropic hypogonadism) or due to primary gonadal failure (hypergonadotropic hypogonadism).",
+        "cleaned_description": "Condition resulting from deficient gonadal functions, such as GAMETOGENESIS and the production of GONADAL STEROID HORMONES. It is characterized by delay in GROWTH, germ cell maturation, and development of secondary sex characteristics. Hypogonadism can be due to a deficiency of GONADOTROPINS (hypogonadotropic hypogonadism) or due to primary gonadal failure (hypergonadotropic hypogonadism).",
+        "description_summary": "Condition resulting from deficient gonadal functions, such as GAMETOGENESIS and the production of GONADAL STEROID HORMONES.",
+        "key_terms": [],
+        "word_count": 51
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport to the Golgi and subsequent modification",
+        "pathway_list": [
+          "Transport to the Golgi and subsequent modification"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.773645",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007011",
+      "DiseaseName": "Hypoparathyroidism",
+      "DiseaseDescription": "A condition caused by a deficiency of PARATHYROID HORMONE (or PTH). It is characterized by HYPOCALCEMIA and hyperphosphatemia. Hypocalcemia leads to TETANY. The acquired form is due to removal or injuries to the PARATHYROID GLANDS. The congenital form is due to mutations of genes, such as TBX1; (see DIGEORGE SYNDROME); CASR encoding CALCIUM-SENSING RECEPTOR; or PTH encoding parathyroid hormone.",
+      "SlimMapping": "['Endocrine system disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007011",
+        "standardized_id": "MESH:D007011",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypoparathyroidism",
+        "standardized_name": "Hypoparathyroidism",
+        "normalized_name": "hypoparathyroidism",
+        "synonyms": [],
+        "search_terms": [
+          "hypoparathyroidism"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition caused by a deficiency of PARATHYROID HORMONE (or PTH). It is characterized by HYPOCALCEMIA and hyperphosphatemia. Hypocalcemia leads to TETANY. The acquired form is due to removal or injuries to the PARATHYROID GLANDS. The congenital form is due to mutations of genes, such as TBX1; (see DIGEORGE SYNDROME); CASR encoding CALCIUM-SENSING RECEPTOR; or PTH encoding parathyroid hormone.",
+        "cleaned_description": "A condition caused by a deficiency of PARATHYROID HORMONE (or PTH). It is characterized by HYPOCALCEMIA and hyperphosphatemia. Hypocalcemia leads to TETANY. The acquired form is due to removal or injuries to the PARATHYROID GLANDS. The congenital form is due to mutations of genes, such as TBX1; (see DIGEORGE SYNDROME); CASR encoding CALCIUM-SENSING RECEPTOR; or PTH encoding parathyroid hormone.",
+        "description_summary": "A condition caused by a deficiency of PARATHYROID HORMONE (or PTH).",
+        "key_terms": [
+          "hyperphosphatemia",
+          "HYPOCALCEMIA",
+          "Hypocalcemia"
+        ],
+        "word_count": 59
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.775427",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007037",
+      "DiseaseName": "Hypothyroidism",
+      "DiseaseDescription": "A syndrome that results from abnormally low secretion of THYROID HORMONES from the THYROID GLAND, leading to a decrease in BASAL METABOLIC RATE. In its most severe form, there is accumulation of MUCOPOLYSACCHARIDES in the SKIN and EDEMA, known as MYXEDEMA. It may be primary or secondary due to other pituitary disease, or hypothalamic dysfunction.",
+      "SlimMapping": "['Endocrine system disease']",
+      "PathwayNames": "Transport of vitamins, nucleosides, and related molecules",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007037",
+        "standardized_id": "MESH:D007037",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypothyroidism",
+        "standardized_name": "Hypothyroidism",
+        "normalized_name": "hypothyroidism",
+        "synonyms": [],
+        "search_terms": [
+          "hypothyroidism"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A syndrome that results from abnormally low secretion of THYROID HORMONES from the THYROID GLAND, leading to a decrease in BASAL METABOLIC RATE. In its most severe form, there is accumulation of MUCOPOLYSACCHARIDES in the SKIN and EDEMA, known as MYXEDEMA. It may be primary or secondary due to other pituitary disease, or hypothalamic dysfunction.",
+        "cleaned_description": "A syndrome that results from abnormally low secretion of THYROID HORMONES from the THYROID GLAND, leading to a decrease in BASAL METABOLIC RATE. In its most severe form, there is accumulation of MUCOPOLYSACCHARIDES in the SKIN and EDEMA, known as MYXEDEMA. It may be primary or secondary due to other pituitary disease, or hypothalamic dysfunction.",
+        "description_summary": "A syndrome that results from abnormally low secretion of THYROID HORMONES from the THYROID GLAND, leading to a decrease in BASAL METABOLIC RATE.",
+        "key_terms": [],
+        "word_count": 55
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of vitamins, nucleosides, and related molecules",
+        "pathway_list": [
+          "Transport of vitamins",
+          "and related molecules",
+          "nucleosides"
+        ],
+        "pathway_count": 3,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.778333",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011628",
+      "DiseaseName": "Puberty, Delayed",
+      "DiseaseDescription": "The lack of development of SEXUAL MATURATION in boys and girls at a chronological age that is 2.5 standard deviations above the mean age at onset of PUBERTY in a population. Delayed puberty can be classified by defects in the hypothalamic LHRH pulse generator, the PITUITARY GLAND, or the GONADS. These patients will undergo spontaneous but delayed puberty whereas patients with SEXUAL INFANTILISM will not.",
+      "SlimMapping": "['Endocrine system disease']",
+      "PathwayNames": "Transport to the Golgi and subsequent modification",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011628",
+        "standardized_id": "MESH:D011628",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Puberty, Delayed",
+        "standardized_name": "Puberty, Delayed",
+        "normalized_name": "puberty delayed",
+        "synonyms": [],
+        "search_terms": [
+          "puberty,",
+          "delayed",
+          "puberty, delayed"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The lack of development of SEXUAL MATURATION in boys and girls at a chronological age that is 2.5 standard deviations above the mean age at onset of PUBERTY in a population. Delayed puberty can be classified by defects in the hypothalamic LHRH pulse generator, the PITUITARY GLAND, or the GONADS. These patients will undergo spontaneous but delayed puberty whereas patients with SEXUAL INFANTILISM will not.",
+        "cleaned_description": "The lack of development of SEXUAL MATURATION in boys and girls at a chronological age that is 2.5 standard deviations above the mean age at onset of PUBERTY in a population. Delayed puberty can be classified by defects in the hypothalamic LHRH pulse generator, the PITUITARY GLAND, or the GONADS. These patients will undergo spontaneous but delayed puberty whereas patients with SEXUAL INFANTILISM will not.",
+        "description_summary": "The lack of development of SEXUAL MATURATION in boys and girls at a chronological age that is 2.",
+        "key_terms": [],
+        "word_count": 65
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport to the Golgi and subsequent modification",
+        "pathway_list": [
+          "Transport to the Golgi and subsequent modification"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.939614",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011629",
+      "DiseaseName": "Puberty, Precocious",
+      "DiseaseDescription": "Development of SEXUAL MATURATION in boys and girls at a chronological age that is 2.5 standard deviations below the mean age at onset of PUBERTY in the population. This early maturation of the hypothalamic-pituitary-gonadal axis results in sexual precocity, elevated serum levels of GONADOTROPINS and GONADAL STEROID HORMONES such as ESTRADIOL and TESTOSTERONE.",
+      "SlimMapping": "['Endocrine system disease']",
+      "PathwayNames": "Vibrio cholerae infection",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011629",
+        "standardized_id": "MESH:D011629",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Puberty, Precocious",
+        "standardized_name": "Puberty, Precocious",
+        "normalized_name": "puberty precocious",
+        "synonyms": [],
+        "search_terms": [
+          "puberty,",
+          "puberty, precocious",
+          "precocious"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Development of SEXUAL MATURATION in boys and girls at a chronological age that is 2.5 standard deviations below the mean age at onset of PUBERTY in the population. This early maturation of the hypothalamic-pituitary-gonadal axis results in sexual precocity, elevated serum levels of GONADOTROPINS and GONADAL STEROID HORMONES such as ESTRADIOL and TESTOSTERONE.",
+        "cleaned_description": "Development of SEXUAL MATURATION in boys and girls at a chronological age that is 2.5 standard deviations below the mean age at onset of PUBERTY in the population. This early maturation of the hypothalamic-pituitary-gonadal axis results in sexual precocity, elevated serum levels of GONADOTROPINS and GONADAL STEROID HORMONES such as ESTRADIOL and TESTOSTERONE.",
+        "description_summary": "Development of SEXUAL MATURATION in boys and girls at a chronological age that is 2.",
+        "key_terms": [],
+        "word_count": 53
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vibrio cholerae infection",
+        "pathway_list": [
+          "Vibrio cholerae infection"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.939905",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013959",
+      "DiseaseName": "Thyroid Diseases",
+      "DiseaseDescription": "Pathological processes involving the THYROID GLAND.",
+      "SlimMapping": "['Endocrine system disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013959",
+        "standardized_id": "MESH:D013959",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Thyroid Diseases",
+        "standardized_name": "Thyroid Diseases",
+        "normalized_name": "thyroid diseases",
+        "synonyms": [],
+        "search_terms": [
+          "thyroid diseases",
+          "diseases",
+          "thyroid"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological processes involving the THYROID GLAND.",
+        "cleaned_description": "Pathological processes involving the THYROID GLAND.",
+        "description_summary": "Pathological processes involving the THYROID GLAND.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.995981",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D018382",
+      "DiseaseName": "Thyroid Hormone Resistance Syndrome",
+      "DiseaseDescription": "An inherited autosomal recessive trait, characterized by peripheral resistance to THYROID HORMONES and the resulting elevation in serum levels of THYROXINE and TRIIODOTHYRONINE. This syndrome is caused by mutations of gene THRB encoding the THYROID HORMONE RECEPTORS BETA in target cells. HYPOTHYROIDISM in these patients is partly overcome by the increased thyroid hormone levels.",
+      "SlimMapping": "['Endocrine system disease']",
+      "PathwayNames": "Thyroid hormone signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018382",
+        "standardized_id": "MESH:D018382",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Thyroid Hormone Resistance Syndrome",
+        "standardized_name": "Thyroid Hormone Resistance Syndrome",
+        "normalized_name": "thyroid hormone resistance syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "thyroid hormone resistance syndrome",
+          "hormone",
+          "syndrome",
+          "thyroid",
+          "resistance"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An inherited autosomal recessive trait, characterized by peripheral resistance to THYROID HORMONES and the resulting elevation in serum levels of THYROXINE and TRIIODOTHYRONINE. This syndrome is caused by mutations of gene THRB encoding the THYROID HORMONE RECEPTORS BETA in target cells. HYPOTHYROIDISM in these patients is partly overcome by the increased thyroid hormone levels.",
+        "cleaned_description": "An inherited autosomal recessive trait, characterized by peripheral resistance to THYROID HORMONES and the resulting elevation in serum levels of THYROXINE and TRIIODOTHYRONINE. This syndrome is caused by mutations of gene THRB encoding the THYROID HORMONE RECEPTORS BETA in target cells. HYPOTHYROIDISM in these patients is partly overcome by the increased thyroid hormone levels.",
+        "description_summary": "An inherited autosomal recessive trait, characterized by peripheral resistance to THYROID HORMONES and the resulting elevation in serum levels of THYROXINE and TRIIODOTHYRONINE.",
+        "key_terms": [],
+        "word_count": 54
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Thyroid hormone signaling pathway",
+        "pathway_list": [
+          "Thyroid hormone signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Thyroid hormone signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.996313",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013971",
+      "DiseaseName": "Thyrotoxicosis",
+      "DiseaseDescription": "A hypermetabolic syndrome caused by excess THYROID HORMONES which may come from endogenous or exogenous sources. The endogenous source of hormone may be thyroid HYPERPLASIA; THYROID NEOPLASMS; or hormone-producing extrathyroidal tissue. Thyrotoxicosis is characterized by NERVOUSNESS; TACHYCARDIA; FATIGUE; WEIGHT LOSS; heat intolerance; and excessive SWEATING.",
+      "SlimMapping": "['Endocrine system disease']",
+      "PathwayNames": "Thyroid hormone synthesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013971",
+        "standardized_id": "MESH:D013971",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Thyrotoxicosis",
+        "standardized_name": "Thyrotoxicosis",
+        "normalized_name": "thyrotoxicosis",
+        "synonyms": [],
+        "search_terms": [
+          "thyrotoxicosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A hypermetabolic syndrome caused by excess THYROID HORMONES which may come from endogenous or exogenous sources. The endogenous source of hormone may be thyroid HYPERPLASIA; THYROID NEOPLASMS; or hormone-producing extrathyroidal tissue. Thyrotoxicosis is characterized by NERVOUSNESS; TACHYCARDIA; FATIGUE; WEIGHT LOSS; heat intolerance; and excessive SWEATING.",
+        "cleaned_description": "A hypermetabolic syndrome caused by excess THYROID HORMONES which may come from endogenous or exogenous sources. The endogenous source of hormone may be thyroid HYPERPLASIA; THYROID NEOPLASMS; or hormone-producing extrathyroidal tissue. Thyrotoxicosis is characterized by NERVOUSNESS; TACHYCARDIA; FATIGUE; WEIGHT LOSS; heat intolerance; and excessive SWEATING.",
+        "description_summary": "A hypermetabolic syndrome caused by excess THYROID HORMONES which may come from endogenous or exogenous sources.",
+        "key_terms": [
+          "Thyrotoxicosis"
+        ],
+        "word_count": 45
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Thyroid hormone synthesis",
+        "pathway_list": [
+          "Thyroid hormone synthesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.997126",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

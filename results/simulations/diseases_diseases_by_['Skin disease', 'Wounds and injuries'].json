@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Skin disease', 'Wounds and injuries']",
+    "export_timestamp": "2026-03-28T22:11:36.313193",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D013471",
+      "DiseaseName": "Sunburn",
+      "DiseaseDescription": "An injury to the skin causing erythema, tenderness, and sometimes blistering and resulting from excessive exposure to the sun. The reaction is produced by the ultraviolet radiation in sunlight.",
+      "SlimMapping": "['Skin disease', 'Wounds and injuries']",
+      "PathwayNames": "Transcription of the HIV genome",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013471",
+        "standardized_id": "MESH:D013471",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Sunburn",
+        "standardized_name": "Sunburn",
+        "normalized_name": "sunburn",
+        "synonyms": [],
+        "search_terms": [
+          "sunburn"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An injury to the skin causing erythema, tenderness, and sometimes blistering and resulting from excessive exposure to the sun. The reaction is produced by the ultraviolet radiation in sunlight.",
+        "cleaned_description": "An injury to the skin causing erythema, tenderness, and sometimes blistering and resulting from excessive exposure to the sun. The reaction is produced by the ultraviolet radiation in sunlight.",
+        "description_summary": "An injury to the skin causing erythema, tenderness, and sometimes blistering and resulting from excessive exposure to the sun.",
+        "key_terms": [],
+        "word_count": 29
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Skin disease",
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Skin disease",
+          "Wounds and injuries"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Skin disease",
+          "Wounds and injuries"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcription of the HIV genome",
+        "pathway_list": [
+          "Transcription of the HIV genome"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcription of the HIV genome"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.982200",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

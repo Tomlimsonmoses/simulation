@@ -1,0 +1,1222 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Digestive system disease']",
+    "export_timestamp": "2026-03-28T22:11:35.404418",
+    "total_records": 18
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D018248",
+      "DiseaseName": "Adenoma, Liver Cell",
+      "DiseaseDescription": "A benign epithelial tumor of the LIVER.",
+      "SlimMapping": "['Cancer', 'Digestive system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018248",
+        "standardized_id": "MESH:D018248",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Adenoma, Liver Cell",
+        "standardized_name": "Adenoma, Liver Cell",
+        "normalized_name": "adenoma liver cell",
+        "synonyms": [],
+        "search_terms": [
+          "cell",
+          "adenoma, liver cell",
+          "adenoma,",
+          "liver"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A benign epithelial tumor of the LIVER.",
+        "cleaned_description": "A benign epithelial tumor of the LIVER.",
+        "description_summary": "A benign epithelial tumor of the LIVER.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.356344",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001005",
+      "DiseaseName": "Anus Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the ANAL CANAL.",
+      "SlimMapping": "['Cancer', 'Digestive system disease']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001005",
+        "standardized_id": "MESH:D001005",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Anus Neoplasms",
+        "standardized_name": "Anus Neoplasms",
+        "normalized_name": "anus neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "anus",
+          "anus neoplasms",
+          "neoplasms"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the ANAL CANAL.",
+        "cleaned_description": "Tumors or cancer of the ANAL CANAL.",
+        "description_summary": "Tumors or cancer of the ANAL CANAL.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.371308",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001471",
+      "DiseaseName": "Barrett Esophagus",
+      "DiseaseDescription": "A condition with damage to the lining of the lower ESOPHAGUS resulting from chronic acid reflux (ESOPHAGITIS, REFLUX). Through the process of metaplasia, the squamous cells are replaced by a columnar epithelium with cells resembling those of the INTESTINE or the salmon-pink mucosa of the STOMACH. Barrett's columnar epithelium is a marker for severe reflux and precursor to ADENOCARCINOMA of the esophagus.",
+      "SlimMapping": "['Cancer', 'Digestive system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001471",
+        "standardized_id": "MESH:D001471",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Barrett Esophagus",
+        "standardized_name": "Barrett Esophagus",
+        "normalized_name": "barrett esophagus",
+        "synonyms": [],
+        "search_terms": [
+          "barrett",
+          "barrett esophagus",
+          "esophagus"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition with damage to the lining of the lower ESOPHAGUS resulting from chronic acid reflux (ESOPHAGITIS, REFLUX). Through the process of metaplasia, the squamous cells are replaced by a columnar epithelium with cells resembling those of the INTESTINE or the salmon-pink mucosa of the STOMACH. Barrett's columnar epithelium is a marker for severe reflux and precursor to ADENOCARCINOMA of the esophagus.",
+        "cleaned_description": "A condition with damage to the lining of the lower ESOPHAGUS resulting from chronic acid reflux (ESOPHAGITIS, REFLUX). Through the process of metaplasia, the squamous cells are replaced by a columnar epithelium with cells resembling those of the INTESTINE or the salmon-pink mucosa of the STOMACH. Barrett's columnar epithelium is a marker for severe reflux and precursor to ADENOCARCINOMA of the esophagus.",
+        "description_summary": "A condition with damage to the lining of the lower ESOPHAGUS resulting from chronic acid reflux (ESOPHAGITIS, REFLUX).",
+        "key_terms": [
+          "ESOPHAGITIS"
+        ],
+        "word_count": 62
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.390588",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001650",
+      "DiseaseName": "Bile Duct Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the BILE DUCTS.",
+      "SlimMapping": "['Cancer', 'Digestive system disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001650",
+        "standardized_id": "MESH:D001650",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Bile Duct Neoplasms",
+        "standardized_name": "Bile Duct Neoplasms",
+        "normalized_name": "bile duct neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "duct",
+          "bile duct neoplasms",
+          "bile"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the BILE DUCTS.",
+        "cleaned_description": "Tumors or cancer of the BILE DUCTS.",
+        "description_summary": "Tumors or cancer of the BILE DUCTS.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.394455",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001661",
+      "DiseaseName": "Biliary Tract Neoplasms",
+      "DiseaseDescription": "Tumors or cancer in the BILIARY TRACT including the BILE DUCTS and the GALLBLADDER.",
+      "SlimMapping": "['Cancer', 'Digestive system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001661",
+        "standardized_id": "MESH:D001661",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Biliary Tract Neoplasms",
+        "standardized_name": "Biliary Tract Neoplasms",
+        "normalized_name": "biliary tract neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "biliary tract neoplasms",
+          "biliary",
+          "tract"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer in the BILIARY TRACT including the BILE DUCTS and the GALLBLADDER.",
+        "cleaned_description": "Tumors or cancer in the BILIARY TRACT including the BILE DUCTS and the GALLBLADDER.",
+        "description_summary": "Tumors or cancer in the BILIARY TRACT including the BILE DUCTS and the GALLBLADDER.",
+        "key_terms": [],
+        "word_count": 14
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.394670",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006528",
+      "DiseaseName": "Carcinoma, Hepatocellular",
+      "DiseaseDescription": "A primary malignant neoplasm of epithelial liver cells. It ranges from a well-differentiated tumor with EPITHELIAL CELLS indistinguishable from normal HEPATOCYTES to a poorly differentiated neoplasm. The cells may be uniform or markedly pleomorphic, or form GIANT CELLS. Several classification schemes have been suggested.",
+      "SlimMapping": "['Cancer', 'Digestive system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006528",
+        "standardized_id": "MESH:D006528",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Carcinoma, Hepatocellular",
+        "standardized_name": "Carcinoma, Hepatocellular",
+        "normalized_name": "carcinoma hepatocellular",
+        "synonyms": [],
+        "search_terms": [
+          "carcinoma, hepatocellular",
+          "hepatocellular",
+          "carcinoma,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A primary malignant neoplasm of epithelial liver cells. It ranges from a well-differentiated tumor with EPITHELIAL CELLS indistinguishable from normal HEPATOCYTES to a poorly differentiated neoplasm. The cells may be uniform or markedly pleomorphic, or form GIANT CELLS. Several classification schemes have been suggested.",
+        "cleaned_description": "A primary malignant neoplasm of epithelial liver cells. It ranges from a well-differentiated tumor with EPITHELIAL CELLS indistinguishable from normal HEPATOCYTES to a poorly differentiated neoplasm. The cells may be uniform or markedly pleomorphic, or form GIANT CELLS. Several classification schemes have been suggested.",
+        "description_summary": "A primary malignant neoplasm of epithelial liver cells.",
+        "key_terms": [],
+        "word_count": 44
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.417088",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003110",
+      "DiseaseName": "Colonic Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the COLON.",
+      "SlimMapping": "['Cancer', 'Digestive system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003110",
+        "standardized_id": "MESH:D003110",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Colonic Neoplasms",
+        "standardized_name": "Colonic Neoplasms",
+        "normalized_name": "colonic neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "colonic",
+          "colonic neoplasms",
+          "neoplasms"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the COLON.",
+        "cleaned_description": "Tumors or cancer of the COLON.",
+        "description_summary": "Tumors or cancer of the COLON.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.447814",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D015179",
+      "DiseaseName": "Colorectal Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the COLON or the RECTUM or both. Risk factors for colorectal cancer include chronic ULCERATIVE COLITIS; FAMILIAL POLYPOSIS COLI; exposure to ASBESTOS; and irradiation of the CERVIX UTERI.",
+      "SlimMapping": "['Cancer', 'Digestive system disease']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D015179",
+        "standardized_id": "MESH:D015179",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Colorectal Neoplasms",
+        "standardized_name": "Colorectal Neoplasms",
+        "normalized_name": "colorectal neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "colorectal",
+          "colorectal neoplasms"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the COLON or the RECTUM or both. Risk factors for colorectal cancer include chronic ULCERATIVE COLITIS; FAMILIAL POLYPOSIS COLI; exposure to ASBESTOS; and irradiation of the CERVIX UTERI.",
+        "cleaned_description": "Tumors or cancer of the COLON or the RECTUM or both. Risk factors for colorectal cancer include chronic ULCERATIVE COLITIS; FAMILIAL POLYPOSIS COLI; exposure to ASBESTOS; and irradiation of the CERVIX UTERI.",
+        "description_summary": "Tumors or cancer of the COLON or the RECTUM or both.",
+        "key_terms": [
+          "COLITIS",
+          "POLYPOSIS"
+        ],
+        "word_count": 32
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.448276",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004938",
+      "DiseaseName": "Esophageal Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the ESOPHAGUS.",
+      "SlimMapping": "['Cancer', 'Digestive system disease']",
+      "PathwayNames": "Zinc transporters",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004938",
+        "standardized_id": "MESH:D004938",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Esophageal Neoplasms",
+        "standardized_name": "Esophageal Neoplasms",
+        "normalized_name": "esophageal neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "esophageal",
+          "neoplasms",
+          "esophageal neoplasms"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the ESOPHAGUS.",
+        "cleaned_description": "Tumors or cancer of the ESOPHAGUS.",
+        "description_summary": "Tumors or cancer of the ESOPHAGUS.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Zinc transporters",
+        "pathway_list": [
+          "Zinc transporters"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.511393",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000077277",
+      "DiseaseName": "Esophageal Squamous Cell Carcinoma",
+      "DiseaseDescription": "A carcinoma that originates usually from cells on the surface of the middle and lower third of the ESOPHAGUS. Tumor cells exhibit typical squamous morphology and form large polypoid lesions. Mutations in RNF6, LZTS1, TGFBR2, DEC1, and WWOX1 genes are associated with this cancer.",
+      "SlimMapping": "['Cancer', 'Digestive system disease']",
+      "PathwayNames": "Zinc transporters",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000077277",
+        "standardized_id": "MESH:D000077277",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Esophageal Squamous Cell Carcinoma",
+        "standardized_name": "Esophageal Squamous Cell Carcinoma",
+        "normalized_name": "esophageal squamous cell carcinoma",
+        "synonyms": [],
+        "search_terms": [
+          "esophageal squamous cell carcinoma",
+          "esophageal",
+          "cell",
+          "squamous",
+          "carcinoma"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A carcinoma that originates usually from cells on the surface of the middle and lower third of the ESOPHAGUS. Tumor cells exhibit typical squamous morphology and form large polypoid lesions. Mutations in RNF6, LZTS1, TGFBR2, DEC1, and WWOX1 genes are associated with this cancer.",
+        "cleaned_description": "A carcinoma that originates usually from cells on the surface of the middle and lower third of the ESOPHAGUS. Tumor cells exhibit typical squamous morphology and form large polypoid lesions. Mutations in RNF6, LZTS1, TGFBR2, DEC1, and WWOX1 genes are associated with this cancer.",
+        "description_summary": "A carcinoma that originates usually from cells on the surface of the middle and lower third of the ESOPHAGUS.",
+        "key_terms": [],
+        "word_count": 44
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Zinc transporters",
+        "pathway_list": [
+          "Zinc transporters"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.511718",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005706",
+      "DiseaseName": "Gallbladder Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the gallbladder.",
+      "SlimMapping": "['Cancer', 'Digestive system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005706",
+        "standardized_id": "MESH:D005706",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Gallbladder Neoplasms",
+        "standardized_name": "Gallbladder Neoplasms",
+        "normalized_name": "gallbladder neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "gallbladder neoplasms",
+          "gallbladder"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the gallbladder.",
+        "cleaned_description": "Tumors or cancer of the gallbladder.",
+        "description_summary": "Tumors or cancer of the gallbladder.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.532211",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005770",
+      "DiseaseName": "Gastrointestinal Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the GASTROINTESTINAL TRACT, from the MOUTH to the ANAL CANAL.",
+      "SlimMapping": "['Cancer', 'Digestive system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005770",
+        "standardized_id": "MESH:D005770",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Gastrointestinal Neoplasms",
+        "standardized_name": "Gastrointestinal Neoplasms",
+        "normalized_name": "gastrointestinal neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "gastrointestinal neoplasms",
+          "gastrointestinal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the GASTROINTESTINAL TRACT, from the MOUTH to the ANAL CANAL.",
+        "cleaned_description": "Tumors or cancer of the GASTROINTESTINAL TRACT, from the MOUTH to the ANAL CANAL.",
+        "description_summary": "Tumors or cancer of the GASTROINTESTINAL TRACT, from the MOUTH to the ANAL CANAL.",
+        "key_terms": [],
+        "word_count": 14
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.533868",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D046152",
+      "DiseaseName": "Gastrointestinal Stromal Tumors",
+      "DiseaseDescription": "All tumors in the GASTROINTESTINAL TRACT arising from mesenchymal cells (MESODERM) except those of smooth muscle cells (LEIOMYOMA) or Schwann cells (SCHWANNOMA).",
+      "SlimMapping": "['Cancer', 'Digestive system disease']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D046152",
+        "standardized_id": "MESH:D046152",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Gastrointestinal Stromal Tumors",
+        "standardized_name": "Gastrointestinal Stromal Tumors",
+        "normalized_name": "gastrointestinal stromal tumors",
+        "synonyms": [],
+        "search_terms": [
+          "tumors",
+          "gastrointestinal stromal tumors",
+          "stromal",
+          "gastrointestinal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "All tumors in the GASTROINTESTINAL TRACT arising from mesenchymal cells (MESODERM) except those of smooth muscle cells (LEIOMYOMA) or Schwann cells (SCHWANNOMA).",
+        "cleaned_description": "All tumors in the GASTROINTESTINAL TRACT arising from mesenchymal cells (MESODERM) except those of smooth muscle cells (LEIOMYOMA) or Schwann cells (SCHWANNOMA).",
+        "description_summary": "All tumors in the GASTROINTESTINAL TRACT arising from mesenchymal cells (MESODERM) except those of smooth muscle cells (LEIOMYOMA) or Schwann cells (SCHWANNOMA).",
+        "key_terms": [],
+        "word_count": 22
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.536485",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007414",
+      "DiseaseName": "Intestinal Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the INTESTINES.",
+      "SlimMapping": "['Cancer', 'Digestive system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007414",
+        "standardized_id": "MESH:D007414",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Intestinal Neoplasms",
+        "standardized_name": "Intestinal Neoplasms",
+        "normalized_name": "intestinal neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "intestinal",
+          "intestinal neoplasms"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the INTESTINES.",
+        "cleaned_description": "Tumors or cancer of the INTESTINES.",
+        "description_summary": "Tumors or cancer of the INTESTINES.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.790042",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008113",
+      "DiseaseName": "Liver Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the LIVER.",
+      "SlimMapping": "['Cancer', 'Digestive system disease']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008113",
+        "standardized_id": "MESH:D008113",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Liver Neoplasms",
+        "standardized_name": "Liver Neoplasms",
+        "normalized_name": "liver neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "liver neoplasms",
+          "liver"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the LIVER.",
+        "cleaned_description": "Tumors or cancer of the LIVER.",
+        "description_summary": "Tumors or cancer of the LIVER.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.821797",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008114",
+      "DiseaseName": "Liver Neoplasms, Experimental",
+      "DiseaseDescription": "Experimentally induced tumors of the LIVER.",
+      "SlimMapping": "['Cancer', 'Digestive system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008114",
+        "standardized_id": "MESH:D008114",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Liver Neoplasms, Experimental",
+        "standardized_name": "Liver Neoplasms, Experimental",
+        "normalized_name": "liver neoplasms experimental",
+        "synonyms": [],
+        "search_terms": [
+          "liver neoplasms, experimental",
+          "neoplasms,",
+          "experimental",
+          "liver"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Experimentally induced tumors of the LIVER.",
+        "cleaned_description": "Experimentally induced tumors of the LIVER.",
+        "description_summary": "Experimentally induced tumors of the LIVER.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.821955",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012004",
+      "DiseaseName": "Rectal Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the RECTUM.",
+      "SlimMapping": "['Cancer', 'Digestive system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012004",
+        "standardized_id": "MESH:D012004",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Rectal Neoplasms",
+        "standardized_name": "Rectal Neoplasms",
+        "normalized_name": "rectal neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "rectal",
+          "rectal neoplasms"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the RECTUM.",
+        "cleaned_description": "Tumors or cancer of the RECTUM.",
+        "description_summary": "Tumors or cancer of the RECTUM.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.945129",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013274",
+      "DiseaseName": "Stomach Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the STOMACH.",
+      "SlimMapping": "['Cancer', 'Digestive system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013274",
+        "standardized_id": "MESH:D013274",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Stomach Neoplasms",
+        "standardized_name": "Stomach Neoplasms",
+        "normalized_name": "stomach neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "stomach",
+          "stomach neoplasms"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the STOMACH.",
+        "cleaned_description": "Tumors or cancer of the STOMACH.",
+        "description_summary": "Tumors or cancer of the STOMACH.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Digestive system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.979346",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

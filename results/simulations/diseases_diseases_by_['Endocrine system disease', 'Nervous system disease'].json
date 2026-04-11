@@ -1,0 +1,352 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Endocrine system disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:35.953893",
+    "total_records": 5
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D003929",
+      "DiseaseName": "Diabetic Neuropathies",
+      "DiseaseDescription": "Peripheral, autonomic, and cranial nerve disorders that are associated with DIABETES MELLITUS. These conditions usually result from diabetic microvascular injury involving small blood vessels that supply nerves (VASA NERVORUM). Relatively common conditions which may be associated with diabetic neuropathy include third nerve palsy (see OCULOMOTOR NERVE DISEASES); MONONEUROPATHY; mononeuropathy multiplex; diabetic amyotrophy; a painful POLYNEUROPATHY; autonomic neuropathy; and thoracoabdominal neuropathy. (From Adams et al., Principles of Neurology, 6th ed, p1325)",
+      "SlimMapping": "['Endocrine system disease', 'Nervous system disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003929",
+        "standardized_id": "MESH:D003929",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Diabetic Neuropathies",
+        "standardized_name": "Diabetic Neuropathies",
+        "normalized_name": "diabetic neuropathies",
+        "synonyms": [],
+        "search_terms": [
+          "diabetic neuropathies",
+          "diabetic",
+          "neuropathies"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Peripheral, autonomic, and cranial nerve disorders that are associated with DIABETES MELLITUS. These conditions usually result from diabetic microvascular injury involving small blood vessels that supply nerves (VASA NERVORUM). Relatively common conditions which may be associated with diabetic neuropathy include third nerve palsy (see OCULOMOTOR NERVE DISEASES); MONONEUROPATHY; mononeuropathy multiplex; diabetic amyotrophy; a painful POLYNEUROPATHY; autonomic neuropathy; and thoracoabdominal neuropathy. (From Adams et al., Principles of Neurology, 6th ed, p1325)",
+        "cleaned_description": "Peripheral, autonomic, and cranial nerve disorders that are associated with DIABETES MELLITUS. These conditions usually result from diabetic microvascular injury involving small blood vessels that supply nerves (VASA NERVORUM). Relatively common conditions which may be associated with diabetic neuropathy include third nerve palsy (see OCULOMOTOR NERVE DISEASES); MONONEUROPATHY; mononeuropathy multiplex; diabetic amyotrophy; a painful POLYNEUROPATHY; autonomic neuropathy; and thoracoabdominal neuropathy. (From Adams et al., Principles of Neurology, 6th ed, p1325)",
+        "description_summary": "Peripheral, autonomic, and cranial nerve disorders that are associated with DIABETES MELLITUS.",
+        "key_terms": [
+          "POLYNEUROPATHY",
+          "mononeuropathy",
+          "neuropathy",
+          "MONONEUROPATHY"
+        ],
+        "word_count": 70
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.481118",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006966",
+      "DiseaseName": "Hyperprolactinemia",
+      "DiseaseDescription": "Increased levels of PROLACTIN in the BLOOD, which may be associated with AMENORRHEA and GALACTORRHEA. Relatively common etiologies include PROLACTINOMA, medication effect, KIDNEY FAILURE, granulomatous diseases of the PITUITARY GLAND, and disorders which interfere with the hypothalamic inhibition of prolactin release. Ectopic (non-pituitary) production of prolactin may also occur. (From Joynt, Clinical Neurology, 1992, Ch36, pp77-8)",
+      "SlimMapping": "['Endocrine system disease', 'Nervous system disease']",
+      "PathwayNames": "Type I diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006966",
+        "standardized_id": "MESH:D006966",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperprolactinemia",
+        "standardized_name": "Hyperprolactinemia",
+        "normalized_name": "hyperprolactinemia",
+        "synonyms": [],
+        "search_terms": [
+          "hyperprolactinemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Increased levels of PROLACTIN in the BLOOD, which may be associated with AMENORRHEA and GALACTORRHEA. Relatively common etiologies include PROLACTINOMA, medication effect, KIDNEY FAILURE, granulomatous diseases of the PITUITARY GLAND, and disorders which interfere with the hypothalamic inhibition of prolactin release. Ectopic (non-pituitary) production of prolactin may also occur. (From Joynt, Clinical Neurology, 1992, Ch36, pp77-8)",
+        "cleaned_description": "Increased levels of PROLACTIN in the BLOOD, which may be associated with AMENORRHEA and GALACTORRHEA. Relatively common etiologies include PROLACTINOMA, medication effect, KIDNEY FAILURE, granulomatous diseases of the PITUITARY GLAND, and disorders which interfere with the hypothalamic inhibition of prolactin release. Ectopic (non-pituitary) production of prolactin may also occur. (From Joynt, Clinical Neurology, 1992, Ch36, pp77-8)",
+        "description_summary": "Increased levels of PROLACTIN in the BLOOD, which may be associated with AMENORRHEA and GALACTORRHEA.",
+        "key_terms": [],
+        "word_count": 56
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type I diabetes mellitus",
+        "pathway_list": [
+          "Type I diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.740714",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007018",
+      "DiseaseName": "Hypopituitarism",
+      "DiseaseDescription": "Diminution or cessation of secretion of one or more hormones from the anterior pituitary gland (including LH; FOLLICLE STIMULATING HORMONE; SOMATOTROPIN; and CORTICOTROPIN). This may result from surgical or radiation ablation, non-secretory PITUITARY NEOPLASMS, metastatic tumors, infarction, PITUITARY APOPLEXY, infiltrative or granulomatous processes, and other conditions.",
+      "SlimMapping": "['Endocrine system disease', 'Nervous system disease']",
+      "PathwayNames": "Steroid hormone biosynthesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007018",
+        "standardized_id": "MESH:D007018",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypopituitarism",
+        "standardized_name": "Hypopituitarism",
+        "normalized_name": "hypopituitarism",
+        "synonyms": [],
+        "search_terms": [
+          "hypopituitarism"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diminution or cessation of secretion of one or more hormones from the anterior pituitary gland (including LH; FOLLICLE STIMULATING HORMONE; SOMATOTROPIN; and CORTICOTROPIN). This may result from surgical or radiation ablation, non-secretory PITUITARY NEOPLASMS, metastatic tumors, infarction, PITUITARY APOPLEXY, infiltrative or granulomatous processes, and other conditions.",
+        "cleaned_description": "Diminution or cessation of secretion of one or more hormones from the anterior pituitary gland (including LH; FOLLICLE STIMULATING HORMONE; SOMATOTROPIN; and CORTICOTROPIN). This may result from surgical or radiation ablation, non-secretory PITUITARY NEOPLASMS, metastatic tumors, infarction, PITUITARY APOPLEXY, infiltrative or granulomatous processes, and other conditions.",
+        "description_summary": "Diminution or cessation of secretion of one or more hormones from the anterior pituitary gland (including LH; FOLLICLE STIMULATING HORMONE; SOMATOTROPIN; and CORTICOTROPIN).",
+        "key_terms": [],
+        "word_count": 46
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Steroid hormone biosynthesis",
+        "pathway_list": [
+          "Steroid hormone biosynthesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.776131",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D047748",
+      "DiseaseName": "Pituitary ACTH Hypersecretion",
+      "DiseaseDescription": "A disease of the PITUITARY GLAND characterized by the excess amount of ADRENOCORTICOTROPIC HORMONE secreted. This leads to hypersecretion of cortisol (HYDROCORTISONE) by the ADRENAL GLANDS resulting in CUSHING SYNDROME.",
+      "SlimMapping": "['Endocrine system disease', 'Nervous system disease']",
+      "PathwayNames": "Ub-specific processing proteases",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D047748",
+        "standardized_id": "MESH:D047748",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pituitary ACTH Hypersecretion",
+        "standardized_name": "Pituitary ACTH Hypersecretion",
+        "normalized_name": "pituitary acth hypersecretion",
+        "synonyms": [],
+        "search_terms": [
+          "pituitary acth hypersecretion",
+          "hypersecretion",
+          "acth",
+          "pituitary"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A disease of the PITUITARY GLAND characterized by the excess amount of ADRENOCORTICOTROPIC HORMONE secreted. This leads to hypersecretion of cortisol (HYDROCORTISONE) by the ADRENAL GLANDS resulting in CUSHING SYNDROME.",
+        "cleaned_description": "A disease of the PITUITARY GLAND characterized by the excess amount of ADRENOCORTICOTROPIC HORMONE secreted. This leads to hypersecretion of cortisol (HYDROCORTISONE) by the ADRENAL GLANDS resulting in CUSHING SYNDROME.",
+        "description_summary": "A disease of the PITUITARY GLAND characterized by the excess amount of ADRENOCORTICOTROPIC HORMONE secreted.",
+        "key_terms": [],
+        "word_count": 30
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Ub-specific processing proteases",
+        "pathway_list": [
+          "Ub-specific processing proteases"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.915993",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010900",
+      "DiseaseName": "Pituitary Diseases",
+      "DiseaseDescription": "Disorders involving either the ADENOHYPOPHYSIS or the NEUROHYPOPHYSIS. These diseases usually manifest as hypersecretion or hyposecretion of PITUITARY HORMONES. Neoplastic pituitary masses can also cause compression of the OPTIC CHIASM and other adjacent structures.",
+      "SlimMapping": "['Endocrine system disease', 'Nervous system disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010900",
+        "standardized_id": "MESH:D010900",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pituitary Diseases",
+        "standardized_name": "Pituitary Diseases",
+        "normalized_name": "pituitary diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "pituitary diseases",
+          "pituitary"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Disorders involving either the ADENOHYPOPHYSIS or the NEUROHYPOPHYSIS. These diseases usually manifest as hypersecretion or hyposecretion of PITUITARY HORMONES. Neoplastic pituitary masses can also cause compression of the OPTIC CHIASM and other adjacent structures.",
+        "cleaned_description": "Disorders involving either the ADENOHYPOPHYSIS or the NEUROHYPOPHYSIS. These diseases usually manifest as hypersecretion or hyposecretion of PITUITARY HORMONES. Neoplastic pituitary masses can also cause compression of the OPTIC CHIASM and other adjacent structures.",
+        "description_summary": "Disorders involving either the ADENOHYPOPHYSIS or the NEUROHYPOPHYSIS.",
+        "key_terms": [],
+        "word_count": 34
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.916349",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

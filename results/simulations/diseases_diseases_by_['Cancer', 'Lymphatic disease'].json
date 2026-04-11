@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Lymphatic disease']",
+    "export_timestamp": "2026-03-28T22:11:36.307930",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D013160",
+      "DiseaseName": "Splenic Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the SPLEEN.",
+      "SlimMapping": "['Cancer', 'Lymphatic disease']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013160",
+        "standardized_id": "MESH:D013160",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Splenic Neoplasms",
+        "standardized_name": "Splenic Neoplasms",
+        "normalized_name": "splenic neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "splenic",
+          "splenic neoplasms"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the SPLEEN.",
+        "cleaned_description": "Tumors or cancer of the SPLEEN.",
+        "description_summary": "Tumors or cancer of the SPLEEN.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Lymphatic disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Lymphatic disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Lymphatic disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.976535",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013953",
+      "DiseaseName": "Thymus Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the THYMUS GLAND.",
+      "SlimMapping": "['Cancer', 'Lymphatic disease']",
+      "PathwayNames": "PD-1 signaling",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013953",
+        "standardized_id": "MESH:D013953",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Thymus Neoplasms",
+        "standardized_name": "Thymus Neoplasms",
+        "normalized_name": "thymus neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "thymus neoplasms",
+          "thymus"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the THYMUS GLAND.",
+        "cleaned_description": "Tumors or cancer of the THYMUS GLAND.",
+        "description_summary": "Tumors or cancer of the THYMUS GLAND.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Lymphatic disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Lymphatic disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Lymphatic disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "PD-1 signaling",
+        "pathway_list": [
+          "PD-1 signaling"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.995157",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

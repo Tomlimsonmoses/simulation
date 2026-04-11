@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Congenital abnormality', 'Genetic disease (inborn)', 'Metabolic disease']",
+    "export_timestamp": "2026-03-28T22:11:36.306328",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D019082",
+      "DiseaseName": "Smith-Lemli-Opitz Syndrome",
+      "DiseaseDescription": "An autosomal recessive disorder of CHOLESTEROL metabolism. It is caused by a deficiency of 7-dehydrocholesterol reductase, the enzyme that converts 7-dehydrocholesterol to cholesterol, leading to an abnormally low plasma cholesterol. This syndrome is characterized by multiple CONGENITAL ABNORMALITIES, growth deficiency, and INTELLECTUAL DISABILITY.",
+      "SlimMapping": "['Congenital abnormality', 'Genetic disease (inborn)', 'Metabolic disease']",
+      "PathwayNames": "Steroid biosynthesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D019082",
+        "standardized_id": "MESH:D019082",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Smith-Lemli-Opitz Syndrome",
+        "standardized_name": "Smith-Lemli-Opitz Syndrome",
+        "normalized_name": "smith-lemli-opitz syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "smith-lemli-opitz",
+          "smith-lemli-opitz syndrome",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An autosomal recessive disorder of CHOLESTEROL metabolism. It is caused by a deficiency of 7-dehydrocholesterol reductase, the enzyme that converts 7-dehydrocholesterol to cholesterol, leading to an abnormally low plasma cholesterol. This syndrome is characterized by multiple CONGENITAL ABNORMALITIES, growth deficiency, and INTELLECTUAL DISABILITY.",
+        "cleaned_description": "An autosomal recessive disorder of CHOLESTEROL metabolism. It is caused by a deficiency of 7-dehydrocholesterol reductase, the enzyme that converts 7-dehydrocholesterol to cholesterol, leading to an abnormally low plasma cholesterol. This syndrome is characterized by multiple CONGENITAL ABNORMALITIES, growth deficiency, and INTELLECTUAL DISABILITY.",
+        "description_summary": "An autosomal recessive disorder of CHOLESTEROL metabolism.",
+        "key_terms": [],
+        "word_count": 43
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Steroid biosynthesis",
+        "pathway_list": [
+          "Steroid biosynthesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.969523",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

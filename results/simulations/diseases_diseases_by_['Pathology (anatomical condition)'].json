@@ -1,0 +1,642 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Pathology (anatomical condition)']",
+    "export_timestamp": "2026-03-28T22:11:35.666319",
+    "total_records": 10
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D001284",
+      "DiseaseName": "Atrophy",
+      "DiseaseDescription": "Decrease in the size of a cell, tissue, organ, or multiple organs, associated with a variety of pathological conditions such as abnormal cellular changes, ischemia, malnutrition, or hormonal changes.",
+      "SlimMapping": "['Pathology (anatomical condition)']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001284",
+        "standardized_id": "MESH:D001284",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Atrophy",
+        "standardized_name": "Atrophy",
+        "normalized_name": "atrophy",
+        "synonyms": [],
+        "search_terms": [
+          "atrophy"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Decrease in the size of a cell, tissue, organ, or multiple organs, associated with a variety of pathological conditions such as abnormal cellular changes, ischemia, malnutrition, or hormonal changes.",
+        "cleaned_description": "Decrease in the size of a cell, tissue, organ, or multiple organs, associated with a variety of pathological conditions such as abnormal cellular changes, ischemia, malnutrition, or hormonal changes.",
+        "description_summary": "Decrease in the size of a cell, tissue, organ, or multiple organs, associated with a variety of pathological conditions such as abnormal cellular changes, ischemia, malnutrition, or hormonal changes.",
+        "key_terms": [
+          "ischemia"
+        ],
+        "word_count": 29
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (anatomical condition)"
+        ],
+        "primary_categories": [
+          "Pathology (anatomical condition)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (anatomical condition)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.382084",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003111",
+      "DiseaseName": "Colonic Polyps",
+      "DiseaseDescription": "Discrete tissue masses that protrude into the lumen of the COLON. These POLYPS are connected to the wall of the colon either by a stalk, pedunculus, or by a broad base.",
+      "SlimMapping": "['Pathology (anatomical condition)']",
+      "PathwayNames": "TRP channels",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003111",
+        "standardized_id": "MESH:D003111",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Colonic Polyps",
+        "standardized_name": "Colonic Polyps",
+        "normalized_name": "colonic polyps",
+        "synonyms": [],
+        "search_terms": [
+          "colonic",
+          "polyps",
+          "colonic polyps"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Discrete tissue masses that protrude into the lumen of the COLON. These POLYPS are connected to the wall of the colon either by a stalk, pedunculus, or by a broad base.",
+        "cleaned_description": "Discrete tissue masses that protrude into the lumen of the COLON. These POLYPS are connected to the wall of the colon either by a stalk, pedunculus, or by a broad base.",
+        "description_summary": "Discrete tissue masses that protrude into the lumen of the COLON.",
+        "key_terms": [],
+        "word_count": 31
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (anatomical condition)"
+        ],
+        "primary_categories": [
+          "Pathology (anatomical condition)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (anatomical condition)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "TRP channels",
+        "pathway_list": [
+          "TRP channels"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.448032",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005146",
+      "DiseaseName": "Facial Asymmetry",
+      "DiseaseDescription": "Congenital or acquired asymmetry of the face.",
+      "SlimMapping": "['Pathology (anatomical condition)']",
+      "PathwayNames": "Transcriptional regulation of pluripotent stem cells",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005146",
+        "standardized_id": "MESH:D005146",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Facial Asymmetry",
+        "standardized_name": "Facial Asymmetry",
+        "normalized_name": "facial asymmetry",
+        "synonyms": [],
+        "search_terms": [
+          "asymmetry",
+          "facial asymmetry",
+          "facial"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Congenital or acquired asymmetry of the face.",
+        "cleaned_description": "Congenital or acquired asymmetry of the face.",
+        "description_summary": "Congenital or acquired asymmetry of the face.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (anatomical condition)"
+        ],
+        "primary_categories": [
+          "Pathology (anatomical condition)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (anatomical condition)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional regulation of pluripotent stem cells",
+        "pathway_list": [
+          "Transcriptional regulation of pluripotent stem cells"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional regulation of pluripotent stem cells"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.514556",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006548",
+      "DiseaseName": "Hernia, Diaphragmatic",
+      "DiseaseDescription": "Protrusion of abdominal structures into the THORAX as a result of congenital or traumatic defects in the respiratory DIAPHRAGM.",
+      "SlimMapping": "['Pathology (anatomical condition)']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006548",
+        "standardized_id": "MESH:D006548",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hernia, Diaphragmatic",
+        "standardized_name": "Hernia, Diaphragmatic",
+        "normalized_name": "hernia diaphragmatic",
+        "synonyms": [],
+        "search_terms": [
+          "diaphragmatic",
+          "hernia,",
+          "hernia, diaphragmatic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Protrusion of abdominal structures into the THORAX as a result of congenital or traumatic defects in the respiratory DIAPHRAGM.",
+        "cleaned_description": "Protrusion of abdominal structures into the THORAX as a result of congenital or traumatic defects in the respiratory DIAPHRAGM.",
+        "description_summary": "Protrusion of abdominal structures into the THORAX as a result of congenital or traumatic defects in the respiratory DIAPHRAGM.",
+        "key_terms": [],
+        "word_count": 19
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (anatomical condition)"
+        ],
+        "primary_categories": [
+          "Pathology (anatomical condition)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (anatomical condition)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.656015",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006984",
+      "DiseaseName": "Hypertrophy",
+      "DiseaseDescription": "General increase in bulk of a part or organ due to CELL ENLARGEMENT and accumulation of FLUIDS AND SECRETIONS, not due to tumor formation, nor to an increase in the number of cells (HYPERPLASIA).",
+      "SlimMapping": "['Pathology (anatomical condition)']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006984",
+        "standardized_id": "MESH:D006984",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypertrophy",
+        "standardized_name": "Hypertrophy",
+        "normalized_name": "hypertrophy",
+        "synonyms": [],
+        "search_terms": [
+          "hypertrophy"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "General increase in bulk of a part or organ due to CELL ENLARGEMENT and accumulation of FLUIDS AND SECRETIONS, not due to tumor formation, nor to an increase in the number of cells (HYPERPLASIA).",
+        "cleaned_description": "General increase in bulk of a part or organ due to CELL ENLARGEMENT and accumulation of FLUIDS AND SECRETIONS, not due to tumor formation, nor to an increase in the number of cells (HYPERPLASIA).",
+        "description_summary": "General increase in bulk of a part or organ due to CELL ENLARGEMENT and accumulation of FLUIDS AND SECRETIONS, not due to tumor formation, nor to an increase in the number of cells (HYPERPLASIA).",
+        "key_terms": [],
+        "word_count": 34
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (anatomical condition)"
+        ],
+        "primary_categories": [
+          "Pathology (anatomical condition)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (anatomical condition)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.770897",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007417",
+      "DiseaseName": "Intestinal Polyps",
+      "DiseaseDescription": "Discrete abnormal tissue masses that protrude into the lumen of the INTESTINE. A polyp is attached to the intestinal wall either by a stalk, pedunculus, or by a broad base.",
+      "SlimMapping": "['Pathology (anatomical condition)']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007417",
+        "standardized_id": "MESH:D007417",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Intestinal Polyps",
+        "standardized_name": "Intestinal Polyps",
+        "normalized_name": "intestinal polyps",
+        "synonyms": [],
+        "search_terms": [
+          "polyps",
+          "intestinal",
+          "intestinal polyps"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Discrete abnormal tissue masses that protrude into the lumen of the INTESTINE. A polyp is attached to the intestinal wall either by a stalk, pedunculus, or by a broad base.",
+        "cleaned_description": "Discrete abnormal tissue masses that protrude into the lumen of the INTESTINE. A polyp is attached to the intestinal wall either by a stalk, pedunculus, or by a broad base.",
+        "description_summary": "Discrete abnormal tissue masses that protrude into the lumen of the INTESTINE.",
+        "key_terms": [],
+        "word_count": 30
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (anatomical condition)"
+        ],
+        "primary_categories": [
+          "Pathology (anatomical condition)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (anatomical condition)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.790764",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D058226",
+      "DiseaseName": "Plaque, Atherosclerotic",
+      "DiseaseDescription": "Lesions formed within the walls of ARTERIES associated with deposits of fat and other substances that accumulate in the lining of the artery wall.",
+      "SlimMapping": "['Pathology (anatomical condition)']",
+      "PathwayNames": "Visual phototransduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D058226",
+        "standardized_id": "MESH:D058226",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Plaque, Atherosclerotic",
+        "standardized_name": "Plaque, Atherosclerotic",
+        "normalized_name": "plaque atherosclerotic",
+        "synonyms": [],
+        "search_terms": [
+          "plaque, atherosclerotic",
+          "plaque,",
+          "atherosclerotic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Lesions formed within the walls of ARTERIES associated with deposits of fat and other substances that accumulate in the lining of the artery wall.",
+        "cleaned_description": "Lesions formed within the walls of ARTERIES associated with deposits of fat and other substances that accumulate in the lining of the artery wall.",
+        "description_summary": "Lesions formed within the walls of ARTERIES associated with deposits of fat and other substances that accumulate in the lining of the artery wall.",
+        "key_terms": [],
+        "word_count": 24
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (anatomical condition)"
+        ],
+        "primary_categories": [
+          "Pathology (anatomical condition)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (anatomical condition)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Visual phototransduction",
+        "pathway_list": [
+          "Visual phototransduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.917661",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012422",
+      "DiseaseName": "Rupture, Spontaneous",
+      "DiseaseDescription": "Tear or break of an organ, vessel or other soft part of the body, occurring in the absence of external force.",
+      "SlimMapping": "['Pathology (anatomical condition)']",
+      "PathwayNames": "Protein digestion and absorption",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012422",
+        "standardized_id": "MESH:D012422",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Rupture, Spontaneous",
+        "standardized_name": "Rupture, Spontaneous",
+        "normalized_name": "rupture spontaneous",
+        "synonyms": [],
+        "search_terms": [
+          "spontaneous",
+          "rupture, spontaneous",
+          "rupture,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tear or break of an organ, vessel or other soft part of the body, occurring in the absence of external force.",
+        "cleaned_description": "Tear or break of an organ, vessel or other soft part of the body, occurring in the absence of external force.",
+        "description_summary": "Tear or break of an organ, vessel or other soft part of the body, occurring in the absence of external force.",
+        "key_terms": [],
+        "word_count": 21
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (anatomical condition)"
+        ],
+        "primary_categories": [
+          "Pathology (anatomical condition)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (anatomical condition)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Protein digestion and absorption",
+        "pathway_list": [
+          "Protein digestion and absorption"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.958225",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013163",
+      "DiseaseName": "Splenomegaly",
+      "DiseaseDescription": "Enlargement of the spleen.",
+      "SlimMapping": "['Pathology (anatomical condition)']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013163",
+        "standardized_id": "MESH:D013163",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Splenomegaly",
+        "standardized_name": "Splenomegaly",
+        "normalized_name": "splenomegaly",
+        "synonyms": [],
+        "search_terms": [
+          "splenomegaly"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Enlargement of the spleen.",
+        "cleaned_description": "Enlargement of the spleen.",
+        "description_summary": "Enlargement of the spleen.",
+        "key_terms": [],
+        "word_count": 4
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (anatomical condition)"
+        ],
+        "primary_categories": [
+          "Pathology (anatomical condition)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (anatomical condition)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.976678",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": [
+            "Very short or missing description"
+          ]
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020257",
+      "DiseaseName": "Ventricular Remodeling",
+      "DiseaseDescription": "The geometric and structural changes that the HEART VENTRICLES undergo, usually following MYOCARDIAL INFARCTION. It comprises expansion of the infarct and dilatation of the healthy ventricle segments. While most prevalent in the left ventricle, it can also occur in the right ventricle.",
+      "SlimMapping": "['Pathology (anatomical condition)']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020257",
+        "standardized_id": "MESH:D020257",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Ventricular Remodeling",
+        "standardized_name": "Ventricular Remodeling",
+        "normalized_name": "ventricular remodeling",
+        "synonyms": [],
+        "search_terms": [
+          "ventricular remodeling",
+          "remodeling",
+          "ventricular"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The geometric and structural changes that the HEART VENTRICLES undergo, usually following MYOCARDIAL INFARCTION. It comprises expansion of the infarct and dilatation of the healthy ventricle segments. While most prevalent in the left ventricle, it can also occur in the right ventricle.",
+        "cleaned_description": "The geometric and structural changes that the HEART VENTRICLES undergo, usually following MYOCARDIAL INFARCTION. It comprises expansion of the infarct and dilatation of the healthy ventricle segments. While most prevalent in the left ventricle, it can also occur in the right ventricle.",
+        "description_summary": "The geometric and structural changes that the HEART VENTRICLES undergo, usually following MYOCARDIAL INFARCTION.",
+        "key_terms": [],
+        "word_count": 42
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (anatomical condition)"
+        ],
+        "primary_categories": [
+          "Pathology (anatomical condition)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (anatomical condition)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.023359",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Mental disorder', 'Metabolic disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.019758",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D057180",
+      "DiseaseName": "Frontotemporal Dementia",
+      "DiseaseDescription": "The most common clinical form of FRONTOTEMPORAL LOBAR DEGENERATION, this dementia presents with personality and behavioral changes often associated with disinhibition, apathy, and lack of insight.",
+      "SlimMapping": "['Mental disorder', 'Metabolic disease', 'Nervous system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D057180",
+        "standardized_id": "MESH:D057180",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Frontotemporal Dementia",
+        "standardized_name": "Frontotemporal Dementia",
+        "normalized_name": "frontotemporal dementia",
+        "synonyms": [],
+        "search_terms": [
+          "frontotemporal dementia",
+          "dementia",
+          "frontotemporal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The most common clinical form of FRONTOTEMPORAL LOBAR DEGENERATION, this dementia presents with personality and behavioral changes often associated with disinhibition, apathy, and lack of insight.",
+        "cleaned_description": "The most common clinical form of FRONTOTEMPORAL LOBAR DEGENERATION, this dementia presents with personality and behavioral changes often associated with disinhibition, apathy, and lack of insight.",
+        "description_summary": "The most common clinical form of FRONTOTEMPORAL LOBAR DEGENERATION, this dementia presents with personality and behavioral changes often associated with disinhibition, apathy, and lack of insight.",
+        "key_terms": [
+          "apathy"
+        ],
+        "word_count": 26
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Mental disorder",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.531132",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

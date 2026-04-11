@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Digestive system disease', 'Genetic disease (inborn)', 'Metabolic disease']",
+    "export_timestamp": "2026-03-28T22:11:35.886058",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D003123",
+      "DiseaseName": "Colorectal Neoplasms, Hereditary Nonpolyposis",
+      "DiseaseDescription": "A group of autosomal-dominant inherited diseases in which COLON CANCER arises in discrete adenomas. Unlike FAMILIAL POLYPOSIS COLI with hundreds of polyps, hereditary nonpolyposis colorectal neoplasms occur much later, in the fourth and fifth decades. HNPCC has been associated with germline mutations in mismatch repair (MMR) genes. It has been subdivided into Lynch syndrome I or site-specific colonic cancer, and LYNCH SYNDROME II which includes extracolonic cancer.",
+      "SlimMapping": "['Cancer', 'Digestive system disease', 'Genetic disease (inborn)', 'Metabolic disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003123",
+        "standardized_id": "MESH:D003123",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Colorectal Neoplasms, Hereditary Nonpolyposis",
+        "standardized_name": "Colorectal Neoplasms, Hereditary Nonpolyposis",
+        "normalized_name": "colorectal neoplasms hereditary nonpolyposis",
+        "synonyms": [],
+        "search_terms": [
+          "colorectal neoplasms, hereditary nonpolyposis",
+          "colorectal",
+          "nonpolyposis",
+          "neoplasms,",
+          "hereditary"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A group of autosomal-dominant inherited diseases in which COLON CANCER arises in discrete adenomas. Unlike FAMILIAL POLYPOSIS COLI with hundreds of polyps, hereditary nonpolyposis colorectal neoplasms occur much later, in the fourth and fifth decades. HNPCC has been associated with germline mutations in mismatch repair (MMR) genes. It has been subdivided into Lynch syndrome I or site-specific colonic cancer, and LYNCH SYNDROME II which includes extracolonic cancer.",
+        "cleaned_description": "A group of autosomal-dominant inherited diseases in which COLON CANCER arises in discrete adenomas. Unlike FAMILIAL POLYPOSIS COLI with hundreds of polyps, hereditary nonpolyposis colorectal neoplasms occur much later, in the fourth and fifth decades. HNPCC has been associated with germline mutations in mismatch repair (MMR) genes. It has been subdivided into Lynch syndrome I or site-specific colonic cancer, and LYNCH SYNDROME II which includes extracolonic cancer.",
+        "description_summary": "A group of autosomal-dominant inherited diseases in which COLON CANCER arises in discrete adenomas.",
+        "key_terms": [
+          "nonpolyposis",
+          "POLYPOSIS"
+        ],
+        "word_count": 67
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Digestive system disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Digestive system disease",
+          "Genetic disease (inborn)"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Digestive system disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.448714",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

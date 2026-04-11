@@ -1,0 +1,281 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Immune system disease', 'Skin disease']",
+    "export_timestamp": "2026-03-28T22:11:35.940288",
+    "total_records": 4
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D017449",
+      "DiseaseName": "Dermatitis, Allergic Contact",
+      "DiseaseDescription": "A contact dermatitis due to allergic sensitization to various substances. These substances subsequently produce inflammatory reactions in the skin of those who have acquired hypersensitivity to them as a result of prior exposure.",
+      "SlimMapping": "['Immune system disease', 'Skin disease']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017449",
+        "standardized_id": "MESH:D017449",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Dermatitis, Allergic Contact",
+        "standardized_name": "Dermatitis, Allergic Contact",
+        "normalized_name": "dermatitis allergic contact",
+        "synonyms": [],
+        "search_terms": [
+          "contact",
+          "dermatitis,",
+          "allergic",
+          "dermatitis, allergic contact"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A contact dermatitis due to allergic sensitization to various substances. These substances subsequently produce inflammatory reactions in the skin of those who have acquired hypersensitivity to them as a result of prior exposure.",
+        "cleaned_description": "A contact dermatitis due to allergic sensitization to various substances. These substances subsequently produce inflammatory reactions in the skin of those who have acquired hypersensitivity to them as a result of prior exposure.",
+        "description_summary": "A contact dermatitis due to allergic sensitization to various substances.",
+        "key_terms": [
+          "dermatitis"
+        ],
+        "word_count": 33
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Immune system disease",
+          "Skin disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.474545",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010391",
+      "DiseaseName": "Pemphigoid, Bullous",
+      "DiseaseDescription": "A chronic and relatively benign subepidermal blistering disease usually of the elderly and without histopathologic acantholysis.",
+      "SlimMapping": "['Immune system disease', 'Skin disease']",
+      "PathwayNames": "Unfolded Protein Response (UPR)",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010391",
+        "standardized_id": "MESH:D010391",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pemphigoid, Bullous",
+        "standardized_name": "Pemphigoid, Bullous",
+        "normalized_name": "pemphigoid bullous",
+        "synonyms": [],
+        "search_terms": [
+          "pemphigoid,",
+          "pemphigoid, bullous",
+          "bullous"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A chronic and relatively benign subepidermal blistering disease usually of the elderly and without histopathologic acantholysis.",
+        "cleaned_description": "A chronic and relatively benign subepidermal blistering disease usually of the elderly and without histopathologic acantholysis.",
+        "description_summary": "A chronic and relatively benign subepidermal blistering disease usually of the elderly and without histopathologic acantholysis.",
+        "key_terms": [],
+        "word_count": 16
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Immune system disease",
+          "Skin disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Unfolded Protein Response (UPR)",
+        "pathway_list": [
+          "Unfolded Protein Response (UPR)"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.911493",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010392",
+      "DiseaseName": "Pemphigus",
+      "DiseaseDescription": "Group of chronic blistering diseases characterized histologically by ACANTHOLYSIS and blister formation within the EPIDERMIS.",
+      "SlimMapping": "['Immune system disease', 'Skin disease']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010392",
+        "standardized_id": "MESH:D010392",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pemphigus",
+        "standardized_name": "Pemphigus",
+        "normalized_name": "pemphigus",
+        "synonyms": [],
+        "search_terms": [
+          "pemphigus"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Group of chronic blistering diseases characterized histologically by ACANTHOLYSIS and blister formation within the EPIDERMIS.",
+        "cleaned_description": "Group of chronic blistering diseases characterized histologically by ACANTHOLYSIS and blister formation within the EPIDERMIS.",
+        "description_summary": "Group of chronic blistering diseases characterized histologically by ACANTHOLYSIS and blister formation within the EPIDERMIS.",
+        "key_terms": [],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Immune system disease",
+          "Skin disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.911692",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014581",
+      "DiseaseName": "Urticaria",
+      "DiseaseDescription": "A vascular reaction of the skin characterized by erythema and wheal formation due to localized increase of vascular permeability. The causative mechanism may be allergy, infection, or stress.",
+      "SlimMapping": "['Immune system disease', 'Skin disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014581",
+        "standardized_id": "MESH:D014581",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Urticaria",
+        "standardized_name": "Urticaria",
+        "normalized_name": "urticaria",
+        "synonyms": [],
+        "search_terms": [
+          "urticaria"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A vascular reaction of the skin characterized by erythema and wheal formation due to localized increase of vascular permeability. The causative mechanism may be allergy, infection, or stress.",
+        "cleaned_description": "A vascular reaction of the skin characterized by erythema and wheal formation due to localized increase of vascular permeability. The causative mechanism may be allergy, infection, or stress.",
+        "description_summary": "A vascular reaction of the skin characterized by erythema and wheal formation due to localized increase of vascular permeability.",
+        "key_terms": [],
+        "word_count": 28
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Immune system disease",
+          "Skin disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.014261",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

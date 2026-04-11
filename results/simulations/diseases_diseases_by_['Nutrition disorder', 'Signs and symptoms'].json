@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Nutrition disorder', 'Signs and symptoms']",
+    "export_timestamp": "2026-03-28T22:11:36.248125",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D009765",
+      "DiseaseName": "Obesity",
+      "DiseaseDescription": "A status with BODY WEIGHT that is grossly above the recommended standards, usually due to accumulation of excess FATS in the body. The standards may vary with age, sex, genetic or cultural background. In the BODY MASS INDEX, a BMI greater than 30.0 kg/m2 is considered obese, and a BMI greater than 40.0 kg/m2 is considered morbidly obese (MORBID OBESITY).",
+      "SlimMapping": "['Nutrition disorder', 'Signs and symptoms']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009765",
+        "standardized_id": "MESH:D009765",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Obesity",
+        "standardized_name": "Obesity",
+        "normalized_name": "obesity",
+        "synonyms": [],
+        "search_terms": [
+          "obesity"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A status with BODY WEIGHT that is grossly above the recommended standards, usually due to accumulation of excess FATS in the body. The standards may vary with age, sex, genetic or cultural background. In the BODY MASS INDEX, a BMI greater than 30.0 kg/m2 is considered obese, and a BMI greater than 40.0 kg/m2 is considered morbidly obese (MORBID OBESITY).",
+        "cleaned_description": "A status with BODY WEIGHT that is grossly above the recommended standards, usually due to accumulation of excess FATS in the body. The standards may vary with age, sex, genetic or cultural background. In the BODY MASS INDEX, a BMI greater than 30.0 kg/m2 is considered obese, and a BMI greater than 40.0 kg/m2 is considered morbidly obese (MORBID OBESITY).",
+        "description_summary": "A status with BODY WEIGHT that is grossly above the recommended standards, usually due to accumulation of excess FATS in the body.",
+        "key_terms": [],
+        "word_count": 60
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nutrition disorder",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nutrition disorder",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nutrition disorder",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.889584",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D050177",
+      "DiseaseName": "Overweight",
+      "DiseaseDescription": "A status with BODY WEIGHT that is above certain standards. In the scale of BODY MASS INDEX, overweight is defined as having a BMI of 25.0-29.9 kg/m2. Overweight may or may not be due to increases in body fat (ADIPOSE TISSUE), hence overweight does not equal 'over fat'.",
+      "SlimMapping": "['Nutrition disorder', 'Signs and symptoms']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D050177",
+        "standardized_id": "MESH:D050177",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Overweight",
+        "standardized_name": "Overweight",
+        "normalized_name": "overweight",
+        "synonyms": [],
+        "search_terms": [
+          "overweight"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A status with BODY WEIGHT that is above certain standards. In the scale of BODY MASS INDEX, overweight is defined as having a BMI of 25.0-29.9 kg/m2. Overweight may or may not be due to increases in body fat (ADIPOSE TISSUE), hence overweight does not equal 'over fat'.",
+        "cleaned_description": "A status with BODY WEIGHT that is above certain standards. In the scale of BODY MASS INDEX, overweight is defined as having a BMI of 25.0-29.9 kg/m2. Overweight may or may not be due to increases in body fat (ADIPOSE TISSUE), hence overweight does not equal 'over fat'.",
+        "description_summary": "A status with BODY WEIGHT that is above certain standards.",
+        "key_terms": [],
+        "word_count": 48
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nutrition disorder",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nutrition disorder",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nutrition disorder",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.899851",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

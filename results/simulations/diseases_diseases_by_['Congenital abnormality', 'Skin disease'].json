@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Congenital abnormality', 'Skin disease']",
+    "export_timestamp": "2026-03-28T22:11:35.223863",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000169",
+      "DiseaseName": "Acrodermatitis",
+      "DiseaseDescription": "Inflammation involving the skin of the extremities, especially the hands and feet. Several forms are known, some idiopathic and some hereditary. The infantile form is called Gianotti-Crosti syndrome.",
+      "SlimMapping": "['Congenital abnormality', 'Skin disease']",
+      "PathwayNames": "Zinc transporters",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000169",
+        "standardized_id": "MESH:D000169",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Acrodermatitis",
+        "standardized_name": "Acrodermatitis",
+        "normalized_name": "acrodermatitis",
+        "synonyms": [],
+        "search_terms": [
+          "acrodermatitis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inflammation involving the skin of the extremities, especially the hands and feet. Several forms are known, some idiopathic and some hereditary. The infantile form is called Gianotti-Crosti syndrome.",
+        "cleaned_description": "Inflammation involving the skin of the extremities, especially the hands and feet. Several forms are known, some idiopathic and some hereditary. The infantile form is called Gianotti-Crosti syndrome.",
+        "description_summary": "Inflammation involving the skin of the extremities, especially the hands and feet.",
+        "key_terms": [],
+        "word_count": 28
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Skin disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Zinc transporters",
+        "pathway_list": [
+          "Zinc transporters"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.354403",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012868",
+      "DiseaseName": "Skin Abnormalities",
+      "DiseaseDescription": "Congenital structural abnormalities of the skin.",
+      "SlimMapping": "['Congenital abnormality', 'Skin disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012868",
+        "standardized_id": "MESH:D012868",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Skin Abnormalities",
+        "standardized_name": "Skin Abnormalities",
+        "normalized_name": "skin abnormalities",
+        "synonyms": [],
+        "search_terms": [
+          "skin",
+          "skin abnormalities",
+          "abnormalities"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Congenital structural abnormalities of the skin.",
+        "cleaned_description": "Congenital structural abnormalities of the skin.",
+        "description_summary": "Congenital structural abnormalities of the skin.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Skin disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.965732",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

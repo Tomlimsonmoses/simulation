@@ -1,0 +1,210 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Pathology (process)', 'Pregnancy complication']",
+    "export_timestamp": "2026-03-28T22:11:35.979125",
+    "total_records": 3
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D020964",
+      "DiseaseName": "Embryo Loss",
+      "DiseaseDescription": "Early pregnancy loss during the EMBRYO, MAMMALIAN stage of development. In the human, this period comprises the second through eighth week after fertilization.",
+      "SlimMapping": "['Pathology (process)', 'Pregnancy complication']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020964",
+        "standardized_id": "MESH:D020964",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Embryo Loss",
+        "standardized_name": "Embryo Loss",
+        "normalized_name": "embryo loss",
+        "synonyms": [],
+        "search_terms": [
+          "embryo",
+          "embryo loss",
+          "loss"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Early pregnancy loss during the EMBRYO, MAMMALIAN stage of development. In the human, this period comprises the second through eighth week after fertilization.",
+        "cleaned_description": "Early pregnancy loss during the EMBRYO, MAMMALIAN stage of development. In the human, this period comprises the second through eighth week after fertilization.",
+        "description_summary": "Early pregnancy loss during the EMBRYO, MAMMALIAN stage of development.",
+        "key_terms": [],
+        "word_count": 23
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)",
+          "Pregnancy complication"
+        ],
+        "primary_categories": [
+          "Pathology (process)",
+          "Pregnancy complication"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)",
+          "Pregnancy complication"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.492823",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005313",
+      "DiseaseName": "Fetal Death",
+      "DiseaseDescription": "Death of the developing young in utero. BIRTH of a dead FETUS is STILLBIRTH.",
+      "SlimMapping": "['Pathology (process)', 'Pregnancy complication']",
+      "PathwayNames": "Visual phototransduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005313",
+        "standardized_id": "MESH:D005313",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Fetal Death",
+        "standardized_name": "Fetal Death",
+        "normalized_name": "fetal death",
+        "synonyms": [],
+        "search_terms": [
+          "fetal death",
+          "fetal",
+          "death"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Death of the developing young in utero. BIRTH of a dead FETUS is STILLBIRTH.",
+        "cleaned_description": "Death of the developing young in utero. BIRTH of a dead FETUS is STILLBIRTH.",
+        "description_summary": "Death of the developing young in utero.",
+        "key_terms": [],
+        "word_count": 14
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)",
+          "Pregnancy complication"
+        ],
+        "primary_categories": [
+          "Pathology (process)",
+          "Pregnancy complication"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)",
+          "Pregnancy complication"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Visual phototransduction",
+        "pathway_list": [
+          "Visual phototransduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.523985",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005327",
+      "DiseaseName": "Fetal Resorption",
+      "DiseaseDescription": "The disintegration and assimilation of the dead FETUS in the UTERUS at any stage after the completion of organogenesis which, in humans, is after the 9th week of GESTATION. It does not include embryo resorption (see EMBRYO LOSS).",
+      "SlimMapping": "['Pathology (process)', 'Pregnancy complication']",
+      "PathwayNames": "Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005327",
+        "standardized_id": "MESH:D005327",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Fetal Resorption",
+        "standardized_name": "Fetal Resorption",
+        "normalized_name": "fetal resorption",
+        "synonyms": [],
+        "search_terms": [
+          "fetal resorption",
+          "resorption",
+          "fetal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The disintegration and assimilation of the dead FETUS in the UTERUS at any stage after the completion of organogenesis which, in humans, is after the 9th week of GESTATION. It does not include embryo resorption (see EMBRYO LOSS).",
+        "cleaned_description": "The disintegration and assimilation of the dead FETUS in the UTERUS at any stage after the completion of organogenesis which, in humans, is after the 9th week of GESTATION. It does not include embryo resorption (see EMBRYO LOSS).",
+        "description_summary": "The disintegration and assimilation of the dead FETUS in the UTERUS at any stage after the completion of organogenesis which, in humans, is after the 9th week of GESTATION.",
+        "key_terms": [],
+        "word_count": 38
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)",
+          "Pregnancy complication"
+        ],
+        "primary_categories": [
+          "Pathology (process)",
+          "Pregnancy complication"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)",
+          "Pregnancy complication"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors",
+        "pathway_list": [
+          "Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.524856",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

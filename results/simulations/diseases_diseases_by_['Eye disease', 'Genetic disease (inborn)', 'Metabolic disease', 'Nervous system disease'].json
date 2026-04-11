@@ -1,0 +1,166 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Eye disease', 'Genetic disease (inborn)', 'Metabolic disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.255232",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D029241",
+      "DiseaseName": "Optic Atrophy, Autosomal Dominant",
+      "DiseaseDescription": "Dominant optic atrophy is a hereditary optic neuropathy causing decreased visual acuity, color vision deficits, a centrocecal scotoma, and optic nerve pallor (Hum. Genet. 1998; 102: 79-86). Mutations leading to this condition have been mapped to the OPA1 gene at chromosome 3q28-q29. OPA1 codes for a dynamin-related GTPase that localizes to mitochondria.",
+      "SlimMapping": "['Eye disease', 'Genetic disease (inborn)', 'Metabolic disease', 'Nervous system disease']",
+      "PathwayNames": "Regulation of Apoptosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D029241",
+        "standardized_id": "MESH:D029241",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Optic Atrophy, Autosomal Dominant",
+        "standardized_name": "Optic Atrophy, Autosomal Dominant",
+        "normalized_name": "optic atrophy autosomal dominant",
+        "synonyms": [],
+        "search_terms": [
+          "optic atrophy, autosomal dominant",
+          "atrophy,",
+          "autosomal",
+          "optic",
+          "dominant"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Dominant optic atrophy is a hereditary optic neuropathy causing decreased visual acuity, color vision deficits, a centrocecal scotoma, and optic nerve pallor (Hum. Genet. 1998; 102: 79-86). Mutations leading to this condition have been mapped to the OPA1 gene at chromosome 3q28-q29. OPA1 codes for a dynamin-related GTPase that localizes to mitochondria.",
+        "cleaned_description": "Dominant optic atrophy is a hereditary optic neuropathy causing decreased visual acuity, color vision deficits, a centrocecal scotoma, and optic nerve pallor (Hum. Genet. 1998; 102: 79-86). Mutations leading to this condition have been mapped to the OPA1 gene at chromosome 3q28-q29. OPA1 codes for a dynamin-related GTPase that localizes to mitochondria.",
+        "description_summary": "Dominant optic atrophy is a hereditary optic neuropathy causing decreased visual acuity, color vision deficits, a centrocecal scotoma, and optic nerve pallor (Hum.",
+        "key_terms": [
+          "neuropathy"
+        ],
+        "word_count": 52
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Eye disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Eye disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Eye disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Regulation of Apoptosis",
+        "pathway_list": [
+          "Regulation of Apoptosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Regulation of Apoptosis"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.894031",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D029242",
+      "DiseaseName": "Optic Atrophy, Hereditary, Leber",
+      "DiseaseDescription": "A maternally linked genetic disorder that presents in mid-life as acute or subacute central vision loss leading to central scotoma and blindness. The disease has been associated with missense mutations in the mtDNA, in genes for Complex I, III, and IV polypeptides, that can act autonomously or in association with each other to cause the disease. (from Online Mendelian Inheritance in Man, http://www.ncbi.nlm.nih.gov/Omim/, MIM#535000 (April 17, 2001))",
+      "SlimMapping": "['Eye disease', 'Genetic disease (inborn)', 'Metabolic disease', 'Nervous system disease']",
+      "PathwayNames": "Vitamin digestion and absorption",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D029242",
+        "standardized_id": "MESH:D029242",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Optic Atrophy, Hereditary, Leber",
+        "standardized_name": "Optic Atrophy, Hereditary, Leber",
+        "normalized_name": "optic atrophy hereditary leber",
+        "synonyms": [],
+        "search_terms": [
+          "atrophy,",
+          "optic",
+          "hereditary,",
+          "leber",
+          "optic atrophy, hereditary, leber"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A maternally linked genetic disorder that presents in mid-life as acute or subacute central vision loss leading to central scotoma and blindness. The disease has been associated with missense mutations in the mtDNA, in genes for Complex I, III, and IV polypeptides, that can act autonomously or in association with each other to cause the disease. (from Online Mendelian Inheritance in Man, http://www.ncbi.nlm.nih.gov/Omim/, MIM#535000 (April 17, 2001))",
+        "cleaned_description": "A maternally linked genetic disorder that presents in mid-life as acute or subacute central vision loss leading to central scotoma and blindness. The disease has been associated with missense mutations in the mtDNA, in genes for Complex I, III, and IV polypeptides, that can act autonomously or in association with each other to cause the disease. (from Online Mendelian Inheritance in Man, http://www.ncbi.nlm.nih.gov/Omim/, MIM#535000 (April 17, 2001))",
+        "description_summary": "A maternally linked genetic disorder that presents in mid-life as acute or subacute central vision loss leading to central scotoma and blindness.",
+        "key_terms": [],
+        "word_count": 67
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Eye disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Eye disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Eye disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamin digestion and absorption",
+        "pathway_list": [
+          "Vitamin digestion and absorption"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.894468",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

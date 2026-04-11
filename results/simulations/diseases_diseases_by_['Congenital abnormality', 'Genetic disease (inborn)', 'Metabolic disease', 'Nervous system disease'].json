@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Congenital abnormality', 'Genetic disease (inborn)', 'Metabolic disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.288204",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D012035",
+      "DiseaseName": "Refsum Disease",
+      "DiseaseDescription": "An autosomal recessive familial disorder that usually presents in childhood with POLYNEUROPATHY; SENSORINEURAL HEARING LOSS; ICHTHYOSIS; ATAXIA; RETINITIS PIGMENTOSA; and CARDIOMYOPATHIES. (From Joynt, Clinical Neurology, 1991, Ch37, p58-9; Rev Med Interne 1996;17(5):391-8) This condition can be caused by mutation in the genes encoding peroxisomal phytanoyl-CoA hydroxylase or proteins associated peroxisomal membrane, leading to impaired catabolism of PHYTANIC ACID in PEROXISOMES.",
+      "SlimMapping": "['Congenital abnormality', 'Genetic disease (inborn)', 'Metabolic disease', 'Nervous system disease']",
+      "PathwayNames": "Peroxisome",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012035",
+        "standardized_id": "MESH:D012035",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Refsum Disease",
+        "standardized_name": "Refsum Disease",
+        "normalized_name": "refsum disease",
+        "synonyms": [],
+        "search_terms": [
+          "refsum disease",
+          "disease",
+          "refsum"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An autosomal recessive familial disorder that usually presents in childhood with POLYNEUROPATHY; SENSORINEURAL HEARING LOSS; ICHTHYOSIS; ATAXIA; RETINITIS PIGMENTOSA; and CARDIOMYOPATHIES. (From Joynt, Clinical Neurology, 1991, Ch37, p58-9; Rev Med Interne 1996;17(5):391-8) This condition can be caused by mutation in the genes encoding peroxisomal phytanoyl-CoA hydroxylase or proteins associated peroxisomal membrane, leading to impaired catabolism of PHYTANIC ACID in PEROXISOMES.",
+        "cleaned_description": "An autosomal recessive familial disorder that usually presents in childhood with POLYNEUROPATHY; SENSORINEURAL HEARING LOSS; ICHTHYOSIS; ATAXIA; RETINITIS PIGMENTOSA; and CARDIOMYOPATHIES. (From Joynt, Clinical Neurology, 1991, Ch37, p58-9; Rev Med Interne 1996;17(5):391-8) This condition can be caused by mutation in the genes encoding peroxisomal phytanoyl-CoA hydroxylase or proteins associated peroxisomal membrane, leading to impaired catabolism of PHYTANIC ACID in PEROXISOMES.",
+        "description_summary": "An autosomal recessive familial disorder that usually presents in childhood with POLYNEUROPATHY; SENSORINEURAL HEARING LOSS; ICHTHYOSIS; ATAXIA; RETINITIS PIGMENTOSA; and CARDIOMYOPATHIES.",
+        "key_terms": [
+          "ICHTHYOSIS",
+          "RETINITIS",
+          "POLYNEUROPATHY"
+        ],
+        "word_count": 60
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Peroxisome",
+        "pathway_list": [
+          "Peroxisome"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.945977",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PK-PD Biological System Simulator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="/static/css/dashboard.css"/>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════ SIDEBAR ══════════════════════════════════════ -->
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-logo">
+    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+      <circle cx="16" cy="16" r="15" stroke="#00bcd4" stroke-width="1.5"/>
+      <path d="M8 16 Q12 8 16 16 Q20 24 24 16" stroke="#00bcd4" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <circle cx="16" cy="16" r="3" fill="#00bcd4" opacity="0.8"/>
+    </svg>
+    <span class="sidebar-title">PK-PD<br/><small>BioSim</small></span>
+  </div>
+
+  <!-- PATIENT -->
+  <div class="sidebar-section">
+    <div class="section-header">
+      <svg class="section-icon" viewBox="0 0 20 20"><path d="M10 10a4 4 0 100-8 4 4 0 000 8zm0 2c-5 0-8 2-8 4v1h16v-1c0-2-3-4-8-4z" fill="currentColor"/></svg>
+      Patient Profile
+    </div>
+    <div class="control-row">
+      <label>Age <span class="val-badge" id="lbl-age">65</span></label>
+      <input type="range" id="age" min="18" max="100" value="65" class="slider"/>
+    </div>
+    <div class="control-row">
+      <label>Weight (kg) <span class="val-badge" id="lbl-weight">70</span></label>
+      <input type="range" id="weight" min="40" max="160" value="70" class="slider"/>
+    </div>
+    <div class="control-row">
+      <label>Sex</label>
+      <div class="toggle-group">
+        <button class="toggle-btn active" data-val="1" id="sex-m">Male</button>
+        <button class="toggle-btn" data-val="0" id="sex-f">Female</button>
+      </div>
+    </div>
+    <div class="control-row">
+      <label>Kidney Fn <span class="val-badge" id="lbl-kidney">80%</span></label>
+      <input type="range" id="kidney" min="10" max="100" value="80" class="slider kidney-slider"/>
+    </div>
+    <div class="control-row">
+      <label>Liver Fn <span class="val-badge" id="lbl-liver">90%</span></label>
+      <input type="range" id="liver" min="10" max="100" value="90" class="slider liver-slider"/>
+    </div>
+    <div class="control-row">
+      <label>Heart Rate <span class="val-badge" id="lbl-hr">72 bpm</span></label>
+      <input type="range" id="heart-rate" min="40" max="140" value="72" class="slider hr-slider"/>
+    </div>
+  </div>
+
+  <!-- DISEASE -->
+  <div class="sidebar-section">
+    <div class="section-header">
+      <svg class="section-icon" viewBox="0 0 20 20"><path d="M10 2a8 8 0 100 16A8 8 0 0010 2zm1 11H9v-2h2v2zm0-4H9V5h2v4z" fill="currentColor"/></svg>
+      Disease
+    </div>
+    <div class="control-row">
+      <label>Condition</label>
+      <select id="disease" class="select-input"></select>
+    </div>
+    <div class="control-row">
+      <label>Severity <span class="val-badge" id="lbl-severity">55%</span></label>
+      <input type="range" id="severity" min="1" max="100" value="55" class="slider severity-slider"/>
+    </div>
+  </div>
+
+  <!-- PRIMARY DRUG -->
+  <div class="sidebar-section">
+    <div class="section-header">
+      <svg class="section-icon" viewBox="0 0 20 20"><rect x="2" y="9" width="16" height="2" rx="1" fill="currentColor"/><rect x="9" y="2" width="2" height="16" rx="1" fill="currentColor"/></svg>
+      Primary Drug
+    </div>
+    <div class="control-row">
+      <label>Drug</label>
+      <select id="drug1" class="select-input"></select>
+    </div>
+    <div class="control-row">
+      <label>Dose (mg) <span class="val-badge" id="lbl-dose1">—</span></label>
+      <input type="number" id="dose1" min="0.01" step="0.1" class="num-input" value="10"/>
+    </div>
+    <div class="drug-info" id="drug1-info"></div>
+  </div>
+
+  <!-- SECOND DRUG -->
+  <div class="sidebar-section">
+    <div class="section-header">
+      <svg class="section-icon" viewBox="0 0 20 20"><rect x="2" y="9" width="16" height="2" rx="1" fill="currentColor"/><rect x="9" y="2" width="2" height="16" rx="1" fill="currentColor"/></svg>
+      Second Drug
+      <label class="switch" style="margin-left:auto">
+        <input type="checkbox" id="drug2-toggle"/>
+        <span class="switch-knob"></span>
+      </label>
+    </div>
+    <div id="drug2-panel" class="collapsed">
+      <div class="control-row">
+        <label>Drug</label>
+        <select id="drug2" class="select-input"></select>
+      </div>
+      <div class="control-row">
+        <label>Dose (mg) <span class="val-badge" id="lbl-dose2">—</span></label>
+        <input type="number" id="dose2" min="0.01" step="0.1" class="num-input" value="10"/>
+      </div>
+      <div class="drug-info" id="drug2-info"></div>
+    </div>
+  </div>
+
+  <!-- SIMULATION SETTINGS -->
+  <div class="sidebar-section">
+    <div class="section-header">
+      <svg class="section-icon" viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M10 5v5l3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/></svg>
+      Duration
+    </div>
+    <div class="duration-grid">
+      <button class="dur-btn" data-h="24">24h</button>
+      <button class="dur-btn active" data-h="72">72h</button>
+      <button class="dur-btn" data-h="120">120h</button>
+      <button class="dur-btn" data-h="168">168h</button>
+    </div>
+  </div>
+
+  <!-- RUN -->
+  <div class="sidebar-run">
+    <button class="run-btn" id="run-btn">
+      <svg width="18" height="18" viewBox="0 0 18 18"><polygon points="5,3 15,9 5,15" fill="white"/></svg>
+      Run Simulation
+    </button>
+    <label class="live-toggle">
+      <input type="checkbox" id="live-mode"/>
+      <span class="live-dot"></span>
+      Live Mode
+    </label>
+  </div>
+</aside>
+
+<!-- ═══════════════════════════════════════════════ MAIN ══════════════════════════════════════════ -->
+<main class="main-content" id="main-content">
+
+  <!-- TOP BAR -->
+  <header class="topbar">
+    <div class="topbar-left">
+      <h1 class="page-title">Biological System Simulator</h1>
+      <span class="subtitle" id="sim-subtitle">Configure parameters and run simulation</span>
+    </div>
+    <div class="topbar-right">
+      <div class="status-pill" id="status-pill">
+        <span class="status-dot idle"></span> Ready
+      </div>
+    </div>
+  </header>
+
+  <!-- ─────── ROW 1: Body + KPIs ─────── -->
+  <div class="row row1">
+
+    <!-- Virtual Organ Body -->
+    <div class="card organ-body-card">
+      <div class="card-header">
+        <span class="card-title">Virtual Human Model</span>
+        <span class="card-hint">Click organ for cell detail</span>
+      </div>
+      <div class="organ-body-wrap">
+        <svg id="organ-svg" viewBox="0 0 300 520" preserveAspectRatio="xMidYMid meet"></svg>
+      </div>
+    </div>
+
+    <!-- KPI Grid -->
+    <div class="kpi-col">
+      <!-- Therapeutic Status -->
+      <div class="card status-card" id="therapeutic-status-card">
+        <div class="status-label">Therapeutic Status</div>
+        <div class="status-value" id="therapeutic-status">—</div>
+      </div>
+      <!-- 4-KPI grid -->
+      <div class="kpi-grid">
+        <div class="kpi-card" id="kpi-cmax">
+          <div class="kpi-val">—</div>
+          <div class="kpi-label">C<sub>max</sub> (mg/L)</div>
+        </div>
+        <div class="kpi-card" id="kpi-tmax">
+          <div class="kpi-val">—</div>
+          <div class="kpi-label">T<sub>max</sub> (h)</div>
+        </div>
+        <div class="kpi-card" id="kpi-auc">
+          <div class="kpi-val">—</div>
+          <div class="kpi-label">AUC (mg·h/L)</div>
+        </div>
+        <div class="kpi-card" id="kpi-halflife">
+          <div class="kpi-val">—</div>
+          <div class="kpi-label">t<sub>½</sub> (h)</div>
+        </div>
+      </div>
+      <!-- Overall health ring -->
+      <div class="card health-ring-card">
+        <div class="card-header"><span class="card-title">Overall Organ Health</span></div>
+        <div class="health-ring-wrap">
+          <svg id="health-ring-svg" viewBox="0 0 160 160" width="160" height="160"></svg>
+          <div class="health-ring-label">
+            <span id="health-pct">—</span>
+            <small>health</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─────── ROW 2: PK Chart + Radar ─────── -->
+  <div class="row row2">
+    <div class="card pk-card">
+      <div class="card-header">
+        <span class="card-title">PK Concentration Profile</span>
+        <div class="chart-legend" id="pk-legend"></div>
+      </div>
+      <div id="pk-chart-container"></div>
+    </div>
+    <div class="card radar-card">
+      <div class="card-header"><span class="card-title">Organ Health Radar</span></div>
+      <div id="radar-chart-container"></div>
+    </div>
+  </div>
+
+  <!-- ─────── ROW 3: Timeline + Alerts ─────── -->
+  <div class="row row3">
+    <div class="card timeline-card">
+      <div class="card-header"><span class="card-title">Side Effects Timeline</span></div>
+      <div id="timeline-container"></div>
+    </div>
+    <div class="card alerts-card">
+      <div class="card-header"><span class="card-title">Alerts &amp; Biomarkers</span></div>
+      <div id="alerts-container"></div>
+    </div>
+  </div>
+
+  <footer class="footer">PK-PD BioSim v1.0 · April 2026</footer>
+</main>
+
+<!-- ═══════════════════════════════════════════════ CELL DRAWER ═══════════════════════════════════ -->
+<div class="cell-drawer" id="cell-drawer">
+  <div class="cell-drawer-header">
+    <div class="cell-drawer-title">
+      <svg id="cell-organ-icon" width="24" height="24" viewBox="0 0 24 24"></svg>
+      <span id="cell-organ-name">Organ</span>
+    </div>
+    <button class="drawer-close" id="drawer-close">✕</button>
+  </div>
+  <div class="cell-drawer-body">
+    <div id="cell-health-ring-wrap">
+      <svg id="cell-health-ring" viewBox="0 0 120 120" width="120" height="120"></svg>
+      <div class="cell-health-label">
+        <span id="cell-health-pct">—</span>
+        <small>organ health</small>
+      </div>
+    </div>
+
+    <!-- Cell SVG cross-section -->
+    <div class="cell-svg-wrap">
+      <svg id="cell-svg" viewBox="0 0 360 360" preserveAspectRatio="xMidYMid meet"></svg>
+    </div>
+
+    <!-- Metric bars -->
+    <div class="cell-metrics">
+      <div class="cell-metric-bar">
+        <div class="cm-label">Membrane Integrity</div>
+        <div class="cm-track"><div class="cm-fill membrane-fill" id="bar-membrane"></div></div>
+        <div class="cm-val" id="val-membrane">—</div>
+      </div>
+      <div class="cell-metric-bar">
+        <div class="cm-label">ATP / Mitochondrial</div>
+        <div class="cm-track"><div class="cm-fill atp-fill" id="bar-atp"></div></div>
+        <div class="cm-val" id="val-atp">—</div>
+      </div>
+      <div class="cell-metric-bar">
+        <div class="cm-label">Receptor Occupancy</div>
+        <div class="cm-track"><div class="cm-fill receptor-fill" id="bar-receptor"></div></div>
+        <div class="cm-val" id="val-receptor">—</div>
+      </div>
+      <div class="cell-metric-bar">
+        <div class="cm-label">Apoptosis Risk</div>
+        <div class="cm-track"><div class="cm-fill apoptosis-fill" id="bar-apoptosis"></div></div>
+        <div class="cm-val" id="val-apoptosis">—</div>
+      </div>
+    </div>
+
+    <!-- Recovery indicator -->
+    <div class="recovery-indicator" id="recovery-indicator">—</div>
+
+    <!-- Receptor binding table -->
+    <div class="binding-table-wrap">
+      <div class="binding-title">Receptor Binding</div>
+      <table class="binding-table" id="binding-table">
+        <thead><tr><th>Receptor</th><th>Drug</th><th>Occupancy</th><th>Effect</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<div class="drawer-overlay" id="drawer-overlay"></div>
+
+<!-- Loading overlay -->
+<div class="loading-overlay" id="loading-overlay">
+  <div class="spinner"></div>
+  <div class="loading-text">Running simulation…</div>
+</div>
+
+<!-- D3.js v7 -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<!-- App modules -->
+<script src="/static/js/organ_viz.js"></script>
+<script src="/static/js/pk_chart.js"></script>
+<script src="/static/js/radar_chart.js"></script>
+<script src="/static/js/timeline.js"></script>
+<script src="/static/js/biomarkers.js"></script>
+<script src="/static/js/cell_view.js"></script>
+<script src="/static/js/app.js"></script>
+</body>
+</html>

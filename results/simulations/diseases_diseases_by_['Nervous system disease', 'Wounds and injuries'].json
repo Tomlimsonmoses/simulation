@@ -1,0 +1,480 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Nervous system disease', 'Wounds and injuries']",
+    "export_timestamp": "2026-03-28T22:11:35.762803",
+    "total_records": 7
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D001930",
+      "DiseaseName": "Brain Injuries",
+      "DiseaseDescription": "Acute and chronic (see also BRAIN INJURIES, CHRONIC) injuries to the brain, including the cerebral hemispheres, CEREBELLUM, and BRAIN STEM. Clinical manifestations depend on the nature of injury. Diffuse trauma to the brain is frequently associated with DIFFUSE AXONAL INJURY or COMA, POST-TRAUMATIC. Localized injuries may be associated with NEUROBEHAVIORAL MANIFESTATIONS; HEMIPARESIS, or other focal neurologic deficits.",
+      "SlimMapping": "['Nervous system disease', 'Wounds and injuries']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001930",
+        "standardized_id": "MESH:D001930",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Brain Injuries",
+        "standardized_name": "Brain Injuries",
+        "normalized_name": "brain injuries",
+        "synonyms": [],
+        "search_terms": [
+          "injuries",
+          "brain injuries",
+          "brain"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Acute and chronic (see also BRAIN INJURIES, CHRONIC) injuries to the brain, including the cerebral hemispheres, CEREBELLUM, and BRAIN STEM. Clinical manifestations depend on the nature of injury. Diffuse trauma to the brain is frequently associated with DIFFUSE AXONAL INJURY or COMA, POST-TRAUMATIC. Localized injuries may be associated with NEUROBEHAVIORAL MANIFESTATIONS; HEMIPARESIS, or other focal neurologic deficits.",
+        "cleaned_description": "Acute and chronic (see also BRAIN INJURIES, CHRONIC) injuries to the brain, including the cerebral hemispheres, CEREBELLUM, and BRAIN STEM. Clinical manifestations depend on the nature of injury. Diffuse trauma to the brain is frequently associated with DIFFUSE AXONAL INJURY or COMA, POST-TRAUMATIC. Localized injuries may be associated with NEUROBEHAVIORAL MANIFESTATIONS; HEMIPARESIS, or other focal neurologic deficits.",
+        "description_summary": "Acute and chronic (see also BRAIN INJURIES, CHRONIC) injuries to the brain, including the cerebral hemispheres, CEREBELLUM, and BRAIN STEM.",
+        "key_terms": [],
+        "word_count": 57
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Wounds and injuries"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Wounds and injuries"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.406485",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000070642",
+      "DiseaseName": "Brain Injuries, Traumatic",
+      "DiseaseDescription": "A form of acquired brain injury which occurs when a sudden trauma causes damage to the brain.",
+      "SlimMapping": "['Nervous system disease', 'Wounds and injuries']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000070642",
+        "standardized_id": "MESH:D000070642",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Brain Injuries, Traumatic",
+        "standardized_name": "Brain Injuries, Traumatic",
+        "normalized_name": "brain injuries traumatic",
+        "synonyms": [],
+        "search_terms": [
+          "injuries,",
+          "brain",
+          "brain injuries, traumatic",
+          "traumatic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A form of acquired brain injury which occurs when a sudden trauma causes damage to the brain.",
+        "cleaned_description": "A form of acquired brain injury which occurs when a sudden trauma causes damage to the brain.",
+        "description_summary": "A form of acquired brain injury which occurs when a sudden trauma causes damage to the brain.",
+        "key_terms": [],
+        "word_count": 17
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Wounds and injuries"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Wounds and injuries"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.406687",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002349",
+      "DiseaseName": "Carpal Tunnel Syndrome",
+      "DiseaseDescription": "Entrapment of the MEDIAN NERVE in the carpal tunnel, which is formed by the flexor retinaculum and the CARPAL BONES. This syndrome may be associated with repetitive occupational trauma (CUMULATIVE TRAUMA DISORDERS); wrist injuries; AMYLOID NEUROPATHIES; rheumatoid arthritis (see ARTHRITIS, RHEUMATOID); ACROMEGALY; PREGNANCY; and other conditions. Symptoms include burning pain and paresthesias involving the ventral surface of the hand and fingers which may radiate proximally. Impairment of sensation in the distribution of the median nerve and thenar muscle atrophy may occur. (Joynt, Clinical Neurology, 1995, Ch51, p45)",
+      "SlimMapping": "['Nervous system disease', 'Wounds and injuries']",
+      "PathwayNames": "Visual phototransduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002349",
+        "standardized_id": "MESH:D002349",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Carpal Tunnel Syndrome",
+        "standardized_name": "Carpal Tunnel Syndrome",
+        "normalized_name": "carpal tunnel syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "carpal tunnel syndrome",
+          "tunnel",
+          "syndrome",
+          "carpal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Entrapment of the MEDIAN NERVE in the carpal tunnel, which is formed by the flexor retinaculum and the CARPAL BONES. This syndrome may be associated with repetitive occupational trauma (CUMULATIVE TRAUMA DISORDERS); wrist injuries; AMYLOID NEUROPATHIES; rheumatoid arthritis (see ARTHRITIS, RHEUMATOID); ACROMEGALY; PREGNANCY; and other conditions. Symptoms include burning pain and paresthesias involving the ventral surface of the hand and fingers which may radiate proximally. Impairment of sensation in the distribution of the median nerve and thenar muscle atrophy may occur. (Joynt, Clinical Neurology, 1995, Ch51, p45)",
+        "cleaned_description": "Entrapment of the MEDIAN NERVE in the carpal tunnel, which is formed by the flexor retinaculum and the CARPAL BONES. This syndrome may be associated with repetitive occupational trauma (CUMULATIVE TRAUMA DISORDERS); wrist injuries; AMYLOID NEUROPATHIES; rheumatoid arthritis (see ARTHRITIS, RHEUMATOID); ACROMEGALY; PREGNANCY; and other conditions. Symptoms include burning pain and paresthesias involving the ventral surface of the hand and fingers which may radiate proximally. Impairment of sensation in the distribution of the median nerve and thenar muscle atrophy may occur. (Joynt, Clinical Neurology, 1995, Ch51, p45)",
+        "description_summary": "Entrapment of the MEDIAN NERVE in the carpal tunnel, which is formed by the flexor retinaculum and the CARPAL BONES.",
+        "key_terms": [
+          "ARTHRITIS",
+          "arthritis"
+        ],
+        "word_count": 87
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Wounds and injuries"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Wounds and injuries"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Visual phototransduction",
+        "pathway_list": [
+          "Visual phototransduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.430644",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006259",
+      "DiseaseName": "Craniocerebral Trauma",
+      "DiseaseDescription": "Traumatic injuries involving the cranium and intracranial structures (i.e., BRAIN; CRANIAL NERVES; MENINGES; and other structures). Injuries may be classified by whether or not the skull is penetrated (i.e., penetrating vs. nonpenetrating) or whether there is an associated hemorrhage.",
+      "SlimMapping": "['Nervous system disease', 'Wounds and injuries']",
+      "PathwayNames": "Intrinsic Pathway of Fibrin Clot Formation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006259",
+        "standardized_id": "MESH:D006259",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Craniocerebral Trauma",
+        "standardized_name": "Craniocerebral Trauma",
+        "normalized_name": "craniocerebral trauma",
+        "synonyms": [],
+        "search_terms": [
+          "trauma",
+          "craniocerebral",
+          "craniocerebral trauma"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Traumatic injuries involving the cranium and intracranial structures (i.e., BRAIN; CRANIAL NERVES; MENINGES; and other structures). Injuries may be classified by whether or not the skull is penetrated (i.e., penetrating vs. nonpenetrating) or whether there is an associated hemorrhage.",
+        "cleaned_description": "Traumatic injuries involving the cranium and intracranial structures (i.e., BRAIN; CRANIAL NERVES; MENINGES; and other structures). Injuries may be classified by whether or not the skull is penetrated (i.e., penetrating vs. nonpenetrating) or whether there is an associated hemorrhage.",
+        "description_summary": "Traumatic injuries involving the cranium and intracranial structures (i.",
+        "key_terms": [],
+        "word_count": 39
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Wounds and injuries"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Wounds and injuries"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Intrinsic Pathway of Fibrin Clot Formation",
+        "pathway_list": [
+          "Intrinsic Pathway of Fibrin Clot Formation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.462544",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D059348",
+      "DiseaseName": "Peripheral Nerve Injuries",
+      "DiseaseDescription": "Injuries to the PERIPHERAL NERVES.",
+      "SlimMapping": "['Nervous system disease', 'Wounds and injuries']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D059348",
+        "standardized_id": "MESH:D059348",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Peripheral Nerve Injuries",
+        "standardized_name": "Peripheral Nerve Injuries",
+        "normalized_name": "peripheral nerve injuries",
+        "synonyms": [],
+        "search_terms": [
+          "injuries",
+          "peripheral nerve injuries",
+          "nerve",
+          "peripheral"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Injuries to the PERIPHERAL NERVES.",
+        "cleaned_description": "Injuries to the PERIPHERAL NERVES.",
+        "description_summary": "Injuries to the PERIPHERAL NERVES.",
+        "key_terms": [],
+        "word_count": 5
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Wounds and injuries"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Wounds and injuries"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.913838",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013117",
+      "DiseaseName": "Spinal Cord Compression",
+      "DiseaseDescription": "Acute and chronic conditions characterized by external mechanical compression of the SPINAL CORD due to extramedullary neoplasm; EPIDURAL ABSCESS; SPINAL FRACTURES; bony deformities of the vertebral bodies; and other conditions. Clinical manifestations vary with the anatomic site of the lesion and may include localized pain, weakness, sensory loss, incontinence, and impotence.",
+      "SlimMapping": "['Nervous system disease', 'Wounds and injuries']",
+      "PathwayNames": "Unfolded Protein Response (UPR)",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013117",
+        "standardized_id": "MESH:D013117",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Spinal Cord Compression",
+        "standardized_name": "Spinal Cord Compression",
+        "normalized_name": "spinal cord compression",
+        "synonyms": [],
+        "search_terms": [
+          "spinal",
+          "compression",
+          "cord",
+          "spinal cord compression"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Acute and chronic conditions characterized by external mechanical compression of the SPINAL CORD due to extramedullary neoplasm; EPIDURAL ABSCESS; SPINAL FRACTURES; bony deformities of the vertebral bodies; and other conditions. Clinical manifestations vary with the anatomic site of the lesion and may include localized pain, weakness, sensory loss, incontinence, and impotence.",
+        "cleaned_description": "Acute and chronic conditions characterized by external mechanical compression of the SPINAL CORD due to extramedullary neoplasm; EPIDURAL ABSCESS; SPINAL FRACTURES; bony deformities of the vertebral bodies; and other conditions. Clinical manifestations vary with the anatomic site of the lesion and may include localized pain, weakness, sensory loss, incontinence, and impotence.",
+        "description_summary": "Acute and chronic conditions characterized by external mechanical compression of the SPINAL CORD due to extramedullary neoplasm; EPIDURAL ABSCESS; SPINAL FRACTURES; bony deformities of the vertebral bodies; and other conditions.",
+        "key_terms": [],
+        "word_count": 51
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Wounds and injuries"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Wounds and injuries"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Unfolded Protein Response (UPR)",
+        "pathway_list": [
+          "Unfolded Protein Response (UPR)"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.974070",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013119",
+      "DiseaseName": "Spinal Cord Injuries",
+      "DiseaseDescription": "Penetrating and non-penetrating injuries to the spinal cord resulting from traumatic external forces (e.g., WOUNDS, GUNSHOT; WHIPLASH INJURIES; etc.).",
+      "SlimMapping": "['Nervous system disease', 'Wounds and injuries']",
+      "PathwayNames": "XBP1(S) activates chaperone genes",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013119",
+        "standardized_id": "MESH:D013119",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Spinal Cord Injuries",
+        "standardized_name": "Spinal Cord Injuries",
+        "normalized_name": "spinal cord injuries",
+        "synonyms": [],
+        "search_terms": [
+          "injuries",
+          "spinal cord injuries",
+          "cord",
+          "spinal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Penetrating and non-penetrating injuries to the spinal cord resulting from traumatic external forces (e.g., WOUNDS, GUNSHOT; WHIPLASH INJURIES; etc.).",
+        "cleaned_description": "Penetrating and non-penetrating injuries to the spinal cord resulting from traumatic external forces (e.g., WOUNDS, GUNSHOT; WHIPLASH INJURIES; etc.).",
+        "description_summary": "Penetrating and non-penetrating injuries to the spinal cord resulting from traumatic external forces (e.",
+        "key_terms": [],
+        "word_count": 19
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Wounds and injuries"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Wounds and injuries"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "XBP1(S) activates chaperone genes",
+        "pathway_list": [
+          "XBP1(S) activates chaperone genes"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.974560",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

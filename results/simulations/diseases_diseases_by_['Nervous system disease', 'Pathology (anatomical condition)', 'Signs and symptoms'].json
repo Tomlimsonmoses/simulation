@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Nervous system disease', 'Pathology (anatomical condition)', 'Signs and symptoms']",
+    "export_timestamp": "2026-03-28T22:11:36.204621",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D009133",
+      "DiseaseName": "Muscular Atrophy",
+      "DiseaseDescription": "Derangement in size and number of muscle fibers occurring with aging, reduction in blood supply, or following immobilization, prolonged weightlessness, malnutrition, and particularly in denervation.",
+      "SlimMapping": "['Nervous system disease', 'Pathology (anatomical condition)', 'Signs and symptoms']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009133",
+        "standardized_id": "MESH:D009133",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Muscular Atrophy",
+        "standardized_name": "Muscular Atrophy",
+        "normalized_name": "muscular atrophy",
+        "synonyms": [],
+        "search_terms": [
+          "muscular",
+          "muscular atrophy",
+          "atrophy"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Derangement in size and number of muscle fibers occurring with aging, reduction in blood supply, or following immobilization, prolonged weightlessness, malnutrition, and particularly in denervation.",
+        "cleaned_description": "Derangement in size and number of muscle fibers occurring with aging, reduction in blood supply, or following immobilization, prolonged weightlessness, malnutrition, and particularly in denervation.",
+        "description_summary": "Derangement in size and number of muscle fibers occurring with aging, reduction in blood supply, or following immobilization, prolonged weightlessness, malnutrition, and particularly in denervation.",
+        "key_terms": [],
+        "word_count": 25
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Pathology (anatomical condition)",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Pathology (anatomical condition)",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Pathology (anatomical condition)",
+          "Signs and symptoms"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.860697",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

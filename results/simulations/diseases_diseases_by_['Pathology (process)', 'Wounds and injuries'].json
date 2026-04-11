@@ -1,0 +1,209 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Pathology (process)', 'Wounds and injuries']",
+    "export_timestamp": "2026-03-28T22:11:35.655824",
+    "total_records": 3
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D001237",
+      "DiseaseName": "Asphyxia",
+      "DiseaseDescription": "A pathological condition caused by lack of oxygen, manifested in impending or actual cessation of life.",
+      "SlimMapping": "['Pathology (process)', 'Wounds and injuries']",
+      "PathwayNames": "Organelle biogenesis and maintenance",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001237",
+        "standardized_id": "MESH:D001237",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Asphyxia",
+        "standardized_name": "Asphyxia",
+        "normalized_name": "asphyxia",
+        "synonyms": [],
+        "search_terms": [
+          "asphyxia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A pathological condition caused by lack of oxygen, manifested in impending or actual cessation of life.",
+        "cleaned_description": "A pathological condition caused by lack of oxygen, manifested in impending or actual cessation of life.",
+        "description_summary": "A pathological condition caused by lack of oxygen, manifested in impending or actual cessation of life.",
+        "key_terms": [],
+        "word_count": 16
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)",
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Pathology (process)",
+          "Wounds and injuries"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)",
+          "Wounds and injuries"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Organelle biogenesis and maintenance",
+        "pathway_list": [
+          "Organelle biogenesis and maintenance"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.377127",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005119",
+      "DiseaseName": "Extravasation of Diagnostic and Therapeutic Materials",
+      "DiseaseDescription": "The escape of diagnostic or therapeutic material from the vessel into which it is introduced into the surrounding tissue or body cavity.",
+      "SlimMapping": "['Pathology (process)', 'Wounds and injuries']",
+      "PathwayNames": "Tachykinin receptors bind tachykinins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005119",
+        "standardized_id": "MESH:D005119",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Extravasation of Diagnostic and Therapeutic Materials",
+        "standardized_name": "Extravasation of Diagnostic and Therapeutic Materials",
+        "normalized_name": "extravasation of diagnostic and therapeutic materials",
+        "synonyms": [],
+        "search_terms": [
+          "extravasation",
+          "extravasation of diagnostic and therapeutic materials",
+          "and",
+          "diagnostic",
+          "therapeutic",
+          "materials"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The escape of diagnostic or therapeutic material from the vessel into which it is introduced into the surrounding tissue or body cavity.",
+        "cleaned_description": "The escape of diagnostic or therapeutic material from the vessel into which it is introduced into the surrounding tissue or body cavity.",
+        "description_summary": "The escape of diagnostic or therapeutic material from the vessel into which it is introduced into the surrounding tissue or body cavity.",
+        "key_terms": [],
+        "word_count": 22
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)",
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Pathology (process)",
+          "Wounds and injuries"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)",
+          "Wounds and injuries"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tachykinin receptors bind tachykinins",
+        "pathway_list": [
+          "Tachykinin receptors bind tachykinins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.513713",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D015745",
+      "DiseaseName": "Granuloma, Foreign-Body",
+      "DiseaseDescription": "Histiocytic, inflammatory response to a foreign body. It consists of modified macrophages with multinucleated giant cells, in this case foreign-body giant cells (GIANT CELLS, FOREIGN-BODY), usually surrounded by lymphocytes.",
+      "SlimMapping": "['Pathology (process)', 'Wounds and injuries']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D015745",
+        "standardized_id": "MESH:D015745",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Granuloma, Foreign-Body",
+        "standardized_name": "Granuloma, Foreign-Body",
+        "normalized_name": "granuloma foreign-body",
+        "synonyms": [],
+        "search_terms": [
+          "granuloma,",
+          "foreign-body",
+          "granuloma, foreign-body"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Histiocytic, inflammatory response to a foreign body. It consists of modified macrophages with multinucleated giant cells, in this case foreign-body giant cells (GIANT CELLS, FOREIGN-BODY), usually surrounded by lymphocytes.",
+        "cleaned_description": "Histiocytic, inflammatory response to a foreign body. It consists of modified macrophages with multinucleated giant cells, in this case foreign-body giant cells (GIANT CELLS, FOREIGN-BODY), usually surrounded by lymphocytes.",
+        "description_summary": "Histiocytic, inflammatory response to a foreign body.",
+        "key_terms": [],
+        "word_count": 29
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)",
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Pathology (process)",
+          "Wounds and injuries"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)",
+          "Wounds and injuries"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.549828",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

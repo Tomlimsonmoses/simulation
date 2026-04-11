@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cardiovascular disease', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+    "export_timestamp": "2026-03-28T22:11:36.105072",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D006977",
+      "DiseaseName": "Hypertension, Renal",
+      "DiseaseDescription": "Persistent high BLOOD PRESSURE due to KIDNEY DISEASES, such as those involving the renal parenchyma, the renal vasculature, or tumors that secrete RENIN.",
+      "SlimMapping": "['Cardiovascular disease', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006977",
+        "standardized_id": "MESH:D006977",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypertension, Renal",
+        "standardized_name": "Hypertension, Renal",
+        "normalized_name": "hypertension renal",
+        "synonyms": [],
+        "search_terms": [
+          "hypertension,",
+          "renal",
+          "hypertension, renal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Persistent high BLOOD PRESSURE due to KIDNEY DISEASES, such as those involving the renal parenchyma, the renal vasculature, or tumors that secrete RENIN.",
+        "cleaned_description": "Persistent high BLOOD PRESSURE due to KIDNEY DISEASES, such as those involving the renal parenchyma, the renal vasculature, or tumors that secrete RENIN.",
+        "description_summary": "Persistent high BLOOD PRESSURE due to KIDNEY DISEASES, such as those involving the renal parenchyma, the renal vasculature, or tumors that secrete RENIN.",
+        "key_terms": [],
+        "word_count": 23
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.769421",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006978",
+      "DiseaseName": "Hypertension, Renovascular",
+      "DiseaseDescription": "Hypertension due to RENAL ARTERY OBSTRUCTION or compression.",
+      "SlimMapping": "['Cardiovascular disease', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "VEGF signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006978",
+        "standardized_id": "MESH:D006978",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypertension, Renovascular",
+        "standardized_name": "Hypertension, Renovascular",
+        "normalized_name": "hypertension renovascular",
+        "synonyms": [],
+        "search_terms": [
+          "hypertension,",
+          "hypertension, renovascular",
+          "renovascular"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Hypertension due to RENAL ARTERY OBSTRUCTION or compression.",
+        "cleaned_description": "Hypertension due to RENAL ARTERY OBSTRUCTION or compression.",
+        "description_summary": "Hypertension due to RENAL ARTERY OBSTRUCTION or compression.",
+        "key_terms": [],
+        "word_count": 8
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGF signaling pathway",
+        "pathway_list": [
+          "VEGF signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGF signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.769623",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

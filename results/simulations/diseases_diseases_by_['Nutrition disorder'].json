@@ -1,0 +1,647 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Nutrition disorder']",
+    "export_timestamp": "2026-03-28T22:11:35.913888",
+    "total_records": 10
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D003677",
+      "DiseaseName": "Deficiency Diseases",
+      "DiseaseDescription": "A condition produced by dietary or metabolic deficiency. The term includes all diseases caused by an insufficient supply of essential nutrients, i.e., protein (or amino acids), vitamins, and minerals. It also includes an inadequacy of calories. (From Dorland, 27th ed; Stedman, 25th ed)",
+      "SlimMapping": "['Nutrition disorder']",
+      "PathwayNames": "Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003677",
+        "standardized_id": "MESH:D003677",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Deficiency Diseases",
+        "standardized_name": "Deficiency Diseases",
+        "normalized_name": "deficiency diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "deficiency",
+          "deficiency diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition produced by dietary or metabolic deficiency. The term includes all diseases caused by an insufficient supply of essential nutrients, i.e., protein (or amino acids), vitamins, and minerals. It also includes an inadequacy of calories. (From Dorland, 27th ed; Stedman, 25th ed)",
+        "cleaned_description": "A condition produced by dietary or metabolic deficiency. The term includes all diseases caused by an insufficient supply of essential nutrients, i.e., protein (or amino acids), vitamins, and minerals. It also includes an inadequacy of calories. (From Dorland, 27th ed; Stedman, 25th ed)",
+        "description_summary": "A condition produced by dietary or metabolic deficiency.",
+        "key_terms": [],
+        "word_count": 43
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nutrition disorder"
+        ],
+        "primary_categories": [
+          "Nutrition disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nutrition disorder"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds",
+        "pathway_list": [
+          "metal ions and amine compounds",
+          "Transport of glucose and other sugars",
+          "bile salts and organic acids"
+        ],
+        "pathway_count": 3,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.467180",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005494",
+      "DiseaseName": "Folic Acid Deficiency",
+      "DiseaseDescription": "A nutritional condition produced by a deficiency of FOLIC ACID in the diet. Many plant and animal tissues contain folic acid, abundant in green leafy vegetables, yeast, liver, and mushrooms but destroyed by long-term cooking. Alcohol interferes with its intermediate metabolism and absorption. Folic acid deficiency may develop in long-term anticonvulsant therapy or with use of oral contraceptives. This deficiency causes anemia, macrocytic anemia, and megaloblastic anemia. It is indistinguishable from vitamin B 12 deficiency in peripheral blood and bone marrow findings, but the neurologic lesions seen in B 12 deficiency do not occur. (Merck Manual, 16th ed)",
+      "SlimMapping": "['Nutrition disorder']",
+      "PathwayNames": "Tetrahydrobiopterin (BH4) synthesis, recycling, salvage and regulation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005494",
+        "standardized_id": "MESH:D005494",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Folic Acid Deficiency",
+        "standardized_name": "Folic Acid Deficiency",
+        "normalized_name": "folic acid deficiency",
+        "synonyms": [],
+        "search_terms": [
+          "deficiency",
+          "acid",
+          "folic",
+          "folic acid deficiency"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A nutritional condition produced by a deficiency of FOLIC ACID in the diet. Many plant and animal tissues contain folic acid, abundant in green leafy vegetables, yeast, liver, and mushrooms but destroyed by long-term cooking. Alcohol interferes with its intermediate metabolism and absorption. Folic acid deficiency may develop in long-term anticonvulsant therapy or with use of oral contraceptives. This deficiency causes anemia, macrocytic anemia, and megaloblastic anemia. It is indistinguishable from vitamin B 12 deficiency in peripheral blood and bone marrow findings, but the neurologic lesions seen in B 12 deficiency do not occur. (Merck Manual, 16th ed)",
+        "cleaned_description": "A nutritional condition produced by a deficiency of FOLIC ACID in the diet. Many plant and animal tissues contain folic acid, abundant in green leafy vegetables, yeast, liver, and mushrooms but destroyed by long-term cooking. Alcohol interferes with its intermediate metabolism and absorption. Folic acid deficiency may develop in long-term anticonvulsant therapy or with use of oral contraceptives. This deficiency causes anemia, macrocytic anemia, and megaloblastic anemia. It is indistinguishable from vitamin B 12 deficiency in peripheral blood and bone marrow findings, but the neurologic lesions seen in B 12 deficiency do not occur. (Merck Manual, 16th ed)",
+        "description_summary": "A nutritional condition produced by a deficiency of FOLIC ACID in the diet.",
+        "key_terms": [
+          "anemia"
+        ],
+        "word_count": 98
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nutrition disorder"
+        ],
+        "primary_categories": [
+          "Nutrition disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nutrition disorder"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tetrahydrobiopterin (BH4) synthesis, recycling, salvage and regulation",
+        "pathway_list": [
+          "recycling",
+          "salvage and regulation",
+          "Tetrahydrobiopterin (BH4) synthesis"
+        ],
+        "pathway_count": 3,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.528917",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008275",
+      "DiseaseName": "Magnesium Deficiency",
+      "DiseaseDescription": "A nutritional condition produced by a deficiency of magnesium in the diet, characterized by anorexia, nausea, vomiting, lethargy, and weakness. Symptoms are paresthesias, muscle cramps, irritability, decreased attention span, and mental confusion, possibly requiring months to appear. Deficiency of body magnesium can exist even when serum values are normal. In addition, magnesium deficiency may be organ-selective, since certain tissues become deficient before others. (Harrison's Principles of Internal Medicine, 12th ed, p1936)",
+      "SlimMapping": "['Nutrition disorder']",
+      "PathwayNames": "Transmembrane transport of small molecules",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008275",
+        "standardized_id": "MESH:D008275",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Magnesium Deficiency",
+        "standardized_name": "Magnesium Deficiency",
+        "normalized_name": "magnesium deficiency",
+        "synonyms": [],
+        "search_terms": [
+          "magnesium deficiency",
+          "magnesium",
+          "deficiency"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A nutritional condition produced by a deficiency of magnesium in the diet, characterized by anorexia, nausea, vomiting, lethargy, and weakness. Symptoms are paresthesias, muscle cramps, irritability, decreased attention span, and mental confusion, possibly requiring months to appear. Deficiency of body magnesium can exist even when serum values are normal. In addition, magnesium deficiency may be organ-selective, since certain tissues become deficient before others. (Harrison's Principles of Internal Medicine, 12th ed, p1936)",
+        "cleaned_description": "A nutritional condition produced by a deficiency of magnesium in the diet, characterized by anorexia, nausea, vomiting, lethargy, and weakness. Symptoms are paresthesias, muscle cramps, irritability, decreased attention span, and mental confusion, possibly requiring months to appear. Deficiency of body magnesium can exist even when serum values are normal. In addition, magnesium deficiency may be organ-selective, since certain tissues become deficient before others. (Harrison's Principles of Internal Medicine, 12th ed, p1936)",
+        "description_summary": "A nutritional condition produced by a deficiency of magnesium in the diet, characterized by anorexia, nausea, vomiting, lethargy, and weakness.",
+        "key_terms": [],
+        "word_count": 71
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nutrition disorder"
+        ],
+        "primary_categories": [
+          "Nutrition disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nutrition disorder"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmembrane transport of small molecules",
+        "pathway_list": [
+          "Transmembrane transport of small molecules"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.833386",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D044342",
+      "DiseaseName": "Malnutrition",
+      "DiseaseDescription": "An imbalanced nutritional status resulting from insufficient intake of nutrients to meet normal physiological requirement.",
+      "SlimMapping": "['Nutrition disorder']",
+      "PathwayNames": "Sulfur amino acid metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D044342",
+        "standardized_id": "MESH:D044342",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Malnutrition",
+        "standardized_name": "Malnutrition",
+        "normalized_name": "malnutrition",
+        "synonyms": [],
+        "search_terms": [
+          "malnutrition"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An imbalanced nutritional status resulting from insufficient intake of nutrients to meet normal physiological requirement.",
+        "cleaned_description": "An imbalanced nutritional status resulting from insufficient intake of nutrients to meet normal physiological requirement.",
+        "description_summary": "An imbalanced nutritional status resulting from insufficient intake of nutrients to meet normal physiological requirement.",
+        "key_terms": [],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nutrition disorder"
+        ],
+        "primary_categories": [
+          "Nutrition disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nutrition disorder"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Sulfur amino acid metabolism",
+        "pathway_list": [
+          "Sulfur amino acid metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.836961",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011488",
+      "DiseaseName": "Protein Deficiency",
+      "DiseaseDescription": "A nutritional condition produced by a deficiency of proteins in the diet, characterized by adaptive enzyme changes in the liver, increase in amino acid synthetases, and diminution of urea formation, thus conserving nitrogen and reducing its loss in the urine. Growth, immune response, repair, and production of enzymes and hormones are all impaired in severe protein deficiency. Protein deficiency may also arise in the face of adequate protein intake if the protein is of poor quality (i.e., the content of one or more amino acids is inadequate and thus becomes the limiting factor in protein utilization). (From Merck Manual, 16th ed; Harrison's Principles of Internal Medicine, 12th ed, p406)",
+      "SlimMapping": "['Nutrition disorder']",
+      "PathwayNames": "Tryptophan metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011488",
+        "standardized_id": "MESH:D011488",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Protein Deficiency",
+        "standardized_name": "Protein Deficiency",
+        "normalized_name": "protein deficiency",
+        "synonyms": [],
+        "search_terms": [
+          "deficiency",
+          "protein",
+          "protein deficiency"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A nutritional condition produced by a deficiency of proteins in the diet, characterized by adaptive enzyme changes in the liver, increase in amino acid synthetases, and diminution of urea formation, thus conserving nitrogen and reducing its loss in the urine. Growth, immune response, repair, and production of enzymes and hormones are all impaired in severe protein deficiency. Protein deficiency may also arise in the face of adequate protein intake if the protein is of poor quality (i.e., the content of one or more amino acids is inadequate and thus becomes the limiting factor in protein utilization). (From Merck Manual, 16th ed; Harrison's Principles of Internal Medicine, 12th ed, p406)",
+        "cleaned_description": "A nutritional condition produced by a deficiency of proteins in the diet, characterized by adaptive enzyme changes in the liver, increase in amino acid synthetases, and diminution of urea formation, thus conserving nitrogen and reducing its loss in the urine. Growth, immune response, repair, and production of enzymes and hormones are all impaired in severe protein deficiency. Protein deficiency may also arise in the face of adequate protein intake if the protein is of poor quality (i.e., the content of one or more amino acids is inadequate and thus becomes the limiting factor in protein utilization). (From Merck Manual, 16th ed; Harrison's Principles of Internal Medicine, 12th ed, p406)",
+        "description_summary": "A nutritional condition produced by a deficiency of proteins in the diet, characterized by adaptive enzyme changes in the liver, increase in amino acid synthetases, and diminution of urea formation, thus conserving nitrogen and reducing its loss in the urine.",
+        "key_terms": [],
+        "word_count": 109
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nutrition disorder"
+        ],
+        "primary_categories": [
+          "Nutrition disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nutrition disorder"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tryptophan metabolism",
+        "pathway_list": [
+          "Tryptophan metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.932722",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013217",
+      "DiseaseName": "Starvation",
+      "DiseaseDescription": "Lengthy and continuous deprivation of food. (Stedman, 25th ed)",
+      "SlimMapping": "['Nutrition disorder']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013217",
+        "standardized_id": "MESH:D013217",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Starvation",
+        "standardized_name": "Starvation",
+        "normalized_name": "starvation",
+        "synonyms": [],
+        "search_terms": [
+          "starvation"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Lengthy and continuous deprivation of food. (Stedman, 25th ed)",
+        "cleaned_description": "Lengthy and continuous deprivation of food. (Stedman, 25th ed)",
+        "description_summary": "Lengthy and continuous deprivation of food.",
+        "key_terms": [],
+        "word_count": 9
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nutrition disorder"
+        ],
+        "primary_categories": [
+          "Nutrition disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nutrition disorder"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.977516",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013832",
+      "DiseaseName": "Thiamine Deficiency",
+      "DiseaseDescription": "A nutritional condition produced by a deficiency of THIAMINE in the diet, characterized by anorexia, irritability, and weight loss. Later, patients experience weakness, peripheral neuropathy, headache, and tachycardia. In addition to being caused by a poor diet, thiamine deficiency in the United States most commonly occurs as a result of alcoholism, since ethanol interferes with thiamine absorption. In countries relying on polished rice as a dietary staple, BERIBERI prevalence is very high. (From Cecil Textbook of Medicine, 19th ed, p1171)",
+      "SlimMapping": "['Nutrition disorder']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013832",
+        "standardized_id": "MESH:D013832",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Thiamine Deficiency",
+        "standardized_name": "Thiamine Deficiency",
+        "normalized_name": "thiamine deficiency",
+        "synonyms": [],
+        "search_terms": [
+          "deficiency",
+          "thiamine",
+          "thiamine deficiency"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A nutritional condition produced by a deficiency of THIAMINE in the diet, characterized by anorexia, irritability, and weight loss. Later, patients experience weakness, peripheral neuropathy, headache, and tachycardia. In addition to being caused by a poor diet, thiamine deficiency in the United States most commonly occurs as a result of alcoholism, since ethanol interferes with thiamine absorption. In countries relying on polished rice as a dietary staple, BERIBERI prevalence is very high. (From Cecil Textbook of Medicine, 19th ed, p1171)",
+        "cleaned_description": "A nutritional condition produced by a deficiency of THIAMINE in the diet, characterized by anorexia, irritability, and weight loss. Later, patients experience weakness, peripheral neuropathy, headache, and tachycardia. In addition to being caused by a poor diet, thiamine deficiency in the United States most commonly occurs as a result of alcoholism, since ethanol interferes with thiamine absorption. In countries relying on polished rice as a dietary staple, BERIBERI prevalence is very high. (From Cecil Textbook of Medicine, 19th ed, p1171)",
+        "description_summary": "A nutritional condition produced by a deficiency of THIAMINE in the diet, characterized by anorexia, irritability, and weight loss.",
+        "key_terms": [
+          "neuropathy"
+        ],
+        "word_count": 80
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nutrition disorder"
+        ],
+        "primary_categories": [
+          "Nutrition disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nutrition disorder"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.993448",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014802",
+      "DiseaseName": "Vitamin A Deficiency",
+      "DiseaseDescription": "A nutritional condition produced by a deficiency of VITAMIN A in the diet, characterized by NIGHT BLINDNESS and other ocular manifestations such as dryness of the conjunctiva and later of the cornea (XEROPHTHALMIA). Vitamin A deficiency is a very common problem worldwide, particularly in developing countries as a consequence of famine or shortages of vitamin A-rich foods. In the United States it is found among the urban poor, the elderly, alcoholics, and patients with malabsorption. (From Cecil Textbook of Medicine, 19th ed, p1179)",
+      "SlimMapping": "['Nutrition disorder']",
+      "PathwayNames": "Vitamin digestion and absorption",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014802",
+        "standardized_id": "MESH:D014802",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Vitamin A Deficiency",
+        "standardized_name": "Vitamin A Deficiency",
+        "normalized_name": "vitamin a deficiency",
+        "synonyms": [],
+        "search_terms": [
+          "vitamin a deficiency",
+          "vitamin",
+          "deficiency"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A nutritional condition produced by a deficiency of VITAMIN A in the diet, characterized by NIGHT BLINDNESS and other ocular manifestations such as dryness of the conjunctiva and later of the cornea (XEROPHTHALMIA). Vitamin A deficiency is a very common problem worldwide, particularly in developing countries as a consequence of famine or shortages of vitamin A-rich foods. In the United States it is found among the urban poor, the elderly, alcoholics, and patients with malabsorption. (From Cecil Textbook of Medicine, 19th ed, p1179)",
+        "cleaned_description": "A nutritional condition produced by a deficiency of VITAMIN A in the diet, characterized by NIGHT BLINDNESS and other ocular manifestations such as dryness of the conjunctiva and later of the cornea (XEROPHTHALMIA). Vitamin A deficiency is a very common problem worldwide, particularly in developing countries as a consequence of famine or shortages of vitamin A-rich foods. In the United States it is found among the urban poor, the elderly, alcoholics, and patients with malabsorption. (From Cecil Textbook of Medicine, 19th ed, p1179)",
+        "description_summary": "A nutritional condition produced by a deficiency of VITAMIN A in the diet, characterized by NIGHT BLINDNESS and other ocular manifestations such as dryness of the conjunctiva and later of the cornea (XEROPHTHALMIA).",
+        "key_terms": [],
+        "word_count": 83
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nutrition disorder"
+        ],
+        "primary_categories": [
+          "Nutrition disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nutrition disorder"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamin digestion and absorption",
+        "pathway_list": [
+          "Vitamin digestion and absorption"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.024477",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014806",
+      "DiseaseName": "Vitamin B 12 Deficiency",
+      "DiseaseDescription": "A nutritional condition produced by a deficiency of VITAMIN B 12 in the diet, characterized by megaloblastic anemia. Since vitamin B 12 is not present in plants, humans have obtained their supply from animal products, from multivitamin supplements in the form of pills, and as additives to food preparations. A wide variety of neuropsychiatric abnormalities is also seen in vitamin B 12 deficiency and appears to be due to an undefined defect involving myelin synthesis. (From Cecil Textbook of Medicine, 19th ed, p848)",
+      "SlimMapping": "['Nutrition disorder']",
+      "PathwayNames": "Peroxisome",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014806",
+        "standardized_id": "MESH:D014806",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Vitamin B 12 Deficiency",
+        "standardized_name": "Vitamin B 12 Deficiency",
+        "normalized_name": "vitamin b 12 deficiency",
+        "synonyms": [],
+        "search_terms": [
+          "vitamin b 12 deficiency",
+          "vitamin",
+          "deficiency"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A nutritional condition produced by a deficiency of VITAMIN B 12 in the diet, characterized by megaloblastic anemia. Since vitamin B 12 is not present in plants, humans have obtained their supply from animal products, from multivitamin supplements in the form of pills, and as additives to food preparations. A wide variety of neuropsychiatric abnormalities is also seen in vitamin B 12 deficiency and appears to be due to an undefined defect involving myelin synthesis. (From Cecil Textbook of Medicine, 19th ed, p848)",
+        "cleaned_description": "A nutritional condition produced by a deficiency of VITAMIN B 12 in the diet, characterized by megaloblastic anemia. Since vitamin B 12 is not present in plants, humans have obtained their supply from animal products, from multivitamin supplements in the form of pills, and as additives to food preparations. A wide variety of neuropsychiatric abnormalities is also seen in vitamin B 12 deficiency and appears to be due to an undefined defect involving myelin synthesis. (From Cecil Textbook of Medicine, 19th ed, p848)",
+        "description_summary": "A nutritional condition produced by a deficiency of VITAMIN B 12 in the diet, characterized by megaloblastic anemia.",
+        "key_terms": [
+          "anemia"
+        ],
+        "word_count": 83
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nutrition disorder"
+        ],
+        "primary_categories": [
+          "Nutrition disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nutrition disorder"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Peroxisome",
+        "pathway_list": [
+          "Peroxisome"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.024709",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014808",
+      "DiseaseName": "Vitamin D Deficiency",
+      "DiseaseDescription": "A nutritional condition produced by a deficiency of VITAMIN D in the diet, insufficient production of vitamin D in the skin, inadequate absorption of vitamin D from the diet, or abnormal conversion of vitamin D to its bioactive metabolites. It is manifested clinically as RICKETS in children and OSTEOMALACIA in adults. (From Cecil Textbook of Medicine, 19th ed, p1406)",
+      "SlimMapping": "['Nutrition disorder']",
+      "PathwayNames": "Vitamin D (calciferol) metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014808",
+        "standardized_id": "MESH:D014808",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Vitamin D Deficiency",
+        "standardized_name": "Vitamin D Deficiency",
+        "normalized_name": "vitamin d deficiency",
+        "synonyms": [],
+        "search_terms": [
+          "vitamin",
+          "deficiency",
+          "vitamin d deficiency"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A nutritional condition produced by a deficiency of VITAMIN D in the diet, insufficient production of vitamin D in the skin, inadequate absorption of vitamin D from the diet, or abnormal conversion of vitamin D to its bioactive metabolites. It is manifested clinically as RICKETS in children and OSTEOMALACIA in adults. (From Cecil Textbook of Medicine, 19th ed, p1406)",
+        "cleaned_description": "A nutritional condition produced by a deficiency of VITAMIN D in the diet, insufficient production of vitamin D in the skin, inadequate absorption of vitamin D from the diet, or abnormal conversion of vitamin D to its bioactive metabolites. It is manifested clinically as RICKETS in children and OSTEOMALACIA in adults. (From Cecil Textbook of Medicine, 19th ed, p1406)",
+        "description_summary": "A nutritional condition produced by a deficiency of VITAMIN D in the diet, insufficient production of vitamin D in the skin, inadequate absorption of vitamin D from the diet, or abnormal conversion of vitamin D to its bioactive metabolites.",
+        "key_terms": [],
+        "word_count": 59
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nutrition disorder"
+        ],
+        "primary_categories": [
+          "Nutrition disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nutrition disorder"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamin D (calciferol) metabolism",
+        "pathway_list": [
+          "Vitamin D (calciferol) metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.024903",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

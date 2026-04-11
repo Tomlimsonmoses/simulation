@@ -1,0 +1,300 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Endocrine system disease', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+    "export_timestamp": "2026-03-28T22:11:35.694072",
+    "total_records": 4
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D001477",
+      "DiseaseName": "Bartter Syndrome",
+      "DiseaseDescription": "A group of disorders caused by defective salt reabsorption in the ascending LOOP OF HENLE. It is characterized by severe salt-wasting, HYPOKALEMIA; HYPERCALCIURIA; metabolic ALKALOSIS, and hyper-reninemic HYPERALDOSTERONISM without HYPERTENSION. There are several subtypes including ones due to mutations in the renal specific SODIUM-POTASSIUM-CHLORIDE SYMPORTERS.",
+      "SlimMapping": "['Endocrine system disease', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Transport of inorganic cations/anions and amino acids/oligopeptides",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001477",
+        "standardized_id": "MESH:D001477",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Bartter Syndrome",
+        "standardized_name": "Bartter Syndrome",
+        "normalized_name": "bartter syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "bartter",
+          "bartter syndrome",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A group of disorders caused by defective salt reabsorption in the ascending LOOP OF HENLE. It is characterized by severe salt-wasting, HYPOKALEMIA; HYPERCALCIURIA; metabolic ALKALOSIS, and hyper-reninemic HYPERALDOSTERONISM without HYPERTENSION. There are several subtypes including ones due to mutations in the renal specific SODIUM-POTASSIUM-CHLORIDE SYMPORTERS.",
+        "cleaned_description": "A group of disorders caused by defective salt reabsorption in the ascending LOOP OF HENLE. It is characterized by severe salt-wasting, HYPOKALEMIA; HYPERCALCIURIA; metabolic ALKALOSIS, and hyper-reninemic HYPERALDOSTERONISM without HYPERTENSION. There are several subtypes including ones due to mutations in the renal specific SODIUM-POTASSIUM-CHLORIDE SYMPORTERS.",
+        "description_summary": "A group of disorders caused by defective salt reabsorption in the ascending LOOP OF HENLE.",
+        "key_terms": [
+          "HYPOKALEMIA",
+          "ALKALOSIS"
+        ],
+        "word_count": 45
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Endocrine system disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of inorganic cations/anions and amino acids/oligopeptides",
+        "pathway_list": [
+          "Transport of inorganic cations/anions and amino acids/oligopeptides"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.391679",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003919",
+      "DiseaseName": "Diabetes Insipidus",
+      "DiseaseDescription": "A disease that is characterized by frequent urination, excretion of large amounts of dilute URINE, and excessive THIRST. Etiologies of diabetes insipidus include deficiency of antidiuretic hormone (also known as ADH or VASOPRESSIN) secreted by the NEUROHYPOPHYSIS, impaired KIDNEY response to ADH, and impaired hypothalamic regulation of thirst.",
+      "SlimMapping": "['Endocrine system disease', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003919",
+        "standardized_id": "MESH:D003919",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Diabetes Insipidus",
+        "standardized_name": "Diabetes Insipidus",
+        "normalized_name": "diabetes insipidus",
+        "synonyms": [],
+        "search_terms": [
+          "diabetes",
+          "insipidus",
+          "diabetes insipidus"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A disease that is characterized by frequent urination, excretion of large amounts of dilute URINE, and excessive THIRST. Etiologies of diabetes insipidus include deficiency of antidiuretic hormone (also known as ADH or VASOPRESSIN) secreted by the NEUROHYPOPHYSIS, impaired KIDNEY response to ADH, and impaired hypothalamic regulation of thirst.",
+        "cleaned_description": "A disease that is characterized by frequent urination, excretion of large amounts of dilute URINE, and excessive THIRST. Etiologies of diabetes insipidus include deficiency of antidiuretic hormone (also known as ADH or VASOPRESSIN) secreted by the NEUROHYPOPHYSIS, impaired KIDNEY response to ADH, and impaired hypothalamic regulation of thirst.",
+        "description_summary": "A disease that is characterized by frequent urination, excretion of large amounts of dilute URINE, and excessive THIRST.",
+        "key_terms": [],
+        "word_count": 48
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Endocrine system disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.479226",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020790",
+      "DiseaseName": "Diabetes Insipidus, Neurogenic",
+      "DiseaseDescription": "A genetic or acquired polyuric disorder caused by a deficiency of VASOPRESSINS secreted by the NEUROHYPOPHYSIS. Clinical signs include the excretion of large volumes of dilute URINE; HYPERNATREMIA; THIRST; and polydipsia. Etiologies include HEAD TRAUMA; surgeries and diseases involving the HYPOTHALAMUS and the PITUITARY GLAND. This disorder may also be caused by mutations of genes such as ARVP encoding vasopressin and its corresponding neurophysin (NEUROPHYSINS).",
+      "SlimMapping": "['Endocrine system disease', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020790",
+        "standardized_id": "MESH:D020790",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Diabetes Insipidus, Neurogenic",
+        "standardized_name": "Diabetes Insipidus, Neurogenic",
+        "normalized_name": "diabetes insipidus neurogenic",
+        "synonyms": [],
+        "search_terms": [
+          "diabetes",
+          "insipidus,",
+          "diabetes insipidus, neurogenic",
+          "neurogenic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A genetic or acquired polyuric disorder caused by a deficiency of VASOPRESSINS secreted by the NEUROHYPOPHYSIS. Clinical signs include the excretion of large volumes of dilute URINE; HYPERNATREMIA; THIRST; and polydipsia. Etiologies include HEAD TRAUMA; surgeries and diseases involving the HYPOTHALAMUS and the PITUITARY GLAND. This disorder may also be caused by mutations of genes such as ARVP encoding vasopressin and its corresponding neurophysin (NEUROPHYSINS).",
+        "cleaned_description": "A genetic or acquired polyuric disorder caused by a deficiency of VASOPRESSINS secreted by the NEUROHYPOPHYSIS. Clinical signs include the excretion of large volumes of dilute URINE; HYPERNATREMIA; THIRST; and polydipsia. Etiologies include HEAD TRAUMA; surgeries and diseases involving the HYPOTHALAMUS and the PITUITARY GLAND. This disorder may also be caused by mutations of genes such as ARVP encoding vasopressin and its corresponding neurophysin (NEUROPHYSINS).",
+        "description_summary": "A genetic or acquired polyuric disorder caused by a deficiency of VASOPRESSINS secreted by the NEUROHYPOPHYSIS.",
+        "key_terms": [
+          "HYPERNATREMIA"
+        ],
+        "word_count": 65
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Endocrine system disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.479676",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003928",
+      "DiseaseName": "Diabetic Nephropathies",
+      "DiseaseDescription": "KIDNEY injuries associated with diabetes mellitus and affecting KIDNEY GLOMERULUS; ARTERIOLES; KIDNEY TUBULES; and the interstitium. Clinical signs include persistent PROTEINURIA, from microalbuminuria progressing to ALBUMINURIA of greater than 300 mg/24 h, leading to reduced GLOMERULAR FILTRATION RATE and END-STAGE RENAL DISEASE.",
+      "SlimMapping": "['Endocrine system disease', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003928",
+        "standardized_id": "MESH:D003928",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Diabetic Nephropathies",
+        "standardized_name": "Diabetic Nephropathies",
+        "normalized_name": "diabetic nephropathies",
+        "synonyms": [],
+        "search_terms": [
+          "nephropathies",
+          "diabetic",
+          "diabetic nephropathies"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "KIDNEY injuries associated with diabetes mellitus and affecting KIDNEY GLOMERULUS; ARTERIOLES; KIDNEY TUBULES; and the interstitium. Clinical signs include persistent PROTEINURIA, from microalbuminuria progressing to ALBUMINURIA of greater than 300 mg/24 h, leading to reduced GLOMERULAR FILTRATION RATE and END-STAGE RENAL DISEASE.",
+        "cleaned_description": "KIDNEY injuries associated with diabetes mellitus and affecting KIDNEY GLOMERULUS; ARTERIOLES; KIDNEY TUBULES; and the interstitium. Clinical signs include persistent PROTEINURIA, from microalbuminuria progressing to ALBUMINURIA of greater than 300 mg/24 h, leading to reduced GLOMERULAR FILTRATION RATE and END-STAGE RENAL DISEASE.",
+        "description_summary": "KIDNEY injuries associated with diabetes mellitus and affecting KIDNEY GLOMERULUS; ARTERIOLES; KIDNEY TUBULES; and the interstitium.",
+        "key_terms": [],
+        "word_count": 42
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Endocrine system disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.480871",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

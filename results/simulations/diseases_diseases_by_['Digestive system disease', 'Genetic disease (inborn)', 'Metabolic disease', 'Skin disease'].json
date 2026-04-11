@@ -1,0 +1,458 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Digestive system disease', 'Genetic disease (inborn)', 'Metabolic disease', 'Skin disease']",
+    "export_timestamp": "2026-03-28T22:11:35.893527",
+    "total_records": 6
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D046349",
+      "DiseaseName": "Coproporphyria, Hereditary",
+      "DiseaseDescription": "An autosomal dominant porphyria that is due to a deficiency of COPROPORPHYRINOGEN OXIDASE in the LIVER, the sixth enzyme in the 8-enzyme biosynthetic pathway of HEME. Clinical features include both neurological symptoms and cutaneous lesions. Patients excrete increased levels of porphyrin precursors, 5-AMINOLEVULINATE and COPROPORPHYRINS.",
+      "SlimMapping": "['Digestive system disease', 'Genetic disease (inborn)', 'Metabolic disease', 'Skin disease']",
+      "PathwayNames": "Porphyrin and chlorophyll metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D046349",
+        "standardized_id": "MESH:D046349",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Coproporphyria, Hereditary",
+        "standardized_name": "Coproporphyria, Hereditary",
+        "normalized_name": "coproporphyria hereditary",
+        "synonyms": [],
+        "search_terms": [
+          "coproporphyria, hereditary",
+          "coproporphyria,",
+          "hereditary"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An autosomal dominant porphyria that is due to a deficiency of COPROPORPHYRINOGEN OXIDASE in the LIVER, the sixth enzyme in the 8-enzyme biosynthetic pathway of HEME. Clinical features include both neurological symptoms and cutaneous lesions. Patients excrete increased levels of porphyrin precursors, 5-AMINOLEVULINATE and COPROPORPHYRINS.",
+        "cleaned_description": "An autosomal dominant porphyria that is due to a deficiency of COPROPORPHYRINOGEN OXIDASE in the LIVER, the sixth enzyme in the 8-enzyme biosynthetic pathway of HEME. Clinical features include both neurological symptoms and cutaneous lesions. Patients excrete increased levels of porphyrin precursors, 5-AMINOLEVULINATE and COPROPORPHYRINS.",
+        "description_summary": "An autosomal dominant porphyria that is due to a deficiency of COPROPORPHYRINOGEN OXIDASE in the LIVER, the sixth enzyme in the 8-enzyme biosynthetic pathway of HEME.",
+        "key_terms": [],
+        "word_count": 45
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Digestive system disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Skin disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Porphyrin and chlorophyll metabolism",
+        "pathway_list": [
+          "Porphyrin and chlorophyll metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.458212",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D017118",
+      "DiseaseName": "Porphyria, Acute Intermittent",
+      "DiseaseDescription": "An autosomal dominant porphyria that is due to a deficiency of HYDROXYMETHYLBILANE SYNTHASE in the LIVER, the third enzyme in the 8-enzyme biosynthetic pathway of HEME. Clinical features are recurrent and life-threatening neurologic disturbances, ABDOMINAL PAIN, and elevated level of AMINOLEVULINIC ACID and PORPHOBILINOGEN in the urine.",
+      "SlimMapping": "['Digestive system disease', 'Genetic disease (inborn)', 'Metabolic disease', 'Skin disease']",
+      "PathwayNames": "Porphyrin and chlorophyll metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017118",
+        "standardized_id": "MESH:D017118",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Porphyria, Acute Intermittent",
+        "standardized_name": "Porphyria, Acute Intermittent",
+        "normalized_name": "porphyria acute intermittent",
+        "synonyms": [],
+        "search_terms": [
+          "acute",
+          "porphyria, acute intermittent",
+          "intermittent",
+          "porphyria,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An autosomal dominant porphyria that is due to a deficiency of HYDROXYMETHYLBILANE SYNTHASE in the LIVER, the third enzyme in the 8-enzyme biosynthetic pathway of HEME. Clinical features are recurrent and life-threatening neurologic disturbances, ABDOMINAL PAIN, and elevated level of AMINOLEVULINIC ACID and PORPHOBILINOGEN in the urine.",
+        "cleaned_description": "An autosomal dominant porphyria that is due to a deficiency of HYDROXYMETHYLBILANE SYNTHASE in the LIVER, the third enzyme in the 8-enzyme biosynthetic pathway of HEME. Clinical features are recurrent and life-threatening neurologic disturbances, ABDOMINAL PAIN, and elevated level of AMINOLEVULINIC ACID and PORPHOBILINOGEN in the urine.",
+        "description_summary": "An autosomal dominant porphyria that is due to a deficiency of HYDROXYMETHYLBILANE SYNTHASE in the LIVER, the third enzyme in the 8-enzyme biosynthetic pathway of HEME.",
+        "key_terms": [],
+        "word_count": 47
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Digestive system disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Skin disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Porphyrin and chlorophyll metabolism",
+        "pathway_list": [
+          "Porphyrin and chlorophyll metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.924572",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D017119",
+      "DiseaseName": "Porphyria Cutanea Tarda",
+      "DiseaseDescription": "An autosomal dominant or acquired porphyria due to a deficiency of UROPORPHYRINOGEN DECARBOXYLASE in the LIVER. It is characterized by photosensitivity and cutaneous lesions with little or no neurologic symptoms. Type I is the acquired form and is strongly associated with liver diseases and hepatic toxicities caused by alcohol or estrogenic steroids. Type II is the familial form.",
+      "SlimMapping": "['Digestive system disease', 'Genetic disease (inborn)', 'Metabolic disease', 'Skin disease']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017119",
+        "standardized_id": "MESH:D017119",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Porphyria Cutanea Tarda",
+        "standardized_name": "Porphyria Cutanea Tarda",
+        "normalized_name": "porphyria cutanea tarda",
+        "synonyms": [],
+        "search_terms": [
+          "porphyria",
+          "porphyria cutanea tarda",
+          "tarda",
+          "cutanea"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An autosomal dominant or acquired porphyria due to a deficiency of UROPORPHYRINOGEN DECARBOXYLASE in the LIVER. It is characterized by photosensitivity and cutaneous lesions with little or no neurologic symptoms. Type I is the acquired form and is strongly associated with liver diseases and hepatic toxicities caused by alcohol or estrogenic steroids. Type II is the familial form.",
+        "cleaned_description": "An autosomal dominant or acquired porphyria due to a deficiency of UROPORPHYRINOGEN DECARBOXYLASE in the LIVER. It is characterized by photosensitivity and cutaneous lesions with little or no neurologic symptoms. Type I is the acquired form and is strongly associated with liver diseases and hepatic toxicities caused by alcohol or estrogenic steroids. Type II is the familial form.",
+        "description_summary": "An autosomal dominant or acquired porphyria due to a deficiency of UROPORPHYRINOGEN DECARBOXYLASE in the LIVER.",
+        "key_terms": [
+          "estrogenic"
+        ],
+        "word_count": 58
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Digestive system disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Skin disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.924797",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D017094",
+      "DiseaseName": "Porphyrias, Hepatic",
+      "DiseaseDescription": "A group of metabolic diseases due to deficiency of one of a number of LIVER enzymes in the biosynthetic pathway of HEME. They are characterized by the accumulation and increased excretion of PORPHYRINS or its precursors. Clinical features include neurological symptoms (PORPHYRIA, ACUTE INTERMITTENT), cutaneous lesions due to photosensitivity (PORPHYRIA CUTANEA TARDA), or both (HEREDITARY COPROPORPHYRIA). Hepatic porphyrias can be hereditary or acquired as a result of toxicity to the hepatic tissues.",
+      "SlimMapping": "['Digestive system disease', 'Genetic disease (inborn)', 'Metabolic disease', 'Skin disease']",
+      "PathwayNames": "Porphyrin and chlorophyll metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017094",
+        "standardized_id": "MESH:D017094",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Porphyrias, Hepatic",
+        "standardized_name": "Porphyrias, Hepatic",
+        "normalized_name": "porphyrias hepatic",
+        "synonyms": [],
+        "search_terms": [
+          "porphyrias, hepatic",
+          "porphyrias,",
+          "hepatic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A group of metabolic diseases due to deficiency of one of a number of LIVER enzymes in the biosynthetic pathway of HEME. They are characterized by the accumulation and increased excretion of PORPHYRINS or its precursors. Clinical features include neurological symptoms (PORPHYRIA, ACUTE INTERMITTENT), cutaneous lesions due to photosensitivity (PORPHYRIA CUTANEA TARDA), or both (HEREDITARY COPROPORPHYRIA). Hepatic porphyrias can be hereditary or acquired as a result of toxicity to the hepatic tissues.",
+        "cleaned_description": "A group of metabolic diseases due to deficiency of one of a number of LIVER enzymes in the biosynthetic pathway of HEME. They are characterized by the accumulation and increased excretion of PORPHYRINS or its precursors. Clinical features include neurological symptoms (PORPHYRIA, ACUTE INTERMITTENT), cutaneous lesions due to photosensitivity (PORPHYRIA CUTANEA TARDA), or both (HEREDITARY COPROPORPHYRIA). Hepatic porphyrias can be hereditary or acquired as a result of toxicity to the hepatic tissues.",
+        "description_summary": "A group of metabolic diseases due to deficiency of one of a number of LIVER enzymes in the biosynthetic pathway of HEME.",
+        "key_terms": [],
+        "word_count": 72
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Digestive system disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Skin disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Porphyrin and chlorophyll metabolism",
+        "pathway_list": [
+          "Porphyrin and chlorophyll metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.925252",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D046350",
+      "DiseaseName": "Porphyria, Variegate",
+      "DiseaseDescription": "An autosomal dominant porphyria that is due to a deficiency of protoporphyrinogen oxidase (EC 1.3.3.4) in the LIVER, the seventh enzyme in the 8-enzyme biosynthetic pathway of HEME. Clinical features include both neurological symptoms and cutaneous lesions. Patients excrete increased levels of porphyrin precursors, COPROPORPHYRINS and protoporphyrinogen.",
+      "SlimMapping": "['Digestive system disease', 'Genetic disease (inborn)', 'Metabolic disease', 'Skin disease']",
+      "PathwayNames": "Porphyrin and chlorophyll metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D046350",
+        "standardized_id": "MESH:D046350",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Porphyria, Variegate",
+        "standardized_name": "Porphyria, Variegate",
+        "normalized_name": "porphyria variegate",
+        "synonyms": [],
+        "search_terms": [
+          "variegate",
+          "porphyria, variegate",
+          "porphyria,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An autosomal dominant porphyria that is due to a deficiency of protoporphyrinogen oxidase (EC 1.3.3.4) in the LIVER, the seventh enzyme in the 8-enzyme biosynthetic pathway of HEME. Clinical features include both neurological symptoms and cutaneous lesions. Patients excrete increased levels of porphyrin precursors, COPROPORPHYRINS and protoporphyrinogen.",
+        "cleaned_description": "An autosomal dominant porphyria that is due to a deficiency of protoporphyrinogen oxidase (EC 1.3.3.4) in the LIVER, the seventh enzyme in the 8-enzyme biosynthetic pathway of HEME. Clinical features include both neurological symptoms and cutaneous lesions. Patients excrete increased levels of porphyrin precursors, COPROPORPHYRINS and protoporphyrinogen.",
+        "description_summary": "An autosomal dominant porphyria that is due to a deficiency of protoporphyrinogen oxidase (EC 1.",
+        "key_terms": [],
+        "word_count": 47
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Digestive system disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Skin disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Porphyrin and chlorophyll metabolism",
+        "pathway_list": [
+          "Porphyrin and chlorophyll metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.925454",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D046351",
+      "DiseaseName": "Protoporphyria, Erythropoietic",
+      "DiseaseDescription": "An autosomal dominant porphyria that is due to a deficiency of FERROCHELATASE (heme synthetase) in both the LIVER and the BONE MARROW, the last enzyme in the 8-enzyme biosynthetic pathway of HEME. Clinical features include mainly neurological symptoms, rarely cutaneous lesions, and elevated levels of protoporphyrin and COPROPORPHYRINS in the feces.",
+      "SlimMapping": "['Digestive system disease', 'Genetic disease (inborn)', 'Metabolic disease', 'Skin disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D046351",
+        "standardized_id": "MESH:D046351",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Protoporphyria, Erythropoietic",
+        "standardized_name": "Protoporphyria, Erythropoietic",
+        "normalized_name": "protoporphyria erythropoietic",
+        "synonyms": [],
+        "search_terms": [
+          "protoporphyria, erythropoietic",
+          "protoporphyria,",
+          "erythropoietic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An autosomal dominant porphyria that is due to a deficiency of FERROCHELATASE (heme synthetase) in both the LIVER and the BONE MARROW, the last enzyme in the 8-enzyme biosynthetic pathway of HEME. Clinical features include mainly neurological symptoms, rarely cutaneous lesions, and elevated levels of protoporphyrin and COPROPORPHYRINS in the feces.",
+        "cleaned_description": "An autosomal dominant porphyria that is due to a deficiency of FERROCHELATASE (heme synthetase) in both the LIVER and the BONE MARROW, the last enzyme in the 8-enzyme biosynthetic pathway of HEME. Clinical features include mainly neurological symptoms, rarely cutaneous lesions, and elevated levels of protoporphyrin and COPROPORPHYRINS in the feces.",
+        "description_summary": "An autosomal dominant porphyria that is due to a deficiency of FERROCHELATASE (heme synthetase) in both the LIVER and the BONE MARROW, the last enzyme in the 8-enzyme biosynthetic pathway of HEME.",
+        "key_terms": [],
+        "word_count": 51
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Digestive system disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Skin disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.933284",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

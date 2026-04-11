@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Digestive system disease', 'Genetic disease (inborn)', 'Infant-newborn disease', 'Respiratory tract disease']",
+    "export_timestamp": "2026-03-28T22:11:35.898382",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D003550",
+      "DiseaseName": "Cystic Fibrosis",
+      "DiseaseDescription": "An autosomal recessive genetic disease of the EXOCRINE GLANDS. It is caused by mutations in the gene encoding the CYSTIC FIBROSIS TRANSMEMBRANE CONDUCTANCE REGULATOR expressed in several organs including the LUNG, the PANCREAS, the BILIARY SYSTEM, and the SWEAT GLANDS. Cystic fibrosis is characterized by epithelial secretory dysfunction associated with ductal obstruction resulting in AIRWAY OBSTRUCTION; chronic RESPIRATORY INFECTIONS; PANCREATIC INSUFFICIENCY; maldigestion; salt depletion; and HEAT PROSTRATION.",
+      "SlimMapping": "['Digestive system disease', 'Genetic disease (inborn)', 'Infant-newborn disease', 'Respiratory tract disease']",
+      "PathwayNames": "Vibrio cholerae infection",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003550",
+        "standardized_id": "MESH:D003550",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cystic Fibrosis",
+        "standardized_name": "Cystic Fibrosis",
+        "normalized_name": "cystic fibrosis",
+        "synonyms": [],
+        "search_terms": [
+          "cystic fibrosis",
+          "cystic",
+          "fibrosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An autosomal recessive genetic disease of the EXOCRINE GLANDS. It is caused by mutations in the gene encoding the CYSTIC FIBROSIS TRANSMEMBRANE CONDUCTANCE REGULATOR expressed in several organs including the LUNG, the PANCREAS, the BILIARY SYSTEM, and the SWEAT GLANDS. Cystic fibrosis is characterized by epithelial secretory dysfunction associated with ductal obstruction resulting in AIRWAY OBSTRUCTION; chronic RESPIRATORY INFECTIONS; PANCREATIC INSUFFICIENCY; maldigestion; salt depletion; and HEAT PROSTRATION.",
+        "cleaned_description": "An autosomal recessive genetic disease of the EXOCRINE GLANDS. It is caused by mutations in the gene encoding the CYSTIC FIBROSIS TRANSMEMBRANE CONDUCTANCE REGULATOR expressed in several organs including the LUNG, the PANCREAS, the BILIARY SYSTEM, and the SWEAT GLANDS. Cystic fibrosis is characterized by epithelial secretory dysfunction associated with ductal obstruction resulting in AIRWAY OBSTRUCTION; chronic RESPIRATORY INFECTIONS; PANCREATIC INSUFFICIENCY; maldigestion; salt depletion; and HEAT PROSTRATION.",
+        "description_summary": "An autosomal recessive genetic disease of the EXOCRINE GLANDS.",
+        "key_terms": [
+          "FIBROSIS",
+          "fibrosis"
+        ],
+        "word_count": 67
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease",
+          "Genetic disease (inborn)",
+          "Infant-newborn disease",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease",
+          "Genetic disease (inborn)",
+          "Infant-newborn disease"
+        ],
+        "broad_categories": [
+          "respiratory",
+          "genetic"
+        ],
+        "all_categories": [
+          "Digestive system disease",
+          "Genetic disease (inborn)",
+          "Infant-newborn disease",
+          "Respiratory tract disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vibrio cholerae infection",
+        "pathway_list": [
+          "Vibrio cholerae infection"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.465040",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

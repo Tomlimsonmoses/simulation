@@ -1,0 +1,878 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Mental disorder', 'Substance-related disorder']",
+    "export_timestamp": "2026-03-28T22:11:35.466344",
+    "total_records": 13
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000435",
+      "DiseaseName": "Alcoholic Intoxication",
+      "DiseaseDescription": "An acute brain syndrome which results from the excessive ingestion of ETHANOL or ALCOHOLIC BEVERAGES.",
+      "SlimMapping": "['Mental disorder', 'Substance-related disorder']",
+      "PathwayNames": "Transcriptional misregulation in cancer",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000435",
+        "standardized_id": "MESH:D000435",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Alcoholic Intoxication",
+        "standardized_name": "Alcoholic Intoxication",
+        "normalized_name": "alcoholic intoxication",
+        "synonyms": [],
+        "search_terms": [
+          "alcoholic",
+          "alcoholic intoxication",
+          "intoxication"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An acute brain syndrome which results from the excessive ingestion of ETHANOL or ALCOHOLIC BEVERAGES.",
+        "cleaned_description": "An acute brain syndrome which results from the excessive ingestion of ETHANOL or ALCOHOLIC BEVERAGES.",
+        "description_summary": "An acute brain syndrome which results from the excessive ingestion of ETHANOL or ALCOHOLIC BEVERAGES.",
+        "key_terms": [],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional misregulation in cancer",
+        "pathway_list": [
+          "Transcriptional misregulation in cancer"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional misregulation in cancer"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.359064",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000437",
+      "DiseaseName": "Alcoholism",
+      "DiseaseDescription": "A primary, chronic disease with genetic, psychosocial, and environmental factors influencing its development and manifestations. The disease is often progressive and fatal. It is characterized by impaired control over drinking, preoccupation with the drug alcohol, use of alcohol despite adverse consequences, and distortions in thinking, most notably denial. Each of these symptoms may be continuous or periodic. (Morse & Flavin for the Joint Commission of the National Council on Alcoholism and Drug Dependence and the American Society of Addiction Medicine to Study the Definition and Criteria for the Diagnosis of Alcoholism: in JAMA 1992;268:1012-4)",
+      "SlimMapping": "['Mental disorder', 'Substance-related disorder']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000437",
+        "standardized_id": "MESH:D000437",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Alcoholism",
+        "standardized_name": "Alcoholism",
+        "normalized_name": "alcoholism",
+        "synonyms": [],
+        "search_terms": [
+          "alcoholism"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A primary, chronic disease with genetic, psychosocial, and environmental factors influencing its development and manifestations. The disease is often progressive and fatal. It is characterized by impaired control over drinking, preoccupation with the drug alcohol, use of alcohol despite adverse consequences, and distortions in thinking, most notably denial. Each of these symptoms may be continuous or periodic. (Morse & Flavin for the Joint Commission of the National Council on Alcoholism and Drug Dependence and the American Society of Addiction Medicine to Study the Definition and Criteria for the Diagnosis of Alcoholism: in JAMA 1992;268:1012-4)",
+        "cleaned_description": "A primary, chronic disease with genetic, psychosocial, and environmental factors influencing its development and manifestations. The disease is often progressive and fatal. It is characterized by impaired control over drinking, preoccupation with the drug alcohol, use of alcohol despite adverse consequences, and distortions in thinking, most notably denial. Each of these symptoms may be continuous or periodic. (Morse & Flavin for the Joint Commission of the National Council on Alcoholism and Drug Dependence and the American Society of Addiction Medicine to Study the Definition and Criteria for the Diagnosis of Alcoholism: in JAMA 1992;268:1012-4)",
+        "description_summary": "A primary, chronic disease with genetic, psychosocial, and environmental factors influencing its development and manifestations.",
+        "key_terms": [
+          "Diagnosis"
+        ],
+        "word_count": 94
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.359426",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D019969",
+      "DiseaseName": "Amphetamine-Related Disorders",
+      "DiseaseDescription": "Disorders related or resulting from use of amphetamines.",
+      "SlimMapping": "['Mental disorder', 'Substance-related disorder']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D019969",
+        "standardized_id": "MESH:D019969",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Amphetamine-Related Disorders",
+        "standardized_name": "Amphetamine-Related Disorders",
+        "normalized_name": "amphetamine-related disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "amphetamine-related",
+          "amphetamine-related disorders"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Disorders related or resulting from use of amphetamines.",
+        "cleaned_description": "Disorders related or resulting from use of amphetamines.",
+        "description_summary": "Disorders related or resulting from use of amphetamines.",
+        "key_terms": [],
+        "word_count": 8
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.362071",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D019970",
+      "DiseaseName": "Cocaine-Related Disorders",
+      "DiseaseDescription": "Disorders related or resulting from use of cocaine.",
+      "SlimMapping": "['Mental disorder', 'Substance-related disorder']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D019970",
+        "standardized_id": "MESH:D019970",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cocaine-Related Disorders",
+        "standardized_name": "Cocaine-Related Disorders",
+        "normalized_name": "cocaine-related disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "cocaine-related",
+          "cocaine-related disorders"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Disorders related or resulting from use of cocaine.",
+        "cleaned_description": "Disorders related or resulting from use of cocaine.",
+        "description_summary": "Disorders related or resulting from use of cocaine.",
+        "key_terms": [],
+        "word_count": 8
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.445982",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006556",
+      "DiseaseName": "Heroin Dependence",
+      "DiseaseDescription": "Strong dependence or addiction, both physiological and emotional, upon HEROIN.",
+      "SlimMapping": "['Mental disorder', 'Substance-related disorder']",
+      "PathwayNames": "Type II diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006556",
+        "standardized_id": "MESH:D006556",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Heroin Dependence",
+        "standardized_name": "Heroin Dependence",
+        "normalized_name": "heroin dependence",
+        "synonyms": [],
+        "search_terms": [
+          "dependence",
+          "heroin",
+          "heroin dependence"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Strong dependence or addiction, both physiological and emotional, upon HEROIN.",
+        "cleaned_description": "Strong dependence or addiction, both physiological and emotional, upon HEROIN.",
+        "description_summary": "Strong dependence or addiction, both physiological and emotional, upon HEROIN.",
+        "key_terms": [],
+        "word_count": 10
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type II diabetes mellitus",
+        "pathway_list": [
+          "Type II diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.656935",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002189",
+      "DiseaseName": "Marijuana Abuse",
+      "DiseaseDescription": "Use of marijuana associated with abnormal psychological, social, and or occupational functioning.",
+      "SlimMapping": "['Mental disorder', 'Substance-related disorder']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002189",
+        "standardized_id": "MESH:D002189",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Marijuana Abuse",
+        "standardized_name": "Marijuana Abuse",
+        "normalized_name": "marijuana abuse",
+        "synonyms": [],
+        "search_terms": [
+          "abuse",
+          "marijuana",
+          "marijuana abuse"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Use of marijuana associated with abnormal psychological, social, and or occupational functioning.",
+        "cleaned_description": "Use of marijuana associated with abnormal psychological, social, and or occupational functioning.",
+        "description_summary": "Use of marijuana associated with abnormal psychological, social, and or occupational functioning.",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.837887",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009021",
+      "DiseaseName": "Morphine Dependence",
+      "DiseaseDescription": "Strong dependence, both physiological and emotional, upon morphine.",
+      "SlimMapping": "['Mental disorder', 'Substance-related disorder']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009021",
+        "standardized_id": "MESH:D009021",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Morphine Dependence",
+        "standardized_name": "Morphine Dependence",
+        "normalized_name": "morphine dependence",
+        "synonyms": [],
+        "search_terms": [
+          "morphine dependence",
+          "dependence",
+          "morphine"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Strong dependence, both physiological and emotional, upon morphine.",
+        "cleaned_description": "Strong dependence, both physiological and emotional, upon morphine.",
+        "description_summary": "Strong dependence, both physiological and emotional, upon morphine.",
+        "key_terms": [],
+        "word_count": 8
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.856137",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009293",
+      "DiseaseName": "Opioid-Related Disorders",
+      "DiseaseDescription": "Disorders related to or resulting from abuse or misuse of OPIOIDS.",
+      "SlimMapping": "['Mental disorder', 'Substance-related disorder']",
+      "PathwayNames": "Terminal pathway of complement",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009293",
+        "standardized_id": "MESH:D009293",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Opioid-Related Disorders",
+        "standardized_name": "Opioid-Related Disorders",
+        "normalized_name": "opioid-related disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "opioid-related",
+          "opioid-related disorders"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Disorders related to or resulting from abuse or misuse of OPIOIDS.",
+        "cleaned_description": "Disorders related to or resulting from abuse or misuse of OPIOIDS.",
+        "description_summary": "Disorders related to or resulting from abuse or misuse of OPIOIDS.",
+        "key_terms": [],
+        "word_count": 11
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Terminal pathway of complement",
+        "pathway_list": [
+          "Terminal pathway of complement"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.892876",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010623",
+      "DiseaseName": "Phencyclidine Abuse",
+      "DiseaseDescription": "The misuse of phencyclidine with associated psychological symptoms and impairment in social or occupational functioning.",
+      "SlimMapping": "['Mental disorder', 'Substance-related disorder']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010623",
+        "standardized_id": "MESH:D010623",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Phencyclidine Abuse",
+        "standardized_name": "Phencyclidine Abuse",
+        "normalized_name": "phencyclidine abuse",
+        "synonyms": [],
+        "search_terms": [
+          "abuse",
+          "phencyclidine",
+          "phencyclidine abuse"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The misuse of phencyclidine with associated psychological symptoms and impairment in social or occupational functioning.",
+        "cleaned_description": "The misuse of phencyclidine with associated psychological symptoms and impairment in social or occupational functioning.",
+        "description_summary": "The misuse of phencyclidine with associated psychological symptoms and impairment in social or occupational functioning.",
+        "key_terms": [],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.914919",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011605",
+      "DiseaseName": "Psychoses, Substance-Induced",
+      "DiseaseDescription": "Psychotic organic mental disorders resulting from the toxic effect of drugs and chemicals or other harmful substance.",
+      "SlimMapping": "['Mental disorder', 'Substance-related disorder']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011605",
+        "standardized_id": "MESH:D011605",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Psychoses, Substance-Induced",
+        "standardized_name": "Psychoses, Substance-Induced",
+        "normalized_name": "psychoses substance-induced",
+        "synonyms": [],
+        "search_terms": [
+          "psychoses, substance-induced",
+          "psychoses,",
+          "substance-induced"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Psychotic organic mental disorders resulting from the toxic effect of drugs and chemicals or other harmful substance.",
+        "cleaned_description": "Psychotic organic mental disorders resulting from the toxic effect of drugs and chemicals or other harmful substance.",
+        "description_summary": "Psychotic organic mental disorders resulting from the toxic effect of drugs and chemicals or other harmful substance.",
+        "key_terms": [],
+        "word_count": 17
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.938832",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D019966",
+      "DiseaseName": "Substance-Related Disorders",
+      "DiseaseDescription": "Disorders related to substance use or abuse.",
+      "SlimMapping": "['Mental disorder', 'Substance-related disorder']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D019966",
+        "standardized_id": "MESH:D019966",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Substance-Related Disorders",
+        "standardized_name": "Substance-Related Disorders",
+        "normalized_name": "substance-related disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "substance-related disorders",
+          "substance-related"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Disorders related to substance use or abuse.",
+        "cleaned_description": "Disorders related to substance use or abuse.",
+        "description_summary": "Disorders related to substance use or abuse.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.981808",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013375",
+      "DiseaseName": "Substance Withdrawal Syndrome",
+      "DiseaseDescription": "Physiological and psychological symptoms associated with withdrawal from the use of a drug after prolonged administration or habituation. The concept includes withdrawal from smoking or drinking, as well as withdrawal from an administered drug.",
+      "SlimMapping": "['Mental disorder', 'Substance-related disorder']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013375",
+        "standardized_id": "MESH:D013375",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Substance Withdrawal Syndrome",
+        "standardized_name": "Substance Withdrawal Syndrome",
+        "normalized_name": "substance withdrawal syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "withdrawal",
+          "substance",
+          "substance withdrawal syndrome",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Physiological and psychological symptoms associated with withdrawal from the use of a drug after prolonged administration or habituation. The concept includes withdrawal from smoking or drinking, as well as withdrawal from an administered drug.",
+        "cleaned_description": "Physiological and psychological symptoms associated with withdrawal from the use of a drug after prolonged administration or habituation. The concept includes withdrawal from smoking or drinking, as well as withdrawal from an administered drug.",
+        "description_summary": "Physiological and psychological symptoms associated with withdrawal from the use of a drug after prolonged administration or habituation.",
+        "key_terms": [],
+        "word_count": 34
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.981942",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014029",
+      "DiseaseName": "Tobacco Use Disorder",
+      "DiseaseDescription": "Tobacco used to the detriment of a person's health or social functioning. Tobacco dependence is included.",
+      "SlimMapping": "['Mental disorder', 'Substance-related disorder']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014029",
+        "standardized_id": "MESH:D014029",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Tobacco Use Disorder",
+        "standardized_name": "Tobacco Use Disorder",
+        "normalized_name": "tobacco use disorder",
+        "synonyms": [],
+        "search_terms": [
+          "tobacco",
+          "tobacco use disorder",
+          "use",
+          "disorder"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tobacco used to the detriment of a person's health or social functioning. Tobacco dependence is included.",
+        "cleaned_description": "Tobacco used to the detriment of a person's health or social functioning. Tobacco dependence is included.",
+        "description_summary": "Tobacco used to the detriment of a person's health or social functioning.",
+        "key_terms": [],
+        "word_count": 16
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Substance-related disorder"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.998687",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cardiovascular disease', 'Endocrine system disease']",
+    "export_timestamp": "2026-03-28T22:11:35.949049",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D003925",
+      "DiseaseName": "Diabetic Angiopathies",
+      "DiseaseDescription": "VASCULAR DISEASES that are associated with DIABETES MELLITUS.",
+      "SlimMapping": "['Cardiovascular disease', 'Endocrine system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003925",
+        "standardized_id": "MESH:D003925",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Diabetic Angiopathies",
+        "standardized_name": "Diabetic Angiopathies",
+        "normalized_name": "diabetic angiopathies",
+        "synonyms": [],
+        "search_terms": [
+          "angiopathies",
+          "diabetic",
+          "diabetic angiopathies"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "VASCULAR DISEASES that are associated with DIABETES MELLITUS.",
+        "cleaned_description": "VASCULAR DISEASES that are associated with DIABETES MELLITUS.",
+        "description_summary": "VASCULAR DISEASES that are associated with DIABETES MELLITUS.",
+        "key_terms": [],
+        "word_count": 8
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Endocrine system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.480350",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D058065",
+      "DiseaseName": "Diabetic Cardiomyopathies",
+      "DiseaseDescription": "Diabetes complications in which VENTRICULAR REMODELING in the absence of CORONARY ATHEROSCLEROSIS and hypertension results in cardiac dysfunctions, typically LEFT VENTRICULAR DYSFUNCTION. The changes also result in myocardial hypertrophy, myocardial necrosis and fibrosis, and collagen deposition due to impaired glucose tolerance.",
+      "SlimMapping": "['Cardiovascular disease', 'Endocrine system disease']",
+      "PathwayNames": "Vpr-mediated induction of apoptosis by mitochondrial outer membrane permeabilization",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D058065",
+        "standardized_id": "MESH:D058065",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Diabetic Cardiomyopathies",
+        "standardized_name": "Diabetic Cardiomyopathies",
+        "normalized_name": "diabetic cardiomyopathies",
+        "synonyms": [],
+        "search_terms": [
+          "diabetic",
+          "diabetic cardiomyopathies",
+          "cardiomyopathies"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diabetes complications in which VENTRICULAR REMODELING in the absence of CORONARY ATHEROSCLEROSIS and hypertension results in cardiac dysfunctions, typically LEFT VENTRICULAR DYSFUNCTION. The changes also result in myocardial hypertrophy, myocardial necrosis and fibrosis, and collagen deposition due to impaired glucose tolerance.",
+        "cleaned_description": "Diabetes complications in which VENTRICULAR REMODELING in the absence of CORONARY ATHEROSCLEROSIS and hypertension results in cardiac dysfunctions, typically LEFT VENTRICULAR DYSFUNCTION. The changes also result in myocardial hypertrophy, myocardial necrosis and fibrosis, and collagen deposition due to impaired glucose tolerance.",
+        "description_summary": "Diabetes complications in which VENTRICULAR REMODELING in the absence of CORONARY ATHEROSCLEROSIS and hypertension results in cardiac dysfunctions, typically LEFT VENTRICULAR DYSFUNCTION.",
+        "key_terms": [
+          "necrosis",
+          "ATHEROSCLEROSIS",
+          "fibrosis"
+        ],
+        "word_count": 41
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Endocrine system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vpr-mediated induction of apoptosis by mitochondrial outer membrane permeabilization",
+        "pathway_list": [
+          "Vpr-mediated induction of apoptosis by mitochondrial outer membrane permeabilization"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Vpr-mediated induction of apoptosis by mitochondrial outer membrane permeabilization"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.480532",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

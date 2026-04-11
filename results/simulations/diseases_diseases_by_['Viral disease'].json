@@ -1,0 +1,876 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Viral disease']",
+    "export_timestamp": "2026-03-28T22:11:35.857711",
+    "total_records": 13
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D018188",
+      "DiseaseName": "Cardiovirus Infections",
+      "DiseaseDescription": "Infections caused by viruses of the genus CARDIOVIRUS, family PICORNAVIRIDAE.",
+      "SlimMapping": "['Viral disease']",
+      "PathwayNames": "Type II diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018188",
+        "standardized_id": "MESH:D018188",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cardiovirus Infections",
+        "standardized_name": "Cardiovirus Infections",
+        "normalized_name": "cardiovirus infections",
+        "synonyms": [],
+        "search_terms": [
+          "cardiovirus infections",
+          "infections",
+          "cardiovirus"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Infections caused by viruses of the genus CARDIOVIRUS, family PICORNAVIRIDAE.",
+        "cleaned_description": "Infections caused by viruses of the genus CARDIOVIRUS, family PICORNAVIRIDAE.",
+        "description_summary": "Infections caused by viruses of the genus CARDIOVIRUS, family PICORNAVIRIDAE.",
+        "key_terms": [],
+        "word_count": 10
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Viral disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type II diabetes mellitus",
+        "pathway_list": [
+          "Type II diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.429275",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D018352",
+      "DiseaseName": "Coronavirus Infections",
+      "DiseaseDescription": "Virus diseases caused by the CORONAVIRUS genus. Some specifics include transmissible enteritis of turkeys (ENTERITIS, TRANSMISSIBLE, OF TURKEYS); FELINE INFECTIOUS PERITONITIS; and transmissible gastroenteritis of swine (GASTROENTERITIS, TRANSMISSIBLE, OF SWINE).",
+      "SlimMapping": "['Viral disease']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018352",
+        "standardized_id": "MESH:D018352",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Coronavirus Infections",
+        "standardized_name": "Coronavirus Infections",
+        "normalized_name": "coronavirus infections",
+        "synonyms": [],
+        "search_terms": [
+          "coronavirus",
+          "infections",
+          "coronavirus infections"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Virus diseases caused by the CORONAVIRUS genus. Some specifics include transmissible enteritis of turkeys (ENTERITIS, TRANSMISSIBLE, OF TURKEYS); FELINE INFECTIOUS PERITONITIS; and transmissible gastroenteritis of swine (GASTROENTERITIS, TRANSMISSIBLE, OF SWINE).",
+        "cleaned_description": "Virus diseases caused by the CORONAVIRUS genus. Some specifics include transmissible enteritis of turkeys (ENTERITIS, TRANSMISSIBLE, OF TURKEYS); FELINE INFECTIOUS PERITONITIS; and transmissible gastroenteritis of swine (GASTROENTERITIS, TRANSMISSIBLE, OF SWINE).",
+        "description_summary": "Virus diseases caused by the CORONAVIRUS genus.",
+        "key_terms": [
+          "gastroenteritis",
+          "enteritis",
+          "GASTROENTERITIS",
+          "PERITONITIS",
+          "ENTERITIS"
+        ],
+        "word_count": 30
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Viral disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.461612",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003384",
+      "DiseaseName": "Coxsackievirus Infections",
+      "DiseaseDescription": "A heterogeneous group of infections produced by coxsackieviruses, including HERPANGINA, aseptic meningitis (MENINGITIS, ASEPTIC), a common-cold-like syndrome, a non-paralytic poliomyelitis-like syndrome, epidemic pleurodynia (PLEURODYNIA, EPIDEMIC) and a serious MYOCARDITIS.",
+      "SlimMapping": "['Viral disease']",
+      "PathwayNames": "Type II diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003384",
+        "standardized_id": "MESH:D003384",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Coxsackievirus Infections",
+        "standardized_name": "Coxsackievirus Infections",
+        "normalized_name": "coxsackievirus infections",
+        "synonyms": [],
+        "search_terms": [
+          "coxsackievirus infections",
+          "infections",
+          "coxsackievirus"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A heterogeneous group of infections produced by coxsackieviruses, including HERPANGINA, aseptic meningitis (MENINGITIS, ASEPTIC), a common-cold-like syndrome, a non-paralytic poliomyelitis-like syndrome, epidemic pleurodynia (PLEURODYNIA, EPIDEMIC) and a serious MYOCARDITIS.",
+        "cleaned_description": "A heterogeneous group of infections produced by coxsackieviruses, including HERPANGINA, aseptic meningitis (MENINGITIS, ASEPTIC), a common-cold-like syndrome, a non-paralytic poliomyelitis-like syndrome, epidemic pleurodynia (PLEURODYNIA, EPIDEMIC) and a serious MYOCARDITIS.",
+        "description_summary": "A heterogeneous group of infections produced by coxsackieviruses, including HERPANGINA, aseptic meningitis (MENINGITIS, ASEPTIC), a common-cold-like syndrome, a non-paralytic poliomyelitis-like syndrome, epidemic pleurodynia (PLEURODYNIA, EPIDEMIC) and a serious MYOCARDITIS.",
+        "key_terms": [
+          "MYOCARDITIS",
+          "MENINGITIS",
+          "poliomyelitis",
+          "meningitis"
+        ],
+        "word_count": 29
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Viral disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type II diabetes mellitus",
+        "pathway_list": [
+          "Type II diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.462226",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003586",
+      "DiseaseName": "Cytomegalovirus Infections",
+      "DiseaseDescription": "Infection with CYTOMEGALOVIRUS, characterized by enlarged cells bearing intranuclear inclusions. Infection may be in almost any organ, but the salivary glands are the most common site in children, as are the lungs in adults.",
+      "SlimMapping": "['Viral disease']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003586",
+        "standardized_id": "MESH:D003586",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cytomegalovirus Infections",
+        "standardized_name": "Cytomegalovirus Infections",
+        "normalized_name": "cytomegalovirus infections",
+        "synonyms": [],
+        "search_terms": [
+          "infections",
+          "cytomegalovirus infections",
+          "cytomegalovirus"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Infection with CYTOMEGALOVIRUS, characterized by enlarged cells bearing intranuclear inclusions. Infection may be in almost any organ, but the salivary glands are the most common site in children, as are the lungs in adults.",
+        "cleaned_description": "Infection with CYTOMEGALOVIRUS, characterized by enlarged cells bearing intranuclear inclusions. Infection may be in almost any organ, but the salivary glands are the most common site in children, as are the lungs in adults.",
+        "description_summary": "Infection with CYTOMEGALOVIRUS, characterized by enlarged cells bearing intranuclear inclusions.",
+        "key_terms": [],
+        "word_count": 34
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Viral disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.466011",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003715",
+      "DiseaseName": "Dengue",
+      "DiseaseDescription": "An acute febrile disease transmitted by the bite of AEDES mosquitoes infected with DENGUE VIRUS. It is self-limiting and characterized by fever, myalgia, headache, and rash. SEVERE DENGUE is a more virulent form of dengue.",
+      "SlimMapping": "['Viral disease']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003715",
+        "standardized_id": "MESH:D003715",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Dengue",
+        "standardized_name": "Dengue",
+        "normalized_name": "dengue",
+        "synonyms": [],
+        "search_terms": [
+          "dengue"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An acute febrile disease transmitted by the bite of AEDES mosquitoes infected with DENGUE VIRUS. It is self-limiting and characterized by fever, myalgia, headache, and rash. SEVERE DENGUE is a more virulent form of dengue.",
+        "cleaned_description": "An acute febrile disease transmitted by the bite of AEDES mosquitoes infected with DENGUE VIRUS. It is self-limiting and characterized by fever, myalgia, headache, and rash. SEVERE DENGUE is a more virulent form of dengue.",
+        "description_summary": "An acute febrile disease transmitted by the bite of AEDES mosquitoes infected with DENGUE VIRUS.",
+        "key_terms": [],
+        "word_count": 35
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Viral disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.473001",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004769",
+      "DiseaseName": "Enterovirus Infections",
+      "DiseaseDescription": "Diseases caused by ENTEROVIRUS.",
+      "SlimMapping": "['Viral disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004769",
+        "standardized_id": "MESH:D004769",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Enterovirus Infections",
+        "standardized_name": "Enterovirus Infections",
+        "normalized_name": "enterovirus infections",
+        "synonyms": [],
+        "search_terms": [
+          "infections",
+          "enterovirus infections",
+          "enterovirus"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases caused by ENTEROVIRUS.",
+        "cleaned_description": "Diseases caused by ENTEROVIRUS.",
+        "description_summary": "Diseases caused by ENTEROVIRUS.",
+        "key_terms": [],
+        "word_count": 4
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Viral disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.500504",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": [
+            "Very short or missing description"
+          ]
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D018177",
+      "DiseaseName": "Flavivirus Infections",
+      "DiseaseDescription": "Infections with viruses of the genus FLAVIVIRUS, family FLAVIVIRIDAE.",
+      "SlimMapping": "['Viral disease']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018177",
+        "standardized_id": "MESH:D018177",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Flavivirus Infections",
+        "standardized_name": "Flavivirus Infections",
+        "normalized_name": "flavivirus infections",
+        "synonyms": [],
+        "search_terms": [
+          "infections",
+          "flavivirus",
+          "flavivirus infections"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Infections with viruses of the genus FLAVIVIRUS, family FLAVIVIRIDAE.",
+        "cleaned_description": "Infections with viruses of the genus FLAVIVIRUS, family FLAVIVIRIDAE.",
+        "description_summary": "Infections with viruses of the genus FLAVIVIRUS, family FLAVIVIRIDAE.",
+        "key_terms": [],
+        "word_count": 9
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Viral disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.528236",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006566",
+      "DiseaseName": "Herpesviridae Infections",
+      "DiseaseDescription": "Virus diseases caused by the HERPESVIRIDAE.",
+      "SlimMapping": "['Viral disease']",
+      "PathwayNames": "Taste transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006566",
+        "standardized_id": "MESH:D006566",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Herpesviridae Infections",
+        "standardized_name": "Herpesviridae Infections",
+        "normalized_name": "herpesviridae infections",
+        "synonyms": [],
+        "search_terms": [
+          "infections",
+          "herpesviridae infections",
+          "herpesviridae"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Virus diseases caused by the HERPESVIRIDAE.",
+        "cleaned_description": "Virus diseases caused by the HERPESVIRIDAE.",
+        "description_summary": "Virus diseases caused by the HERPESVIRIDAE.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Viral disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Taste transduction",
+        "pathway_list": [
+          "Taste transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.657422",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007835",
+      "DiseaseName": "Lassa Fever",
+      "DiseaseDescription": "An acute febrile human disease caused by the LASSA VIRUS.",
+      "SlimMapping": "['Viral disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007835",
+        "standardized_id": "MESH:D007835",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Lassa Fever",
+        "standardized_name": "Lassa Fever",
+        "normalized_name": "lassa fever",
+        "synonyms": [],
+        "search_terms": [
+          "fever",
+          "lassa fever",
+          "lassa"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An acute febrile human disease caused by the LASSA VIRUS.",
+        "cleaned_description": "An acute febrile human disease caused by the LASSA VIRUS.",
+        "description_summary": "An acute febrile human disease caused by the LASSA VIRUS.",
+        "key_terms": [],
+        "word_count": 10
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Viral disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.803749",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009976",
+      "DiseaseName": "Orthomyxoviridae Infections",
+      "DiseaseDescription": "Virus diseases caused by the ORTHOMYXOVIRIDAE.",
+      "SlimMapping": "['Viral disease']",
+      "PathwayNames": "Vitamin D (calciferol) metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009976",
+        "standardized_id": "MESH:D009976",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Orthomyxoviridae Infections",
+        "standardized_name": "Orthomyxoviridae Infections",
+        "normalized_name": "orthomyxoviridae infections",
+        "synonyms": [],
+        "search_terms": [
+          "infections",
+          "orthomyxoviridae",
+          "orthomyxoviridae infections"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Virus diseases caused by the ORTHOMYXOVIRIDAE.",
+        "cleaned_description": "Virus diseases caused by the ORTHOMYXOVIRIDAE.",
+        "description_summary": "Virus diseases caused by the ORTHOMYXOVIRIDAE.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Viral disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamin D (calciferol) metabolism",
+        "pathway_list": [
+          "Vitamin D (calciferol) metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.896836",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D027601",
+      "DiseaseName": "Polyomavirus Infections",
+      "DiseaseDescription": "Infections with POLYOMAVIRUS, which are often cultured from the urine of kidney transplant patients. Excretion of BK VIRUS is associated with ureteral strictures and CYSTITIS, and that of JC VIRUS with progressive multifocal leukoencephalopathy (LEUKOENCEPHALOPATHY, PROGRESSIVE MULTIFOCAL).",
+      "SlimMapping": "['Viral disease']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D027601",
+        "standardized_id": "MESH:D027601",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Polyomavirus Infections",
+        "standardized_name": "Polyomavirus Infections",
+        "normalized_name": "polyomavirus infections",
+        "synonyms": [],
+        "search_terms": [
+          "infections",
+          "polyomavirus",
+          "polyomavirus infections"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Infections with POLYOMAVIRUS, which are often cultured from the urine of kidney transplant patients. Excretion of BK VIRUS is associated with ureteral strictures and CYSTITIS, and that of JC VIRUS with progressive multifocal leukoencephalopathy (LEUKOENCEPHALOPATHY, PROGRESSIVE MULTIFOCAL).",
+        "cleaned_description": "Infections with POLYOMAVIRUS, which are often cultured from the urine of kidney transplant patients. Excretion of BK VIRUS is associated with ureteral strictures and CYSTITIS, and that of JC VIRUS with progressive multifocal leukoencephalopathy (LEUKOENCEPHALOPATHY, PROGRESSIVE MULTIFOCAL).",
+        "description_summary": "Infections with POLYOMAVIRUS, which are often cultured from the urine of kidney transplant patients.",
+        "key_terms": [
+          "CYSTITIS",
+          "LEUKOENCEPHALOPATHY",
+          "leukoencephalopathy"
+        ],
+        "word_count": 37
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Viral disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.924147",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D018357",
+      "DiseaseName": "Respiratory Syncytial Virus Infections",
+      "DiseaseDescription": "Pneumovirus infections caused by the RESPIRATORY SYNCYTIAL VIRUSES. Humans and cattle are most affected but infections in goats and sheep have been reported.",
+      "SlimMapping": "['Viral disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018357",
+        "standardized_id": "MESH:D018357",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Respiratory Syncytial Virus Infections",
+        "standardized_name": "Respiratory Syncytial Virus Infections",
+        "normalized_name": "respiratory syncytial virus infections",
+        "synonyms": [],
+        "search_terms": [
+          "respiratory",
+          "virus",
+          "infections",
+          "syncytial",
+          "respiratory syncytial virus infections"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pneumovirus infections caused by the RESPIRATORY SYNCYTIAL VIRUSES. Humans and cattle are most affected but infections in goats and sheep have been reported.",
+        "cleaned_description": "Pneumovirus infections caused by the RESPIRATORY SYNCYTIAL VIRUSES. Humans and cattle are most affected but infections in goats and sheep have been reported.",
+        "description_summary": "Pneumovirus infections caused by the RESPIRATORY SYNCYTIAL VIRUSES.",
+        "key_terms": [],
+        "word_count": 23
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Viral disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.948510",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014777",
+      "DiseaseName": "Virus Diseases",
+      "DiseaseDescription": "A general term for diseases caused by viruses.",
+      "SlimMapping": "['Viral disease']",
+      "PathwayNames": "Toll-like receptor signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014777",
+        "standardized_id": "MESH:D014777",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Virus Diseases",
+        "standardized_name": "Virus Diseases",
+        "normalized_name": "virus diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "virus diseases",
+          "virus"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A general term for diseases caused by viruses.",
+        "cleaned_description": "A general term for diseases caused by viruses.",
+        "description_summary": "A general term for diseases caused by viruses.",
+        "key_terms": [],
+        "word_count": 8
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Viral disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Toll-like receptor signaling pathway",
+        "pathway_list": [
+          "Toll-like receptor signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Toll-like receptor signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.024050",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cardiovascular disease', 'Congenital abnormality', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.120171",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D002538",
+      "DiseaseName": "Intracranial Arteriovenous Malformations",
+      "DiseaseDescription": "Congenital vascular anomalies in the brain characterized by direct communication between an artery and a vein without passing through the CAPILLARIES. The locations and size of the shunts determine the symptoms including HEADACHES; SEIZURES; STROKE; INTRACRANIAL HEMORRHAGES; mass effect; and vascular steal effect.",
+      "SlimMapping": "['Cardiovascular disease', 'Congenital abnormality', 'Nervous system disease']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002538",
+        "standardized_id": "MESH:D002538",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Intracranial Arteriovenous Malformations",
+        "standardized_name": "Intracranial Arteriovenous Malformations",
+        "normalized_name": "intracranial arteriovenous malformations",
+        "synonyms": [],
+        "search_terms": [
+          "intracranial arteriovenous malformations",
+          "arteriovenous",
+          "intracranial",
+          "malformations"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Congenital vascular anomalies in the brain characterized by direct communication between an artery and a vein without passing through the CAPILLARIES. The locations and size of the shunts determine the symptoms including HEADACHES; SEIZURES; STROKE; INTRACRANIAL HEMORRHAGES; mass effect; and vascular steal effect.",
+        "cleaned_description": "Congenital vascular anomalies in the brain characterized by direct communication between an artery and a vein without passing through the CAPILLARIES. The locations and size of the shunts determine the symptoms including HEADACHES; SEIZURES; STROKE; INTRACRANIAL HEMORRHAGES; mass effect; and vascular steal effect.",
+        "description_summary": "Congenital vascular anomalies in the brain characterized by direct communication between an artery and a vein without passing through the CAPILLARIES.",
+        "key_terms": [],
+        "word_count": 43
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "cardiovascular",
+          "genetic"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.791470",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

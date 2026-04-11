@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Genetic disease (inborn)', 'Mental disorder', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.092038",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D006816",
+      "DiseaseName": "Huntington Disease",
+      "DiseaseDescription": "A familial disorder inherited as an autosomal dominant trait and characterized by the onset of progressive CHOREA and DEMENTIA in the fourth or fifth decade of life. Common initial manifestations include paranoia; poor impulse control; DEPRESSION; HALLUCINATIONS; and DELUSIONS. Eventually intellectual impairment; loss of fine motor control; ATHETOSIS; and diffuse chorea involving axial and limb musculature develops, leading to a vegetative state within 10-15 years of disease onset. The juvenile variant has a more fulminant course including SEIZURES; ATAXIA; dementia; and chorea. (From Adams et al., Principles of Neurology, 6th ed, pp1060-4)",
+      "SlimMapping": "['Genetic disease (inborn)', 'Mental disorder', 'Nervous system disease']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006816",
+        "standardized_id": "MESH:D006816",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Huntington Disease",
+        "standardized_name": "Huntington Disease",
+        "normalized_name": "huntington disease",
+        "synonyms": [],
+        "search_terms": [
+          "huntington disease",
+          "huntington",
+          "disease"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A familial disorder inherited as an autosomal dominant trait and characterized by the onset of progressive CHOREA and DEMENTIA in the fourth or fifth decade of life. Common initial manifestations include paranoia; poor impulse control; DEPRESSION; HALLUCINATIONS; and DELUSIONS. Eventually intellectual impairment; loss of fine motor control; ATHETOSIS; and diffuse chorea involving axial and limb musculature develops, leading to a vegetative state within 10-15 years of disease onset. The juvenile variant has a more fulminant course including SEIZURES; ATAXIA; dementia; and chorea. (From Adams et al., Principles of Neurology, 6th ed, pp1060-4)",
+        "cleaned_description": "A familial disorder inherited as an autosomal dominant trait and characterized by the onset of progressive CHOREA and DEMENTIA in the fourth or fifth decade of life. Common initial manifestations include paranoia; poor impulse control; DEPRESSION; HALLUCINATIONS; and DELUSIONS. Eventually intellectual impairment; loss of fine motor control; ATHETOSIS; and diffuse chorea involving axial and limb musculature develops, leading to a vegetative state within 10-15 years of disease onset. The juvenile variant has a more fulminant course including SEIZURES; ATAXIA; dementia; and chorea. (From Adams et al., Principles of Neurology, 6th ed, pp1060-4)",
+        "description_summary": "A familial disorder inherited as an autosomal dominant trait and characterized by the onset of progressive CHOREA and DEMENTIA in the fourth or fifth decade of life.",
+        "key_terms": [
+          "ATHETOSIS"
+        ],
+        "word_count": 92
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.671674",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005879",
+      "DiseaseName": "Tourette Syndrome",
+      "DiseaseDescription": "A neuropsychological disorder related to alterations in DOPAMINE metabolism and neurotransmission involving frontal-subcortical neuronal circuits. Both multiple motor and one or more vocal tics need to be present with TICS occurring many times a day, nearly daily, over a period of more than one year. The onset is before age 18 and the disturbance is not due to direct physiological effects of a substance or another medical condition. The disturbance causes marked distress or significant impairment in social, occupational, or other important areas of functioning. (From DSM-IV, 1994; Neurol Clin 1997 May;15(2):357-79)",
+      "SlimMapping": "['Genetic disease (inborn)', 'Mental disorder', 'Nervous system disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005879",
+        "standardized_id": "MESH:D005879",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Tourette Syndrome",
+        "standardized_name": "Tourette Syndrome",
+        "normalized_name": "tourette syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "tourette",
+          "syndrome",
+          "tourette syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A neuropsychological disorder related to alterations in DOPAMINE metabolism and neurotransmission involving frontal-subcortical neuronal circuits. Both multiple motor and one or more vocal tics need to be present with TICS occurring many times a day, nearly daily, over a period of more than one year. The onset is before age 18 and the disturbance is not due to direct physiological effects of a substance or another medical condition. The disturbance causes marked distress or significant impairment in social, occupational, or other important areas of functioning. (From DSM-IV, 1994; Neurol Clin 1997 May;15(2):357-79)",
+        "cleaned_description": "A neuropsychological disorder related to alterations in DOPAMINE metabolism and neurotransmission involving frontal-subcortical neuronal circuits. Both multiple motor and one or more vocal tics need to be present with TICS occurring many times a day, nearly daily, over a period of more than one year. The onset is before age 18 and the disturbance is not due to direct physiological effects of a substance or another medical condition. The disturbance causes marked distress or significant impairment in social, occupational, or other important areas of functioning. (From DSM-IV, 1994; Neurol Clin 1997 May;15(2):357-79)",
+        "description_summary": "A neuropsychological disorder related to alterations in DOPAMINE metabolism and neurotransmission involving frontal-subcortical neuronal circuits.",
+        "key_terms": [],
+        "word_count": 92
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.000288",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

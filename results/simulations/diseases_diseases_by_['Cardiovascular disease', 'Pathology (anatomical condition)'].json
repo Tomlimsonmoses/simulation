@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cardiovascular disease', 'Pathology (anatomical condition)']",
+    "export_timestamp": "2026-03-28T22:11:35.853783",
+    "total_records": 3
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D006332",
+      "DiseaseName": "Cardiomegaly",
+      "DiseaseDescription": "Enlargement of the HEART, usually indicated by a cardiothoracic ratio above 0.50. Heart enlargement may involve the right, the left, or both HEART VENTRICLES or HEART ATRIA. Cardiomegaly is a nonspecific symptom seen in patients with chronic systolic heart failure (HEART FAILURE) or several forms of CARDIOMYOPATHIES.",
+      "SlimMapping": "['Cardiovascular disease', 'Pathology (anatomical condition)']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006332",
+        "standardized_id": "MESH:D006332",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cardiomegaly",
+        "standardized_name": "Cardiomegaly",
+        "normalized_name": "cardiomegaly",
+        "synonyms": [],
+        "search_terms": [
+          "cardiomegaly"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Enlargement of the HEART, usually indicated by a cardiothoracic ratio above 0.50. Heart enlargement may involve the right, the left, or both HEART VENTRICLES or HEART ATRIA. Cardiomegaly is a nonspecific symptom seen in patients with chronic systolic heart failure (HEART FAILURE) or several forms of CARDIOMYOPATHIES.",
+        "cleaned_description": "Enlargement of the HEART, usually indicated by a cardiothoracic ratio above 0.50. Heart enlargement may involve the right, the left, or both HEART VENTRICLES or HEART ATRIA. Cardiomegaly is a nonspecific symptom seen in patients with chronic systolic heart failure (HEART FAILURE) or several forms of CARDIOMYOPATHIES.",
+        "description_summary": "Enlargement of the HEART, usually indicated by a cardiothoracic ratio above 0.",
+        "key_terms": [],
+        "word_count": 47
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Pathology (anatomical condition)"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Pathology (anatomical condition)"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Pathology (anatomical condition)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.426810",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D017379",
+      "DiseaseName": "Hypertrophy, Left Ventricular",
+      "DiseaseDescription": "Enlargement of the LEFT VENTRICLE of the heart. This increase in ventricular mass is attributed to sustained abnormal pressure or volume loads and is a contributor to cardiovascular morbidity and mortality.",
+      "SlimMapping": "['Cardiovascular disease', 'Pathology (anatomical condition)']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017379",
+        "standardized_id": "MESH:D017379",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypertrophy, Left Ventricular",
+        "standardized_name": "Hypertrophy, Left Ventricular",
+        "normalized_name": "hypertrophy left ventricular",
+        "synonyms": [],
+        "search_terms": [
+          "hypertrophy,",
+          "ventricular",
+          "hypertrophy, left ventricular",
+          "left"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Enlargement of the LEFT VENTRICLE of the heart. This increase in ventricular mass is attributed to sustained abnormal pressure or volume loads and is a contributor to cardiovascular morbidity and mortality.",
+        "cleaned_description": "Enlargement of the LEFT VENTRICLE of the heart. This increase in ventricular mass is attributed to sustained abnormal pressure or volume loads and is a contributor to cardiovascular morbidity and mortality.",
+        "description_summary": "Enlargement of the LEFT VENTRICLE of the heart.",
+        "key_terms": [],
+        "word_count": 31
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Pathology (anatomical condition)"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Pathology (anatomical condition)"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Pathology (anatomical condition)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.771155",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D017380",
+      "DiseaseName": "Hypertrophy, Right Ventricular",
+      "DiseaseDescription": "Enlargement of the RIGHT VENTRICLE of the heart. This increase in ventricular mass is often attributed to PULMONARY HYPERTENSION and is a contributor to cardiovascular morbidity and mortality.",
+      "SlimMapping": "['Cardiovascular disease', 'Pathology (anatomical condition)']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017380",
+        "standardized_id": "MESH:D017380",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypertrophy, Right Ventricular",
+        "standardized_name": "Hypertrophy, Right Ventricular",
+        "normalized_name": "hypertrophy right ventricular",
+        "synonyms": [],
+        "search_terms": [
+          "hypertrophy,",
+          "right",
+          "ventricular",
+          "hypertrophy, right ventricular"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Enlargement of the RIGHT VENTRICLE of the heart. This increase in ventricular mass is often attributed to PULMONARY HYPERTENSION and is a contributor to cardiovascular morbidity and mortality.",
+        "cleaned_description": "Enlargement of the RIGHT VENTRICLE of the heart. This increase in ventricular mass is often attributed to PULMONARY HYPERTENSION and is a contributor to cardiovascular morbidity and mortality.",
+        "description_summary": "Enlargement of the RIGHT VENTRICLE of the heart.",
+        "key_terms": [],
+        "word_count": 28
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Pathology (anatomical condition)"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Pathology (anatomical condition)"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Pathology (anatomical condition)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.771411",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Congenital abnormality', 'Endocrine system disease', 'Genetic disease (inborn)', 'Metabolic disease', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+    "export_timestamp": "2026-03-28T22:11:35.441879",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000312",
+      "DiseaseName": "Adrenal Hyperplasia, Congenital",
+      "DiseaseDescription": "A group of inherited disorders of the ADRENAL GLANDS, caused by enzyme defects in the synthesis of cortisol (HYDROCORTISONE) and/or ALDOSTERONE leading to accumulation of precursors for ANDROGENS. Depending on the hormone imbalance, congenital adrenal hyperplasia can be classified as salt-wasting, hypertensive, virilizing, or feminizing. Defects in STEROID 21-HYDROXYLASE; STEROID 11-BETA-HYDROXYLASE; STEROID 17-ALPHA-HYDROXYLASE; 3-beta-hydroxysteroid dehydrogenase (3-HYDROXYSTEROID DEHYDROGENASES); TESTOSTERONE 5-ALPHA-REDUCTASE; or steroidogenic acute regulatory protein; among others, underlie these disorders.",
+      "SlimMapping": "['Congenital abnormality', 'Endocrine system disease', 'Genetic disease (inborn)', 'Metabolic disease', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000312",
+        "standardized_id": "MESH:D000312",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Adrenal Hyperplasia, Congenital",
+        "standardized_name": "Adrenal Hyperplasia, Congenital",
+        "normalized_name": "adrenal hyperplasia congenital",
+        "synonyms": [],
+        "search_terms": [
+          "adrenal hyperplasia, congenital",
+          "hyperplasia,",
+          "congenital",
+          "adrenal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A group of inherited disorders of the ADRENAL GLANDS, caused by enzyme defects in the synthesis of cortisol (HYDROCORTISONE) and/or ALDOSTERONE leading to accumulation of precursors for ANDROGENS. Depending on the hormone imbalance, congenital adrenal hyperplasia can be classified as salt-wasting, hypertensive, virilizing, or feminizing. Defects in STEROID 21-HYDROXYLASE; STEROID 11-BETA-HYDROXYLASE; STEROID 17-ALPHA-HYDROXYLASE; 3-beta-hydroxysteroid dehydrogenase (3-HYDROXYSTEROID DEHYDROGENASES); TESTOSTERONE 5-ALPHA-REDUCTASE; or steroidogenic acute regulatory protein; among others, underlie these disorders.",
+        "cleaned_description": "A group of inherited disorders of the ADRENAL GLANDS, caused by enzyme defects in the synthesis of cortisol (HYDROCORTISONE) and/or ALDOSTERONE leading to accumulation of precursors for ANDROGENS. Depending on the hormone imbalance, congenital adrenal hyperplasia can be classified as salt-wasting, hypertensive, virilizing, or feminizing. Defects in STEROID 21-HYDROXYLASE; STEROID 11-BETA-HYDROXYLASE; STEROID 17-ALPHA-HYDROXYLASE; 3-beta-hydroxysteroid dehydrogenase (3-HYDROXYSTEROID DEHYDROGENASES); TESTOSTERONE 5-ALPHA-REDUCTASE; or steroidogenic acute regulatory protein; among others, underlie these disorders.",
+        "description_summary": "A group of inherited disorders of the ADRENAL GLANDS, caused by enzyme defects in the synthesis of cortisol (HYDROCORTISONE) and/or ALDOSTERONE leading to accumulation of precursors for ANDROGENS.",
+        "key_terms": [
+          "steroidogenic"
+        ],
+        "word_count": 69
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Endocrine system disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Endocrine system disease",
+          "Genetic disease (inborn)"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Endocrine system disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 6
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.357295",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

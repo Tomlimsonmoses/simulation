@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Digestive system disease', 'Pathology (process)', 'Viral disease']",
+    "export_timestamp": "2026-03-28T22:11:36.051038",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D019694",
+      "DiseaseName": "Hepatitis B, Chronic",
+      "DiseaseDescription": "INFLAMMATION of the LIVER in humans caused by HEPATITIS B VIRUS lasting six months or more. It is primarily transmitted by parenteral exposure, such as transfusion of contaminated blood or blood products, but can also be transmitted via sexual or intimate personal contact.",
+      "SlimMapping": "['Digestive system disease', 'Pathology (process)', 'Viral disease']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D019694",
+        "standardized_id": "MESH:D019694",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hepatitis B, Chronic",
+        "standardized_name": "Hepatitis B, Chronic",
+        "normalized_name": "hepatitis b chronic",
+        "synonyms": [],
+        "search_terms": [
+          "hepatitis b, chronic",
+          "hepatitis",
+          "chronic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "INFLAMMATION of the LIVER in humans caused by HEPATITIS B VIRUS lasting six months or more. It is primarily transmitted by parenteral exposure, such as transfusion of contaminated blood or blood products, but can also be transmitted via sexual or intimate personal contact.",
+        "cleaned_description": "INFLAMMATION of the LIVER in humans caused by HEPATITIS B VIRUS lasting six months or more. It is primarily transmitted by parenteral exposure, such as transfusion of contaminated blood or blood products, but can also be transmitted via sexual or intimate personal contact.",
+        "description_summary": "INFLAMMATION of the LIVER in humans caused by HEPATITIS B VIRUS lasting six months or more.",
+        "key_terms": [
+          "HEPATITIS"
+        ],
+        "word_count": 43
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease",
+          "Pathology (process)",
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease",
+          "Pathology (process)",
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Digestive system disease",
+          "Pathology (process)",
+          "Viral disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.650132",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D019698",
+      "DiseaseName": "Hepatitis C, Chronic",
+      "DiseaseDescription": "INFLAMMATION of the LIVER in humans that is caused by HEPATITIS C VIRUS lasting six months or more. Chronic hepatitis C can lead to LIVER CIRRHOSIS.",
+      "SlimMapping": "['Digestive system disease', 'Pathology (process)', 'Viral disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D019698",
+        "standardized_id": "MESH:D019698",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hepatitis C, Chronic",
+        "standardized_name": "Hepatitis C, Chronic",
+        "normalized_name": "hepatitis c chronic",
+        "synonyms": [],
+        "search_terms": [
+          "hepatitis c, chronic",
+          "hepatitis",
+          "chronic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "INFLAMMATION of the LIVER in humans that is caused by HEPATITIS C VIRUS lasting six months or more. Chronic hepatitis C can lead to LIVER CIRRHOSIS.",
+        "cleaned_description": "INFLAMMATION of the LIVER in humans that is caused by HEPATITIS C VIRUS lasting six months or more. Chronic hepatitis C can lead to LIVER CIRRHOSIS.",
+        "description_summary": "INFLAMMATION of the LIVER in humans that is caused by HEPATITIS C VIRUS lasting six months or more.",
+        "key_terms": [
+          "hepatitis",
+          "CIRRHOSIS",
+          "HEPATITIS"
+        ],
+        "word_count": 26
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease",
+          "Pathology (process)",
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease",
+          "Pathology (process)",
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Digestive system disease",
+          "Pathology (process)",
+          "Viral disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.653387",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

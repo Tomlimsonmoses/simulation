@@ -1,0 +1,1975 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Musculoskeletal disease']",
+    "export_timestamp": "2026-03-28T22:11:35.193439",
+    "total_records": 31
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D020083",
+      "DiseaseName": "Acquired Hyperostosis Syndrome",
+      "DiseaseDescription": "Syndrome consisting of SYNOVITIS; ACNE CONGLOBATA; PALMOPLANTAR PUSTULOSIS; HYPEROSTOSIS; and OSTEITIS. The most common site of the disease is the upper anterior chest wall, characterized by predominantly osteosclerotic lesions, hyperostosis, and arthritis of the adjacent joints. The association of sterile inflammatory bone lesions and neutrophilic skin eruptions is indicative of this syndrome.",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020083",
+        "standardized_id": "MESH:D020083",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Acquired Hyperostosis Syndrome",
+        "standardized_name": "Acquired Hyperostosis Syndrome",
+        "normalized_name": "acquired hyperostosis syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "acquired",
+          "hyperostosis",
+          "syndrome",
+          "acquired hyperostosis syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Syndrome consisting of SYNOVITIS; ACNE CONGLOBATA; PALMOPLANTAR PUSTULOSIS; HYPEROSTOSIS; and OSTEITIS. The most common site of the disease is the upper anterior chest wall, characterized by predominantly osteosclerotic lesions, hyperostosis, and arthritis of the adjacent joints. The association of sterile inflammatory bone lesions and neutrophilic skin eruptions is indicative of this syndrome.",
+        "cleaned_description": "Syndrome consisting of SYNOVITIS; ACNE CONGLOBATA; PALMOPLANTAR PUSTULOSIS; HYPEROSTOSIS; and OSTEITIS. The most common site of the disease is the upper anterior chest wall, characterized by predominantly osteosclerotic lesions, hyperostosis, and arthritis of the adjacent joints. The association of sterile inflammatory bone lesions and neutrophilic skin eruptions is indicative of this syndrome.",
+        "description_summary": "Syndrome consisting of SYNOVITIS; ACNE CONGLOBATA; PALMOPLANTAR PUSTULOSIS; HYPEROSTOSIS; and OSTEITIS.",
+        "key_terms": [
+          "PUSTULOSIS",
+          "hyperostosis",
+          "OSTEITIS",
+          "SYNOVITIS",
+          "arthritis",
+          "HYPEROSTOSIS"
+        ],
+        "word_count": 52
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.350467",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001168",
+      "DiseaseName": "Arthritis",
+      "DiseaseDescription": "Acute or chronic inflammation of JOINTS.",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001168",
+        "standardized_id": "MESH:D001168",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Arthritis",
+        "standardized_name": "Arthritis",
+        "normalized_name": "arthritis",
+        "synonyms": [],
+        "search_terms": [
+          "arthritis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Acute or chronic inflammation of JOINTS.",
+        "cleaned_description": "Acute or chronic inflammation of JOINTS.",
+        "description_summary": "Acute or chronic inflammation of JOINTS.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.374420",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001169",
+      "DiseaseName": "Arthritis, Experimental",
+      "DiseaseDescription": "ARTHRITIS that is induced in experimental animals. Immunological methods and infectious agents can be used to develop experimental arthritis models. These methods include injections of stimulators of the immune response, such as an adjuvant (ADJUVANTS, IMMUNOLOGIC) or COLLAGEN.",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001169",
+        "standardized_id": "MESH:D001169",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Arthritis, Experimental",
+        "standardized_name": "Arthritis, Experimental",
+        "normalized_name": "arthritis experimental",
+        "synonyms": [],
+        "search_terms": [
+          "experimental",
+          "arthritis, experimental",
+          "arthritis,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "ARTHRITIS that is induced in experimental animals. Immunological methods and infectious agents can be used to develop experimental arthritis models. These methods include injections of stimulators of the immune response, such as an adjuvant (ADJUVANTS, IMMUNOLOGIC) or COLLAGEN.",
+        "cleaned_description": "ARTHRITIS that is induced in experimental animals. Immunological methods and infectious agents can be used to develop experimental arthritis models. These methods include injections of stimulators of the immune response, such as an adjuvant (ADJUVANTS, IMMUNOLOGIC) or COLLAGEN.",
+        "description_summary": "ARTHRITIS that is induced in experimental animals.",
+        "key_terms": [
+          "ARTHRITIS",
+          "arthritis"
+        ],
+        "word_count": 38
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.374553",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001170",
+      "DiseaseName": "Arthritis, Infectious",
+      "DiseaseDescription": "Arthritis caused by BACTERIA; RICKETTSIA; MYCOPLASMA; VIRUSES; FUNGI; or PARASITES.",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "Type II diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001170",
+        "standardized_id": "MESH:D001170",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Arthritis, Infectious",
+        "standardized_name": "Arthritis, Infectious",
+        "normalized_name": "arthritis infectious",
+        "synonyms": [],
+        "search_terms": [
+          "arthritis, infectious",
+          "infectious",
+          "arthritis,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Arthritis caused by BACTERIA; RICKETTSIA; MYCOPLASMA; VIRUSES; FUNGI; or PARASITES.",
+        "cleaned_description": "Arthritis caused by BACTERIA; RICKETTSIA; MYCOPLASMA; VIRUSES; FUNGI; or PARASITES.",
+        "description_summary": "Arthritis caused by BACTERIA; RICKETTSIA; MYCOPLASMA; VIRUSES; FUNGI; or PARASITES.",
+        "key_terms": [
+          "Arthritis"
+        ],
+        "word_count": 10
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type II diabetes mellitus",
+        "pathway_list": [
+          "Type II diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.374831",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001847",
+      "DiseaseName": "Bone Diseases",
+      "DiseaseDescription": "Diseases of BONES.",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001847",
+        "standardized_id": "MESH:D001847",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Bone Diseases",
+        "standardized_name": "Bone Diseases",
+        "normalized_name": "bone diseases",
+        "synonyms": [],
+        "search_terms": [
+          "bone diseases",
+          "bone",
+          "diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases of BONES.",
+        "cleaned_description": "Diseases of BONES.",
+        "description_summary": "Diseases of BONES.",
+        "key_terms": [],
+        "word_count": 3
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.398493",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": [
+            "Very short or missing description"
+          ]
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001848",
+      "DiseaseName": "Bone Diseases, Developmental",
+      "DiseaseDescription": "Diseases resulting in abnormal GROWTH or abnormal MORPHOGENESIS of BONES.",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001848",
+        "standardized_id": "MESH:D001848",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Bone Diseases, Developmental",
+        "standardized_name": "Bone Diseases, Developmental",
+        "normalized_name": "bone diseases developmental",
+        "synonyms": [],
+        "search_terms": [
+          "bone",
+          "diseases,",
+          "bone diseases, developmental",
+          "developmental"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases resulting in abnormal GROWTH or abnormal MORPHOGENESIS of BONES.",
+        "cleaned_description": "Diseases resulting in abnormal GROWTH or abnormal MORPHOGENESIS of BONES.",
+        "description_summary": "Diseases resulting in abnormal GROWTH or abnormal MORPHOGENESIS of BONES.",
+        "key_terms": [],
+        "word_count": 10
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.398664",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001862",
+      "DiseaseName": "Bone Resorption",
+      "DiseaseDescription": "Bone loss due to osteoclastic activity.",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001862",
+        "standardized_id": "MESH:D001862",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Bone Resorption",
+        "standardized_name": "Bone Resorption",
+        "normalized_name": "bone resorption",
+        "synonyms": [],
+        "search_terms": [
+          "bone",
+          "resorption",
+          "bone resorption"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Bone loss due to osteoclastic activity.",
+        "cleaned_description": "Bone loss due to osteoclastic activity.",
+        "description_summary": "Bone loss due to osteoclastic activity.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.399684",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002805",
+      "DiseaseName": "Chondrocalcinosis",
+      "DiseaseDescription": "Presence of CALCIUM PYROPHOSPHATE in the connective tissues such as the cartilaginous structures of  joints. When accompanied by GOUT-like symptoms, it is referred to as pseudogout.",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002805",
+        "standardized_id": "MESH:D002805",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Chondrocalcinosis",
+        "standardized_name": "Chondrocalcinosis",
+        "normalized_name": "chondrocalcinosis",
+        "synonyms": [],
+        "search_terms": [
+          "chondrocalcinosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Presence of CALCIUM PYROPHOSPHATE in the connective tissues such as the cartilaginous structures of  joints. When accompanied by GOUT-like symptoms, it is referred to as pseudogout.",
+        "cleaned_description": "Presence of CALCIUM PYROPHOSPHATE in the connective tissues such as the cartilaginous structures of  joints. When accompanied by GOUT-like symptoms, it is referred to as pseudogout.",
+        "description_summary": "Presence of CALCIUM PYROPHOSPHATE in the connective tissues such as the cartilaginous structures of  joints.",
+        "key_terms": [],
+        "word_count": 26
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.443157",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002806",
+      "DiseaseName": "Chondrodysplasia Punctata",
+      "DiseaseDescription": "A heterogeneous group of bone dysplasias, the common character of which is stippling of the epiphyses in infancy. The group includes a severe autosomal recessive form (CHONDRODYSPLASIA PUNCTATA, RHIZOMELIC), an autosomal dominant form (Conradi-Hunermann syndrome), and a milder X-linked form. Metabolic defects associated with impaired peroxisomes are present only in the rhizomelic form.",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "Steroid biosynthesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002806",
+        "standardized_id": "MESH:D002806",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Chondrodysplasia Punctata",
+        "standardized_name": "Chondrodysplasia Punctata",
+        "normalized_name": "chondrodysplasia punctata",
+        "synonyms": [],
+        "search_terms": [
+          "chondrodysplasia",
+          "punctata",
+          "chondrodysplasia punctata"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A heterogeneous group of bone dysplasias, the common character of which is stippling of the epiphyses in infancy. The group includes a severe autosomal recessive form (CHONDRODYSPLASIA PUNCTATA, RHIZOMELIC), an autosomal dominant form (Conradi-Hunermann syndrome), and a milder X-linked form. Metabolic defects associated with impaired peroxisomes are present only in the rhizomelic form.",
+        "cleaned_description": "A heterogeneous group of bone dysplasias, the common character of which is stippling of the epiphyses in infancy. The group includes a severe autosomal recessive form (CHONDRODYSPLASIA PUNCTATA, RHIZOMELIC), an autosomal dominant form (Conradi-Hunermann syndrome), and a milder X-linked form. Metabolic defects associated with impaired peroxisomes are present only in the rhizomelic form.",
+        "description_summary": "A heterogeneous group of bone dysplasias, the common character of which is stippling of the epiphyses in infancy.",
+        "key_terms": [],
+        "word_count": 53
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Steroid biosynthesis",
+        "pathway_list": [
+          "Steroid biosynthesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.443333",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003286",
+      "DiseaseName": "Contracture",
+      "DiseaseDescription": "Prolonged shortening of the muscle or other soft tissue around a joint, preventing movement of the joint.",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "Uptake and function of anthrax toxins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003286",
+        "standardized_id": "MESH:D003286",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Contracture",
+        "standardized_name": "Contracture",
+        "normalized_name": "contracture",
+        "synonyms": [],
+        "search_terms": [
+          "contracture"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Prolonged shortening of the muscle or other soft tissue around a joint, preventing movement of the joint.",
+        "cleaned_description": "Prolonged shortening of the muscle or other soft tissue around a joint, preventing movement of the joint.",
+        "description_summary": "Prolonged shortening of the muscle or other soft tissue around a joint, preventing movement of the joint.",
+        "key_terms": [],
+        "word_count": 17
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Uptake and function of anthrax toxins",
+        "pathway_list": [
+          "Uptake and function of anthrax toxins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.457755",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004413",
+      "DiseaseName": "Dysostoses",
+      "DiseaseDescription": "Defective bone formation involving individual bones, singly or in combination.",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004413",
+        "standardized_id": "MESH:D004413",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Dysostoses",
+        "standardized_name": "Dysostoses",
+        "normalized_name": "dysostoses",
+        "synonyms": [],
+        "search_terms": [
+          "dysostoses"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Defective bone formation involving individual bones, singly or in combination.",
+        "cleaned_description": "Defective bone formation involving individual bones, singly or in combination.",
+        "description_summary": "Defective bone formation involving individual bones, singly or in combination.",
+        "key_terms": [],
+        "word_count": 10
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.489241",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005357",
+      "DiseaseName": "Fibrous Dysplasia of Bone",
+      "DiseaseDescription": "A disease of bone marked by thinning of the cortex by fibrous tissue containing bony spicules, producing pain, disability, and gradually increasing deformity. Only one bone may be involved (FIBROUS DYSPLASIA, MONOSTOTIC) or several (FIBROUS DYSPLASIA, POLYOSTOTIC).",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "Ubiquitin mediated proteolysis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005357",
+        "standardized_id": "MESH:D005357",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Fibrous Dysplasia of Bone",
+        "standardized_name": "Fibrous Dysplasia of Bone",
+        "normalized_name": "fibrous dysplasia of bone",
+        "synonyms": [],
+        "search_terms": [
+          "bone",
+          "fibrous dysplasia of bone",
+          "dysplasia",
+          "fibrous"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A disease of bone marked by thinning of the cortex by fibrous tissue containing bony spicules, producing pain, disability, and gradually increasing deformity. Only one bone may be involved (FIBROUS DYSPLASIA, MONOSTOTIC) or several (FIBROUS DYSPLASIA, POLYOSTOTIC).",
+        "cleaned_description": "A disease of bone marked by thinning of the cortex by fibrous tissue containing bony spicules, producing pain, disability, and gradually increasing deformity. Only one bone may be involved (FIBROUS DYSPLASIA, MONOSTOTIC) or several (FIBROUS DYSPLASIA, POLYOSTOTIC).",
+        "description_summary": "A disease of bone marked by thinning of the cortex by fibrous tissue containing bony spicules, producing pain, disability, and gradually increasing deformity.",
+        "key_terms": [],
+        "word_count": 37
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Ubiquitin mediated proteolysis",
+        "pathway_list": [
+          "Ubiquitin mediated proteolysis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.528083",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D015576",
+      "DiseaseName": "Hyperostosis",
+      "DiseaseDescription": "Increase in the mass of bone per unit volume.",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D015576",
+        "standardized_id": "MESH:D015576",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperostosis",
+        "standardized_name": "Hyperostosis",
+        "normalized_name": "hyperostosis",
+        "synonyms": [],
+        "search_terms": [
+          "hyperostosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Increase in the mass of bone per unit volume.",
+        "cleaned_description": "Increase in the mass of bone per unit volume.",
+        "description_summary": "Increase in the mass of bone per unit volume.",
+        "key_terms": [],
+        "word_count": 9
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.737348",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D055959",
+      "DiseaseName": "Intervertebral Disc Degeneration",
+      "DiseaseDescription": "Degenerative changes in the INTERVERTEBRAL DISC due to aging or structural damage, especially to the vertebral end-plates.",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D055959",
+        "standardized_id": "MESH:D055959",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Intervertebral Disc Degeneration",
+        "standardized_name": "Intervertebral Disc Degeneration",
+        "normalized_name": "intervertebral disc degeneration",
+        "synonyms": [],
+        "search_terms": [
+          "degeneration",
+          "intervertebral disc degeneration",
+          "disc",
+          "intervertebral"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Degenerative changes in the INTERVERTEBRAL DISC due to aging or structural damage, especially to the vertebral end-plates.",
+        "cleaned_description": "Degenerative changes in the INTERVERTEBRAL DISC due to aging or structural damage, especially to the vertebral end-plates.",
+        "description_summary": "Degenerative changes in the INTERVERTEBRAL DISC due to aging or structural damage, especially to the vertebral end-plates.",
+        "key_terms": [],
+        "word_count": 17
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.789483",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007592",
+      "DiseaseName": "Joint Diseases",
+      "DiseaseDescription": "Diseases involving the JOINTS.",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "Response of Mtb to phagocytosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007592",
+        "standardized_id": "MESH:D007592",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Joint Diseases",
+        "standardized_name": "Joint Diseases",
+        "normalized_name": "joint diseases",
+        "synonyms": [],
+        "search_terms": [
+          "joint",
+          "diseases",
+          "joint diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases involving the JOINTS.",
+        "cleaned_description": "Diseases involving the JOINTS.",
+        "description_summary": "Diseases involving the JOINTS.",
+        "key_terms": [],
+        "word_count": 4
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Response of Mtb to phagocytosis",
+        "pathway_list": [
+          "Response of Mtb to phagocytosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.796485",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": [
+            "Very short or missing description"
+          ]
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007738",
+      "DiseaseName": "Kyphosis",
+      "DiseaseDescription": "Deformities of the SPINE characterized by an exaggerated convexity of the vertebral column. The forward bending of the thoracic region usually is more than 40 degrees. This deformity sometimes is called round back or hunchback.",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "Transport of inorganic cations/anions and amino acids/oligopeptides",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007738",
+        "standardized_id": "MESH:D007738",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Kyphosis",
+        "standardized_name": "Kyphosis",
+        "normalized_name": "kyphosis",
+        "synonyms": [],
+        "search_terms": [
+          "kyphosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Deformities of the SPINE characterized by an exaggerated convexity of the vertebral column. The forward bending of the thoracic region usually is more than 40 degrees. This deformity sometimes is called round back or hunchback.",
+        "cleaned_description": "Deformities of the SPINE characterized by an exaggerated convexity of the vertebral column. The forward bending of the thoracic region usually is more than 40 degrees. This deformity sometimes is called round back or hunchback.",
+        "description_summary": "Deformities of the SPINE characterized by an exaggerated convexity of the vertebral column.",
+        "key_terms": [],
+        "word_count": 35
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of inorganic cations/anions and amino acids/oligopeptides",
+        "pathway_list": [
+          "Transport of inorganic cations/anions and amino acids/oligopeptides"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.800109",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009212",
+      "DiseaseName": "Myoglobinuria",
+      "DiseaseDescription": "The presence of MYOGLOBIN in URINE usually as a result of rhabdomyolysis.",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "The citric acid (TCA) cycle and respiratory electron transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009212",
+        "standardized_id": "MESH:D009212",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Myoglobinuria",
+        "standardized_name": "Myoglobinuria",
+        "normalized_name": "myoglobinuria",
+        "synonyms": [],
+        "search_terms": [
+          "myoglobinuria"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The presence of MYOGLOBIN in URINE usually as a result of rhabdomyolysis.",
+        "cleaned_description": "The presence of MYOGLOBIN in URINE usually as a result of rhabdomyolysis.",
+        "description_summary": "The presence of MYOGLOBIN in URINE usually as a result of rhabdomyolysis.",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "The citric acid (TCA) cycle and respiratory electron transport",
+        "pathway_list": [
+          "The citric acid (TCA) cycle and respiratory electron transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.864159",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010001",
+      "DiseaseName": "Osteitis Deformans",
+      "DiseaseDescription": "A disease marked by repeated episodes of increased bone resorption followed by excessive attempts at repair, resulting in weakened, deformed bones of increased mass. The resultant architecture of the bone assumes a mosaic pattern in which the fibers take on a haphazard pattern instead of the normal parallel symmetry.",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "Vpr-mediated nuclear import of PICs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010001",
+        "standardized_id": "MESH:D010001",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Osteitis Deformans",
+        "standardized_name": "Osteitis Deformans",
+        "normalized_name": "osteitis deformans",
+        "synonyms": [],
+        "search_terms": [
+          "osteitis",
+          "osteitis deformans",
+          "deformans"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A disease marked by repeated episodes of increased bone resorption followed by excessive attempts at repair, resulting in weakened, deformed bones of increased mass. The resultant architecture of the bone assumes a mosaic pattern in which the fibers take on a haphazard pattern instead of the normal parallel symmetry.",
+        "cleaned_description": "A disease marked by repeated episodes of increased bone resorption followed by excessive attempts at repair, resulting in weakened, deformed bones of increased mass. The resultant architecture of the bone assumes a mosaic pattern in which the fibers take on a haphazard pattern instead of the normal parallel symmetry.",
+        "description_summary": "A disease marked by repeated episodes of increased bone resorption followed by excessive attempts at repair, resulting in weakened, deformed bones of increased mass.",
+        "key_terms": [],
+        "word_count": 49
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vpr-mediated nuclear import of PICs",
+        "pathway_list": [
+          "Vpr-mediated nuclear import of PICs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.897447",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010003",
+      "DiseaseName": "Osteoarthritis",
+      "DiseaseDescription": "A progressive, degenerative joint disease, the most common form of arthritis, especially in older persons. The disease is thought to result not from the aging process but from biochemical changes and biomechanical stresses affecting articular cartilage. In the foreign literature it is often called osteoarthrosis deformans.",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010003",
+        "standardized_id": "MESH:D010003",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Osteoarthritis",
+        "standardized_name": "Osteoarthritis",
+        "normalized_name": "osteoarthritis",
+        "synonyms": [],
+        "search_terms": [
+          "osteoarthritis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A progressive, degenerative joint disease, the most common form of arthritis, especially in older persons. The disease is thought to result not from the aging process but from biochemical changes and biomechanical stresses affecting articular cartilage. In the foreign literature it is often called osteoarthrosis deformans.",
+        "cleaned_description": "A progressive, degenerative joint disease, the most common form of arthritis, especially in older persons. The disease is thought to result not from the aging process but from biochemical changes and biomechanical stresses affecting articular cartilage. In the foreign literature it is often called osteoarthrosis deformans.",
+        "description_summary": "A progressive, degenerative joint disease, the most common form of arthritis, especially in older persons.",
+        "key_terms": [
+          "osteoarthrosis",
+          "arthritis"
+        ],
+        "word_count": 46
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.897620",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D015207",
+      "DiseaseName": "Osteoarthritis, Hip",
+      "DiseaseDescription": "Noninflammatory degenerative disease of the hip joint which usually appears in late middle or old age. It is characterized by growth or maturational disturbances in the femoral neck and head, as well as acetabular dysplasia. A dominant symptom is pain on weight-bearing or motion.",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D015207",
+        "standardized_id": "MESH:D015207",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Osteoarthritis, Hip",
+        "standardized_name": "Osteoarthritis, Hip",
+        "normalized_name": "osteoarthritis hip",
+        "synonyms": [],
+        "search_terms": [
+          "osteoarthritis, hip",
+          "hip",
+          "osteoarthritis,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Noninflammatory degenerative disease of the hip joint which usually appears in late middle or old age. It is characterized by growth or maturational disturbances in the femoral neck and head, as well as acetabular dysplasia. A dominant symptom is pain on weight-bearing or motion.",
+        "cleaned_description": "Noninflammatory degenerative disease of the hip joint which usually appears in late middle or old age. It is characterized by growth or maturational disturbances in the femoral neck and head, as well as acetabular dysplasia. A dominant symptom is pain on weight-bearing or motion.",
+        "description_summary": "Noninflammatory degenerative disease of the hip joint which usually appears in late middle or old age.",
+        "key_terms": [],
+        "word_count": 44
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.897764",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020370",
+      "DiseaseName": "Osteoarthritis, Knee",
+      "DiseaseDescription": "Noninflammatory degenerative disease of the knee joint consisting of three large categories: conditions that block normal synchronous movement, conditions that produce abnormal pathways of motion, and conditions that cause stress concentration resulting in changes to articular cartilage. (Crenshaw, Campbell's Operative Orthopaedics, 8th ed, p2019)",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "Ubiquitin mediated proteolysis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020370",
+        "standardized_id": "MESH:D020370",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Osteoarthritis, Knee",
+        "standardized_name": "Osteoarthritis, Knee",
+        "normalized_name": "osteoarthritis knee",
+        "synonyms": [],
+        "search_terms": [
+          "knee",
+          "osteoarthritis, knee",
+          "osteoarthritis,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Noninflammatory degenerative disease of the knee joint consisting of three large categories: conditions that block normal synchronous movement, conditions that produce abnormal pathways of motion, and conditions that cause stress concentration resulting in changes to articular cartilage. (Crenshaw, Campbell's Operative Orthopaedics, 8th ed, p2019)",
+        "cleaned_description": "Noninflammatory degenerative disease of the knee joint consisting of three large categories: conditions that block normal synchronous movement, conditions that produce abnormal pathways of motion, and conditions that cause stress concentration resulting in changes to articular cartilage. (Crenshaw, Campbell's Operative Orthopaedics, 8th ed, p2019)",
+        "description_summary": "Noninflammatory degenerative disease of the knee joint consisting of three large categories: conditions that block normal synchronous movement, conditions that produce abnormal pathways of motion, and conditions that cause stress concentration resulting in changes to articular cartilage.",
+        "key_terms": [],
+        "word_count": 44
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Ubiquitin mediated proteolysis",
+        "pathway_list": [
+          "Ubiquitin mediated proteolysis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.897915",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D055013",
+      "DiseaseName": "Osteoarthritis, Spine",
+      "DiseaseDescription": "A degenerative joint disease involving the SPINE. It is characterized by progressive deterioration of the spinal articular cartilage (CARTILAGE, ARTICULAR), usually with hardening of the subchondral bone and outgrowth of bone spurs (OSTEOPHYTE).",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D055013",
+        "standardized_id": "MESH:D055013",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Osteoarthritis, Spine",
+        "standardized_name": "Osteoarthritis, Spine",
+        "normalized_name": "osteoarthritis spine",
+        "synonyms": [],
+        "search_terms": [
+          "osteoarthritis, spine",
+          "spine",
+          "osteoarthritis,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A degenerative joint disease involving the SPINE. It is characterized by progressive deterioration of the spinal articular cartilage (CARTILAGE, ARTICULAR), usually with hardening of the subchondral bone and outgrowth of bone spurs (OSTEOPHYTE).",
+        "cleaned_description": "A degenerative joint disease involving the SPINE. It is characterized by progressive deterioration of the spinal articular cartilage (CARTILAGE, ARTICULAR), usually with hardening of the subchondral bone and outgrowth of bone spurs (OSTEOPHYTE).",
+        "description_summary": "A degenerative joint disease involving the SPINE.",
+        "key_terms": [],
+        "word_count": 33
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.898037",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010014",
+      "DiseaseName": "Osteolysis",
+      "DiseaseDescription": "Dissolution of bone that particularly involves the removal or loss of calcium.",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "Uptake and function of anthrax toxins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010014",
+        "standardized_id": "MESH:D010014",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Osteolysis",
+        "standardized_name": "Osteolysis",
+        "normalized_name": "osteolysis",
+        "synonyms": [],
+        "search_terms": [
+          "osteolysis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Dissolution of bone that particularly involves the removal or loss of calcium.",
+        "cleaned_description": "Dissolution of bone that particularly involves the removal or loss of calcium.",
+        "description_summary": "Dissolution of bone that particularly involves the removal or loss of calcium.",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Uptake and function of anthrax toxins",
+        "pathway_list": [
+          "Uptake and function of anthrax toxins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.898191",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010022",
+      "DiseaseName": "Osteopetrosis",
+      "DiseaseDescription": "Excessive formation of dense trabecular bone leading to pathological fractures; OSTEITIS; SPLENOMEGALY with infarct; ANEMIA; and extramedullary hemopoiesis (HEMATOPOIESIS, EXTRAMEDULLARY).",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "Transmembrane transport of small molecules",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010022",
+        "standardized_id": "MESH:D010022",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Osteopetrosis",
+        "standardized_name": "Osteopetrosis",
+        "normalized_name": "osteopetrosis",
+        "synonyms": [],
+        "search_terms": [
+          "osteopetrosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Excessive formation of dense trabecular bone leading to pathological fractures; OSTEITIS; SPLENOMEGALY with infarct; ANEMIA; and extramedullary hemopoiesis (HEMATOPOIESIS, EXTRAMEDULLARY).",
+        "cleaned_description": "Excessive formation of dense trabecular bone leading to pathological fractures; OSTEITIS; SPLENOMEGALY with infarct; ANEMIA; and extramedullary hemopoiesis (HEMATOPOIESIS, EXTRAMEDULLARY).",
+        "description_summary": "Excessive formation of dense trabecular bone leading to pathological fractures; OSTEITIS; SPLENOMEGALY with infarct; ANEMIA; and extramedullary hemopoiesis (HEMATOPOIESIS, EXTRAMEDULLARY).",
+        "key_terms": [
+          "ANEMIA",
+          "OSTEITIS"
+        ],
+        "word_count": 20
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmembrane transport of small molecules",
+        "pathway_list": [
+          "Transmembrane transport of small molecules"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.898426",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010026",
+      "DiseaseName": "Osteosclerosis",
+      "DiseaseDescription": "An abnormal hardening or increased density of bone tissue.",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "Protein folding",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010026",
+        "standardized_id": "MESH:D010026",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Osteosclerosis",
+        "standardized_name": "Osteosclerosis",
+        "normalized_name": "osteosclerosis",
+        "synonyms": [],
+        "search_terms": [
+          "osteosclerosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An abnormal hardening or increased density of bone tissue.",
+        "cleaned_description": "An abnormal hardening or increased density of bone tissue.",
+        "description_summary": "An abnormal hardening or increased density of bone tissue.",
+        "key_terms": [],
+        "word_count": 9
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Protein folding",
+        "pathway_list": [
+          "Protein folding"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.899156",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012206",
+      "DiseaseName": "Rhabdomyolysis",
+      "DiseaseDescription": "Necrosis or disintegration of skeletal muscle often followed by myoglobinuria.",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012206",
+        "standardized_id": "MESH:D012206",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Rhabdomyolysis",
+        "standardized_name": "Rhabdomyolysis",
+        "normalized_name": "rhabdomyolysis",
+        "synonyms": [],
+        "search_terms": [
+          "rhabdomyolysis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Necrosis or disintegration of skeletal muscle often followed by myoglobinuria.",
+        "cleaned_description": "Necrosis or disintegration of skeletal muscle often followed by myoglobinuria.",
+        "description_summary": "Necrosis or disintegration of skeletal muscle often followed by myoglobinuria.",
+        "key_terms": [
+          "Necrosis"
+        ],
+        "word_count": 10
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.956220",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D058566",
+      "DiseaseName": "Sacroiliitis",
+      "DiseaseDescription": "Inflammation of the SACROILIAC JOINT. It is characterized by lower back pain, especially upon walking, fever, UVEITIS; PSORIASIS; and decreased range of motion. Many factors are associated with and cause sacroiliitis including infection; injury to spine, lower back, and pelvis; DEGENERATIVE ARTHRITIS; and pregnancy.",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D058566",
+        "standardized_id": "MESH:D058566",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Sacroiliitis",
+        "standardized_name": "Sacroiliitis",
+        "normalized_name": "sacroiliitis",
+        "synonyms": [],
+        "search_terms": [
+          "sacroiliitis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inflammation of the SACROILIAC JOINT. It is characterized by lower back pain, especially upon walking, fever, UVEITIS; PSORIASIS; and decreased range of motion. Many factors are associated with and cause sacroiliitis including infection; injury to spine, lower back, and pelvis; DEGENERATIVE ARTHRITIS; and pregnancy.",
+        "cleaned_description": "Inflammation of the SACROILIAC JOINT. It is characterized by lower back pain, especially upon walking, fever, UVEITIS; PSORIASIS; and decreased range of motion. Many factors are associated with and cause sacroiliitis including infection; injury to spine, lower back, and pelvis; DEGENERATIVE ARTHRITIS; and pregnancy.",
+        "description_summary": "Inflammation of the SACROILIAC JOINT.",
+        "key_terms": [
+          "ARTHRITIS",
+          "UVEITIS",
+          "sacroiliitis"
+        ],
+        "word_count": 44
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.958375",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012600",
+      "DiseaseName": "Scoliosis",
+      "DiseaseDescription": "An appreciable lateral deviation in the normally straight vertical line of the spine. (Dorland, 27th ed)",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "Thyroid hormone signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012600",
+        "standardized_id": "MESH:D012600",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Scoliosis",
+        "standardized_name": "Scoliosis",
+        "normalized_name": "scoliosis",
+        "synonyms": [],
+        "search_terms": [
+          "scoliosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An appreciable lateral deviation in the normally straight vertical line of the spine. (Dorland, 27th ed)",
+        "cleaned_description": "An appreciable lateral deviation in the normally straight vertical line of the spine. (Dorland, 27th ed)",
+        "description_summary": "An appreciable lateral deviation in the normally straight vertical line of the spine.",
+        "key_terms": [],
+        "word_count": 16
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Thyroid hormone signaling pathway",
+        "pathway_list": [
+          "Thyroid hormone signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Thyroid hormone signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.961504",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013121",
+      "DiseaseName": "Spinal Curvatures",
+      "DiseaseDescription": "Deformities of the SPINE characterized by abnormal bending or flexure in the vertebral column. They may be bending forward (KYPHOSIS), backward (LORDOSIS), or sideway (SCOLIOSIS).",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013121",
+        "standardized_id": "MESH:D013121",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Spinal Curvatures",
+        "standardized_name": "Spinal Curvatures",
+        "normalized_name": "spinal curvatures",
+        "synonyms": [],
+        "search_terms": [
+          "curvatures",
+          "spinal curvatures",
+          "spinal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Deformities of the SPINE characterized by abnormal bending or flexure in the vertebral column. They may be bending forward (KYPHOSIS), backward (LORDOSIS), or sideway (SCOLIOSIS).",
+        "cleaned_description": "Deformities of the SPINE characterized by abnormal bending or flexure in the vertebral column. They may be bending forward (KYPHOSIS), backward (LORDOSIS), or sideway (SCOLIOSIS).",
+        "description_summary": "Deformities of the SPINE characterized by abnormal bending or flexure in the vertebral column.",
+        "key_terms": [
+          "LORDOSIS",
+          "SCOLIOSIS",
+          "KYPHOSIS"
+        ],
+        "word_count": 25
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.975109",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013167",
+      "DiseaseName": "Spondylitis, Ankylosing",
+      "DiseaseDescription": "A chronic inflammatory condition affecting the axial joints, such as the SACROILIAC JOINT and other intervertebral or costovertebral joints. It occurs predominantly in young males and is characterized by pain and stiffness of joints (ANKYLOSIS) with inflammation at tendon insertions.",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013167",
+        "standardized_id": "MESH:D013167",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Spondylitis, Ankylosing",
+        "standardized_name": "Spondylitis, Ankylosing",
+        "normalized_name": "spondylitis ankylosing",
+        "synonyms": [],
+        "search_terms": [
+          "ankylosing",
+          "spondylitis,",
+          "spondylitis, ankylosing"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A chronic inflammatory condition affecting the axial joints, such as the SACROILIAC JOINT and other intervertebral or costovertebral joints. It occurs predominantly in young males and is characterized by pain and stiffness of joints (ANKYLOSIS) with inflammation at tendon insertions.",
+        "cleaned_description": "A chronic inflammatory condition affecting the axial joints, such as the SACROILIAC JOINT and other intervertebral or costovertebral joints. It occurs predominantly in young males and is characterized by pain and stiffness of joints (ANKYLOSIS) with inflammation at tendon insertions.",
+        "description_summary": "A chronic inflammatory condition affecting the axial joints, such as the SACROILIAC JOINT and other intervertebral or costovertebral joints.",
+        "key_terms": [
+          "ANKYLOSIS"
+        ],
+        "word_count": 40
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.976953",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013585",
+      "DiseaseName": "Synovitis",
+      "DiseaseDescription": "Inflammation of the SYNOVIAL MEMBRANE.",
+      "SlimMapping": "['Musculoskeletal disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013585",
+        "standardized_id": "MESH:D013585",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Synovitis",
+        "standardized_name": "Synovitis",
+        "normalized_name": "synovitis",
+        "synonyms": [],
+        "search_terms": [
+          "synovitis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inflammation of the SYNOVIAL MEMBRANE.",
+        "cleaned_description": "Inflammation of the SYNOVIAL MEMBRANE.",
+        "description_summary": "Inflammation of the SYNOVIAL MEMBRANE.",
+        "key_terms": [],
+        "word_count": 5
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.983079",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,499 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cardiovascular disease', 'Signs and symptoms']",
+    "export_timestamp": "2026-03-28T22:11:35.533755",
+    "total_records": 7
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000787",
+      "DiseaseName": "Angina Pectoris",
+      "DiseaseDescription": "The symptom of paroxysmal pain consequent to MYOCARDIAL ISCHEMIA usually of distinctive character, location and radiation. It is thought to be provoked by a transient stressful situation during which the oxygen requirements of the MYOCARDIUM exceed that supplied by the CORONARY CIRCULATION.",
+      "SlimMapping": "['Cardiovascular disease', 'Signs and symptoms']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000787",
+        "standardized_id": "MESH:D000787",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Angina Pectoris",
+        "standardized_name": "Angina Pectoris",
+        "normalized_name": "angina pectoris",
+        "synonyms": [],
+        "search_terms": [
+          "pectoris",
+          "angina",
+          "angina pectoris"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The symptom of paroxysmal pain consequent to MYOCARDIAL ISCHEMIA usually of distinctive character, location and radiation. It is thought to be provoked by a transient stressful situation during which the oxygen requirements of the MYOCARDIUM exceed that supplied by the CORONARY CIRCULATION.",
+        "cleaned_description": "The symptom of paroxysmal pain consequent to MYOCARDIAL ISCHEMIA usually of distinctive character, location and radiation. It is thought to be provoked by a transient stressful situation during which the oxygen requirements of the MYOCARDIUM exceed that supplied by the CORONARY CIRCULATION.",
+        "description_summary": "The symptom of paroxysmal pain consequent to MYOCARDIAL ISCHEMIA usually of distinctive character, location and radiation.",
+        "key_terms": [
+          "ISCHEMIA"
+        ],
+        "word_count": 42
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.365087",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D060050",
+      "DiseaseName": "Angina, Stable",
+      "DiseaseDescription": "Persistent and reproducible chest discomfort usually precipitated by a physical exertion that dissipates upon cessation of such an activity. The symptoms are manifestations of MYOCARDIAL ISCHEMIA.",
+      "SlimMapping": "['Cardiovascular disease', 'Signs and symptoms']",
+      "PathwayNames": "Type II diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D060050",
+        "standardized_id": "MESH:D060050",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Angina, Stable",
+        "standardized_name": "Angina, Stable",
+        "normalized_name": "angina stable",
+        "synonyms": [],
+        "search_terms": [
+          "angina, stable",
+          "stable",
+          "angina,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Persistent and reproducible chest discomfort usually precipitated by a physical exertion that dissipates upon cessation of such an activity. The symptoms are manifestations of MYOCARDIAL ISCHEMIA.",
+        "cleaned_description": "Persistent and reproducible chest discomfort usually precipitated by a physical exertion that dissipates upon cessation of such an activity. The symptoms are manifestations of MYOCARDIAL ISCHEMIA.",
+        "description_summary": "Persistent and reproducible chest discomfort usually precipitated by a physical exertion that dissipates upon cessation of such an activity.",
+        "key_terms": [
+          "ISCHEMIA"
+        ],
+        "word_count": 26
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type II diabetes mellitus",
+        "pathway_list": [
+          "Type II diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.365206",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000789",
+      "DiseaseName": "Angina, Unstable",
+      "DiseaseDescription": "Precordial pain at rest, which may precede a MYOCARDIAL INFARCTION.",
+      "SlimMapping": "['Cardiovascular disease', 'Signs and symptoms']",
+      "PathwayNames": "Unfolded Protein Response (UPR)",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000789",
+        "standardized_id": "MESH:D000789",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Angina, Unstable",
+        "standardized_name": "Angina, Unstable",
+        "normalized_name": "angina unstable",
+        "synonyms": [],
+        "search_terms": [
+          "unstable",
+          "angina, unstable",
+          "angina,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Precordial pain at rest, which may precede a MYOCARDIAL INFARCTION.",
+        "cleaned_description": "Precordial pain at rest, which may precede a MYOCARDIAL INFARCTION.",
+        "description_summary": "Precordial pain at rest, which may precede a MYOCARDIAL INFARCTION.",
+        "key_terms": [],
+        "word_count": 10
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Unfolded Protein Response (UPR)",
+        "pathway_list": [
+          "Unfolded Protein Response (UPR)"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.365295",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D016534",
+      "DiseaseName": "Cardiac Output, High",
+      "DiseaseDescription": "A state of elevated cardiac output due to conditions of either increased hemodynamic demand or reduced cardiac oxygen output. These conditions may include ANEMIA; ARTERIOVENOUS FISTULA; THYROTOXICOSIS; PREGNANCY; EXERCISE; FEVER; and HYPOXIA. In time, compensatory changes of the heart can lead to pathological form of high cardiac output and eventual HEART FAILURE.",
+      "SlimMapping": "['Cardiovascular disease', 'Signs and symptoms']",
+      "PathwayNames": "cGMP-PKG signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D016534",
+        "standardized_id": "MESH:D016534",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cardiac Output, High",
+        "standardized_name": "Cardiac Output, High",
+        "normalized_name": "cardiac output high",
+        "synonyms": [],
+        "search_terms": [
+          "output,",
+          "cardiac output, high",
+          "cardiac",
+          "high"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A state of elevated cardiac output due to conditions of either increased hemodynamic demand or reduced cardiac oxygen output. These conditions may include ANEMIA; ARTERIOVENOUS FISTULA; THYROTOXICOSIS; PREGNANCY; EXERCISE; FEVER; and HYPOXIA. In time, compensatory changes of the heart can lead to pathological form of high cardiac output and eventual HEART FAILURE.",
+        "cleaned_description": "A state of elevated cardiac output due to conditions of either increased hemodynamic demand or reduced cardiac oxygen output. These conditions may include ANEMIA; ARTERIOVENOUS FISTULA; THYROTOXICOSIS; PREGNANCY; EXERCISE; FEVER; and HYPOXIA. In time, compensatory changes of the heart can lead to pathological form of high cardiac output and eventual HEART FAILURE.",
+        "description_summary": "A state of elevated cardiac output due to conditions of either increased hemodynamic demand or reduced cardiac oxygen output.",
+        "key_terms": [
+          "ANEMIA",
+          "THYROTOXICOSIS"
+        ],
+        "word_count": 52
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "cGMP-PKG signaling pathway",
+        "pathway_list": [
+          "cGMP-PKG signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "cGMP-PKG signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.425881",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002303",
+      "DiseaseName": "Cardiac Output, Low",
+      "DiseaseDescription": "A state of subnormal or depressed cardiac output at rest or during stress. It is a characteristic of CARDIOVASCULAR DISEASES, including congenital, valvular, rheumatic, hypertensive, coronary, and cardiomyopathic. The serious form of low cardiac output is characterized by marked reduction in STROKE VOLUME, and systemic vasoconstriction resulting in cold, pale, and sometimes cyanotic extremities.",
+      "SlimMapping": "['Cardiovascular disease', 'Signs and symptoms']",
+      "PathwayNames": "Protein processing in endoplasmic reticulum",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002303",
+        "standardized_id": "MESH:D002303",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cardiac Output, Low",
+        "standardized_name": "Cardiac Output, Low",
+        "normalized_name": "cardiac output low",
+        "synonyms": [],
+        "search_terms": [
+          "output,",
+          "low",
+          "cardiac",
+          "cardiac output, low"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A state of subnormal or depressed cardiac output at rest or during stress. It is a characteristic of CARDIOVASCULAR DISEASES, including congenital, valvular, rheumatic, hypertensive, coronary, and cardiomyopathic. The serious form of low cardiac output is characterized by marked reduction in STROKE VOLUME, and systemic vasoconstriction resulting in cold, pale, and sometimes cyanotic extremities.",
+        "cleaned_description": "A state of subnormal or depressed cardiac output at rest or during stress. It is a characteristic of CARDIOVASCULAR DISEASES, including congenital, valvular, rheumatic, hypertensive, coronary, and cardiomyopathic. The serious form of low cardiac output is characterized by marked reduction in STROKE VOLUME, and systemic vasoconstriction resulting in cold, pale, and sometimes cyanotic extremities.",
+        "description_summary": "A state of subnormal or depressed cardiac output at rest or during stress.",
+        "key_terms": [],
+        "word_count": 54
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Protein processing in endoplasmic reticulum",
+        "pathway_list": [
+          "Protein processing in endoplasmic reticulum"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.426234",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004489",
+      "DiseaseName": "Edema, Cardiac",
+      "DiseaseDescription": "Abnormal fluid retention by the body due to impaired cardiac function or heart failure. It is usually characterized by increase in venous and capillary pressure, and swollen legs when standing. It is different from the generalized edema caused by renal dysfunction (NEPHROTIC SYNDROME).",
+      "SlimMapping": "['Cardiovascular disease', 'Signs and symptoms']",
+      "PathwayNames": "Vasopressin regulates renal water homeostasis via Aquaporins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004489",
+        "standardized_id": "MESH:D004489",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Edema, Cardiac",
+        "standardized_name": "Edema, Cardiac",
+        "normalized_name": "edema cardiac",
+        "synonyms": [],
+        "search_terms": [
+          "edema,",
+          "cardiac",
+          "edema, cardiac"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormal fluid retention by the body due to impaired cardiac function or heart failure. It is usually characterized by increase in venous and capillary pressure, and swollen legs when standing. It is different from the generalized edema caused by renal dysfunction (NEPHROTIC SYNDROME).",
+        "cleaned_description": "Abnormal fluid retention by the body due to impaired cardiac function or heart failure. It is usually characterized by increase in venous and capillary pressure, and swollen legs when standing. It is different from the generalized edema caused by renal dysfunction (NEPHROTIC SYNDROME).",
+        "description_summary": "Abnormal fluid retention by the body due to impaired cardiac function or heart failure.",
+        "key_terms": [],
+        "word_count": 43
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vasopressin regulates renal water homeostasis via Aquaporins",
+        "pathway_list": [
+          "Vasopressin regulates renal water homeostasis via Aquaporins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.491831",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D017682",
+      "DiseaseName": "Myocardial Stunning",
+      "DiseaseDescription": "Prolonged dysfunction of the myocardium after a brief episode of severe ischemia, with gradual return of contractile activity.",
+      "SlimMapping": "['Cardiovascular disease', 'Signs and symptoms']",
+      "PathwayNames": "Type II diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017682",
+        "standardized_id": "MESH:D017682",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Myocardial Stunning",
+        "standardized_name": "Myocardial Stunning",
+        "normalized_name": "myocardial stunning",
+        "synonyms": [],
+        "search_terms": [
+          "myocardial",
+          "myocardial stunning",
+          "stunning"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Prolonged dysfunction of the myocardium after a brief episode of severe ischemia, with gradual return of contractile activity.",
+        "cleaned_description": "Prolonged dysfunction of the myocardium after a brief episode of severe ischemia, with gradual return of contractile activity.",
+        "description_summary": "Prolonged dysfunction of the myocardium after a brief episode of severe ischemia, with gradual return of contractile activity.",
+        "key_terms": [
+          "ischemia"
+        ],
+        "word_count": 18
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type II diabetes mellitus",
+        "pathway_list": [
+          "Type II diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.863487",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

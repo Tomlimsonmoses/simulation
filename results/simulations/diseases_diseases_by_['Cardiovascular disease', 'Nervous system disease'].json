@@ -1,0 +1,1149 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cardiovascular disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:35.778725",
+    "total_records": 16
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D002545",
+      "DiseaseName": "Brain Ischemia",
+      "DiseaseDescription": "Localized reduction of blood flow to brain tissue due to arterial obstruction or systemic hypoperfusion. This frequently occurs in conjunction with brain hypoxia (HYPOXIA, BRAIN). Prolonged ischemia is associated with BRAIN INFARCTION.",
+      "SlimMapping": "['Cardiovascular disease', 'Nervous system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002545",
+        "standardized_id": "MESH:D002545",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Brain Ischemia",
+        "standardized_name": "Brain Ischemia",
+        "normalized_name": "brain ischemia",
+        "synonyms": [],
+        "search_terms": [
+          "brain ischemia",
+          "brain",
+          "ischemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Localized reduction of blood flow to brain tissue due to arterial obstruction or systemic hypoperfusion. This frequently occurs in conjunction with brain hypoxia (HYPOXIA, BRAIN). Prolonged ischemia is associated with BRAIN INFARCTION.",
+        "cleaned_description": "Localized reduction of blood flow to brain tissue due to arterial obstruction or systemic hypoperfusion. This frequently occurs in conjunction with brain hypoxia (HYPOXIA, BRAIN). Prolonged ischemia is associated with BRAIN INFARCTION.",
+        "description_summary": "Localized reduction of blood flow to brain tissue due to arterial obstruction or systemic hypoperfusion.",
+        "key_terms": [
+          "ischemia"
+        ],
+        "word_count": 32
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.406961",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002340",
+      "DiseaseName": "Carotid Artery Diseases",
+      "DiseaseDescription": "Pathological conditions involving the CAROTID ARTERIES, including the common, internal, and external carotid arteries. ATHEROSCLEROSIS and TRAUMA are relatively frequent causes of carotid artery pathology.",
+      "SlimMapping": "['Cardiovascular disease', 'Nervous system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002340",
+        "standardized_id": "MESH:D002340",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Carotid Artery Diseases",
+        "standardized_name": "Carotid Artery Diseases",
+        "normalized_name": "carotid artery diseases",
+        "synonyms": [],
+        "search_terms": [
+          "artery",
+          "diseases",
+          "carotid artery diseases",
+          "carotid"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological conditions involving the CAROTID ARTERIES, including the common, internal, and external carotid arteries. ATHEROSCLEROSIS and TRAUMA are relatively frequent causes of carotid artery pathology.",
+        "cleaned_description": "Pathological conditions involving the CAROTID ARTERIES, including the common, internal, and external carotid arteries. ATHEROSCLEROSIS and TRAUMA are relatively frequent causes of carotid artery pathology.",
+        "description_summary": "Pathological conditions involving the CAROTID ARTERIES, including the common, internal, and external carotid arteries.",
+        "key_terms": [
+          "ATHEROSCLEROSIS"
+        ],
+        "word_count": 25
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.429531",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002341",
+      "DiseaseName": "Carotid Artery Thrombosis",
+      "DiseaseDescription": "Blood clot formation in any part of the CAROTID ARTERIES. This may produce CAROTID STENOSIS or occlusion of the vessel, leading to TRANSIENT ISCHEMIC ATTACK; CEREBRAL INFARCTION; or AMAUROSIS FUGAX.",
+      "SlimMapping": "['Cardiovascular disease', 'Nervous system disease']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002341",
+        "standardized_id": "MESH:D002341",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Carotid Artery Thrombosis",
+        "standardized_name": "Carotid Artery Thrombosis",
+        "normalized_name": "carotid artery thrombosis",
+        "synonyms": [],
+        "search_terms": [
+          "carotid artery thrombosis",
+          "artery",
+          "thrombosis",
+          "carotid"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Blood clot formation in any part of the CAROTID ARTERIES. This may produce CAROTID STENOSIS or occlusion of the vessel, leading to TRANSIENT ISCHEMIC ATTACK; CEREBRAL INFARCTION; or AMAUROSIS FUGAX.",
+        "cleaned_description": "Blood clot formation in any part of the CAROTID ARTERIES. This may produce CAROTID STENOSIS or occlusion of the vessel, leading to TRANSIENT ISCHEMIC ATTACK; CEREBRAL INFARCTION; or AMAUROSIS FUGAX.",
+        "description_summary": "Blood clot formation in any part of the CAROTID ARTERIES.",
+        "key_terms": [
+          "AMAUROSIS",
+          "STENOSIS"
+        ],
+        "word_count": 30
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.429789",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D016893",
+      "DiseaseName": "Carotid Stenosis",
+      "DiseaseDescription": "Narrowing or stricture of any part of the CAROTID ARTERIES, most often due to atherosclerotic plaque formation. Ulcerations may form in atherosclerotic plaques and induce THROMBUS formation. Platelet or cholesterol emboli may arise from stenotic carotid lesions and induce a TRANSIENT ISCHEMIC ATTACK; CEREBROVASCULAR ACCIDENT; or temporary blindness (AMAUROSIS FUGAX). (From Adams et al., Principles of Neurology, 6th ed, pp 822-3)",
+      "SlimMapping": "['Cardiovascular disease', 'Nervous system disease']",
+      "PathwayNames": "Visual phototransduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D016893",
+        "standardized_id": "MESH:D016893",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Carotid Stenosis",
+        "standardized_name": "Carotid Stenosis",
+        "normalized_name": "carotid stenosis",
+        "synonyms": [],
+        "search_terms": [
+          "stenosis",
+          "carotid stenosis",
+          "carotid"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Narrowing or stricture of any part of the CAROTID ARTERIES, most often due to atherosclerotic plaque formation. Ulcerations may form in atherosclerotic plaques and induce THROMBUS formation. Platelet or cholesterol emboli may arise from stenotic carotid lesions and induce a TRANSIENT ISCHEMIC ATTACK; CEREBROVASCULAR ACCIDENT; or temporary blindness (AMAUROSIS FUGAX). (From Adams et al., Principles of Neurology, 6th ed, pp 822-3)",
+        "cleaned_description": "Narrowing or stricture of any part of the CAROTID ARTERIES, most often due to atherosclerotic plaque formation. Ulcerations may form in atherosclerotic plaques and induce THROMBUS formation. Platelet or cholesterol emboli may arise from stenotic carotid lesions and induce a TRANSIENT ISCHEMIC ATTACK; CEREBROVASCULAR ACCIDENT; or temporary blindness (AMAUROSIS FUGAX). (From Adams et al., Principles of Neurology, 6th ed, pp 822-3)",
+        "description_summary": "Narrowing or stricture of any part of the CAROTID ARTERIES, most often due to atherosclerotic plaque formation.",
+        "key_terms": [
+          "AMAUROSIS"
+        ],
+        "word_count": 61
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Visual phototransduction",
+        "pathway_list": [
+          "Visual phototransduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.430164",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002561",
+      "DiseaseName": "Cerebrovascular Disorders",
+      "DiseaseDescription": "A spectrum of pathological conditions of impaired blood flow in the brain. They can involve vessels (ARTERIES or VEINS) in the CEREBRUM, the CEREBELLUM, and the BRAIN STEM. Major categories include INTRACRANIAL ARTERIOVENOUS MALFORMATIONS; BRAIN ISCHEMIA; CEREBRAL HEMORRHAGE; and others.",
+      "SlimMapping": "['Cardiovascular disease', 'Nervous system disease']",
+      "PathwayNames": "Transcriptional misregulation in cancer",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002561",
+        "standardized_id": "MESH:D002561",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cerebrovascular Disorders",
+        "standardized_name": "Cerebrovascular Disorders",
+        "normalized_name": "cerebrovascular disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "cerebrovascular disorders",
+          "cerebrovascular"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A spectrum of pathological conditions of impaired blood flow in the brain. They can involve vessels (ARTERIES or VEINS) in the CEREBRUM, the CEREBELLUM, and the BRAIN STEM. Major categories include INTRACRANIAL ARTERIOVENOUS MALFORMATIONS; BRAIN ISCHEMIA; CEREBRAL HEMORRHAGE; and others.",
+        "cleaned_description": "A spectrum of pathological conditions of impaired blood flow in the brain. They can involve vessels (ARTERIES or VEINS) in the CEREBRUM, the CEREBELLUM, and the BRAIN STEM. Major categories include INTRACRANIAL ARTERIOVENOUS MALFORMATIONS; BRAIN ISCHEMIA; CEREBRAL HEMORRHAGE; and others.",
+        "description_summary": "A spectrum of pathological conditions of impaired blood flow in the brain.",
+        "key_terms": [
+          "ISCHEMIA"
+        ],
+        "word_count": 40
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional misregulation in cancer",
+        "pathway_list": [
+          "Transcriptional misregulation in cancer"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional misregulation in cancer"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.440701",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007024",
+      "DiseaseName": "Hypotension, Orthostatic",
+      "DiseaseDescription": "A significant drop in BLOOD PRESSURE after assuming a standing position. Orthostatic hypotension is a finding, and defined as a 20-mm Hg decrease in systolic pressure or a 10-mm Hg decrease in diastolic pressure 3 minutes after the person has risen from supine to standing. Symptoms generally include DIZZINESS, blurred vision, and SYNCOPE.",
+      "SlimMapping": "['Cardiovascular disease', 'Nervous system disease']",
+      "PathwayNames": "Transmembrane transport of small molecules",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007024",
+        "standardized_id": "MESH:D007024",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypotension, Orthostatic",
+        "standardized_name": "Hypotension, Orthostatic",
+        "normalized_name": "hypotension orthostatic",
+        "synonyms": [],
+        "search_terms": [
+          "orthostatic",
+          "hypotension,",
+          "hypotension, orthostatic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A significant drop in BLOOD PRESSURE after assuming a standing position. Orthostatic hypotension is a finding, and defined as a 20-mm Hg decrease in systolic pressure or a 10-mm Hg decrease in diastolic pressure 3 minutes after the person has risen from supine to standing. Symptoms generally include DIZZINESS, blurred vision, and SYNCOPE.",
+        "cleaned_description": "A significant drop in BLOOD PRESSURE after assuming a standing position. Orthostatic hypotension is a finding, and defined as a 20-mm Hg decrease in systolic pressure or a 10-mm Hg decrease in diastolic pressure 3 minutes after the person has risen from supine to standing. Symptoms generally include DIZZINESS, blurred vision, and SYNCOPE.",
+        "description_summary": "A significant drop in BLOOD PRESSURE after assuming a standing position.",
+        "key_terms": [],
+        "word_count": 53
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmembrane transport of small molecules",
+        "pathway_list": [
+          "Transmembrane transport of small molecules"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.777824",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002532",
+      "DiseaseName": "Intracranial Aneurysm",
+      "DiseaseDescription": "Abnormal outpouching in the wall of intracranial blood vessels. Most common are the saccular (berry) aneurysms located at branch points in CIRCLE OF WILLIS at the base of the brain. Vessel rupture results in SUBARACHNOID HEMORRHAGE or INTRACRANIAL HEMORRHAGES. Giant aneurysms (>2.5 cm in diameter) may compress adjacent structures, including the OCULOMOTOR NERVE. (From Adams et al., Principles of Neurology, 6th ed, p841)",
+      "SlimMapping": "['Cardiovascular disease', 'Nervous system disease']",
+      "PathwayNames": "VEGFA-VEGFR2 Pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002532",
+        "standardized_id": "MESH:D002532",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Intracranial Aneurysm",
+        "standardized_name": "Intracranial Aneurysm",
+        "normalized_name": "intracranial aneurysm",
+        "synonyms": [],
+        "search_terms": [
+          "aneurysm",
+          "intracranial",
+          "intracranial aneurysm"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormal outpouching in the wall of intracranial blood vessels. Most common are the saccular (berry) aneurysms located at branch points in CIRCLE OF WILLIS at the base of the brain. Vessel rupture results in SUBARACHNOID HEMORRHAGE or INTRACRANIAL HEMORRHAGES. Giant aneurysms (>2.5 cm in diameter) may compress adjacent structures, including the OCULOMOTOR NERVE. (From Adams et al., Principles of Neurology, 6th ed, p841)",
+        "cleaned_description": "Abnormal outpouching in the wall of intracranial blood vessels. Most common are the saccular (berry) aneurysms located at branch points in CIRCLE OF WILLIS at the base of the brain. Vessel rupture results in SUBARACHNOID HEMORRHAGE or INTRACRANIAL HEMORRHAGES. Giant aneurysms (>2.5 cm in diameter) may compress adjacent structures, including the OCULOMOTOR NERVE. (From Adams et al., Principles of Neurology, 6th ed, p841)",
+        "description_summary": "Abnormal outpouching in the wall of intracranial blood vessels.",
+        "key_terms": [],
+        "word_count": 63
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFA-VEGFR2 Pathway",
+        "pathway_list": [
+          "VEGFA-VEGFR2 Pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.791131",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002542",
+      "DiseaseName": "Intracranial Embolism and Thrombosis",
+      "DiseaseDescription": "Embolism or thrombosis involving blood vessels which supply intracranial structures. Emboli may originate from extracranial or intracranial sources. Thrombosis may occur in arterial or venous structures.",
+      "SlimMapping": "['Cardiovascular disease', 'Nervous system disease']",
+      "PathwayNames": "Transcriptional misregulation in cancer",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002542",
+        "standardized_id": "MESH:D002542",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Intracranial Embolism and Thrombosis",
+        "standardized_name": "Intracranial Embolism and Thrombosis",
+        "normalized_name": "intracranial embolism and thrombosis",
+        "synonyms": [],
+        "search_terms": [
+          "intracranial embolism and thrombosis",
+          "intracranial",
+          "embolism",
+          "thrombosis",
+          "and"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Embolism or thrombosis involving blood vessels which supply intracranial structures. Emboli may originate from extracranial or intracranial sources. Thrombosis may occur in arterial or venous structures.",
+        "cleaned_description": "Embolism or thrombosis involving blood vessels which supply intracranial structures. Emboli may originate from extracranial or intracranial sources. Thrombosis may occur in arterial or venous structures.",
+        "description_summary": "Embolism or thrombosis involving blood vessels which supply intracranial structures.",
+        "key_terms": [
+          "thrombosis",
+          "Thrombosis"
+        ],
+        "word_count": 26
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional misregulation in cancer",
+        "pathway_list": [
+          "Transcriptional misregulation in cancer"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional misregulation in cancer"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.791733",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020767",
+      "DiseaseName": "Intracranial Thrombosis",
+      "DiseaseDescription": "Formation or presence of a blood clot (THROMBUS) in a blood vessel within the SKULL. Intracranial thrombosis can lead to thrombotic occlusions and BRAIN INFARCTION. The majority of the thrombotic occlusions are associated with ATHEROSCLEROSIS.",
+      "SlimMapping": "['Cardiovascular disease', 'Nervous system disease']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020767",
+        "standardized_id": "MESH:D020767",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Intracranial Thrombosis",
+        "standardized_name": "Intracranial Thrombosis",
+        "normalized_name": "intracranial thrombosis",
+        "synonyms": [],
+        "search_terms": [
+          "intracranial thrombosis",
+          "intracranial",
+          "thrombosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Formation or presence of a blood clot (THROMBUS) in a blood vessel within the SKULL. Intracranial thrombosis can lead to thrombotic occlusions and BRAIN INFARCTION. The majority of the thrombotic occlusions are associated with ATHEROSCLEROSIS.",
+        "cleaned_description": "Formation or presence of a blood clot (THROMBUS) in a blood vessel within the SKULL. Intracranial thrombosis can lead to thrombotic occlusions and BRAIN INFARCTION. The majority of the thrombotic occlusions are associated with ATHEROSCLEROSIS.",
+        "description_summary": "Formation or presence of a blood clot (THROMBUS) in a blood vessel within the SKULL.",
+        "key_terms": [
+          "ATHEROSCLEROSIS",
+          "thrombosis"
+        ],
+        "word_count": 35
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.792819",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002546",
+      "DiseaseName": "Ischemic Attack, Transient",
+      "DiseaseDescription": "Brief reversible episodes of focal, nonconvulsive ischemic dysfunction of the brain having a duration of less than 24 hours, and usually less than one hour, caused by transient thrombotic or embolic blood vessel occlusion or stenosis. Events may be classified by arterial distribution, temporal pattern, or etiology (e.g., embolic vs. thrombotic). (From Adams et al., Principles of Neurology, 6th ed, pp814-6)",
+      "SlimMapping": "['Cardiovascular disease', 'Nervous system disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002546",
+        "standardized_id": "MESH:D002546",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Ischemic Attack, Transient",
+        "standardized_name": "Ischemic Attack, Transient",
+        "normalized_name": "ischemic attack transient",
+        "synonyms": [],
+        "search_terms": [
+          "ischemic",
+          "attack,",
+          "ischemic attack, transient",
+          "transient"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Brief reversible episodes of focal, nonconvulsive ischemic dysfunction of the brain having a duration of less than 24 hours, and usually less than one hour, caused by transient thrombotic or embolic blood vessel occlusion or stenosis. Events may be classified by arterial distribution, temporal pattern, or etiology (e.g., embolic vs. thrombotic). (From Adams et al., Principles of Neurology, 6th ed, pp814-6)",
+        "cleaned_description": "Brief reversible episodes of focal, nonconvulsive ischemic dysfunction of the brain having a duration of less than 24 hours, and usually less than one hour, caused by transient thrombotic or embolic blood vessel occlusion or stenosis. Events may be classified by arterial distribution, temporal pattern, or etiology (e.g., embolic vs. thrombotic). (From Adams et al., Principles of Neurology, 6th ed, pp814-6)",
+        "description_summary": "Brief reversible episodes of focal, nonconvulsive ischemic dysfunction of the brain having a duration of less than 24 hours, and usually less than one hour, caused by transient thrombotic or embolic blood vessel occlusion or stenosis.",
+        "key_terms": [
+          "stenosis"
+        ],
+        "word_count": 61
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.794224",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020225",
+      "DiseaseName": "Sagittal Sinus Thrombosis",
+      "DiseaseDescription": "Formation or presence of a blood clot (THROMBUS) in the SUPERIOR SAGITTAL SINUS or the inferior sagittal sinus. Sagittal sinus thrombosis can result from infections, hematological disorders, CRANIOCEREBRAL TRAUMA; and NEUROSURGICAL PROCEDURES. Clinical features are primarily related to the increased intracranial pressure causing HEADACHE; NAUSEA; and VOMITING. Severe cases can evolve to SEIZURES or COMA.",
+      "SlimMapping": "['Cardiovascular disease', 'Nervous system disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020225",
+        "standardized_id": "MESH:D020225",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Sagittal Sinus Thrombosis",
+        "standardized_name": "Sagittal Sinus Thrombosis",
+        "normalized_name": "sagittal sinus thrombosis",
+        "synonyms": [],
+        "search_terms": [
+          "sagittal sinus thrombosis",
+          "thrombosis",
+          "sinus",
+          "sagittal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Formation or presence of a blood clot (THROMBUS) in the SUPERIOR SAGITTAL SINUS or the inferior sagittal sinus. Sagittal sinus thrombosis can result from infections, hematological disorders, CRANIOCEREBRAL TRAUMA; and NEUROSURGICAL PROCEDURES. Clinical features are primarily related to the increased intracranial pressure causing HEADACHE; NAUSEA; and VOMITING. Severe cases can evolve to SEIZURES or COMA.",
+        "cleaned_description": "Formation or presence of a blood clot (THROMBUS) in the SUPERIOR SAGITTAL SINUS or the inferior sagittal sinus. Sagittal sinus thrombosis can result from infections, hematological disorders, CRANIOCEREBRAL TRAUMA; and NEUROSURGICAL PROCEDURES. Clinical features are primarily related to the increased intracranial pressure causing HEADACHE; NAUSEA; and VOMITING. Severe cases can evolve to SEIZURES or COMA.",
+        "description_summary": "Formation or presence of a blood clot (THROMBUS) in the SUPERIOR SAGITTAL SINUS or the inferior sagittal sinus.",
+        "key_terms": [
+          "thrombosis"
+        ],
+        "word_count": 55
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.958581",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012791",
+      "DiseaseName": "Shy-Drager Syndrome",
+      "DiseaseDescription": "A progressive neurodegenerative condition of the central and autonomic nervous systems characterized by atrophy of the preganglionic lateral horn neurons of the thoracic spinal cord. This disease is generally considered a clinical variant of MULTIPLE SYSTEM ATROPHY. Affected individuals present in the fifth or sixth decade with ORTHOSTASIS and bladder dysfunction; and later develop FECAL INCONTINENCE; anhidrosis; ATAXIA; IMPOTENCE; and alterations of tone suggestive of basal ganglia dysfunction. (From Adams et al., Principles of Neurology, 6th ed, p536)",
+      "SlimMapping": "['Cardiovascular disease', 'Nervous system disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012791",
+        "standardized_id": "MESH:D012791",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Shy-Drager Syndrome",
+        "standardized_name": "Shy-Drager Syndrome",
+        "normalized_name": "shy-drager syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "syndrome",
+          "shy-drager",
+          "shy-drager syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A progressive neurodegenerative condition of the central and autonomic nervous systems characterized by atrophy of the preganglionic lateral horn neurons of the thoracic spinal cord. This disease is generally considered a clinical variant of MULTIPLE SYSTEM ATROPHY. Affected individuals present in the fifth or sixth decade with ORTHOSTASIS and bladder dysfunction; and later develop FECAL INCONTINENCE; anhidrosis; ATAXIA; IMPOTENCE; and alterations of tone suggestive of basal ganglia dysfunction. (From Adams et al., Principles of Neurology, 6th ed, p536)",
+        "cleaned_description": "A progressive neurodegenerative condition of the central and autonomic nervous systems characterized by atrophy of the preganglionic lateral horn neurons of the thoracic spinal cord. This disease is generally considered a clinical variant of MULTIPLE SYSTEM ATROPHY. Affected individuals present in the fifth or sixth decade with ORTHOSTASIS and bladder dysfunction; and later develop FECAL INCONTINENCE; anhidrosis; ATAXIA; IMPOTENCE; and alterations of tone suggestive of basal ganglia dysfunction. (From Adams et al., Principles of Neurology, 6th ed, p536)",
+        "description_summary": "A progressive neurodegenerative condition of the central and autonomic nervous systems characterized by atrophy of the preganglionic lateral horn neurons of the thoracic spinal cord.",
+        "key_terms": [
+          "anhidrosis"
+        ],
+        "word_count": 78
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.964183",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012851",
+      "DiseaseName": "Sinus Thrombosis, Intracranial",
+      "DiseaseDescription": "Formation or presence of a blood clot (THROMBUS) in the CRANIAL SINUSES, large endothelium-lined venous channels situated within the SKULL. Intracranial sinuses, also called cranial venous sinuses, include the superior sagittal, cavernous, lateral, petrous sinuses, and many others. Cranial sinus thrombosis can lead to severe HEADACHE; SEIZURE; and other neurological defects.",
+      "SlimMapping": "['Cardiovascular disease', 'Nervous system disease']",
+      "PathwayNames": "Transport of gamma-carboxylated protein precursors from the endoplasmic reticulum to the Golgi apparatus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012851",
+        "standardized_id": "MESH:D012851",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Sinus Thrombosis, Intracranial",
+        "standardized_name": "Sinus Thrombosis, Intracranial",
+        "normalized_name": "sinus thrombosis intracranial",
+        "synonyms": [],
+        "search_terms": [
+          "intracranial",
+          "sinus",
+          "sinus thrombosis, intracranial",
+          "thrombosis,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Formation or presence of a blood clot (THROMBUS) in the CRANIAL SINUSES, large endothelium-lined venous channels situated within the SKULL. Intracranial sinuses, also called cranial venous sinuses, include the superior sagittal, cavernous, lateral, petrous sinuses, and many others. Cranial sinus thrombosis can lead to severe HEADACHE; SEIZURE; and other neurological defects.",
+        "cleaned_description": "Formation or presence of a blood clot (THROMBUS) in the CRANIAL SINUSES, large endothelium-lined venous channels situated within the SKULL. Intracranial sinuses, also called cranial venous sinuses, include the superior sagittal, cavernous, lateral, petrous sinuses, and many others. Cranial sinus thrombosis can lead to severe HEADACHE; SEIZURE; and other neurological defects.",
+        "description_summary": "Formation or presence of a blood clot (THROMBUS) in the CRANIAL SINUSES, large endothelium-lined venous channels situated within the SKULL.",
+        "key_terms": [
+          "thrombosis"
+        ],
+        "word_count": 51
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of gamma-carboxylated protein precursors from the endoplasmic reticulum to the Golgi apparatus",
+        "pathway_list": [
+          "Transport of gamma-carboxylated protein precursors from the endoplasmic reticulum to the Golgi apparatus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.964943",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020760",
+      "DiseaseName": "Spinal Cord Ischemia",
+      "DiseaseDescription": "Reduced blood flow to the spinal cord which is supplied by the anterior spinal artery and the paired posterior spinal arteries. This condition may be associated with ARTERIOSCLEROSIS, trauma, emboli, diseases of the aorta, and other disorders. Prolonged ischemia may lead to INFARCTION of spinal cord tissue.",
+      "SlimMapping": "['Cardiovascular disease', 'Nervous system disease']",
+      "PathwayNames": "Transcriptional activity of SMAD2/SMAD3:SMAD4 heterotrimer",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020760",
+        "standardized_id": "MESH:D020760",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Spinal Cord Ischemia",
+        "standardized_name": "Spinal Cord Ischemia",
+        "normalized_name": "spinal cord ischemia",
+        "synonyms": [],
+        "search_terms": [
+          "spinal cord ischemia",
+          "ischemia",
+          "cord",
+          "spinal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Reduced blood flow to the spinal cord which is supplied by the anterior spinal artery and the paired posterior spinal arteries. This condition may be associated with ARTERIOSCLEROSIS, trauma, emboli, diseases of the aorta, and other disorders. Prolonged ischemia may lead to INFARCTION of spinal cord tissue.",
+        "cleaned_description": "Reduced blood flow to the spinal cord which is supplied by the anterior spinal artery and the paired posterior spinal arteries. This condition may be associated with ARTERIOSCLEROSIS, trauma, emboli, diseases of the aorta, and other disorders. Prolonged ischemia may lead to INFARCTION of spinal cord tissue.",
+        "description_summary": "Reduced blood flow to the spinal cord which is supplied by the anterior spinal artery and the paired posterior spinal arteries.",
+        "key_terms": [
+          "ARTERIOSCLEROSIS",
+          "ischemia"
+        ],
+        "word_count": 47
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional activity of SMAD2/SMAD3:SMAD4 heterotrimer",
+        "pathway_list": [
+          "Transcriptional activity of SMAD2/SMAD3:SMAD4 heterotrimer"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional activity of SMAD2/SMAD3:SMAD4 heterotrimer"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.974878",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020521",
+      "DiseaseName": "Stroke",
+      "DiseaseDescription": "A group of pathological conditions characterized by sudden, non-convulsive loss of neurological function due to BRAIN ISCHEMIA or INTRACRANIAL HEMORRHAGES. Stroke is classified by the type of tissue NECROSIS, such as the anatomic location, vasculature involved, etiology, age of the affected individual, and hemorrhagic vs. non-hemorrhagic nature. (From Adams et al., Principles of Neurology, 6th ed, pp777-810)",
+      "SlimMapping": "['Cardiovascular disease', 'Nervous system disease']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020521",
+        "standardized_id": "MESH:D020521",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Stroke",
+        "standardized_name": "Stroke",
+        "normalized_name": "stroke",
+        "synonyms": [],
+        "search_terms": [
+          "stroke"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A group of pathological conditions characterized by sudden, non-convulsive loss of neurological function due to BRAIN ISCHEMIA or INTRACRANIAL HEMORRHAGES. Stroke is classified by the type of tissue NECROSIS, such as the anatomic location, vasculature involved, etiology, age of the affected individual, and hemorrhagic vs. non-hemorrhagic nature. (From Adams et al., Principles of Neurology, 6th ed, pp777-810)",
+        "cleaned_description": "A group of pathological conditions characterized by sudden, non-convulsive loss of neurological function due to BRAIN ISCHEMIA or INTRACRANIAL HEMORRHAGES. Stroke is classified by the type of tissue NECROSIS, such as the anatomic location, vasculature involved, etiology, age of the affected individual, and hemorrhagic vs. non-hemorrhagic nature. (From Adams et al., Principles of Neurology, 6th ed, pp777-810)",
+        "description_summary": "A group of pathological conditions characterized by sudden, non-convulsive loss of neurological function due to BRAIN ISCHEMIA or INTRACRANIAL HEMORRHAGES.",
+        "key_terms": [
+          "NECROSIS",
+          "ISCHEMIA"
+        ],
+        "word_count": 57
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.980436",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020301",
+      "DiseaseName": "Vasospasm, Intracranial",
+      "DiseaseDescription": "Constriction of arteries in the SKULL due to sudden, sharp, and often persistent smooth muscle contraction in blood vessels. Intracranial vasospasm results in reduced vessel lumen caliber, restricted blood flow to the brain, and BRAIN ISCHEMIA that may lead to hypoxic-ischemic brain injury (HYPOXIA-ISCHEMIA, BRAIN).",
+      "SlimMapping": "['Cardiovascular disease', 'Nervous system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020301",
+        "standardized_id": "MESH:D020301",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Vasospasm, Intracranial",
+        "standardized_name": "Vasospasm, Intracranial",
+        "normalized_name": "vasospasm intracranial",
+        "synonyms": [],
+        "search_terms": [
+          "intracranial",
+          "vasospasm, intracranial",
+          "vasospasm,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Constriction of arteries in the SKULL due to sudden, sharp, and often persistent smooth muscle contraction in blood vessels. Intracranial vasospasm results in reduced vessel lumen caliber, restricted blood flow to the brain, and BRAIN ISCHEMIA that may lead to hypoxic-ischemic brain injury (HYPOXIA-ISCHEMIA, BRAIN).",
+        "cleaned_description": "Constriction of arteries in the SKULL due to sudden, sharp, and often persistent smooth muscle contraction in blood vessels. Intracranial vasospasm results in reduced vessel lumen caliber, restricted blood flow to the brain, and BRAIN ISCHEMIA that may lead to hypoxic-ischemic brain injury (HYPOXIA-ISCHEMIA, BRAIN).",
+        "description_summary": "Constriction of arteries in the SKULL due to sudden, sharp, and often persistent smooth muscle contraction in blood vessels.",
+        "key_terms": [
+          "ISCHEMIA"
+        ],
+        "word_count": 45
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.020308",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

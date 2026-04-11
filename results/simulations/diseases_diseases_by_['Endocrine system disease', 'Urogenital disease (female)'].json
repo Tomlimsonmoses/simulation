@@ -1,0 +1,282 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Endocrine system disease', 'Urogenital disease (female)']",
+    "export_timestamp": "2026-03-28T22:11:35.556604",
+    "total_records": 4
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000858",
+      "DiseaseName": "Anovulation",
+      "DiseaseDescription": "Suspension or cessation of OVULATION in animals or humans with follicle-containing ovaries (OVARIAN FOLLICLE). Depending on the etiology, OVULATION may be induced with appropriate therapy.",
+      "SlimMapping": "['Endocrine system disease', 'Urogenital disease (female)']",
+      "PathwayNames": "Regulation of gene expression in early pancreatic precursor cells",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000858",
+        "standardized_id": "MESH:D000858",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Anovulation",
+        "standardized_name": "Anovulation",
+        "normalized_name": "anovulation",
+        "synonyms": [],
+        "search_terms": [
+          "anovulation"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Suspension or cessation of OVULATION in animals or humans with follicle-containing ovaries (OVARIAN FOLLICLE). Depending on the etiology, OVULATION may be induced with appropriate therapy.",
+        "cleaned_description": "Suspension or cessation of OVULATION in animals or humans with follicle-containing ovaries (OVARIAN FOLLICLE). Depending on the etiology, OVULATION may be induced with appropriate therapy.",
+        "description_summary": "Suspension or cessation of OVULATION in animals or humans with follicle-containing ovaries (OVARIAN FOLLICLE).",
+        "key_terms": [],
+        "word_count": 25
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "primary_categories": [
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Regulation of gene expression in early pancreatic precursor cells",
+        "pathway_list": [
+          "Regulation of gene expression in early pancreatic precursor cells"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.366581",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010049",
+      "DiseaseName": "Ovarian Diseases",
+      "DiseaseDescription": "Pathological processes of the OVARY.",
+      "SlimMapping": "['Endocrine system disease', 'Urogenital disease (female)']",
+      "PathwayNames": "Transport to the Golgi and subsequent modification",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010049",
+        "standardized_id": "MESH:D010049",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Ovarian Diseases",
+        "standardized_name": "Ovarian Diseases",
+        "normalized_name": "ovarian diseases",
+        "synonyms": [],
+        "search_terms": [
+          "ovarian",
+          "diseases",
+          "ovarian diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological processes of the OVARY.",
+        "cleaned_description": "Pathological processes of the OVARY.",
+        "description_summary": "Pathological processes of the OVARY.",
+        "key_terms": [],
+        "word_count": 5
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "primary_categories": [
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport to the Golgi and subsequent modification",
+        "pathway_list": [
+          "Transport to the Golgi and subsequent modification"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.899334",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D016471",
+      "DiseaseName": "Ovarian Hyperstimulation Syndrome",
+      "DiseaseDescription": "A complication of OVULATION INDUCTION in infertility treatment. It is graded by the severity of symptoms which include OVARY enlargement, multiple OVARIAN FOLLICLES; OVARIAN CYSTS; ASCITES; and generalized EDEMA. The full-blown syndrome may lead to RENAL FAILURE, respiratory distress, and even DEATH. Increased capillary permeability is caused by the vasoactive substances, such as VASCULAR ENDOTHELIAL GROWTH FACTORS, secreted by the overly-stimulated OVARIES.",
+      "SlimMapping": "['Endocrine system disease', 'Urogenital disease (female)']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D016471",
+        "standardized_id": "MESH:D016471",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Ovarian Hyperstimulation Syndrome",
+        "standardized_name": "Ovarian Hyperstimulation Syndrome",
+        "normalized_name": "ovarian hyperstimulation syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "ovarian",
+          "hyperstimulation",
+          "ovarian hyperstimulation syndrome",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A complication of OVULATION INDUCTION in infertility treatment. It is graded by the severity of symptoms which include OVARY enlargement, multiple OVARIAN FOLLICLES; OVARIAN CYSTS; ASCITES; and generalized EDEMA. The full-blown syndrome may lead to RENAL FAILURE, respiratory distress, and even DEATH. Increased capillary permeability is caused by the vasoactive substances, such as VASCULAR ENDOTHELIAL GROWTH FACTORS, secreted by the overly-stimulated OVARIES.",
+        "cleaned_description": "A complication of OVULATION INDUCTION in infertility treatment. It is graded by the severity of symptoms which include OVARY enlargement, multiple OVARIAN FOLLICLES; OVARIAN CYSTS; ASCITES; and generalized EDEMA. The full-blown syndrome may lead to RENAL FAILURE, respiratory distress, and even DEATH. Increased capillary permeability is caused by the vasoactive substances, such as VASCULAR ENDOTHELIAL GROWTH FACTORS, secreted by the overly-stimulated OVARIES.",
+        "description_summary": "A complication of OVULATION INDUCTION in infertility treatment.",
+        "key_terms": [],
+        "word_count": 62
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "primary_categories": [
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.899527",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D016649",
+      "DiseaseName": "Primary Ovarian Insufficiency",
+      "DiseaseDescription": "Cessation of ovarian function after MENARCHE but before the age of 40, without or with OVARIAN FOLLICLE depletion. It is characterized by the presence of OLIGOMENORRHEA or AMENORRHEA, elevated GONADOTROPINS, and low ESTRADIOL levels. It is a state of female HYPERGONADOTROPIC HYPOGONADISM. Etiologies include genetic defects, autoimmune processes, chemotherapy, radiation, and infections. The most commonly known genetic cause is the expansion of a CGG repeat to 55 to 199 copies in the 5' untranslated region in the X-linked FMR1 gene.",
+      "SlimMapping": "['Endocrine system disease', 'Urogenital disease (female)']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D016649",
+        "standardized_id": "MESH:D016649",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Primary Ovarian Insufficiency",
+        "standardized_name": "Primary Ovarian Insufficiency",
+        "normalized_name": "primary ovarian insufficiency",
+        "synonyms": [],
+        "search_terms": [
+          "ovarian",
+          "insufficiency",
+          "primary ovarian insufficiency",
+          "primary"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Cessation of ovarian function after MENARCHE but before the age of 40, without or with OVARIAN FOLLICLE depletion. It is characterized by the presence of OLIGOMENORRHEA or AMENORRHEA, elevated GONADOTROPINS, and low ESTRADIOL levels. It is a state of female HYPERGONADOTROPIC HYPOGONADISM. Etiologies include genetic defects, autoimmune processes, chemotherapy, radiation, and infections. The most commonly known genetic cause is the expansion of a CGG repeat to 55 to 199 copies in the 5' untranslated region in the X-linked FMR1 gene.",
+        "cleaned_description": "Cessation of ovarian function after MENARCHE but before the age of 40, without or with OVARIAN FOLLICLE depletion. It is characterized by the presence of OLIGOMENORRHEA or AMENORRHEA, elevated GONADOTROPINS, and low ESTRADIOL levels. It is a state of female HYPERGONADOTROPIC HYPOGONADISM. Etiologies include genetic defects, autoimmune processes, chemotherapy, radiation, and infections. The most commonly known genetic cause is the expansion of a CGG repeat to 55 to 199 copies in the 5' untranslated region in the X-linked FMR1 gene.",
+        "description_summary": "Cessation of ovarian function after MENARCHE but before the age of 40, without or with OVARIAN FOLLICLE depletion.",
+        "key_terms": [],
+        "word_count": 80
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "primary_categories": [
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.929082",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

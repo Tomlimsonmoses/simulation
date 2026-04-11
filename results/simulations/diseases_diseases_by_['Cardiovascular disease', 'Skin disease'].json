@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cardiovascular disease', 'Skin disease']",
+    "export_timestamp": "2026-03-28T22:11:36.285908",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D011928",
+      "DiseaseName": "Raynaud Disease",
+      "DiseaseDescription": "An idiopathic vascular disorder characterized by bilateral Raynaud phenomenon, the abrupt onset of digital paleness or CYANOSIS in response to cold exposure or stress.",
+      "SlimMapping": "['Cardiovascular disease', 'Skin disease']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011928",
+        "standardized_id": "MESH:D011928",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Raynaud Disease",
+        "standardized_name": "Raynaud Disease",
+        "normalized_name": "raynaud disease",
+        "synonyms": [],
+        "search_terms": [
+          "raynaud disease",
+          "disease",
+          "raynaud"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An idiopathic vascular disorder characterized by bilateral Raynaud phenomenon, the abrupt onset of digital paleness or CYANOSIS in response to cold exposure or stress.",
+        "cleaned_description": "An idiopathic vascular disorder characterized by bilateral Raynaud phenomenon, the abrupt onset of digital paleness or CYANOSIS in response to cold exposure or stress.",
+        "description_summary": "An idiopathic vascular disorder characterized by bilateral Raynaud phenomenon, the abrupt onset of digital paleness or CYANOSIS in response to cold exposure or stress.",
+        "key_terms": [
+          "CYANOSIS"
+        ],
+        "word_count": 24
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Skin disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.944973",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013625",
+      "DiseaseName": "Takayasu Arteritis",
+      "DiseaseDescription": "A chronic inflammatory process that affects the AORTA and its primary branches, such as the brachiocephalic artery (BRACHIOCEPHALIC TRUNK) and CAROTID ARTERIES. It results in progressive arterial stenosis, occlusion, and aneurysm formation. The pulse in the arm is hard to detect. Patients with aortitis syndrome often exhibit retinopathy.",
+      "SlimMapping": "['Cardiovascular disease', 'Skin disease']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013625",
+        "standardized_id": "MESH:D013625",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Takayasu Arteritis",
+        "standardized_name": "Takayasu Arteritis",
+        "normalized_name": "takayasu arteritis",
+        "synonyms": [],
+        "search_terms": [
+          "arteritis",
+          "takayasu",
+          "takayasu arteritis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A chronic inflammatory process that affects the AORTA and its primary branches, such as the brachiocephalic artery (BRACHIOCEPHALIC TRUNK) and CAROTID ARTERIES. It results in progressive arterial stenosis, occlusion, and aneurysm formation. The pulse in the arm is hard to detect. Patients with aortitis syndrome often exhibit retinopathy.",
+        "cleaned_description": "A chronic inflammatory process that affects the AORTA and its primary branches, such as the brachiocephalic artery (BRACHIOCEPHALIC TRUNK) and CAROTID ARTERIES. It results in progressive arterial stenosis, occlusion, and aneurysm formation. The pulse in the arm is hard to detect. Patients with aortitis syndrome often exhibit retinopathy.",
+        "description_summary": "A chronic inflammatory process that affects the AORTA and its primary branches, such as the brachiocephalic artery (BRACHIOCEPHALIC TRUNK) and CAROTID ARTERIES.",
+        "key_terms": [
+          "retinopathy",
+          "aortitis",
+          "stenosis"
+        ],
+        "word_count": 48
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Skin disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.990739",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Endocrine system disease', 'Urogenital disease (male)']",
+    "export_timestamp": "2026-03-28T22:11:36.314378",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D013733",
+      "DiseaseName": "Testicular Diseases",
+      "DiseaseDescription": "Pathological processes of the TESTIS.",
+      "SlimMapping": "['Endocrine system disease', 'Urogenital disease (male)']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013733",
+        "standardized_id": "MESH:D013733",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Testicular Diseases",
+        "standardized_name": "Testicular Diseases",
+        "normalized_name": "testicular diseases",
+        "synonyms": [],
+        "search_terms": [
+          "testicular diseases",
+          "diseases",
+          "testicular"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological processes of the TESTIS.",
+        "cleaned_description": "Pathological processes of the TESTIS.",
+        "description_summary": "Pathological processes of the TESTIS.",
+        "key_terms": [],
+        "word_count": 5
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Endocrine system disease",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.992465",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

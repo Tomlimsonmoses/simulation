@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Bacterial infection or mycosis', 'Pathology (process)']",
+    "export_timestamp": "2026-03-28T22:11:35.688993",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D016470",
+      "DiseaseName": "Bacteremia",
+      "DiseaseDescription": "The presence of viable bacteria circulating in the blood. Fever, chills, tachycardia, and tachypnea are common acute manifestations of bacteremia. The majority of cases are seen in already hospitalized patients, most of whom have underlying diseases or procedures which render their bloodstreams susceptible to invasion.",
+      "SlimMapping": "['Bacterial infection or mycosis', 'Pathology (process)']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D016470",
+        "standardized_id": "MESH:D016470",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Bacteremia",
+        "standardized_name": "Bacteremia",
+        "normalized_name": "bacteremia",
+        "synonyms": [],
+        "search_terms": [
+          "bacteremia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The presence of viable bacteria circulating in the blood. Fever, chills, tachycardia, and tachypnea are common acute manifestations of bacteremia. The majority of cases are seen in already hospitalized patients, most of whom have underlying diseases or procedures which render their bloodstreams susceptible to invasion.",
+        "cleaned_description": "The presence of viable bacteria circulating in the blood. Fever, chills, tachycardia, and tachypnea are common acute manifestations of bacteremia. The majority of cases are seen in already hospitalized patients, most of whom have underlying diseases or procedures which render their bloodstreams susceptible to invasion.",
+        "description_summary": "The presence of viable bacteria circulating in the blood.",
+        "key_terms": [
+          "bacteremia"
+        ],
+        "word_count": 45
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Bacterial infection or mycosis",
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Bacterial infection or mycosis",
+          "Pathology (process)"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Bacterial infection or mycosis",
+          "Pathology (process)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.389865",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

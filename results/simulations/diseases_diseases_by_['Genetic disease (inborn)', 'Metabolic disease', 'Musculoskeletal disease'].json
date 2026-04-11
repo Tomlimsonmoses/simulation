@@ -1,0 +1,231 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Genetic disease (inborn)', 'Metabolic disease', 'Musculoskeletal disease']",
+    "export_timestamp": "2026-03-28T22:11:35.632469",
+    "total_records": 3
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D015210",
+      "DiseaseName": "Arthritis, Gouty",
+      "DiseaseDescription": "Arthritis, especially of the great toe, as a result of gout. Acute gouty arthritis often is precipitated by trauma, infection, surgery, etc. The initial attacks are usually monoarticular but later attacks are often polyarticular. Acute and chronic gouty arthritis are associated with accumulation of MONOSODIUM URATE in and around affected joints.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease', 'Musculoskeletal disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D015210",
+        "standardized_id": "MESH:D015210",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Arthritis, Gouty",
+        "standardized_name": "Arthritis, Gouty",
+        "normalized_name": "arthritis gouty",
+        "synonyms": [],
+        "search_terms": [
+          "arthritis, gouty",
+          "arthritis,",
+          "gouty"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Arthritis, especially of the great toe, as a result of gout. Acute gouty arthritis often is precipitated by trauma, infection, surgery, etc. The initial attacks are usually monoarticular but later attacks are often polyarticular. Acute and chronic gouty arthritis are associated with accumulation of MONOSODIUM URATE in and around affected joints.",
+        "cleaned_description": "Arthritis, especially of the great toe, as a result of gout. Acute gouty arthritis often is precipitated by trauma, infection, surgery, etc. The initial attacks are usually monoarticular but later attacks are often polyarticular. Acute and chronic gouty arthritis are associated with accumulation of MONOSODIUM URATE in and around affected joints.",
+        "description_summary": "Arthritis, especially of the great toe, as a result of gout.",
+        "key_terms": [
+          "Arthritis",
+          "arthritis"
+        ],
+        "word_count": 51
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.374749",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006073",
+      "DiseaseName": "Gout",
+      "DiseaseDescription": "Metabolic disorder characterized by recurrent acute arthritis, hyperuricemia and deposition of sodium urate in and around the joints, sometimes with formation of URIC ACID calculi.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease', 'Musculoskeletal disease']",
+      "PathwayNames": "Type I diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006073",
+        "standardized_id": "MESH:D006073",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Gout",
+        "standardized_name": "Gout",
+        "normalized_name": "gout",
+        "synonyms": [],
+        "search_terms": [
+          "gout"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Metabolic disorder characterized by recurrent acute arthritis, hyperuricemia and deposition of sodium urate in and around the joints, sometimes with formation of URIC ACID calculi.",
+        "cleaned_description": "Metabolic disorder characterized by recurrent acute arthritis, hyperuricemia and deposition of sodium urate in and around the joints, sometimes with formation of URIC ACID calculi.",
+        "description_summary": "Metabolic disorder characterized by recurrent acute arthritis, hyperuricemia and deposition of sodium urate in and around the joints, sometimes with formation of URIC ACID calculi.",
+        "key_terms": [
+          "arthritis",
+          "hyperuricemia"
+        ],
+        "word_count": 25
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type I diabetes mellitus",
+        "pathway_list": [
+          "Type I diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.548697",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011547",
+      "DiseaseName": "Pseudohypoparathyroidism",
+      "DiseaseDescription": "A hereditary syndrome clinically similar to HYPOPARATHYROIDISM. It is characterized by HYPOCALCEMIA; HYPERPHOSPHATEMIA; and associated skeletal development impairment and caused by failure of response to PARATHYROID HORMONE rather than deficiencies. A severe form with resistance to multiple hormones is referred to as Type 1a and is associated with maternal mutant allele of the ALPHA CHAIN OF STIMULATORY G PROTEIN.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease', 'Musculoskeletal disease']",
+      "PathwayNames": "Vibrio cholerae infection",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011547",
+        "standardized_id": "MESH:D011547",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pseudohypoparathyroidism",
+        "standardized_name": "Pseudohypoparathyroidism",
+        "normalized_name": "pseudohypoparathyroidism",
+        "synonyms": [],
+        "search_terms": [
+          "pseudohypoparathyroidism"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A hereditary syndrome clinically similar to HYPOPARATHYROIDISM. It is characterized by HYPOCALCEMIA; HYPERPHOSPHATEMIA; and associated skeletal development impairment and caused by failure of response to PARATHYROID HORMONE rather than deficiencies. A severe form with resistance to multiple hormones is referred to as Type 1a and is associated with maternal mutant allele of the ALPHA CHAIN OF STIMULATORY G PROTEIN.",
+        "cleaned_description": "A hereditary syndrome clinically similar to HYPOPARATHYROIDISM. It is characterized by HYPOCALCEMIA; HYPERPHOSPHATEMIA; and associated skeletal development impairment and caused by failure of response to PARATHYROID HORMONE rather than deficiencies. A severe form with resistance to multiple hormones is referred to as Type 1a and is associated with maternal mutant allele of the ALPHA CHAIN OF STIMULATORY G PROTEIN.",
+        "description_summary": "A hereditary syndrome clinically similar to HYPOPARATHYROIDISM.",
+        "key_terms": [
+          "HYPERPHOSPHATEMIA",
+          "HYPOCALCEMIA"
+        ],
+        "word_count": 59
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vibrio cholerae infection",
+        "pathway_list": [
+          "Vibrio cholerae infection"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.937329",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

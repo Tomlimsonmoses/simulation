@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Digestive system disease', 'Mouth disease']",
+    "export_timestamp": "2026-03-28T22:11:36.194741",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D052016",
+      "DiseaseName": "Mucositis",
+      "DiseaseDescription": "An INFLAMMATION of the MUCOSA with burning or tingling sensation. It is characterized by atrophy of the squamous EPITHELIUM, vascular damage, inflammatory infiltration, and ulceration. It usually occurs at the mucous lining of the MOUTH, the GASTROINTESTINAL TRACT or the airway due to chemical irritations, CHEMOTHERAPY, or radiation therapy (RADIOTHERAPY).",
+      "SlimMapping": "['Digestive system disease', 'Mouth disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D052016",
+        "standardized_id": "MESH:D052016",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Mucositis",
+        "standardized_name": "Mucositis",
+        "normalized_name": "mucositis",
+        "synonyms": [],
+        "search_terms": [
+          "mucositis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An INFLAMMATION of the MUCOSA with burning or tingling sensation. It is characterized by atrophy of the squamous EPITHELIUM, vascular damage, inflammatory infiltration, and ulceration. It usually occurs at the mucous lining of the MOUTH, the GASTROINTESTINAL TRACT or the airway due to chemical irritations, CHEMOTHERAPY, or radiation therapy (RADIOTHERAPY).",
+        "cleaned_description": "An INFLAMMATION of the MUCOSA with burning or tingling sensation. It is characterized by atrophy of the squamous EPITHELIUM, vascular damage, inflammatory infiltration, and ulceration. It usually occurs at the mucous lining of the MOUTH, the GASTROINTESTINAL TRACT or the airway due to chemical irritations, CHEMOTHERAPY, or radiation therapy (RADIOTHERAPY).",
+        "description_summary": "An INFLAMMATION of the MUCOSA with burning or tingling sensation.",
+        "key_terms": [],
+        "word_count": 50
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease",
+          "Mouth disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease",
+          "Mouth disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease",
+          "Mouth disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.858150",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

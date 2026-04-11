@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Genetic disease (inborn)', 'Metabolic disease', 'Musculoskeletal disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.106527",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D020514",
+      "DiseaseName": "Hypokalemic Periodic Paralysis",
+      "DiseaseDescription": "An autosomal dominant familial disorder characterized by recurrent episodes of skeletal muscle weakness associated with falls in serum potassium levels. The condition usually presents in the first or second decade of life with attacks of trunk and leg paresis during sleep or shortly after awakening. Symptoms may persist for hours to days and generally are precipitated by exercise or a meal high in carbohydrates. (Adams et al., Principles of Neurology, 6th ed, p1483)",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease', 'Musculoskeletal disease', 'Nervous system disease']",
+      "PathwayNames": "Vascular smooth muscle contraction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020514",
+        "standardized_id": "MESH:D020514",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypokalemic Periodic Paralysis",
+        "standardized_name": "Hypokalemic Periodic Paralysis",
+        "normalized_name": "hypokalemic periodic paralysis",
+        "synonyms": [],
+        "search_terms": [
+          "paralysis",
+          "hypokalemic",
+          "periodic",
+          "hypokalemic periodic paralysis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An autosomal dominant familial disorder characterized by recurrent episodes of skeletal muscle weakness associated with falls in serum potassium levels. The condition usually presents in the first or second decade of life with attacks of trunk and leg paresis during sleep or shortly after awakening. Symptoms may persist for hours to days and generally are precipitated by exercise or a meal high in carbohydrates. (Adams et al., Principles of Neurology, 6th ed, p1483)",
+        "cleaned_description": "An autosomal dominant familial disorder characterized by recurrent episodes of skeletal muscle weakness associated with falls in serum potassium levels. The condition usually presents in the first or second decade of life with attacks of trunk and leg paresis during sleep or shortly after awakening. Symptoms may persist for hours to days and generally are precipitated by exercise or a meal high in carbohydrates. (Adams et al., Principles of Neurology, 6th ed, p1483)",
+        "description_summary": "An autosomal dominant familial disorder characterized by recurrent episodes of skeletal muscle weakness associated with falls in serum potassium levels.",
+        "key_terms": [],
+        "word_count": 73
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vascular smooth muscle contraction",
+        "pathway_list": [
+          "Vascular smooth muscle contraction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.774437",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

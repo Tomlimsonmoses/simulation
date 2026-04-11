@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Metabolic disease', 'Musculoskeletal disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.189734",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D017240",
+      "DiseaseName": "Mitochondrial Myopathies",
+      "DiseaseDescription": "A group of muscle diseases associated with abnormal mitochondria function.",
+      "SlimMapping": "['Metabolic disease', 'Musculoskeletal disease', 'Nervous system disease']",
+      "PathwayNames": "Visual phototransduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017240",
+        "standardized_id": "MESH:D017240",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Mitochondrial Myopathies",
+        "standardized_name": "Mitochondrial Myopathies",
+        "normalized_name": "mitochondrial myopathies",
+        "synonyms": [],
+        "search_terms": [
+          "myopathies",
+          "mitochondrial",
+          "mitochondrial myopathies"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A group of muscle diseases associated with abnormal mitochondria function.",
+        "cleaned_description": "A group of muscle diseases associated with abnormal mitochondria function.",
+        "description_summary": "A group of muscle diseases associated with abnormal mitochondria function.",
+        "key_terms": [],
+        "word_count": 10
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Visual phototransduction",
+        "pathway_list": [
+          "Visual phototransduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.855245",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

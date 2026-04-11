@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Congenital abnormality', 'Genetic disease (inborn)', 'Skin disease']",
+    "export_timestamp": "2026-03-28T22:11:35.977712",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D004476",
+      "DiseaseName": "Ectodermal Dysplasia",
+      "DiseaseDescription": "A group of hereditary disorders involving tissues and structures derived from the embryonic ectoderm. They are characterized by the presence of abnormalities at birth and involvement of both the epidermis and skin appendages. They are generally nonprogressive and diffuse. Various forms exist, including anhidrotic and hidrotic dysplasias, FOCAL DERMAL HYPOPLASIA, and aplasia cutis congenita.",
+      "SlimMapping": "['Congenital abnormality', 'Genetic disease (inborn)', 'Skin disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004476",
+        "standardized_id": "MESH:D004476",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Ectodermal Dysplasia",
+        "standardized_name": "Ectodermal Dysplasia",
+        "normalized_name": "ectodermal dysplasia",
+        "synonyms": [],
+        "search_terms": [
+          "ectodermal dysplasia",
+          "dysplasia",
+          "ectodermal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A group of hereditary disorders involving tissues and structures derived from the embryonic ectoderm. They are characterized by the presence of abnormalities at birth and involvement of both the epidermis and skin appendages. They are generally nonprogressive and diffuse. Various forms exist, including anhidrotic and hidrotic dysplasias, FOCAL DERMAL HYPOPLASIA, and aplasia cutis congenita.",
+        "cleaned_description": "A group of hereditary disorders involving tissues and structures derived from the embryonic ectoderm. They are characterized by the presence of abnormalities at birth and involvement of both the epidermis and skin appendages. They are generally nonprogressive and diffuse. Various forms exist, including anhidrotic and hidrotic dysplasias, FOCAL DERMAL HYPOPLASIA, and aplasia cutis congenita.",
+        "description_summary": "A group of hereditary disorders involving tissues and structures derived from the embryonic ectoderm.",
+        "key_terms": [],
+        "word_count": 54
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Skin disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Skin disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.491159",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004820",
+      "DiseaseName": "Epidermolysis Bullosa",
+      "DiseaseDescription": "Group of genetically determined disorders characterized by the blistering of skin and mucosae. There are four major forms: acquired, simple, junctional, and dystrophic. Each of the latter three has several varieties.",
+      "SlimMapping": "['Congenital abnormality', 'Genetic disease (inborn)', 'Skin disease']",
+      "PathwayNames": "Type I hemidesmosome assembly",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004820",
+        "standardized_id": "MESH:D004820",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Epidermolysis Bullosa",
+        "standardized_name": "Epidermolysis Bullosa",
+        "normalized_name": "epidermolysis bullosa",
+        "synonyms": [],
+        "search_terms": [
+          "bullosa",
+          "epidermolysis bullosa",
+          "epidermolysis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Group of genetically determined disorders characterized by the blistering of skin and mucosae. There are four major forms: acquired, simple, junctional, and dystrophic. Each of the latter three has several varieties.",
+        "cleaned_description": "Group of genetically determined disorders characterized by the blistering of skin and mucosae. There are four major forms: acquired, simple, junctional, and dystrophic. Each of the latter three has several varieties.",
+        "description_summary": "Group of genetically determined disorders characterized by the blistering of skin and mucosae.",
+        "key_terms": [],
+        "word_count": 31
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Skin disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Skin disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type I hemidesmosome assembly",
+        "pathway_list": [
+          "Type I hemidesmosome assembly"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.506180",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Mental disorder', 'Metabolic disease', 'Nervous system disease', 'Nutrition disorder', 'Substance-related disorder']",
+    "export_timestamp": "2026-03-28T22:11:36.346533",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D014899",
+      "DiseaseName": "Wernicke Encephalopathy",
+      "DiseaseDescription": "An acute neurological disorder characterized by the triad of ophthalmoplegia, ataxia, and disturbances of mental activity or consciousness. Eye movement abnormalities include nystagmus, external rectus palsies, and reduced conjugate gaze. THIAMINE DEFICIENCY and chronic ALCOHOLISM are associated conditions. Pathologic features include periventricular petechial hemorrhages and neuropil breakdown in the diencephalon and brainstem. Chronic thiamine deficiency may lead to KORSAKOFF SYNDROME. (Adams et al., Principles of Neurology, 6th ed, pp1139-42; Davis & Robertson, Textbook of Neuropathology, 2nd ed, pp452-3)",
+      "SlimMapping": "['Mental disorder', 'Metabolic disease', 'Nervous system disease', 'Nutrition disorder', 'Substance-related disorder']",
+      "PathwayNames": "Pentose phosphate pathway (Pentose phosphate cycle)",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014899",
+        "standardized_id": "MESH:D014899",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Wernicke Encephalopathy",
+        "standardized_name": "Wernicke Encephalopathy",
+        "normalized_name": "wernicke encephalopathy",
+        "synonyms": [],
+        "search_terms": [
+          "wernicke encephalopathy",
+          "encephalopathy",
+          "wernicke"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An acute neurological disorder characterized by the triad of ophthalmoplegia, ataxia, and disturbances of mental activity or consciousness. Eye movement abnormalities include nystagmus, external rectus palsies, and reduced conjugate gaze. THIAMINE DEFICIENCY and chronic ALCOHOLISM are associated conditions. Pathologic features include periventricular petechial hemorrhages and neuropil breakdown in the diencephalon and brainstem. Chronic thiamine deficiency may lead to KORSAKOFF SYNDROME. (Adams et al., Principles of Neurology, 6th ed, pp1139-42; Davis & Robertson, Textbook of Neuropathology, 2nd ed, pp452-3)",
+        "cleaned_description": "An acute neurological disorder characterized by the triad of ophthalmoplegia, ataxia, and disturbances of mental activity or consciousness. Eye movement abnormalities include nystagmus, external rectus palsies, and reduced conjugate gaze. THIAMINE DEFICIENCY and chronic ALCOHOLISM are associated conditions. Pathologic features include periventricular petechial hemorrhages and neuropil breakdown in the diencephalon and brainstem. Chronic thiamine deficiency may lead to KORSAKOFF SYNDROME. (Adams et al., Principles of Neurology, 6th ed, pp1139-42; Davis & Robertson, Textbook of Neuropathology, 2nd ed, pp452-3)",
+        "description_summary": "An acute neurological disorder characterized by the triad of ophthalmoplegia, ataxia, and disturbances of mental activity or consciousness.",
+        "key_terms": [],
+        "word_count": 78
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Metabolic disease",
+          "Nervous system disease",
+          "Nutrition disorder",
+          "Substance-related disorder"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Mental disorder",
+          "Metabolic disease",
+          "Nervous system disease",
+          "Nutrition disorder",
+          "Substance-related disorder"
+        ],
+        "category_count": 5
+      },
+      "processed_pathways": {
+        "raw_pathways": "Pentose phosphate pathway (Pentose phosphate cycle)",
+        "pathway_list": [
+          "Pentose phosphate pathway (Pentose phosphate cycle)"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.026280",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

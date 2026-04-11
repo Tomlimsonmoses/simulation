@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Genetic disease (inborn)', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+    "export_timestamp": "2026-03-28T22:11:36.347794",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D009396",
+      "DiseaseName": "Wilms Tumor",
+      "DiseaseDescription": "A malignant kidney tumor, caused by the uncontrolled multiplication of renal stem (blastemal), stromal (STROMAL CELLS), and epithelial (EPITHELIAL CELLS) elements. However, not all three are present in every case. Several genes or chromosomal areas have been associated with Wilms tumor which is usually found in childhood as a firm lump in a child's side or ABDOMEN.",
+      "SlimMapping": "['Cancer', 'Genetic disease (inborn)', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009396",
+        "standardized_id": "MESH:D009396",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Wilms Tumor",
+        "standardized_name": "Wilms Tumor",
+        "normalized_name": "wilms tumor",
+        "synonyms": [],
+        "search_terms": [
+          "wilms",
+          "tumor",
+          "wilms tumor"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A malignant kidney tumor, caused by the uncontrolled multiplication of renal stem (blastemal), stromal (STROMAL CELLS), and epithelial (EPITHELIAL CELLS) elements. However, not all three are present in every case. Several genes or chromosomal areas have been associated with Wilms tumor which is usually found in childhood as a firm lump in a child's side or ABDOMEN.",
+        "cleaned_description": "A malignant kidney tumor, caused by the uncontrolled multiplication of renal stem (blastemal), stromal (STROMAL CELLS), and epithelial (EPITHELIAL CELLS) elements. However, not all three are present in every case. Several genes or chromosomal areas have been associated with Wilms tumor which is usually found in childhood as a firm lump in a child's side or ABDOMEN.",
+        "description_summary": "A malignant kidney tumor, caused by the uncontrolled multiplication of renal stem (blastemal), stromal (STROMAL CELLS), and epithelial (EPITHELIAL CELLS) elements.",
+        "key_terms": [],
+        "word_count": 57
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Genetic disease (inborn)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Genetic disease (inborn)",
+          "Urogenital disease (female)"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Genetic disease (inborn)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.026785",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

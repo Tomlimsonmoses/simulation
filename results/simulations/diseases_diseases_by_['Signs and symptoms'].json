@@ -1,0 +1,2563 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Signs and symptoms']",
+    "export_timestamp": "2026-03-28T22:11:35.037662",
+    "total_records": 41
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D015746",
+      "DiseaseName": "Abdominal Pain",
+      "DiseaseDescription": "Sensation of discomfort, distress, or agony in the abdominal region.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D015746",
+        "standardized_id": "MESH:D015746",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Abdominal Pain",
+        "standardized_name": "Abdominal Pain",
+        "normalized_name": "abdominal pain",
+        "synonyms": [],
+        "search_terms": [
+          "abdominal pain",
+          "pain",
+          "abdominal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Sensation of discomfort, distress, or agony in the abdominal region.",
+        "cleaned_description": "Sensation of discomfort, distress, or agony in the abdominal region.",
+        "description_summary": "Sensation of discomfort, distress, or agony in the abdominal region.",
+        "key_terms": [],
+        "word_count": 10
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.347414",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D019588",
+      "DiseaseName": "Aging, Premature",
+      "DiseaseDescription": "Changes in the organism associated with senescence, occurring at an accelerated rate.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D019588",
+        "standardized_id": "MESH:D019588",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Aging, Premature",
+        "standardized_name": "Aging, Premature",
+        "normalized_name": "aging premature",
+        "synonyms": [],
+        "search_terms": [
+          "aging,",
+          "aging, premature",
+          "premature"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Changes in the organism associated with senescence, occurring at an accelerated rate.",
+        "cleaned_description": "Changes in the organism associated with senescence, occurring at an accelerated rate.",
+        "description_summary": "Changes in the organism associated with senescence, occurring at an accelerated rate.",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.358036",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000855",
+      "DiseaseName": "Anorexia",
+      "DiseaseDescription": "The lack or loss of APPETITE accompanied by an aversion to food and the inability to eat. It is the defining characteristic of the disorder ANOREXIA NERVOSA.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000855",
+        "standardized_id": "MESH:D000855",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Anorexia",
+        "standardized_name": "Anorexia",
+        "normalized_name": "anorexia",
+        "synonyms": [],
+        "search_terms": [
+          "anorexia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The lack or loss of APPETITE accompanied by an aversion to food and the inability to eat. It is the defining characteristic of the disorder ANOREXIA NERVOSA.",
+        "cleaned_description": "The lack or loss of APPETITE accompanied by an aversion to food and the inability to eat. It is the defining characteristic of the disorder ANOREXIA NERVOSA.",
+        "description_summary": "The lack or loss of APPETITE accompanied by an aversion to food and the inability to eat.",
+        "key_terms": [],
+        "word_count": 27
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.366003",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001247",
+      "DiseaseName": "Asthenia",
+      "DiseaseDescription": "Clinical sign or symptom manifested as debility, or lack or loss of strength and energy.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001247",
+        "standardized_id": "MESH:D001247",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Asthenia",
+        "standardized_name": "Asthenia",
+        "normalized_name": "asthenia",
+        "synonyms": [],
+        "search_terms": [
+          "asthenia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Clinical sign or symptom manifested as debility, or lack or loss of strength and energy.",
+        "cleaned_description": "Clinical sign or symptom manifested as debility, or lack or loss of strength and energy.",
+        "description_summary": "Clinical sign or symptom manifested as debility, or lack or loss of strength and energy.",
+        "key_terms": [],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.377451",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001416",
+      "DiseaseName": "Back Pain",
+      "DiseaseDescription": "Acute or chronic pain located in the posterior regions of the THORAX; LUMBOSACRAL REGION; or the adjacent regions.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "Transcriptional misregulation in cancer",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001416",
+        "standardized_id": "MESH:D001416",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Back Pain",
+        "standardized_name": "Back Pain",
+        "normalized_name": "back pain",
+        "synonyms": [],
+        "search_terms": [
+          "back pain",
+          "back",
+          "pain"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Acute or chronic pain located in the posterior regions of the THORAX; LUMBOSACRAL REGION; or the adjacent regions.",
+        "cleaned_description": "Acute or chronic pain located in the posterior regions of the THORAX; LUMBOSACRAL REGION; or the adjacent regions.",
+        "description_summary": "Acute or chronic pain located in the posterior regions of the THORAX; LUMBOSACRAL REGION; or the adjacent regions.",
+        "key_terms": [],
+        "word_count": 18
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional misregulation in cancer",
+        "pathway_list": [
+          "Transcriptional misregulation in cancer"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional misregulation in cancer"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.389493",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001724",
+      "DiseaseName": "Birth Weight",
+      "DiseaseDescription": "The mass or quantity of heaviness of an individual at BIRTH. It is expressed by units of pounds or kilograms.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001724",
+        "standardized_id": "MESH:D001724",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Birth Weight",
+        "standardized_name": "Birth Weight",
+        "normalized_name": "birth weight",
+        "synonyms": [],
+        "search_terms": [
+          "birth weight",
+          "birth",
+          "weight"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The mass or quantity of heaviness of an individual at BIRTH. It is expressed by units of pounds or kilograms.",
+        "cleaned_description": "The mass or quantity of heaviness of an individual at BIRTH. It is expressed by units of pounds or kilograms.",
+        "description_summary": "The mass or quantity of heaviness of an individual at BIRTH.",
+        "key_terms": [],
+        "word_count": 20
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.395636",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001835",
+      "DiseaseName": "Body Weight",
+      "DiseaseDescription": "The mass or quantity of heaviness of an individual. It is expressed by units of pounds or kilograms.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001835",
+        "standardized_id": "MESH:D001835",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Body Weight",
+        "standardized_name": "Body Weight",
+        "normalized_name": "body weight",
+        "synonyms": [],
+        "search_terms": [
+          "weight",
+          "body weight",
+          "body"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The mass or quantity of heaviness of an individual. It is expressed by units of pounds or kilograms.",
+        "cleaned_description": "The mass or quantity of heaviness of an individual. It is expressed by units of pounds or kilograms.",
+        "description_summary": "The mass or quantity of heaviness of an individual.",
+        "key_terms": [],
+        "word_count": 18
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.398372",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002100",
+      "DiseaseName": "Cachexia",
+      "DiseaseDescription": "General ill health, malnutrition, and weight loss, usually associated with chronic disease.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "VEGF signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002100",
+        "standardized_id": "MESH:D002100",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cachexia",
+        "standardized_name": "Cachexia",
+        "normalized_name": "cachexia",
+        "synonyms": [],
+        "search_terms": [
+          "cachexia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "General ill health, malnutrition, and weight loss, usually associated with chronic disease.",
+        "cleaned_description": "General ill health, malnutrition, and weight loss, usually associated with chronic disease.",
+        "description_summary": "General ill health, malnutrition, and weight loss, usually associated with chronic disease.",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGF signaling pathway",
+        "pathway_list": [
+          "VEGF signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGF signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.412741",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002637",
+      "DiseaseName": "Chest Pain",
+      "DiseaseDescription": "Pressure, burning, or numbness in the chest.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002637",
+        "standardized_id": "MESH:D002637",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Chest Pain",
+        "standardized_name": "Chest Pain",
+        "normalized_name": "chest pain",
+        "synonyms": [],
+        "search_terms": [
+          "chest",
+          "pain",
+          "chest pain"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pressure, burning, or numbness in the chest.",
+        "cleaned_description": "Pressure, burning, or numbness in the chest.",
+        "description_summary": "Pressure, burning, or numbness in the chest.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.441504",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D023341",
+      "DiseaseName": "Chills",
+      "DiseaseDescription": "The sudden sensation of being cold. It may be accompanied by SHIVERING.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "Type I diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D023341",
+        "standardized_id": "MESH:D023341",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Chills",
+        "standardized_name": "Chills",
+        "normalized_name": "chills",
+        "synonyms": [],
+        "search_terms": [
+          "chills"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The sudden sensation of being cold. It may be accompanied by SHIVERING.",
+        "cleaned_description": "The sudden sensation of being cold. It may be accompanied by SHIVERING.",
+        "description_summary": "The sudden sensation of being cold.",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type I diabetes mellitus",
+        "pathway_list": [
+          "Type I diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.441869",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D059350",
+      "DiseaseName": "Chronic Pain",
+      "DiseaseDescription": "Aching sensation that persists for more than a few months. It may or may not be associated with trauma or disease, and may persist after the initial injury has healed. Its localization, character, and timing are more vague than with acute pain.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "Taste transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D059350",
+        "standardized_id": "MESH:D059350",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Chronic Pain",
+        "standardized_name": "Chronic Pain",
+        "normalized_name": "chronic pain",
+        "synonyms": [],
+        "search_terms": [
+          "pain",
+          "chronic pain",
+          "chronic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Aching sensation that persists for more than a few months. It may or may not be associated with trauma or disease, and may persist after the initial injury has healed. Its localization, character, and timing are more vague than with acute pain.",
+        "cleaned_description": "Aching sensation that persists for more than a few months. It may or may not be associated with trauma or disease, and may persist after the initial injury has healed. Its localization, character, and timing are more vague than with acute pain.",
+        "description_summary": "Aching sensation that persists for more than a few months.",
+        "key_terms": [],
+        "word_count": 42
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Taste transduction",
+        "pathway_list": [
+          "Taste transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.444544",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003248",
+      "DiseaseName": "Constipation",
+      "DiseaseDescription": "Infrequent or difficult evacuation of FECES. These symptoms are associated with a variety of causes, including low DIETARY FIBER intake, emotional or nervous disturbances, systemic and structural disorders, drug-induced aggravation, and infections.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "Synthesis, secretion, and inactivation of Glucagon-like Peptide-1 (GLP-1)",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003248",
+        "standardized_id": "MESH:D003248",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Constipation",
+        "standardized_name": "Constipation",
+        "normalized_name": "constipation",
+        "synonyms": [],
+        "search_terms": [
+          "constipation"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Infrequent or difficult evacuation of FECES. These symptoms are associated with a variety of causes, including low DIETARY FIBER intake, emotional or nervous disturbances, systemic and structural disorders, drug-induced aggravation, and infections.",
+        "cleaned_description": "Infrequent or difficult evacuation of FECES. These symptoms are associated with a variety of causes, including low DIETARY FIBER intake, emotional or nervous disturbances, systemic and structural disorders, drug-induced aggravation, and infections.",
+        "description_summary": "Infrequent or difficult evacuation of FECES.",
+        "key_terms": [],
+        "word_count": 32
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Synthesis, secretion, and inactivation of Glucagon-like Peptide-1 (GLP-1)",
+        "pathway_list": [
+          "Synthesis",
+          "secretion",
+          "and inactivation of Glucagon-like Peptide-1 (GLP-1)"
+        ],
+        "pathway_count": 3,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.457518",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003490",
+      "DiseaseName": "Cyanosis",
+      "DiseaseDescription": "A bluish or purplish discoloration of the skin and mucous membranes due to an increase in the amount of deoxygenated hemoglobin in the blood or a structural defect in the hemoglobin molecule.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "Vitamin C (ascorbate) metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003490",
+        "standardized_id": "MESH:D003490",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cyanosis",
+        "standardized_name": "Cyanosis",
+        "normalized_name": "cyanosis",
+        "synonyms": [],
+        "search_terms": [
+          "cyanosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A bluish or purplish discoloration of the skin and mucous membranes due to an increase in the amount of deoxygenated hemoglobin in the blood or a structural defect in the hemoglobin molecule.",
+        "cleaned_description": "A bluish or purplish discoloration of the skin and mucous membranes due to an increase in the amount of deoxygenated hemoglobin in the blood or a structural defect in the hemoglobin molecule.",
+        "description_summary": "A bluish or purplish discoloration of the skin and mucous membranes due to an increase in the amount of deoxygenated hemoglobin in the blood or a structural defect in the hemoglobin molecule.",
+        "key_terms": [],
+        "word_count": 32
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamin C (ascorbate) metabolism",
+        "pathway_list": [
+          "Vitamin C (ascorbate) metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.464794",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003967",
+      "DiseaseName": "Diarrhea",
+      "DiseaseDescription": "An increased liquidity or decreased consistency of FECES, such as running stool. Fecal consistency is related to the ratio of water-holding capacity of insoluble solids to total water, rather than the amount of water present. Diarrhea is not hyperdefecation or increased fecal weight.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "Vasopressin regulates renal water homeostasis via Aquaporins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003967",
+        "standardized_id": "MESH:D003967",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Diarrhea",
+        "standardized_name": "Diarrhea",
+        "normalized_name": "diarrhea",
+        "synonyms": [],
+        "search_terms": [
+          "diarrhea"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An increased liquidity or decreased consistency of FECES, such as running stool. Fecal consistency is related to the ratio of water-holding capacity of insoluble solids to total water, rather than the amount of water present. Diarrhea is not hyperdefecation or increased fecal weight.",
+        "cleaned_description": "An increased liquidity or decreased consistency of FECES, such as running stool. Fecal consistency is related to the ratio of water-holding capacity of insoluble solids to total water, rather than the amount of water present. Diarrhea is not hyperdefecation or increased fecal weight.",
+        "description_summary": "An increased liquidity or decreased consistency of FECES, such as running stool.",
+        "key_terms": [],
+        "word_count": 43
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vasopressin regulates renal water homeostasis via Aquaporins",
+        "pathway_list": [
+          "Vasopressin regulates renal water homeostasis via Aquaporins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.481419",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004487",
+      "DiseaseName": "Edema",
+      "DiseaseDescription": "Abnormal fluid accumulation in TISSUES or body cavities. Most cases of edema are present under the SKIN in SUBCUTANEOUS TISSUE.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "Vitamin digestion and absorption",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004487",
+        "standardized_id": "MESH:D004487",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Edema",
+        "standardized_name": "Edema",
+        "normalized_name": "edema",
+        "synonyms": [],
+        "search_terms": [
+          "edema"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormal fluid accumulation in TISSUES or body cavities. Most cases of edema are present under the SKIN in SUBCUTANEOUS TISSUE.",
+        "cleaned_description": "Abnormal fluid accumulation in TISSUES or body cavities. Most cases of edema are present under the SKIN in SUBCUTANEOUS TISSUE.",
+        "description_summary": "Abnormal fluid accumulation in TISSUES or body cavities.",
+        "key_terms": [],
+        "word_count": 20
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamin digestion and absorption",
+        "pathway_list": [
+          "Vitamin digestion and absorption"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.491527",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005183",
+      "DiseaseName": "Failure to Thrive",
+      "DiseaseDescription": "A condition of substandard growth or diminished capacity to maintain normal function.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005183",
+        "standardized_id": "MESH:D005183",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Failure to Thrive",
+        "standardized_name": "Failure to Thrive",
+        "normalized_name": "failure to thrive",
+        "synonyms": [],
+        "search_terms": [
+          "failure to thrive",
+          "thrive",
+          "failure"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition of substandard growth or diminished capacity to maintain normal function.",
+        "cleaned_description": "A condition of substandard growth or diminished capacity to maintain normal function.",
+        "description_summary": "A condition of substandard growth or diminished capacity to maintain normal function.",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.515486",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005221",
+      "DiseaseName": "Fatigue",
+      "DiseaseDescription": "The state of weariness following a period of exertion, mental or physical, characterized by a decreased capacity for work and reduced efficiency to respond to stimuli.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "UCH proteinases",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005221",
+        "standardized_id": "MESH:D005221",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Fatigue",
+        "standardized_name": "Fatigue",
+        "normalized_name": "fatigue",
+        "synonyms": [],
+        "search_terms": [
+          "fatigue"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The state of weariness following a period of exertion, mental or physical, characterized by a decreased capacity for work and reduced efficiency to respond to stimuli.",
+        "cleaned_description": "The state of weariness following a period of exertion, mental or physical, characterized by a decreased capacity for work and reduced efficiency to respond to stimuli.",
+        "description_summary": "The state of weariness following a period of exertion, mental or physical, characterized by a decreased capacity for work and reduced efficiency to respond to stimuli.",
+        "key_terms": [],
+        "word_count": 26
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "UCH proteinases",
+        "pathway_list": [
+          "UCH proteinases"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.517168",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005262",
+      "DiseaseName": "Feminization",
+      "DiseaseDescription": "Development of female secondary SEX CHARACTERISTICS in the MALE. It is due to the effects of estrogenic metabolites of precursors from endogenous or exogenous sources, such as ADRENAL GLANDS or therapeutic drugs.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005262",
+        "standardized_id": "MESH:D005262",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Feminization",
+        "standardized_name": "Feminization",
+        "normalized_name": "feminization",
+        "synonyms": [],
+        "search_terms": [
+          "feminization"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Development of female secondary SEX CHARACTERISTICS in the MALE. It is due to the effects of estrogenic metabolites of precursors from endogenous or exogenous sources, such as ADRENAL GLANDS or therapeutic drugs.",
+        "cleaned_description": "Development of female secondary SEX CHARACTERISTICS in the MALE. It is due to the effects of estrogenic metabolites of precursors from endogenous or exogenous sources, such as ADRENAL GLANDS or therapeutic drugs.",
+        "description_summary": "Development of female secondary SEX CHARACTERISTICS in the MALE.",
+        "key_terms": [
+          "estrogenic"
+        ],
+        "word_count": 32
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors",
+        "pathway_list": [
+          "Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.522877",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005316",
+      "DiseaseName": "Fetal Distress",
+      "DiseaseDescription": "A nonreassuring fetal status (NRFS) indicating that the FETUS is compromised (American College of Obstetricians and Gynecologists 1988). It can be identified by sub-optimal values in FETAL HEART RATE; oxygenation of FETAL BLOOD; and other parameters.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "Vasopressin-like receptors",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005316",
+        "standardized_id": "MESH:D005316",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Fetal Distress",
+        "standardized_name": "Fetal Distress",
+        "normalized_name": "fetal distress",
+        "synonyms": [],
+        "search_terms": [
+          "fetal distress",
+          "distress",
+          "fetal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A nonreassuring fetal status (NRFS) indicating that the FETUS is compromised (American College of Obstetricians and Gynecologists 1988). It can be identified by sub-optimal values in FETAL HEART RATE; oxygenation of FETAL BLOOD; and other parameters.",
+        "cleaned_description": "A nonreassuring fetal status (NRFS) indicating that the FETUS is compromised (American College of Obstetricians and Gynecologists 1988). It can be identified by sub-optimal values in FETAL HEART RATE; oxygenation of FETAL BLOOD; and other parameters.",
+        "description_summary": "A nonreassuring fetal status (NRFS) indicating that the FETUS is compromised (American College of Obstetricians and Gynecologists 1988).",
+        "key_terms": [],
+        "word_count": 36
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vasopressin-like receptors",
+        "pathway_list": [
+          "Vasopressin-like receptors"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.524423",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005334",
+      "DiseaseName": "Fever",
+      "DiseaseDescription": "An abnormal elevation of body temperature, usually as a result of a pathologic process.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005334",
+        "standardized_id": "MESH:D005334",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Fever",
+        "standardized_name": "Fever",
+        "normalized_name": "fever",
+        "synonyms": [],
+        "search_terms": [
+          "fever"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An abnormal elevation of body temperature, usually as a result of a pathologic process.",
+        "cleaned_description": "An abnormal elevation of body temperature, usually as a result of a pathologic process.",
+        "description_summary": "An abnormal elevation of body temperature, usually as a result of a pathologic process.",
+        "key_terms": [],
+        "word_count": 14
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.525016",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005483",
+      "DiseaseName": "Flushing",
+      "DiseaseDescription": "A transient reddening of the face that may be due to fever, certain drugs, exertion, or stress.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "Vasopressin-like receptors",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005483",
+        "standardized_id": "MESH:D005483",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Flushing",
+        "standardized_name": "Flushing",
+        "normalized_name": "flushing",
+        "synonyms": [],
+        "search_terms": [
+          "flushing"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A transient reddening of the face that may be due to fever, certain drugs, exertion, or stress.",
+        "cleaned_description": "A transient reddening of the face that may be due to fever, certain drugs, exertion, or stress.",
+        "description_summary": "A transient reddening of the face that may be due to fever, certain drugs, exertion, or stress.",
+        "key_terms": [],
+        "word_count": 17
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vasopressin-like receptors",
+        "pathway_list": [
+          "Vasopressin-like receptors"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.528408",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006261",
+      "DiseaseName": "Headache",
+      "DiseaseDescription": "The symptom of PAIN in the cranial region. It may be an isolated benign occurrence or manifestation of a wide variety of HEADACHE DISORDERS.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "Vasopressin-like receptors",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006261",
+        "standardized_id": "MESH:D006261",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Headache",
+        "standardized_name": "Headache",
+        "normalized_name": "headache",
+        "synonyms": [],
+        "search_terms": [
+          "headache"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The symptom of PAIN in the cranial region. It may be an isolated benign occurrence or manifestation of a wide variety of HEADACHE DISORDERS.",
+        "cleaned_description": "The symptom of PAIN in the cranial region. It may be an isolated benign occurrence or manifestation of a wide variety of HEADACHE DISORDERS.",
+        "description_summary": "The symptom of PAIN in the cranial region.",
+        "key_terms": [],
+        "word_count": 24
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vasopressin-like receptors",
+        "pathway_list": [
+          "Vasopressin-like receptors"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.605412",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006356",
+      "DiseaseName": "Heartburn",
+      "DiseaseDescription": "Substernal pain or burning sensation, usually associated with regurgitation of gastric juice into the esophagus.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "TRP channels",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006356",
+        "standardized_id": "MESH:D006356",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Heartburn",
+        "standardized_name": "Heartburn",
+        "normalized_name": "heartburn",
+        "synonyms": [],
+        "search_terms": [
+          "heartburn"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Substernal pain or burning sensation, usually associated with regurgitation of gastric juice into the esophagus.",
+        "cleaned_description": "Substernal pain or burning sensation, usually associated with regurgitation of gastric juice into the esophagus.",
+        "description_summary": "Substernal pain or burning sensation, usually associated with regurgitation of gastric juice into the esophagus.",
+        "key_terms": [],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "TRP channels",
+        "pathway_list": [
+          "TRP channels"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.613309",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D053565",
+      "DiseaseName": "Hypercalciuria",
+      "DiseaseDescription": "Excretion of abnormally high level of CALCIUM in the URINE, greater than 4 mg/kg/day.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "Vitamins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D053565",
+        "standardized_id": "MESH:D053565",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypercalciuria",
+        "standardized_name": "Hypercalciuria",
+        "normalized_name": "hypercalciuria",
+        "synonyms": [],
+        "search_terms": [
+          "hypercalciuria"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Excretion of abnormally high level of CALCIUM in the URINE, greater than 4 mg/kg/day.",
+        "cleaned_description": "Excretion of abnormally high level of CALCIUM in the URINE, greater than 4 mg/kg/day.",
+        "description_summary": "Excretion of abnormally high level of CALCIUM in the URINE, greater than 4 mg/kg/day.",
+        "key_terms": [],
+        "word_count": 14
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamins",
+        "pathway_list": [
+          "Vitamins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.675837",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006935",
+      "DiseaseName": "Hypercapnia",
+      "DiseaseDescription": "A clinical manifestation of abnormal increase in the amount of carbon dioxide in arterial blood.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006935",
+        "standardized_id": "MESH:D006935",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypercapnia",
+        "standardized_name": "Hypercapnia",
+        "normalized_name": "hypercapnia",
+        "synonyms": [],
+        "search_terms": [
+          "hypercapnia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A clinical manifestation of abnormal increase in the amount of carbon dioxide in arterial blood.",
+        "cleaned_description": "A clinical manifestation of abnormal increase in the amount of carbon dioxide in arterial blood.",
+        "description_summary": "A clinical manifestation of abnormal increase in the amount of carbon dioxide in arterial blood.",
+        "key_terms": [],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.676287",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D018496",
+      "DiseaseName": "Hyperoxia",
+      "DiseaseDescription": "An abnormal increase in the amount of oxygen in the tissues and organs.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018496",
+        "standardized_id": "MESH:D018496",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperoxia",
+        "standardized_name": "Hyperoxia",
+        "normalized_name": "hyperoxia",
+        "synonyms": [],
+        "search_terms": [
+          "hyperoxia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An abnormal increase in the amount of oxygen in the tissues and organs.",
+        "cleaned_description": "An abnormal increase in the amount of oxygen in the tissues and organs.",
+        "description_summary": "An abnormal increase in the amount of oxygen in the tissues and organs.",
+        "key_terms": [],
+        "word_count": 13
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.738017",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006963",
+      "DiseaseName": "Hyperphagia",
+      "DiseaseDescription": "Ingestion of a greater than optimal quantity of food.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "Transcriptional regulation of white adipocyte differentiation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006963",
+        "standardized_id": "MESH:D006963",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperphagia",
+        "standardized_name": "Hyperphagia",
+        "normalized_name": "hyperphagia",
+        "synonyms": [],
+        "search_terms": [
+          "hyperphagia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Ingestion of a greater than optimal quantity of food.",
+        "cleaned_description": "Ingestion of a greater than optimal quantity of food.",
+        "description_summary": "Ingestion of a greater than optimal quantity of food.",
+        "key_terms": [],
+        "word_count": 9
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional regulation of white adipocyte differentiation",
+        "pathway_list": [
+          "Transcriptional regulation of white adipocyte differentiation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional regulation of white adipocyte differentiation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.739587",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007035",
+      "DiseaseName": "Hypothermia",
+      "DiseaseDescription": "Lower than normal body temperature, especially in warm-blooded animals.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007035",
+        "standardized_id": "MESH:D007035",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypothermia",
+        "standardized_name": "Hypothermia",
+        "normalized_name": "hypothermia",
+        "synonyms": [],
+        "search_terms": [
+          "hypothermia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Lower than normal body temperature, especially in warm-blooded animals.",
+        "cleaned_description": "Lower than normal body temperature, especially in warm-blooded animals.",
+        "description_summary": "Lower than normal body temperature, especially in warm-blooded animals.",
+        "key_terms": [],
+        "word_count": 9
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.778020",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000860",
+      "DiseaseName": "Hypoxia",
+      "DiseaseDescription": "Sub-optimal OXYGEN levels in the ambient air of living organisms.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000860",
+        "standardized_id": "MESH:D000860",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypoxia",
+        "standardized_name": "Hypoxia",
+        "normalized_name": "hypoxia",
+        "synonyms": [],
+        "search_terms": [
+          "hypoxia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Sub-optimal OXYGEN levels in the ambient air of living organisms.",
+        "cleaned_description": "Sub-optimal OXYGEN levels in the ambient air of living organisms.",
+        "description_summary": "Sub-optimal OXYGEN levels in the ambient air of living organisms.",
+        "key_terms": [],
+        "word_count": 10
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.778990",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D017116",
+      "DiseaseName": "Low Back Pain",
+      "DiseaseDescription": "Acute or chronic pain in the lumbar or sacral regions, which may be associated with musculo-ligamentous SPRAINS AND STRAINS; INTERVERTEBRAL DISK DISPLACEMENT; and other conditions.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017116",
+        "standardized_id": "MESH:D017116",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Low Back Pain",
+        "standardized_name": "Low Back Pain",
+        "normalized_name": "low back pain",
+        "synonyms": [],
+        "search_terms": [
+          "low back pain",
+          "low",
+          "back",
+          "pain"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Acute or chronic pain in the lumbar or sacral regions, which may be associated with musculo-ligamentous SPRAINS AND STRAINS; INTERVERTEBRAL DISK DISPLACEMENT; and other conditions.",
+        "cleaned_description": "Acute or chronic pain in the lumbar or sacral regions, which may be associated with musculo-ligamentous SPRAINS AND STRAINS; INTERVERTEBRAL DISK DISPLACEMENT; and other conditions.",
+        "description_summary": "Acute or chronic pain in the lumbar or sacral regions, which may be associated with musculo-ligamentous SPRAINS AND STRAINS; INTERVERTEBRAL DISK DISPLACEMENT; and other conditions.",
+        "key_terms": [],
+        "word_count": 25
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.822500",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009325",
+      "DiseaseName": "Nausea",
+      "DiseaseDescription": "An unpleasant sensation in the stomach usually accompanied by the urge to vomit. Common causes are early pregnancy, sea and motion sickness, emotional stress, intense pain, food poisoning, and various enteroviruses.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "Type II diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009325",
+        "standardized_id": "MESH:D009325",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Nausea",
+        "standardized_name": "Nausea",
+        "normalized_name": "nausea",
+        "synonyms": [],
+        "search_terms": [
+          "nausea"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An unpleasant sensation in the stomach usually accompanied by the urge to vomit. Common causes are early pregnancy, sea and motion sickness, emotional stress, intense pain, food poisoning, and various enteroviruses.",
+        "cleaned_description": "An unpleasant sensation in the stomach usually accompanied by the urge to vomit. Common causes are early pregnancy, sea and motion sickness, emotional stress, intense pain, food poisoning, and various enteroviruses.",
+        "description_summary": "An unpleasant sensation in the stomach usually accompanied by the urge to vomit.",
+        "key_terms": [],
+        "word_count": 31
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type II diabetes mellitus",
+        "pathway_list": [
+          "Type II diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.866367",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010146",
+      "DiseaseName": "Pain",
+      "DiseaseDescription": "An unpleasant sensation induced by noxious stimuli which are detected by NERVE ENDINGS of NOCICEPTIVE NEURONS.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010146",
+        "standardized_id": "MESH:D010146",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pain",
+        "standardized_name": "Pain",
+        "normalized_name": "pain",
+        "synonyms": [],
+        "search_terms": [
+          "pain"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An unpleasant sensation induced by noxious stimuli which are detected by NERVE ENDINGS of NOCICEPTIVE NEURONS.",
+        "cleaned_description": "An unpleasant sensation induced by noxious stimuli which are detected by NERVE ENDINGS of NOCICEPTIVE NEURONS.",
+        "description_summary": "An unpleasant sensation induced by noxious stimuli which are detected by NERVE ENDINGS of NOCICEPTIVE NEURONS.",
+        "key_terms": [],
+        "word_count": 16
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.900047",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010148",
+      "DiseaseName": "Pain, Intractable",
+      "DiseaseDescription": "Persistent pain that is refractory to some or all forms of treatment.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "Unfolded Protein Response (UPR)",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010148",
+        "standardized_id": "MESH:D010148",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pain, Intractable",
+        "standardized_name": "Pain, Intractable",
+        "normalized_name": "pain intractable",
+        "synonyms": [],
+        "search_terms": [
+          "pain, intractable",
+          "pain,",
+          "intractable"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Persistent pain that is refractory to some or all forms of treatment.",
+        "cleaned_description": "Persistent pain that is refractory to some or all forms of treatment.",
+        "description_summary": "Persistent pain that is refractory to some or all forms of treatment.",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Unfolded Protein Response (UPR)",
+        "pathway_list": [
+          "Unfolded Protein Response (UPR)"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.900213",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012135",
+      "DiseaseName": "Respiratory Sounds",
+      "DiseaseDescription": "Noises, normal and abnormal, heard on auscultation over any part of the RESPIRATORY TRACT.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "Th1 and Th2 cell differentiation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012135",
+        "standardized_id": "MESH:D012135",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Respiratory Sounds",
+        "standardized_name": "Respiratory Sounds",
+        "normalized_name": "respiratory sounds",
+        "synonyms": [],
+        "search_terms": [
+          "respiratory",
+          "sounds",
+          "respiratory sounds"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Noises, normal and abnormal, heard on auscultation over any part of the RESPIRATORY TRACT.",
+        "cleaned_description": "Noises, normal and abnormal, heard on auscultation over any part of the RESPIRATORY TRACT.",
+        "description_summary": "Noises, normal and abnormal, heard on auscultation over any part of the RESPIRATORY TRACT.",
+        "key_terms": [],
+        "word_count": 14
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Th1 and Th2 cell differentiation",
+        "pathway_list": [
+          "Th1 and Th2 cell differentiation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.948301",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D045262",
+      "DiseaseName": "Reticulocytosis",
+      "DiseaseDescription": "An increase in circulating RETICULOCYTES, which is among the simplest and most reliable signs of accelerated ERYTHROCYTE production. Reticulocytosis occurs during active BLOOD regeneration (stimulation of red bone marrow) and in certain types of ANEMIA, particularly CONGENITAL HEMOLYTIC ANEMIA.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "Peroxisome",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D045262",
+        "standardized_id": "MESH:D045262",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Reticulocytosis",
+        "standardized_name": "Reticulocytosis",
+        "normalized_name": "reticulocytosis",
+        "synonyms": [],
+        "search_terms": [
+          "reticulocytosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An increase in circulating RETICULOCYTES, which is among the simplest and most reliable signs of accelerated ERYTHROCYTE production. Reticulocytosis occurs during active BLOOD regeneration (stimulation of red bone marrow) and in certain types of ANEMIA, particularly CONGENITAL HEMOLYTIC ANEMIA.",
+        "cleaned_description": "An increase in circulating RETICULOCYTES, which is among the simplest and most reliable signs of accelerated ERYTHROCYTE production. Reticulocytosis occurs during active BLOOD regeneration (stimulation of red bone marrow) and in certain types of ANEMIA, particularly CONGENITAL HEMOLYTIC ANEMIA.",
+        "description_summary": "An increase in circulating RETICULOCYTES, which is among the simplest and most reliable signs of accelerated ERYTHROCYTE production.",
+        "key_terms": [
+          "ANEMIA",
+          "Reticulocytosis"
+        ],
+        "word_count": 39
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Peroxisome",
+        "pathway_list": [
+          "Peroxisome"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.949510",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012877",
+      "DiseaseName": "Skin Manifestations",
+      "DiseaseDescription": "Dermatologic disorders attendant upon non-dermatologic disease or injury.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012877",
+        "standardized_id": "MESH:D012877",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Skin Manifestations",
+        "standardized_name": "Skin Manifestations",
+        "normalized_name": "skin manifestations",
+        "synonyms": [],
+        "search_terms": [
+          "skin manifestations",
+          "manifestations",
+          "skin"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Dermatologic disorders attendant upon non-dermatologic disease or injury.",
+        "cleaned_description": "Dermatologic disorders attendant upon non-dermatologic disease or injury.",
+        "description_summary": "Dermatologic disorders attendant upon non-dermatologic disease or injury.",
+        "key_terms": [],
+        "word_count": 8
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.966006",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012912",
+      "DiseaseName": "Sneezing",
+      "DiseaseDescription": "The sudden, forceful, involuntary expulsion of air from the NOSE and MOUTH caused by irritation to the MUCOUS MEMBRANES of the upper RESPIRATORY TRACT.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "TRP channels",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012912",
+        "standardized_id": "MESH:D012912",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Sneezing",
+        "standardized_name": "Sneezing",
+        "normalized_name": "sneezing",
+        "synonyms": [],
+        "search_terms": [
+          "sneezing"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The sudden, forceful, involuntary expulsion of air from the NOSE and MOUTH caused by irritation to the MUCOUS MEMBRANES of the upper RESPIRATORY TRACT.",
+        "cleaned_description": "The sudden, forceful, involuntary expulsion of air from the NOSE and MOUTH caused by irritation to the MUCOUS MEMBRANES of the upper RESPIRATORY TRACT.",
+        "description_summary": "The sudden, forceful, involuntary expulsion of air from the NOSE and MOUTH caused by irritation to the MUCOUS MEMBRANES of the upper RESPIRATORY TRACT.",
+        "key_terms": [],
+        "word_count": 24
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "TRP channels",
+        "pathway_list": [
+          "TRP channels"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.970529",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014103",
+      "DiseaseName": "Torticollis",
+      "DiseaseDescription": "A symptom, not a disease, of a twisted neck. In most instances, the head is tipped toward one side and the chin rotated toward the other. The involuntary muscle contractions in the neck region of patients with torticollis can be due to congenital defects, trauma, inflammation, tumors, and neurological or other factors.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014103",
+        "standardized_id": "MESH:D014103",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Torticollis",
+        "standardized_name": "Torticollis",
+        "normalized_name": "torticollis",
+        "synonyms": [],
+        "search_terms": [
+          "torticollis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A symptom, not a disease, of a twisted neck. In most instances, the head is tipped toward one side and the chin rotated toward the other. The involuntary muscle contractions in the neck region of patients with torticollis can be due to congenital defects, trauma, inflammation, tumors, and neurological or other factors.",
+        "cleaned_description": "A symptom, not a disease, of a twisted neck. In most instances, the head is tipped toward one side and the chin rotated toward the other. The involuntary muscle contractions in the neck region of patients with torticollis can be due to congenital defects, trauma, inflammation, tumors, and neurological or other factors.",
+        "description_summary": "A symptom, not a disease, of a twisted neck.",
+        "key_terms": [],
+        "word_count": 52
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.999785",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014839",
+      "DiseaseName": "Vomiting",
+      "DiseaseDescription": "The forcible expulsion of the contents of the STOMACH through the MOUTH.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014839",
+        "standardized_id": "MESH:D014839",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Vomiting",
+        "standardized_name": "Vomiting",
+        "normalized_name": "vomiting",
+        "synonyms": [],
+        "search_terms": [
+          "vomiting"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The forcible expulsion of the contents of the STOMACH through the MOUTH.",
+        "cleaned_description": "The forcible expulsion of the contents of the STOMACH through the MOUTH.",
+        "description_summary": "The forcible expulsion of the contents of the STOMACH through the MOUTH.",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.025227",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D015430",
+      "DiseaseName": "Weight Gain",
+      "DiseaseDescription": "Increase in BODY WEIGHT over existing weight.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D015430",
+        "standardized_id": "MESH:D015430",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Weight Gain",
+        "standardized_name": "Weight Gain",
+        "normalized_name": "weight gain",
+        "synonyms": [],
+        "search_terms": [
+          "weight gain",
+          "gain",
+          "weight"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Increase in BODY WEIGHT over existing weight.",
+        "cleaned_description": "Increase in BODY WEIGHT over existing weight.",
+        "description_summary": "Increase in BODY WEIGHT over existing weight.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.025753",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D015431",
+      "DiseaseName": "Weight Loss",
+      "DiseaseDescription": "Decrease in existing BODY WEIGHT.",
+      "SlimMapping": "['Signs and symptoms']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D015431",
+        "standardized_id": "MESH:D015431",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Weight Loss",
+        "standardized_name": "Weight Loss",
+        "normalized_name": "weight loss",
+        "synonyms": [],
+        "search_terms": [
+          "weight loss",
+          "loss",
+          "weight"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Decrease in existing BODY WEIGHT.",
+        "cleaned_description": "Decrease in existing BODY WEIGHT.",
+        "description_summary": "Decrease in existing BODY WEIGHT.",
+        "key_terms": [],
+        "word_count": 5
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.025815",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Musculoskeletal disease', 'Nervous system disease', 'Signs and symptoms']",
+    "export_timestamp": "2026-03-28T22:11:36.198747",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D009127",
+      "DiseaseName": "Muscle Rigidity",
+      "DiseaseDescription": "Continuous involuntary sustained muscle contraction which is often a manifestation of BASAL GANGLIA DISEASES. When an affected muscle is passively stretched, the degree of resistance remains constant regardless of the rate at which the muscle is stretched. This feature helps to distinguish rigidity from MUSCLE SPASTICITY. (From Adams et al., Principles of Neurology, 6th ed, p73)",
+      "SlimMapping": "['Musculoskeletal disease', 'Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009127",
+        "standardized_id": "MESH:D009127",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Muscle Rigidity",
+        "standardized_name": "Muscle Rigidity",
+        "normalized_name": "muscle rigidity",
+        "synonyms": [],
+        "search_terms": [
+          "muscle rigidity",
+          "rigidity",
+          "muscle"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Continuous involuntary sustained muscle contraction which is often a manifestation of BASAL GANGLIA DISEASES. When an affected muscle is passively stretched, the degree of resistance remains constant regardless of the rate at which the muscle is stretched. This feature helps to distinguish rigidity from MUSCLE SPASTICITY. (From Adams et al., Principles of Neurology, 6th ed, p73)",
+        "cleaned_description": "Continuous involuntary sustained muscle contraction which is often a manifestation of BASAL GANGLIA DISEASES. When an affected muscle is passively stretched, the degree of resistance remains constant regardless of the rate at which the muscle is stretched. This feature helps to distinguish rigidity from MUSCLE SPASTICITY. (From Adams et al., Principles of Neurology, 6th ed, p73)",
+        "description_summary": "Continuous involuntary sustained muscle contraction which is often a manifestation of BASAL GANGLIA DISEASES.",
+        "key_terms": [],
+        "word_count": 56
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.860141",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009128",
+      "DiseaseName": "Muscle Spasticity",
+      "DiseaseDescription": "A form of muscle hypertonia associated with upper MOTOR NEURON DISEASE. Resistance to passive stretch of a spastic muscle results in minimal initial resistance (a 'free interval') followed by an incremental increase in muscle tone. Tone increases in proportion to the velocity of stretch. Spasticity is usually accompanied by HYPERREFLEXIA and variable degrees of MUSCLE WEAKNESS. (From Adams et al., Principles of Neurology, 6th ed, p54)",
+      "SlimMapping": "['Musculoskeletal disease', 'Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009128",
+        "standardized_id": "MESH:D009128",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Muscle Spasticity",
+        "standardized_name": "Muscle Spasticity",
+        "normalized_name": "muscle spasticity",
+        "synonyms": [],
+        "search_terms": [
+          "muscle spasticity",
+          "muscle",
+          "spasticity"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A form of muscle hypertonia associated with upper MOTOR NEURON DISEASE. Resistance to passive stretch of a spastic muscle results in minimal initial resistance (a 'free interval') followed by an incremental increase in muscle tone. Tone increases in proportion to the velocity of stretch. Spasticity is usually accompanied by HYPERREFLEXIA and variable degrees of MUSCLE WEAKNESS. (From Adams et al., Principles of Neurology, 6th ed, p54)",
+        "cleaned_description": "A form of muscle hypertonia associated with upper MOTOR NEURON DISEASE. Resistance to passive stretch of a spastic muscle results in minimal initial resistance (a 'free interval') followed by an incremental increase in muscle tone. Tone increases in proportion to the velocity of stretch. Spasticity is usually accompanied by HYPERREFLEXIA and variable degrees of MUSCLE WEAKNESS. (From Adams et al., Principles of Neurology, 6th ed, p54)",
+        "description_summary": "A form of muscle hypertonia associated with upper MOTOR NEURON DISEASE.",
+        "key_terms": [],
+        "word_count": 66
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.860349",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

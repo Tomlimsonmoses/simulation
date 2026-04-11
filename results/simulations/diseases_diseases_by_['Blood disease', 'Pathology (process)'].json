@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Blood disease', 'Pathology (process)']",
+    "export_timestamp": "2026-03-28T22:11:36.134680",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D007964",
+      "DiseaseName": "Leukocytosis",
+      "DiseaseDescription": "A transient increase in the number of leukocytes in a body fluid.",
+      "SlimMapping": "['Blood disease', 'Pathology (process)']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007964",
+        "standardized_id": "MESH:D007964",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Leukocytosis",
+        "standardized_name": "Leukocytosis",
+        "normalized_name": "leukocytosis",
+        "synonyms": [],
+        "search_terms": [
+          "leukocytosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A transient increase in the number of leukocytes in a body fluid.",
+        "cleaned_description": "A transient increase in the number of leukocytes in a body fluid.",
+        "description_summary": "A transient increase in the number of leukocytes in a body fluid.",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease",
+          "Pathology (process)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.812653",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

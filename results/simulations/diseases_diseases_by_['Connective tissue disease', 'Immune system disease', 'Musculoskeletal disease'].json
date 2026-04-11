@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Connective tissue disease', 'Immune system disease', 'Musculoskeletal disease']",
+    "export_timestamp": "2026-03-28T22:11:35.638088",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D001171",
+      "DiseaseName": "Arthritis, Juvenile",
+      "DiseaseDescription": "Arthritis in children, with onset before 16 years of age. The terms juvenile rheumatoid arthritis (JRA) and juvenile idiopathic arthritis (JIA) refer to classification systems for chronic arthritis in children. Only one subtype of juvenile arthritis (polyarticular-onset, rheumatoid factor-positive) clinically resembles adult rheumatoid arthritis and is considered its childhood equivalent.",
+      "SlimMapping": "['Connective tissue disease', 'Immune system disease', 'Musculoskeletal disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001171",
+        "standardized_id": "MESH:D001171",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Arthritis, Juvenile",
+        "standardized_name": "Arthritis, Juvenile",
+        "normalized_name": "arthritis juvenile",
+        "synonyms": [],
+        "search_terms": [
+          "juvenile",
+          "arthritis,",
+          "arthritis, juvenile"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Arthritis in children, with onset before 16 years of age. The terms juvenile rheumatoid arthritis (JRA) and juvenile idiopathic arthritis (JIA) refer to classification systems for chronic arthritis in children. Only one subtype of juvenile arthritis (polyarticular-onset, rheumatoid factor-positive) clinically resembles adult rheumatoid arthritis and is considered its childhood equivalent.",
+        "cleaned_description": "Arthritis in children, with onset before 16 years of age. The terms juvenile rheumatoid arthritis (JRA) and juvenile idiopathic arthritis (JIA) refer to classification systems for chronic arthritis in children. Only one subtype of juvenile arthritis (polyarticular-onset, rheumatoid factor-positive) clinically resembles adult rheumatoid arthritis and is considered its childhood equivalent.",
+        "description_summary": "Arthritis in children, with onset before 16 years of age.",
+        "key_terms": [
+          "Arthritis",
+          "arthritis"
+        ],
+        "word_count": 50
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Connective tissue disease",
+          "Immune system disease",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Connective tissue disease",
+          "Immune system disease",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Connective tissue disease",
+          "Immune system disease",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.375066",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001172",
+      "DiseaseName": "Arthritis, Rheumatoid",
+      "DiseaseDescription": "A chronic systemic disease, primarily of the joints, marked by inflammatory changes in the synovial membranes and articular structures, widespread fibrinoid degeneration of the collagen fibers in mesenchymal tissues, and by atrophy and rarefaction of bony structures. Etiology is unknown, but autoimmune mechanisms have been implicated.",
+      "SlimMapping": "['Connective tissue disease', 'Immune system disease', 'Musculoskeletal disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001172",
+        "standardized_id": "MESH:D001172",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Arthritis, Rheumatoid",
+        "standardized_name": "Arthritis, Rheumatoid",
+        "normalized_name": "arthritis rheumatoid",
+        "synonyms": [],
+        "search_terms": [
+          "arthritis, rheumatoid",
+          "rheumatoid",
+          "arthritis,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A chronic systemic disease, primarily of the joints, marked by inflammatory changes in the synovial membranes and articular structures, widespread fibrinoid degeneration of the collagen fibers in mesenchymal tissues, and by atrophy and rarefaction of bony structures. Etiology is unknown, but autoimmune mechanisms have been implicated.",
+        "cleaned_description": "A chronic systemic disease, primarily of the joints, marked by inflammatory changes in the synovial membranes and articular structures, widespread fibrinoid degeneration of the collagen fibers in mesenchymal tissues, and by atrophy and rarefaction of bony structures. Etiology is unknown, but autoimmune mechanisms have been implicated.",
+        "description_summary": "A chronic systemic disease, primarily of the joints, marked by inflammatory changes in the synovial membranes and articular structures, widespread fibrinoid degeneration of the collagen fibers in mesenchymal tissues, and by atrophy and rarefaction of bony structures.",
+        "key_terms": [],
+        "word_count": 46
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Connective tissue disease",
+          "Immune system disease",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Connective tissue disease",
+          "Immune system disease",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Connective tissue disease",
+          "Immune system disease",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.375691",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

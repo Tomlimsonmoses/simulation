@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Endocrine system disease', 'Genetic disease (inborn)', 'Musculoskeletal disease']",
+    "export_timestamp": "2026-03-28T22:11:35.890233",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D003409",
+      "DiseaseName": "Congenital Hypothyroidism",
+      "DiseaseDescription": "A condition in infancy or early childhood due to an in-utero deficiency of THYROID HORMONES that can be caused by genetic or environmental factors, such as thyroid dysgenesis or HYPOTHYROIDISM in infants of mothers treated with THIOURACIL during pregnancy. Endemic cretinism is the result of iodine deficiency. Clinical symptoms include severe MENTAL RETARDATION, impaired skeletal development, short stature, and MYXEDEMA.",
+      "SlimMapping": "['Endocrine system disease', 'Genetic disease (inborn)', 'Musculoskeletal disease']",
+      "PathwayNames": "Tyrosine metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003409",
+        "standardized_id": "MESH:D003409",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Congenital Hypothyroidism",
+        "standardized_name": "Congenital Hypothyroidism",
+        "normalized_name": "congenital hypothyroidism",
+        "synonyms": [],
+        "search_terms": [
+          "congenital hypothyroidism",
+          "congenital",
+          "hypothyroidism"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition in infancy or early childhood due to an in-utero deficiency of THYROID HORMONES that can be caused by genetic or environmental factors, such as thyroid dysgenesis or HYPOTHYROIDISM in infants of mothers treated with THIOURACIL during pregnancy. Endemic cretinism is the result of iodine deficiency. Clinical symptoms include severe MENTAL RETARDATION, impaired skeletal development, short stature, and MYXEDEMA.",
+        "cleaned_description": "A condition in infancy or early childhood due to an in-utero deficiency of THYROID HORMONES that can be caused by genetic or environmental factors, such as thyroid dysgenesis or HYPOTHYROIDISM in infants of mothers treated with THIOURACIL during pregnancy. Endemic cretinism is the result of iodine deficiency. Clinical symptoms include severe MENTAL RETARDATION, impaired skeletal development, short stature, and MYXEDEMA.",
+        "description_summary": "A condition in infancy or early childhood due to an in-utero deficiency of THYROID HORMONES that can be caused by genetic or environmental factors, such as thyroid dysgenesis or HYPOTHYROIDISM in infants of mothers treated with THIOURACIL during pregnancy.",
+        "key_terms": [],
+        "word_count": 60
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease",
+          "Genetic disease (inborn)",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease",
+          "Genetic disease (inborn)",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Endocrine system disease",
+          "Genetic disease (inborn)",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tyrosine metabolism",
+        "pathway_list": [
+          "Tyrosine metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.455088",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

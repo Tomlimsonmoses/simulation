@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Skin disease', 'Viral disease']",
+    "export_timestamp": "2026-03-28T22:11:36.057792",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D006561",
+      "DiseaseName": "Herpes Simplex",
+      "DiseaseDescription": "A group of acute infections caused by herpes simplex virus type 1 or type 2 that is characterized by the development of one or more small fluid-filled vesicles with a raised erythematous base on the skin or mucous membrane. It occurs as a primary infection or recurs due to a reactivation of a latent infection. (Dorland, 27th ed.)",
+      "SlimMapping": "['Skin disease', 'Viral disease']",
+      "PathwayNames": "Nectin/Necl  trans heterodimerization",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006561",
+        "standardized_id": "MESH:D006561",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Herpes Simplex",
+        "standardized_name": "Herpes Simplex",
+        "normalized_name": "herpes simplex",
+        "synonyms": [],
+        "search_terms": [
+          "herpes simplex",
+          "herpes",
+          "simplex"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A group of acute infections caused by herpes simplex virus type 1 or type 2 that is characterized by the development of one or more small fluid-filled vesicles with a raised erythematous base on the skin or mucous membrane. It occurs as a primary infection or recurs due to a reactivation of a latent infection. (Dorland, 27th ed.)",
+        "cleaned_description": "A group of acute infections caused by herpes simplex virus type 1 or type 2 that is characterized by the development of one or more small fluid-filled vesicles with a raised erythematous base on the skin or mucous membrane. It occurs as a primary infection or recurs due to a reactivation of a latent infection. (Dorland, 27th ed.)",
+        "description_summary": "A group of acute infections caused by herpes simplex virus type 1 or type 2 that is characterized by the development of one or more small fluid-filled vesicles with a raised erythematous base on the skin or mucous membrane.",
+        "key_terms": [],
+        "word_count": 58
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Skin disease",
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Skin disease",
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Skin disease",
+          "Viral disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Nectin/Necl  trans heterodimerization",
+        "pathway_list": [
+          "Nectin/Necl  trans heterodimerization"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.657277",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

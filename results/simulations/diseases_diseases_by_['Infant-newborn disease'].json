@@ -1,0 +1,203 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Infant-newborn disease']",
+    "export_timestamp": "2026-03-28T22:11:35.657496",
+    "total_records": 3
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D001238",
+      "DiseaseName": "Asphyxia Neonatorum",
+      "DiseaseDescription": "Respiratory failure in the newborn. (Dorland, 27th ed)",
+      "SlimMapping": "['Infant-newborn disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001238",
+        "standardized_id": "MESH:D001238",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Asphyxia Neonatorum",
+        "standardized_name": "Asphyxia Neonatorum",
+        "normalized_name": "asphyxia neonatorum",
+        "synonyms": [],
+        "search_terms": [
+          "neonatorum",
+          "asphyxia neonatorum",
+          "asphyxia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Respiratory failure in the newborn. (Dorland, 27th ed)",
+        "cleaned_description": "Respiratory failure in the newborn. (Dorland, 27th ed)",
+        "description_summary": "Respiratory failure in the newborn.",
+        "key_terms": [],
+        "word_count": 8
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Infant-newborn disease"
+        ],
+        "primary_categories": [
+          "Infant-newborn disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Infant-newborn disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.377284",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007232",
+      "DiseaseName": "Infant, Newborn, Diseases",
+      "DiseaseDescription": "Diseases of newborn infants present at birth (congenital) or developing within the first month of birth. It does not include hereditary diseases not manifesting at birth or within the first 30 days of life nor does it include inborn errors of metabolism. Both HEREDITARY DISEASES and METABOLISM, INBORN ERRORS are available as general concepts.",
+      "SlimMapping": "['Infant-newborn disease']",
+      "PathwayNames": "UCH proteinases",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007232",
+        "standardized_id": "MESH:D007232",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Infant, Newborn, Diseases",
+        "standardized_name": "Infant, Newborn, Diseases",
+        "normalized_name": "infant newborn diseases",
+        "synonyms": [],
+        "search_terms": [
+          "infant,",
+          "newborn,",
+          "infant, newborn, diseases",
+          "diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases of newborn infants present at birth (congenital) or developing within the first month of birth. It does not include hereditary diseases not manifesting at birth or within the first 30 days of life nor does it include inborn errors of metabolism. Both HEREDITARY DISEASES and METABOLISM, INBORN ERRORS are available as general concepts.",
+        "cleaned_description": "Diseases of newborn infants present at birth (congenital) or developing within the first month of birth. It does not include hereditary diseases not manifesting at birth or within the first 30 days of life nor does it include inborn errors of metabolism. Both HEREDITARY DISEASES and METABOLISM, INBORN ERRORS are available as general concepts.",
+        "description_summary": "Diseases of newborn infants present at birth (congenital) or developing within the first month of birth.",
+        "key_terms": [],
+        "word_count": 54
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Infant-newborn disease"
+        ],
+        "primary_categories": [
+          "Infant-newborn disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Infant-newborn disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "UCH proteinases",
+        "pathway_list": [
+          "UCH proteinases"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.786172",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007235",
+      "DiseaseName": "Infant, Premature, Diseases",
+      "DiseaseDescription": "Diseases that occur in PREMATURE INFANTS.",
+      "SlimMapping": "['Infant-newborn disease']",
+      "PathwayNames": "Renin secretion",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007235",
+        "standardized_id": "MESH:D007235",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Infant, Premature, Diseases",
+        "standardized_name": "Infant, Premature, Diseases",
+        "normalized_name": "infant premature diseases",
+        "synonyms": [],
+        "search_terms": [
+          "premature,",
+          "infant,",
+          "diseases",
+          "infant, premature, diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases that occur in PREMATURE INFANTS.",
+        "cleaned_description": "Diseases that occur in PREMATURE INFANTS.",
+        "description_summary": "Diseases that occur in PREMATURE INFANTS.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Infant-newborn disease"
+        ],
+        "primary_categories": [
+          "Infant-newborn disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Infant-newborn disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Renin secretion",
+        "pathway_list": [
+          "Renin secretion"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.786336",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

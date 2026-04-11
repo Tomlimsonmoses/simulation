@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Congenital abnormality', 'Ear-nose-throat disease']",
+    "export_timestamp": "2026-03-28T22:11:35.891363",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D065817",
+      "DiseaseName": "Congenital Microtia",
+      "DiseaseDescription": "Malformation of external portion of EAR AURICLE.",
+      "SlimMapping": "['Congenital abnormality', 'Ear-nose-throat disease']",
+      "PathwayNames": "Small interfering RNA (siRNA) biogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D065817",
+        "standardized_id": "MESH:D065817",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Congenital Microtia",
+        "standardized_name": "Congenital Microtia",
+        "normalized_name": "congenital microtia",
+        "synonyms": [],
+        "search_terms": [
+          "congenital microtia",
+          "congenital",
+          "microtia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Malformation of external portion of EAR AURICLE.",
+        "cleaned_description": "Malformation of external portion of EAR AURICLE.",
+        "description_summary": "Malformation of external portion of EAR AURICLE.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Ear-nose-throat disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Ear-nose-throat disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Ear-nose-throat disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Small interfering RNA (siRNA) biogenesis",
+        "pathway_list": [
+          "Small interfering RNA (siRNA) biogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.455676",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

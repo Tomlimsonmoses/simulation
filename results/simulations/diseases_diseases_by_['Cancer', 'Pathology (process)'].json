@@ -1,0 +1,474 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Pathology (process)']",
+    "export_timestamp": "2026-03-28T22:11:35.836984",
+    "total_records": 7
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D063646",
+      "DiseaseName": "Carcinogenesis",
+      "DiseaseDescription": "The origin, production or development of cancer through genotypic and phenotypic changes which upset the normal balance between cell proliferation and cell death. Carcinogenesis generally requires a constellation of steps, which may occur quickly or over a period of many years.",
+      "SlimMapping": "['Cancer', 'Pathology (process)']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D063646",
+        "standardized_id": "MESH:D063646",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Carcinogenesis",
+        "standardized_name": "Carcinogenesis",
+        "normalized_name": "carcinogenesis",
+        "synonyms": [],
+        "search_terms": [
+          "carcinogenesis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The origin, production or development of cancer through genotypic and phenotypic changes which upset the normal balance between cell proliferation and cell death. Carcinogenesis generally requires a constellation of steps, which may occur quickly or over a period of many years.",
+        "cleaned_description": "The origin, production or development of cancer through genotypic and phenotypic changes which upset the normal balance between cell proliferation and cell death. Carcinogenesis generally requires a constellation of steps, which may occur quickly or over a period of many years.",
+        "description_summary": "The origin, production or development of cancer through genotypic and phenotypic changes which upset the normal balance between cell proliferation and cell death.",
+        "key_terms": [],
+        "word_count": 41
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Pathology (process)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.414110",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002471",
+      "DiseaseName": "Cell Transformation, Neoplastic",
+      "DiseaseDescription": "Cell changes manifested by escape from control mechanisms, increased growth potential, alterations in the cell surface, karyotypic abnormalities, morphological and biochemical deviations from the norm, and other attributes conferring the ability to invade, metastasize, and kill.",
+      "SlimMapping": "['Cancer', 'Pathology (process)']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002471",
+        "standardized_id": "MESH:D002471",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cell Transformation, Neoplastic",
+        "standardized_name": "Cell Transformation, Neoplastic",
+        "normalized_name": "cell transformation neoplastic",
+        "synonyms": [],
+        "search_terms": [
+          "cell",
+          "neoplastic",
+          "transformation,",
+          "cell transformation, neoplastic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Cell changes manifested by escape from control mechanisms, increased growth potential, alterations in the cell surface, karyotypic abnormalities, morphological and biochemical deviations from the norm, and other attributes conferring the ability to invade, metastasize, and kill.",
+        "cleaned_description": "Cell changes manifested by escape from control mechanisms, increased growth potential, alterations in the cell surface, karyotypic abnormalities, morphological and biochemical deviations from the norm, and other attributes conferring the ability to invade, metastasize, and kill.",
+        "description_summary": "Cell changes manifested by escape from control mechanisms, increased growth potential, alterations in the cell surface, karyotypic abnormalities, morphological and biochemical deviations from the norm, and other attributes conferring the ability to invade, metastasize, and kill.",
+        "key_terms": [],
+        "word_count": 36
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Pathology (process)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.432584",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008207",
+      "DiseaseName": "Lymphatic Metastasis",
+      "DiseaseDescription": "Transfer of a neoplasm from its primary site to lymph nodes or to distant parts of the body by way of the lymphatic system.",
+      "SlimMapping": "['Cancer', 'Pathology (process)']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008207",
+        "standardized_id": "MESH:D008207",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Lymphatic Metastasis",
+        "standardized_name": "Lymphatic Metastasis",
+        "normalized_name": "lymphatic metastasis",
+        "synonyms": [],
+        "search_terms": [
+          "lymphatic metastasis",
+          "metastasis",
+          "lymphatic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Transfer of a neoplasm from its primary site to lymph nodes or to distant parts of the body by way of the lymphatic system.",
+        "cleaned_description": "Transfer of a neoplasm from its primary site to lymph nodes or to distant parts of the body by way of the lymphatic system.",
+        "description_summary": "Transfer of a neoplasm from its primary site to lymph nodes or to distant parts of the body by way of the lymphatic system.",
+        "key_terms": [],
+        "word_count": 24
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Pathology (process)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.826998",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009361",
+      "DiseaseName": "Neoplasm Invasiveness",
+      "DiseaseDescription": "Ability of neoplasms to infiltrate and actively destroy surrounding tissue.",
+      "SlimMapping": "['Cancer', 'Pathology (process)']",
+      "PathwayNames": "Zinc transporters",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009361",
+        "standardized_id": "MESH:D009361",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Neoplasm Invasiveness",
+        "standardized_name": "Neoplasm Invasiveness",
+        "normalized_name": "neoplasm invasiveness",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasm",
+          "neoplasm invasiveness",
+          "invasiveness"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Ability of neoplasms to infiltrate and actively destroy surrounding tissue.",
+        "cleaned_description": "Ability of neoplasms to infiltrate and actively destroy surrounding tissue.",
+        "description_summary": "Ability of neoplasms to infiltrate and actively destroy surrounding tissue.",
+        "key_terms": [],
+        "word_count": 10
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Pathology (process)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Zinc transporters",
+        "pathway_list": [
+          "Zinc transporters"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.867062",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009362",
+      "DiseaseName": "Neoplasm Metastasis",
+      "DiseaseDescription": "The transfer of a neoplasm from one organ or part of the body to another remote from the primary site.",
+      "SlimMapping": "['Cancer', 'Pathology (process)']",
+      "PathwayNames": "Zinc transporters",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009362",
+        "standardized_id": "MESH:D009362",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Neoplasm Metastasis",
+        "standardized_name": "Neoplasm Metastasis",
+        "normalized_name": "neoplasm metastasis",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasm",
+          "metastasis",
+          "neoplasm metastasis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The transfer of a neoplasm from one organ or part of the body to another remote from the primary site.",
+        "cleaned_description": "The transfer of a neoplasm from one organ or part of the body to another remote from the primary site.",
+        "description_summary": "The transfer of a neoplasm from one organ or part of the body to another remote from the primary site.",
+        "key_terms": [],
+        "word_count": 20
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Pathology (process)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Zinc transporters",
+        "pathway_list": [
+          "Zinc transporters"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.868918",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009364",
+      "DiseaseName": "Neoplasm Recurrence, Local",
+      "DiseaseDescription": "The local recurrence of a neoplasm following treatment. It arises from microscopic cells of the original neoplasm that have escaped therapeutic intervention and later become clinically visible at the original site.",
+      "SlimMapping": "['Cancer', 'Pathology (process)']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009364",
+        "standardized_id": "MESH:D009364",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Neoplasm Recurrence, Local",
+        "standardized_name": "Neoplasm Recurrence, Local",
+        "normalized_name": "neoplasm recurrence local",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasm",
+          "neoplasm recurrence, local",
+          "recurrence,",
+          "local"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The local recurrence of a neoplasm following treatment. It arises from microscopic cells of the original neoplasm that have escaped therapeutic intervention and later become clinically visible at the original site.",
+        "cleaned_description": "The local recurrence of a neoplasm following treatment. It arises from microscopic cells of the original neoplasm that have escaped therapeutic intervention and later become clinically visible at the original site.",
+        "description_summary": "The local recurrence of a neoplasm following treatment.",
+        "key_terms": [],
+        "word_count": 31
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Pathology (process)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.871561",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009385",
+      "DiseaseName": "Neoplastic Processes",
+      "DiseaseDescription": "The pathological mechanisms and forms taken by tissue during degeneration into a neoplasm and its subsequent activity.",
+      "SlimMapping": "['Cancer', 'Pathology (process)']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009385",
+        "standardized_id": "MESH:D009385",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Neoplastic Processes",
+        "standardized_name": "Neoplastic Processes",
+        "normalized_name": "neoplastic processes",
+        "synonyms": [],
+        "search_terms": [
+          "processes",
+          "neoplastic",
+          "neoplastic processes"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The pathological mechanisms and forms taken by tissue during degeneration into a neoplasm and its subsequent activity.",
+        "cleaned_description": "The pathological mechanisms and forms taken by tissue during degeneration into a neoplasm and its subsequent activity.",
+        "description_summary": "The pathological mechanisms and forms taken by tissue during degeneration into a neoplasm and its subsequent activity.",
+        "key_terms": [],
+        "word_count": 17
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Pathology (process)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.874222",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

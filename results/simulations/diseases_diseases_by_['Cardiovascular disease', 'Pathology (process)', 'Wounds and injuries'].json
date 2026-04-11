@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cardiovascular disease', 'Pathology (process)', 'Wounds and injuries']",
+    "export_timestamp": "2026-03-28T22:11:35.856694",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D066126",
+      "DiseaseName": "Cardiotoxicity",
+      "DiseaseDescription": "Damage to the HEART or its function secondary to exposure to toxic substances such as drugs used in CHEMOTHERAPY; IMMUNOTHERAPY; or RADIATION.",
+      "SlimMapping": "['Cardiovascular disease', 'Pathology (process)', 'Wounds and injuries']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D066126",
+        "standardized_id": "MESH:D066126",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cardiotoxicity",
+        "standardized_name": "Cardiotoxicity",
+        "normalized_name": "cardiotoxicity",
+        "synonyms": [],
+        "search_terms": [
+          "cardiotoxicity"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Damage to the HEART or its function secondary to exposure to toxic substances such as drugs used in CHEMOTHERAPY; IMMUNOTHERAPY; or RADIATION.",
+        "cleaned_description": "Damage to the HEART or its function secondary to exposure to toxic substances such as drugs used in CHEMOTHERAPY; IMMUNOTHERAPY; or RADIATION.",
+        "description_summary": "Damage to the HEART or its function secondary to exposure to toxic substances such as drugs used in CHEMOTHERAPY; IMMUNOTHERAPY; or RADIATION.",
+        "key_terms": [],
+        "word_count": 22
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Pathology (process)",
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Pathology (process)",
+          "Wounds and injuries"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Pathology (process)",
+          "Wounds and injuries"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.428655",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

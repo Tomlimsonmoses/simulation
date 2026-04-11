@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Digestive system disease', 'Viral disease']",
+    "export_timestamp": "2026-03-28T22:11:36.049138",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D006509",
+      "DiseaseName": "Hepatitis B",
+      "DiseaseDescription": "INFLAMMATION of the LIVER in humans caused by a member of the ORTHOHEPADNAVIRUS genus, HEPATITIS B VIRUS. It is primarily transmitted by parenteral exposure, such as transfusion of contaminated blood or blood products, but can also be transmitted via sexual or intimate personal contact.",
+      "SlimMapping": "['Digestive system disease', 'Viral disease']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006509",
+        "standardized_id": "MESH:D006509",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hepatitis B",
+        "standardized_name": "Hepatitis B",
+        "normalized_name": "hepatitis b",
+        "synonyms": [],
+        "search_terms": [
+          "hepatitis",
+          "hepatitis b"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "INFLAMMATION of the LIVER in humans caused by a member of the ORTHOHEPADNAVIRUS genus, HEPATITIS B VIRUS. It is primarily transmitted by parenteral exposure, such as transfusion of contaminated blood or blood products, but can also be transmitted via sexual or intimate personal contact.",
+        "cleaned_description": "INFLAMMATION of the LIVER in humans caused by a member of the ORTHOHEPADNAVIRUS genus, HEPATITIS B VIRUS. It is primarily transmitted by parenteral exposure, such as transfusion of contaminated blood or blood products, but can also be transmitted via sexual or intimate personal contact.",
+        "description_summary": "INFLAMMATION of the LIVER in humans caused by a member of the ORTHOHEPADNAVIRUS genus, HEPATITIS B VIRUS.",
+        "key_terms": [
+          "HEPATITIS"
+        ],
+        "word_count": 44
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease",
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease",
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Digestive system disease",
+          "Viral disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.649795",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006526",
+      "DiseaseName": "Hepatitis C",
+      "DiseaseDescription": "INFLAMMATION of the LIVER in humans caused by HEPATITIS C VIRUS, a single-stranded RNA virus. Its incubation period is 30-90 days. Hepatitis C is transmitted primarily by contaminated blood parenterally and is often associated with transfusion and intravenous drug abuse. However, in a significant number of cases, the source of hepatitis C infection is unknown.",
+      "SlimMapping": "['Digestive system disease', 'Viral disease']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006526",
+        "standardized_id": "MESH:D006526",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hepatitis C",
+        "standardized_name": "Hepatitis C",
+        "normalized_name": "hepatitis c",
+        "synonyms": [],
+        "search_terms": [
+          "hepatitis",
+          "hepatitis c"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "INFLAMMATION of the LIVER in humans caused by HEPATITIS C VIRUS, a single-stranded RNA virus. Its incubation period is 30-90 days. Hepatitis C is transmitted primarily by contaminated blood parenterally and is often associated with transfusion and intravenous drug abuse. However, in a significant number of cases, the source of hepatitis C infection is unknown.",
+        "cleaned_description": "INFLAMMATION of the LIVER in humans caused by HEPATITIS C VIRUS, a single-stranded RNA virus. Its incubation period is 30-90 days. Hepatitis C is transmitted primarily by contaminated blood parenterally and is often associated with transfusion and intravenous drug abuse. However, in a significant number of cases, the source of hepatitis C infection is unknown.",
+        "description_summary": "INFLAMMATION of the LIVER in humans caused by HEPATITIS C VIRUS, a single-stranded RNA virus.",
+        "key_terms": [
+          "Hepatitis",
+          "hepatitis",
+          "HEPATITIS"
+        ],
+        "word_count": 55
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease",
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease",
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Digestive system disease",
+          "Viral disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.650444",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

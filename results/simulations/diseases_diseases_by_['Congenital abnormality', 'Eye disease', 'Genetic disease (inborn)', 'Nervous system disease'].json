@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Congenital abnormality', 'Eye disease', 'Genetic disease (inborn)', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:35.505078",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D056769",
+      "DiseaseName": "Alstrom Syndrome",
+      "DiseaseDescription": "Rare autosomal recessive disease characterized by multiple organ dysfunction. The key clinical features include retinal degeneration (NYSTAGMUS, PATHOLOGIC; RETINITIS PIGMENTOSA; and eventual blindness), childhood obesity, sensorineural hearing loss, and normal mental development. Endocrinologic complications include TYPE 2 DIABETES MELLITUS; HYPERINSULINEMIA; ACANTHOSIS NIGRICANS; HYPOTHYROIDISM; and progressive renal and hepatic failures. The disease is caused by mutations in the ALMS1 gene.",
+      "SlimMapping": "['Congenital abnormality', 'Eye disease', 'Genetic disease (inborn)', 'Nervous system disease']",
+      "PathwayNames": "Regulation of PLK1 Activity at G2/M Transition",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D056769",
+        "standardized_id": "MESH:D056769",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Alstrom Syndrome",
+        "standardized_name": "Alstrom Syndrome",
+        "normalized_name": "alstrom syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "alstrom syndrome",
+          "alstrom",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Rare autosomal recessive disease characterized by multiple organ dysfunction. The key clinical features include retinal degeneration (NYSTAGMUS, PATHOLOGIC; RETINITIS PIGMENTOSA; and eventual blindness), childhood obesity, sensorineural hearing loss, and normal mental development. Endocrinologic complications include TYPE 2 DIABETES MELLITUS; HYPERINSULINEMIA; ACANTHOSIS NIGRICANS; HYPOTHYROIDISM; and progressive renal and hepatic failures. The disease is caused by mutations in the ALMS1 gene.",
+        "cleaned_description": "Rare autosomal recessive disease characterized by multiple organ dysfunction. The key clinical features include retinal degeneration (NYSTAGMUS, PATHOLOGIC; RETINITIS PIGMENTOSA; and eventual blindness), childhood obesity, sensorineural hearing loss, and normal mental development. Endocrinologic complications include TYPE 2 DIABETES MELLITUS; HYPERINSULINEMIA; ACANTHOSIS NIGRICANS; HYPOTHYROIDISM; and progressive renal and hepatic failures. The disease is caused by mutations in the ALMS1 gene.",
+        "description_summary": "Rare autosomal recessive disease characterized by multiple organ dysfunction.",
+        "key_terms": [
+          "HYPERINSULINEMIA",
+          "ACANTHOSIS",
+          "RETINITIS"
+        ],
+        "word_count": 59
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Eye disease",
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Eye disease",
+          "Genetic disease (inborn)"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Eye disease",
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Regulation of PLK1 Activity at G2/M Transition",
+        "pathway_list": [
+          "Regulation of PLK1 Activity at G2/M Transition"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.360725",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

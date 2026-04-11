@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Digestive system disease', 'Genetic disease (inborn)']",
+    "export_timestamp": "2026-03-28T22:11:35.411558",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D011125",
+      "DiseaseName": "Adenomatous Polyposis Coli",
+      "DiseaseDescription": "A polyposis syndrome due to an autosomal dominant mutation of the APC genes (GENES, APC) on CHROMOSOME 5. The syndrome is characterized by the development of hundreds of ADENOMATOUS POLYPS in the COLON and RECTUM of affected individuals by early adulthood.",
+      "SlimMapping": "['Cancer', 'Digestive system disease', 'Genetic disease (inborn)']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011125",
+        "standardized_id": "MESH:D011125",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Adenomatous Polyposis Coli",
+        "standardized_name": "Adenomatous Polyposis Coli",
+        "normalized_name": "adenomatous polyposis coli",
+        "synonyms": [],
+        "search_terms": [
+          "coli",
+          "polyposis",
+          "adenomatous",
+          "adenomatous polyposis coli"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A polyposis syndrome due to an autosomal dominant mutation of the APC genes (GENES, APC) on CHROMOSOME 5. The syndrome is characterized by the development of hundreds of ADENOMATOUS POLYPS in the COLON and RECTUM of affected individuals by early adulthood.",
+        "cleaned_description": "A polyposis syndrome due to an autosomal dominant mutation of the APC genes (GENES, APC) on CHROMOSOME 5. The syndrome is characterized by the development of hundreds of ADENOMATOUS POLYPS in the COLON and RECTUM of affected individuals by early adulthood.",
+        "description_summary": "A polyposis syndrome due to an autosomal dominant mutation of the APC genes (GENES, APC) on CHROMOSOME 5.",
+        "key_terms": [
+          "polyposis"
+        ],
+        "word_count": 41
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Digestive system disease",
+          "Genetic disease (inborn)"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Digestive system disease",
+          "Genetic disease (inborn)"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Digestive system disease",
+          "Genetic disease (inborn)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.356524",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

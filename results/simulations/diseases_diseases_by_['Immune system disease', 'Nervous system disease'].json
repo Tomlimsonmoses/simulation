@@ -1,0 +1,224 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Immune system disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:35.982745",
+    "total_records": 3
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D004681",
+      "DiseaseName": "Encephalomyelitis, Autoimmune, Experimental",
+      "DiseaseDescription": "An experimental animal model for central nervous system demyelinating disease. Inoculation with a white matter emulsion combined with FREUND'S ADJUVANT, myelin basic protein, or purified central myelin triggers a T cell-mediated immune response directed towards central myelin. The pathologic features are similar to MULTIPLE SCLEROSIS, including perivascular and periventricular foci of inflammation and demyelination. Subpial demyelination underlying meningeal infiltrations also occurs, which is also a feature of ENCEPHALOMYELITIS, ACUTE DISSEMINATED. Passive immunization with T-cells from an afflicted animal to a normal animal also induces this condition. (From Immunol Res 1998;17(1-2):217-27; Raine CS, Textbook of Neuropathology, 2nd ed, p604-5)",
+      "SlimMapping": "['Immune system disease', 'Nervous system disease']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004681",
+        "standardized_id": "MESH:D004681",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Encephalomyelitis, Autoimmune, Experimental",
+        "standardized_name": "Encephalomyelitis, Autoimmune, Experimental",
+        "normalized_name": "encephalomyelitis autoimmune experimental",
+        "synonyms": [],
+        "search_terms": [
+          "experimental",
+          "encephalomyelitis, autoimmune, experimental",
+          "encephalomyelitis,",
+          "autoimmune,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An experimental animal model for central nervous system demyelinating disease. Inoculation with a white matter emulsion combined with FREUND'S ADJUVANT, myelin basic protein, or purified central myelin triggers a T cell-mediated immune response directed towards central myelin. The pathologic features are similar to MULTIPLE SCLEROSIS, including perivascular and periventricular foci of inflammation and demyelination. Subpial demyelination underlying meningeal infiltrations also occurs, which is also a feature of ENCEPHALOMYELITIS, ACUTE DISSEMINATED. Passive immunization with T-cells from an afflicted animal to a normal animal also induces this condition. (From Immunol Res 1998;17(1-2):217-27; Raine CS, Textbook of Neuropathology, 2nd ed, p604-5)",
+        "cleaned_description": "An experimental animal model for central nervous system demyelinating disease. Inoculation with a white matter emulsion combined with FREUND'S ADJUVANT, myelin basic protein, or purified central myelin triggers a T cell-mediated immune response directed towards central myelin. The pathologic features are similar to MULTIPLE SCLEROSIS, including perivascular and periventricular foci of inflammation and demyelination. Subpial demyelination underlying meningeal infiltrations also occurs, which is also a feature of ENCEPHALOMYELITIS, ACUTE DISSEMINATED. Passive immunization with T-cells from an afflicted animal to a normal animal also induces this condition. (From Immunol Res 1998;17(1-2):217-27; Raine CS, Textbook of Neuropathology, 2nd ed, p604-5)",
+        "description_summary": "An experimental animal model for central nervous system demyelinating disease.",
+        "key_terms": [
+          "SCLEROSIS",
+          "ENCEPHALOMYELITIS"
+        ],
+        "word_count": 98
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Immune system disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.494573",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009103",
+      "DiseaseName": "Multiple Sclerosis",
+      "DiseaseDescription": "An autoimmune disorder mainly affecting young adults and characterized by destruction of myelin in the central nervous system. Pathologic findings include multiple sharply demarcated areas of demyelination throughout the white matter of the central nervous system. Clinical manifestations include visual loss, extra-ocular movement disorders, paresthesias, loss of sensation, weakness, dysarthria, spasticity, ataxia, and bladder dysfunction. The usual pattern is one of recurrent attacks followed by partial recovery (see MULTIPLE SCLEROSIS, RELAPSING-REMITTING), but acute fulminating and chronic progressive forms (see MULTIPLE SCLEROSIS, CHRONIC PROGRESSIVE) also occur. (Adams et al., Principles of Neurology, 6th ed, p903)",
+      "SlimMapping": "['Immune system disease', 'Nervous system disease']",
+      "PathwayNames": "XBP1(S) activates chaperone genes",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009103",
+        "standardized_id": "MESH:D009103",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Multiple Sclerosis",
+        "standardized_name": "Multiple Sclerosis",
+        "normalized_name": "multiple sclerosis",
+        "synonyms": [],
+        "search_terms": [
+          "multiple sclerosis",
+          "multiple",
+          "sclerosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An autoimmune disorder mainly affecting young adults and characterized by destruction of myelin in the central nervous system. Pathologic findings include multiple sharply demarcated areas of demyelination throughout the white matter of the central nervous system. Clinical manifestations include visual loss, extra-ocular movement disorders, paresthesias, loss of sensation, weakness, dysarthria, spasticity, ataxia, and bladder dysfunction. The usual pattern is one of recurrent attacks followed by partial recovery (see MULTIPLE SCLEROSIS, RELAPSING-REMITTING), but acute fulminating and chronic progressive forms (see MULTIPLE SCLEROSIS, CHRONIC PROGRESSIVE) also occur. (Adams et al., Principles of Neurology, 6th ed, p903)",
+        "cleaned_description": "An autoimmune disorder mainly affecting young adults and characterized by destruction of myelin in the central nervous system. Pathologic findings include multiple sharply demarcated areas of demyelination throughout the white matter of the central nervous system. Clinical manifestations include visual loss, extra-ocular movement disorders, paresthesias, loss of sensation, weakness, dysarthria, spasticity, ataxia, and bladder dysfunction. The usual pattern is one of recurrent attacks followed by partial recovery (see MULTIPLE SCLEROSIS, RELAPSING-REMITTING), but acute fulminating and chronic progressive forms (see MULTIPLE SCLEROSIS, CHRONIC PROGRESSIVE) also occur. (Adams et al., Principles of Neurology, 6th ed, p903)",
+        "description_summary": "An autoimmune disorder mainly affecting young adults and characterized by destruction of myelin in the central nervous system.",
+        "key_terms": [
+          "SCLEROSIS"
+        ],
+        "word_count": 94
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Immune system disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "XBP1(S) activates chaperone genes",
+        "pathway_list": [
+          "XBP1(S) activates chaperone genes"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.859155",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020529",
+      "DiseaseName": "Multiple Sclerosis, Relapsing-Remitting",
+      "DiseaseDescription": "The most common clinical variant of MULTIPLE SCLEROSIS, characterized by recurrent acute exacerbations of neurologic dysfunction followed by partial or complete recovery. Common clinical manifestations include loss of visual (see OPTIC NEURITIS), motor, sensory, or bladder function. Acute episodes of demyelination may occur at any site in the central nervous system, and commonly involve the optic nerves, spinal cord, brain stem, and cerebellum. (Adams et al., Principles of Neurology, 6th ed, pp903-914)",
+      "SlimMapping": "['Immune system disease', 'Nervous system disease']",
+      "PathwayNames": "Visual phototransduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020529",
+        "standardized_id": "MESH:D020529",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Multiple Sclerosis, Relapsing-Remitting",
+        "standardized_name": "Multiple Sclerosis, Relapsing-Remitting",
+        "normalized_name": "multiple sclerosis relapsing-remitting",
+        "synonyms": [],
+        "search_terms": [
+          "multiple",
+          "sclerosis,",
+          "relapsing-remitting",
+          "multiple sclerosis, relapsing-remitting"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The most common clinical variant of MULTIPLE SCLEROSIS, characterized by recurrent acute exacerbations of neurologic dysfunction followed by partial or complete recovery. Common clinical manifestations include loss of visual (see OPTIC NEURITIS), motor, sensory, or bladder function. Acute episodes of demyelination may occur at any site in the central nervous system, and commonly involve the optic nerves, spinal cord, brain stem, and cerebellum. (Adams et al., Principles of Neurology, 6th ed, pp903-914)",
+        "cleaned_description": "The most common clinical variant of MULTIPLE SCLEROSIS, characterized by recurrent acute exacerbations of neurologic dysfunction followed by partial or complete recovery. Common clinical manifestations include loss of visual (see OPTIC NEURITIS), motor, sensory, or bladder function. Acute episodes of demyelination may occur at any site in the central nervous system, and commonly involve the optic nerves, spinal cord, brain stem, and cerebellum. (Adams et al., Principles of Neurology, 6th ed, pp903-914)",
+        "description_summary": "The most common clinical variant of MULTIPLE SCLEROSIS, characterized by recurrent acute exacerbations of neurologic dysfunction followed by partial or complete recovery.",
+        "key_terms": [
+          "SCLEROSIS",
+          "NEURITIS"
+        ],
+        "word_count": 72
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Immune system disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Visual phototransduction",
+        "pathway_list": [
+          "Visual phototransduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.859436",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

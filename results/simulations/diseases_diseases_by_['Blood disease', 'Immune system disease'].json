@@ -1,0 +1,219 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Blood disease', 'Immune system disease']",
+    "export_timestamp": "2026-03-28T22:11:35.523394",
+    "total_records": 3
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000744",
+      "DiseaseName": "Anemia, Hemolytic, Autoimmune",
+      "DiseaseDescription": "Acquired hemolytic anemia due to the presence of AUTOANTIBODIES which agglutinate or lyse the patient's own RED BLOOD CELLS.",
+      "SlimMapping": "['Blood disease', 'Immune system disease']",
+      "PathwayNames": "Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000744",
+        "standardized_id": "MESH:D000744",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Anemia, Hemolytic, Autoimmune",
+        "standardized_name": "Anemia, Hemolytic, Autoimmune",
+        "normalized_name": "anemia hemolytic autoimmune",
+        "synonyms": [],
+        "search_terms": [
+          "hemolytic,",
+          "anemia,",
+          "autoimmune",
+          "anemia, hemolytic, autoimmune"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Acquired hemolytic anemia due to the presence of AUTOANTIBODIES which agglutinate or lyse the patient's own RED BLOOD CELLS.",
+        "cleaned_description": "Acquired hemolytic anemia due to the presence of AUTOANTIBODIES which agglutinate or lyse the patient's own RED BLOOD CELLS.",
+        "description_summary": "Acquired hemolytic anemia due to the presence of AUTOANTIBODIES which agglutinate or lyse the patient's own RED BLOOD CELLS.",
+        "key_terms": [
+          "anemia"
+        ],
+        "word_count": 19
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Immune system disease"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Immune system disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Blood disease",
+          "Immune system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds",
+        "pathway_list": [
+          "metal ions and amine compounds",
+          "Transport of glucose and other sugars",
+          "bile salts and organic acids"
+        ],
+        "pathway_count": 3,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.363384",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D017098",
+      "DiseaseName": "IgA Deficiency",
+      "DiseaseDescription": "A dysgammaglobulinemia characterized by a deficiency of IMMUNOGLOBULIN A.",
+      "SlimMapping": "['Blood disease', 'Immune system disease']",
+      "PathwayNames": "Ub-specific processing proteases",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017098",
+        "standardized_id": "MESH:D017098",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "IgA Deficiency",
+        "standardized_name": "IgA Deficiency",
+        "normalized_name": "iga deficiency",
+        "synonyms": [],
+        "search_terms": [
+          "iga",
+          "iga deficiency",
+          "deficiency"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A dysgammaglobulinemia characterized by a deficiency of IMMUNOGLOBULIN A.",
+        "cleaned_description": "A dysgammaglobulinemia characterized by a deficiency of IMMUNOGLOBULIN A.",
+        "description_summary": "A dysgammaglobulinemia characterized by a deficiency of IMMUNOGLOBULIN A.",
+        "key_terms": [
+          "dysgammaglobulinemia"
+        ],
+        "word_count": 9
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Immune system disease"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Immune system disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Blood disease",
+          "Immune system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Ub-specific processing proteases",
+        "pathway_list": [
+          "Ub-specific processing proteases"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.781812",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008231",
+      "DiseaseName": "Lymphopenia",
+      "DiseaseDescription": "Reduction in the number of lymphocytes.",
+      "SlimMapping": "['Blood disease', 'Immune system disease']",
+      "PathwayNames": "Vpr-mediated nuclear import of PICs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008231",
+        "standardized_id": "MESH:D008231",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Lymphopenia",
+        "standardized_name": "Lymphopenia",
+        "normalized_name": "lymphopenia",
+        "synonyms": [],
+        "search_terms": [
+          "lymphopenia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Reduction in the number of lymphocytes.",
+        "cleaned_description": "Reduction in the number of lymphocytes.",
+        "description_summary": "Reduction in the number of lymphocytes.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Immune system disease"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Immune system disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Blood disease",
+          "Immune system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vpr-mediated nuclear import of PICs",
+        "pathway_list": [
+          "Vpr-mediated nuclear import of PICs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.832130",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

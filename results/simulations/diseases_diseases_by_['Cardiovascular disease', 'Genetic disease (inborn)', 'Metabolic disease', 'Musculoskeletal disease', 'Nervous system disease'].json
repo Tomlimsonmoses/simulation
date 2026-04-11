@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cardiovascular disease', 'Genetic disease (inborn)', 'Metabolic disease', 'Musculoskeletal disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.181460",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D017241",
+      "DiseaseName": "MELAS Syndrome",
+      "DiseaseDescription": "A mitochondrial disorder characterized by focal or generalized seizures, episodes of transient or persistent neurologic dysfunction resembling strokes, and ragged-red fibers on muscle biopsy. Affected individuals tend to be normal at birth through early childhood, then experience growth failure, episodic vomiting, and recurrent cerebral insults resulting in visual loss and hemiparesis. The cortical lesions tend to occur in the parietal and occipital lobes and are not associated with vascular occlusion. VASCULAR HEADACHE is frequently associated and the disorder tends to be familial. (From Joynt, Clinical Neurology, 1992, Ch56, p117)",
+      "SlimMapping": "['Cardiovascular disease', 'Genetic disease (inborn)', 'Metabolic disease', 'Musculoskeletal disease', 'Nervous system disease']",
+      "PathwayNames": "Type I diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017241",
+        "standardized_id": "MESH:D017241",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "MELAS Syndrome",
+        "standardized_name": "MELAS Syndrome",
+        "normalized_name": "melas syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "melas",
+          "syndrome",
+          "melas syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A mitochondrial disorder characterized by focal or generalized seizures, episodes of transient or persistent neurologic dysfunction resembling strokes, and ragged-red fibers on muscle biopsy. Affected individuals tend to be normal at birth through early childhood, then experience growth failure, episodic vomiting, and recurrent cerebral insults resulting in visual loss and hemiparesis. The cortical lesions tend to occur in the parietal and occipital lobes and are not associated with vascular occlusion. VASCULAR HEADACHE is frequently associated and the disorder tends to be familial. (From Joynt, Clinical Neurology, 1992, Ch56, p117)",
+        "cleaned_description": "A mitochondrial disorder characterized by focal or generalized seizures, episodes of transient or persistent neurologic dysfunction resembling strokes, and ragged-red fibers on muscle biopsy. Affected individuals tend to be normal at birth through early childhood, then experience growth failure, episodic vomiting, and recurrent cerebral insults resulting in visual loss and hemiparesis. The cortical lesions tend to occur in the parietal and occipital lobes and are not associated with vascular occlusion. VASCULAR HEADACHE is frequently associated and the disorder tends to be familial. (From Joynt, Clinical Neurology, 1992, Ch56, p117)",
+        "description_summary": "A mitochondrial disorder characterized by focal or generalized seizures, episodes of transient or persistent neurologic dysfunction resembling strokes, and ragged-red fibers on muscle biopsy.",
+        "key_terms": [],
+        "word_count": 89
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "cardiovascular",
+          "genetic"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "category_count": 5
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type I diabetes mellitus",
+        "pathway_list": [
+          "Type I diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.841302",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

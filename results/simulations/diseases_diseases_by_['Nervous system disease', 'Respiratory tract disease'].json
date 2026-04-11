@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Nervous system disease', 'Respiratory tract disease']",
+    "export_timestamp": "2026-03-28T22:11:36.303748",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D020181",
+      "DiseaseName": "Sleep Apnea, Obstructive",
+      "DiseaseDescription": "A disorder characterized by recurrent apneas during sleep despite persistent respiratory efforts. It is due to upper airway obstruction. The respiratory pauses may induce HYPERCAPNIA or HYPOXIA. Cardiac arrhythmias and elevation of systemic and pulmonary arterial pressures may occur. Frequent partial arousals occur throughout sleep, resulting in relative SLEEP DEPRIVATION and daytime tiredness. Associated conditions include OBESITY; ACROMEGALY; MYXEDEMA; micrognathia; MYOTONIC DYSTROPHY; adenotonsilar dystrophy; and NEUROMUSCULAR DISEASES. (From Adams et al., Principles of Neurology, 6th ed, p395)",
+      "SlimMapping": "['Nervous system disease', 'Respiratory tract disease']",
+      "PathwayNames": "Vascular smooth muscle contraction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020181",
+        "standardized_id": "MESH:D020181",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Sleep Apnea, Obstructive",
+        "standardized_name": "Sleep Apnea, Obstructive",
+        "normalized_name": "sleep apnea obstructive",
+        "synonyms": [],
+        "search_terms": [
+          "sleep",
+          "sleep apnea, obstructive",
+          "obstructive",
+          "apnea,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A disorder characterized by recurrent apneas during sleep despite persistent respiratory efforts. It is due to upper airway obstruction. The respiratory pauses may induce HYPERCAPNIA or HYPOXIA. Cardiac arrhythmias and elevation of systemic and pulmonary arterial pressures may occur. Frequent partial arousals occur throughout sleep, resulting in relative SLEEP DEPRIVATION and daytime tiredness. Associated conditions include OBESITY; ACROMEGALY; MYXEDEMA; micrognathia; MYOTONIC DYSTROPHY; adenotonsilar dystrophy; and NEUROMUSCULAR DISEASES. (From Adams et al., Principles of Neurology, 6th ed, p395)",
+        "cleaned_description": "A disorder characterized by recurrent apneas during sleep despite persistent respiratory efforts. It is due to upper airway obstruction. The respiratory pauses may induce HYPERCAPNIA or HYPOXIA. Cardiac arrhythmias and elevation of systemic and pulmonary arterial pressures may occur. Frequent partial arousals occur throughout sleep, resulting in relative SLEEP DEPRIVATION and daytime tiredness. Associated conditions include OBESITY; ACROMEGALY; MYXEDEMA; micrognathia; MYOTONIC DYSTROPHY; adenotonsilar dystrophy; and NEUROMUSCULAR DISEASES. (From Adams et al., Principles of Neurology, 6th ed, p395)",
+        "description_summary": "A disorder characterized by recurrent apneas during sleep despite persistent respiratory efforts.",
+        "key_terms": [],
+        "word_count": 77
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Nervous system disease",
+          "Respiratory tract disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vascular smooth muscle contraction",
+        "pathway_list": [
+          "Vascular smooth muscle contraction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.966399",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012891",
+      "DiseaseName": "Sleep Apnea Syndromes",
+      "DiseaseDescription": "Disorders characterized by multiple cessations of respirations during sleep that induce partial arousals and interfere with the maintenance of sleep. Sleep apnea syndromes are divided into central (see SLEEP APNEA, CENTRAL), obstructive (see SLEEP APNEA, OBSTRUCTIVE), and mixed central-obstructive types.",
+      "SlimMapping": "['Nervous system disease', 'Respiratory tract disease']",
+      "PathwayNames": "Transmission across Chemical Synapses",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012891",
+        "standardized_id": "MESH:D012891",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Sleep Apnea Syndromes",
+        "standardized_name": "Sleep Apnea Syndromes",
+        "normalized_name": "sleep apnea syndromes",
+        "synonyms": [],
+        "search_terms": [
+          "sleep apnea syndromes",
+          "sleep",
+          "apnea",
+          "syndromes"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Disorders characterized by multiple cessations of respirations during sleep that induce partial arousals and interfere with the maintenance of sleep. Sleep apnea syndromes are divided into central (see SLEEP APNEA, CENTRAL), obstructive (see SLEEP APNEA, OBSTRUCTIVE), and mixed central-obstructive types.",
+        "cleaned_description": "Disorders characterized by multiple cessations of respirations during sleep that induce partial arousals and interfere with the maintenance of sleep. Sleep apnea syndromes are divided into central (see SLEEP APNEA, CENTRAL), obstructive (see SLEEP APNEA, OBSTRUCTIVE), and mixed central-obstructive types.",
+        "description_summary": "Disorders characterized by multiple cessations of respirations during sleep that induce partial arousals and interfere with the maintenance of sleep.",
+        "key_terms": [],
+        "word_count": 40
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Nervous system disease",
+          "Respiratory tract disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmission across Chemical Synapses",
+        "pathway_list": [
+          "Transmission across Chemical Synapses"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.966572",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

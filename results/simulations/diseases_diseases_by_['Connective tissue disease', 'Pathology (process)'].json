@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Connective tissue disease', 'Pathology (process)']",
+    "export_timestamp": "2026-03-28T22:11:35.873194",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D002481",
+      "DiseaseName": "Cellulitis",
+      "DiseaseDescription": "An acute, diffuse, and suppurative inflammation of loose connective tissue, particularly the deep subcutaneous tissues, and sometimes muscle, which is most commonly seen as a result of infection of a wound, ulcer, or other skin lesions.",
+      "SlimMapping": "['Connective tissue disease', 'Pathology (process)']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002481",
+        "standardized_id": "MESH:D002481",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cellulitis",
+        "standardized_name": "Cellulitis",
+        "normalized_name": "cellulitis",
+        "synonyms": [],
+        "search_terms": [
+          "cellulitis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An acute, diffuse, and suppurative inflammation of loose connective tissue, particularly the deep subcutaneous tissues, and sometimes muscle, which is most commonly seen as a result of infection of a wound, ulcer, or other skin lesions.",
+        "cleaned_description": "An acute, diffuse, and suppurative inflammation of loose connective tissue, particularly the deep subcutaneous tissues, and sometimes muscle, which is most commonly seen as a result of infection of a wound, ulcer, or other skin lesions.",
+        "description_summary": "An acute, diffuse, and suppurative inflammation of loose connective tissue, particularly the deep subcutaneous tissues, and sometimes muscle, which is most commonly seen as a result of infection of a wound, ulcer, or other skin lesions.",
+        "key_terms": [],
+        "word_count": 36
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Connective tissue disease",
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Connective tissue disease",
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Connective tissue disease",
+          "Pathology (process)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.433277",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007627",
+      "DiseaseName": "Keloid",
+      "DiseaseDescription": "A sharply elevated, irregularly shaped, progressively enlarging scar resulting from formation of excessive amounts of collagen in the dermis during connective tissue repair. It is differentiated from a hypertrophic scar (CICATRIX, HYPERTROPHIC) in that the former does not spread to surrounding tissues.",
+      "SlimMapping": "['Connective tissue disease', 'Pathology (process)']",
+      "PathwayNames": "XBP1(S) activates chaperone genes",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007627",
+        "standardized_id": "MESH:D007627",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Keloid",
+        "standardized_name": "Keloid",
+        "normalized_name": "keloid",
+        "synonyms": [],
+        "search_terms": [
+          "keloid"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A sharply elevated, irregularly shaped, progressively enlarging scar resulting from formation of excessive amounts of collagen in the dermis during connective tissue repair. It is differentiated from a hypertrophic scar (CICATRIX, HYPERTROPHIC) in that the former does not spread to surrounding tissues.",
+        "cleaned_description": "A sharply elevated, irregularly shaped, progressively enlarging scar resulting from formation of excessive amounts of collagen in the dermis during connective tissue repair. It is differentiated from a hypertrophic scar (CICATRIX, HYPERTROPHIC) in that the former does not spread to surrounding tissues.",
+        "description_summary": "A sharply elevated, irregularly shaped, progressively enlarging scar resulting from formation of excessive amounts of collagen in the dermis during connective tissue repair.",
+        "key_terms": [],
+        "word_count": 42
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Connective tissue disease",
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Connective tissue disease",
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Connective tissue disease",
+          "Pathology (process)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "XBP1(S) activates chaperone genes",
+        "pathway_list": [
+          "XBP1(S) activates chaperone genes"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.797166",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

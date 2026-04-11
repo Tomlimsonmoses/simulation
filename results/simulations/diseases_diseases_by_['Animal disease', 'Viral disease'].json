@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Animal disease', 'Viral disease']",
+    "export_timestamp": "2026-03-28T22:11:36.024809",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D005761",
+      "DiseaseName": "Gastroenteritis, Transmissible, of Swine",
+      "DiseaseDescription": "A condition of chronic gastroenteritis in adult pigs and fatal gastroenteritis in piglets caused by a CORONAVIRUS.",
+      "SlimMapping": "['Animal disease', 'Viral disease']",
+      "PathwayNames": "Transmembrane transport of small molecules",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005761",
+        "standardized_id": "MESH:D005761",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Gastroenteritis, Transmissible, of Swine",
+        "standardized_name": "Gastroenteritis, Transmissible, of Swine",
+        "normalized_name": "gastroenteritis transmissible of swine",
+        "synonyms": [],
+        "search_terms": [
+          "transmissible,",
+          "gastroenteritis, transmissible, of swine",
+          "gastroenteritis,",
+          "swine"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition of chronic gastroenteritis in adult pigs and fatal gastroenteritis in piglets caused by a CORONAVIRUS.",
+        "cleaned_description": "A condition of chronic gastroenteritis in adult pigs and fatal gastroenteritis in piglets caused by a CORONAVIRUS.",
+        "description_summary": "A condition of chronic gastroenteritis in adult pigs and fatal gastroenteritis in piglets caused by a CORONAVIRUS.",
+        "key_terms": [
+          "gastroenteritis"
+        ],
+        "word_count": 17
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Animal disease",
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Animal disease",
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Animal disease",
+          "Viral disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmembrane transport of small molecules",
+        "pathway_list": [
+          "Transmembrane transport of small molecules"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.533096",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

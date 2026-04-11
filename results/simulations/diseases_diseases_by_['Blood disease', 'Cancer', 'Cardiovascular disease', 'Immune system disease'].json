@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Blood disease', 'Cancer', 'Cardiovascular disease', 'Immune system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.197724",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D009101",
+      "DiseaseName": "Multiple Myeloma",
+      "DiseaseDescription": "A malignancy of mature PLASMA CELLS engaging in monoclonal immunoglobulin production. It is characterized by hyperglobulinemia, excess Bence-Jones proteins (free monoclonal IMMUNOGLOBULIN LIGHT CHAINS) in the urine, skeletal destruction, bone pain, and fractures. Other features include ANEMIA; HYPERCALCEMIA; and RENAL INSUFFICIENCY.",
+      "SlimMapping": "['Blood disease', 'Cancer', 'Cardiovascular disease', 'Immune system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009101",
+        "standardized_id": "MESH:D009101",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Multiple Myeloma",
+        "standardized_name": "Multiple Myeloma",
+        "normalized_name": "multiple myeloma",
+        "synonyms": [],
+        "search_terms": [
+          "multiple",
+          "multiple myeloma",
+          "myeloma"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A malignancy of mature PLASMA CELLS engaging in monoclonal immunoglobulin production. It is characterized by hyperglobulinemia, excess Bence-Jones proteins (free monoclonal IMMUNOGLOBULIN LIGHT CHAINS) in the urine, skeletal destruction, bone pain, and fractures. Other features include ANEMIA; HYPERCALCEMIA; and RENAL INSUFFICIENCY.",
+        "cleaned_description": "A malignancy of mature PLASMA CELLS engaging in monoclonal immunoglobulin production. It is characterized by hyperglobulinemia, excess Bence-Jones proteins (free monoclonal IMMUNOGLOBULIN LIGHT CHAINS) in the urine, skeletal destruction, bone pain, and fractures. Other features include ANEMIA; HYPERCALCEMIA; and RENAL INSUFFICIENCY.",
+        "description_summary": "A malignancy of mature PLASMA CELLS engaging in monoclonal immunoglobulin production.",
+        "key_terms": [
+          "ANEMIA",
+          "hyperglobulinemia",
+          "HYPERCALCEMIA"
+        ],
+        "word_count": 41
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Cancer",
+          "Cardiovascular disease",
+          "Immune system disease"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Cancer",
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular",
+          "immune_system"
+        ],
+        "all_categories": [
+          "Blood disease",
+          "Cancer",
+          "Cardiovascular disease",
+          "Immune system disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.858751",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

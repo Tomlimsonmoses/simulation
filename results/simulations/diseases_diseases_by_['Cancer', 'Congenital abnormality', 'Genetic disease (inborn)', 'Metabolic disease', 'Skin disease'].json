@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Congenital abnormality', 'Genetic disease (inborn)', 'Metabolic disease', 'Skin disease']",
+    "export_timestamp": "2026-03-28T22:11:36.349059",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D014983",
+      "DiseaseName": "Xeroderma Pigmentosum",
+      "DiseaseDescription": "A rare, pigmentary, and atrophic autosomal recessive disease. It is manifested as an extreme photosensitivity to ULTRAVIOLET RAYS as the result of a deficiency in the enzyme that permits excisional repair of ultraviolet-damaged DNA.",
+      "SlimMapping": "['Cancer', 'Congenital abnormality', 'Genetic disease (inborn)', 'Metabolic disease', 'Skin disease']",
+      "PathwayNames": "Translesion synthesis by Y family DNA polymerases bypasses lesions on DNA template",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014983",
+        "standardized_id": "MESH:D014983",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Xeroderma Pigmentosum",
+        "standardized_name": "Xeroderma Pigmentosum",
+        "normalized_name": "xeroderma pigmentosum",
+        "synonyms": [],
+        "search_terms": [
+          "xeroderma pigmentosum",
+          "pigmentosum",
+          "xeroderma"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A rare, pigmentary, and atrophic autosomal recessive disease. It is manifested as an extreme photosensitivity to ULTRAVIOLET RAYS as the result of a deficiency in the enzyme that permits excisional repair of ultraviolet-damaged DNA.",
+        "cleaned_description": "A rare, pigmentary, and atrophic autosomal recessive disease. It is manifested as an extreme photosensitivity to ULTRAVIOLET RAYS as the result of a deficiency in the enzyme that permits excisional repair of ultraviolet-damaged DNA.",
+        "description_summary": "A rare, pigmentary, and atrophic autosomal recessive disease.",
+        "key_terms": [],
+        "word_count": 34
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Congenital abnormality",
+          "Genetic disease (inborn)"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Skin disease"
+        ],
+        "category_count": 5
+      },
+      "processed_pathways": {
+        "raw_pathways": "Translesion synthesis by Y family DNA polymerases bypasses lesions on DNA template",
+        "pathway_list": [
+          "Translesion synthesis by Y family DNA polymerases bypasses lesions on DNA template"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.027532",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

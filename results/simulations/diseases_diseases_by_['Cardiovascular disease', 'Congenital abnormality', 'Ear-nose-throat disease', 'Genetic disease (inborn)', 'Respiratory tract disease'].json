@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cardiovascular disease', 'Congenital abnormality', 'Ear-nose-throat disease', 'Genetic disease (inborn)', 'Respiratory tract disease']",
+    "export_timestamp": "2026-03-28T22:11:36.126038",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D007619",
+      "DiseaseName": "Kartagener Syndrome",
+      "DiseaseDescription": "An autosomal recessive disorder characterized by a triad of DEXTROCARDIA; INFERTILITY; and SINUSITIS. The syndrome is caused by mutations of DYNEIN genes encoding motility proteins which are components of sperm tails, and CILIA in the respiratory and the reproductive tracts.",
+      "SlimMapping": "['Cardiovascular disease', 'Congenital abnormality', 'Ear-nose-throat disease', 'Genetic disease (inborn)', 'Respiratory tract disease']",
+      "PathwayNames": "Huntington's disease",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007619",
+        "standardized_id": "MESH:D007619",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Kartagener Syndrome",
+        "standardized_name": "Kartagener Syndrome",
+        "normalized_name": "kartagener syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "kartagener",
+          "syndrome",
+          "kartagener syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An autosomal recessive disorder characterized by a triad of DEXTROCARDIA; INFERTILITY; and SINUSITIS. The syndrome is caused by mutations of DYNEIN genes encoding motility proteins which are components of sperm tails, and CILIA in the respiratory and the reproductive tracts.",
+        "cleaned_description": "An autosomal recessive disorder characterized by a triad of DEXTROCARDIA; INFERTILITY; and SINUSITIS. The syndrome is caused by mutations of DYNEIN genes encoding motility proteins which are components of sperm tails, and CILIA in the respiratory and the reproductive tracts.",
+        "description_summary": "An autosomal recessive disorder characterized by a triad of DEXTROCARDIA; INFERTILITY; and SINUSITIS.",
+        "key_terms": [
+          "SINUSITIS"
+        ],
+        "word_count": 40
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality",
+          "Ear-nose-throat disease",
+          "Genetic disease (inborn)",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality",
+          "Ear-nose-throat disease"
+        ],
+        "broad_categories": [
+          "respiratory",
+          "cardiovascular",
+          "genetic"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality",
+          "Ear-nose-throat disease",
+          "Genetic disease (inborn)",
+          "Respiratory tract disease"
+        ],
+        "category_count": 5
+      },
+      "processed_pathways": {
+        "raw_pathways": "Huntington's disease",
+        "pathway_list": [
+          "Huntington's disease"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.796849",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Animal disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.298749",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D012608",
+      "DiseaseName": "Scrapie",
+      "DiseaseDescription": "A fatal disease of the nervous system in sheep and goats, characterized by pruritus, debility, and locomotor incoordination. It is caused by proteinaceous infectious particles called PRIONS.",
+      "SlimMapping": "['Animal disease', 'Nervous system disease']",
+      "PathwayNames": "Unfolded Protein Response (UPR)",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012608",
+        "standardized_id": "MESH:D012608",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Scrapie",
+        "standardized_name": "Scrapie",
+        "normalized_name": "scrapie",
+        "synonyms": [],
+        "search_terms": [
+          "scrapie"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A fatal disease of the nervous system in sheep and goats, characterized by pruritus, debility, and locomotor incoordination. It is caused by proteinaceous infectious particles called PRIONS.",
+        "cleaned_description": "A fatal disease of the nervous system in sheep and goats, characterized by pruritus, debility, and locomotor incoordination. It is caused by proteinaceous infectious particles called PRIONS.",
+        "description_summary": "A fatal disease of the nervous system in sheep and goats, characterized by pruritus, debility, and locomotor incoordination.",
+        "key_terms": [],
+        "word_count": 27
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Animal disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Animal disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Animal disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Unfolded Protein Response (UPR)",
+        "pathway_list": [
+          "Unfolded Protein Response (UPR)"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.961645",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

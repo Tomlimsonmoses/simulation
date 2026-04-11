@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Mouth disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.319961",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D014277",
+      "DiseaseName": "Trigeminal Neuralgia",
+      "DiseaseDescription": "A syndrome characterized by recurrent episodes of excruciating pain lasting several seconds or longer in the sensory distribution of the TRIGEMINAL NERVE. Pain may be initiated by stimulation of trigger points on the face, lips, or gums or by movement of facial muscles or chewing. Associated conditions include MULTIPLE SCLEROSIS, vascular anomalies, ANEURYSMS, and neoplasms. (Adams et al., Principles of Neurology, 6th ed, p187)",
+      "SlimMapping": "['Mouth disease', 'Nervous system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014277",
+        "standardized_id": "MESH:D014277",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Trigeminal Neuralgia",
+        "standardized_name": "Trigeminal Neuralgia",
+        "normalized_name": "trigeminal neuralgia",
+        "synonyms": [],
+        "search_terms": [
+          "neuralgia",
+          "trigeminal",
+          "trigeminal neuralgia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A syndrome characterized by recurrent episodes of excruciating pain lasting several seconds or longer in the sensory distribution of the TRIGEMINAL NERVE. Pain may be initiated by stimulation of trigger points on the face, lips, or gums or by movement of facial muscles or chewing. Associated conditions include MULTIPLE SCLEROSIS, vascular anomalies, ANEURYSMS, and neoplasms. (Adams et al., Principles of Neurology, 6th ed, p187)",
+        "cleaned_description": "A syndrome characterized by recurrent episodes of excruciating pain lasting several seconds or longer in the sensory distribution of the TRIGEMINAL NERVE. Pain may be initiated by stimulation of trigger points on the face, lips, or gums or by movement of facial muscles or chewing. Associated conditions include MULTIPLE SCLEROSIS, vascular anomalies, ANEURYSMS, and neoplasms. (Adams et al., Principles of Neurology, 6th ed, p187)",
+        "description_summary": "A syndrome characterized by recurrent episodes of excruciating pain lasting several seconds or longer in the sensory distribution of the TRIGEMINAL NERVE.",
+        "key_terms": [
+          "SCLEROSIS"
+        ],
+        "word_count": 64
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mouth disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Mouth disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mouth disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.005524",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

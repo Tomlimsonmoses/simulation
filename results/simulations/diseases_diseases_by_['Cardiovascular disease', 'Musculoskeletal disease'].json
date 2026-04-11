@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cardiovascular disease', 'Musculoskeletal disease']",
+    "export_timestamp": "2026-03-28T22:11:35.887536",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D003161",
+      "DiseaseName": "Compartment Syndromes",
+      "DiseaseDescription": "Conditions in which increased pressure within a limited space compromises the BLOOD CIRCULATION and function of tissue within that space. Some of the causes of increased pressure are TRAUMA, tight dressings, HEMORRHAGE, and exercise. Sequelae include nerve compression (NERVE COMPRESSION SYNDROMES); PARALYSIS; and ISCHEMIC CONTRACTURE. FASCIOTOMY is often used to decompress increased pressure and eliminate pain associated with compartment syndromes.",
+      "SlimMapping": "['Cardiovascular disease', 'Musculoskeletal disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003161",
+        "standardized_id": "MESH:D003161",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Compartment Syndromes",
+        "standardized_name": "Compartment Syndromes",
+        "normalized_name": "compartment syndromes",
+        "synonyms": [],
+        "search_terms": [
+          "compartment",
+          "compartment syndromes",
+          "syndromes"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Conditions in which increased pressure within a limited space compromises the BLOOD CIRCULATION and function of tissue within that space. Some of the causes of increased pressure are TRAUMA, tight dressings, HEMORRHAGE, and exercise. Sequelae include nerve compression (NERVE COMPRESSION SYNDROMES); PARALYSIS; and ISCHEMIC CONTRACTURE. FASCIOTOMY is often used to decompress increased pressure and eliminate pain associated with compartment syndromes.",
+        "cleaned_description": "Conditions in which increased pressure within a limited space compromises the BLOOD CIRCULATION and function of tissue within that space. Some of the causes of increased pressure are TRAUMA, tight dressings, HEMORRHAGE, and exercise. Sequelae include nerve compression (NERVE COMPRESSION SYNDROMES); PARALYSIS; and ISCHEMIC CONTRACTURE. FASCIOTOMY is often used to decompress increased pressure and eliminate pain associated with compartment syndromes.",
+        "description_summary": "Conditions in which increased pressure within a limited space compromises the BLOOD CIRCULATION and function of tissue within that space.",
+        "key_terms": [],
+        "word_count": 60
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.449711",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

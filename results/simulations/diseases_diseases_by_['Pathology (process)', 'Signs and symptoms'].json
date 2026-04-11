@@ -1,0 +1,343 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Pathology (process)', 'Signs and symptoms']",
+    "export_timestamp": "2026-03-28T22:11:35.972406",
+    "total_records": 5
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D004412",
+      "DiseaseName": "Dysmenorrhea",
+      "DiseaseDescription": "Painful menstruation.",
+      "SlimMapping": "['Pathology (process)', 'Signs and symptoms']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004412",
+        "standardized_id": "MESH:D004412",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Dysmenorrhea",
+        "standardized_name": "Dysmenorrhea",
+        "normalized_name": "dysmenorrhea",
+        "synonyms": [],
+        "search_terms": [
+          "dysmenorrhea"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Painful menstruation.",
+        "cleaned_description": "Painful menstruation.",
+        "description_summary": "Painful menstruation.",
+        "key_terms": [],
+        "word_count": 2
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Pathology (process)",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.489078",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": [
+            "Very short or missing description"
+          ]
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D041781",
+      "DiseaseName": "Jaundice, Obstructive",
+      "DiseaseDescription": "Jaundice, the condition with yellowish staining of the skin and mucous membranes, that is due to impaired BILE flow in the BILIARY TRACT, such as INTRAHEPATIC CHOLESTASIS, or EXTRAHEPATIC CHOLESTASIS.",
+      "SlimMapping": "['Pathology (process)', 'Signs and symptoms']",
+      "PathwayNames": "Transmembrane transport of small molecules",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D041781",
+        "standardized_id": "MESH:D041781",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Jaundice, Obstructive",
+        "standardized_name": "Jaundice, Obstructive",
+        "normalized_name": "jaundice obstructive",
+        "synonyms": [],
+        "search_terms": [
+          "jaundice, obstructive",
+          "obstructive",
+          "jaundice,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Jaundice, the condition with yellowish staining of the skin and mucous membranes, that is due to impaired BILE flow in the BILIARY TRACT, such as INTRAHEPATIC CHOLESTASIS, or EXTRAHEPATIC CHOLESTASIS.",
+        "cleaned_description": "Jaundice, the condition with yellowish staining of the skin and mucous membranes, that is due to impaired BILE flow in the BILIARY TRACT, such as INTRAHEPATIC CHOLESTASIS, or EXTRAHEPATIC CHOLESTASIS.",
+        "description_summary": "Jaundice, the condition with yellowish staining of the skin and mucous membranes, that is due to impaired BILE flow in the BILIARY TRACT, such as INTRAHEPATIC CHOLESTASIS, or EXTRAHEPATIC CHOLESTASIS.",
+        "key_terms": [],
+        "word_count": 30
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Pathology (process)",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmembrane transport of small molecules",
+        "pathway_list": [
+          "Transmembrane transport of small molecules"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.795118",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008305",
+      "DiseaseName": "Malignant Hyperthermia",
+      "DiseaseDescription": "Rapid and excessive rise of temperature accompanied by muscular rigidity following general anesthesia.",
+      "SlimMapping": "['Pathology (process)', 'Signs and symptoms']",
+      "PathwayNames": "Transmembrane transport of small molecules",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008305",
+        "standardized_id": "MESH:D008305",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Malignant Hyperthermia",
+        "standardized_name": "Malignant Hyperthermia",
+        "normalized_name": "malignant hyperthermia",
+        "synonyms": [],
+        "search_terms": [
+          "malignant hyperthermia",
+          "malignant",
+          "hyperthermia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Rapid and excessive rise of temperature accompanied by muscular rigidity following general anesthesia.",
+        "cleaned_description": "Rapid and excessive rise of temperature accompanied by muscular rigidity following general anesthesia.",
+        "description_summary": "Rapid and excessive rise of temperature accompanied by muscular rigidity following general anesthesia.",
+        "key_terms": [],
+        "word_count": 13
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Pathology (process)",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmembrane transport of small molecules",
+        "pathway_list": [
+          "Transmembrane transport of small molecules"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.836865",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010149",
+      "DiseaseName": "Pain, Postoperative",
+      "DiseaseDescription": "Pain during the period after surgery.",
+      "SlimMapping": "['Pathology (process)', 'Signs and symptoms']",
+      "PathwayNames": "Transmembrane transport of small molecules",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010149",
+        "standardized_id": "MESH:D010149",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pain, Postoperative",
+        "standardized_name": "Pain, Postoperative",
+        "normalized_name": "pain postoperative",
+        "synonyms": [],
+        "search_terms": [
+          "postoperative",
+          "pain, postoperative",
+          "pain,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pain during the period after surgery.",
+        "cleaned_description": "Pain during the period after surgery.",
+        "description_summary": "Pain during the period after surgery.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Pathology (process)",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmembrane transport of small molecules",
+        "pathway_list": [
+          "Transmembrane transport of small molecules"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.900376",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D059606",
+      "DiseaseName": "Polydipsia",
+      "DiseaseDescription": "Excessive thirst manifested by excessive fluid intake. It is characteristic of many diseases such as DIABETES MELLITUS; DIABETES INSIPIDUS; and NEPHROGENIC DIABETES INSIPIDUS. The condition may be psychogenic in origin.",
+      "SlimMapping": "['Pathology (process)', 'Signs and symptoms']",
+      "PathwayNames": "Transcriptional regulation of white adipocyte differentiation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D059606",
+        "standardized_id": "MESH:D059606",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Polydipsia",
+        "standardized_name": "Polydipsia",
+        "normalized_name": "polydipsia",
+        "synonyms": [],
+        "search_terms": [
+          "polydipsia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Excessive thirst manifested by excessive fluid intake. It is characteristic of many diseases such as DIABETES MELLITUS; DIABETES INSIPIDUS; and NEPHROGENIC DIABETES INSIPIDUS. The condition may be psychogenic in origin.",
+        "cleaned_description": "Excessive thirst manifested by excessive fluid intake. It is characteristic of many diseases such as DIABETES MELLITUS; DIABETES INSIPIDUS; and NEPHROGENIC DIABETES INSIPIDUS. The condition may be psychogenic in origin.",
+        "description_summary": "Excessive thirst manifested by excessive fluid intake.",
+        "key_terms": [
+          "NEPHROGENIC",
+          "psychogenic"
+        ],
+        "word_count": 30
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Pathology (process)",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional regulation of white adipocyte differentiation",
+        "pathway_list": [
+          "Transcriptional regulation of white adipocyte differentiation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional regulation of white adipocyte differentiation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.923242",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

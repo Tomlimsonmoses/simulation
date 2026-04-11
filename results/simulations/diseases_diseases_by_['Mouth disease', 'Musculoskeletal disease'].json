@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Mouth disease', 'Musculoskeletal disease']",
+    "export_timestamp": "2026-03-28T22:11:35.506113",
+    "total_records": 3
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D016301",
+      "DiseaseName": "Alveolar Bone Loss",
+      "DiseaseDescription": "Resorption or wasting of the tooth-supporting bone (ALVEOLAR PROCESS) in the MAXILLA or MANDIBLE.",
+      "SlimMapping": "['Mouth disease', 'Musculoskeletal disease']",
+      "PathwayNames": "TNFs bind their physiological receptors",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D016301",
+        "standardized_id": "MESH:D016301",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Alveolar Bone Loss",
+        "standardized_name": "Alveolar Bone Loss",
+        "normalized_name": "alveolar bone loss",
+        "synonyms": [],
+        "search_terms": [
+          "bone",
+          "loss",
+          "alveolar bone loss",
+          "alveolar"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Resorption or wasting of the tooth-supporting bone (ALVEOLAR PROCESS) in the MAXILLA or MANDIBLE.",
+        "cleaned_description": "Resorption or wasting of the tooth-supporting bone (ALVEOLAR PROCESS) in the MAXILLA or MANDIBLE.",
+        "description_summary": "Resorption or wasting of the tooth-supporting bone (ALVEOLAR PROCESS) in the MAXILLA or MANDIBLE.",
+        "key_terms": [],
+        "word_count": 14
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mouth disease",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Mouth disease",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mouth disease",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "TNFs bind their physiological receptors",
+        "pathway_list": [
+          "TNFs bind their physiological receptors"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.360840",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008439",
+      "DiseaseName": "Maxillary Diseases",
+      "DiseaseDescription": "Diseases involving the MAXILLA.",
+      "SlimMapping": "['Mouth disease', 'Musculoskeletal disease']",
+      "PathwayNames": "Signaling by Interleukins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008439",
+        "standardized_id": "MESH:D008439",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Maxillary Diseases",
+        "standardized_name": "Maxillary Diseases",
+        "normalized_name": "maxillary diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "maxillary diseases",
+          "maxillary"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases involving the MAXILLA.",
+        "cleaned_description": "Diseases involving the MAXILLA.",
+        "description_summary": "Diseases involving the MAXILLA.",
+        "key_terms": [],
+        "word_count": 4
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mouth disease",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Mouth disease",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mouth disease",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signaling by Interleukins",
+        "pathway_list": [
+          "Signaling by Interleukins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.838561",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": [
+            "Very short or missing description"
+          ]
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013705",
+      "DiseaseName": "Temporomandibular Joint Disorders",
+      "DiseaseDescription": "A variety of conditions affecting the anatomic and functional characteristics of the temporomandibular joint. Factors contributing to the complexity of temporomandibular diseases are its relation to dentition and mastication and the symptomatic effects in other areas which account for referred pain to the joint and the difficulties in applying traditional diagnostic procedures to temporomandibular joint pathology where tissue is rarely obtained and x-rays are often inadequate or nonspecific. Common diseases are developmental abnormalities, trauma, subluxation, luxation, arthritis, and neoplasia. (From Thoma's Oral Pathology, 6th ed, pp577-600)",
+      "SlimMapping": "['Mouth disease', 'Musculoskeletal disease']",
+      "PathwayNames": "Tyrosine metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013705",
+        "standardized_id": "MESH:D013705",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Temporomandibular Joint Disorders",
+        "standardized_name": "Temporomandibular Joint Disorders",
+        "normalized_name": "temporomandibular joint disorders",
+        "synonyms": [],
+        "search_terms": [
+          "joint",
+          "temporomandibular",
+          "disorders",
+          "temporomandibular joint disorders"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A variety of conditions affecting the anatomic and functional characteristics of the temporomandibular joint. Factors contributing to the complexity of temporomandibular diseases are its relation to dentition and mastication and the symptomatic effects in other areas which account for referred pain to the joint and the difficulties in applying traditional diagnostic procedures to temporomandibular joint pathology where tissue is rarely obtained and x-rays are often inadequate or nonspecific. Common diseases are developmental abnormalities, trauma, subluxation, luxation, arthritis, and neoplasia. (From Thoma's Oral Pathology, 6th ed, pp577-600)",
+        "cleaned_description": "A variety of conditions affecting the anatomic and functional characteristics of the temporomandibular joint. Factors contributing to the complexity of temporomandibular diseases are its relation to dentition and mastication and the symptomatic effects in other areas which account for referred pain to the joint and the difficulties in applying traditional diagnostic procedures to temporomandibular joint pathology where tissue is rarely obtained and x-rays are often inadequate or nonspecific. Common diseases are developmental abnormalities, trauma, subluxation, luxation, arthritis, and neoplasia. (From Thoma's Oral Pathology, 6th ed, pp577-600)",
+        "description_summary": "A variety of conditions affecting the anatomic and functional characteristics of the temporomandibular joint.",
+        "key_terms": [
+          "arthritis"
+        ],
+        "word_count": 86
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mouth disease",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Mouth disease",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mouth disease",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tyrosine metabolism",
+        "pathway_list": [
+          "Tyrosine metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.992029",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

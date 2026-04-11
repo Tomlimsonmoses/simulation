@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cardiovascular disease', 'Endocrine system disease', 'Eye disease']",
+    "export_timestamp": "2026-03-28T22:11:35.956214",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D003930",
+      "DiseaseName": "Diabetic Retinopathy",
+      "DiseaseDescription": "Disease of the RETINA as a complication of DIABETES MELLITUS. It is characterized by the progressive microvascular complications, such as ANEURYSM, interretinal EDEMA, and intraocular PATHOLOGIC NEOVASCULARIZATION.",
+      "SlimMapping": "['Cardiovascular disease', 'Endocrine system disease', 'Eye disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003930",
+        "standardized_id": "MESH:D003930",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Diabetic Retinopathy",
+        "standardized_name": "Diabetic Retinopathy",
+        "normalized_name": "diabetic retinopathy",
+        "synonyms": [],
+        "search_terms": [
+          "retinopathy",
+          "diabetic",
+          "diabetic retinopathy"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Disease of the RETINA as a complication of DIABETES MELLITUS. It is characterized by the progressive microvascular complications, such as ANEURYSM, interretinal EDEMA, and intraocular PATHOLOGIC NEOVASCULARIZATION.",
+        "cleaned_description": "Disease of the RETINA as a complication of DIABETES MELLITUS. It is characterized by the progressive microvascular complications, such as ANEURYSM, interretinal EDEMA, and intraocular PATHOLOGIC NEOVASCULARIZATION.",
+        "description_summary": "Disease of the RETINA as a complication of DIABETES MELLITUS.",
+        "key_terms": [],
+        "word_count": 27
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Endocrine system disease",
+          "Eye disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Endocrine system disease",
+          "Eye disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Endocrine system disease",
+          "Eye disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.481277",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

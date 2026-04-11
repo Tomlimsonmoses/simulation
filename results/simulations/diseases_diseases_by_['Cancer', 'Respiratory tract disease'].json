@@ -1,0 +1,287 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Respiratory tract disease']",
+    "export_timestamp": "2026-03-28T22:11:35.844062",
+    "total_records": 4
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D002289",
+      "DiseaseName": "Carcinoma, Non-Small-Cell Lung",
+      "DiseaseDescription": "A heterogeneous aggregate of at least three distinct histological types of lung cancer, including SQUAMOUS CELL CARCINOMA; ADENOCARCINOMA; and LARGE CELL CARCINOMA. They are dealt with collectively because of their shared treatment strategy.",
+      "SlimMapping": "['Cancer', 'Respiratory tract disease']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002289",
+        "standardized_id": "MESH:D002289",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Carcinoma, Non-Small-Cell Lung",
+        "standardized_name": "Carcinoma, Non-Small-Cell Lung",
+        "normalized_name": "carcinoma non-small-cell lung",
+        "synonyms": [],
+        "search_terms": [
+          "carcinoma,",
+          "lung",
+          "non-small-cell",
+          "carcinoma, non-small-cell lung"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A heterogeneous aggregate of at least three distinct histological types of lung cancer, including SQUAMOUS CELL CARCINOMA; ADENOCARCINOMA; and LARGE CELL CARCINOMA. They are dealt with collectively because of their shared treatment strategy.",
+        "cleaned_description": "A heterogeneous aggregate of at least three distinct histological types of lung cancer, including SQUAMOUS CELL CARCINOMA; ADENOCARCINOMA; and LARGE CELL CARCINOMA. They are dealt with collectively because of their shared treatment strategy.",
+        "description_summary": "A heterogeneous aggregate of at least three distinct histological types of lung cancer, including SQUAMOUS CELL CARCINOMA; ADENOCARCINOMA; and LARGE CELL CARCINOMA.",
+        "key_terms": [],
+        "word_count": 33
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Respiratory tract disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.423642",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008175",
+      "DiseaseName": "Lung Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the LUNG.",
+      "SlimMapping": "['Cancer', 'Respiratory tract disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008175",
+        "standardized_id": "MESH:D008175",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Lung Neoplasms",
+        "standardized_name": "Lung Neoplasms",
+        "normalized_name": "lung neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "lung",
+          "lung neoplasms"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the LUNG.",
+        "cleaned_description": "Tumors or cancer of the LUNG.",
+        "description_summary": "Tumors or cancer of the LUNG.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Respiratory tract disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.823955",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010997",
+      "DiseaseName": "Pleural Neoplasms",
+      "DiseaseDescription": "Neoplasms of the thin serous membrane that envelopes the lungs and lines the thoracic cavity. Pleural neoplasms are exceedingly rare and are usually not diagnosed until they are advanced because in the early stages they produce no symptoms.",
+      "SlimMapping": "['Cancer', 'Respiratory tract disease']",
+      "PathwayNames": "Toll-like receptor signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010997",
+        "standardized_id": "MESH:D010997",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pleural Neoplasms",
+        "standardized_name": "Pleural Neoplasms",
+        "normalized_name": "pleural neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "pleural neoplasms",
+          "pleural"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Neoplasms of the thin serous membrane that envelopes the lungs and lines the thoracic cavity. Pleural neoplasms are exceedingly rare and are usually not diagnosed until they are advanced because in the early stages they produce no symptoms.",
+        "cleaned_description": "Neoplasms of the thin serous membrane that envelopes the lungs and lines the thoracic cavity. Pleural neoplasms are exceedingly rare and are usually not diagnosed until they are advanced because in the early stages they produce no symptoms.",
+        "description_summary": "Neoplasms of the thin serous membrane that envelopes the lungs and lines the thoracic cavity.",
+        "key_terms": [],
+        "word_count": 38
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Respiratory tract disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Toll-like receptor signaling pathway",
+        "pathway_list": [
+          "Toll-like receptor signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Toll-like receptor signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.918767",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D055752",
+      "DiseaseName": "Small Cell Lung Carcinoma",
+      "DiseaseDescription": "A form of highly malignant lung cancer that is composed of small ovoid cells (SMALL CELL CARCINOMA).",
+      "SlimMapping": "['Cancer', 'Respiratory tract disease']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D055752",
+        "standardized_id": "MESH:D055752",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Small Cell Lung Carcinoma",
+        "standardized_name": "Small Cell Lung Carcinoma",
+        "normalized_name": "small cell lung carcinoma",
+        "synonyms": [],
+        "search_terms": [
+          "small cell lung carcinoma",
+          "small",
+          "cell",
+          "lung",
+          "carcinoma"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A form of highly malignant lung cancer that is composed of small ovoid cells (SMALL CELL CARCINOMA).",
+        "cleaned_description": "A form of highly malignant lung cancer that is composed of small ovoid cells (SMALL CELL CARCINOMA).",
+        "description_summary": "A form of highly malignant lung cancer that is composed of small ovoid cells (SMALL CELL CARCINOMA).",
+        "key_terms": [],
+        "word_count": 17
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Respiratory tract disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.969122",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

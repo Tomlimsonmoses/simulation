@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Immune system disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.209432",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D009157",
+      "DiseaseName": "Myasthenia Gravis",
+      "DiseaseDescription": "A disorder of neuromuscular transmission characterized by fatigable weakness of cranial and skeletal muscles with elevated titers of ACETYLCHOLINE RECEPTORS or muscle-specific receptor tyrosine kinase (MuSK) autoantibodies. Clinical manifestations may include ocular muscle weakness (fluctuating, asymmetric, external ophthalmoplegia; diplopia; ptosis; and weakness of eye closure) and extraocular fatigable weakness of facial, bulbar, respiratory, and proximal limb muscles. The disease may remain limited to the ocular muscles (ocular myasthenia). THYMOMA is commonly associated with this condition.",
+      "SlimMapping": "['Cancer', 'Immune system disease', 'Nervous system disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009157",
+        "standardized_id": "MESH:D009157",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Myasthenia Gravis",
+        "standardized_name": "Myasthenia Gravis",
+        "normalized_name": "myasthenia gravis",
+        "synonyms": [],
+        "search_terms": [
+          "myasthenia gravis",
+          "myasthenia",
+          "gravis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A disorder of neuromuscular transmission characterized by fatigable weakness of cranial and skeletal muscles with elevated titers of ACETYLCHOLINE RECEPTORS or muscle-specific receptor tyrosine kinase (MuSK) autoantibodies. Clinical manifestations may include ocular muscle weakness (fluctuating, asymmetric, external ophthalmoplegia; diplopia; ptosis; and weakness of eye closure) and extraocular fatigable weakness of facial, bulbar, respiratory, and proximal limb muscles. The disease may remain limited to the ocular muscles (ocular myasthenia). THYMOMA is commonly associated with this condition.",
+        "cleaned_description": "A disorder of neuromuscular transmission characterized by fatigable weakness of cranial and skeletal muscles with elevated titers of ACETYLCHOLINE RECEPTORS or muscle-specific receptor tyrosine kinase (MuSK) autoantibodies. Clinical manifestations may include ocular muscle weakness (fluctuating, asymmetric, external ophthalmoplegia; diplopia; ptosis; and weakness of eye closure) and extraocular fatigable weakness of facial, bulbar, respiratory, and proximal limb muscles. The disease may remain limited to the ocular muscles (ocular myasthenia). THYMOMA is commonly associated with this condition.",
+        "description_summary": "A disorder of neuromuscular transmission characterized by fatigable weakness of cranial and skeletal muscles with elevated titers of ACETYLCHOLINE RECEPTORS or muscle-specific receptor tyrosine kinase (MuSK) autoantibodies.",
+        "key_terms": [
+          "ptosis"
+        ],
+        "word_count": 75
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Immune system disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Immune system disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Immune system disease",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.861958",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

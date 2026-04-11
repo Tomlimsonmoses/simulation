@@ -1,0 +1,450 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Congenital abnormality', 'Genetic disease (inborn)', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:35.875299",
+    "total_records": 6
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D002607",
+      "DiseaseName": "Charcot-Marie-Tooth Disease",
+      "DiseaseDescription": "A hereditary motor and sensory neuropathy transmitted most often as an autosomal dominant trait and characterized by progressive distal wasting and loss of reflexes in the muscles of the legs (and occasionally involving the arms). Onset is usually in the second to fourth decade of life. This condition has been divided into two subtypes, hereditary motor and sensory neuropathy (HMSN) types I and II. HMSN I is associated with abnormal nerve conduction velocities and nerve hypertrophy, features not seen in HMSN II. (Adams et al., Principles of Neurology, 6th ed, p1343)",
+      "SlimMapping": "['Congenital abnormality', 'Genetic disease (inborn)', 'Nervous system disease']",
+      "PathwayNames": "TRP channels",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002607",
+        "standardized_id": "MESH:D002607",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Charcot-Marie-Tooth Disease",
+        "standardized_name": "Charcot-Marie-Tooth Disease",
+        "normalized_name": "charcot-marie-tooth disease",
+        "synonyms": [],
+        "search_terms": [
+          "charcot-marie-tooth",
+          "disease",
+          "charcot-marie-tooth disease"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A hereditary motor and sensory neuropathy transmitted most often as an autosomal dominant trait and characterized by progressive distal wasting and loss of reflexes in the muscles of the legs (and occasionally involving the arms). Onset is usually in the second to fourth decade of life. This condition has been divided into two subtypes, hereditary motor and sensory neuropathy (HMSN) types I and II. HMSN I is associated with abnormal nerve conduction velocities and nerve hypertrophy, features not seen in HMSN II. (Adams et al., Principles of Neurology, 6th ed, p1343)",
+        "cleaned_description": "A hereditary motor and sensory neuropathy transmitted most often as an autosomal dominant trait and characterized by progressive distal wasting and loss of reflexes in the muscles of the legs (and occasionally involving the arms). Onset is usually in the second to fourth decade of life. This condition has been divided into two subtypes, hereditary motor and sensory neuropathy (HMSN) types I and II. HMSN I is associated with abnormal nerve conduction velocities and nerve hypertrophy, features not seen in HMSN II. (Adams et al., Principles of Neurology, 6th ed, p1343)",
+        "description_summary": "A hereditary motor and sensory neuropathy transmitted most often as an autosomal dominant trait and characterized by progressive distal wasting and loss of reflexes in the muscles of the legs (and occasionally involving the arms).",
+        "key_terms": [
+          "neuropathy"
+        ],
+        "word_count": 91
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "TRP channels",
+        "pathway_list": [
+          "TRP channels"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.441146",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D054221",
+      "DiseaseName": "Classical Lissencephalies and Subcortical Band Heterotopias",
+      "DiseaseDescription": "Disorders comprising a spectrum of brain malformations representing the paradigm of a diffuse neuronal migration disorder. They result in cognitive impairment; SEIZURES; and HYPOTONIA or spasticity. Mutations of two genes, LIS1, the gene for the non-catalytic subunit of PLATELET-ACTIVATING FACTOR ACETYLHYDROLASE IB; and DCX or XLIS, the gene for doublecortin, have been identified as the most common causes of disorders in this spectrum. Additional variants of classical (Type I) lissencephaly have been linked to RELN, the gene for reelin, and ARX, the gene for aristaless related homeobox protein. (From Leventer, R.J., et al, Mol Med Today. 2000 Jul;6(7):277-84 and Barkovich, A.J., et al, Neurology. 2005 Dec 27;65(12):1873-87.)",
+      "SlimMapping": "['Congenital abnormality', 'Genetic disease (inborn)', 'Nervous system disease']",
+      "PathwayNames": "Neurofascin interactions",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D054221",
+        "standardized_id": "MESH:D054221",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Classical Lissencephalies and Subcortical Band Heterotopias",
+        "standardized_name": "Classical Lissencephalies and Subcortical Band Heterotopias",
+        "normalized_name": "classical lissencephalies and subcortical band heterotopias",
+        "synonyms": [],
+        "search_terms": [
+          "classical",
+          "heterotopias",
+          "subcortical",
+          "and",
+          "classical lissencephalies and subcortical band heterotopias",
+          "band",
+          "lissencephalies"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Disorders comprising a spectrum of brain malformations representing the paradigm of a diffuse neuronal migration disorder. They result in cognitive impairment; SEIZURES; and HYPOTONIA or spasticity. Mutations of two genes, LIS1, the gene for the non-catalytic subunit of PLATELET-ACTIVATING FACTOR ACETYLHYDROLASE IB; and DCX or XLIS, the gene for doublecortin, have been identified as the most common causes of disorders in this spectrum. Additional variants of classical (Type I) lissencephaly have been linked to RELN, the gene for reelin, and ARX, the gene for aristaless related homeobox protein. (From Leventer, R.J., et al, Mol Med Today. 2000 Jul;6(7):277-84 and Barkovich, A.J., et al, Neurology. 2005 Dec 27;65(12):1873-87.)",
+        "cleaned_description": "Disorders comprising a spectrum of brain malformations representing the paradigm of a diffuse neuronal migration disorder. They result in cognitive impairment; SEIZURES; and HYPOTONIA or spasticity. Mutations of two genes, LIS1, the gene for the non-catalytic subunit of PLATELET-ACTIVATING FACTOR ACETYLHYDROLASE IB; and DCX or XLIS, the gene for doublecortin, have been identified as the most common causes of disorders in this spectrum. Additional variants of classical (Type I) lissencephaly have been linked to RELN, the gene for reelin, and ARX, the gene for aristaless related homeobox protein. (From Leventer, R.J., et al, Mol Med Today. 2000 Jul;6(7):277-84 and Barkovich, A.J., et al, Neurology. 2005 Dec 27;65(12):1873-87.)",
+        "description_summary": "Disorders comprising a spectrum of brain malformations representing the paradigm of a diffuse neuronal migration disorder.",
+        "key_terms": [],
+        "word_count": 107
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Neurofascin interactions",
+        "pathway_list": [
+          "Neurofascin interactions"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.445187",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004314",
+      "DiseaseName": "Down Syndrome",
+      "DiseaseDescription": "A chromosome disorder associated either with an extra CHROMOSOME 21 or an effective TRISOMY for chromosome 21. Clinical manifestations include HYPOTONIA, short stature, BRACHYCEPHALY, upslanting palpebral fissures, epicanthus, Brushfield spots on the iris, protruding tongue, small ears, short, broad hands, fifth finger clinodactyly, single transverse palmar crease, and moderate to severe INTELLECTUAL DISABILITY. Cardiac and gastrointestinal malformations, a marked increase in the incidence of LEUKEMIA, and the early onset of ALZHEIMER DISEASE are also associated with this condition. Pathologic features include the development of NEUROFIBRILLARY TANGLES in neurons and the deposition of AMYLOID BETA-PROTEIN, similar to the pathology of ALZHEIMER DISEASE. (Menkes, Textbook of Child Neurology, 5th ed, p213)",
+      "SlimMapping": "['Congenital abnormality', 'Genetic disease (inborn)', 'Nervous system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004314",
+        "standardized_id": "MESH:D004314",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Down Syndrome",
+        "standardized_name": "Down Syndrome",
+        "normalized_name": "down syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "down syndrome",
+          "syndrome",
+          "down"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A chromosome disorder associated either with an extra CHROMOSOME 21 or an effective TRISOMY for chromosome 21. Clinical manifestations include HYPOTONIA, short stature, BRACHYCEPHALY, upslanting palpebral fissures, epicanthus, Brushfield spots on the iris, protruding tongue, small ears, short, broad hands, fifth finger clinodactyly, single transverse palmar crease, and moderate to severe INTELLECTUAL DISABILITY. Cardiac and gastrointestinal malformations, a marked increase in the incidence of LEUKEMIA, and the early onset of ALZHEIMER DISEASE are also associated with this condition. Pathologic features include the development of NEUROFIBRILLARY TANGLES in neurons and the deposition of AMYLOID BETA-PROTEIN, similar to the pathology of ALZHEIMER DISEASE. (Menkes, Textbook of Child Neurology, 5th ed, p213)",
+        "cleaned_description": "A chromosome disorder associated either with an extra CHROMOSOME 21 or an effective TRISOMY for chromosome 21. Clinical manifestations include HYPOTONIA, short stature, BRACHYCEPHALY, upslanting palpebral fissures, epicanthus, Brushfield spots on the iris, protruding tongue, small ears, short, broad hands, fifth finger clinodactyly, single transverse palmar crease, and moderate to severe INTELLECTUAL DISABILITY. Cardiac and gastrointestinal malformations, a marked increase in the incidence of LEUKEMIA, and the early onset of ALZHEIMER DISEASE are also associated with this condition. Pathologic features include the development of NEUROFIBRILLARY TANGLES in neurons and the deposition of AMYLOID BETA-PROTEIN, similar to the pathology of ALZHEIMER DISEASE. (Menkes, Textbook of Child Neurology, 5th ed, p213)",
+        "description_summary": "A chromosome disorder associated either with an extra CHROMOSOME 21 or an effective TRISOMY for chromosome 21.",
+        "key_terms": [
+          "LEUKEMIA"
+        ],
+        "word_count": 109
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.483076",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005600",
+      "DiseaseName": "Fragile X Syndrome",
+      "DiseaseDescription": "A condition characterized genotypically by mutation of the distal end of the long arm of the X chromosome (at gene loci FRAXA or FRAXE) and phenotypically by cognitive impairment, hyperactivity, SEIZURES, language delay, and enlargement of the ears, head, and testes. INTELLECTUAL DISABILITY occurs in nearly all males and roughly 50% of females with the full mutation of FRAXA. (From Menkes, Textbook of Child Neurology, 5th ed, p226)",
+      "SlimMapping": "['Congenital abnormality', 'Genetic disease (inborn)', 'Nervous system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005600",
+        "standardized_id": "MESH:D005600",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Fragile X Syndrome",
+        "standardized_name": "Fragile X Syndrome",
+        "normalized_name": "fragile x syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "fragile x syndrome",
+          "syndrome",
+          "fragile"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition characterized genotypically by mutation of the distal end of the long arm of the X chromosome (at gene loci FRAXA or FRAXE) and phenotypically by cognitive impairment, hyperactivity, SEIZURES, language delay, and enlargement of the ears, head, and testes. INTELLECTUAL DISABILITY occurs in nearly all males and roughly 50% of females with the full mutation of FRAXA. (From Menkes, Textbook of Child Neurology, 5th ed, p226)",
+        "cleaned_description": "A condition characterized genotypically by mutation of the distal end of the long arm of the X chromosome (at gene loci FRAXA or FRAXE) and phenotypically by cognitive impairment, hyperactivity, SEIZURES, language delay, and enlargement of the ears, head, and testes. INTELLECTUAL DISABILITY occurs in nearly all males and roughly 50% of females with the full mutation of FRAXA. (From Menkes, Textbook of Child Neurology, 5th ed, p226)",
+        "description_summary": "A condition characterized genotypically by mutation of the distal end of the long arm of the X chromosome (at gene loci FRAXA or FRAXE) and phenotypically by cognitive impairment, hyperactivity, SEIZURES, language delay, and enlargement of the ears, head, and testes.",
+        "key_terms": [],
+        "word_count": 68
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.530174",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D015417",
+      "DiseaseName": "Hereditary Sensory and Motor Neuropathy",
+      "DiseaseDescription": "A group of slowly progressive inherited disorders affecting motor and sensory peripheral nerves. Subtypes include HMSNs I-VII. HMSN I and II both refer to CHARCOT-MARIE-TOOTH DISEASE. HMSN III refers to hypertrophic neuropathy of infancy. HMSN IV refers to REFSUM DISEASE. HMSN V refers to a condition marked by a hereditary motor and sensory neuropathy associated with spastic paraplegia (see SPASTIC PARAPLEGIA, HEREDITARY). HMSN VI refers to HMSN associated with an inherited optic atrophy (OPTIC ATROPHIES, HEREDITARY), and HMSN VII refers to HMSN associated with retinitis pigmentosa. (From Adams et al., Principles of Neurology, 6th ed, p1343)",
+      "SlimMapping": "['Congenital abnormality', 'Genetic disease (inborn)', 'Nervous system disease']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D015417",
+        "standardized_id": "MESH:D015417",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hereditary Sensory and Motor Neuropathy",
+        "standardized_name": "Hereditary Sensory and Motor Neuropathy",
+        "normalized_name": "hereditary sensory and motor neuropathy",
+        "synonyms": [],
+        "search_terms": [
+          "and",
+          "motor",
+          "hereditary sensory and motor neuropathy",
+          "sensory",
+          "hereditary",
+          "neuropathy"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A group of slowly progressive inherited disorders affecting motor and sensory peripheral nerves. Subtypes include HMSNs I-VII. HMSN I and II both refer to CHARCOT-MARIE-TOOTH DISEASE. HMSN III refers to hypertrophic neuropathy of infancy. HMSN IV refers to REFSUM DISEASE. HMSN V refers to a condition marked by a hereditary motor and sensory neuropathy associated with spastic paraplegia (see SPASTIC PARAPLEGIA, HEREDITARY). HMSN VI refers to HMSN associated with an inherited optic atrophy (OPTIC ATROPHIES, HEREDITARY), and HMSN VII refers to HMSN associated with retinitis pigmentosa. (From Adams et al., Principles of Neurology, 6th ed, p1343)",
+        "cleaned_description": "A group of slowly progressive inherited disorders affecting motor and sensory peripheral nerves. Subtypes include HMSNs I-VII. HMSN I and II both refer to CHARCOT-MARIE-TOOTH DISEASE. HMSN III refers to hypertrophic neuropathy of infancy. HMSN IV refers to REFSUM DISEASE. HMSN V refers to a condition marked by a hereditary motor and sensory neuropathy associated with spastic paraplegia (see SPASTIC PARAPLEGIA, HEREDITARY). HMSN VI refers to HMSN associated with an inherited optic atrophy (OPTIC ATROPHIES, HEREDITARY), and HMSN VII refers to HMSN associated with retinitis pigmentosa. (From Adams et al., Principles of Neurology, 6th ed, p1343)",
+        "description_summary": "A group of slowly progressive inherited disorders affecting motor and sensory peripheral nerves.",
+        "key_terms": [
+          "retinitis",
+          "neuropathy"
+        ],
+        "word_count": 96
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.655809",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D058496",
+      "DiseaseName": "Smith-Magenis Syndrome",
+      "DiseaseDescription": "Complex neurobehavioral disorder characterized by distinctive facial features (FACIES), developmental delay and INTELLECTUAL DISABILITY. Behavioral phenotypes include sleep disturbance, maladaptive, self-injurious and attention-seeking behaviors. The sleep disturbance is linked to an abnormal circadian secretion pattern of MELATONIN. The syndrome is associated with de novo deletion or mutation and HAPLOINSUFFICIENCY of the retinoic acid-induced 1 protein on chromosome 17p11.2.",
+      "SlimMapping": "['Congenital abnormality', 'Genetic disease (inborn)', 'Nervous system disease']",
+      "PathwayNames": "Circadian Clock",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D058496",
+        "standardized_id": "MESH:D058496",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Smith-Magenis Syndrome",
+        "standardized_name": "Smith-Magenis Syndrome",
+        "normalized_name": "smith-magenis syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "smith-magenis",
+          "smith-magenis syndrome",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Complex neurobehavioral disorder characterized by distinctive facial features (FACIES), developmental delay and INTELLECTUAL DISABILITY. Behavioral phenotypes include sleep disturbance, maladaptive, self-injurious and attention-seeking behaviors. The sleep disturbance is linked to an abnormal circadian secretion pattern of MELATONIN. The syndrome is associated with de novo deletion or mutation and HAPLOINSUFFICIENCY of the retinoic acid-induced 1 protein on chromosome 17p11.2.",
+        "cleaned_description": "Complex neurobehavioral disorder characterized by distinctive facial features (FACIES), developmental delay and INTELLECTUAL DISABILITY. Behavioral phenotypes include sleep disturbance, maladaptive, self-injurious and attention-seeking behaviors. The sleep disturbance is linked to an abnormal circadian secretion pattern of MELATONIN. The syndrome is associated with de novo deletion or mutation and HAPLOINSUFFICIENCY of the retinoic acid-induced 1 protein on chromosome 17p11.2.",
+        "description_summary": "Complex neurobehavioral disorder characterized by distinctive facial features (FACIES), developmental delay and INTELLECTUAL DISABILITY.",
+        "key_terms": [],
+        "word_count": 58
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Circadian Clock",
+        "pathway_list": [
+          "Circadian Clock"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.969945",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

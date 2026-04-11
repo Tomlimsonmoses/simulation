@@ -1,0 +1,346 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Respiratory tract disease', 'Signs and symptoms']",
+    "export_timestamp": "2026-03-28T22:11:35.593024",
+    "total_records": 5
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D001049",
+      "DiseaseName": "Apnea",
+      "DiseaseDescription": "A transient absence of spontaneous respiration.",
+      "SlimMapping": "['Respiratory tract disease', 'Signs and symptoms']",
+      "PathwayNames": "Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001049",
+        "standardized_id": "MESH:D001049",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Apnea",
+        "standardized_name": "Apnea",
+        "normalized_name": "apnea",
+        "synonyms": [],
+        "search_terms": [
+          "apnea"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A transient absence of spontaneous respiration.",
+        "cleaned_description": "A transient absence of spontaneous respiration.",
+        "description_summary": "A transient absence of spontaneous respiration.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Respiratory tract disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds",
+        "pathway_list": [
+          "metal ions and amine compounds",
+          "Transport of glucose and other sugars",
+          "bile salts and organic acids"
+        ],
+        "pathway_count": 3,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.372883",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003371",
+      "DiseaseName": "Cough",
+      "DiseaseDescription": "A sudden, audible expulsion of air from the lungs through a partially closed glottis, preceded by inhalation. It is a protective response that serves to clear the trachea, bronchi, and/or lungs of irritants and secretions, or to prevent aspiration of foreign materials into the lungs.",
+      "SlimMapping": "['Respiratory tract disease', 'Signs and symptoms']",
+      "PathwayNames": "TRP channels",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003371",
+        "standardized_id": "MESH:D003371",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cough",
+        "standardized_name": "Cough",
+        "normalized_name": "cough",
+        "synonyms": [],
+        "search_terms": [
+          "cough"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A sudden, audible expulsion of air from the lungs through a partially closed glottis, preceded by inhalation. It is a protective response that serves to clear the trachea, bronchi, and/or lungs of irritants and secretions, or to prevent aspiration of foreign materials into the lungs.",
+        "cleaned_description": "A sudden, audible expulsion of air from the lungs through a partially closed glottis, preceded by inhalation. It is a protective response that serves to clear the trachea, bronchi, and/or lungs of irritants and secretions, or to prevent aspiration of foreign materials into the lungs.",
+        "description_summary": "A sudden, audible expulsion of air from the lungs through a partially closed glottis, preceded by inhalation.",
+        "key_terms": [],
+        "word_count": 45
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Respiratory tract disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "TRP channels",
+        "pathway_list": [
+          "TRP channels"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.461907",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004417",
+      "DiseaseName": "Dyspnea",
+      "DiseaseDescription": "Difficult or labored breathing.",
+      "SlimMapping": "['Respiratory tract disease', 'Signs and symptoms']",
+      "PathwayNames": "cGMP-PKG signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004417",
+        "standardized_id": "MESH:D004417",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Dyspnea",
+        "standardized_name": "Dyspnea",
+        "normalized_name": "dyspnea",
+        "synonyms": [],
+        "search_terms": [
+          "dyspnea"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Difficult or labored breathing.",
+        "cleaned_description": "Difficult or labored breathing.",
+        "description_summary": "Difficult or labored breathing.",
+        "key_terms": [],
+        "word_count": 4
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Respiratory tract disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "cGMP-PKG signaling pathway",
+        "pathway_list": [
+          "cGMP-PKG signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "cGMP-PKG signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.489399",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": [
+            "Very short or missing description"
+          ]
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006985",
+      "DiseaseName": "Hyperventilation",
+      "DiseaseDescription": "A pulmonary ventilation rate faster than is metabolically necessary for the exchange of gases. It is the result of an increased frequency of breathing, an increased tidal volume, or a combination of both. It causes an excess intake of oxygen and the blowing off of carbon dioxide.",
+      "SlimMapping": "['Respiratory tract disease', 'Signs and symptoms']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006985",
+        "standardized_id": "MESH:D006985",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperventilation",
+        "standardized_name": "Hyperventilation",
+        "normalized_name": "hyperventilation",
+        "synonyms": [],
+        "search_terms": [
+          "hyperventilation"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A pulmonary ventilation rate faster than is metabolically necessary for the exchange of gases. It is the result of an increased frequency of breathing, an increased tidal volume, or a combination of both. It causes an excess intake of oxygen and the blowing off of carbon dioxide.",
+        "cleaned_description": "A pulmonary ventilation rate faster than is metabolically necessary for the exchange of gases. It is the result of an increased frequency of breathing, an increased tidal volume, or a combination of both. It causes an excess intake of oxygen and the blowing off of carbon dioxide.",
+        "description_summary": "A pulmonary ventilation rate faster than is metabolically necessary for the exchange of gases.",
+        "key_terms": [],
+        "word_count": 47
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Respiratory tract disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.772053",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007040",
+      "DiseaseName": "Hypoventilation",
+      "DiseaseDescription": "A reduction in the amount of air entering the pulmonary alveoli.",
+      "SlimMapping": "['Respiratory tract disease', 'Signs and symptoms']",
+      "PathwayNames": "XBP1(S) activates chaperone genes",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007040",
+        "standardized_id": "MESH:D007040",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypoventilation",
+        "standardized_name": "Hypoventilation",
+        "normalized_name": "hypoventilation",
+        "synonyms": [],
+        "search_terms": [
+          "hypoventilation"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A reduction in the amount of air entering the pulmonary alveoli.",
+        "cleaned_description": "A reduction in the amount of air entering the pulmonary alveoli.",
+        "description_summary": "A reduction in the amount of air entering the pulmonary alveoli.",
+        "key_terms": [],
+        "word_count": 11
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Respiratory tract disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "XBP1(S) activates chaperone genes",
+        "pathway_list": [
+          "XBP1(S) activates chaperone genes"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.778823",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

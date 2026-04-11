@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Eye disease', 'Nervous system disease', 'Wounds and injuries']",
+    "export_timestamp": "2026-03-28T22:11:35.896208",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D065306",
+      "DiseaseName": "Corneal Injuries",
+      "DiseaseDescription": "Damage or trauma inflicted to the CORNEA by external means.",
+      "SlimMapping": "['Eye disease', 'Nervous system disease', 'Wounds and injuries']",
+      "PathwayNames": "Tyrosine metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D065306",
+        "standardized_id": "MESH:D065306",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Corneal Injuries",
+        "standardized_name": "Corneal Injuries",
+        "normalized_name": "corneal injuries",
+        "synonyms": [],
+        "search_terms": [
+          "injuries",
+          "corneal",
+          "corneal injuries"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Damage or trauma inflicted to the CORNEA by external means.",
+        "cleaned_description": "Damage or trauma inflicted to the CORNEA by external means.",
+        "description_summary": "Damage or trauma inflicted to the CORNEA by external means.",
+        "key_terms": [],
+        "word_count": 10
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Eye disease",
+          "Nervous system disease",
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Eye disease",
+          "Nervous system disease",
+          "Wounds and injuries"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Eye disease",
+          "Nervous system disease",
+          "Wounds and injuries"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tyrosine metabolism",
+        "pathway_list": [
+          "Tyrosine metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.458641",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005131",
+      "DiseaseName": "Eye Injuries",
+      "DiseaseDescription": "Damage or trauma inflicted to the eye by external means. The concept includes both surface injuries and intraocular injuries.",
+      "SlimMapping": "['Eye disease', 'Nervous system disease', 'Wounds and injuries']",
+      "PathwayNames": "MicroRNAs in cancer",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005131",
+        "standardized_id": "MESH:D005131",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Eye Injuries",
+        "standardized_name": "Eye Injuries",
+        "normalized_name": "eye injuries",
+        "synonyms": [],
+        "search_terms": [
+          "injuries",
+          "eye injuries",
+          "eye"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Damage or trauma inflicted to the eye by external means. The concept includes both surface injuries and intraocular injuries.",
+        "cleaned_description": "Damage or trauma inflicted to the eye by external means. The concept includes both surface injuries and intraocular injuries.",
+        "description_summary": "Damage or trauma inflicted to the eye by external means.",
+        "key_terms": [],
+        "word_count": 19
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Eye disease",
+          "Nervous system disease",
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Eye disease",
+          "Nervous system disease",
+          "Wounds and injuries"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Eye disease",
+          "Nervous system disease",
+          "Wounds and injuries"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "MicroRNAs in cancer",
+        "pathway_list": [
+          "MicroRNAs in cancer"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.514037",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

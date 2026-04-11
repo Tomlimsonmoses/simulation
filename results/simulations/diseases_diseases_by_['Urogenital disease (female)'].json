@@ -1,0 +1,326 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Urogenital disease (female)']",
+    "export_timestamp": "2026-03-28T22:11:35.987711",
+    "total_records": 5
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D004714",
+      "DiseaseName": "Endometrial Hyperplasia",
+      "DiseaseDescription": "Benign proliferation of the ENDOMETRIUM in the UTERUS. Endometrial hyperplasia is classified by its cytology and glandular tissue. There are simple, complex (adenomatous without atypia), and atypical hyperplasia representing also the ascending risk of becoming malignant.",
+      "SlimMapping": "['Urogenital disease (female)']",
+      "PathwayNames": "Ub-specific processing proteases",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004714",
+        "standardized_id": "MESH:D004714",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Endometrial Hyperplasia",
+        "standardized_name": "Endometrial Hyperplasia",
+        "normalized_name": "endometrial hyperplasia",
+        "synonyms": [],
+        "search_terms": [
+          "endometrial hyperplasia",
+          "endometrial",
+          "hyperplasia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Benign proliferation of the ENDOMETRIUM in the UTERUS. Endometrial hyperplasia is classified by its cytology and glandular tissue. There are simple, complex (adenomatous without atypia), and atypical hyperplasia representing also the ascending risk of becoming malignant.",
+        "cleaned_description": "Benign proliferation of the ENDOMETRIUM in the UTERUS. Endometrial hyperplasia is classified by its cytology and glandular tissue. There are simple, complex (adenomatous without atypia), and atypical hyperplasia representing also the ascending risk of becoming malignant.",
+        "description_summary": "Benign proliferation of the ENDOMETRIUM in the UTERUS.",
+        "key_terms": [],
+        "word_count": 36
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Ub-specific processing proteases",
+        "pathway_list": [
+          "Ub-specific processing proteases"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.495435",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004715",
+      "DiseaseName": "Endometriosis",
+      "DiseaseDescription": "A condition in which functional endometrial tissue is present outside the UTERUS. It is often confined to the PELVIS involving the OVARY, the ligaments, cul-de-sac, and the uterovesical peritoneum.",
+      "SlimMapping": "['Urogenital disease (female)']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004715",
+        "standardized_id": "MESH:D004715",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Endometriosis",
+        "standardized_name": "Endometriosis",
+        "normalized_name": "endometriosis",
+        "synonyms": [],
+        "search_terms": [
+          "endometriosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition in which functional endometrial tissue is present outside the UTERUS. It is often confined to the PELVIS involving the OVARY, the ligaments, cul-de-sac, and the uterovesical peritoneum.",
+        "cleaned_description": "A condition in which functional endometrial tissue is present outside the UTERUS. It is often confined to the PELVIS involving the OVARY, the ligaments, cul-de-sac, and the uterovesical peritoneum.",
+        "description_summary": "A condition in which functional endometrial tissue is present outside the UTERUS.",
+        "key_terms": [],
+        "word_count": 29
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.495861",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D052776",
+      "DiseaseName": "Female Urogenital Diseases",
+      "DiseaseDescription": "Pathological processes of the female URINARY TRACT and the reproductive system (GENITALIA, FEMALE).",
+      "SlimMapping": "['Urogenital disease (female)']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D052776",
+        "standardized_id": "MESH:D052776",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Female Urogenital Diseases",
+        "standardized_name": "Female Urogenital Diseases",
+        "normalized_name": "female urogenital diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "female urogenital diseases",
+          "urogenital",
+          "female"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological processes of the female URINARY TRACT and the reproductive system (GENITALIA, FEMALE).",
+        "cleaned_description": "Pathological processes of the female URINARY TRACT and the reproductive system (GENITALIA, FEMALE).",
+        "description_summary": "Pathological processes of the female URINARY TRACT and the reproductive system (GENITALIA, FEMALE).",
+        "key_terms": [],
+        "word_count": 13
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.522608",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007247",
+      "DiseaseName": "Infertility, Female",
+      "DiseaseDescription": "Diminished or absent ability of a female to achieve conception.",
+      "SlimMapping": "['Urogenital disease (female)']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007247",
+        "standardized_id": "MESH:D007247",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Infertility, Female",
+        "standardized_name": "Infertility, Female",
+        "normalized_name": "infertility female",
+        "synonyms": [],
+        "search_terms": [
+          "infertility,",
+          "infertility, female",
+          "female"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diminished or absent ability of a female to achieve conception.",
+        "cleaned_description": "Diminished or absent ability of a female to achieve conception.",
+        "description_summary": "Diminished or absent ability of a female to achieve conception.",
+        "key_terms": [],
+        "word_count": 10
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.787290",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014591",
+      "DiseaseName": "Uterine Diseases",
+      "DiseaseDescription": "Pathological processes involving any part of the UTERUS.",
+      "SlimMapping": "['Urogenital disease (female)']",
+      "PathwayNames": "Transport to the Golgi and subsequent modification",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014591",
+        "standardized_id": "MESH:D014591",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Uterine Diseases",
+        "standardized_name": "Uterine Diseases",
+        "normalized_name": "uterine diseases",
+        "synonyms": [],
+        "search_terms": [
+          "uterine",
+          "diseases",
+          "uterine diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological processes involving any part of the UTERUS.",
+        "cleaned_description": "Pathological processes involving any part of the UTERUS.",
+        "description_summary": "Pathological processes involving any part of the UTERUS.",
+        "key_terms": [],
+        "word_count": 8
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Urogenital disease (female)"
+        ],
+        "primary_categories": [
+          "Urogenital disease (female)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Urogenital disease (female)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport to the Golgi and subsequent modification",
+        "pathway_list": [
+          "Transport to the Golgi and subsequent modification"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.014863",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

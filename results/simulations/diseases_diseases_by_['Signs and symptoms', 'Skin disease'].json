@@ -1,0 +1,204 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Signs and symptoms', 'Skin disease']",
+    "export_timestamp": "2026-03-28T22:11:35.995784",
+    "total_records": 3
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D004890",
+      "DiseaseName": "Erythema",
+      "DiseaseDescription": "Redness of the skin produced by congestion of the capillaries. This condition may result from a variety of disease processes.",
+      "SlimMapping": "['Signs and symptoms', 'Skin disease']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004890",
+        "standardized_id": "MESH:D004890",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Erythema",
+        "standardized_name": "Erythema",
+        "normalized_name": "erythema",
+        "synonyms": [],
+        "search_terms": [
+          "erythema"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Redness of the skin produced by congestion of the capillaries. This condition may result from a variety of disease processes.",
+        "cleaned_description": "Redness of the skin produced by congestion of the capillaries. This condition may result from a variety of disease processes.",
+        "description_summary": "Redness of the skin produced by congestion of the capillaries.",
+        "key_terms": [],
+        "word_count": 20
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Signs and symptoms",
+          "Skin disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.510132",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006628",
+      "DiseaseName": "Hirsutism",
+      "DiseaseDescription": "A condition observed in WOMEN and CHILDREN when there is excess coarse body hair of an adult male distribution pattern, such as facial and chest areas. It is the result of elevated ANDROGENS from the OVARIES, the ADRENAL GLANDS, or exogenous sources. The concept does not include HYPERTRICHOSIS, which is an androgen-independent excessive hair growth.",
+      "SlimMapping": "['Signs and symptoms', 'Skin disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006628",
+        "standardized_id": "MESH:D006628",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hirsutism",
+        "standardized_name": "Hirsutism",
+        "normalized_name": "hirsutism",
+        "synonyms": [],
+        "search_terms": [
+          "hirsutism"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition observed in WOMEN and CHILDREN when there is excess coarse body hair of an adult male distribution pattern, such as facial and chest areas. It is the result of elevated ANDROGENS from the OVARIES, the ADRENAL GLANDS, or exogenous sources. The concept does not include HYPERTRICHOSIS, which is an androgen-independent excessive hair growth.",
+        "cleaned_description": "A condition observed in WOMEN and CHILDREN when there is excess coarse body hair of an adult male distribution pattern, such as facial and chest areas. It is the result of elevated ANDROGENS from the OVARIES, the ADRENAL GLANDS, or exogenous sources. The concept does not include HYPERTRICHOSIS, which is an androgen-independent excessive hair growth.",
+        "description_summary": "A condition observed in WOMEN and CHILDREN when there is excess coarse body hair of an adult male distribution pattern, such as facial and chest areas.",
+        "key_terms": [
+          "HYPERTRICHOSIS"
+        ],
+        "word_count": 55
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Signs and symptoms",
+          "Skin disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.658448",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011537",
+      "DiseaseName": "Pruritus",
+      "DiseaseDescription": "An intense itching sensation that produces the urge to rub or scratch the skin to obtain relief.",
+      "SlimMapping": "['Signs and symptoms', 'Skin disease']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011537",
+        "standardized_id": "MESH:D011537",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pruritus",
+        "standardized_name": "Pruritus",
+        "normalized_name": "pruritus",
+        "synonyms": [],
+        "search_terms": [
+          "pruritus"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An intense itching sensation that produces the urge to rub or scratch the skin to obtain relief.",
+        "cleaned_description": "An intense itching sensation that produces the urge to rub or scratch the skin to obtain relief.",
+        "description_summary": "An intense itching sensation that produces the urge to rub or scratch the skin to obtain relief.",
+        "key_terms": [],
+        "word_count": 17
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Signs and symptoms",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Signs and symptoms",
+          "Skin disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Signs and symptoms",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.933502",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

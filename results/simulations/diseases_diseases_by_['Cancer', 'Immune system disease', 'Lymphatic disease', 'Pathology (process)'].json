@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Immune system disease', 'Lymphatic disease', 'Pathology (process)']",
+    "export_timestamp": "2026-03-28T22:11:36.132769",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D015451",
+      "DiseaseName": "Leukemia, Lymphocytic, Chronic, B-Cell",
+      "DiseaseDescription": "A chronic leukemia characterized by abnormal B-lymphocytes and often generalized lymphadenopathy. In patients presenting predominately with blood and bone marrow involvement it is called chronic lymphocytic leukemia (CLL); in those predominately with enlarged lymph nodes it is called small lymphocytic lymphoma. These terms represent spectrums of the same disease.",
+      "SlimMapping": "['Cancer', 'Immune system disease', 'Lymphatic disease', 'Pathology (process)']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D015451",
+        "standardized_id": "MESH:D015451",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Leukemia, Lymphocytic, Chronic, B-Cell",
+        "standardized_name": "Leukemia, Lymphocytic, Chronic, B-Cell",
+        "normalized_name": "leukemia lymphocytic chronic b-cell",
+        "synonyms": [],
+        "search_terms": [
+          "leukemia, lymphocytic, chronic, b-cell",
+          "lymphocytic,",
+          "leukemia,",
+          "b-cell",
+          "chronic,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A chronic leukemia characterized by abnormal B-lymphocytes and often generalized lymphadenopathy. In patients presenting predominately with blood and bone marrow involvement it is called chronic lymphocytic leukemia (CLL); in those predominately with enlarged lymph nodes it is called small lymphocytic lymphoma. These terms represent spectrums of the same disease.",
+        "cleaned_description": "A chronic leukemia characterized by abnormal B-lymphocytes and often generalized lymphadenopathy. In patients presenting predominately with blood and bone marrow involvement it is called chronic lymphocytic leukemia (CLL); in those predominately with enlarged lymph nodes it is called small lymphocytic lymphoma. These terms represent spectrums of the same disease.",
+        "description_summary": "A chronic leukemia characterized by abnormal B-lymphocytes and often generalized lymphadenopathy.",
+        "key_terms": [
+          "lymphadenopathy",
+          "leukemia"
+        ],
+        "word_count": 49
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Immune system disease",
+          "Lymphatic disease",
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Immune system disease",
+          "Lymphatic disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Immune system disease",
+          "Lymphatic disease",
+          "Pathology (process)"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.809252",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

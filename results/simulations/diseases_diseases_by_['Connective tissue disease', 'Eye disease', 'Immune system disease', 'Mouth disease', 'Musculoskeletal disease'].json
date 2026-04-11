@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Connective tissue disease', 'Eye disease', 'Immune system disease', 'Mouth disease', 'Musculoskeletal disease']",
+    "export_timestamp": "2026-03-28T22:11:36.299752",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D012859",
+      "DiseaseName": "Sjogren's Syndrome",
+      "DiseaseDescription": "Chronic inflammatory and autoimmune disease in which the salivary and lacrimal glands undergo progressive destruction by lymphocytes and plasma cells resulting in decreased production of saliva and tears. The primary form, often called sicca syndrome, involves both KERATOCONJUNCTIVITIS SICCA and XEROSTOMIA. The secondary form includes, in addition, the presence of a connective tissue disease, usually rheumatoid arthritis.",
+      "SlimMapping": "['Connective tissue disease', 'Eye disease', 'Immune system disease', 'Mouth disease', 'Musculoskeletal disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012859",
+        "standardized_id": "MESH:D012859",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Sjogren's Syndrome",
+        "standardized_name": "Sjogren's Syndrome",
+        "normalized_name": "sjogrens syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "sjogren's",
+          "sjogren's syndrome",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Chronic inflammatory and autoimmune disease in which the salivary and lacrimal glands undergo progressive destruction by lymphocytes and plasma cells resulting in decreased production of saliva and tears. The primary form, often called sicca syndrome, involves both KERATOCONJUNCTIVITIS SICCA and XEROSTOMIA. The secondary form includes, in addition, the presence of a connective tissue disease, usually rheumatoid arthritis.",
+        "cleaned_description": "Chronic inflammatory and autoimmune disease in which the salivary and lacrimal glands undergo progressive destruction by lymphocytes and plasma cells resulting in decreased production of saliva and tears. The primary form, often called sicca syndrome, involves both KERATOCONJUNCTIVITIS SICCA and XEROSTOMIA. The secondary form includes, in addition, the presence of a connective tissue disease, usually rheumatoid arthritis.",
+        "description_summary": "Chronic inflammatory and autoimmune disease in which the salivary and lacrimal glands undergo progressive destruction by lymphocytes and plasma cells resulting in decreased production of saliva and tears.",
+        "key_terms": [
+          "KERATOCONJUNCTIVITIS",
+          "arthritis"
+        ],
+        "word_count": 57
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Connective tissue disease",
+          "Eye disease",
+          "Immune system disease",
+          "Mouth disease",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Connective tissue disease",
+          "Eye disease",
+          "Immune system disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Connective tissue disease",
+          "Eye disease",
+          "Immune system disease",
+          "Mouth disease",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 5
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.965632",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

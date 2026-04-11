@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Ear-nose-throat disease', 'Mouth disease']",
+    "export_timestamp": "2026-03-28T22:11:36.222706",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000077274",
+      "DiseaseName": "Nasopharyngeal Carcinoma",
+      "DiseaseDescription": "A carcinoma that originates in the EPITHELIUM of the NASOPHARYNX and includes four subtypes: keratinizing squamous cell, non-keratinizing, basaloid squamous cell, and PAPILLARY ADENOCARCINOMA. It is most prevalent in Southeast Asian populations and is associated with EPSTEIN-BARR VIRUS INFECTIONS. Somatic mutations associated with this cancer have been identified in NPCR, BAP1, UBAP1, ERBB2, ERBB3, MLL2, PIK3CA, KRAS, NRAS, and ARID1A genes.",
+      "SlimMapping": "['Cancer', 'Ear-nose-throat disease', 'Mouth disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000077274",
+        "standardized_id": "MESH:D000077274",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Nasopharyngeal Carcinoma",
+        "standardized_name": "Nasopharyngeal Carcinoma",
+        "normalized_name": "nasopharyngeal carcinoma",
+        "synonyms": [],
+        "search_terms": [
+          "carcinoma",
+          "nasopharyngeal",
+          "nasopharyngeal carcinoma"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A carcinoma that originates in the EPITHELIUM of the NASOPHARYNX and includes four subtypes: keratinizing squamous cell, non-keratinizing, basaloid squamous cell, and PAPILLARY ADENOCARCINOMA. It is most prevalent in Southeast Asian populations and is associated with EPSTEIN-BARR VIRUS INFECTIONS. Somatic mutations associated with this cancer have been identified in NPCR, BAP1, UBAP1, ERBB2, ERBB3, MLL2, PIK3CA, KRAS, NRAS, and ARID1A genes.",
+        "cleaned_description": "A carcinoma that originates in the EPITHELIUM of the NASOPHARYNX and includes four subtypes: keratinizing squamous cell, non-keratinizing, basaloid squamous cell, and PAPILLARY ADENOCARCINOMA. It is most prevalent in Southeast Asian populations and is associated with EPSTEIN-BARR VIRUS INFECTIONS. Somatic mutations associated with this cancer have been identified in NPCR, BAP1, UBAP1, ERBB2, ERBB3, MLL2, PIK3CA, KRAS, NRAS, and ARID1A genes.",
+        "description_summary": "A carcinoma that originates in the EPITHELIUM of the NASOPHARYNX and includes four subtypes: keratinizing squamous cell, non-keratinizing, basaloid squamous cell, and PAPILLARY ADENOCARCINOMA.",
+        "key_terms": [],
+        "word_count": 61
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Ear-nose-throat disease",
+          "Mouth disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Ear-nose-throat disease",
+          "Mouth disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Ear-nose-throat disease",
+          "Mouth disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.866165",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009303",
+      "DiseaseName": "Nasopharyngeal Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the NASOPHARYNX.",
+      "SlimMapping": "['Cancer', 'Ear-nose-throat disease', 'Mouth disease']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009303",
+        "standardized_id": "MESH:D009303",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Nasopharyngeal Neoplasms",
+        "standardized_name": "Nasopharyngeal Neoplasms",
+        "normalized_name": "nasopharyngeal neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "nasopharyngeal neoplasms",
+          "nasopharyngeal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the NASOPHARYNX.",
+        "cleaned_description": "Tumors or cancer of the NASOPHARYNX.",
+        "description_summary": "Tumors or cancer of the NASOPHARYNX.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Ear-nose-throat disease",
+          "Mouth disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Ear-nose-throat disease",
+          "Mouth disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Ear-nose-throat disease",
+          "Mouth disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.866251",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

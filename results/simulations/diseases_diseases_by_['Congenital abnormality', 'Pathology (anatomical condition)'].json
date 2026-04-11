@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Congenital abnormality', 'Pathology (anatomical condition)']",
+    "export_timestamp": "2026-03-28T22:11:36.055644",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D065630",
+      "DiseaseName": "Hernias, Diaphragmatic, Congenital",
+      "DiseaseDescription": "Protrusion of abdominal structures into the THORAX as a result of embryologic defects in the DIAPHRAGM often present in the neonatal period. It can be isolated, syndromic, non-syndromic or be a part of chromosome abnormality. Associated pulmonary hypoplasia and PULMONARY HYPERTENSION can further complicate stabilization and surgical intervention.",
+      "SlimMapping": "['Congenital abnormality', 'Pathology (anatomical condition)']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D065630",
+        "standardized_id": "MESH:D065630",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hernias, Diaphragmatic, Congenital",
+        "standardized_name": "Hernias, Diaphragmatic, Congenital",
+        "normalized_name": "hernias diaphragmatic congenital",
+        "synonyms": [],
+        "search_terms": [
+          "hernias,",
+          "congenital",
+          "diaphragmatic,",
+          "hernias, diaphragmatic, congenital"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Protrusion of abdominal structures into the THORAX as a result of embryologic defects in the DIAPHRAGM often present in the neonatal period. It can be isolated, syndromic, non-syndromic or be a part of chromosome abnormality. Associated pulmonary hypoplasia and PULMONARY HYPERTENSION can further complicate stabilization and surgical intervention.",
+        "cleaned_description": "Protrusion of abdominal structures into the THORAX as a result of embryologic defects in the DIAPHRAGM often present in the neonatal period. It can be isolated, syndromic, non-syndromic or be a part of chromosome abnormality. Associated pulmonary hypoplasia and PULMONARY HYPERTENSION can further complicate stabilization and surgical intervention.",
+        "description_summary": "Protrusion of abdominal structures into the THORAX as a result of embryologic defects in the DIAPHRAGM often present in the neonatal period.",
+        "key_terms": [],
+        "word_count": 48
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Pathology (anatomical condition)"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Pathology (anatomical condition)"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Pathology (anatomical condition)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.656361",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

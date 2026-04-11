@@ -1,0 +1,201 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Occupational disease']",
+    "export_timestamp": "2026-03-28T22:11:35.460529",
+    "total_records": 3
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000382",
+      "DiseaseName": "Agricultural Workers' Diseases",
+      "DiseaseDescription": "Diseases in persons engaged in cultivating and tilling soil, growing plants, harvesting crops, raising livestock, or otherwise engaged in husbandry and farming. The diseases are not restricted to farmers in the sense of those who perform conventional farm chores: the heading applies also to those engaged in the individual activities named above, as in those only gathering harvest or in those only dusting crops.",
+      "SlimMapping": "['Occupational disease']",
+      "PathwayNames": "Synthesis of 5-eicosatetraenoic acids",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000382",
+        "standardized_id": "MESH:D000382",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Agricultural Workers' Diseases",
+        "standardized_name": "Agricultural Workers' Diseases",
+        "normalized_name": "agricultural workers diseases",
+        "synonyms": [],
+        "search_terms": [
+          "workers'",
+          "diseases",
+          "agricultural",
+          "agricultural workers' diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases in persons engaged in cultivating and tilling soil, growing plants, harvesting crops, raising livestock, or otherwise engaged in husbandry and farming. The diseases are not restricted to farmers in the sense of those who perform conventional farm chores: the heading applies also to those engaged in the individual activities named above, as in those only gathering harvest or in those only dusting crops.",
+        "cleaned_description": "Diseases in persons engaged in cultivating and tilling soil, growing plants, harvesting crops, raising livestock, or otherwise engaged in husbandry and farming. The diseases are not restricted to farmers in the sense of those who perform conventional farm chores: the heading applies also to those engaged in the individual activities named above, as in those only gathering harvest or in those only dusting crops.",
+        "description_summary": "Diseases in persons engaged in cultivating and tilling soil, growing plants, harvesting crops, raising livestock, or otherwise engaged in husbandry and farming.",
+        "key_terms": [],
+        "word_count": 64
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Occupational disease"
+        ],
+        "primary_categories": [
+          "Occupational disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Occupational disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Synthesis of 5-eicosatetraenoic acids",
+        "pathway_list": [
+          "Synthesis of 5-eicosatetraenoic acids"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.358360",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009784",
+      "DiseaseName": "Occupational Diseases",
+      "DiseaseDescription": "Diseases caused by factors involved in one's employment.",
+      "SlimMapping": "['Occupational disease']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009784",
+        "standardized_id": "MESH:D009784",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Occupational Diseases",
+        "standardized_name": "Occupational Diseases",
+        "normalized_name": "occupational diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "occupational",
+          "occupational diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases caused by factors involved in one's employment.",
+        "cleaned_description": "Diseases caused by factors involved in one's employment.",
+        "description_summary": "Diseases caused by factors involved in one's employment.",
+        "key_terms": [],
+        "word_count": 8
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Occupational disease"
+        ],
+        "primary_categories": [
+          "Occupational disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Occupational disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.890393",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D018923",
+      "DiseaseName": "Persian Gulf Syndrome",
+      "DiseaseDescription": "Unexplained symptoms reported by veterans of the Persian Gulf War with Iraq in 1991. The symptoms reported include fatigue, skin rash, muscle and joint pain, headaches, loss of memory, shortness of breath, gastrointestinal and respiratory symptoms, and extreme sensitivity to commonly occurring chemicals. (Nature 1994 May 5;369(6475):8)",
+      "SlimMapping": "['Occupational disease']",
+      "PathwayNames": "Synthesis of 5-eicosatetraenoic acids",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018923",
+        "standardized_id": "MESH:D018923",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Persian Gulf Syndrome",
+        "standardized_name": "Persian Gulf Syndrome",
+        "normalized_name": "persian gulf syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "persian gulf syndrome",
+          "persian",
+          "gulf",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Unexplained symptoms reported by veterans of the Persian Gulf War with Iraq in 1991. The symptoms reported include fatigue, skin rash, muscle and joint pain, headaches, loss of memory, shortness of breath, gastrointestinal and respiratory symptoms, and extreme sensitivity to commonly occurring chemicals. (Nature 1994 May 5;369(6475):8)",
+        "cleaned_description": "Unexplained symptoms reported by veterans of the Persian Gulf War with Iraq in 1991. The symptoms reported include fatigue, skin rash, muscle and joint pain, headaches, loss of memory, shortness of breath, gastrointestinal and respiratory symptoms, and extreme sensitivity to commonly occurring chemicals. (Nature 1994 May 5;369(6475):8)",
+        "description_summary": "Unexplained symptoms reported by veterans of the Persian Gulf War with Iraq in 1991.",
+        "key_terms": [],
+        "word_count": 47
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Occupational disease"
+        ],
+        "primary_categories": [
+          "Occupational disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Occupational disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Synthesis of 5-eicosatetraenoic acids",
+        "pathway_list": [
+          "Synthesis of 5-eicosatetraenoic acids"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.914465",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

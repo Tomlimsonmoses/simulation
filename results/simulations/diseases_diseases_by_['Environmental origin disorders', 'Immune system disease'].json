@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Environmental origin disorders', 'Immune system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.195727",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D018777",
+      "DiseaseName": "Multiple Chemical Sensitivity",
+      "DiseaseDescription": "An acquired disorder characterized by recurrent symptoms, referable to multiple organ systems, occurring in response to demonstrable exposure to many chemically unrelated compounds at doses below those established in the general population to cause harmful effects. (Cullen MR. The worker with multiple chemical sensitivities: an overview. Occup Med 1987;2(4):655-61)",
+      "SlimMapping": "['Environmental origin disorders', 'Immune system disease']",
+      "PathwayNames": "Peroxisome",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018777",
+        "standardized_id": "MESH:D018777",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Multiple Chemical Sensitivity",
+        "standardized_name": "Multiple Chemical Sensitivity",
+        "normalized_name": "multiple chemical sensitivity",
+        "synonyms": [],
+        "search_terms": [
+          "chemical",
+          "multiple",
+          "multiple chemical sensitivity",
+          "sensitivity"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An acquired disorder characterized by recurrent symptoms, referable to multiple organ systems, occurring in response to demonstrable exposure to many chemically unrelated compounds at doses below those established in the general population to cause harmful effects. (Cullen MR. The worker with multiple chemical sensitivities: an overview. Occup Med 1987;2(4):655-61)",
+        "cleaned_description": "An acquired disorder characterized by recurrent symptoms, referable to multiple organ systems, occurring in response to demonstrable exposure to many chemically unrelated compounds at doses below those established in the general population to cause harmful effects. (Cullen MR. The worker with multiple chemical sensitivities: an overview. Occup Med 1987;2(4):655-61)",
+        "description_summary": "An acquired disorder characterized by recurrent symptoms, referable to multiple organ systems, occurring in response to demonstrable exposure to many chemically unrelated compounds at doses below those established in the general population to cause harmful effects.",
+        "key_terms": [],
+        "word_count": 49
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Environmental origin disorders",
+          "Immune system disease"
+        ],
+        "primary_categories": [
+          "Environmental origin disorders",
+          "Immune system disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Environmental origin disorders",
+          "Immune system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Peroxisome",
+        "pathway_list": [
+          "Peroxisome"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.858328",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

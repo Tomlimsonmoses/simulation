@@ -1,0 +1,218 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Eye disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.253420",
+    "total_records": 3
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D009896",
+      "DiseaseName": "Optic Atrophy",
+      "DiseaseDescription": "Atrophy of the optic disk which may be congenital or acquired. This condition indicates a deficiency in the number of nerve fibers which arise in the RETINA and converge to form the OPTIC DISK; OPTIC NERVE; OPTIC CHIASM; and optic tracts. GLAUCOMA; ISCHEMIA; inflammation, a chronic elevation of intracranial pressure, toxins, optic nerve compression, and inherited conditions (see OPTIC ATROPHIES, HEREDITARY) are relatively common causes of this condition.",
+      "SlimMapping": "['Eye disease', 'Nervous system disease']",
+      "PathwayNames": "Transport of the SLBP Dependant Mature mRNA",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009896",
+        "standardized_id": "MESH:D009896",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Optic Atrophy",
+        "standardized_name": "Optic Atrophy",
+        "normalized_name": "optic atrophy",
+        "synonyms": [],
+        "search_terms": [
+          "optic atrophy",
+          "optic",
+          "atrophy"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Atrophy of the optic disk which may be congenital or acquired. This condition indicates a deficiency in the number of nerve fibers which arise in the RETINA and converge to form the OPTIC DISK; OPTIC NERVE; OPTIC CHIASM; and optic tracts. GLAUCOMA; ISCHEMIA; inflammation, a chronic elevation of intracranial pressure, toxins, optic nerve compression, and inherited conditions (see OPTIC ATROPHIES, HEREDITARY) are relatively common causes of this condition.",
+        "cleaned_description": "Atrophy of the optic disk which may be congenital or acquired. This condition indicates a deficiency in the number of nerve fibers which arise in the RETINA and converge to form the OPTIC DISK; OPTIC NERVE; OPTIC CHIASM; and optic tracts. GLAUCOMA; ISCHEMIA; inflammation, a chronic elevation of intracranial pressure, toxins, optic nerve compression, and inherited conditions (see OPTIC ATROPHIES, HEREDITARY) are relatively common causes of this condition.",
+        "description_summary": "Atrophy of the optic disk which may be congenital or acquired.",
+        "key_terms": [
+          "ISCHEMIA"
+        ],
+        "word_count": 68
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Eye disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Eye disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Eye disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of the SLBP Dependant Mature mRNA",
+        "pathway_list": [
+          "Transport of the SLBP Dependant Mature mRNA"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.893610",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009901",
+      "DiseaseName": "Optic Nerve Diseases",
+      "DiseaseDescription": "Conditions which produce injury or dysfunction of the second cranial or optic nerve, which is generally considered a component of the central nervous system. Damage to optic nerve fibers may occur at or near their origin in the retina, at the optic disk, or in the nerve, optic chiasm, optic tract, or lateral geniculate nuclei. Clinical manifestations may include decreased visual acuity and contrast sensitivity, impaired color vision, and an afferent pupillary defect.",
+      "SlimMapping": "['Eye disease', 'Nervous system disease']",
+      "PathwayNames": "Synthesis, secretion, and inactivation of Glucose-dependent Insulinotropic Polypeptide (GIP)",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009901",
+        "standardized_id": "MESH:D009901",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Optic Nerve Diseases",
+        "standardized_name": "Optic Nerve Diseases",
+        "normalized_name": "optic nerve diseases",
+        "synonyms": [],
+        "search_terms": [
+          "optic",
+          "diseases",
+          "nerve",
+          "optic nerve diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Conditions which produce injury or dysfunction of the second cranial or optic nerve, which is generally considered a component of the central nervous system. Damage to optic nerve fibers may occur at or near their origin in the retina, at the optic disk, or in the nerve, optic chiasm, optic tract, or lateral geniculate nuclei. Clinical manifestations may include decreased visual acuity and contrast sensitivity, impaired color vision, and an afferent pupillary defect.",
+        "cleaned_description": "Conditions which produce injury or dysfunction of the second cranial or optic nerve, which is generally considered a component of the central nervous system. Damage to optic nerve fibers may occur at or near their origin in the retina, at the optic disk, or in the nerve, optic chiasm, optic tract, or lateral geniculate nuclei. Clinical manifestations may include decreased visual acuity and contrast sensitivity, impaired color vision, and an afferent pupillary defect.",
+        "description_summary": "Conditions which produce injury or dysfunction of the second cranial or optic nerve, which is generally considered a component of the central nervous system.",
+        "key_terms": [],
+        "word_count": 73
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Eye disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Eye disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Eye disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Synthesis, secretion, and inactivation of Glucose-dependent Insulinotropic Polypeptide (GIP)",
+        "pathway_list": [
+          "and inactivation of Glucose-dependent Insulinotropic Polypeptide (GIP)",
+          "Synthesis",
+          "secretion"
+        ],
+        "pathway_count": 3,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.894895",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009902",
+      "DiseaseName": "Optic Neuritis",
+      "DiseaseDescription": "Inflammation of the optic nerve. Commonly associated conditions include autoimmune disorders such as MULTIPLE SCLEROSIS, infections, and granulomatous diseases. Clinical features include retro-orbital pain that is aggravated by eye movement, loss of color vision, and contrast sensitivity that may progress to severe visual loss, an afferent pupillary defect (Marcus-Gunn pupil), and in some instances optic disc hyperemia and swelling. Inflammation may occur in the portion of the nerve within the globe (neuropapillitis or anterior optic neuritis) or the portion behind the globe (retrobulbar neuritis or posterior optic neuritis).",
+      "SlimMapping": "['Eye disease', 'Nervous system disease']",
+      "PathwayNames": "Protein processing in endoplasmic reticulum",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009902",
+        "standardized_id": "MESH:D009902",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Optic Neuritis",
+        "standardized_name": "Optic Neuritis",
+        "normalized_name": "optic neuritis",
+        "synonyms": [],
+        "search_terms": [
+          "optic",
+          "neuritis",
+          "optic neuritis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inflammation of the optic nerve. Commonly associated conditions include autoimmune disorders such as MULTIPLE SCLEROSIS, infections, and granulomatous diseases. Clinical features include retro-orbital pain that is aggravated by eye movement, loss of color vision, and contrast sensitivity that may progress to severe visual loss, an afferent pupillary defect (Marcus-Gunn pupil), and in some instances optic disc hyperemia and swelling. Inflammation may occur in the portion of the nerve within the globe (neuropapillitis or anterior optic neuritis) or the portion behind the globe (retrobulbar neuritis or posterior optic neuritis).",
+        "cleaned_description": "Inflammation of the optic nerve. Commonly associated conditions include autoimmune disorders such as MULTIPLE SCLEROSIS, infections, and granulomatous diseases. Clinical features include retro-orbital pain that is aggravated by eye movement, loss of color vision, and contrast sensitivity that may progress to severe visual loss, an afferent pupillary defect (Marcus-Gunn pupil), and in some instances optic disc hyperemia and swelling. Inflammation may occur in the portion of the nerve within the globe (neuropapillitis or anterior optic neuritis) or the portion behind the globe (retrobulbar neuritis or posterior optic neuritis).",
+        "description_summary": "Inflammation of the optic nerve.",
+        "key_terms": [
+          "SCLEROSIS",
+          "neuritis",
+          "hyperemia",
+          "neuropapillitis"
+        ],
+        "word_count": 88
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Eye disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Eye disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Eye disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Protein processing in endoplasmic reticulum",
+        "pathway_list": [
+          "Protein processing in endoplasmic reticulum"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.895382",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

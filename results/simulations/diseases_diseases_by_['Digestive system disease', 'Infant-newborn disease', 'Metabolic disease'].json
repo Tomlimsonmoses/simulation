@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Digestive system disease', 'Infant-newborn disease', 'Metabolic disease']",
+    "export_timestamp": "2026-03-28T22:11:35.889029",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D044903",
+      "DiseaseName": "Congenital Hyperinsulinism",
+      "DiseaseDescription": "A familial, nontransient HYPOGLYCEMIA with defects in negative feedback of GLUCOSE-regulated INSULIN release. Clinical phenotypes include HYPOGLYCEMIA; HYPERINSULINEMIA; SEIZURES; COMA; and often large BIRTH WEIGHT. Several sub-types exist with the most common, type 1, associated with mutations on an ATP-BINDING CASSETTE TRANSPORTERS (subfamily C, member 8).",
+      "SlimMapping": "['Digestive system disease', 'Infant-newborn disease', 'Metabolic disease']",
+      "PathwayNames": "Type II diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D044903",
+        "standardized_id": "MESH:D044903",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Congenital Hyperinsulinism",
+        "standardized_name": "Congenital Hyperinsulinism",
+        "normalized_name": "congenital hyperinsulinism",
+        "synonyms": [],
+        "search_terms": [
+          "congenital",
+          "hyperinsulinism",
+          "congenital hyperinsulinism"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A familial, nontransient HYPOGLYCEMIA with defects in negative feedback of GLUCOSE-regulated INSULIN release. Clinical phenotypes include HYPOGLYCEMIA; HYPERINSULINEMIA; SEIZURES; COMA; and often large BIRTH WEIGHT. Several sub-types exist with the most common, type 1, associated with mutations on an ATP-BINDING CASSETTE TRANSPORTERS (subfamily C, member 8).",
+        "cleaned_description": "A familial, nontransient HYPOGLYCEMIA with defects in negative feedback of GLUCOSE-regulated INSULIN release. Clinical phenotypes include HYPOGLYCEMIA; HYPERINSULINEMIA; SEIZURES; COMA; and often large BIRTH WEIGHT. Several sub-types exist with the most common, type 1, associated with mutations on an ATP-BINDING CASSETTE TRANSPORTERS (subfamily C, member 8).",
+        "description_summary": "A familial, nontransient HYPOGLYCEMIA with defects in negative feedback of GLUCOSE-regulated INSULIN release.",
+        "key_terms": [
+          "HYPERINSULINEMIA",
+          "HYPOGLYCEMIA"
+        ],
+        "word_count": 46
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease",
+          "Infant-newborn disease",
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease",
+          "Infant-newborn disease",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Digestive system disease",
+          "Infant-newborn disease",
+          "Metabolic disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type II diabetes mellitus",
+        "pathway_list": [
+          "Type II diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.450214",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

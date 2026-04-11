@@ -1,0 +1,223 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Congenital abnormality', 'Mouth disease', 'Musculoskeletal disease']",
+    "export_timestamp": "2026-03-28T22:11:35.879590",
+    "total_records": 3
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D002972",
+      "DiseaseName": "Cleft Palate",
+      "DiseaseDescription": "Congenital fissure of the soft and/or hard palate, due to faulty fusion.",
+      "SlimMapping": "['Congenital abnormality', 'Mouth disease', 'Musculoskeletal disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002972",
+        "standardized_id": "MESH:D002972",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cleft Palate",
+        "standardized_name": "Cleft Palate",
+        "normalized_name": "cleft palate",
+        "synonyms": [],
+        "search_terms": [
+          "cleft",
+          "palate",
+          "cleft palate"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Congenital fissure of the soft and/or hard palate, due to faulty fusion.",
+        "cleaned_description": "Congenital fissure of the soft and/or hard palate, due to faulty fusion.",
+        "description_summary": "Congenital fissure of the soft and/or hard palate, due to faulty fusion.",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Mouth disease",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Mouth disease",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Mouth disease",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.445632",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007569",
+      "DiseaseName": "Jaw Abnormalities",
+      "DiseaseDescription": "Congenital absence of or defects in structures of the jaw.",
+      "SlimMapping": "['Congenital abnormality', 'Mouth disease', 'Musculoskeletal disease']",
+      "PathwayNames": "Translesion synthesis by Y family DNA polymerases bypasses lesions on DNA template",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007569",
+        "standardized_id": "MESH:D007569",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Jaw Abnormalities",
+        "standardized_name": "Jaw Abnormalities",
+        "normalized_name": "jaw abnormalities",
+        "synonyms": [],
+        "search_terms": [
+          "abnormalities",
+          "jaw abnormalities",
+          "jaw"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Congenital absence of or defects in structures of the jaw.",
+        "cleaned_description": "Congenital absence of or defects in structures of the jaw.",
+        "description_summary": "Congenital absence of or defects in structures of the jaw.",
+        "key_terms": [],
+        "word_count": 10
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Mouth disease",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Mouth disease",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Mouth disease",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Translesion synthesis by Y family DNA polymerases bypasses lesions on DNA template",
+        "pathway_list": [
+          "Translesion synthesis by Y family DNA polymerases bypasses lesions on DNA template"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.795956",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D019767",
+      "DiseaseName": "Maxillofacial Abnormalities",
+      "DiseaseDescription": "Congenital structural deformities, malformations, or other abnormalities of the maxilla and face or facial bones.",
+      "SlimMapping": "['Congenital abnormality', 'Mouth disease', 'Musculoskeletal disease']",
+      "PathwayNames": "One carbon pool by folate",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D019767",
+        "standardized_id": "MESH:D019767",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Maxillofacial Abnormalities",
+        "standardized_name": "Maxillofacial Abnormalities",
+        "normalized_name": "maxillofacial abnormalities",
+        "synonyms": [],
+        "search_terms": [
+          "maxillofacial abnormalities",
+          "abnormalities",
+          "maxillofacial"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Congenital structural deformities, malformations, or other abnormalities of the maxilla and face or facial bones.",
+        "cleaned_description": "Congenital structural deformities, malformations, or other abnormalities of the maxilla and face or facial bones.",
+        "description_summary": "Congenital structural deformities, malformations, or other abnormalities of the maxilla and face or facial bones.",
+        "key_terms": [],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Mouth disease",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Mouth disease",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Mouth disease",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "One carbon pool by folate",
+        "pathway_list": [
+          "One carbon pool by folate"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.838665",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

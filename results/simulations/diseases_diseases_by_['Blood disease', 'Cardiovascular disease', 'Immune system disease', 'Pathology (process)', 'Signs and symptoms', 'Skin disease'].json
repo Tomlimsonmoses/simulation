@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Blood disease', 'Cardiovascular disease', 'Immune system disease', 'Pathology (process)', 'Signs and symptoms', 'Skin disease']",
+    "export_timestamp": "2026-03-28T22:11:36.113894",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D011695",
+      "DiseaseName": "IgA Vasculitis",
+      "DiseaseDescription": "A systemic non-thrombocytopenic purpura caused by HYPERSENSITIVITY VASCULITIS and deposition of IGA-containing IMMUNE COMPLEXES within the blood vessels throughout the body, including those in the kidney (KIDNEY GLOMERULUS). Clinical symptoms include URTICARIA; ERYTHEMA; ARTHRITIS; GASTROINTESTINAL HEMORRHAGE; and renal involvement. Most cases are seen in children after acute upper respiratory infections.",
+      "SlimMapping": "['Blood disease', 'Cardiovascular disease', 'Immune system disease', 'Pathology (process)', 'Signs and symptoms', 'Skin disease']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011695",
+        "standardized_id": "MESH:D011695",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "IgA Vasculitis",
+        "standardized_name": "IgA Vasculitis",
+        "normalized_name": "iga vasculitis",
+        "synonyms": [],
+        "search_terms": [
+          "iga",
+          "iga vasculitis",
+          "vasculitis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A systemic non-thrombocytopenic purpura caused by HYPERSENSITIVITY VASCULITIS and deposition of IGA-containing IMMUNE COMPLEXES within the blood vessels throughout the body, including those in the kidney (KIDNEY GLOMERULUS). Clinical symptoms include URTICARIA; ERYTHEMA; ARTHRITIS; GASTROINTESTINAL HEMORRHAGE; and renal involvement. Most cases are seen in children after acute upper respiratory infections.",
+        "cleaned_description": "A systemic non-thrombocytopenic purpura caused by HYPERSENSITIVITY VASCULITIS and deposition of IGA-containing IMMUNE COMPLEXES within the blood vessels throughout the body, including those in the kidney (KIDNEY GLOMERULUS). Clinical symptoms include URTICARIA; ERYTHEMA; ARTHRITIS; GASTROINTESTINAL HEMORRHAGE; and renal involvement. Most cases are seen in children after acute upper respiratory infections.",
+        "description_summary": "A systemic non-thrombocytopenic purpura caused by HYPERSENSITIVITY VASCULITIS and deposition of IGA-containing IMMUNE COMPLEXES within the blood vessels throughout the body, including those in the kidney (KIDNEY GLOMERULUS).",
+        "key_terms": [
+          "ARTHRITIS",
+          "VASCULITIS"
+        ],
+        "word_count": 50
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Cardiovascular disease",
+          "Immune system disease",
+          "Pathology (process)",
+          "Signs and symptoms",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Cardiovascular disease",
+          "Immune system disease"
+        ],
+        "broad_categories": [
+          "cardiovascular",
+          "immune_system"
+        ],
+        "all_categories": [
+          "Blood disease",
+          "Cardiovascular disease",
+          "Immune system disease",
+          "Pathology (process)",
+          "Signs and symptoms",
+          "Skin disease"
+        ],
+        "category_count": 6
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.782250",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Congenital abnormality', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+    "export_timestamp": "2026-03-28T22:11:36.107690",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D007021",
+      "DiseaseName": "Hypospadias",
+      "DiseaseDescription": "A birth defect due to malformation of the URETHRA in which the urethral opening is below its normal location. In the male, the malformed urethra generally opens on the ventral surface of the PENIS or on the PERINEUM. In the female, the malformed urethral opening is in the VAGINA.",
+      "SlimMapping": "['Congenital abnormality', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Unfolded Protein Response (UPR)",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007021",
+        "standardized_id": "MESH:D007021",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypospadias",
+        "standardized_name": "Hypospadias",
+        "normalized_name": "hypospadias",
+        "synonyms": [],
+        "search_terms": [
+          "hypospadias"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A birth defect due to malformation of the URETHRA in which the urethral opening is below its normal location. In the male, the malformed urethra generally opens on the ventral surface of the PENIS or on the PERINEUM. In the female, the malformed urethral opening is in the VAGINA.",
+        "cleaned_description": "A birth defect due to malformation of the URETHRA in which the urethral opening is below its normal location. In the male, the malformed urethra generally opens on the ventral surface of the PENIS or on the PERINEUM. In the female, the malformed urethral opening is in the VAGINA.",
+        "description_summary": "A birth defect due to malformation of the URETHRA in which the urethral opening is below its normal location.",
+        "key_terms": [],
+        "word_count": 49
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Unfolded Protein Response (UPR)",
+        "pathway_list": [
+          "Unfolded Protein Response (UPR)"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.777256",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014564",
+      "DiseaseName": "Urogenital Abnormalities",
+      "DiseaseDescription": "Congenital structural abnormalities of the UROGENITAL SYSTEM in either the male or the female.",
+      "SlimMapping": "['Congenital abnormality', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014564",
+        "standardized_id": "MESH:D014564",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Urogenital Abnormalities",
+        "standardized_name": "Urogenital Abnormalities",
+        "normalized_name": "urogenital abnormalities",
+        "synonyms": [],
+        "search_terms": [
+          "urogenital",
+          "urogenital abnormalities",
+          "abnormalities"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Congenital structural abnormalities of the UROGENITAL SYSTEM in either the male or the female.",
+        "cleaned_description": "Congenital structural abnormalities of the UROGENITAL SYSTEM in either the male or the female.",
+        "description_summary": "Congenital structural abnormalities of the UROGENITAL SYSTEM in either the male or the female.",
+        "key_terms": [],
+        "word_count": 14
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.013100",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

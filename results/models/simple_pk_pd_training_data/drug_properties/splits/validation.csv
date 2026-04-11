@@ -1,0 +1,303 @@
+drug_id,drug_name,molecular_weight,logp,bioavailability,protein_binding,clearance_rate,volume_distribution,half_life,drug_class,administration_route,drug_likeness_score,bioavailability_category
+DB00767,Benzquinamide,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB09242,Moxonidine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00648,Mitotane,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DRUG_00011,Amlodipine,408.9,3.0,0.64,0.93,0.12,21.0,35.0,small_molecule,oral,2,good
+DB01001,Salbutamol,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00267,Cefmenoxime,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00593,Ethosuximide,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB09227,Barnidipine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB09472,Sodium sulfate,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00518,Albendazole,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00268,Ropinirole,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00500,Tolmetin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00469,Tenoxicam,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB14533,Zinc chloride,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00631,Clofarabine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00378,Dydrogesterone,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB09099,Somatostatin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB06707,Levonordefrin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00727,Nitroglycerin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01419,Antrafenine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00533,Rofecoxib,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01134,Desoxycorticosterone pivalate,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00988,Dopamine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB05490,AMG-131,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01607,Ticarcillin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DRUG_00022,Fentanyl,336.5,4.0,0.5,0.8,0.6,4.0,4.0,small_molecule,intravenous,2,moderate
+DB01064,Isoprenaline,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB12371,Siponimod,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00415,Ampicillin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01190,Clindamycin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00007,Leuprolide,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00695,Furosemide,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00936,Salicylic acid,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01013,Clobetasol propionate,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00344,Protriptyline,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00754,Ethotoin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DRUG_00093,Hydrocortisone,362.5,1.6,0.72,0.9,0.26,0.8,2.0,small_molecule,oral,2,good
+DB00218,Moxifloxacin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00336,Nitrofural,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB06626,Axitinib,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00247,Methysergide,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00875,Flupentixol,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00282,Pamidronic acid,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB06719,Buserelin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00119,Pyruvic acid,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01353,Butobarbital,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00232,Methyclothiazide,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00776,Oxcarbazepine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00749,Etodolac,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01194,Brinzolamide,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB04630,Aldosterone,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00790,Perindopril,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01077,Etidronic acid,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00857,Terbinafine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00368,Norepinephrine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB09304,Setiptiline,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01139,Cefapirin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00628,Clorazepic acid,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00370,Mirtazapine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00401,Nisoldipine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00467,Enoxacin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00690,Flurazepam,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00968,Methyldopa,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01284,Tetracosactide,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00231,Temazepam,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00780,Phenelzine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01174,Phenobarbital,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00200,Hydroxocobalamin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00979,Cyclopentolate,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01255,Lisdexamfetamine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00640,Adenosine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DRUG_00046,Rivaroxaban,435.9,2.7,0.8,0.95,0.2,0.3,8.0,small_molecule,oral,2,good
+DB05260,Gallium nitrate,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00508,Triflupromazine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01409,Tiotropium,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB05381,Histamine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB06282,Levocetirizine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DRUG_00004,Lisinopril,405.5,-0.7,0.25,0.25,0.2,1.3,12.0,small_molecule,oral,2,poor
+DB01171,Moclobemide,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB05271,Rotigotine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB06774,Capsaicin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB06594,Agomelatine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB11828,Neratinib,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01113,Papaverine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01403,Methotrimeprazine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB04574,Estrone sulfate,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01418,Acenocoumarol,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01589,Quazepam,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB08846,Ellagic acid,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00419,Miglustat,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00475,Chlordiazepoxide,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00851,Dacarbazine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB03796,Palmitic Acid,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00659,Acamprosate,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DRUG_00050,Liraglutide,3751.0,-1.5,0.55,0.99,0.07,1.2,13.0,peptide,subcutaneous,1,moderate
+DB04866,Halofuginone,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00844,Nalbuphine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00245,Benzatropine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00403,Ceruletide,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00499,Flutamide,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01161,Chloroprocaine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB06151,Acetylcysteine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00443,Betamethasone,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00472,Fluoxetine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB06710,Methyltestosterone,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DRUG_00019,Omeprazole,345.4,2.1,0.35,0.95,0.5,0.3,1.0,small_molecule,oral,2,moderate
+DB08844,Uric acid,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DRUG_00035,Ciprofloxacin,331.3,0.3,0.7,0.3,0.48,2.5,4.0,small_molecule,oral,2,good
+DB00362,Anidulafungin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00611,Butorphanol,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01127,Econazole,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01016,Glyburide,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00983,Formoterol,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00772,Malathion,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00612,Bisoprolol,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB06204,Tapentadol,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00722,Lisinopril,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01437,Glutethimide,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00673,Aprepitant,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00927,Famotidine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01026,Ketoconazole,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01018,Guanfacine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB09212,Loxoprofen,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01544,Flunitrazepam,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00588,Fluticasone propionate,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00590,Doxazosin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB08877,Ruxolitinib,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DRUG_00017,Sertraline,306.2,5.1,0.44,0.98,0.23,20.0,26.0,small_molecule,oral,1,moderate
+DB00898,Ethanol,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01163,Amdinocillin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00909,Zonisamide,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01616,Alverine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB12874,Quizartinib,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00582,Voriconazole,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01044,Gatifloxacin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB08922,Perospirone,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01125,Anisindione,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01425,Alizapride,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00674,Galantamine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00313,Valproic acid,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00493,Cefotaxime,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00955,Netilmicin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB13872,Lormetazepam,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00287,Travoprost,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB05885,Seletracetam,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00546,Adinazolam,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB13953,Estradiol benzoate,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00441,Gemcitabine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00818,Propofol,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB09194,Etoperidone,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DRUG_00016,Fluoxetine,309.3,4.5,0.72,0.94,0.24,3.0,4.0,small_molecule,oral,2,good
+DB00539,Toremifene,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00683,Midazolam,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00483,Gallamine triethiodide,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00486,Nabilone,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01036,Tolterodine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB09129,Chromic chloride,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB05458,Pozanicline,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB11640,Amifampridine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00205,Pyrimethamine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01198,Zopiclone,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01226,Mivacurium,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DRUG_00026,Pregabalin,159.2,-0.4,0.9,0.01,0.67,0.5,6.0,small_molecule,oral,2,excellent
+DB00199,Erythromycin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB06211,Doripenem,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01219,Dantrolene,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DRUG_00037,Vancomycin,1449.3,-3.1,0.0,0.55,0.12,0.7,6.0,small_molecule,intravenous,1,
+DB06709,Methacholine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB06711,Naphazoline,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01151,Desipramine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00569,Fondaparinux,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB08890,Linaclotide,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01147,Cloxacillin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01892,Hyperforin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00260,Cycloserine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00701,Amprenavir,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00731,Nateglinide,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB04690,Camptothecin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00910,Paricalcitol,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB12831,Gabexate,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00211,Midodrine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00788,Naproxen,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01435,Antipyrine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB04842,Fluspirilene,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB06700,Desvenlafaxine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB14639,Boldenone undecylenate,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01427,Amrinone,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00901,Bitolterol,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00358,Mefloquine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB04938,Ospemifene,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00397,Phenylpropanolamine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00685,Trovafloxacin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB06203,Alogliptin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01083,Orlistat,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00797,Tolazoline,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB09059,Atosiban,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01430,Almitrine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DRUG_00053,Valsartan,435.5,2.9,0.23,0.95,0.17,1.5,6.0,small_molecule,oral,2,poor
+DB01592,Iron,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00703,Methazolamide,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00736,Esomeprazole,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00381,Amlodipine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB11577,Indigotindisulfonic acid,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01602,Bacampicillin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00782,Propantheline,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DRUG_00008,Digoxin,780.9,2.1,0.7,0.25,0.03,6.7,36.0,small_molecule,oral,1,good
+DB01428,Oxybenzone,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB06663,Pasireotide,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB08799,Antazoline,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00734,Risperidone,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00943,Zalcitabine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01178,Chlormezanone,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00606,Cyclothiazide,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB04855,Dronedarone,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01606,Tazobactam,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00144,Phosphatidyl serine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00274,Cefmetazole,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB09027,Ledipasvir,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB09073,Palbociclib,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB09130,Copper,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01101,Capecitabine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB04599,Aniracetam,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00348,Nitisinone,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01245,Decamethonium,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00622,Nicardipine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB03575,Phencyclidine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00842,Oxazepam,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01180,Rescinnamine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00757,Dolasetron,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00937,Diethylpropion,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01213,Fomepizole,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01407,Clenbuterol,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01466,Ethylmorphine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00372,Thiethylperazine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00482,Celecoxib,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00541,Vincristine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00711,Diethylcarbamazine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB09026,Aliskiren,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB04864,Huperzine A,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00635,Prednisone,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00669,Sumatriptan,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01084,Emedastine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00900,Didanosine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00823,Ethynodiol diacetate,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB09256,Tegafur,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00715,Paroxetine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01433,Methadyl acetate,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00152,Thiamine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01233,Metoclopramide,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB09019,Bromhexine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01217,Anastrozole,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01186,Pergolide,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00668,Epinephrine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB08801,Dimetindene,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00710,Ibandronate,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01014,Balsalazide,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00165,Pyridoxine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB05676,Apremilast,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01384,Paramethasone,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01223,Aminophylline,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00629,Guanabenz,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DRUG_00001,Ibuprofen,206.28,3.5,0.8,0.99,0.72,0.15,2.0,small_molecule,oral,2,good
+DB00993,Azathioprine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01327,Cefazolin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00138,Cystine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB13944,Testosterone enanthate,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB09236,Lacidipine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB09102,Daclatasvir,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB06201,Rufinamide,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01082,Streptomycin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB04953,Ezogabine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00984,Nandrolone phenpropionate,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00732,Atracurium besylate,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB06813,Pralatrexate,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB09289,Tianeptine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB09205,Moxisylyte,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01092,Ouabain,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00892,Oxybuprocaine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00672,Chlorpropamide,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01280,Nelarabine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01106,Levocabastine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00714,Apomorphine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB04841,Flunarizine,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01070,Dihydrotachysterol,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01320,Fosphenytoin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB09204,Arotinolol,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00547,Desoximetasone,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB08837,Tetraethylammonium,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00581,Lactulose,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01003,Cromoglicic acid,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01215,Estazolam,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB05990,Obeticholic acid,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00970,Dactinomycin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00704,Naltrexone,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00854,Levorphanol,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00654,Latanoprost,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01600,Tiaprofenic acid,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB08805,Metiamide,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB00132,Linolenic acid,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01411,Pranlukast,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB09245,Toloxatone,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate
+DB01095,Fluvastatin,385.2,2.25,0.5,0.855,0.215,1.15,5.0,unknown,unknown,2,moderate

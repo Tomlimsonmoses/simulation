@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Mental disorder', 'Urogenital disease (male)']",
+    "export_timestamp": "2026-03-28T22:11:35.994775",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D007172",
+      "DiseaseName": "Erectile Dysfunction",
+      "DiseaseDescription": "The inability in the male to have a PENILE ERECTION due to psychological or organ dysfunction.",
+      "SlimMapping": "['Mental disorder', 'Urogenital disease (male)']",
+      "PathwayNames": "VEGF signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007172",
+        "standardized_id": "MESH:D007172",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Erectile Dysfunction",
+        "standardized_name": "Erectile Dysfunction",
+        "normalized_name": "erectile dysfunction",
+        "synonyms": [],
+        "search_terms": [
+          "erectile",
+          "dysfunction",
+          "erectile dysfunction"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The inability in the male to have a PENILE ERECTION due to psychological or organ dysfunction.",
+        "cleaned_description": "The inability in the male to have a PENILE ERECTION due to psychological or organ dysfunction.",
+        "description_summary": "The inability in the male to have a PENILE ERECTION due to psychological or organ dysfunction.",
+        "key_terms": [],
+        "word_count": 16
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGF signaling pathway",
+        "pathway_list": [
+          "VEGF signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGF signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.509937",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

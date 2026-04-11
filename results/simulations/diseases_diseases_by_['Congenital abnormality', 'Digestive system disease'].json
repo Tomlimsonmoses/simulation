@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Congenital abnormality', 'Digestive system disease']",
+    "export_timestamp": "2026-03-28T22:11:35.559852",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D001006",
+      "DiseaseName": "Anus, Imperforate",
+      "DiseaseDescription": "A congenital abnormality characterized by the persistence of the anal membrane, resulting in a thin membrane covering the normal ANAL CANAL. Imperforation is not always complete and is treated by surgery in infancy. This defect is often associated with NEURAL TUBE DEFECTS; MENTAL RETARDATION; and DOWN SYNDROME.",
+      "SlimMapping": "['Congenital abnormality', 'Digestive system disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001006",
+        "standardized_id": "MESH:D001006",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Anus, Imperforate",
+        "standardized_name": "Anus, Imperforate",
+        "normalized_name": "anus imperforate",
+        "synonyms": [],
+        "search_terms": [
+          "anus,",
+          "anus, imperforate",
+          "imperforate"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A congenital abnormality characterized by the persistence of the anal membrane, resulting in a thin membrane covering the normal ANAL CANAL. Imperforation is not always complete and is treated by surgery in infancy. This defect is often associated with NEURAL TUBE DEFECTS; MENTAL RETARDATION; and DOWN SYNDROME.",
+        "cleaned_description": "A congenital abnormality characterized by the persistence of the anal membrane, resulting in a thin membrane covering the normal ANAL CANAL. Imperforation is not always complete and is treated by surgery in infancy. This defect is often associated with NEURAL TUBE DEFECTS; MENTAL RETARDATION; and DOWN SYNDROME.",
+        "description_summary": "A congenital abnormality characterized by the persistence of the anal membrane, resulting in a thin membrane covering the normal ANAL CANAL.",
+        "key_terms": [],
+        "word_count": 47
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Digestive system disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Digestive system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.371189",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

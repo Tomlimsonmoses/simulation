@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cardiovascular disease', 'Genetic disease (inborn)']",
+    "export_timestamp": "2026-03-28T22:11:35.820224",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D053840",
+      "DiseaseName": "Brugada Syndrome",
+      "DiseaseDescription": "An autosomal dominant defect of cardiac conduction that is characterized by an abnormal ST-segment in leads V1-V3 on the ELECTROCARDIOGRAM resembling a right BUNDLE-BRANCH BLOCK; high risk of VENTRICULAR TACHYCARDIA; or VENTRICULAR FIBRILLATION; SYNCOPAL EPISODE; and possible sudden death. This syndrome is linked to mutations of gene encoding the cardiac SODIUM CHANNEL alpha subunit.",
+      "SlimMapping": "['Cardiovascular disease', 'Genetic disease (inborn)']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D053840",
+        "standardized_id": "MESH:D053840",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Brugada Syndrome",
+        "standardized_name": "Brugada Syndrome",
+        "normalized_name": "brugada syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "brugada syndrome",
+          "brugada",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An autosomal dominant defect of cardiac conduction that is characterized by an abnormal ST-segment in leads V1-V3 on the ELECTROCARDIOGRAM resembling a right BUNDLE-BRANCH BLOCK; high risk of VENTRICULAR TACHYCARDIA; or VENTRICULAR FIBRILLATION; SYNCOPAL EPISODE; and possible sudden death. This syndrome is linked to mutations of gene encoding the cardiac SODIUM CHANNEL alpha subunit.",
+        "cleaned_description": "An autosomal dominant defect of cardiac conduction that is characterized by an abnormal ST-segment in leads V1-V3 on the ELECTROCARDIOGRAM resembling a right BUNDLE-BRANCH BLOCK; high risk of VENTRICULAR TACHYCARDIA; or VENTRICULAR FIBRILLATION; SYNCOPAL EPISODE; and possible sudden death. This syndrome is linked to mutations of gene encoding the cardiac SODIUM CHANNEL alpha subunit.",
+        "description_summary": "An autosomal dominant defect of cardiac conduction that is characterized by an abnormal ST-segment in leads V1-V3 on the ELECTROCARDIOGRAM resembling a right BUNDLE-BRANCH BLOCK; high risk of VENTRICULAR TACHYCARDIA; or VENTRICULAR FIBRILLATION; SYNCOPAL EPISODE; and possible sudden death.",
+        "key_terms": [],
+        "word_count": 54
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Genetic disease (inborn)"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Genetic disease (inborn)"
+        ],
+        "broad_categories": [
+          "cardiovascular",
+          "genetic"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Genetic disease (inborn)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.410416",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002311",
+      "DiseaseName": "Cardiomyopathy, Dilated",
+      "DiseaseDescription": "A form of CARDIAC MUSCLE disease that is characterized by ventricular dilation, VENTRICULAR DYSFUNCTION, and HEART FAILURE. Risk factors include SMOKING; ALCOHOL DRINKING; HYPERTENSION; INFECTION; PREGNANCY; and mutations in the LMNA gene encoding LAMIN TYPE A, a NUCLEAR LAMINA protein.",
+      "SlimMapping": "['Cardiovascular disease', 'Genetic disease (inborn)']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002311",
+        "standardized_id": "MESH:D002311",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cardiomyopathy, Dilated",
+        "standardized_name": "Cardiomyopathy, Dilated",
+        "normalized_name": "cardiomyopathy dilated",
+        "synonyms": [],
+        "search_terms": [
+          "cardiomyopathy,",
+          "cardiomyopathy, dilated",
+          "dilated"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A form of CARDIAC MUSCLE disease that is characterized by ventricular dilation, VENTRICULAR DYSFUNCTION, and HEART FAILURE. Risk factors include SMOKING; ALCOHOL DRINKING; HYPERTENSION; INFECTION; PREGNANCY; and mutations in the LMNA gene encoding LAMIN TYPE A, a NUCLEAR LAMINA protein.",
+        "cleaned_description": "A form of CARDIAC MUSCLE disease that is characterized by ventricular dilation, VENTRICULAR DYSFUNCTION, and HEART FAILURE. Risk factors include SMOKING; ALCOHOL DRINKING; HYPERTENSION; INFECTION; PREGNANCY; and mutations in the LMNA gene encoding LAMIN TYPE A, a NUCLEAR LAMINA protein.",
+        "description_summary": "A form of CARDIAC MUSCLE disease that is characterized by ventricular dilation, VENTRICULAR DYSFUNCTION, and HEART FAILURE.",
+        "key_terms": [],
+        "word_count": 40
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Genetic disease (inborn)"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Genetic disease (inborn)"
+        ],
+        "broad_categories": [
+          "cardiovascular",
+          "genetic"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Genetic disease (inborn)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.427778",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

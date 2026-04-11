@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cardiovascular disease', 'Wounds and injuries']",
+    "export_timestamp": "2026-03-28T22:11:35.565595",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D001019",
+      "DiseaseName": "Aortic Rupture",
+      "DiseaseDescription": "The tearing or bursting of the wall along any portion of the AORTA, such as thoracic or abdominal. It may result from the rupture of an aneurysm or it may be due to TRAUMA.",
+      "SlimMapping": "['Cardiovascular disease', 'Wounds and injuries']",
+      "PathwayNames": "Ubiquinone and other terpenoid-quinone biosynthesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001019",
+        "standardized_id": "MESH:D001019",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Aortic Rupture",
+        "standardized_name": "Aortic Rupture",
+        "normalized_name": "aortic rupture",
+        "synonyms": [],
+        "search_terms": [
+          "rupture",
+          "aortic rupture",
+          "aortic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The tearing or bursting of the wall along any portion of the AORTA, such as thoracic or abdominal. It may result from the rupture of an aneurysm or it may be due to TRAUMA.",
+        "cleaned_description": "The tearing or bursting of the wall along any portion of the AORTA, such as thoracic or abdominal. It may result from the rupture of an aneurysm or it may be due to TRAUMA.",
+        "description_summary": "The tearing or bursting of the wall along any portion of the AORTA, such as thoracic or abdominal.",
+        "key_terms": [],
+        "word_count": 34
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Wounds and injuries"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Wounds and injuries"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Ubiquinone and other terpenoid-quinone biosynthesis",
+        "pathway_list": [
+          "Ubiquinone and other terpenoid-quinone biosynthesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.372383",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D057772",
+      "DiseaseName": "Vascular System Injuries",
+      "DiseaseDescription": "Injuries to blood vessels caused by laceration, contusion, puncture, or crush and other types of injuries. Symptoms vary by site and mode of injuries and may include bleeding, bruising, swelling, pain, and numbness. It does not include injuries secondary to pathologic function or diseases such as ATHEROSCLEROSIS.",
+      "SlimMapping": "['Cardiovascular disease', 'Wounds and injuries']",
+      "PathwayNames": "Type II diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D057772",
+        "standardized_id": "MESH:D057772",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Vascular System Injuries",
+        "standardized_name": "Vascular System Injuries",
+        "normalized_name": "vascular system injuries",
+        "synonyms": [],
+        "search_terms": [
+          "vascular system injuries",
+          "injuries",
+          "vascular",
+          "system"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Injuries to blood vessels caused by laceration, contusion, puncture, or crush and other types of injuries. Symptoms vary by site and mode of injuries and may include bleeding, bruising, swelling, pain, and numbness. It does not include injuries secondary to pathologic function or diseases such as ATHEROSCLEROSIS.",
+        "cleaned_description": "Injuries to blood vessels caused by laceration, contusion, puncture, or crush and other types of injuries. Symptoms vary by site and mode of injuries and may include bleeding, bruising, swelling, pain, and numbness. It does not include injuries secondary to pathologic function or diseases such as ATHEROSCLEROSIS.",
+        "description_summary": "Injuries to blood vessels caused by laceration, contusion, puncture, or crush and other types of injuries.",
+        "key_terms": [
+          "ATHEROSCLEROSIS"
+        ],
+        "word_count": 47
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Wounds and injuries"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Wounds and injuries"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type II diabetes mellitus",
+        "pathway_list": [
+          "Type II diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.019270",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

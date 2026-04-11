@@ -1,0 +1,3783 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Pathology (process)']",
+    "export_timestamp": "2026-03-28T22:11:35.364847",
+    "total_records": 60
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000210",
+      "DiseaseName": "Acute-Phase Reaction",
+      "DiseaseDescription": "An early local inflammatory reaction to insult or injury that consists of fever, an increase in inflammatory humoral factors, and an increased synthesis by hepatocytes of a number of proteins or glycoproteins usually found in the plasma.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Cell junction organization",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000210",
+        "standardized_id": "MESH:D000210",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Acute-Phase Reaction",
+        "standardized_name": "Acute-Phase Reaction",
+        "normalized_name": "acute-phase reaction",
+        "synonyms": [],
+        "search_terms": [
+          "reaction",
+          "acute-phase reaction",
+          "acute-phase"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An early local inflammatory reaction to insult or injury that consists of fever, an increase in inflammatory humoral factors, and an increased synthesis by hepatocytes of a number of proteins or glycoproteins usually found in the plasma.",
+        "cleaned_description": "An early local inflammatory reaction to insult or injury that consists of fever, an increase in inflammatory humoral factors, and an increased synthesis by hepatocytes of a number of proteins or glycoproteins usually found in the plasma.",
+        "description_summary": "An early local inflammatory reaction to insult or injury that consists of fever, an increase in inflammatory humoral factors, and an increased synthesis by hepatocytes of a number of proteins or glycoproteins usually found in the plasma.",
+        "key_terms": [],
+        "word_count": 37
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Cell junction organization",
+        "pathway_list": [
+          "Cell junction organization"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.355515",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000568",
+      "DiseaseName": "Amenorrhea",
+      "DiseaseDescription": "Absence of menstruation.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Steroid hormone biosynthesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000568",
+        "standardized_id": "MESH:D000568",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Amenorrhea",
+        "standardized_name": "Amenorrhea",
+        "normalized_name": "amenorrhea",
+        "synonyms": [],
+        "search_terms": [
+          "amenorrhea"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Absence of menstruation.",
+        "cleaned_description": "Absence of menstruation.",
+        "description_summary": "Absence of menstruation.",
+        "key_terms": [],
+        "word_count": 3
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Steroid hormone biosynthesis",
+        "pathway_list": [
+          "Steroid hormone biosynthesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.361281",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": [
+            "Very short or missing description"
+          ]
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000782",
+      "DiseaseName": "Aneuploidy",
+      "DiseaseDescription": "The chromosomal constitution of cells which deviate from the normal by the addition or subtraction of CHROMOSOMES, chromosome pairs, or chromosome fragments. In a normally diploid cell (DIPLOIDY) the loss of a chromosome pair is termed nullisomy (symbol: 2N-2), the loss of a single chromosome is MONOSOMY (symbol: 2N-1), the addition of a chromosome pair is tetrasomy (symbol: 2N+2), the addition of a single chromosome is TRISOMY (symbol: 2N+1).",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000782",
+        "standardized_id": "MESH:D000782",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Aneuploidy",
+        "standardized_name": "Aneuploidy",
+        "normalized_name": "aneuploidy",
+        "synonyms": [],
+        "search_terms": [
+          "aneuploidy"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The chromosomal constitution of cells which deviate from the normal by the addition or subtraction of CHROMOSOMES, chromosome pairs, or chromosome fragments. In a normally diploid cell (DIPLOIDY) the loss of a chromosome pair is termed nullisomy (symbol: 2N-2), the loss of a single chromosome is MONOSOMY (symbol: 2N-1), the addition of a chromosome pair is tetrasomy (symbol: 2N+2), the addition of a single chromosome is TRISOMY (symbol: 2N+1).",
+        "cleaned_description": "The chromosomal constitution of cells which deviate from the normal by the addition or subtraction of CHROMOSOMES, chromosome pairs, or chromosome fragments. In a normally diploid cell (DIPLOIDY) the loss of a chromosome pair is termed nullisomy (symbol: 2N-2), the loss of a single chromosome is MONOSOMY (symbol: 2N-1), the addition of a chromosome pair is tetrasomy (symbol: 2N+2), the addition of a single chromosome is TRISOMY (symbol: 2N+1).",
+        "description_summary": "The chromosomal constitution of cells which deviate from the normal by the addition or subtraction of CHROMOSOMES, chromosome pairs, or chromosome fragments.",
+        "key_terms": [],
+        "word_count": 69
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.364744",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001201",
+      "DiseaseName": "Ascites",
+      "DiseaseDescription": "Accumulation or retention of free fluid within the peritoneal cavity.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Taste transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001201",
+        "standardized_id": "MESH:D001201",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Ascites",
+        "standardized_name": "Ascites",
+        "normalized_name": "ascites",
+        "synonyms": [],
+        "search_terms": [
+          "ascites"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Accumulation or retention of free fluid within the peritoneal cavity.",
+        "cleaned_description": "Accumulation or retention of free fluid within the peritoneal cavity.",
+        "description_summary": "Accumulation or retention of free fluid within the peritoneal cavity.",
+        "key_terms": [],
+        "word_count": 10
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Taste transduction",
+        "pathway_list": [
+          "Taste transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.376359",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D043171",
+      "DiseaseName": "Chromosomal Instability",
+      "DiseaseDescription": "An increased tendency to acquire CHROMOSOME ABERRATIONS when various processes involved in chromosome replication, repair, or segregation are dysfunctional.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Viral mRNA Translation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D043171",
+        "standardized_id": "MESH:D043171",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Chromosomal Instability",
+        "standardized_name": "Chromosomal Instability",
+        "normalized_name": "chromosomal instability",
+        "synonyms": [],
+        "search_terms": [
+          "chromosomal",
+          "instability",
+          "chromosomal instability"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An increased tendency to acquire CHROMOSOME ABERRATIONS when various processes involved in chromosome replication, repair, or segregation are dysfunctional.",
+        "cleaned_description": "An increased tendency to acquire CHROMOSOME ABERRATIONS when various processes involved in chromosome replication, repair, or segregation are dysfunctional.",
+        "description_summary": "An increased tendency to acquire CHROMOSOME ABERRATIONS when various processes involved in chromosome replication, repair, or segregation are dysfunctional.",
+        "key_terms": [],
+        "word_count": 19
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral mRNA Translation",
+        "pathway_list": [
+          "Viral mRNA Translation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.443929",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002869",
+      "DiseaseName": "Chromosome Aberrations",
+      "DiseaseDescription": "Abnormal number or structure of chromosomes. Chromosome aberrations may result in CHROMOSOME DISORDERS.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002869",
+        "standardized_id": "MESH:D002869",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Chromosome Aberrations",
+        "standardized_name": "Chromosome Aberrations",
+        "normalized_name": "chromosome aberrations",
+        "synonyms": [],
+        "search_terms": [
+          "chromosome",
+          "chromosome aberrations",
+          "aberrations"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormal number or structure of chromosomes. Chromosome aberrations may result in CHROMOSOME DISORDERS.",
+        "cleaned_description": "Abnormal number or structure of chromosomes. Chromosome aberrations may result in CHROMOSOME DISORDERS.",
+        "description_summary": "Abnormal number or structure of chromosomes.",
+        "key_terms": [],
+        "word_count": 13
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.444035",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D019457",
+      "DiseaseName": "Chromosome Breakage",
+      "DiseaseDescription": "A type of chromosomal aberration involving DNA BREAKS. Chromosome breakage can result in CHROMOSOMAL TRANSLOCATION; CHROMOSOME INVERSION; or SEQUENCE DELETION.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "XBP1(S) activates chaperone genes",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D019457",
+        "standardized_id": "MESH:D019457",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Chromosome Breakage",
+        "standardized_name": "Chromosome Breakage",
+        "normalized_name": "chromosome breakage",
+        "synonyms": [],
+        "search_terms": [
+          "chromosome",
+          "chromosome breakage",
+          "breakage"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A type of chromosomal aberration involving DNA BREAKS. Chromosome breakage can result in CHROMOSOMAL TRANSLOCATION; CHROMOSOME INVERSION; or SEQUENCE DELETION.",
+        "cleaned_description": "A type of chromosomal aberration involving DNA BREAKS. Chromosome breakage can result in CHROMOSOMAL TRANSLOCATION; CHROMOSOME INVERSION; or SEQUENCE DELETION.",
+        "description_summary": "A type of chromosomal aberration involving DNA BREAKS.",
+        "key_terms": [],
+        "word_count": 20
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "XBP1(S) activates chaperone genes",
+        "pathway_list": [
+          "XBP1(S) activates chaperone genes"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.444150",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002908",
+      "DiseaseName": "Chronic Disease",
+      "DiseaseDescription": "Diseases which have one or more of the following characteristics: they are permanent, leave residual disability, are caused by nonreversible pathological alteration, require special training of the patient for rehabilitation, or may be expected to require a long period of supervision, observation, or care (Dictionary of Health Services Management, 2d ed). For epidemiological studies chronic disease often includes HEART DISEASES; STROKE; CANCER; and diabetes (DIABETES MELLITUS, TYPE 2).",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Transmembrane transport of small molecules",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002908",
+        "standardized_id": "MESH:D002908",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Chronic Disease",
+        "standardized_name": "Chronic Disease",
+        "normalized_name": "chronic disease",
+        "synonyms": [],
+        "search_terms": [
+          "disease",
+          "chronic",
+          "chronic disease"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases which have one or more of the following characteristics: they are permanent, leave residual disability, are caused by nonreversible pathological alteration, require special training of the patient for rehabilitation, or may be expected to require a long period of supervision, observation, or care (Dictionary of Health Services Management, 2d ed). For epidemiological studies chronic disease often includes HEART DISEASES; STROKE; CANCER; and diabetes (DIABETES MELLITUS, TYPE 2).",
+        "cleaned_description": "Diseases which have one or more of the following characteristics: they are permanent, leave residual disability, are caused by nonreversible pathological alteration, require special training of the patient for rehabilitation, or may be expected to require a long period of supervision, observation, or care (Dictionary of Health Services Management, 2d ed). For epidemiological studies chronic disease often includes HEART DISEASES; STROKE; CANCER; and diabetes (DIABETES MELLITUS, TYPE 2).",
+        "description_summary": "Diseases which have one or more of the following characteristics: they are permanent, leave residual disability, are caused by nonreversible pathological alteration, require special training of the patient for rehabilitation, or may be expected to require a long period of supervision, observation, o",
+        "key_terms": [],
+        "word_count": 68
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmembrane transport of small molecules",
+        "pathway_list": [
+          "Transmembrane transport of small molecules"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.444393",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D016638",
+      "DiseaseName": "Critical Illness",
+      "DiseaseDescription": "A disease or state in which death is possible or imminent.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Steroid hormone biosynthesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D016638",
+        "standardized_id": "MESH:D016638",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Critical Illness",
+        "standardized_name": "Critical Illness",
+        "normalized_name": "critical illness",
+        "synonyms": [],
+        "search_terms": [
+          "illness",
+          "critical",
+          "critical illness"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A disease or state in which death is possible or imminent.",
+        "cleaned_description": "A disease or state in which death is possible or imminent.",
+        "description_summary": "A disease or state in which death is possible or imminent.",
+        "key_terms": [],
+        "word_count": 11
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Steroid hormone biosynthesis",
+        "pathway_list": [
+          "Steroid hormone biosynthesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.463948",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003643",
+      "DiseaseName": "Death",
+      "DiseaseDescription": "Irreversible cessation of all bodily functions, manifested by absence of spontaneous breathing and total loss of cardiovascular and cerebral functions.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Vitamin digestion and absorption",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003643",
+        "standardized_id": "MESH:D003643",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Death",
+        "standardized_name": "Death",
+        "normalized_name": "death",
+        "synonyms": [],
+        "search_terms": [
+          "death"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Irreversible cessation of all bodily functions, manifested by absence of spontaneous breathing and total loss of cardiovascular and cerebral functions.",
+        "cleaned_description": "Irreversible cessation of all bodily functions, manifested by absence of spontaneous breathing and total loss of cardiovascular and cerebral functions.",
+        "description_summary": "Irreversible cessation of all bodily functions, manifested by absence of spontaneous breathing and total loss of cardiovascular and cerebral functions.",
+        "key_terms": [],
+        "word_count": 20
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamin digestion and absorption",
+        "pathway_list": [
+          "Vitamin digestion and absorption"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.466448",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003645",
+      "DiseaseName": "Death, Sudden",
+      "DiseaseDescription": "The abrupt cessation of all vital bodily functions, manifested by the permanent loss of total cerebral, respiratory, and cardiovascular functions.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "TRP channels",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003645",
+        "standardized_id": "MESH:D003645",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Death, Sudden",
+        "standardized_name": "Death, Sudden",
+        "normalized_name": "death sudden",
+        "synonyms": [],
+        "search_terms": [
+          "death,",
+          "sudden",
+          "death, sudden"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The abrupt cessation of all vital bodily functions, manifested by the permanent loss of total cerebral, respiratory, and cardiovascular functions.",
+        "cleaned_description": "The abrupt cessation of all vital bodily functions, manifested by the permanent loss of total cerebral, respiratory, and cardiovascular functions.",
+        "description_summary": "The abrupt cessation of all vital bodily functions, manifested by the permanent loss of total cerebral, respiratory, and cardiovascular functions.",
+        "key_terms": [],
+        "word_count": 20
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "TRP channels",
+        "pathway_list": [
+          "TRP channels"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.466551",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D055191",
+      "DiseaseName": "Delayed Emergence from Anesthesia",
+      "DiseaseDescription": "Abnormally slow pace of regaining CONSCIOUSNESS after general anesthesia (ANESTHESIA, GENERAL) usually given during surgical procedures. This condition is characterized by persistent somnolence.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Immune System",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D055191",
+        "standardized_id": "MESH:D055191",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Delayed Emergence from Anesthesia",
+        "standardized_name": "Delayed Emergence from Anesthesia",
+        "normalized_name": "delayed emergence from anesthesia",
+        "synonyms": [],
+        "search_terms": [
+          "emergence",
+          "from",
+          "delayed",
+          "delayed emergence from anesthesia",
+          "anesthesia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormally slow pace of regaining CONSCIOUSNESS after general anesthesia (ANESTHESIA, GENERAL) usually given during surgical procedures. This condition is characterized by persistent somnolence.",
+        "cleaned_description": "Abnormally slow pace of regaining CONSCIOUSNESS after general anesthesia (ANESTHESIA, GENERAL) usually given during surgical procedures. This condition is characterized by persistent somnolence.",
+        "description_summary": "Abnormally slow pace of regaining CONSCIOUSNESS after general anesthesia (ANESTHESIA, GENERAL) usually given during surgical procedures.",
+        "key_terms": [],
+        "word_count": 23
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Immune System",
+        "pathway_list": [
+          "Immune System"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.471916",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D018450",
+      "DiseaseName": "Disease Progression",
+      "DiseaseDescription": "The worsening and general progression of a disease over time. This concept is most often used for chronic and incurable diseases where the stage of the disease is an important determinant of therapy and prognosis.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018450",
+        "standardized_id": "MESH:D018450",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Disease Progression",
+        "standardized_name": "Disease Progression",
+        "normalized_name": "disease progression",
+        "synonyms": [],
+        "search_terms": [
+          "progression",
+          "disease",
+          "disease progression"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The worsening and general progression of a disease over time. This concept is most often used for chronic and incurable diseases where the stage of the disease is an important determinant of therapy and prognosis.",
+        "cleaned_description": "The worsening and general progression of a disease over time. This concept is most often used for chronic and incurable diseases where the stage of the disease is an important determinant of therapy and prognosis.",
+        "description_summary": "The worsening and general progression of a disease over time.",
+        "key_terms": [
+          "prognosis"
+        ],
+        "word_count": 35
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.481652",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004198",
+      "DiseaseName": "Disease Susceptibility",
+      "DiseaseDescription": "A constitution or condition of the body which makes the tissues react in special ways to certain extrinsic stimuli and thus tends to make the individual more than usually susceptible to certain diseases.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "TRP channels",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004198",
+        "standardized_id": "MESH:D004198",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Disease Susceptibility",
+        "standardized_name": "Disease Susceptibility",
+        "normalized_name": "disease susceptibility",
+        "synonyms": [],
+        "search_terms": [
+          "disease",
+          "disease susceptibility",
+          "susceptibility"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A constitution or condition of the body which makes the tissues react in special ways to certain extrinsic stimuli and thus tends to make the individual more than usually susceptible to certain diseases.",
+        "cleaned_description": "A constitution or condition of the body which makes the tissues react in special ways to certain extrinsic stimuli and thus tends to make the individual more than usually susceptible to certain diseases.",
+        "description_summary": "A constitution or condition of the body which makes the tissues react in special ways to certain extrinsic stimuli and thus tends to make the individual more than usually susceptible to certain diseases.",
+        "key_terms": [],
+        "word_count": 33
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "TRP channels",
+        "pathway_list": [
+          "TRP channels"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.481766",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004646",
+      "DiseaseName": "Emphysema",
+      "DiseaseDescription": "A pathological accumulation of air in tissues or organs.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004646",
+        "standardized_id": "MESH:D004646",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Emphysema",
+        "standardized_name": "Emphysema",
+        "normalized_name": "emphysema",
+        "synonyms": [],
+        "search_terms": [
+          "emphysema"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A pathological accumulation of air in tissues or organs.",
+        "cleaned_description": "A pathological accumulation of air in tissues or organs.",
+        "description_summary": "A pathological accumulation of air in tissues or organs.",
+        "key_terms": [],
+        "word_count": 9
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.492970",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D019446",
+      "DiseaseName": "Endotoxemia",
+      "DiseaseDescription": "A condition characterized by the presence of ENDOTOXINS in the blood. On lysis, the outer cell wall of gram-negative bacteria enters the systemic circulation and initiates a pathophysiologic cascade of pro-inflammatory mediators.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Urea cycle",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D019446",
+        "standardized_id": "MESH:D019446",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Endotoxemia",
+        "standardized_name": "Endotoxemia",
+        "normalized_name": "endotoxemia",
+        "synonyms": [],
+        "search_terms": [
+          "endotoxemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition characterized by the presence of ENDOTOXINS in the blood. On lysis, the outer cell wall of gram-negative bacteria enters the systemic circulation and initiates a pathophysiologic cascade of pro-inflammatory mediators.",
+        "cleaned_description": "A condition characterized by the presence of ENDOTOXINS in the blood. On lysis, the outer cell wall of gram-negative bacteria enters the systemic circulation and initiates a pathophysiologic cascade of pro-inflammatory mediators.",
+        "description_summary": "A condition characterized by the presence of ENDOTOXINS in the blood.",
+        "key_terms": [],
+        "word_count": 32
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Urea cycle",
+        "pathway_list": [
+          "Urea cycle"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.498713",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D019066",
+      "DiseaseName": "Facies",
+      "DiseaseDescription": "The appearance of the face that is often characteristic of a disease or pathological condition, as the elfin facies of WILLIAMS SYNDROME or facies of DOWN SYNDROME. (Random House Unabridged Dictionary, 2d ed)",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D019066",
+        "standardized_id": "MESH:D019066",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Facies",
+        "standardized_name": "Facies",
+        "normalized_name": "facies",
+        "synonyms": [],
+        "search_terms": [
+          "facies"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The appearance of the face that is often characteristic of a disease or pathological condition, as the elfin facies of WILLIAMS SYNDROME or facies of DOWN SYNDROME. (Random House Unabridged Dictionary, 2d ed)",
+        "cleaned_description": "The appearance of the face that is often characteristic of a disease or pathological condition, as the elfin facies of WILLIAMS SYNDROME or facies of DOWN SYNDROME. (Random House Unabridged Dictionary, 2d ed)",
+        "description_summary": "The appearance of the face that is often characteristic of a disease or pathological condition, as the elfin facies of WILLIAMS SYNDROME or facies of DOWN SYNDROME.",
+        "key_terms": [],
+        "word_count": 33
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.515324",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005355",
+      "DiseaseName": "Fibrosis",
+      "DiseaseDescription": "Any pathological condition where fibrous connective tissue invades any organ, usually as a consequence of inflammation or other injury.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005355",
+        "standardized_id": "MESH:D005355",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Fibrosis",
+        "standardized_name": "Fibrosis",
+        "normalized_name": "fibrosis",
+        "synonyms": [],
+        "search_terms": [
+          "fibrosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Any pathological condition where fibrous connective tissue invades any organ, usually as a consequence of inflammation or other injury.",
+        "cleaned_description": "Any pathological condition where fibrous connective tissue invades any organ, usually as a consequence of inflammation or other injury.",
+        "description_summary": "Any pathological condition where fibrous connective tissue invades any organ, usually as a consequence of inflammation or other injury.",
+        "key_terms": [],
+        "word_count": 19
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.527812",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D042822",
+      "DiseaseName": "Genomic Instability",
+      "DiseaseDescription": "An increased tendency of the GENOME to acquire MUTATIONS when various processes involved in maintaining and replicating the genome are dysfunctional.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D042822",
+        "standardized_id": "MESH:D042822",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Genomic Instability",
+        "standardized_name": "Genomic Instability",
+        "normalized_name": "genomic instability",
+        "synonyms": [],
+        "search_terms": [
+          "genomic",
+          "genomic instability",
+          "instability"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An increased tendency of the GENOME to acquire MUTATIONS when various processes involved in maintaining and replicating the genome are dysfunctional.",
+        "cleaned_description": "An increased tendency of the GENOME to acquire MUTATIONS when various processes involved in maintaining and replicating the genome are dysfunctional.",
+        "description_summary": "An increased tendency of the GENOME to acquire MUTATIONS when various processes involved in maintaining and replicating the genome are dysfunctional.",
+        "key_terms": [],
+        "word_count": 21
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.539961",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005911",
+      "DiseaseName": "Gliosis",
+      "DiseaseDescription": "The production of a dense fibrous network of neuroglia; includes astrocytosis, which is a proliferation of astrocytes in the area of a degenerative lesion.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005911",
+        "standardized_id": "MESH:D005911",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Gliosis",
+        "standardized_name": "Gliosis",
+        "normalized_name": "gliosis",
+        "synonyms": [],
+        "search_terms": [
+          "gliosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The production of a dense fibrous network of neuroglia; includes astrocytosis, which is a proliferation of astrocytes in the area of a degenerative lesion.",
+        "cleaned_description": "The production of a dense fibrous network of neuroglia; includes astrocytosis, which is a proliferation of astrocytes in the area of a degenerative lesion.",
+        "description_summary": "The production of a dense fibrous network of neuroglia; includes astrocytosis, which is a proliferation of astrocytes in the area of a degenerative lesion.",
+        "key_terms": [
+          "astrocytosis"
+        ],
+        "word_count": 24
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.543137",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006083",
+      "DiseaseName": "Graft Occlusion, Vascular",
+      "DiseaseDescription": "Obstruction of flow in biological or prosthetic vascular grafts.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Transcriptional misregulation in cancer",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006083",
+        "standardized_id": "MESH:D006083",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Graft Occlusion, Vascular",
+        "standardized_name": "Graft Occlusion, Vascular",
+        "normalized_name": "graft occlusion vascular",
+        "synonyms": [],
+        "search_terms": [
+          "graft occlusion, vascular",
+          "occlusion,",
+          "graft",
+          "vascular"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Obstruction of flow in biological or prosthetic vascular grafts.",
+        "cleaned_description": "Obstruction of flow in biological or prosthetic vascular grafts.",
+        "description_summary": "Obstruction of flow in biological or prosthetic vascular grafts.",
+        "key_terms": [],
+        "word_count": 9
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional misregulation in cancer",
+        "pathway_list": [
+          "Transcriptional misregulation in cancer"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional misregulation in cancer"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.548887",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006104",
+      "DiseaseName": "Granuloma, Plasma Cell",
+      "DiseaseDescription": "A slow-growing benign pseudotumor in which plasma cells greatly outnumber the inflammatory cells.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Vpr-mediated nuclear import of PICs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006104",
+        "standardized_id": "MESH:D006104",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Granuloma, Plasma Cell",
+        "standardized_name": "Granuloma, Plasma Cell",
+        "normalized_name": "granuloma plasma cell",
+        "synonyms": [],
+        "search_terms": [
+          "cell",
+          "granuloma, plasma cell",
+          "plasma",
+          "granuloma,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A slow-growing benign pseudotumor in which plasma cells greatly outnumber the inflammatory cells.",
+        "cleaned_description": "A slow-growing benign pseudotumor in which plasma cells greatly outnumber the inflammatory cells.",
+        "description_summary": "A slow-growing benign pseudotumor in which plasma cells greatly outnumber the inflammatory cells.",
+        "key_terms": [],
+        "word_count": 13
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vpr-mediated nuclear import of PICs",
+        "pathway_list": [
+          "Vpr-mediated nuclear import of PICs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.550029",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006130",
+      "DiseaseName": "Growth Disorders",
+      "DiseaseDescription": "Deviations from the average values for a specific age and sex in any or all of the following: height, weight, skeletal proportions, osseous development, or maturation of features. Included here are both acceleration and retardation of growth.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006130",
+        "standardized_id": "MESH:D006130",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Growth Disorders",
+        "standardized_name": "Growth Disorders",
+        "normalized_name": "growth disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "growth",
+          "growth disorders"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Deviations from the average values for a specific age and sex in any or all of the following: height, weight, skeletal proportions, osseous development, or maturation of features. Included here are both acceleration and retardation of growth.",
+        "cleaned_description": "Deviations from the average values for a specific age and sex in any or all of the following: height, weight, skeletal proportions, osseous development, or maturation of features. Included here are both acceleration and retardation of growth.",
+        "description_summary": "Deviations from the average values for a specific age and sex in any or all of the following: height, weight, skeletal proportions, osseous development, or maturation of features.",
+        "key_terms": [],
+        "word_count": 37
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.555399",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006406",
+      "DiseaseName": "Hematoma",
+      "DiseaseDescription": "A collection of blood outside the BLOOD VESSELS. Hematoma can be localized in an organ, space, or tissue.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006406",
+        "standardized_id": "MESH:D006406",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hematoma",
+        "standardized_name": "Hematoma",
+        "normalized_name": "hematoma",
+        "synonyms": [],
+        "search_terms": [
+          "hematoma"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A collection of blood outside the BLOOD VESSELS. Hematoma can be localized in an organ, space, or tissue.",
+        "cleaned_description": "A collection of blood outside the BLOOD VESSELS. Hematoma can be localized in an organ, space, or tissue.",
+        "description_summary": "A collection of blood outside the BLOOD VESSELS.",
+        "key_terms": [],
+        "word_count": 18
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.622732",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D046748",
+      "DiseaseName": "Hematoma, Epidural, Spinal",
+      "DiseaseDescription": "A rare epidural hematoma in the spinal epidural space, usually due to a vascular malformation (CENTRAL NERVOUS SYSTEM VASCULAR MALFORMATIONS) or TRAUMA. Spontaneous spinal epidural hematoma is a neurologic emergency due to a rapidly evolving compressive MYELOPATHY.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Transcriptional misregulation in cancer",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D046748",
+        "standardized_id": "MESH:D046748",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hematoma, Epidural, Spinal",
+        "standardized_name": "Hematoma, Epidural, Spinal",
+        "normalized_name": "hematoma epidural spinal",
+        "synonyms": [],
+        "search_terms": [
+          "epidural,",
+          "hematoma,",
+          "hematoma, epidural, spinal",
+          "spinal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A rare epidural hematoma in the spinal epidural space, usually due to a vascular malformation (CENTRAL NERVOUS SYSTEM VASCULAR MALFORMATIONS) or TRAUMA. Spontaneous spinal epidural hematoma is a neurologic emergency due to a rapidly evolving compressive MYELOPATHY.",
+        "cleaned_description": "A rare epidural hematoma in the spinal epidural space, usually due to a vascular malformation (CENTRAL NERVOUS SYSTEM VASCULAR MALFORMATIONS) or TRAUMA. Spontaneous spinal epidural hematoma is a neurologic emergency due to a rapidly evolving compressive MYELOPATHY.",
+        "description_summary": "A rare epidural hematoma in the spinal epidural space, usually due to a vascular malformation (CENTRAL NERVOUS SYSTEM VASCULAR MALFORMATIONS) or TRAUMA.",
+        "key_terms": [
+          "MYELOPATHY"
+        ],
+        "word_count": 37
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional misregulation in cancer",
+        "pathway_list": [
+          "Transcriptional misregulation in cancer"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional misregulation in cancer"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.622995",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006461",
+      "DiseaseName": "Hemolysis",
+      "DiseaseDescription": "The destruction of ERYTHROCYTES by many different causal agents such as antibodies, bacteria, chemicals, temperature, and changes in tonicity.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006461",
+        "standardized_id": "MESH:D006461",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hemolysis",
+        "standardized_name": "Hemolysis",
+        "normalized_name": "hemolysis",
+        "synonyms": [],
+        "search_terms": [
+          "hemolysis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The destruction of ERYTHROCYTES by many different causal agents such as antibodies, bacteria, chemicals, temperature, and changes in tonicity.",
+        "cleaned_description": "The destruction of ERYTHROCYTES by many different causal agents such as antibodies, bacteria, chemicals, temperature, and changes in tonicity.",
+        "description_summary": "The destruction of ERYTHROCYTES by many different causal agents such as antibodies, bacteria, chemicals, temperature, and changes in tonicity.",
+        "key_terms": [],
+        "word_count": 19
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.644085",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006470",
+      "DiseaseName": "Hemorrhage",
+      "DiseaseDescription": "Bleeding or escape of blood from a vessel.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006470",
+        "standardized_id": "MESH:D006470",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hemorrhage",
+        "standardized_name": "Hemorrhage",
+        "normalized_name": "hemorrhage",
+        "synonyms": [],
+        "search_terms": [
+          "hemorrhage"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Bleeding or escape of blood from a vessel.",
+        "cleaned_description": "Bleeding or escape of blood from a vessel.",
+        "description_summary": "Bleeding or escape of blood from a vessel.",
+        "key_terms": [],
+        "word_count": 8
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.644676",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D022124",
+      "DiseaseName": "Hyperammonemia",
+      "DiseaseDescription": "Elevated level of AMMONIA in the blood. It is a sign of defective CATABOLISM of AMINO ACIDS or ammonia to UREA.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Urea cycle",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D022124",
+        "standardized_id": "MESH:D022124",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperammonemia",
+        "standardized_name": "Hyperammonemia",
+        "normalized_name": "hyperammonemia",
+        "synonyms": [],
+        "search_terms": [
+          "hyperammonemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Elevated level of AMMONIA in the blood. It is a sign of defective CATABOLISM of AMINO ACIDS or ammonia to UREA.",
+        "cleaned_description": "Elevated level of AMMONIA in the blood. It is a sign of defective CATABOLISM of AMINO ACIDS or ammonia to UREA.",
+        "description_summary": "Elevated level of AMMONIA in the blood.",
+        "key_terms": [],
+        "word_count": 21
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Urea cycle",
+        "pathway_list": [
+          "Urea cycle"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.673839",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006932",
+      "DiseaseName": "Hyperbilirubinemia",
+      "DiseaseDescription": "A condition characterized by an abnormal increase of BILIRUBIN in the blood, which may result in JAUNDICE. Bilirubin, a breakdown product of HEME, is normally excreted in the BILE or further catabolized before excretion in the urine.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Type II diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006932",
+        "standardized_id": "MESH:D006932",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperbilirubinemia",
+        "standardized_name": "Hyperbilirubinemia",
+        "normalized_name": "hyperbilirubinemia",
+        "synonyms": [],
+        "search_terms": [
+          "hyperbilirubinemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition characterized by an abnormal increase of BILIRUBIN in the blood, which may result in JAUNDICE. Bilirubin, a breakdown product of HEME, is normally excreted in the BILE or further catabolized before excretion in the urine.",
+        "cleaned_description": "A condition characterized by an abnormal increase of BILIRUBIN in the blood, which may result in JAUNDICE. Bilirubin, a breakdown product of HEME, is normally excreted in the BILE or further catabolized before excretion in the urine.",
+        "description_summary": "A condition characterized by an abnormal increase of BILIRUBIN in the blood, which may result in JAUNDICE.",
+        "key_terms": [],
+        "word_count": 37
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type II diabetes mellitus",
+        "pathway_list": [
+          "Type II diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.675379",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006965",
+      "DiseaseName": "Hyperplasia",
+      "DiseaseDescription": "An increase in the number of cells in a tissue or organ without tumor formation. It differs from HYPERTROPHY, which is an increase in bulk without an increase in the number of cells.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006965",
+        "standardized_id": "MESH:D006965",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperplasia",
+        "standardized_name": "Hyperplasia",
+        "normalized_name": "hyperplasia",
+        "synonyms": [],
+        "search_terms": [
+          "hyperplasia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An increase in the number of cells in a tissue or organ without tumor formation. It differs from HYPERTROPHY, which is an increase in bulk without an increase in the number of cells.",
+        "cleaned_description": "An increase in the number of cells in a tissue or organ without tumor formation. It differs from HYPERTROPHY, which is an increase in bulk without an increase in the number of cells.",
+        "description_summary": "An increase in the number of cells in a tissue or organ without tumor formation.",
+        "key_terms": [],
+        "word_count": 33
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.740338",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D033461",
+      "DiseaseName": "Hyperuricemia",
+      "DiseaseDescription": "Excessive URIC ACID or urate in blood as defined by its solubility in plasma at 37 degrees C; greater than 0.42mmol per liter (7.0mg/dL) in men or 0.36mmol per liter (6.0mg/dL) in women. This condition is caused by overproduction of uric acid or impaired renal clearance. Hyperuricemia can be acquired, drug-induced or genetically determined (LESCH-NYHAN SYNDROME). It is associated with HYPERTENSION and GOUT.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Transport of inorganic cations/anions and amino acids/oligopeptides",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D033461",
+        "standardized_id": "MESH:D033461",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperuricemia",
+        "standardized_name": "Hyperuricemia",
+        "normalized_name": "hyperuricemia",
+        "synonyms": [],
+        "search_terms": [
+          "hyperuricemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Excessive URIC ACID or urate in blood as defined by its solubility in plasma at 37 degrees C; greater than 0.42mmol per liter (7.0mg/dL) in men or 0.36mmol per liter (6.0mg/dL) in women. This condition is caused by overproduction of uric acid or impaired renal clearance. Hyperuricemia can be acquired, drug-induced or genetically determined (LESCH-NYHAN SYNDROME). It is associated with HYPERTENSION and GOUT.",
+        "cleaned_description": "Excessive URIC ACID or urate in blood as defined by its solubility in plasma at 37 degrees C; greater than 0.42mmol per liter (7.0mg/dL) in men or 0.36mmol per liter (6.0mg/dL) in women. This condition is caused by overproduction of uric acid or impaired renal clearance. Hyperuricemia can be acquired, drug-induced or genetically determined (LESCH-NYHAN SYNDROME). It is associated with HYPERTENSION and GOUT.",
+        "description_summary": "Excessive URIC ACID or urate in blood as defined by its solubility in plasma at 37 degrees C; greater than 0.",
+        "key_terms": [
+          "Hyperuricemia"
+        ],
+        "word_count": 63
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of inorganic cations/anions and amino acids/oligopeptides",
+        "pathway_list": [
+          "Transport of inorganic cations/anions and amino acids/oligopeptides"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.771761",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D066088",
+      "DiseaseName": "Infant Death",
+      "DiseaseDescription": "The death of a live-born INFANT within its first year of life.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "TRP channels",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D066088",
+        "standardized_id": "MESH:D066088",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Infant Death",
+        "standardized_name": "Infant Death",
+        "normalized_name": "infant death",
+        "synonyms": [],
+        "search_terms": [
+          "infant",
+          "infant death",
+          "death"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The death of a live-born INFANT within its first year of life.",
+        "cleaned_description": "The death of a live-born INFANT within its first year of life.",
+        "description_summary": "The death of a live-born INFANT within its first year of life.",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "TRP channels",
+        "pathway_list": [
+          "TRP channels"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.785809",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007238",
+      "DiseaseName": "Infarction",
+      "DiseaseDescription": "Formation of an infarct, which is NECROSIS in tissue due to local ISCHEMIA resulting from obstruction of BLOOD CIRCULATION, most commonly by a THROMBUS or EMBOLUS.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Signaling by Interleukins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007238",
+        "standardized_id": "MESH:D007238",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Infarction",
+        "standardized_name": "Infarction",
+        "normalized_name": "infarction",
+        "synonyms": [],
+        "search_terms": [
+          "infarction"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Formation of an infarct, which is NECROSIS in tissue due to local ISCHEMIA resulting from obstruction of BLOOD CIRCULATION, most commonly by a THROMBUS or EMBOLUS.",
+        "cleaned_description": "Formation of an infarct, which is NECROSIS in tissue due to local ISCHEMIA resulting from obstruction of BLOOD CIRCULATION, most commonly by a THROMBUS or EMBOLUS.",
+        "description_summary": "Formation of an infarct, which is NECROSIS in tissue due to local ISCHEMIA resulting from obstruction of BLOOD CIRCULATION, most commonly by a THROMBUS or EMBOLUS.",
+        "key_terms": [
+          "NECROSIS",
+          "ISCHEMIA"
+        ],
+        "word_count": 26
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signaling by Interleukins",
+        "pathway_list": [
+          "Signaling by Interleukins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.786726",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007249",
+      "DiseaseName": "Inflammation",
+      "DiseaseDescription": "A pathological process characterized by injury or destruction of tissues caused by a variety of cytologic and chemical reactions. It is usually manifested by typical signs of pain, heat, redness, swelling, and loss of function.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007249",
+        "standardized_id": "MESH:D007249",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Inflammation",
+        "standardized_name": "Inflammation",
+        "normalized_name": "inflammation",
+        "synonyms": [],
+        "search_terms": [
+          "inflammation"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A pathological process characterized by injury or destruction of tissues caused by a variety of cytologic and chemical reactions. It is usually manifested by typical signs of pain, heat, redness, swelling, and loss of function.",
+        "cleaned_description": "A pathological process characterized by injury or destruction of tissues caused by a variety of cytologic and chemical reactions. It is usually manifested by typical signs of pain, heat, redness, swelling, and loss of function.",
+        "description_summary": "A pathological process characterized by injury or destruction of tissues caused by a variety of cytologic and chemical reactions.",
+        "key_terms": [],
+        "word_count": 35
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.787743",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007511",
+      "DiseaseName": "Ischemia",
+      "DiseaseDescription": "A hypoperfusion of the BLOOD through an organ or tissue caused by a PATHOLOGIC CONSTRICTION or obstruction of its BLOOD VESSELS, or an absence of BLOOD CIRCULATION.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007511",
+        "standardized_id": "MESH:D007511",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Ischemia",
+        "standardized_name": "Ischemia",
+        "normalized_name": "ischemia",
+        "synonyms": [],
+        "search_terms": [
+          "ischemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A hypoperfusion of the BLOOD through an organ or tissue caused by a PATHOLOGIC CONSTRICTION or obstruction of its BLOOD VESSELS, or an absence of BLOOD CIRCULATION.",
+        "cleaned_description": "A hypoperfusion of the BLOOD through an organ or tissue caused by a PATHOLOGIC CONSTRICTION or obstruction of its BLOOD VESSELS, or an absence of BLOOD CIRCULATION.",
+        "description_summary": "A hypoperfusion of the BLOOD through an organ or tissue caused by a PATHOLOGIC CONSTRICTION or obstruction of its BLOOD VESSELS, or an absence of BLOOD CIRCULATION.",
+        "key_terms": [],
+        "word_count": 27
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.793803",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020347",
+      "DiseaseName": "Lithiasis",
+      "DiseaseDescription": "A condition characterized by the formation of CALCULI and concretions in the hollow organs or ducts of the body. They occur most often in the gallbladder, kidney, and lower urinary tract.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Prolactin signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020347",
+        "standardized_id": "MESH:D020347",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Lithiasis",
+        "standardized_name": "Lithiasis",
+        "normalized_name": "lithiasis",
+        "synonyms": [],
+        "search_terms": [
+          "lithiasis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition characterized by the formation of CALCULI and concretions in the hollow organs or ducts of the body. They occur most often in the gallbladder, kidney, and lower urinary tract.",
+        "cleaned_description": "A condition characterized by the formation of CALCULI and concretions in the hollow organs or ducts of the body. They occur most often in the gallbladder, kidney, and lower urinary tract.",
+        "description_summary": "A condition characterized by the formation of CALCULI and concretions in the hollow organs or ducts of the body.",
+        "key_terms": [],
+        "word_count": 31
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Prolactin signaling pathway",
+        "pathway_list": [
+          "Prolactin signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Prolactin signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.819191",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008679",
+      "DiseaseName": "Metaplasia",
+      "DiseaseDescription": "A condition in which there is a change of one adult cell type to another similar adult cell type.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008679",
+        "standardized_id": "MESH:D008679",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Metaplasia",
+        "standardized_name": "Metaplasia",
+        "normalized_name": "metaplasia",
+        "synonyms": [],
+        "search_terms": [
+          "metaplasia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition in which there is a change of one adult cell type to another similar adult cell type.",
+        "cleaned_description": "A condition in which there is a change of one adult cell type to another similar adult cell type.",
+        "description_summary": "A condition in which there is a change of one adult cell type to another similar adult cell type.",
+        "key_terms": [],
+        "word_count": 19
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.847799",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D048629",
+      "DiseaseName": "Micronuclei, Chromosome-Defective",
+      "DiseaseDescription": "Defective nuclei produced during the TELOPHASE of MITOSIS or MEIOSIS by lagging CHROMOSOMES or chromosome fragments derived from spontaneous or experimentally induced chromosomal structural changes.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D048629",
+        "standardized_id": "MESH:D048629",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Micronuclei, Chromosome-Defective",
+        "standardized_name": "Micronuclei, Chromosome-Defective",
+        "normalized_name": "micronuclei chromosome-defective",
+        "synonyms": [],
+        "search_terms": [
+          "chromosome-defective",
+          "micronuclei, chromosome-defective",
+          "micronuclei,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Defective nuclei produced during the TELOPHASE of MITOSIS or MEIOSIS by lagging CHROMOSOMES or chromosome fragments derived from spontaneous or experimentally induced chromosomal structural changes.",
+        "cleaned_description": "Defective nuclei produced during the TELOPHASE of MITOSIS or MEIOSIS by lagging CHROMOSOMES or chromosome fragments derived from spontaneous or experimentally induced chromosomal structural changes.",
+        "description_summary": "Defective nuclei produced during the TELOPHASE of MITOSIS or MEIOSIS by lagging CHROMOSOMES or chromosome fragments derived from spontaneous or experimentally induced chromosomal structural changes.",
+        "key_terms": [
+          "MEIOSIS",
+          "MITOSIS"
+        ],
+        "word_count": 25
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.849087",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009102",
+      "DiseaseName": "Multiple Organ Failure",
+      "DiseaseDescription": "A progressive condition usually characterized by combined failure of several organs such as the lungs, liver, kidney, along with some clotting mechanisms, usually postinjury or postoperative.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009102",
+        "standardized_id": "MESH:D009102",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Multiple Organ Failure",
+        "standardized_name": "Multiple Organ Failure",
+        "normalized_name": "multiple organ failure",
+        "synonyms": [],
+        "search_terms": [
+          "failure",
+          "multiple",
+          "organ",
+          "multiple organ failure"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A progressive condition usually characterized by combined failure of several organs such as the lungs, liver, kidney, along with some clotting mechanisms, usually postinjury or postoperative.",
+        "cleaned_description": "A progressive condition usually characterized by combined failure of several organs such as the lungs, liver, kidney, along with some clotting mechanisms, usually postinjury or postoperative.",
+        "description_summary": "A progressive condition usually characterized by combined failure of several organs such as the lungs, liver, kidney, along with some clotting mechanisms, usually postinjury or postoperative.",
+        "key_terms": [],
+        "word_count": 26
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.858865",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009336",
+      "DiseaseName": "Necrosis",
+      "DiseaseDescription": "The death of cells in an organ or tissue due to disease, injury or failure of the blood supply.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009336",
+        "standardized_id": "MESH:D009336",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Necrosis",
+        "standardized_name": "Necrosis",
+        "normalized_name": "necrosis",
+        "synonyms": [],
+        "search_terms": [
+          "necrosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The death of cells in an organ or tissue due to disease, injury or failure of the blood supply.",
+        "cleaned_description": "The death of cells in an organ or tissue due to disease, injury or failure of the blood supply.",
+        "description_summary": "The death of cells in an organ or tissue due to disease, injury or failure of the blood supply.",
+        "key_terms": [],
+        "word_count": 19
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.866525",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D058426",
+      "DiseaseName": "Neointima",
+      "DiseaseDescription": "The new and thickened layer of scar tissue that forms on a PROSTHESIS, or as a result of vessel injury especially following ANGIOPLASTY or stent placement.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Transmembrane transport of small molecules",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D058426",
+        "standardized_id": "MESH:D058426",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Neointima",
+        "standardized_name": "Neointima",
+        "normalized_name": "neointima",
+        "synonyms": [],
+        "search_terms": [
+          "neointima"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The new and thickened layer of scar tissue that forms on a PROSTHESIS, or as a result of vessel injury especially following ANGIOPLASTY or stent placement.",
+        "cleaned_description": "The new and thickened layer of scar tissue that forms on a PROSTHESIS, or as a result of vessel injury especially following ANGIOPLASTY or stent placement.",
+        "description_summary": "The new and thickened layer of scar tissue that forms on a PROSTHESIS, or as a result of vessel injury especially following ANGIOPLASTY or stent placement.",
+        "key_terms": [],
+        "word_count": 26
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmembrane transport of small molecules",
+        "pathway_list": [
+          "Transmembrane transport of small molecules"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.866872",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009389",
+      "DiseaseName": "Neovascularization, Pathologic",
+      "DiseaseDescription": "A pathologic process consisting of the proliferation of blood vessels in abnormal tissues or in abnormal positions.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "VEGF signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009389",
+        "standardized_id": "MESH:D009389",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Neovascularization, Pathologic",
+        "standardized_name": "Neovascularization, Pathologic",
+        "normalized_name": "neovascularization pathologic",
+        "synonyms": [],
+        "search_terms": [
+          "neovascularization,",
+          "neovascularization, pathologic",
+          "pathologic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A pathologic process consisting of the proliferation of blood vessels in abnormal tissues or in abnormal positions.",
+        "cleaned_description": "A pathologic process consisting of the proliferation of blood vessels in abnormal tissues or in abnormal positions.",
+        "description_summary": "A pathologic process consisting of the proliferation of blood vessels in abnormal tissues or in abnormal positions.",
+        "key_terms": [],
+        "word_count": 17
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGF signaling pathway",
+        "pathway_list": [
+          "VEGF signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGF signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.874872",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009410",
+      "DiseaseName": "Nerve Degeneration",
+      "DiseaseDescription": "Loss of functional activity and trophic degeneration of nerve axons and their terminal arborizations following the destruction of their cells of origin or interruption of their continuity with these cells. The pathology is characteristic of neurodegenerative diseases. Often the process of nerve degeneration is studied in research on neuroanatomical localization and correlation of the neurophysiology of neural pathways.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009410",
+        "standardized_id": "MESH:D009410",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Nerve Degeneration",
+        "standardized_name": "Nerve Degeneration",
+        "normalized_name": "nerve degeneration",
+        "synonyms": [],
+        "search_terms": [
+          "degeneration",
+          "nerve",
+          "nerve degeneration"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Loss of functional activity and trophic degeneration of nerve axons and their terminal arborizations following the destruction of their cells of origin or interruption of their continuity with these cells. The pathology is characteristic of neurodegenerative diseases. Often the process of nerve degeneration is studied in research on neuroanatomical localization and correlation of the neurophysiology of neural pathways.",
+        "cleaned_description": "Loss of functional activity and trophic degeneration of nerve axons and their terminal arborizations following the destruction of their cells of origin or interruption of their continuity with these cells. The pathology is characteristic of neurodegenerative diseases. Often the process of nerve degeneration is studied in research on neuroanatomical localization and correlation of the neurophysiology of neural pathways.",
+        "description_summary": "Loss of functional activity and trophic degeneration of nerve axons and their terminal arborizations following the destruction of their cells of origin or interruption of their continuity with these cells.",
+        "key_terms": [],
+        "word_count": 58
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.877807",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D054318",
+      "DiseaseName": "No-Reflow Phenomenon",
+      "DiseaseDescription": "Markedly reduced or absent REPERFUSION in an infarct zone following the removal of an obstruction or constriction of an artery.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D054318",
+        "standardized_id": "MESH:D054318",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "No-Reflow Phenomenon",
+        "standardized_name": "No-Reflow Phenomenon",
+        "normalized_name": "no-reflow phenomenon",
+        "synonyms": [],
+        "search_terms": [
+          "no-reflow phenomenon",
+          "phenomenon",
+          "no-reflow"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Markedly reduced or absent REPERFUSION in an infarct zone following the removal of an obstruction or constriction of an artery.",
+        "cleaned_description": "Markedly reduced or absent REPERFUSION in an infarct zone following the removal of an obstruction or constriction of an artery.",
+        "description_summary": "Markedly reduced or absent REPERFUSION in an infarct zone following the removal of an obstruction or constriction of an artery.",
+        "key_terms": [],
+        "word_count": 20
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.888665",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009839",
+      "DiseaseName": "Oligomenorrhea",
+      "DiseaseDescription": "Abnormally infrequent menstruation.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Steroid hormone biosynthesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009839",
+        "standardized_id": "MESH:D009839",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Oligomenorrhea",
+        "standardized_name": "Oligomenorrhea",
+        "normalized_name": "oligomenorrhea",
+        "synonyms": [],
+        "search_terms": [
+          "oligomenorrhea"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormally infrequent menstruation.",
+        "cleaned_description": "Abnormally infrequent menstruation.",
+        "description_summary": "Abnormally infrequent menstruation.",
+        "key_terms": [],
+        "word_count": 3
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Steroid hormone biosynthesis",
+        "pathway_list": [
+          "Steroid hormone biosynthesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.891472",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": [
+            "Very short or missing description"
+          ]
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009999",
+      "DiseaseName": "Ossification, Heterotopic",
+      "DiseaseDescription": "The development of bony substance in normally soft structures.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Vibrio cholerae infection",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009999",
+        "standardized_id": "MESH:D009999",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Ossification, Heterotopic",
+        "standardized_name": "Ossification, Heterotopic",
+        "normalized_name": "ossification heterotopic",
+        "synonyms": [],
+        "search_terms": [
+          "heterotopic",
+          "ossification,",
+          "ossification, heterotopic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The development of bony substance in normally soft structures.",
+        "cleaned_description": "The development of bony substance in normally soft structures.",
+        "description_summary": "The development of bony substance in normally soft structures.",
+        "key_terms": [],
+        "word_count": 9
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vibrio cholerae infection",
+        "pathway_list": [
+          "Vibrio cholerae infection"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.897289",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011123",
+      "DiseaseName": "Polyploidy",
+      "DiseaseDescription": "The chromosomal constitution of a cell containing multiples of the normal number of CHROMOSOMES; includes triploidy (symbol: 3N), tetraploidy (symbol: 4N), etc.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011123",
+        "standardized_id": "MESH:D011123",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Polyploidy",
+        "standardized_name": "Polyploidy",
+        "normalized_name": "polyploidy",
+        "synonyms": [],
+        "search_terms": [
+          "polyploidy"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The chromosomal constitution of a cell containing multiples of the normal number of CHROMOSOMES; includes triploidy (symbol: 3N), tetraploidy (symbol: 4N), etc.",
+        "cleaned_description": "The chromosomal constitution of a cell containing multiples of the normal number of CHROMOSOMES; includes triploidy (symbol: 3N), tetraploidy (symbol: 4N), etc.",
+        "description_summary": "The chromosomal constitution of a cell containing multiples of the normal number of CHROMOSOMES; includes triploidy (symbol: 3N), tetraploidy (symbol: 4N), etc.",
+        "key_terms": [],
+        "word_count": 22
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.924249",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011183",
+      "DiseaseName": "Postoperative Complications",
+      "DiseaseDescription": "Pathologic processes that affect patients after a surgical procedure. They may or may not be related to the disease for which the surgery was done, and they may or may not be direct results of the surgery.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Transport of gamma-carboxylated protein precursors from the endoplasmic reticulum to the Golgi apparatus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011183",
+        "standardized_id": "MESH:D011183",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Postoperative Complications",
+        "standardized_name": "Postoperative Complications",
+        "normalized_name": "postoperative complications",
+        "synonyms": [],
+        "search_terms": [
+          "postoperative complications",
+          "complications",
+          "postoperative"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathologic processes that affect patients after a surgical procedure. They may or may not be related to the disease for which the surgery was done, and they may or may not be direct results of the surgery.",
+        "cleaned_description": "Pathologic processes that affect patients after a surgical procedure. They may or may not be related to the disease for which the surgery was done, and they may or may not be direct results of the surgery.",
+        "description_summary": "Pathologic processes that affect patients after a surgical procedure.",
+        "key_terms": [],
+        "word_count": 37
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of gamma-carboxylated protein precursors from the endoplasmic reticulum to the Golgi apparatus",
+        "pathway_list": [
+          "Transport of gamma-carboxylated protein precursors from the endoplasmic reticulum to the Golgi apparatus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.925820",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012008",
+      "DiseaseName": "Recurrence",
+      "DiseaseDescription": "The return of a sign, symptom, or disease after a remission.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012008",
+        "standardized_id": "MESH:D012008",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Recurrence",
+        "standardized_name": "Recurrence",
+        "normalized_name": "recurrence",
+        "synonyms": [],
+        "search_terms": [
+          "recurrence"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The return of a sign, symptom, or disease after a remission.",
+        "cleaned_description": "The return of a sign, symptom, or disease after a remission.",
+        "description_summary": "The return of a sign, symptom, or disease after a remission.",
+        "key_terms": [],
+        "word_count": 11
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.945276",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012598",
+      "DiseaseName": "Sclerosis",
+      "DiseaseDescription": "A pathological process consisting of hardening or fibrosis of an anatomical structure, often a vessel or a nerve.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Signaling by Interleukins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012598",
+        "standardized_id": "MESH:D012598",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Sclerosis",
+        "standardized_name": "Sclerosis",
+        "normalized_name": "sclerosis",
+        "synonyms": [],
+        "search_terms": [
+          "sclerosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A pathological process consisting of hardening or fibrosis of an anatomical structure, often a vessel or a nerve.",
+        "cleaned_description": "A pathological process consisting of hardening or fibrosis of an anatomical structure, often a vessel or a nerve.",
+        "description_summary": "A pathological process consisting of hardening or fibrosis of an anatomical structure, often a vessel or a nerve.",
+        "key_terms": [
+          "fibrosis"
+        ],
+        "word_count": 18
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signaling by Interleukins",
+        "pathway_list": [
+          "Signaling by Interleukins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.961424",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D018805",
+      "DiseaseName": "Sepsis",
+      "DiseaseDescription": "Systemic inflammatory response syndrome with a proven or suspected infectious etiology. When sepsis is associated with organ dysfunction distant from the site of infection, it is called severe sepsis. When sepsis is accompanied by HYPOTENSION despite adequate fluid infusion, it is called SEPTIC SHOCK.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018805",
+        "standardized_id": "MESH:D018805",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Sepsis",
+        "standardized_name": "Sepsis",
+        "normalized_name": "sepsis",
+        "synonyms": [],
+        "search_terms": [
+          "sepsis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Systemic inflammatory response syndrome with a proven or suspected infectious etiology. When sepsis is associated with organ dysfunction distant from the site of infection, it is called severe sepsis. When sepsis is accompanied by HYPOTENSION despite adequate fluid infusion, it is called SEPTIC SHOCK.",
+        "cleaned_description": "Systemic inflammatory response syndrome with a proven or suspected infectious etiology. When sepsis is associated with organ dysfunction distant from the site of infection, it is called severe sepsis. When sepsis is accompanied by HYPOTENSION despite adequate fluid infusion, it is called SEPTIC SHOCK.",
+        "description_summary": "Systemic inflammatory response syndrome with a proven or suspected infectious etiology.",
+        "key_terms": [],
+        "word_count": 44
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.962685",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012769",
+      "DiseaseName": "Shock",
+      "DiseaseDescription": "A pathological condition manifested by failure to perfuse or oxygenate vital organs.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012769",
+        "standardized_id": "MESH:D012769",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Shock",
+        "standardized_name": "Shock",
+        "normalized_name": "shock",
+        "synonyms": [],
+        "search_terms": [
+          "shock"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A pathological condition manifested by failure to perfuse or oxygenate vital organs.",
+        "cleaned_description": "A pathological condition manifested by failure to perfuse or oxygenate vital organs.",
+        "description_summary": "A pathological condition manifested by failure to perfuse or oxygenate vital organs.",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.963630",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012771",
+      "DiseaseName": "Shock, Hemorrhagic",
+      "DiseaseDescription": "Acute hemorrhage or excessive fluid loss resulting in HYPOVOLEMIA.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012771",
+        "standardized_id": "MESH:D012771",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Shock, Hemorrhagic",
+        "standardized_name": "Shock, Hemorrhagic",
+        "normalized_name": "shock hemorrhagic",
+        "synonyms": [],
+        "search_terms": [
+          "shock,",
+          "shock, hemorrhagic",
+          "hemorrhagic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Acute hemorrhage or excessive fluid loss resulting in HYPOVOLEMIA.",
+        "cleaned_description": "Acute hemorrhage or excessive fluid loss resulting in HYPOVOLEMIA.",
+        "description_summary": "Acute hemorrhage or excessive fluid loss resulting in HYPOVOLEMIA.",
+        "key_terms": [
+          "HYPOVOLEMIA"
+        ],
+        "word_count": 9
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.963801",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012772",
+      "DiseaseName": "Shock, Septic",
+      "DiseaseDescription": "Sepsis associated with HYPOTENSION or hypoperfusion despite adequate fluid resuscitation. Perfusion abnormalities may include but are not limited to LACTIC ACIDOSIS; OLIGURIA; or acute alteration in mental status.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Vitamin D (calciferol) metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012772",
+        "standardized_id": "MESH:D012772",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Shock, Septic",
+        "standardized_name": "Shock, Septic",
+        "normalized_name": "shock septic",
+        "synonyms": [],
+        "search_terms": [
+          "septic",
+          "shock,",
+          "shock, septic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Sepsis associated with HYPOTENSION or hypoperfusion despite adequate fluid resuscitation. Perfusion abnormalities may include but are not limited to LACTIC ACIDOSIS; OLIGURIA; or acute alteration in mental status.",
+        "cleaned_description": "Sepsis associated with HYPOTENSION or hypoperfusion despite adequate fluid resuscitation. Perfusion abnormalities may include but are not limited to LACTIC ACIDOSIS; OLIGURIA; or acute alteration in mental status.",
+        "description_summary": "Sepsis associated with HYPOTENSION or hypoperfusion despite adequate fluid resuscitation.",
+        "key_terms": [
+          "ACIDOSIS"
+        ],
+        "word_count": 28
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamin D (calciferol) metabolism",
+        "pathway_list": [
+          "Vitamin D (calciferol) metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.963942",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013398",
+      "DiseaseName": "Sudden Infant Death",
+      "DiseaseDescription": "The abrupt and unexplained death of an apparently healthy infant under one year of age, remaining unexplained after a thorough case investigation, including performance of a complete autopsy, examination of the death scene, and review of the clinical history. (Pediatr Pathol 1991 Sep-Oct;11(5):677-84)",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Transmission across Chemical Synapses",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013398",
+        "standardized_id": "MESH:D013398",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Sudden Infant Death",
+        "standardized_name": "Sudden Infant Death",
+        "normalized_name": "sudden infant death",
+        "synonyms": [],
+        "search_terms": [
+          "infant",
+          "sudden",
+          "sudden infant death",
+          "death"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The abrupt and unexplained death of an apparently healthy infant under one year of age, remaining unexplained after a thorough case investigation, including performance of a complete autopsy, examination of the death scene, and review of the clinical history. (Pediatr Pathol 1991 Sep-Oct;11(5):677-84)",
+        "cleaned_description": "The abrupt and unexplained death of an apparently healthy infant under one year of age, remaining unexplained after a thorough case investigation, including performance of a complete autopsy, examination of the death scene, and review of the clinical history. (Pediatr Pathol 1991 Sep-Oct;11(5):677-84)",
+        "description_summary": "The abrupt and unexplained death of an apparently healthy infant under one year of age, remaining unexplained after a thorough case investigation, including performance of a complete autopsy, examination of the death scene, and review of the clinical history.",
+        "key_terms": [],
+        "word_count": 43
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmission across Chemical Synapses",
+        "pathway_list": [
+          "Transmission across Chemical Synapses"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.982087",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D064793",
+      "DiseaseName": "Teratogenesis",
+      "DiseaseDescription": "The formation of CONGENITAL ABNORMALITIES.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D064793",
+        "standardized_id": "MESH:D064793",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Teratogenesis",
+        "standardized_name": "Teratogenesis",
+        "normalized_name": "teratogenesis",
+        "synonyms": [],
+        "search_terms": [
+          "teratogenesis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The formation of CONGENITAL ABNORMALITIES.",
+        "cleaned_description": "The formation of CONGENITAL ABNORMALITIES.",
+        "description_summary": "The formation of CONGENITAL ABNORMALITIES.",
+        "key_terms": [],
+        "word_count": 5
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.992162",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014178",
+      "DiseaseName": "Translocation, Genetic",
+      "DiseaseDescription": "A type of chromosome aberration characterized by CHROMOSOME BREAKAGE and transfer of the broken-off portion to another location, often to a different chromosome.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Visual phototransduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014178",
+        "standardized_id": "MESH:D014178",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Translocation, Genetic",
+        "standardized_name": "Translocation, Genetic",
+        "normalized_name": "translocation genetic",
+        "synonyms": [],
+        "search_terms": [
+          "translocation,",
+          "genetic",
+          "translocation, genetic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A type of chromosome aberration characterized by CHROMOSOME BREAKAGE and transfer of the broken-off portion to another location, often to a different chromosome.",
+        "cleaned_description": "A type of chromosome aberration characterized by CHROMOSOME BREAKAGE and transfer of the broken-off portion to another location, often to a different chromosome.",
+        "description_summary": "A type of chromosome aberration characterized by CHROMOSOME BREAKAGE and transfer of the broken-off portion to another location, often to a different chromosome.",
+        "key_terms": [],
+        "word_count": 23
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Visual phototransduction",
+        "pathway_list": [
+          "Visual phototransduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.003468",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014314",
+      "DiseaseName": "Trisomy",
+      "DiseaseDescription": "The possession of a third chromosome of any one type in an otherwise diploid cell.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014314",
+        "standardized_id": "MESH:D014314",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Trisomy",
+        "standardized_name": "Trisomy",
+        "normalized_name": "trisomy",
+        "synonyms": [],
+        "search_terms": [
+          "trisomy"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The possession of a third chromosome of any one type in an otherwise diploid cell.",
+        "cleaned_description": "The possession of a third chromosome of any one type in an otherwise diploid cell.",
+        "description_summary": "The possession of a third chromosome of any one type in an otherwise diploid cell.",
+        "key_terms": [],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.006272",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014456",
+      "DiseaseName": "Ulcer",
+      "DiseaseDescription": "A lesion on the surface of the skin or a mucous surface, produced by the sloughing of inflammatory necrotic tissue.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Unfolded Protein Response (UPR)",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014456",
+        "standardized_id": "MESH:D014456",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Ulcer",
+        "standardized_name": "Ulcer",
+        "normalized_name": "ulcer",
+        "synonyms": [],
+        "search_terms": [
+          "ulcer"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A lesion on the surface of the skin or a mucous surface, produced by the sloughing of inflammatory necrotic tissue.",
+        "cleaned_description": "A lesion on the surface of the skin or a mucous surface, produced by the sloughing of inflammatory necrotic tissue.",
+        "description_summary": "A lesion on the surface of the skin or a mucous surface, produced by the sloughing of inflammatory necrotic tissue.",
+        "key_terms": [],
+        "word_count": 20
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Unfolded Protein Response (UPR)",
+        "pathway_list": [
+          "Unfolded Protein Response (UPR)"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.008631",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014855",
+      "DiseaseName": "Wallerian Degeneration",
+      "DiseaseDescription": "Degeneration of distal aspects of a nerve axon following injury to the cell body or proximal portion of the axon. The process is characterized by fragmentation of the axon and its MYELIN SHEATH.",
+      "SlimMapping": "['Pathology (process)']",
+      "PathwayNames": "Ubiquitin mediated proteolysis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014855",
+        "standardized_id": "MESH:D014855",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Wallerian Degeneration",
+        "standardized_name": "Wallerian Degeneration",
+        "normalized_name": "wallerian degeneration",
+        "synonyms": [],
+        "search_terms": [
+          "degeneration",
+          "wallerian",
+          "wallerian degeneration"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Degeneration of distal aspects of a nerve axon following injury to the cell body or proximal portion of the axon. The process is characterized by fragmentation of the axon and its MYELIN SHEATH.",
+        "cleaned_description": "Degeneration of distal aspects of a nerve axon following injury to the cell body or proximal portion of the axon. The process is characterized by fragmentation of the axon and its MYELIN SHEATH.",
+        "description_summary": "Degeneration of distal aspects of a nerve axon following injury to the cell body or proximal portion of the axon.",
+        "key_terms": [],
+        "word_count": 33
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Ubiquitin mediated proteolysis",
+        "pathway_list": [
+          "Ubiquitin mediated proteolysis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.025568",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

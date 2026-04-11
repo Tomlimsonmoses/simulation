@@ -1,0 +1,219 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Respiratory tract disease', 'Viral disease']",
+    "export_timestamp": "2026-03-28T22:11:36.116138",
+    "total_records": 3
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D007251",
+      "DiseaseName": "Influenza, Human",
+      "DiseaseDescription": "An acute viral infection in humans involving the respiratory tract. It is marked by inflammation of the NASAL MUCOSA; the PHARYNX; and conjunctiva, and by headache and severe, often generalized, myalgia.",
+      "SlimMapping": "['Respiratory tract disease', 'Viral disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007251",
+        "standardized_id": "MESH:D007251",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Influenza, Human",
+        "standardized_name": "Influenza, Human",
+        "normalized_name": "influenza human",
+        "synonyms": [],
+        "search_terms": [
+          "human",
+          "influenza,",
+          "influenza, human"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An acute viral infection in humans involving the respiratory tract. It is marked by inflammation of the NASAL MUCOSA; the PHARYNX; and conjunctiva, and by headache and severe, often generalized, myalgia.",
+        "cleaned_description": "An acute viral infection in humans involving the respiratory tract. It is marked by inflammation of the NASAL MUCOSA; the PHARYNX; and conjunctiva, and by headache and severe, often generalized, myalgia.",
+        "description_summary": "An acute viral infection in humans involving the respiratory tract.",
+        "key_terms": [],
+        "word_count": 31
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease",
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease",
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "respiratory",
+          "infectious"
+        ],
+        "all_categories": [
+          "Respiratory tract disease",
+          "Viral disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.788455",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011024",
+      "DiseaseName": "Pneumonia, Viral",
+      "DiseaseDescription": "Inflammation of the lung parenchyma that is caused by a viral infection.",
+      "SlimMapping": "['Respiratory tract disease', 'Viral disease']",
+      "PathwayNames": "Renin secretion",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011024",
+        "standardized_id": "MESH:D011024",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pneumonia, Viral",
+        "standardized_name": "Pneumonia, Viral",
+        "normalized_name": "pneumonia viral",
+        "synonyms": [],
+        "search_terms": [
+          "viral",
+          "pneumonia, viral",
+          "pneumonia,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inflammation of the lung parenchyma that is caused by a viral infection.",
+        "cleaned_description": "Inflammation of the lung parenchyma that is caused by a viral infection.",
+        "description_summary": "Inflammation of the lung parenchyma that is caused by a viral infection.",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease",
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease",
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "respiratory",
+          "infectious"
+        ],
+        "all_categories": [
+          "Respiratory tract disease",
+          "Viral disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Renin secretion",
+        "pathway_list": [
+          "Renin secretion"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.919743",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D045169",
+      "DiseaseName": "Severe Acute Respiratory Syndrome",
+      "DiseaseDescription": "A viral disorder characterized by high FEVER, dry COUGH, shortness of breath (DYSPNEA) or breathing difficulties, and atypical PNEUMONIA. A virus in the genus CORONAVIRUS is the suspected agent.",
+      "SlimMapping": "['Respiratory tract disease', 'Viral disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D045169",
+        "standardized_id": "MESH:D045169",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Severe Acute Respiratory Syndrome",
+        "standardized_name": "Severe Acute Respiratory Syndrome",
+        "normalized_name": "severe acute respiratory syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "respiratory",
+          "severe",
+          "syndrome",
+          "severe acute respiratory syndrome",
+          "acute"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A viral disorder characterized by high FEVER, dry COUGH, shortness of breath (DYSPNEA) or breathing difficulties, and atypical PNEUMONIA. A virus in the genus CORONAVIRUS is the suspected agent.",
+        "cleaned_description": "A viral disorder characterized by high FEVER, dry COUGH, shortness of breath (DYSPNEA) or breathing difficulties, and atypical PNEUMONIA. A virus in the genus CORONAVIRUS is the suspected agent.",
+        "description_summary": "A viral disorder characterized by high FEVER, dry COUGH, shortness of breath (DYSPNEA) or breathing difficulties, and atypical PNEUMONIA.",
+        "key_terms": [],
+        "word_count": 29
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease",
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease",
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "respiratory",
+          "infectious"
+        ],
+        "all_categories": [
+          "Respiratory tract disease",
+          "Viral disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.962975",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

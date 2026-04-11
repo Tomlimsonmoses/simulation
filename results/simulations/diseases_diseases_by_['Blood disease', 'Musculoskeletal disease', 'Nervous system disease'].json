@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Blood disease', 'Musculoskeletal disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:35.992328",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D016603",
+      "DiseaseName": "Eosinophilia-Myalgia Syndrome",
+      "DiseaseDescription": "A complex systemic syndrome with inflammatory and autoimmune components that affect the skin, fascia, muscle, nerve, blood vessels, lung, and heart. Diagnostic features generally include EOSINOPHILIA, myalgia severe enough to limit usual activities of daily living, and the absence of coexisting infectious, autoimmune or other conditions that may induce eosinophilia. Biopsy of affected tissue reveals a microangiopathy associated with diffuse inflammation involving connective tissue. (From Spitzer et al., J Rheumatol Suppl 1996 Oct;46:73-9; Blackburn WD, Semin Arthritis Rheum 1997 Jun;26(6):788-93)",
+      "SlimMapping": "['Blood disease', 'Musculoskeletal disease', 'Nervous system disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D016603",
+        "standardized_id": "MESH:D016603",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Eosinophilia-Myalgia Syndrome",
+        "standardized_name": "Eosinophilia-Myalgia Syndrome",
+        "normalized_name": "eosinophilia-myalgia syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "eosinophilia-myalgia",
+          "eosinophilia-myalgia syndrome",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A complex systemic syndrome with inflammatory and autoimmune components that affect the skin, fascia, muscle, nerve, blood vessels, lung, and heart. Diagnostic features generally include EOSINOPHILIA, myalgia severe enough to limit usual activities of daily living, and the absence of coexisting infectious, autoimmune or other conditions that may induce eosinophilia. Biopsy of affected tissue reveals a microangiopathy associated with diffuse inflammation involving connective tissue. (From Spitzer et al., J Rheumatol Suppl 1996 Oct;46:73-9; Blackburn WD, Semin Arthritis Rheum 1997 Jun;26(6):788-93)",
+        "cleaned_description": "A complex systemic syndrome with inflammatory and autoimmune components that affect the skin, fascia, muscle, nerve, blood vessels, lung, and heart. Diagnostic features generally include EOSINOPHILIA, myalgia severe enough to limit usual activities of daily living, and the absence of coexisting infectious, autoimmune or other conditions that may induce eosinophilia. Biopsy of affected tissue reveals a microangiopathy associated with diffuse inflammation involving connective tissue. (From Spitzer et al., J Rheumatol Suppl 1996 Oct;46:73-9; Blackburn WD, Semin Arthritis Rheum 1997 Jun;26(6):788-93)",
+        "description_summary": "A complex systemic syndrome with inflammatory and autoimmune components that affect the skin, fascia, muscle, nerve, blood vessels, lung, and heart.",
+        "key_terms": [
+          "microangiopathy",
+          "Arthritis"
+        ],
+        "word_count": 80
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.505502",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

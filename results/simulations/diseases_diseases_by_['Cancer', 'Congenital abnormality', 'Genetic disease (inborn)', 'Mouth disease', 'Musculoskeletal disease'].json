@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Congenital abnormality', 'Genetic disease (inborn)', 'Mouth disease', 'Musculoskeletal disease']",
+    "export_timestamp": "2026-03-28T22:11:35.696722",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D001478",
+      "DiseaseName": "Basal Cell Nevus Syndrome",
+      "DiseaseDescription": "Hereditary disorder consisting of multiple basal cell carcinomas, odontogenic keratocysts, and multiple skeletal defects, e.g., frontal and temporoparietal bossing, bifurcated and splayed ribs, kyphoscoliosis, fusion of vertebrae, and cervicothoracic spina bifida. Genetic transmission is autosomal dominant.",
+      "SlimMapping": "['Cancer', 'Congenital abnormality', 'Genetic disease (inborn)', 'Mouth disease', 'Musculoskeletal disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001478",
+        "standardized_id": "MESH:D001478",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Basal Cell Nevus Syndrome",
+        "standardized_name": "Basal Cell Nevus Syndrome",
+        "normalized_name": "basal cell nevus syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "basal cell nevus syndrome",
+          "syndrome",
+          "cell",
+          "nevus",
+          "basal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Hereditary disorder consisting of multiple basal cell carcinomas, odontogenic keratocysts, and multiple skeletal defects, e.g., frontal and temporoparietal bossing, bifurcated and splayed ribs, kyphoscoliosis, fusion of vertebrae, and cervicothoracic spina bifida. Genetic transmission is autosomal dominant.",
+        "cleaned_description": "Hereditary disorder consisting of multiple basal cell carcinomas, odontogenic keratocysts, and multiple skeletal defects, e.g., frontal and temporoparietal bossing, bifurcated and splayed ribs, kyphoscoliosis, fusion of vertebrae, and cervicothoracic spina bifida. Genetic transmission is autosomal dominant.",
+        "description_summary": "Hereditary disorder consisting of multiple basal cell carcinomas, odontogenic keratocysts, and multiple skeletal defects, e.",
+        "key_terms": [
+          "kyphoscoliosis",
+          "odontogenic"
+        ],
+        "word_count": 36
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Mouth disease",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Congenital abnormality",
+          "Genetic disease (inborn)"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Mouth disease",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 5
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.392137",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

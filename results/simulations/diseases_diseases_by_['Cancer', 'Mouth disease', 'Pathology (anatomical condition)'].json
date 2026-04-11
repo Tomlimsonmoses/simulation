@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Mouth disease', 'Pathology (anatomical condition)']",
+    "export_timestamp": "2026-03-28T22:11:36.136270",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D007972",
+      "DiseaseName": "Leukoplakia, Oral",
+      "DiseaseDescription": "A white patch seen on the oral mucosa. It is considered a premalignant condition and is often tobacco-induced. When evidence of Epstein-Barr virus is present, the condition is called hairy leukoplakia (LEUKOPLAKIA, HAIRY).",
+      "SlimMapping": "['Cancer', 'Mouth disease', 'Pathology (anatomical condition)']",
+      "PathwayNames": "VEGF signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007972",
+        "standardized_id": "MESH:D007972",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Leukoplakia, Oral",
+        "standardized_name": "Leukoplakia, Oral",
+        "normalized_name": "leukoplakia oral",
+        "synonyms": [],
+        "search_terms": [
+          "leukoplakia,",
+          "oral",
+          "leukoplakia, oral"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A white patch seen on the oral mucosa. It is considered a premalignant condition and is often tobacco-induced. When evidence of Epstein-Barr virus is present, the condition is called hairy leukoplakia (LEUKOPLAKIA, HAIRY).",
+        "cleaned_description": "A white patch seen on the oral mucosa. It is considered a premalignant condition and is often tobacco-induced. When evidence of Epstein-Barr virus is present, the condition is called hairy leukoplakia (LEUKOPLAKIA, HAIRY).",
+        "description_summary": "A white patch seen on the oral mucosa.",
+        "key_terms": [],
+        "word_count": 33
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Mouth disease",
+          "Pathology (anatomical condition)"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Mouth disease",
+          "Pathology (anatomical condition)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Mouth disease",
+          "Pathology (anatomical condition)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGF signaling pathway",
+        "pathway_list": [
+          "VEGF signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGF signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.813272",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

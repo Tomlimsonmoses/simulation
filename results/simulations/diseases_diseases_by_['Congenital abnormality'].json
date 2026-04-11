@@ -1,0 +1,274 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Congenital abnormality']",
+    "export_timestamp": "2026-03-28T22:11:35.120366",
+    "total_records": 4
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000014",
+      "DiseaseName": "Abnormalities, Drug-Induced",
+      "DiseaseDescription": "Congenital abnormalities caused by medicinal substances or drugs of abuse given to or taken by the mother, or to which she is inadvertently exposed during the manufacture of such substances. The concept excludes abnormalities resulting from exposure to non-medicinal chemicals in the environment.",
+      "SlimMapping": "['Congenital abnormality']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000014",
+        "standardized_id": "MESH:D000014",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Abnormalities, Drug-Induced",
+        "standardized_name": "Abnormalities, Drug-Induced",
+        "normalized_name": "abnormalities drug-induced",
+        "synonyms": [],
+        "search_terms": [
+          "drug-induced",
+          "abnormalities, drug-induced",
+          "abnormalities,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Congenital abnormalities caused by medicinal substances or drugs of abuse given to or taken by the mother, or to which she is inadvertently exposed during the manufacture of such substances. The concept excludes abnormalities resulting from exposure to non-medicinal chemicals in the environment.",
+        "cleaned_description": "Congenital abnormalities caused by medicinal substances or drugs of abuse given to or taken by the mother, or to which she is inadvertently exposed during the manufacture of such substances. The concept excludes abnormalities resulting from exposure to non-medicinal chemicals in the environment.",
+        "description_summary": "Congenital abnormalities caused by medicinal substances or drugs of abuse given to or taken by the mother, or to which she is inadvertently exposed during the manufacture of such substances.",
+        "key_terms": [],
+        "word_count": 43
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality"
+        ],
+        "primary_categories": [
+          "Congenital abnormality"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.348061",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000015",
+      "DiseaseName": "Abnormalities, Multiple",
+      "DiseaseDescription": "Congenital abnormalities that affect more than one organ or body structure.",
+      "SlimMapping": "['Congenital abnormality']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000015",
+        "standardized_id": "MESH:D000015",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Abnormalities, Multiple",
+        "standardized_name": "Abnormalities, Multiple",
+        "normalized_name": "abnormalities multiple",
+        "synonyms": [],
+        "search_terms": [
+          "abnormalities, multiple",
+          "multiple",
+          "abnormalities,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Congenital abnormalities that affect more than one organ or body structure.",
+        "cleaned_description": "Congenital abnormalities that affect more than one organ or body structure.",
+        "description_summary": "Congenital abnormalities that affect more than one organ or body structure.",
+        "key_terms": [],
+        "word_count": 11
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality"
+        ],
+        "primary_categories": [
+          "Congenital abnormality"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.348236",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000013",
+      "DiseaseName": "Congenital Abnormalities",
+      "DiseaseDescription": "Malformations of organs or body parts during development in utero.",
+      "SlimMapping": "['Congenital abnormality']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000013",
+        "standardized_id": "MESH:D000013",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Congenital Abnormalities",
+        "standardized_name": "Congenital Abnormalities",
+        "normalized_name": "congenital abnormalities",
+        "synonyms": [],
+        "search_terms": [
+          "congenital abnormalities",
+          "congenital",
+          "abnormalities"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Malformations of organs or body parts during development in utero.",
+        "cleaned_description": "Malformations of organs or body parts during development in utero.",
+        "description_summary": "Malformations of organs or body parts during development in utero.",
+        "key_terms": [],
+        "word_count": 10
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality"
+        ],
+        "primary_categories": [
+          "Congenital abnormality"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.449870",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012857",
+      "DiseaseName": "Situs Inversus",
+      "DiseaseDescription": "A congenital abnormality in which organs in the THORAX and the ABDOMEN are opposite to their normal positions (situs solitus) due to lateral transposition. Normally the STOMACH and SPLEEN are on the left, LIVER on the right, the three-lobed right lung is on the right, and the two-lobed left lung on the left. Situs inversus has a familial pattern and has been associated with a number of genes related to microtubule-associated proteins.",
+      "SlimMapping": "['Congenital abnormality']",
+      "PathwayNames": "TGF-beta signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012857",
+        "standardized_id": "MESH:D012857",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Situs Inversus",
+        "standardized_name": "Situs Inversus",
+        "normalized_name": "situs inversus",
+        "synonyms": [],
+        "search_terms": [
+          "situs",
+          "inversus",
+          "situs inversus"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A congenital abnormality in which organs in the THORAX and the ABDOMEN are opposite to their normal positions (situs solitus) due to lateral transposition. Normally the STOMACH and SPLEEN are on the left, LIVER on the right, the three-lobed right lung is on the right, and the two-lobed left lung on the left. Situs inversus has a familial pattern and has been associated with a number of genes related to microtubule-associated proteins.",
+        "cleaned_description": "A congenital abnormality in which organs in the THORAX and the ABDOMEN are opposite to their normal positions (situs solitus) due to lateral transposition. Normally the STOMACH and SPLEEN are on the left, LIVER on the right, the three-lobed right lung is on the right, and the two-lobed left lung on the left. Situs inversus has a familial pattern and has been associated with a number of genes related to microtubule-associated proteins.",
+        "description_summary": "A congenital abnormality in which organs in the THORAX and the ABDOMEN are opposite to their normal positions (situs solitus) due to lateral transposition.",
+        "key_terms": [],
+        "word_count": 72
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality"
+        ],
+        "primary_categories": [
+          "Congenital abnormality"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "TGF-beta signaling pathway",
+        "pathway_list": [
+          "TGF-beta signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "TGF-beta signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.965147",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

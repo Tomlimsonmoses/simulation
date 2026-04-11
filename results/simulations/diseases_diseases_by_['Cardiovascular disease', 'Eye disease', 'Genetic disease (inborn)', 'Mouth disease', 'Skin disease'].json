@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cardiovascular disease', 'Eye disease', 'Genetic disease (inborn)', 'Mouth disease', 'Skin disease']",
+    "export_timestamp": "2026-03-28T22:11:35.698070",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D001528",
+      "DiseaseName": "Behcet Syndrome",
+      "DiseaseDescription": "Rare chronic inflammatory disease involving the small blood vessels. It is of unknown etiology and characterized by mucocutaneous ulceration in the mouth and genital region and uveitis with hypopyon. The neuro-ocular form may cause blindness and death. SYNOVITIS; THROMBOPHLEBITIS; gastrointestinal ulcerations; RETINAL VASCULITIS; and OPTIC ATROPHY may occur as well.",
+      "SlimMapping": "['Cardiovascular disease', 'Eye disease', 'Genetic disease (inborn)', 'Mouth disease', 'Skin disease']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001528",
+        "standardized_id": "MESH:D001528",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Behcet Syndrome",
+        "standardized_name": "Behcet Syndrome",
+        "normalized_name": "behcet syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "behcet syndrome",
+          "syndrome",
+          "behcet"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Rare chronic inflammatory disease involving the small blood vessels. It is of unknown etiology and characterized by mucocutaneous ulceration in the mouth and genital region and uveitis with hypopyon. The neuro-ocular form may cause blindness and death. SYNOVITIS; THROMBOPHLEBITIS; gastrointestinal ulcerations; RETINAL VASCULITIS; and OPTIC ATROPHY may occur as well.",
+        "cleaned_description": "Rare chronic inflammatory disease involving the small blood vessels. It is of unknown etiology and characterized by mucocutaneous ulceration in the mouth and genital region and uveitis with hypopyon. The neuro-ocular form may cause blindness and death. SYNOVITIS; THROMBOPHLEBITIS; gastrointestinal ulcerations; RETINAL VASCULITIS; and OPTIC ATROPHY may occur as well.",
+        "description_summary": "Rare chronic inflammatory disease involving the small blood vessels.",
+        "key_terms": [
+          "SYNOVITIS",
+          "uveitis",
+          "VASCULITIS",
+          "THROMBOPHLEBITIS"
+        ],
+        "word_count": 50
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Eye disease",
+          "Genetic disease (inborn)",
+          "Mouth disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Eye disease",
+          "Genetic disease (inborn)"
+        ],
+        "broad_categories": [
+          "cardiovascular",
+          "genetic"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Eye disease",
+          "Genetic disease (inborn)",
+          "Mouth disease",
+          "Skin disease"
+        ],
+        "category_count": 5
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.393271",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

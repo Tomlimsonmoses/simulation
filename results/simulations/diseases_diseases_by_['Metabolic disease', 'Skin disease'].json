@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Metabolic disease', 'Skin disease']",
+    "export_timestamp": "2026-03-28T22:11:36.139225",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D008060",
+      "DiseaseName": "Lipodystrophy",
+      "DiseaseDescription": "A collection of heterogenous conditions resulting from defective LIPID METABOLISM and characterized by ADIPOSE TISSUE atrophy. Often there is redistribution of body fat resulting in peripheral fat wasting and central adiposity. They include generalized, localized, congenital, and acquired lipodystrophy.",
+      "SlimMapping": "['Metabolic disease', 'Skin disease']",
+      "PathwayNames": "Translesion synthesis by Y family DNA polymerases bypasses lesions on DNA template",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008060",
+        "standardized_id": "MESH:D008060",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Lipodystrophy",
+        "standardized_name": "Lipodystrophy",
+        "normalized_name": "lipodystrophy",
+        "synonyms": [],
+        "search_terms": [
+          "lipodystrophy"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A collection of heterogenous conditions resulting from defective LIPID METABOLISM and characterized by ADIPOSE TISSUE atrophy. Often there is redistribution of body fat resulting in peripheral fat wasting and central adiposity. They include generalized, localized, congenital, and acquired lipodystrophy.",
+        "cleaned_description": "A collection of heterogenous conditions resulting from defective LIPID METABOLISM and characterized by ADIPOSE TISSUE atrophy. Often there is redistribution of body fat resulting in peripheral fat wasting and central adiposity. They include generalized, localized, congenital, and acquired lipodystrophy.",
+        "description_summary": "A collection of heterogenous conditions resulting from defective LIPID METABOLISM and characterized by ADIPOSE TISSUE atrophy.",
+        "key_terms": [],
+        "word_count": 39
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease",
+          "Skin disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Translesion synthesis by Y family DNA polymerases bypasses lesions on DNA template",
+        "pathway_list": [
+          "Translesion synthesis by Y family DNA polymerases bypasses lesions on DNA template"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.816068",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008068",
+      "DiseaseName": "Lipomatosis",
+      "DiseaseDescription": "A disorder characterized by the accumulation of encapsulated or unencapsulated tumor-like fatty tissue resembling LIPOMA.",
+      "SlimMapping": "['Metabolic disease', 'Skin disease']",
+      "PathwayNames": "Ub-specific processing proteases",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008068",
+        "standardized_id": "MESH:D008068",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Lipomatosis",
+        "standardized_name": "Lipomatosis",
+        "normalized_name": "lipomatosis",
+        "synonyms": [],
+        "search_terms": [
+          "lipomatosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A disorder characterized by the accumulation of encapsulated or unencapsulated tumor-like fatty tissue resembling LIPOMA.",
+        "cleaned_description": "A disorder characterized by the accumulation of encapsulated or unencapsulated tumor-like fatty tissue resembling LIPOMA.",
+        "description_summary": "A disorder characterized by the accumulation of encapsulated or unencapsulated tumor-like fatty tissue resembling LIPOMA.",
+        "key_terms": [],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease",
+          "Skin disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Ub-specific processing proteases",
+        "pathway_list": [
+          "Ub-specific processing proteases"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.816845",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

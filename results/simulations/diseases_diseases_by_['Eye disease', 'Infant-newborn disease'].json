@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Eye disease', 'Infant-newborn disease']",
+    "export_timestamp": "2026-03-28T22:11:36.293880",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D012178",
+      "DiseaseName": "Retinopathy of Prematurity",
+      "DiseaseDescription": "A bilateral retinopathy occurring in premature infants treated with excessively high concentrations of oxygen, characterized by vascular dilatation, proliferation, and tortuosity, edema, and retinal detachment, with ultimate conversion of the retina into a fibrous mass that can be seen as a dense retrolental membrane. Usually growth of the eye is arrested and may result in microophthalmia, and blindness may occur. (Dorland, 27th ed)",
+      "SlimMapping": "['Eye disease', 'Infant-newborn disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012178",
+        "standardized_id": "MESH:D012178",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Retinopathy of Prematurity",
+        "standardized_name": "Retinopathy of Prematurity",
+        "normalized_name": "retinopathy of prematurity",
+        "synonyms": [],
+        "search_terms": [
+          "retinopathy",
+          "retinopathy of prematurity",
+          "prematurity"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A bilateral retinopathy occurring in premature infants treated with excessively high concentrations of oxygen, characterized by vascular dilatation, proliferation, and tortuosity, edema, and retinal detachment, with ultimate conversion of the retina into a fibrous mass that can be seen as a dense retrolental membrane. Usually growth of the eye is arrested and may result in microophthalmia, and blindness may occur. (Dorland, 27th ed)",
+        "cleaned_description": "A bilateral retinopathy occurring in premature infants treated with excessively high concentrations of oxygen, characterized by vascular dilatation, proliferation, and tortuosity, edema, and retinal detachment, with ultimate conversion of the retina into a fibrous mass that can be seen as a dense retrolental membrane. Usually growth of the eye is arrested and may result in microophthalmia, and blindness may occur. (Dorland, 27th ed)",
+        "description_summary": "A bilateral retinopathy occurring in premature infants treated with excessively high concentrations of oxygen, characterized by vascular dilatation, proliferation, and tortuosity, edema, and retinal detachment, with ultimate conversion of the retina into a fibrous mass that can be seen as a dense re",
+        "key_terms": [
+          "retinopathy"
+        ],
+        "word_count": 63
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Eye disease",
+          "Infant-newborn disease"
+        ],
+        "primary_categories": [
+          "Eye disease",
+          "Infant-newborn disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Eye disease",
+          "Infant-newborn disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.956115",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

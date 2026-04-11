@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Mental disorder', 'Nervous system disease', 'Substance-related disorder']",
+    "export_timestamp": "2026-03-28T22:11:35.488716",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000430",
+      "DiseaseName": "Alcohol Withdrawal Delirium",
+      "DiseaseDescription": "An acute organic mental disorder induced by cessation or reduction in chronic alcohol consumption. Clinical characteristics include CONFUSION; DELUSIONS; vivid HALLUCINATIONS; TREMOR; agitation; insomnia; and signs of autonomic hyperactivity (e.g., elevated blood pressure and heart rate, dilated pupils, and diaphoresis). This condition may occasionally be fatal. It was formerly called delirium tremens. (From Adams et al., Principles of Neurology, 6th ed, p1175)",
+      "SlimMapping": "['Mental disorder', 'Nervous system disease', 'Substance-related disorder']",
+      "PathwayNames": "Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000430",
+        "standardized_id": "MESH:D000430",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Alcohol Withdrawal Delirium",
+        "standardized_name": "Alcohol Withdrawal Delirium",
+        "normalized_name": "alcohol withdrawal delirium",
+        "synonyms": [],
+        "search_terms": [
+          "withdrawal",
+          "alcohol withdrawal delirium",
+          "delirium",
+          "alcohol"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An acute organic mental disorder induced by cessation or reduction in chronic alcohol consumption. Clinical characteristics include CONFUSION; DELUSIONS; vivid HALLUCINATIONS; TREMOR; agitation; insomnia; and signs of autonomic hyperactivity (e.g., elevated blood pressure and heart rate, dilated pupils, and diaphoresis). This condition may occasionally be fatal. It was formerly called delirium tremens. (From Adams et al., Principles of Neurology, 6th ed, p1175)",
+        "cleaned_description": "An acute organic mental disorder induced by cessation or reduction in chronic alcohol consumption. Clinical characteristics include CONFUSION; DELUSIONS; vivid HALLUCINATIONS; TREMOR; agitation; insomnia; and signs of autonomic hyperactivity (e.g., elevated blood pressure and heart rate, dilated pupils, and diaphoresis). This condition may occasionally be fatal. It was formerly called delirium tremens. (From Adams et al., Principles of Neurology, 6th ed, p1175)",
+        "description_summary": "An acute organic mental disorder induced by cessation or reduction in chronic alcohol consumption.",
+        "key_terms": [],
+        "word_count": 62
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Nervous system disease",
+          "Substance-related disorder"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Nervous system disease",
+          "Substance-related disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Nervous system disease",
+          "Substance-related disorder"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds",
+        "pathway_list": [
+          "metal ions and amine compounds",
+          "Transport of glucose and other sugars",
+          "bile salts and organic acids"
+        ],
+        "pathway_count": 3,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.359653",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

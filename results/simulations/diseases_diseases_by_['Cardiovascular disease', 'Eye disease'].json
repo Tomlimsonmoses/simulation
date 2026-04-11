@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cardiovascular disease', 'Eye disease']",
+    "export_timestamp": "2026-03-28T22:11:36.291756",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D012170",
+      "DiseaseName": "Retinal Vein Occlusion",
+      "DiseaseDescription": "Blockage of the RETINAL VEIN. Those at high risk for this condition include patients with HYPERTENSION; DIABETES MELLITUS; ATHEROSCLEROSIS; and other CARDIOVASCULAR DISEASES.",
+      "SlimMapping": "['Cardiovascular disease', 'Eye disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012170",
+        "standardized_id": "MESH:D012170",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Retinal Vein Occlusion",
+        "standardized_name": "Retinal Vein Occlusion",
+        "normalized_name": "retinal vein occlusion",
+        "synonyms": [],
+        "search_terms": [
+          "vein",
+          "retinal",
+          "occlusion",
+          "retinal vein occlusion"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Blockage of the RETINAL VEIN. Those at high risk for this condition include patients with HYPERTENSION; DIABETES MELLITUS; ATHEROSCLEROSIS; and other CARDIOVASCULAR DISEASES.",
+        "cleaned_description": "Blockage of the RETINAL VEIN. Those at high risk for this condition include patients with HYPERTENSION; DIABETES MELLITUS; ATHEROSCLEROSIS; and other CARDIOVASCULAR DISEASES.",
+        "description_summary": "Blockage of the RETINAL VEIN.",
+        "key_terms": [
+          "ATHEROSCLEROSIS"
+        ],
+        "word_count": 23
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Eye disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Eye disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Eye disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.954748",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cardiovascular disease', 'Lymphatic disease', 'Skin disease']",
+    "export_timestamp": "2026-03-28T22:11:36.192487",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D009080",
+      "DiseaseName": "Mucocutaneous Lymph Node Syndrome",
+      "DiseaseDescription": "An acute, febrile, mucocutaneous condition accompanied by swelling of cervical lymph nodes in infants and young children. The principal symptoms are fever, congestion of the ocular conjunctivae, reddening of the lips and oral cavity, protuberance of tongue papillae, and edema or erythema of the extremities.",
+      "SlimMapping": "['Cardiovascular disease', 'Lymphatic disease', 'Skin disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009080",
+        "standardized_id": "MESH:D009080",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Mucocutaneous Lymph Node Syndrome",
+        "standardized_name": "Mucocutaneous Lymph Node Syndrome",
+        "normalized_name": "mucocutaneous lymph node syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "lymph",
+          "syndrome",
+          "node",
+          "mucocutaneous",
+          "mucocutaneous lymph node syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An acute, febrile, mucocutaneous condition accompanied by swelling of cervical lymph nodes in infants and young children. The principal symptoms are fever, congestion of the ocular conjunctivae, reddening of the lips and oral cavity, protuberance of tongue papillae, and edema or erythema of the extremities.",
+        "cleaned_description": "An acute, febrile, mucocutaneous condition accompanied by swelling of cervical lymph nodes in infants and young children. The principal symptoms are fever, congestion of the ocular conjunctivae, reddening of the lips and oral cavity, protuberance of tongue papillae, and edema or erythema of the extremities.",
+        "description_summary": "An acute, febrile, mucocutaneous condition accompanied by swelling of cervical lymph nodes in infants and young children.",
+        "key_terms": [],
+        "word_count": 45
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Lymphatic disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Lymphatic disease",
+          "Skin disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Lymphatic disease",
+          "Skin disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.857795",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Nervous system disease', 'Viral disease']",
+    "export_timestamp": "2026-03-28T22:11:35.980826",
+    "total_records": 3
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D020803",
+      "DiseaseName": "Encephalitis, Herpes Simplex",
+      "DiseaseDescription": "An acute (or rarely chronic) inflammatory process of the brain caused by SIMPLEXVIRUS infections which may be fatal. The majority of infections are caused by human herpesvirus 1 (HERPESVIRUS 1, HUMAN) and less often by human herpesvirus 2 (HERPESVIRUS 2, HUMAN). Clinical manifestations include FEVER; HEADACHE; SEIZURES; HALLUCINATIONS; behavioral alterations; APHASIA; hemiparesis; and COMA. Pathologically, the condition is marked by a hemorrhagic necrosis involving the medial and inferior TEMPORAL LOBE and orbital regions of the FRONTAL LOBE. (From Adams et al., Principles of Neurology, 6th ed, pp751-4)",
+      "SlimMapping": "['Nervous system disease', 'Viral disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020803",
+        "standardized_id": "MESH:D020803",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Encephalitis, Herpes Simplex",
+        "standardized_name": "Encephalitis, Herpes Simplex",
+        "normalized_name": "encephalitis herpes simplex",
+        "synonyms": [],
+        "search_terms": [
+          "simplex",
+          "encephalitis,",
+          "herpes",
+          "encephalitis, herpes simplex"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An acute (or rarely chronic) inflammatory process of the brain caused by SIMPLEXVIRUS infections which may be fatal. The majority of infections are caused by human herpesvirus 1 (HERPESVIRUS 1, HUMAN) and less often by human herpesvirus 2 (HERPESVIRUS 2, HUMAN). Clinical manifestations include FEVER; HEADACHE; SEIZURES; HALLUCINATIONS; behavioral alterations; APHASIA; hemiparesis; and COMA. Pathologically, the condition is marked by a hemorrhagic necrosis involving the medial and inferior TEMPORAL LOBE and orbital regions of the FRONTAL LOBE. (From Adams et al., Principles of Neurology, 6th ed, pp751-4)",
+        "cleaned_description": "An acute (or rarely chronic) inflammatory process of the brain caused by SIMPLEXVIRUS infections which may be fatal. The majority of infections are caused by human herpesvirus 1 (HERPESVIRUS 1, HUMAN) and less often by human herpesvirus 2 (HERPESVIRUS 2, HUMAN). Clinical manifestations include FEVER; HEADACHE; SEIZURES; HALLUCINATIONS; behavioral alterations; APHASIA; hemiparesis; and COMA. Pathologically, the condition is marked by a hemorrhagic necrosis involving the medial and inferior TEMPORAL LOBE and orbital regions of the FRONTAL LOBE. (From Adams et al., Principles of Neurology, 6th ed, pp751-4)",
+        "description_summary": "An acute (or rarely chronic) inflammatory process of the brain caused by SIMPLEXVIRUS infections which may be fatal.",
+        "key_terms": [
+          "necrosis"
+        ],
+        "word_count": 87
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Nervous system disease",
+          "Viral disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.493679",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D018792",
+      "DiseaseName": "Encephalitis, Viral",
+      "DiseaseDescription": "Inflammation of brain parenchymal tissue as a result of viral infection. Encephalitis may occur as primary or secondary manifestation of TOGAVIRIDAE INFECTIONS; HERPESVIRIDAE INFECTIONS; ADENOVIRIDAE INFECTIONS; FLAVIVIRIDAE INFECTIONS; BUNYAVIRIDAE INFECTIONS; PICORNAVIRIDAE INFECTIONS; PARAMYXOVIRIDAE INFECTIONS; ORTHOMYXOVIRIDAE INFECTIONS; RETROVIRIDAE INFECTIONS; and ARENAVIRIDAE INFECTIONS.",
+      "SlimMapping": "['Nervous system disease', 'Viral disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018792",
+        "standardized_id": "MESH:D018792",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Encephalitis, Viral",
+        "standardized_name": "Encephalitis, Viral",
+        "normalized_name": "encephalitis viral",
+        "synonyms": [],
+        "search_terms": [
+          "encephalitis, viral",
+          "viral",
+          "encephalitis,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inflammation of brain parenchymal tissue as a result of viral infection. Encephalitis may occur as primary or secondary manifestation of TOGAVIRIDAE INFECTIONS; HERPESVIRIDAE INFECTIONS; ADENOVIRIDAE INFECTIONS; FLAVIVIRIDAE INFECTIONS; BUNYAVIRIDAE INFECTIONS; PICORNAVIRIDAE INFECTIONS; PARAMYXOVIRIDAE INFECTIONS; ORTHOMYXOVIRIDAE INFECTIONS; RETROVIRIDAE INFECTIONS; and ARENAVIRIDAE INFECTIONS.",
+        "cleaned_description": "Inflammation of brain parenchymal tissue as a result of viral infection. Encephalitis may occur as primary or secondary manifestation of TOGAVIRIDAE INFECTIONS; HERPESVIRIDAE INFECTIONS; ADENOVIRIDAE INFECTIONS; FLAVIVIRIDAE INFECTIONS; BUNYAVIRIDAE INFECTIONS; PICORNAVIRIDAE INFECTIONS; PARAMYXOVIRIDAE INFECTIONS; ORTHOMYXOVIRIDAE INFECTIONS; RETROVIRIDAE INFECTIONS; and ARENAVIRIDAE INFECTIONS.",
+        "description_summary": "Inflammation of brain parenchymal tissue as a result of viral infection.",
+        "key_terms": [
+          "Encephalitis"
+        ],
+        "word_count": 41
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Nervous system disease",
+          "Viral disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.494012",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014901",
+      "DiseaseName": "West Nile Fever",
+      "DiseaseDescription": "A mosquito-borne viral illness caused by the WEST NILE VIRUS, a FLAVIVIRUS and endemic to regions of Africa, Asia, and Europe. Common clinical features include HEADACHE; FEVER; maculopapular rash; gastrointestinal symptoms; and lymphadenopathy. MENINGITIS; ENCEPHALITIS; and MYELITIS may also occur. The disease may occasionally be fatal or leave survivors with residual neurologic deficits. (From Joynt, Clinical Neurology, 1996, Ch26, p13; Lancet 1998 Sep 5;352(9130):767-71)",
+      "SlimMapping": "['Nervous system disease', 'Viral disease']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014901",
+        "standardized_id": "MESH:D014901",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "West Nile Fever",
+        "standardized_name": "West Nile Fever",
+        "normalized_name": "west nile fever",
+        "synonyms": [],
+        "search_terms": [
+          "west nile fever",
+          "nile",
+          "fever",
+          "west"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A mosquito-borne viral illness caused by the WEST NILE VIRUS, a FLAVIVIRUS and endemic to regions of Africa, Asia, and Europe. Common clinical features include HEADACHE; FEVER; maculopapular rash; gastrointestinal symptoms; and lymphadenopathy. MENINGITIS; ENCEPHALITIS; and MYELITIS may also occur. The disease may occasionally be fatal or leave survivors with residual neurologic deficits. (From Joynt, Clinical Neurology, 1996, Ch26, p13; Lancet 1998 Sep 5;352(9130):767-71)",
+        "cleaned_description": "A mosquito-borne viral illness caused by the WEST NILE VIRUS, a FLAVIVIRUS and endemic to regions of Africa, Asia, and Europe. Common clinical features include HEADACHE; FEVER; maculopapular rash; gastrointestinal symptoms; and lymphadenopathy. MENINGITIS; ENCEPHALITIS; and MYELITIS may also occur. The disease may occasionally be fatal or leave survivors with residual neurologic deficits. (From Joynt, Clinical Neurology, 1996, Ch26, p13; Lancet 1998 Sep 5;352(9130):767-71)",
+        "description_summary": "A mosquito-borne viral illness caused by the WEST NILE VIRUS, a FLAVIVIRUS and endemic to regions of Africa, Asia, and Europe.",
+        "key_terms": [
+          "ENCEPHALITIS",
+          "lymphadenopathy",
+          "MENINGITIS",
+          "MYELITIS"
+        ],
+        "word_count": 64
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Nervous system disease",
+          "Viral disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.026561",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

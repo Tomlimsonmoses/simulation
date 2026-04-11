@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Animal disease', 'Digestive system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.044951",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D006520",
+      "DiseaseName": "Hepatitis, Animal",
+      "DiseaseDescription": "INFLAMMATION of the LIVER in non-human animals.",
+      "SlimMapping": "['Animal disease', 'Digestive system disease']",
+      "PathwayNames": "Transmembrane transport of small molecules",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006520",
+        "standardized_id": "MESH:D006520",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hepatitis, Animal",
+        "standardized_name": "Hepatitis, Animal",
+        "normalized_name": "hepatitis animal",
+        "synonyms": [],
+        "search_terms": [
+          "animal",
+          "hepatitis,",
+          "hepatitis, animal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "INFLAMMATION of the LIVER in non-human animals.",
+        "cleaned_description": "INFLAMMATION of the LIVER in non-human animals.",
+        "description_summary": "INFLAMMATION of the LIVER in non-human animals.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Animal disease",
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Animal disease",
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Animal disease",
+          "Digestive system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmembrane transport of small molecules",
+        "pathway_list": [
+          "Transmembrane transport of small molecules"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.649096",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

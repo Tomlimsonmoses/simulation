@@ -1,0 +1,564 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Blood disease', 'Genetic disease (inborn)']",
+    "export_timestamp": "2026-03-28T22:11:35.239915",
+    "total_records": 8
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D020016",
+      "DiseaseName": "Activated Protein C Resistance",
+      "DiseaseDescription": "A hemostatic disorder characterized by a poor anticoagulant response to activated protein C (APC). The activated form of Factor V (Factor Va) is more slowly degraded by activated protein C. Factor V Leiden mutation (R506Q) is the most common cause of APC resistance.",
+      "SlimMapping": "['Blood disease', 'Genetic disease (inborn)']",
+      "PathwayNames": "Transport of gamma-carboxylated protein precursors from the endoplasmic reticulum to the Golgi apparatus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020016",
+        "standardized_id": "MESH:D020016",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Activated Protein C Resistance",
+        "standardized_name": "Activated Protein C Resistance",
+        "normalized_name": "activated protein c resistance",
+        "synonyms": [],
+        "search_terms": [
+          "activated",
+          "protein",
+          "activated protein c resistance",
+          "resistance"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A hemostatic disorder characterized by a poor anticoagulant response to activated protein C (APC). The activated form of Factor V (Factor Va) is more slowly degraded by activated protein C. Factor V Leiden mutation (R506Q) is the most common cause of APC resistance.",
+        "cleaned_description": "A hemostatic disorder characterized by a poor anticoagulant response to activated protein C (APC). The activated form of Factor V (Factor Va) is more slowly degraded by activated protein C. Factor V Leiden mutation (R506Q) is the most common cause of APC resistance.",
+        "description_summary": "A hemostatic disorder characterized by a poor anticoagulant response to activated protein C (APC).",
+        "key_terms": [],
+        "word_count": 43
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Genetic disease (inborn)"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Genetic disease (inborn)"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Blood disease",
+          "Genetic disease (inborn)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of gamma-carboxylated protein precursors from the endoplasmic reticulum to the Golgi apparatus",
+        "pathway_list": [
+          "Transport of gamma-carboxylated protein precursors from the endoplasmic reticulum to the Golgi apparatus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.354922",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D029503",
+      "DiseaseName": "Anemia, Diamond-Blackfan",
+      "DiseaseDescription": "A rare congenital hypoplastic anemia that usually presents early in infancy. The disease is characterized by a moderate to severe macrocytic anemia, occasional neutropenia or thrombocytosis, a normocellular bone marrow with erythroid hypoplasia, and an increased risk of developing leukemia. (Curr Opin Hematol 2000 Mar;7(2):85-94)",
+      "SlimMapping": "['Blood disease', 'Genetic disease (inborn)']",
+      "PathwayNames": "Viral mRNA Translation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D029503",
+        "standardized_id": "MESH:D029503",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Anemia, Diamond-Blackfan",
+        "standardized_name": "Anemia, Diamond-Blackfan",
+        "normalized_name": "anemia diamond-blackfan",
+        "synonyms": [],
+        "search_terms": [
+          "anemia,",
+          "anemia, diamond-blackfan",
+          "diamond-blackfan"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A rare congenital hypoplastic anemia that usually presents early in infancy. The disease is characterized by a moderate to severe macrocytic anemia, occasional neutropenia or thrombocytosis, a normocellular bone marrow with erythroid hypoplasia, and an increased risk of developing leukemia. (Curr Opin Hematol 2000 Mar;7(2):85-94)",
+        "cleaned_description": "A rare congenital hypoplastic anemia that usually presents early in infancy. The disease is characterized by a moderate to severe macrocytic anemia, occasional neutropenia or thrombocytosis, a normocellular bone marrow with erythroid hypoplasia, and an increased risk of developing leukemia. (Curr Opin Hematol 2000 Mar;7(2):85-94)",
+        "description_summary": "A rare congenital hypoplastic anemia that usually presents early in infancy.",
+        "key_terms": [
+          "anemia",
+          "thrombocytosis",
+          "leukemia"
+        ],
+        "word_count": 45
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Genetic disease (inborn)"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Genetic disease (inborn)"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Blood disease",
+          "Genetic disease (inborn)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral mRNA Translation",
+        "pathway_list": [
+          "Viral mRNA Translation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.363155",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D029502",
+      "DiseaseName": "Anemia, Hypoplastic, Congenital",
+      "DiseaseDescription": "An inborn condition characterized by deficiencies of red cell precursors that sometimes also includes LEUKOPENIA and THROMBOCYTOPENIA.",
+      "SlimMapping": "['Blood disease', 'Genetic disease (inborn)']",
+      "PathwayNames": "Uridine monophosphate biosynthesis, glutamine (+ PRPP) => UMP",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D029502",
+        "standardized_id": "MESH:D029502",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Anemia, Hypoplastic, Congenital",
+        "standardized_name": "Anemia, Hypoplastic, Congenital",
+        "normalized_name": "anemia hypoplastic congenital",
+        "synonyms": [],
+        "search_terms": [
+          "anemia, hypoplastic, congenital",
+          "congenital",
+          "hypoplastic,",
+          "anemia,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An inborn condition characterized by deficiencies of red cell precursors that sometimes also includes LEUKOPENIA and THROMBOCYTOPENIA.",
+        "cleaned_description": "An inborn condition characterized by deficiencies of red cell precursors that sometimes also includes LEUKOPENIA and THROMBOCYTOPENIA.",
+        "description_summary": "An inborn condition characterized by deficiencies of red cell precursors that sometimes also includes LEUKOPENIA and THROMBOCYTOPENIA.",
+        "key_terms": [],
+        "word_count": 17
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Genetic disease (inborn)"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Genetic disease (inborn)"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Blood disease",
+          "Genetic disease (inborn)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Uridine monophosphate biosynthesis, glutamine (+ PRPP) => UMP",
+        "pathway_list": [
+          "glutamine (+ PRPP) => UMP",
+          "Uridine monophosphate biosynthesis"
+        ],
+        "pathway_count": 2,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.363491",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000755",
+      "DiseaseName": "Anemia, Sickle Cell",
+      "DiseaseDescription": "A disease characterized by chronic hemolytic anemia, episodic painful crises, and pathologic involvement of many organs. It is the clinical expression of homozygosity for hemoglobin S.",
+      "SlimMapping": "['Blood disease', 'Genetic disease (inborn)']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000755",
+        "standardized_id": "MESH:D000755",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Anemia, Sickle Cell",
+        "standardized_name": "Anemia, Sickle Cell",
+        "normalized_name": "anemia sickle cell",
+        "synonyms": [],
+        "search_terms": [
+          "sickle",
+          "anemia,",
+          "cell",
+          "anemia, sickle cell"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A disease characterized by chronic hemolytic anemia, episodic painful crises, and pathologic involvement of many organs. It is the clinical expression of homozygosity for hemoglobin S.",
+        "cleaned_description": "A disease characterized by chronic hemolytic anemia, episodic painful crises, and pathologic involvement of many organs. It is the clinical expression of homozygosity for hemoglobin S.",
+        "description_summary": "A disease characterized by chronic hemolytic anemia, episodic painful crises, and pathologic involvement of many organs.",
+        "key_terms": [
+          "anemia"
+        ],
+        "word_count": 26
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Genetic disease (inborn)"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Genetic disease (inborn)"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Blood disease",
+          "Genetic disease (inborn)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.364163",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D017086",
+      "DiseaseName": "beta-Thalassemia",
+      "DiseaseDescription": "A disorder characterized by reduced synthesis of the beta chains of hemoglobin. There is retardation of hemoglobin A synthesis in the heterozygous form (thalassemia minor), which is asymptomatic, while in the homozygous form (thalassemia major, Cooley's anemia, Mediterranean anemia, erythroblastic anemia), which can result in severe complications and even death, hemoglobin A synthesis is absent.",
+      "SlimMapping": "['Blood disease', 'Genetic disease (inborn)']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017086",
+        "standardized_id": "MESH:D017086",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "beta-Thalassemia",
+        "standardized_name": "beta-Thalassemia",
+        "normalized_name": "beta-thalassemia",
+        "synonyms": [],
+        "search_terms": [
+          "beta-thalassemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A disorder characterized by reduced synthesis of the beta chains of hemoglobin. There is retardation of hemoglobin A synthesis in the heterozygous form (thalassemia minor), which is asymptomatic, while in the homozygous form (thalassemia major, Cooley's anemia, Mediterranean anemia, erythroblastic anemia), which can result in severe complications and even death, hemoglobin A synthesis is absent.",
+        "cleaned_description": "A disorder characterized by reduced synthesis of the beta chains of hemoglobin. There is retardation of hemoglobin A synthesis in the heterozygous form (thalassemia minor), which is asymptomatic, while in the homozygous form (thalassemia major, Cooley's anemia, Mediterranean anemia, erythroblastic anemia), which can result in severe complications and even death, hemoglobin A synthesis is absent.",
+        "description_summary": "A disorder characterized by reduced synthesis of the beta chains of hemoglobin.",
+        "key_terms": [
+          "anemia",
+          "thalassemia"
+        ],
+        "word_count": 55
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Genetic disease (inborn)"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Genetic disease (inborn)"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Blood disease",
+          "Genetic disease (inborn)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.394026",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006467",
+      "DiseaseName": "Hemophilia A",
+      "DiseaseDescription": "The classic hemophilia resulting from a deficiency of factor VIII. It is an inherited disorder of blood coagulation characterized by a permanent tendency to hemorrhage.",
+      "SlimMapping": "['Blood disease', 'Genetic disease (inborn)']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006467",
+        "standardized_id": "MESH:D006467",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hemophilia A",
+        "standardized_name": "Hemophilia A",
+        "normalized_name": "hemophilia a",
+        "synonyms": [],
+        "search_terms": [
+          "hemophilia",
+          "hemophilia a"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The classic hemophilia resulting from a deficiency of factor VIII. It is an inherited disorder of blood coagulation characterized by a permanent tendency to hemorrhage.",
+        "cleaned_description": "The classic hemophilia resulting from a deficiency of factor VIII. It is an inherited disorder of blood coagulation characterized by a permanent tendency to hemorrhage.",
+        "description_summary": "The classic hemophilia resulting from a deficiency of factor VIII.",
+        "key_terms": [],
+        "word_count": 25
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Genetic disease (inborn)"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Genetic disease (inborn)"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Blood disease",
+          "Genetic disease (inborn)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.644548",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007020",
+      "DiseaseName": "Hypoprothrombinemias",
+      "DiseaseDescription": "Absence or reduced levels of PROTHROMBIN in the blood.",
+      "SlimMapping": "['Blood disease', 'Genetic disease (inborn)']",
+      "PathwayNames": "Transport of gamma-carboxylated protein precursors from the endoplasmic reticulum to the Golgi apparatus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007020",
+        "standardized_id": "MESH:D007020",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypoprothrombinemias",
+        "standardized_name": "Hypoprothrombinemias",
+        "normalized_name": "hypoprothrombinemias",
+        "synonyms": [],
+        "search_terms": [
+          "hypoprothrombinemias"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Absence or reduced levels of PROTHROMBIN in the blood.",
+        "cleaned_description": "Absence or reduced levels of PROTHROMBIN in the blood.",
+        "description_summary": "Absence or reduced levels of PROTHROMBIN in the blood.",
+        "key_terms": [],
+        "word_count": 9
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Genetic disease (inborn)"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Genetic disease (inborn)"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Blood disease",
+          "Genetic disease (inborn)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of gamma-carboxylated protein precursors from the endoplasmic reticulum to the Golgi apparatus",
+        "pathway_list": [
+          "Transport of gamma-carboxylated protein precursors from the endoplasmic reticulum to the Golgi apparatus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.776944",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020151",
+      "DiseaseName": "Protein C Deficiency",
+      "DiseaseDescription": "An absence or deficiency in PROTEIN C which leads to impaired regulation of blood coagulation. It is associated with an increased risk of severe or premature thrombosis. (Stedman's Med. Dict., 26th ed.)",
+      "SlimMapping": "['Blood disease', 'Genetic disease (inborn)']",
+      "PathwayNames": "Transport of gamma-carboxylated protein precursors from the endoplasmic reticulum to the Golgi apparatus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020151",
+        "standardized_id": "MESH:D020151",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Protein C Deficiency",
+        "standardized_name": "Protein C Deficiency",
+        "normalized_name": "protein c deficiency",
+        "synonyms": [],
+        "search_terms": [
+          "protein c deficiency",
+          "protein",
+          "deficiency"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An absence or deficiency in PROTEIN C which leads to impaired regulation of blood coagulation. It is associated with an increased risk of severe or premature thrombosis. (Stedman's Med. Dict., 26th ed.)",
+        "cleaned_description": "An absence or deficiency in PROTEIN C which leads to impaired regulation of blood coagulation. It is associated with an increased risk of severe or premature thrombosis. (Stedman's Med. Dict., 26th ed.)",
+        "description_summary": "An absence or deficiency in PROTEIN C which leads to impaired regulation of blood coagulation.",
+        "key_terms": [
+          "thrombosis"
+        ],
+        "word_count": 32
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Genetic disease (inborn)"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Genetic disease (inborn)"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Blood disease",
+          "Genetic disease (inborn)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of gamma-carboxylated protein precursors from the endoplasmic reticulum to the Golgi apparatus",
+        "pathway_list": [
+          "Transport of gamma-carboxylated protein precursors from the endoplasmic reticulum to the Golgi apparatus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.932205",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

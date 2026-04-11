@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Immune system disease', 'Occupational disease', 'Respiratory tract disease']",
+    "export_timestamp": "2026-03-28T22:11:35.663835",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D059366",
+      "DiseaseName": "Asthma, Occupational",
+      "DiseaseDescription": "Asthma attacks caused, triggered, or exacerbated by OCCUPATIONAL EXPOSURE.",
+      "SlimMapping": "['Immune system disease', 'Occupational disease', 'Respiratory tract disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D059366",
+        "standardized_id": "MESH:D059366",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Asthma, Occupational",
+        "standardized_name": "Asthma, Occupational",
+        "normalized_name": "asthma occupational",
+        "synonyms": [],
+        "search_terms": [
+          "occupational",
+          "asthma,",
+          "asthma, occupational"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Asthma attacks caused, triggered, or exacerbated by OCCUPATIONAL EXPOSURE.",
+        "cleaned_description": "Asthma attacks caused, triggered, or exacerbated by OCCUPATIONAL EXPOSURE.",
+        "description_summary": "Asthma attacks caused, triggered, or exacerbated by OCCUPATIONAL EXPOSURE.",
+        "key_terms": [],
+        "word_count": 9
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease",
+          "Occupational disease",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Immune system disease",
+          "Occupational disease",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory",
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease",
+          "Occupational disease",
+          "Respiratory tract disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.378386",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

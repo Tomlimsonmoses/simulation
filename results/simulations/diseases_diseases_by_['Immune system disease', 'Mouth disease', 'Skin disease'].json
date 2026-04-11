@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Immune system disease', 'Mouth disease', 'Skin disease']",
+    "export_timestamp": "2026-03-28T22:11:36.309456",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D013262",
+      "DiseaseName": "Stevens-Johnson Syndrome",
+      "DiseaseDescription": "Rare cutaneous eruption characterized by extensive KERATINOCYTE apoptosis resulting in skin detachment with mucosal involvement. It is often provoked by the use of drugs (e.g., antibiotics and anticonvulsants) or associated with PNEUMONIA, MYCOPLASMA. It is considered a continuum of Toxic Epidermal Necrolysis.",
+      "SlimMapping": "['Immune system disease', 'Mouth disease', 'Skin disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013262",
+        "standardized_id": "MESH:D013262",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Stevens-Johnson Syndrome",
+        "standardized_name": "Stevens-Johnson Syndrome",
+        "normalized_name": "stevens-johnson syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "stevens-johnson syndrome",
+          "syndrome",
+          "stevens-johnson"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Rare cutaneous eruption characterized by extensive KERATINOCYTE apoptosis resulting in skin detachment with mucosal involvement. It is often provoked by the use of drugs (e.g., antibiotics and anticonvulsants) or associated with PNEUMONIA, MYCOPLASMA. It is considered a continuum of Toxic Epidermal Necrolysis.",
+        "cleaned_description": "Rare cutaneous eruption characterized by extensive KERATINOCYTE apoptosis resulting in skin detachment with mucosal involvement. It is often provoked by the use of drugs (e.g., antibiotics and anticonvulsants) or associated with PNEUMONIA, MYCOPLASMA. It is considered a continuum of Toxic Epidermal Necrolysis.",
+        "description_summary": "Rare cutaneous eruption characterized by extensive KERATINOCYTE apoptosis resulting in skin detachment with mucosal involvement.",
+        "key_terms": [
+          "apoptosis"
+        ],
+        "word_count": 42
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease",
+          "Mouth disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Immune system disease",
+          "Mouth disease",
+          "Skin disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease",
+          "Mouth disease",
+          "Skin disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.979042",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

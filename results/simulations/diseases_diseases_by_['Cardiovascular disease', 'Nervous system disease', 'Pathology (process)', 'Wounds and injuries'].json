@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cardiovascular disease', 'Nervous system disease', 'Pathology (process)', 'Wounds and injuries']",
+    "export_timestamp": "2026-03-28T22:11:36.041764",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D006408",
+      "DiseaseName": "Hematoma, Subdural",
+      "DiseaseDescription": "Accumulation of blood in the SUBDURAL SPACE between the DURA MATER and the arachnoidal layer of the MENINGES. This condition primarily occurs over the surface of a CEREBRAL HEMISPHERE, but may develop in the spinal canal (HEMATOMA, SUBDURAL, SPINAL). Subdural hematoma can be classified as the acute or the chronic form, with immediate or delayed symptom onset, respectively. Symptoms may include loss of consciousness, severe HEADACHE, and deteriorating mental status.",
+      "SlimMapping": "['Cardiovascular disease', 'Nervous system disease', 'Pathology (process)', 'Wounds and injuries']",
+      "PathwayNames": "Transcriptional misregulation in cancer",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006408",
+        "standardized_id": "MESH:D006408",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hematoma, Subdural",
+        "standardized_name": "Hematoma, Subdural",
+        "normalized_name": "hematoma subdural",
+        "synonyms": [],
+        "search_terms": [
+          "hematoma,",
+          "hematoma, subdural",
+          "subdural"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Accumulation of blood in the SUBDURAL SPACE between the DURA MATER and the arachnoidal layer of the MENINGES. This condition primarily occurs over the surface of a CEREBRAL HEMISPHERE, but may develop in the spinal canal (HEMATOMA, SUBDURAL, SPINAL). Subdural hematoma can be classified as the acute or the chronic form, with immediate or delayed symptom onset, respectively. Symptoms may include loss of consciousness, severe HEADACHE, and deteriorating mental status.",
+        "cleaned_description": "Accumulation of blood in the SUBDURAL SPACE between the DURA MATER and the arachnoidal layer of the MENINGES. This condition primarily occurs over the surface of a CEREBRAL HEMISPHERE, but may develop in the spinal canal (HEMATOMA, SUBDURAL, SPINAL). Subdural hematoma can be classified as the acute or the chronic form, with immediate or delayed symptom onset, respectively. Symptoms may include loss of consciousness, severe HEADACHE, and deteriorating mental status.",
+        "description_summary": "Accumulation of blood in the SUBDURAL SPACE between the DURA MATER and the arachnoidal layer of the MENINGES.",
+        "key_terms": [],
+        "word_count": 70
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease",
+          "Pathology (process)",
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease",
+          "Pathology (process)"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease",
+          "Pathology (process)",
+          "Wounds and injuries"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional misregulation in cancer",
+        "pathway_list": [
+          "Transcriptional misregulation in cancer"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional misregulation in cancer"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.642290",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020199",
+      "DiseaseName": "Hematoma, Subdural, Acute",
+      "DiseaseDescription": "Accumulation of blood in the SUBDURAL SPACE with acute onset of neurological symptoms. Symptoms may include loss of consciousness, severe HEADACHE, and deteriorating mental status.",
+      "SlimMapping": "['Cardiovascular disease', 'Nervous system disease', 'Pathology (process)', 'Wounds and injuries']",
+      "PathwayNames": "Transport of gamma-carboxylated protein precursors from the endoplasmic reticulum to the Golgi apparatus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020199",
+        "standardized_id": "MESH:D020199",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hematoma, Subdural, Acute",
+        "standardized_name": "Hematoma, Subdural, Acute",
+        "normalized_name": "hematoma subdural acute",
+        "synonyms": [],
+        "search_terms": [
+          "subdural,",
+          "hematoma,",
+          "hematoma, subdural, acute",
+          "acute"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Accumulation of blood in the SUBDURAL SPACE with acute onset of neurological symptoms. Symptoms may include loss of consciousness, severe HEADACHE, and deteriorating mental status.",
+        "cleaned_description": "Accumulation of blood in the SUBDURAL SPACE with acute onset of neurological symptoms. Symptoms may include loss of consciousness, severe HEADACHE, and deteriorating mental status.",
+        "description_summary": "Accumulation of blood in the SUBDURAL SPACE with acute onset of neurological symptoms.",
+        "key_terms": [],
+        "word_count": 25
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease",
+          "Pathology (process)",
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease",
+          "Pathology (process)"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease",
+          "Pathology (process)",
+          "Wounds and injuries"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of gamma-carboxylated protein precursors from the endoplasmic reticulum to the Golgi apparatus",
+        "pathway_list": [
+          "Transport of gamma-carboxylated protein precursors from the endoplasmic reticulum to the Golgi apparatus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.642682",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

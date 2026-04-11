@@ -1,0 +1,37 @@
+{
+  "type": "object",
+  "properties": {
+    "DiseaseID": {
+      "type": "string",
+      "description": "Unique disease identifier"
+    },
+    "DiseaseName": {
+      "type": "string",
+      "description": "Disease name"
+    },
+    "standardized_disease_id": {
+      "type": "object",
+      "description": "Standardized disease ID information"
+    },
+    "standardized_disease_name": {
+      "type": "object",
+      "description": "Standardized disease name information"
+    },
+    "processed_description": {
+      "type": "object",
+      "description": "Processed description information"
+    },
+    "processed_categories": {
+      "type": "object",
+      "description": "Processed category information"
+    },
+    "processed_pathways": {
+      "type": "object",
+      "description": "Processed pathway information"
+    }
+  },
+  "required": [
+    "DiseaseID",
+    "DiseaseName"
+  ]
+}

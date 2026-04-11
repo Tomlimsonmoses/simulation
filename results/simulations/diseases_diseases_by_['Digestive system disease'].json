@@ -1,0 +1,3075 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Digestive system disease']",
+    "export_timestamp": "2026-03-28T22:11:35.699095",
+    "total_records": 48
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D001649",
+      "DiseaseName": "Bile Duct Diseases",
+      "DiseaseDescription": "Diseases in any part of the ductal system of the BILIARY TRACT from the smallest BILE CANALICULI to the largest COMMON BILE DUCT.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "Porphyrin and chlorophyll metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001649",
+        "standardized_id": "MESH:D001649",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Bile Duct Diseases",
+        "standardized_name": "Bile Duct Diseases",
+        "normalized_name": "bile duct diseases",
+        "synonyms": [],
+        "search_terms": [
+          "duct",
+          "bile duct diseases",
+          "diseases",
+          "bile"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases in any part of the ductal system of the BILIARY TRACT from the smallest BILE CANALICULI to the largest COMMON BILE DUCT.",
+        "cleaned_description": "Diseases in any part of the ductal system of the BILIARY TRACT from the smallest BILE CANALICULI to the largest COMMON BILE DUCT.",
+        "description_summary": "Diseases in any part of the ductal system of the BILIARY TRACT from the smallest BILE CANALICULI to the largest COMMON BILE DUCT.",
+        "key_terms": [],
+        "word_count": 23
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Porphyrin and chlorophyll metabolism",
+        "pathway_list": [
+          "Porphyrin and chlorophyll metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.394221",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D056486",
+      "DiseaseName": "Chemical and Drug Induced Liver Injury",
+      "DiseaseDescription": "A spectrum of clinical liver diseases ranging from mild biochemical abnormalities to ACUTE LIVER FAILURE, caused by drugs, drug metabolites, herbal and dietary supplements and chemicals from the environment.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D056486",
+        "standardized_id": "MESH:D056486",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Chemical and Drug Induced Liver Injury",
+        "standardized_name": "Chemical and Drug Induced Liver Injury",
+        "normalized_name": "chemical and drug induced liver injury",
+        "synonyms": [],
+        "search_terms": [
+          "chemical and drug induced liver injury",
+          "chemical",
+          "injury",
+          "induced",
+          "and",
+          "liver",
+          "drug"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A spectrum of clinical liver diseases ranging from mild biochemical abnormalities to ACUTE LIVER FAILURE, caused by drugs, drug metabolites, herbal and dietary supplements and chemicals from the environment.",
+        "cleaned_description": "A spectrum of clinical liver diseases ranging from mild biochemical abnormalities to ACUTE LIVER FAILURE, caused by drugs, drug metabolites, herbal and dietary supplements and chemicals from the environment.",
+        "description_summary": "A spectrum of clinical liver diseases ranging from mild biochemical abnormalities to ACUTE LIVER FAILURE, caused by drugs, drug metabolites, herbal and dietary supplements and chemicals from the environment.",
+        "key_terms": [],
+        "word_count": 29
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.441373",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002761",
+      "DiseaseName": "Cholangitis",
+      "DiseaseDescription": "Inflammation of the biliary ductal system (BILE DUCTS); intrahepatic, extrahepatic, or both.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002761",
+        "standardized_id": "MESH:D002761",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cholangitis",
+        "standardized_name": "Cholangitis",
+        "normalized_name": "cholangitis",
+        "synonyms": [],
+        "search_terms": [
+          "cholangitis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inflammation of the biliary ductal system (BILE DUCTS); intrahepatic, extrahepatic, or both.",
+        "cleaned_description": "Inflammation of the biliary ductal system (BILE DUCTS); intrahepatic, extrahepatic, or both.",
+        "description_summary": "Inflammation of the biliary ductal system (BILE DUCTS); intrahepatic, extrahepatic, or both.",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.442144",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D015209",
+      "DiseaseName": "Cholangitis, Sclerosing",
+      "DiseaseDescription": "Chronic inflammatory disease of the BILIARY TRACT. It is characterized by fibrosis and hardening of the intrahepatic and extrahepatic biliary ductal systems leading to bile duct strictures, CHOLESTASIS, and eventual BILIARY CIRRHOSIS.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "Ub-specific processing proteases",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D015209",
+        "standardized_id": "MESH:D015209",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cholangitis, Sclerosing",
+        "standardized_name": "Cholangitis, Sclerosing",
+        "normalized_name": "cholangitis sclerosing",
+        "synonyms": [],
+        "search_terms": [
+          "cholangitis,",
+          "cholangitis, sclerosing",
+          "sclerosing"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Chronic inflammatory disease of the BILIARY TRACT. It is characterized by fibrosis and hardening of the intrahepatic and extrahepatic biliary ductal systems leading to bile duct strictures, CHOLESTASIS, and eventual BILIARY CIRRHOSIS.",
+        "cleaned_description": "Chronic inflammatory disease of the BILIARY TRACT. It is characterized by fibrosis and hardening of the intrahepatic and extrahepatic biliary ductal systems leading to bile duct strictures, CHOLESTASIS, and eventual BILIARY CIRRHOSIS.",
+        "description_summary": "Chronic inflammatory disease of the BILIARY TRACT.",
+        "key_terms": [
+          "fibrosis",
+          "CIRRHOSIS"
+        ],
+        "word_count": 32
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Ub-specific processing proteases",
+        "pathway_list": [
+          "Ub-specific processing proteases"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.442289",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D042883",
+      "DiseaseName": "Choledocholithiasis",
+      "DiseaseDescription": "Presence or formation of GALLSTONES in the COMMON BILE DUCT.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "Metabolism of amino acids and derivatives",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D042883",
+        "standardized_id": "MESH:D042883",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Choledocholithiasis",
+        "standardized_name": "Choledocholithiasis",
+        "normalized_name": "choledocholithiasis",
+        "synonyms": [],
+        "search_terms": [
+          "choledocholithiasis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Presence or formation of GALLSTONES in the COMMON BILE DUCT.",
+        "cleaned_description": "Presence or formation of GALLSTONES in the COMMON BILE DUCT.",
+        "description_summary": "Presence or formation of GALLSTONES in the COMMON BILE DUCT.",
+        "key_terms": [],
+        "word_count": 10
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Metabolism of amino acids and derivatives",
+        "pathway_list": [
+          "Metabolism of amino acids and derivatives"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.442366",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002769",
+      "DiseaseName": "Cholelithiasis",
+      "DiseaseDescription": "Presence or formation of GALLSTONES in the BILIARY TRACT, usually in the gallbladder (CHOLECYSTOLITHIASIS) or the common bile duct (CHOLEDOCHOLITHIASIS).",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "Metabolism of amino acids and derivatives",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002769",
+        "standardized_id": "MESH:D002769",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cholelithiasis",
+        "standardized_name": "Cholelithiasis",
+        "normalized_name": "cholelithiasis",
+        "synonyms": [],
+        "search_terms": [
+          "cholelithiasis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Presence or formation of GALLSTONES in the BILIARY TRACT, usually in the gallbladder (CHOLECYSTOLITHIASIS) or the common bile duct (CHOLEDOCHOLITHIASIS).",
+        "cleaned_description": "Presence or formation of GALLSTONES in the BILIARY TRACT, usually in the gallbladder (CHOLECYSTOLITHIASIS) or the common bile duct (CHOLEDOCHOLITHIASIS).",
+        "description_summary": "Presence or formation of GALLSTONES in the BILIARY TRACT, usually in the gallbladder (CHOLECYSTOLITHIASIS) or the common bile duct (CHOLEDOCHOLITHIASIS).",
+        "key_terms": [],
+        "word_count": 20
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Metabolism of amino acids and derivatives",
+        "pathway_list": [
+          "Metabolism of amino acids and derivatives"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.442463",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002779",
+      "DiseaseName": "Cholestasis",
+      "DiseaseDescription": "Impairment of bile flow due to obstruction in small bile ducts (INTRAHEPATIC CHOLESTASIS) or obstruction in large bile ducts (EXTRAHEPATIC CHOLESTASIS).",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002779",
+        "standardized_id": "MESH:D002779",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cholestasis",
+        "standardized_name": "Cholestasis",
+        "normalized_name": "cholestasis",
+        "synonyms": [],
+        "search_terms": [
+          "cholestasis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Impairment of bile flow due to obstruction in small bile ducts (INTRAHEPATIC CHOLESTASIS) or obstruction in large bile ducts (EXTRAHEPATIC CHOLESTASIS).",
+        "cleaned_description": "Impairment of bile flow due to obstruction in small bile ducts (INTRAHEPATIC CHOLESTASIS) or obstruction in large bile ducts (EXTRAHEPATIC CHOLESTASIS).",
+        "description_summary": "Impairment of bile flow due to obstruction in small bile ducts (INTRAHEPATIC CHOLESTASIS) or obstruction in large bile ducts (EXTRAHEPATIC CHOLESTASIS).",
+        "key_terms": [],
+        "word_count": 21
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.442579",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001651",
+      "DiseaseName": "Cholestasis, Extrahepatic",
+      "DiseaseDescription": "Impairment of bile flow in the large BILE DUCTS by mechanical obstruction or stricture due to benign or malignant processes.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001651",
+        "standardized_id": "MESH:D001651",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cholestasis, Extrahepatic",
+        "standardized_name": "Cholestasis, Extrahepatic",
+        "normalized_name": "cholestasis extrahepatic",
+        "synonyms": [],
+        "search_terms": [
+          "extrahepatic",
+          "cholestasis,",
+          "cholestasis, extrahepatic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Impairment of bile flow in the large BILE DUCTS by mechanical obstruction or stricture due to benign or malignant processes.",
+        "cleaned_description": "Impairment of bile flow in the large BILE DUCTS by mechanical obstruction or stricture due to benign or malignant processes.",
+        "description_summary": "Impairment of bile flow in the large BILE DUCTS by mechanical obstruction or stricture due to benign or malignant processes.",
+        "key_terms": [],
+        "word_count": 20
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.442675",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002780",
+      "DiseaseName": "Cholestasis, Intrahepatic",
+      "DiseaseDescription": "Impairment of bile flow due to injury to the HEPATOCYTES; BILE CANALICULI; or the intrahepatic bile ducts (BILE DUCTS, INTRAHEPATIC).",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "Vibrio cholerae infection",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002780",
+        "standardized_id": "MESH:D002780",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cholestasis, Intrahepatic",
+        "standardized_name": "Cholestasis, Intrahepatic",
+        "normalized_name": "cholestasis intrahepatic",
+        "synonyms": [],
+        "search_terms": [
+          "cholestasis, intrahepatic",
+          "cholestasis,",
+          "intrahepatic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Impairment of bile flow due to injury to the HEPATOCYTES; BILE CANALICULI; or the intrahepatic bile ducts (BILE DUCTS, INTRAHEPATIC).",
+        "cleaned_description": "Impairment of bile flow due to injury to the HEPATOCYTES; BILE CANALICULI; or the intrahepatic bile ducts (BILE DUCTS, INTRAHEPATIC).",
+        "description_summary": "Impairment of bile flow due to injury to the HEPATOCYTES; BILE CANALICULI; or the intrahepatic bile ducts (BILE DUCTS, INTRAHEPATIC).",
+        "key_terms": [],
+        "word_count": 20
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vibrio cholerae infection",
+        "pathway_list": [
+          "Vibrio cholerae infection"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.442766",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003092",
+      "DiseaseName": "Colitis",
+      "DiseaseDescription": "Inflammation of the COLON section of the large intestine (INTESTINE, LARGE), usually with symptoms such as DIARRHEA (often with blood and mucus), ABDOMINAL PAIN, and FEVER.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003092",
+        "standardized_id": "MESH:D003092",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Colitis",
+        "standardized_name": "Colitis",
+        "normalized_name": "colitis",
+        "synonyms": [],
+        "search_terms": [
+          "colitis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inflammation of the COLON section of the large intestine (INTESTINE, LARGE), usually with symptoms such as DIARRHEA (often with blood and mucus), ABDOMINAL PAIN, and FEVER.",
+        "cleaned_description": "Inflammation of the COLON section of the large intestine (INTESTINE, LARGE), usually with symptoms such as DIARRHEA (often with blood and mucus), ABDOMINAL PAIN, and FEVER.",
+        "description_summary": "Inflammation of the COLON section of the large intestine (INTESTINE, LARGE), usually with symptoms such as DIARRHEA (often with blood and mucus), ABDOMINAL PAIN, and FEVER.",
+        "key_terms": [],
+        "word_count": 26
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.447235",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003093",
+      "DiseaseName": "Colitis, Ulcerative",
+      "DiseaseDescription": "Inflammation of the COLON that is predominantly confined to the MUCOSA. Its major symptoms include DIARRHEA, rectal BLEEDING, the passage of MUCUS, and ABDOMINAL PAIN.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003093",
+        "standardized_id": "MESH:D003093",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Colitis, Ulcerative",
+        "standardized_name": "Colitis, Ulcerative",
+        "normalized_name": "colitis ulcerative",
+        "synonyms": [],
+        "search_terms": [
+          "colitis,",
+          "ulcerative",
+          "colitis, ulcerative"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inflammation of the COLON that is predominantly confined to the MUCOSA. Its major symptoms include DIARRHEA, rectal BLEEDING, the passage of MUCUS, and ABDOMINAL PAIN.",
+        "cleaned_description": "Inflammation of the COLON that is predominantly confined to the MUCOSA. Its major symptoms include DIARRHEA, rectal BLEEDING, the passage of MUCUS, and ABDOMINAL PAIN.",
+        "description_summary": "Inflammation of the COLON that is predominantly confined to the MUCOSA.",
+        "key_terms": [],
+        "word_count": 25
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.447446",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003424",
+      "DiseaseName": "Crohn Disease",
+      "DiseaseDescription": "A chronic transmural inflammation that may involve any part of the DIGESTIVE TRACT from MOUTH to ANUS, mostly found in the ILEUM, the CECUM, and the COLON. In Crohn disease, the inflammation, extending through the intestinal wall from the MUCOSA to the serosa, is characteristically asymmetric and segmental. Epithelioid GRANULOMAS may be seen in some patients.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003424",
+        "standardized_id": "MESH:D003424",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Crohn Disease",
+        "standardized_name": "Crohn Disease",
+        "normalized_name": "crohn disease",
+        "synonyms": [],
+        "search_terms": [
+          "crohn",
+          "crohn disease",
+          "disease"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A chronic transmural inflammation that may involve any part of the DIGESTIVE TRACT from MOUTH to ANUS, mostly found in the ILEUM, the CECUM, and the COLON. In Crohn disease, the inflammation, extending through the intestinal wall from the MUCOSA to the serosa, is characteristically asymmetric and segmental. Epithelioid GRANULOMAS may be seen in some patients.",
+        "cleaned_description": "A chronic transmural inflammation that may involve any part of the DIGESTIVE TRACT from MOUTH to ANUS, mostly found in the ILEUM, the CECUM, and the COLON. In Crohn disease, the inflammation, extending through the intestinal wall from the MUCOSA to the serosa, is characteristically asymmetric and segmental. Epithelioid GRANULOMAS may be seen in some patients.",
+        "description_summary": "A chronic transmural inflammation that may involve any part of the DIGESTIVE TRACT from MOUTH to ANUS, mostly found in the ILEUM, the CECUM, and the COLON.",
+        "key_terms": [],
+        "word_count": 56
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.464174",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004381",
+      "DiseaseName": "Duodenal Ulcer",
+      "DiseaseDescription": "A PEPTIC ULCER located in the DUODENUM.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004381",
+        "standardized_id": "MESH:D004381",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Duodenal Ulcer",
+        "standardized_name": "Duodenal Ulcer",
+        "normalized_name": "duodenal ulcer",
+        "synonyms": [],
+        "search_terms": [
+          "duodenal",
+          "ulcer",
+          "duodenal ulcer"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A PEPTIC ULCER located in the DUODENUM.",
+        "cleaned_description": "A PEPTIC ULCER located in the DUODENUM.",
+        "description_summary": "A PEPTIC ULCER located in the DUODENUM.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.486455",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D058625",
+      "DiseaseName": "End Stage Liver Disease",
+      "DiseaseDescription": "Final stage of a liver disease when the liver failure is irreversible and LIVER TRANSPLANTATION is needed.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "Tyrosine metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D058625",
+        "standardized_id": "MESH:D058625",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "End Stage Liver Disease",
+        "standardized_name": "End Stage Liver Disease",
+        "normalized_name": "end stage liver disease",
+        "synonyms": [],
+        "search_terms": [
+          "end stage liver disease",
+          "stage",
+          "end",
+          "liver",
+          "disease"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Final stage of a liver disease when the liver failure is irreversible and LIVER TRANSPLANTATION is needed.",
+        "cleaned_description": "Final stage of a liver disease when the liver failure is irreversible and LIVER TRANSPLANTATION is needed.",
+        "description_summary": "Final stage of a liver disease when the liver failure is irreversible and LIVER TRANSPLANTATION is needed.",
+        "key_terms": [],
+        "word_count": 17
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tyrosine metabolism",
+        "pathway_list": [
+          "Tyrosine metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.499410",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004751",
+      "DiseaseName": "Enteritis",
+      "DiseaseDescription": "Inflammation of any segment of the SMALL INTESTINE.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "TNFs bind their physiological receptors",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004751",
+        "standardized_id": "MESH:D004751",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Enteritis",
+        "standardized_name": "Enteritis",
+        "normalized_name": "enteritis",
+        "synonyms": [],
+        "search_terms": [
+          "enteritis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inflammation of any segment of the SMALL INTESTINE.",
+        "cleaned_description": "Inflammation of any segment of the SMALL INTESTINE.",
+        "description_summary": "Inflammation of any segment of the SMALL INTESTINE.",
+        "key_terms": [],
+        "word_count": 8
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "TNFs bind their physiological receptors",
+        "pathway_list": [
+          "TNFs bind their physiological receptors"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.499746",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004760",
+      "DiseaseName": "Enterocolitis",
+      "DiseaseDescription": "Inflammation of the MUCOSA of both the SMALL INTESTINE and the LARGE INTESTINE. Etiology includes ISCHEMIA, infections, allergic, and immune responses.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004760",
+        "standardized_id": "MESH:D004760",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Enterocolitis",
+        "standardized_name": "Enterocolitis",
+        "normalized_name": "enterocolitis",
+        "synonyms": [],
+        "search_terms": [
+          "enterocolitis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inflammation of the MUCOSA of both the SMALL INTESTINE and the LARGE INTESTINE. Etiology includes ISCHEMIA, infections, allergic, and immune responses.",
+        "cleaned_description": "Inflammation of the MUCOSA of both the SMALL INTESTINE and the LARGE INTESTINE. Etiology includes ISCHEMIA, infections, allergic, and immune responses.",
+        "description_summary": "Inflammation of the MUCOSA of both the SMALL INTESTINE and the LARGE INTESTINE.",
+        "key_terms": [
+          "ISCHEMIA"
+        ],
+        "word_count": 21
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.499918",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020345",
+      "DiseaseName": "Enterocolitis, Necrotizing",
+      "DiseaseDescription": "ENTEROCOLITIS with extensive ulceration (ULCER) and NECROSIS. It is observed primarily in LOW BIRTH WEIGHT INFANT.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "VEGF signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020345",
+        "standardized_id": "MESH:D020345",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Enterocolitis, Necrotizing",
+        "standardized_name": "Enterocolitis, Necrotizing",
+        "normalized_name": "enterocolitis necrotizing",
+        "synonyms": [],
+        "search_terms": [
+          "necrotizing",
+          "enterocolitis, necrotizing",
+          "enterocolitis,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "ENTEROCOLITIS with extensive ulceration (ULCER) and NECROSIS. It is observed primarily in LOW BIRTH WEIGHT INFANT.",
+        "cleaned_description": "ENTEROCOLITIS with extensive ulceration (ULCER) and NECROSIS. It is observed primarily in LOW BIRTH WEIGHT INFANT.",
+        "description_summary": "ENTEROCOLITIS with extensive ulceration (ULCER) and NECROSIS.",
+        "key_terms": [
+          "ENTEROCOLITIS",
+          "NECROSIS"
+        ],
+        "word_count": 16
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGF signaling pathway",
+        "pathway_list": [
+          "VEGF signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGF signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.500350",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004932",
+      "DiseaseName": "Esophageal and Gastric Varices",
+      "DiseaseDescription": "Dilated blood vessels in the ESOPHAGUS or GASTRIC FUNDUS that shunt blood from the portal circulation (PORTAL SYSTEM) to the systemic venous circulation. Often they are observed in individuals with portal hypertension (HYPERTENSION, PORTAL).",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004932",
+        "standardized_id": "MESH:D004932",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Esophageal and Gastric Varices",
+        "standardized_name": "Esophageal and Gastric Varices",
+        "normalized_name": "esophageal and gastric varices",
+        "synonyms": [],
+        "search_terms": [
+          "varices",
+          "esophageal",
+          "and",
+          "gastric",
+          "esophageal and gastric varices"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Dilated blood vessels in the ESOPHAGUS or GASTRIC FUNDUS that shunt blood from the portal circulation (PORTAL SYSTEM) to the systemic venous circulation. Often they are observed in individuals with portal hypertension (HYPERTENSION, PORTAL).",
+        "cleaned_description": "Dilated blood vessels in the ESOPHAGUS or GASTRIC FUNDUS that shunt blood from the portal circulation (PORTAL SYSTEM) to the systemic venous circulation. Often they are observed in individuals with portal hypertension (HYPERTENSION, PORTAL).",
+        "description_summary": "Dilated blood vessels in the ESOPHAGUS or GASTRIC FUNDUS that shunt blood from the portal circulation (PORTAL SYSTEM) to the systemic venous circulation.",
+        "key_terms": [],
+        "word_count": 34
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.511073",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004935",
+      "DiseaseName": "Esophageal Diseases",
+      "DiseaseDescription": "Pathological processes in the ESOPHAGUS.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "TRP channels",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004935",
+        "standardized_id": "MESH:D004935",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Esophageal Diseases",
+        "standardized_name": "Esophageal Diseases",
+        "normalized_name": "esophageal diseases",
+        "synonyms": [],
+        "search_terms": [
+          "esophageal diseases",
+          "esophageal",
+          "diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological processes in the ESOPHAGUS.",
+        "cleaned_description": "Pathological processes in the ESOPHAGUS.",
+        "description_summary": "Pathological processes in the ESOPHAGUS.",
+        "key_terms": [],
+        "word_count": 5
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "TRP channels",
+        "pathway_list": [
+          "TRP channels"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.511236",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004940",
+      "DiseaseName": "Esophageal Stenosis",
+      "DiseaseDescription": "A stricture of the ESOPHAGUS. Most are acquired but can be congenital.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "Peroxisome",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004940",
+        "standardized_id": "MESH:D004940",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Esophageal Stenosis",
+        "standardized_name": "Esophageal Stenosis",
+        "normalized_name": "esophageal stenosis",
+        "synonyms": [],
+        "search_terms": [
+          "esophageal",
+          "stenosis",
+          "esophageal stenosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A stricture of the ESOPHAGUS. Most are acquired but can be congenital.",
+        "cleaned_description": "A stricture of the ESOPHAGUS. Most are acquired but can be congenital.",
+        "description_summary": "A stricture of the ESOPHAGUS.",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Peroxisome",
+        "pathway_list": [
+          "Peroxisome"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.511891",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004941",
+      "DiseaseName": "Esophagitis",
+      "DiseaseDescription": "INFLAMMATION, acute or chronic, of the ESOPHAGUS caused by BACTERIA, chemicals, or TRAUMA.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "TRP channels",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004941",
+        "standardized_id": "MESH:D004941",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Esophagitis",
+        "standardized_name": "Esophagitis",
+        "normalized_name": "esophagitis",
+        "synonyms": [],
+        "search_terms": [
+          "esophagitis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "INFLAMMATION, acute or chronic, of the ESOPHAGUS caused by BACTERIA, chemicals, or TRAUMA.",
+        "cleaned_description": "INFLAMMATION, acute or chronic, of the ESOPHAGUS caused by BACTERIA, chemicals, or TRAUMA.",
+        "description_summary": "INFLAMMATION, acute or chronic, of the ESOPHAGUS caused by BACTERIA, chemicals, or TRAUMA.",
+        "key_terms": [],
+        "word_count": 13
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "TRP channels",
+        "pathway_list": [
+          "TRP channels"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.512071",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004942",
+      "DiseaseName": "Esophagitis, Peptic",
+      "DiseaseDescription": "INFLAMMATION of the ESOPHAGUS that is caused by the reflux of GASTRIC JUICE with contents of the STOMACH and DUODENUM.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "Unfolded Protein Response (UPR)",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004942",
+        "standardized_id": "MESH:D004942",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Esophagitis, Peptic",
+        "standardized_name": "Esophagitis, Peptic",
+        "normalized_name": "esophagitis peptic",
+        "synonyms": [],
+        "search_terms": [
+          "esophagitis,",
+          "peptic",
+          "esophagitis, peptic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "INFLAMMATION of the ESOPHAGUS that is caused by the reflux of GASTRIC JUICE with contents of the STOMACH and DUODENUM.",
+        "cleaned_description": "INFLAMMATION of the ESOPHAGUS that is caused by the reflux of GASTRIC JUICE with contents of the STOMACH and DUODENUM.",
+        "description_summary": "INFLAMMATION of the ESOPHAGUS that is caused by the reflux of GASTRIC JUICE with contents of the STOMACH and DUODENUM.",
+        "key_terms": [],
+        "word_count": 20
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Unfolded Protein Response (UPR)",
+        "pathway_list": [
+          "Unfolded Protein Response (UPR)"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.512268",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005234",
+      "DiseaseName": "Fatty Liver",
+      "DiseaseDescription": "Lipid infiltration of the hepatic parenchymal cells resulting in a yellow-colored liver. The abnormal lipid accumulation is usually in the form of TRIGLYCERIDES, either as a single large droplet or multiple small droplets. Fatty liver is caused by an imbalance in the metabolism of FATTY ACIDS.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005234",
+        "standardized_id": "MESH:D005234",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Fatty Liver",
+        "standardized_name": "Fatty Liver",
+        "normalized_name": "fatty liver",
+        "synonyms": [],
+        "search_terms": [
+          "fatty",
+          "fatty liver",
+          "liver"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Lipid infiltration of the hepatic parenchymal cells resulting in a yellow-colored liver. The abnormal lipid accumulation is usually in the form of TRIGLYCERIDES, either as a single large droplet or multiple small droplets. Fatty liver is caused by an imbalance in the metabolism of FATTY ACIDS.",
+        "cleaned_description": "Lipid infiltration of the hepatic parenchymal cells resulting in a yellow-colored liver. The abnormal lipid accumulation is usually in the form of TRIGLYCERIDES, either as a single large droplet or multiple small droplets. Fatty liver is caused by an imbalance in the metabolism of FATTY ACIDS.",
+        "description_summary": "Lipid infiltration of the hepatic parenchymal cells resulting in a yellow-colored liver.",
+        "key_terms": [],
+        "word_count": 46
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.521772",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005759",
+      "DiseaseName": "Gastroenteritis",
+      "DiseaseDescription": "INFLAMMATION of any segment of the GASTROINTESTINAL TRACT from ESOPHAGUS to RECTUM. Causes of gastroenteritis are many including genetic, infection, HYPERSENSITIVITY, drug effects, and CANCER.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005759",
+        "standardized_id": "MESH:D005759",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Gastroenteritis",
+        "standardized_name": "Gastroenteritis",
+        "normalized_name": "gastroenteritis",
+        "synonyms": [],
+        "search_terms": [
+          "gastroenteritis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "INFLAMMATION of any segment of the GASTROINTESTINAL TRACT from ESOPHAGUS to RECTUM. Causes of gastroenteritis are many including genetic, infection, HYPERSENSITIVITY, drug effects, and CANCER.",
+        "cleaned_description": "INFLAMMATION of any segment of the GASTROINTESTINAL TRACT from ESOPHAGUS to RECTUM. Causes of gastroenteritis are many including genetic, infection, HYPERSENSITIVITY, drug effects, and CANCER.",
+        "description_summary": "INFLAMMATION of any segment of the GASTROINTESTINAL TRACT from ESOPHAGUS to RECTUM.",
+        "key_terms": [
+          "gastroenteritis"
+        ],
+        "word_count": 25
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.532882",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005764",
+      "DiseaseName": "Gastroesophageal Reflux",
+      "DiseaseDescription": "Retrograde flow of gastric juice (GASTRIC ACID) and/or duodenal contents (BILE ACIDS; PANCREATIC JUICE) into the distal ESOPHAGUS, commonly due to incompetence of the LOWER ESOPHAGEAL SPHINCTER.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "VEGF signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005764",
+        "standardized_id": "MESH:D005764",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Gastroesophageal Reflux",
+        "standardized_name": "Gastroesophageal Reflux",
+        "normalized_name": "gastroesophageal reflux",
+        "synonyms": [],
+        "search_terms": [
+          "gastroesophageal reflux",
+          "reflux",
+          "gastroesophageal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Retrograde flow of gastric juice (GASTRIC ACID) and/or duodenal contents (BILE ACIDS; PANCREATIC JUICE) into the distal ESOPHAGUS, commonly due to incompetence of the LOWER ESOPHAGEAL SPHINCTER.",
+        "cleaned_description": "Retrograde flow of gastric juice (GASTRIC ACID) and/or duodenal contents (BILE ACIDS; PANCREATIC JUICE) into the distal ESOPHAGUS, commonly due to incompetence of the LOWER ESOPHAGEAL SPHINCTER.",
+        "description_summary": "Retrograde flow of gastric juice (GASTRIC ACID) and/or duodenal contents (BILE ACIDS; PANCREATIC JUICE) into the distal ESOPHAGUS, commonly due to incompetence of the LOWER ESOPHAGEAL SPHINCTER.",
+        "key_terms": [],
+        "word_count": 27
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGF signaling pathway",
+        "pathway_list": [
+          "VEGF signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGF signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.533318",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005767",
+      "DiseaseName": "Gastrointestinal Diseases",
+      "DiseaseDescription": "Diseases in any segment of the GASTROINTESTINAL TRACT from ESOPHAGUS to RECTUM.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005767",
+        "standardized_id": "MESH:D005767",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Gastrointestinal Diseases",
+        "standardized_name": "Gastrointestinal Diseases",
+        "normalized_name": "gastrointestinal diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "gastrointestinal diseases",
+          "gastrointestinal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases in any segment of the GASTROINTESTINAL TRACT from ESOPHAGUS to RECTUM.",
+        "cleaned_description": "Diseases in any segment of the GASTROINTESTINAL TRACT from ESOPHAGUS to RECTUM.",
+        "description_summary": "Diseases in any segment of the GASTROINTESTINAL TRACT from ESOPHAGUS to RECTUM.",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.533501",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D048550",
+      "DiseaseName": "Hepatic Insufficiency",
+      "DiseaseDescription": "Conditions in which the LIVER functions fall below the normal ranges. Severe hepatic insufficiency may cause LIVER FAILURE or DEATH. Treatment may include LIVER TRANSPLANTATION.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D048550",
+        "standardized_id": "MESH:D048550",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hepatic Insufficiency",
+        "standardized_name": "Hepatic Insufficiency",
+        "normalized_name": "hepatic insufficiency",
+        "synonyms": [],
+        "search_terms": [
+          "insufficiency",
+          "hepatic insufficiency",
+          "hepatic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Conditions in which the LIVER functions fall below the normal ranges. Severe hepatic insufficiency may cause LIVER FAILURE or DEATH. Treatment may include LIVER TRANSPLANTATION.",
+        "cleaned_description": "Conditions in which the LIVER functions fall below the normal ranges. Severe hepatic insufficiency may cause LIVER FAILURE or DEATH. Treatment may include LIVER TRANSPLANTATION.",
+        "description_summary": "Conditions in which the LIVER functions fall below the normal ranges.",
+        "key_terms": [],
+        "word_count": 25
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.645713",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006505",
+      "DiseaseName": "Hepatitis",
+      "DiseaseDescription": "INFLAMMATION of the LIVER.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "Vitamin B5 (pantothenate) metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006505",
+        "standardized_id": "MESH:D006505",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hepatitis",
+        "standardized_name": "Hepatitis",
+        "normalized_name": "hepatitis",
+        "synonyms": [],
+        "search_terms": [
+          "hepatitis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "INFLAMMATION of the LIVER.",
+        "cleaned_description": "INFLAMMATION of the LIVER.",
+        "description_summary": "INFLAMMATION of the LIVER.",
+        "key_terms": [],
+        "word_count": 4
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamin B5 (pantothenate) metabolism",
+        "pathway_list": [
+          "Vitamin B5 (pantothenate) metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.648648",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": [
+            "Very short or missing description"
+          ]
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006975",
+      "DiseaseName": "Hypertension, Portal",
+      "DiseaseDescription": "Abnormal increase of resistance to blood flow within the hepatic PORTAL SYSTEM, frequently seen in LIVER CIRRHOSIS and conditions with obstruction of the PORTAL VEIN.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006975",
+        "standardized_id": "MESH:D006975",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypertension, Portal",
+        "standardized_name": "Hypertension, Portal",
+        "normalized_name": "hypertension portal",
+        "synonyms": [],
+        "search_terms": [
+          "hypertension,",
+          "hypertension, portal",
+          "portal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormal increase of resistance to blood flow within the hepatic PORTAL SYSTEM, frequently seen in LIVER CIRRHOSIS and conditions with obstruction of the PORTAL VEIN.",
+        "cleaned_description": "Abnormal increase of resistance to blood flow within the hepatic PORTAL SYSTEM, frequently seen in LIVER CIRRHOSIS and conditions with obstruction of the PORTAL VEIN.",
+        "description_summary": "Abnormal increase of resistance to blood flow within the hepatic PORTAL SYSTEM, frequently seen in LIVER CIRRHOSIS and conditions with obstruction of the PORTAL VEIN.",
+        "key_terms": [
+          "CIRRHOSIS"
+        ],
+        "word_count": 25
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.766972",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007079",
+      "DiseaseName": "Ileitis",
+      "DiseaseDescription": "Inflammation of any segment of the ILEUM and the ILEOCECAL VALVE.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007079",
+        "standardized_id": "MESH:D007079",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Ileitis",
+        "standardized_name": "Ileitis",
+        "normalized_name": "ileitis",
+        "synonyms": [],
+        "search_terms": [
+          "ileitis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inflammation of any segment of the ILEUM and the ILEOCECAL VALVE.",
+        "cleaned_description": "Inflammation of any segment of the ILEUM and the ILEOCECAL VALVE.",
+        "description_summary": "Inflammation of any segment of the ILEUM and the ILEOCECAL VALVE.",
+        "key_terms": [],
+        "word_count": 11
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.782409",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D015212",
+      "DiseaseName": "Inflammatory Bowel Diseases",
+      "DiseaseDescription": "Chronic, non-specific inflammation of the GASTROINTESTINAL TRACT. Etiology may be genetic or environmental. This term includes CROHN DISEASE and ULCERATIVE COLITIS.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D015212",
+        "standardized_id": "MESH:D015212",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Inflammatory Bowel Diseases",
+        "standardized_name": "Inflammatory Bowel Diseases",
+        "normalized_name": "inflammatory bowel diseases",
+        "synonyms": [],
+        "search_terms": [
+          "bowel",
+          "inflammatory bowel diseases",
+          "inflammatory",
+          "diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Chronic, non-specific inflammation of the GASTROINTESTINAL TRACT. Etiology may be genetic or environmental. This term includes CROHN DISEASE and ULCERATIVE COLITIS.",
+        "cleaned_description": "Chronic, non-specific inflammation of the GASTROINTESTINAL TRACT. Etiology may be genetic or environmental. This term includes CROHN DISEASE and ULCERATIVE COLITIS.",
+        "description_summary": "Chronic, non-specific inflammation of the GASTROINTESTINAL TRACT.",
+        "key_terms": [
+          "COLITIS"
+        ],
+        "word_count": 21
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.787947",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007410",
+      "DiseaseName": "Intestinal Diseases",
+      "DiseaseDescription": "Pathological processes in any segment of the INTESTINE from DUODENUM to RECTUM.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "Vasopressin regulates renal water homeostasis via Aquaporins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007410",
+        "standardized_id": "MESH:D007410",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Intestinal Diseases",
+        "standardized_name": "Intestinal Diseases",
+        "normalized_name": "intestinal diseases",
+        "synonyms": [],
+        "search_terms": [
+          "intestinal",
+          "intestinal diseases",
+          "diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological processes in any segment of the INTESTINE from DUODENUM to RECTUM.",
+        "cleaned_description": "Pathological processes in any segment of the INTESTINE from DUODENUM to RECTUM.",
+        "description_summary": "Pathological processes in any segment of the INTESTINE from DUODENUM to RECTUM.",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vasopressin regulates renal water homeostasis via Aquaporins",
+        "pathway_list": [
+          "Vasopressin regulates renal water homeostasis via Aquaporins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.789869",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007415",
+      "DiseaseName": "Intestinal Obstruction",
+      "DiseaseDescription": "Any impairment, arrest, or reversal of the normal flow of INTESTINAL CONTENTS toward the ANAL CANAL.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "Transport of inorganic cations/anions and amino acids/oligopeptides",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007415",
+        "standardized_id": "MESH:D007415",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Intestinal Obstruction",
+        "standardized_name": "Intestinal Obstruction",
+        "normalized_name": "intestinal obstruction",
+        "synonyms": [],
+        "search_terms": [
+          "intestinal obstruction",
+          "intestinal",
+          "obstruction"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Any impairment, arrest, or reversal of the normal flow of INTESTINAL CONTENTS toward the ANAL CANAL.",
+        "cleaned_description": "Any impairment, arrest, or reversal of the normal flow of INTESTINAL CONTENTS toward the ANAL CANAL.",
+        "description_summary": "Any impairment, arrest, or reversal of the normal flow of INTESTINAL CONTENTS toward the ANAL CANAL.",
+        "key_terms": [],
+        "word_count": 16
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of inorganic cations/anions and amino acids/oligopeptides",
+        "pathway_list": [
+          "Transport of inorganic cations/anions and amino acids/oligopeptides"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.790211",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007416",
+      "DiseaseName": "Intestinal Perforation",
+      "DiseaseDescription": "Opening or penetration through the wall of the INTESTINES.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "VEGF signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007416",
+        "standardized_id": "MESH:D007416",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Intestinal Perforation",
+        "standardized_name": "Intestinal Perforation",
+        "normalized_name": "intestinal perforation",
+        "synonyms": [],
+        "search_terms": [
+          "perforation",
+          "intestinal",
+          "intestinal perforation"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Opening or penetration through the wall of the INTESTINES.",
+        "cleaned_description": "Opening or penetration through the wall of the INTESTINES.",
+        "description_summary": "Opening or penetration through the wall of the INTESTINES.",
+        "key_terms": [],
+        "word_count": 9
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGF signaling pathway",
+        "pathway_list": [
+          "VEGF signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGF signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.790355",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D044483",
+      "DiseaseName": "Intestinal Polyposis",
+      "DiseaseDescription": "The growth of INTESTINAL POLYPS. Growth processes include neoplastic (ADENOMA and CARCINOMA) and non-neoplastic (hyperplastic, mucosal, inflammatory, and other polyps).",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "Transcriptional Regulation by TP53",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D044483",
+        "standardized_id": "MESH:D044483",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Intestinal Polyposis",
+        "standardized_name": "Intestinal Polyposis",
+        "normalized_name": "intestinal polyposis",
+        "synonyms": [],
+        "search_terms": [
+          "polyposis",
+          "intestinal polyposis",
+          "intestinal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The growth of INTESTINAL POLYPS. Growth processes include neoplastic (ADENOMA and CARCINOMA) and non-neoplastic (hyperplastic, mucosal, inflammatory, and other polyps).",
+        "cleaned_description": "The growth of INTESTINAL POLYPS. Growth processes include neoplastic (ADENOMA and CARCINOMA) and non-neoplastic (hyperplastic, mucosal, inflammatory, and other polyps).",
+        "description_summary": "The growth of INTESTINAL POLYPS.",
+        "key_terms": [],
+        "word_count": 20
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional Regulation by TP53",
+        "pathway_list": [
+          "Transcriptional Regulation by TP53"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional Regulation by TP53"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.790554",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D043183",
+      "DiseaseName": "Irritable Bowel Syndrome",
+      "DiseaseDescription": "A disorder with chronic or recurrent colonic symptoms without a clearcut etiology. This condition is characterized by chronic or recurrent ABDOMINAL PAIN, bloating, MUCUS in FECES, and an erratic disturbance of DEFECATION.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D043183",
+        "standardized_id": "MESH:D043183",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Irritable Bowel Syndrome",
+        "standardized_name": "Irritable Bowel Syndrome",
+        "normalized_name": "irritable bowel syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "irritable",
+          "irritable bowel syndrome",
+          "bowel",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A disorder with chronic or recurrent colonic symptoms without a clearcut etiology. This condition is characterized by chronic or recurrent ABDOMINAL PAIN, bloating, MUCUS in FECES, and an erratic disturbance of DEFECATION.",
+        "cleaned_description": "A disorder with chronic or recurrent colonic symptoms without a clearcut etiology. This condition is characterized by chronic or recurrent ABDOMINAL PAIN, bloating, MUCUS in FECES, and an erratic disturbance of DEFECATION.",
+        "description_summary": "A disorder with chronic or recurrent colonic symptoms without a clearcut etiology.",
+        "key_terms": [],
+        "word_count": 32
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.793600",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008107",
+      "DiseaseName": "Liver Diseases",
+      "DiseaseDescription": "Pathological processes of the LIVER.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008107",
+        "standardized_id": "MESH:D008107",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Liver Diseases",
+        "standardized_name": "Liver Diseases",
+        "normalized_name": "liver diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "liver diseases",
+          "liver"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological processes of the LIVER.",
+        "cleaned_description": "Pathological processes of the LIVER.",
+        "description_summary": "Pathological processes of the LIVER.",
+        "key_terms": [],
+        "word_count": 5
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.820760",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D017093",
+      "DiseaseName": "Liver Failure",
+      "DiseaseDescription": "Severe inability of the LIVER to perform its normal metabolic functions, as evidenced by severe JAUNDICE and abnormal serum levels of AMMONIA; BILIRUBIN; ALKALINE PHOSPHATASE; ASPARTATE AMINOTRANSFERASE; LACTATE DEHYDROGENASES; and albumin/globulin ratio. (Blakiston's Gould Medical Dictionary, 4th ed)",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "VEGF signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017093",
+        "standardized_id": "MESH:D017093",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Liver Failure",
+        "standardized_name": "Liver Failure",
+        "normalized_name": "liver failure",
+        "synonyms": [],
+        "search_terms": [
+          "liver failure",
+          "failure",
+          "liver"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Severe inability of the LIVER to perform its normal metabolic functions, as evidenced by severe JAUNDICE and abnormal serum levels of AMMONIA; BILIRUBIN; ALKALINE PHOSPHATASE; ASPARTATE AMINOTRANSFERASE; LACTATE DEHYDROGENASES; and albumin/globulin ratio. (Blakiston's Gould Medical Dictionary, 4th ed)",
+        "cleaned_description": "Severe inability of the LIVER to perform its normal metabolic functions, as evidenced by severe JAUNDICE and abnormal serum levels of AMMONIA; BILIRUBIN; ALKALINE PHOSPHATASE; ASPARTATE AMINOTRANSFERASE; LACTATE DEHYDROGENASES; and albumin/globulin ratio. (Blakiston's Gould Medical Dictionary, 4th ed)",
+        "description_summary": "Severe inability of the LIVER to perform its normal metabolic functions, as evidenced by severe JAUNDICE and abnormal serum levels of AMMONIA; BILIRUBIN; ALKALINE PHOSPHATASE; ASPARTATE AMINOTRANSFERASE; LACTATE DEHYDROGENASES; and albumin/globulin ratio.",
+        "key_terms": [],
+        "word_count": 38
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGF signaling pathway",
+        "pathway_list": [
+          "VEGF signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGF signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.821271",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D017114",
+      "DiseaseName": "Liver Failure, Acute",
+      "DiseaseDescription": "A form of rapid-onset LIVER FAILURE, also known as fulminant hepatic failure, caused by severe liver injury or massive loss of HEPATOCYTES. It is characterized by sudden development of liver dysfunction and JAUNDICE. Acute liver failure may progress to exhibit cerebral dysfunction even HEPATIC COMA depending on the etiology that includes hepatic ISCHEMIA, drug toxicity, malignant infiltration, and viral hepatitis such as post-transfusion HEPATITIS B and HEPATITIS C.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017114",
+        "standardized_id": "MESH:D017114",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Liver Failure, Acute",
+        "standardized_name": "Liver Failure, Acute",
+        "normalized_name": "liver failure acute",
+        "synonyms": [],
+        "search_terms": [
+          "acute",
+          "liver failure, acute",
+          "failure,",
+          "liver"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A form of rapid-onset LIVER FAILURE, also known as fulminant hepatic failure, caused by severe liver injury or massive loss of HEPATOCYTES. It is characterized by sudden development of liver dysfunction and JAUNDICE. Acute liver failure may progress to exhibit cerebral dysfunction even HEPATIC COMA depending on the etiology that includes hepatic ISCHEMIA, drug toxicity, malignant infiltration, and viral hepatitis such as post-transfusion HEPATITIS B and HEPATITIS C.",
+        "cleaned_description": "A form of rapid-onset LIVER FAILURE, also known as fulminant hepatic failure, caused by severe liver injury or massive loss of HEPATOCYTES. It is characterized by sudden development of liver dysfunction and JAUNDICE. Acute liver failure may progress to exhibit cerebral dysfunction even HEPATIC COMA depending on the etiology that includes hepatic ISCHEMIA, drug toxicity, malignant infiltration, and viral hepatitis such as post-transfusion HEPATITIS B and HEPATITIS C.",
+        "description_summary": "A form of rapid-onset LIVER FAILURE, also known as fulminant hepatic failure, caused by severe liver injury or massive loss of HEPATOCYTES.",
+        "key_terms": [
+          "hepatitis",
+          "ISCHEMIA",
+          "HEPATITIS"
+        ],
+        "word_count": 68
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.821644",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D047508",
+      "DiseaseName": "Massive Hepatic Necrosis",
+      "DiseaseDescription": "Extensive and rapid death of parenchymal cells in the LIVER, often due to exposure to toxic materials or drug-induced injury. It is characterized by a soft, flabby, yellow-brown wrinkled, and shrunken liver. It was called 'acute yellow atrophy'.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "Transmission across Electrical Synapses",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D047508",
+        "standardized_id": "MESH:D047508",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Massive Hepatic Necrosis",
+        "standardized_name": "Massive Hepatic Necrosis",
+        "normalized_name": "massive hepatic necrosis",
+        "synonyms": [],
+        "search_terms": [
+          "necrosis",
+          "massive hepatic necrosis",
+          "massive",
+          "hepatic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Extensive and rapid death of parenchymal cells in the LIVER, often due to exposure to toxic materials or drug-induced injury. It is characterized by a soft, flabby, yellow-brown wrinkled, and shrunken liver. It was called 'acute yellow atrophy'.",
+        "cleaned_description": "Extensive and rapid death of parenchymal cells in the LIVER, often due to exposure to toxic materials or drug-induced injury. It is characterized by a soft, flabby, yellow-brown wrinkled, and shrunken liver. It was called 'acute yellow atrophy'.",
+        "description_summary": "Extensive and rapid death of parenchymal cells in the LIVER, often due to exposure to toxic materials or drug-induced injury.",
+        "key_terms": [],
+        "word_count": 38
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmission across Electrical Synapses",
+        "pathway_list": [
+          "Transmission across Electrical Synapses"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.838021",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D065626",
+      "DiseaseName": "Non-alcoholic Fatty Liver Disease",
+      "DiseaseDescription": "Fatty liver finding without excessive ALCOHOL CONSUMPTION.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D065626",
+        "standardized_id": "MESH:D065626",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Non-alcoholic Fatty Liver Disease",
+        "standardized_name": "Non-alcoholic Fatty Liver Disease",
+        "normalized_name": "non-alcoholic fatty liver disease",
+        "synonyms": [],
+        "search_terms": [
+          "liver",
+          "fatty",
+          "non-alcoholic",
+          "disease",
+          "non-alcoholic fatty liver disease"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Fatty liver finding without excessive ALCOHOL CONSUMPTION.",
+        "cleaned_description": "Fatty liver finding without excessive ALCOHOL CONSUMPTION.",
+        "description_summary": "Fatty liver finding without excessive ALCOHOL CONSUMPTION.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.888450",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010182",
+      "DiseaseName": "Pancreatic Diseases",
+      "DiseaseDescription": "Pathological processes of the PANCREAS.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010182",
+        "standardized_id": "MESH:D010182",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pancreatic Diseases",
+        "standardized_name": "Pancreatic Diseases",
+        "normalized_name": "pancreatic diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "pancreatic",
+          "pancreatic diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological processes of the PANCREAS.",
+        "cleaned_description": "Pathological processes of the PANCREAS.",
+        "description_summary": "Pathological processes of the PANCREAS.",
+        "key_terms": [],
+        "word_count": 5
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.903748",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010195",
+      "DiseaseName": "Pancreatitis",
+      "DiseaseDescription": "INFLAMMATION of the PANCREAS. Pancreatitis is classified as acute unless there are computed tomographic or endoscopic retrograde cholangiopancreatographic findings of CHRONIC PANCREATITIS (International Symposium on Acute Pancreatitis, Atlanta, 1992). The two most common forms of acute pancreatitis are ALCOHOLIC PANCREATITIS and gallstone pancreatitis.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010195",
+        "standardized_id": "MESH:D010195",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pancreatitis",
+        "standardized_name": "Pancreatitis",
+        "normalized_name": "pancreatitis",
+        "synonyms": [],
+        "search_terms": [
+          "pancreatitis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "INFLAMMATION of the PANCREAS. Pancreatitis is classified as acute unless there are computed tomographic or endoscopic retrograde cholangiopancreatographic findings of CHRONIC PANCREATITIS (International Symposium on Acute Pancreatitis, Atlanta, 1992). The two most common forms of acute pancreatitis are ALCOHOLIC PANCREATITIS and gallstone pancreatitis.",
+        "cleaned_description": "INFLAMMATION of the PANCREAS. Pancreatitis is classified as acute unless there are computed tomographic or endoscopic retrograde cholangiopancreatographic findings of CHRONIC PANCREATITIS (International Symposium on Acute Pancreatitis, Atlanta, 1992). The two most common forms of acute pancreatitis are ALCOHOLIC PANCREATITIS and gallstone pancreatitis.",
+        "description_summary": "INFLAMMATION of the PANCREAS.",
+        "key_terms": [
+          "Pancreatitis",
+          "pancreatitis",
+          "PANCREATITIS"
+        ],
+        "word_count": 43
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.904577",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D019283",
+      "DiseaseName": "Pancreatitis, Acute Necrotizing",
+      "DiseaseDescription": "A severe form of acute INFLAMMATION of the PANCREAS characterized by one or more areas of NECROSIS in the pancreas with varying degree of involvement of the surrounding tissues or organ systems. Massive pancreatic necrosis may lead to DIABETES MELLITUS, and malabsorption.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D019283",
+        "standardized_id": "MESH:D019283",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pancreatitis, Acute Necrotizing",
+        "standardized_name": "Pancreatitis, Acute Necrotizing",
+        "normalized_name": "pancreatitis acute necrotizing",
+        "synonyms": [],
+        "search_terms": [
+          "necrotizing",
+          "pancreatitis, acute necrotizing",
+          "pancreatitis,",
+          "acute"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A severe form of acute INFLAMMATION of the PANCREAS characterized by one or more areas of NECROSIS in the pancreas with varying degree of involvement of the surrounding tissues or organ systems. Massive pancreatic necrosis may lead to DIABETES MELLITUS, and malabsorption.",
+        "cleaned_description": "A severe form of acute INFLAMMATION of the PANCREAS characterized by one or more areas of NECROSIS in the pancreas with varying degree of involvement of the surrounding tissues or organ systems. Massive pancreatic necrosis may lead to DIABETES MELLITUS, and malabsorption.",
+        "description_summary": "A severe form of acute INFLAMMATION of the PANCREAS characterized by one or more areas of NECROSIS in the pancreas with varying degree of involvement of the surrounding tissues or organ systems.",
+        "key_terms": [
+          "necrosis",
+          "NECROSIS"
+        ],
+        "word_count": 42
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.904885",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010437",
+      "DiseaseName": "Peptic Ulcer",
+      "DiseaseDescription": "Ulcer that occurs in the regions of the GASTROINTESTINAL TRACT which come into contact with GASTRIC JUICE containing PEPSIN and GASTRIC ACID. It occurs when there are defects in the MUCOSA barrier. The common forms of peptic ulcers are associated with HELICOBACTER PYLORI and the consumption of nonsteroidal anti-inflammatory drugs (NSAIDS).",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "Type I diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010437",
+        "standardized_id": "MESH:D010437",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Peptic Ulcer",
+        "standardized_name": "Peptic Ulcer",
+        "normalized_name": "peptic ulcer",
+        "synonyms": [],
+        "search_terms": [
+          "peptic ulcer",
+          "ulcer",
+          "peptic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Ulcer that occurs in the regions of the GASTROINTESTINAL TRACT which come into contact with GASTRIC JUICE containing PEPSIN and GASTRIC ACID. It occurs when there are defects in the MUCOSA barrier. The common forms of peptic ulcers are associated with HELICOBACTER PYLORI and the consumption of nonsteroidal anti-inflammatory drugs (NSAIDS).",
+        "cleaned_description": "Ulcer that occurs in the regions of the GASTROINTESTINAL TRACT which come into contact with GASTRIC JUICE containing PEPSIN and GASTRIC ACID. It occurs when there are defects in the MUCOSA barrier. The common forms of peptic ulcers are associated with HELICOBACTER PYLORI and the consumption of nonsteroidal anti-inflammatory drugs (NSAIDS).",
+        "description_summary": "Ulcer that occurs in the regions of the GASTROINTESTINAL TRACT which come into contact with GASTRIC JUICE containing PEPSIN and GASTRIC ACID.",
+        "key_terms": [],
+        "word_count": 51
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type I diabetes mellitus",
+        "pathway_list": [
+          "Type I diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.913086",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010538",
+      "DiseaseName": "Peritonitis",
+      "DiseaseDescription": "INFLAMMATION of the PERITONEUM lining the ABDOMINAL CAVITY as the result of infectious, autoimmune, or chemical processes. Primary peritonitis is due to infection of the PERITONEAL CAVITY via hematogenous or lymphatic spread and without intra-abdominal source. Secondary peritonitis arises from the ABDOMINAL CAVITY itself through RUPTURE or ABSCESS of intra-abdominal organs.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010538",
+        "standardized_id": "MESH:D010538",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Peritonitis",
+        "standardized_name": "Peritonitis",
+        "normalized_name": "peritonitis",
+        "synonyms": [],
+        "search_terms": [
+          "peritonitis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "INFLAMMATION of the PERITONEUM lining the ABDOMINAL CAVITY as the result of infectious, autoimmune, or chemical processes. Primary peritonitis is due to infection of the PERITONEAL CAVITY via hematogenous or lymphatic spread and without intra-abdominal source. Secondary peritonitis arises from the ABDOMINAL CAVITY itself through RUPTURE or ABSCESS of intra-abdominal organs.",
+        "cleaned_description": "INFLAMMATION of the PERITONEUM lining the ABDOMINAL CAVITY as the result of infectious, autoimmune, or chemical processes. Primary peritonitis is due to infection of the PERITONEAL CAVITY via hematogenous or lymphatic spread and without intra-abdominal source. Secondary peritonitis arises from the ABDOMINAL CAVITY itself through RUPTURE or ABSCESS of intra-abdominal organs.",
+        "description_summary": "INFLAMMATION of the PERITONEUM lining the ABDOMINAL CAVITY as the result of infectious, autoimmune, or chemical processes.",
+        "key_terms": [
+          "peritonitis"
+        ],
+        "word_count": 51
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.914319",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013272",
+      "DiseaseName": "Stomach Diseases",
+      "DiseaseDescription": "Pathological processes involving the STOMACH.",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "Synthesis, secretion, and inactivation of Glucagon-like Peptide-1 (GLP-1)",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013272",
+        "standardized_id": "MESH:D013272",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Stomach Diseases",
+        "standardized_name": "Stomach Diseases",
+        "normalized_name": "stomach diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "stomach",
+          "stomach diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological processes involving the STOMACH.",
+        "cleaned_description": "Pathological processes involving the STOMACH.",
+        "description_summary": "Pathological processes involving the STOMACH.",
+        "key_terms": [],
+        "word_count": 5
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Synthesis, secretion, and inactivation of Glucagon-like Peptide-1 (GLP-1)",
+        "pathway_list": [
+          "Synthesis",
+          "secretion",
+          "and inactivation of Glucagon-like Peptide-1 (GLP-1)"
+        ],
+        "pathway_count": 3,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.979192",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013276",
+      "DiseaseName": "Stomach Ulcer",
+      "DiseaseDescription": "Ulceration of the GASTRIC MUCOSA due to contact with GASTRIC JUICE. It is often associated with HELICOBACTER PYLORI infection or consumption of nonsteroidal anti-inflammatory drugs (NSAIDS).",
+      "SlimMapping": "['Digestive system disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013276",
+        "standardized_id": "MESH:D013276",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Stomach Ulcer",
+        "standardized_name": "Stomach Ulcer",
+        "normalized_name": "stomach ulcer",
+        "synonyms": [],
+        "search_terms": [
+          "stomach ulcer",
+          "stomach",
+          "ulcer"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Ulceration of the GASTRIC MUCOSA due to contact with GASTRIC JUICE. It is often associated with HELICOBACTER PYLORI infection or consumption of nonsteroidal anti-inflammatory drugs (NSAIDS).",
+        "cleaned_description": "Ulceration of the GASTRIC MUCOSA due to contact with GASTRIC JUICE. It is often associated with HELICOBACTER PYLORI infection or consumption of nonsteroidal anti-inflammatory drugs (NSAIDS).",
+        "description_summary": "Ulceration of the GASTRIC MUCOSA due to contact with GASTRIC JUICE.",
+        "key_terms": [],
+        "word_count": 26
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.979568",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

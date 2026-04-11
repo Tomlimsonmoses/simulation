@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Fetal disease', 'Pregnancy complication', 'Substance-related disorder']",
+    "export_timestamp": "2026-03-28T22:11:36.014166",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D063647",
+      "DiseaseName": "Fetal Alcohol Spectrum Disorders",
+      "DiseaseDescription": "An umbrella term used to describe a pattern of disabilities and abnormalities that result from fetal exposure to ETHANOL during pregnancy. It encompasses a phenotypic range that can vary greatly between individuals, but reliably includes one or more of the following: characteristic facial dysmorphism, FETAL GROWTH RETARDATION, central nervous system abnormalities, cognitive and/or behavioral dysfunction, BIRTH DEFECTS. The level of maternal alcohol consumption does not necessarily correlate directly with disease severity.",
+      "SlimMapping": "['Fetal disease', 'Pregnancy complication', 'Substance-related disorder']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D063647",
+        "standardized_id": "MESH:D063647",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Fetal Alcohol Spectrum Disorders",
+        "standardized_name": "Fetal Alcohol Spectrum Disorders",
+        "normalized_name": "fetal alcohol spectrum disorders",
+        "synonyms": [],
+        "search_terms": [
+          "alcohol",
+          "fetal",
+          "disorders",
+          "spectrum",
+          "fetal alcohol spectrum disorders"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An umbrella term used to describe a pattern of disabilities and abnormalities that result from fetal exposure to ETHANOL during pregnancy. It encompasses a phenotypic range that can vary greatly between individuals, but reliably includes one or more of the following: characteristic facial dysmorphism, FETAL GROWTH RETARDATION, central nervous system abnormalities, cognitive and/or behavioral dysfunction, BIRTH DEFECTS. The level of maternal alcohol consumption does not necessarily correlate directly with disease severity.",
+        "cleaned_description": "An umbrella term used to describe a pattern of disabilities and abnormalities that result from fetal exposure to ETHANOL during pregnancy. It encompasses a phenotypic range that can vary greatly between individuals, but reliably includes one or more of the following: characteristic facial dysmorphism, FETAL GROWTH RETARDATION, central nervous system abnormalities, cognitive and/or behavioral dysfunction, BIRTH DEFECTS. The level of maternal alcohol consumption does not necessarily correlate directly with disease severity.",
+        "description_summary": "An umbrella term used to describe a pattern of disabilities and abnormalities that result from fetal exposure to ETHANOL during pregnancy.",
+        "key_terms": [],
+        "word_count": 71
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Fetal disease",
+          "Pregnancy complication",
+          "Substance-related disorder"
+        ],
+        "primary_categories": [
+          "Fetal disease",
+          "Pregnancy complication",
+          "Substance-related disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Fetal disease",
+          "Pregnancy complication",
+          "Substance-related disorder"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.523791",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

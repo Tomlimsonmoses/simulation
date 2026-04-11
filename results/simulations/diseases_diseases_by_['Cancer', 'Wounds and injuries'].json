@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Wounds and injuries']",
+    "export_timestamp": "2026-03-28T22:11:36.223978",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D009381",
+      "DiseaseName": "Neoplasms, Radiation-Induced",
+      "DiseaseDescription": "Tumors, cancer or other neoplasms produced by exposure to ionizing or non-ionizing radiation.",
+      "SlimMapping": "['Cancer', 'Wounds and injuries']",
+      "PathwayNames": "Transcriptional regulation of white adipocyte differentiation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009381",
+        "standardized_id": "MESH:D009381",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Neoplasms, Radiation-Induced",
+        "standardized_name": "Neoplasms, Radiation-Induced",
+        "normalized_name": "neoplasms radiation-induced",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms, radiation-induced",
+          "neoplasms,",
+          "radiation-induced"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors, cancer or other neoplasms produced by exposure to ionizing or non-ionizing radiation.",
+        "cleaned_description": "Tumors, cancer or other neoplasms produced by exposure to ionizing or non-ionizing radiation.",
+        "description_summary": "Tumors, cancer or other neoplasms produced by exposure to ionizing or non-ionizing radiation.",
+        "key_terms": [],
+        "word_count": 13
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Wounds and injuries"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Wounds and injuries"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional regulation of white adipocyte differentiation",
+        "pathway_list": [
+          "Transcriptional regulation of white adipocyte differentiation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional regulation of white adipocyte differentiation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.873333",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

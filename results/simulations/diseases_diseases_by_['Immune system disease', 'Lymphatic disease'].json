@@ -1,0 +1,287 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Immune system disease', 'Lymphatic disease']",
+    "export_timestamp": "2026-03-28T22:11:35.865942",
+    "total_records": 4
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D005871",
+      "DiseaseName": "Castleman Disease",
+      "DiseaseDescription": "Large benign, hyperplastic lymph nodes. The more common hyaline vascular subtype is characterized by small hyaline vascular follicles and interfollicular capillary proliferations. Plasma cells are often present and represent another subtype with the plasma cells containing IgM and IMMUNOGLOBULIN A.",
+      "SlimMapping": "['Immune system disease', 'Lymphatic disease']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005871",
+        "standardized_id": "MESH:D005871",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Castleman Disease",
+        "standardized_name": "Castleman Disease",
+        "normalized_name": "castleman disease",
+        "synonyms": [],
+        "search_terms": [
+          "disease",
+          "castleman disease",
+          "castleman"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Large benign, hyperplastic lymph nodes. The more common hyaline vascular subtype is characterized by small hyaline vascular follicles and interfollicular capillary proliferations. Plasma cells are often present and represent another subtype with the plasma cells containing IgM and IMMUNOGLOBULIN A.",
+        "cleaned_description": "Large benign, hyperplastic lymph nodes. The more common hyaline vascular subtype is characterized by small hyaline vascular follicles and interfollicular capillary proliferations. Plasma cells are often present and represent another subtype with the plasma cells containing IgM and IMMUNOGLOBULIN A.",
+        "description_summary": "Large benign, hyperplastic lymph nodes.",
+        "key_terms": [],
+        "word_count": 40
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease",
+          "Lymphatic disease"
+        ],
+        "primary_categories": [
+          "Immune system disease",
+          "Lymphatic disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease",
+          "Lymphatic disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.431110",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007119",
+      "DiseaseName": "Immunoblastic Lymphadenopathy",
+      "DiseaseDescription": "A disorder characterized by proliferation of arborizing small vessels, prominent immunoblastic proliferations and amorphous acidophilic interstitial material. Clinical manifestations include fever, sweats, weight loss, generalized lymphadenopathy and frequently hepatosplenomegaly.",
+      "SlimMapping": "['Immune system disease', 'Lymphatic disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007119",
+        "standardized_id": "MESH:D007119",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Immunoblastic Lymphadenopathy",
+        "standardized_name": "Immunoblastic Lymphadenopathy",
+        "normalized_name": "immunoblastic lymphadenopathy",
+        "synonyms": [],
+        "search_terms": [
+          "immunoblastic",
+          "lymphadenopathy",
+          "immunoblastic lymphadenopathy"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A disorder characterized by proliferation of arborizing small vessels, prominent immunoblastic proliferations and amorphous acidophilic interstitial material. Clinical manifestations include fever, sweats, weight loss, generalized lymphadenopathy and frequently hepatosplenomegaly.",
+        "cleaned_description": "A disorder characterized by proliferation of arborizing small vessels, prominent immunoblastic proliferations and amorphous acidophilic interstitial material. Clinical manifestations include fever, sweats, weight loss, generalized lymphadenopathy and frequently hepatosplenomegaly.",
+        "description_summary": "A disorder characterized by proliferation of arborizing small vessels, prominent immunoblastic proliferations and amorphous acidophilic interstitial material.",
+        "key_terms": [
+          "lymphadenopathy"
+        ],
+        "word_count": 29
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease",
+          "Lymphatic disease"
+        ],
+        "primary_categories": [
+          "Immune system disease",
+          "Lymphatic disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease",
+          "Lymphatic disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.783175",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008232",
+      "DiseaseName": "Lymphoproliferative Disorders",
+      "DiseaseDescription": "Disorders characterized by proliferation of lymphoid tissue, general or unspecified.",
+      "SlimMapping": "['Immune system disease', 'Lymphatic disease']",
+      "PathwayNames": "Ubiquitin mediated proteolysis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008232",
+        "standardized_id": "MESH:D008232",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Lymphoproliferative Disorders",
+        "standardized_name": "Lymphoproliferative Disorders",
+        "normalized_name": "lymphoproliferative disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "lymphoproliferative disorders",
+          "lymphoproliferative"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Disorders characterized by proliferation of lymphoid tissue, general or unspecified.",
+        "cleaned_description": "Disorders characterized by proliferation of lymphoid tissue, general or unspecified.",
+        "description_summary": "Disorders characterized by proliferation of lymphoid tissue, general or unspecified.",
+        "key_terms": [],
+        "word_count": 10
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease",
+          "Lymphatic disease"
+        ],
+        "primary_categories": [
+          "Immune system disease",
+          "Lymphatic disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease",
+          "Lymphatic disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Ubiquitin mediated proteolysis",
+        "pathway_list": [
+          "Ubiquitin mediated proteolysis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.832317",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012507",
+      "DiseaseName": "Sarcoidosis",
+      "DiseaseDescription": "An idiopathic systemic inflammatory granulomatous disorder comprised of epithelioid and multinucleated giant cells with little necrosis. It usually invades the lungs with fibrosis and may also involve lymph nodes, skin, liver, spleen, eyes, phalangeal bones, and parotid glands.",
+      "SlimMapping": "['Immune system disease', 'Lymphatic disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012507",
+        "standardized_id": "MESH:D012507",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Sarcoidosis",
+        "standardized_name": "Sarcoidosis",
+        "normalized_name": "sarcoidosis",
+        "synonyms": [],
+        "search_terms": [
+          "sarcoidosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An idiopathic systemic inflammatory granulomatous disorder comprised of epithelioid and multinucleated giant cells with little necrosis. It usually invades the lungs with fibrosis and may also involve lymph nodes, skin, liver, spleen, eyes, phalangeal bones, and parotid glands.",
+        "cleaned_description": "An idiopathic systemic inflammatory granulomatous disorder comprised of epithelioid and multinucleated giant cells with little necrosis. It usually invades the lungs with fibrosis and may also involve lymph nodes, skin, liver, spleen, eyes, phalangeal bones, and parotid glands.",
+        "description_summary": "An idiopathic systemic inflammatory granulomatous disorder comprised of epithelioid and multinucleated giant cells with little necrosis.",
+        "key_terms": [
+          "necrosis",
+          "fibrosis"
+        ],
+        "word_count": 38
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease",
+          "Lymphatic disease"
+        ],
+        "primary_categories": [
+          "Immune system disease",
+          "Lymphatic disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease",
+          "Lymphatic disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.958984",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

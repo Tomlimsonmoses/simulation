@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Genetic disease (inborn)', 'Immune system disease', 'Lymphatic disease']",
+    "export_timestamp": "2026-03-28T22:11:35.681265",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D056735",
+      "DiseaseName": "Autoimmune Lymphoproliferative Syndrome",
+      "DiseaseDescription": "Rare congenital lymphoid disorder due to mutations in certain Fas-Fas ligand pathway genes. Known causes include mutations in FAS, TNFSF6, NRAS, CASP8, and CASP10 proteins. Clinical features include LYMPHADENOPATHY; SPLENOMEGALY; and AUTOIMMUNITY.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Immune system disease', 'Lymphatic disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D056735",
+        "standardized_id": "MESH:D056735",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Autoimmune Lymphoproliferative Syndrome",
+        "standardized_name": "Autoimmune Lymphoproliferative Syndrome",
+        "normalized_name": "autoimmune lymphoproliferative syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "autoimmune",
+          "syndrome",
+          "autoimmune lymphoproliferative syndrome",
+          "lymphoproliferative"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Rare congenital lymphoid disorder due to mutations in certain Fas-Fas ligand pathway genes. Known causes include mutations in FAS, TNFSF6, NRAS, CASP8, and CASP10 proteins. Clinical features include LYMPHADENOPATHY; SPLENOMEGALY; and AUTOIMMUNITY.",
+        "cleaned_description": "Rare congenital lymphoid disorder due to mutations in certain Fas-Fas ligand pathway genes. Known causes include mutations in FAS, TNFSF6, NRAS, CASP8, and CASP10 proteins. Clinical features include LYMPHADENOPATHY; SPLENOMEGALY; and AUTOIMMUNITY.",
+        "description_summary": "Rare congenital lymphoid disorder due to mutations in certain Fas-Fas ligand pathway genes.",
+        "key_terms": [
+          "LYMPHADENOPATHY"
+        ],
+        "word_count": 32
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Immune system disease",
+          "Lymphatic disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Immune system disease",
+          "Lymphatic disease"
+        ],
+        "broad_categories": [
+          "genetic",
+          "immune_system"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Immune system disease",
+          "Lymphatic disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.387977",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

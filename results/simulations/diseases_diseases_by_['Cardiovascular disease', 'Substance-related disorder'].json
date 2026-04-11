@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cardiovascular disease', 'Substance-related disorder']",
+    "export_timestamp": "2026-03-28T22:11:35.855637",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D002310",
+      "DiseaseName": "Cardiomyopathy, Alcoholic",
+      "DiseaseDescription": "Disease of CARDIAC MUSCLE resulting from chronic excessive alcohol consumption. Myocardial damage can be caused by: (1) a toxic effect of alcohol; (2) malnutrition in alcoholics such as THIAMINE DEFICIENCY; or (3) toxic effect of additives in alcoholic beverages such as COBALT. This disease is usually manifested by DYSPNEA and palpitations with CARDIOMEGALY and congestive heart failure (HEART FAILURE).",
+      "SlimMapping": "['Cardiovascular disease', 'Substance-related disorder']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002310",
+        "standardized_id": "MESH:D002310",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cardiomyopathy, Alcoholic",
+        "standardized_name": "Cardiomyopathy, Alcoholic",
+        "normalized_name": "cardiomyopathy alcoholic",
+        "synonyms": [],
+        "search_terms": [
+          "alcoholic",
+          "cardiomyopathy, alcoholic",
+          "cardiomyopathy,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Disease of CARDIAC MUSCLE resulting from chronic excessive alcohol consumption. Myocardial damage can be caused by: (1) a toxic effect of alcohol; (2) malnutrition in alcoholics such as THIAMINE DEFICIENCY; or (3) toxic effect of additives in alcoholic beverages such as COBALT. This disease is usually manifested by DYSPNEA and palpitations with CARDIOMEGALY and congestive heart failure (HEART FAILURE).",
+        "cleaned_description": "Disease of CARDIAC MUSCLE resulting from chronic excessive alcohol consumption. Myocardial damage can be caused by: (1) a toxic effect of alcohol; (2) malnutrition in alcoholics such as THIAMINE DEFICIENCY; or (3) toxic effect of additives in alcoholic beverages such as COBALT. This disease is usually manifested by DYSPNEA and palpitations with CARDIOMEGALY and congestive heart failure (HEART FAILURE).",
+        "description_summary": "Disease of CARDIAC MUSCLE resulting from chronic excessive alcohol consumption.",
+        "key_terms": [],
+        "word_count": 59
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Substance-related disorder"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Substance-related disorder"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Substance-related disorder"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.427482",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

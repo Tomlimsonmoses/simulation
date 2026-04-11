@@ -1,0 +1,218 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Pathology (anatomical condition)', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+    "export_timestamp": "2026-03-28T22:11:36.128221",
+    "total_records": 3
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D007669",
+      "DiseaseName": "Kidney Calculi",
+      "DiseaseDescription": "Stones in the KIDNEY, usually formed in the urine-collecting area of the kidney (KIDNEY PELVIS). Their sizes vary and most contains CALCIUM OXALATE.",
+      "SlimMapping": "['Pathology (anatomical condition)', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Tryptophan metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007669",
+        "standardized_id": "MESH:D007669",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Kidney Calculi",
+        "standardized_name": "Kidney Calculi",
+        "normalized_name": "kidney calculi",
+        "synonyms": [],
+        "search_terms": [
+          "kidney",
+          "calculi",
+          "kidney calculi"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Stones in the KIDNEY, usually formed in the urine-collecting area of the kidney (KIDNEY PELVIS). Their sizes vary and most contains CALCIUM OXALATE.",
+        "cleaned_description": "Stones in the KIDNEY, usually formed in the urine-collecting area of the kidney (KIDNEY PELVIS). Their sizes vary and most contains CALCIUM OXALATE.",
+        "description_summary": "Stones in the KIDNEY, usually formed in the urine-collecting area of the kidney (KIDNEY PELVIS).",
+        "key_terms": [],
+        "word_count": 23
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (anatomical condition)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Pathology (anatomical condition)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (anatomical condition)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tryptophan metabolism",
+        "pathway_list": [
+          "Tryptophan metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.798682",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014514",
+      "DiseaseName": "Ureteral Calculi",
+      "DiseaseDescription": "Stones in the URETER that are formed in the KIDNEY. They are rarely more than 5 mm in diameter for larger renal stones cannot enter ureters. They are often lodged at the ureteral narrowing and can cause excruciating renal colic.",
+      "SlimMapping": "['Pathology (anatomical condition)', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Tryptophan metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014514",
+        "standardized_id": "MESH:D014514",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Ureteral Calculi",
+        "standardized_name": "Ureteral Calculi",
+        "normalized_name": "ureteral calculi",
+        "synonyms": [],
+        "search_terms": [
+          "calculi",
+          "ureteral calculi",
+          "ureteral"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Stones in the URETER that are formed in the KIDNEY. They are rarely more than 5 mm in diameter for larger renal stones cannot enter ureters. They are often lodged at the ureteral narrowing and can cause excruciating renal colic.",
+        "cleaned_description": "Stones in the URETER that are formed in the KIDNEY. They are rarely more than 5 mm in diameter for larger renal stones cannot enter ureters. They are often lodged at the ureteral narrowing and can cause excruciating renal colic.",
+        "description_summary": "Stones in the URETER that are formed in the KIDNEY.",
+        "key_terms": [],
+        "word_count": 40
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (anatomical condition)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Pathology (anatomical condition)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (anatomical condition)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tryptophan metabolism",
+        "pathway_list": [
+          "Tryptophan metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.010103",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001744",
+      "DiseaseName": "Urinary Bladder Calculi",
+      "DiseaseDescription": "Stones in the URINARY BLADDER; also known as vesical calculi, bladder stones, or cystoliths.",
+      "SlimMapping": "['Pathology (anatomical condition)', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001744",
+        "standardized_id": "MESH:D001744",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Urinary Bladder Calculi",
+        "standardized_name": "Urinary Bladder Calculi",
+        "normalized_name": "urinary bladder calculi",
+        "synonyms": [],
+        "search_terms": [
+          "urinary",
+          "bladder",
+          "calculi",
+          "urinary bladder calculi"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Stones in the URINARY BLADDER; also known as vesical calculi, bladder stones, or cystoliths.",
+        "cleaned_description": "Stones in the URINARY BLADDER; also known as vesical calculi, bladder stones, or cystoliths.",
+        "description_summary": "Stones in the URINARY BLADDER; also known as vesical calculi, bladder stones, or cystoliths.",
+        "key_terms": [],
+        "word_count": 14
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (anatomical condition)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Pathology (anatomical condition)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (anatomical condition)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.010921",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Digestive system disease', 'Substance-related disorder']",
+    "export_timestamp": "2026-03-28T22:11:36.011152",
+    "total_records": 4
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D005235",
+      "DiseaseName": "Fatty Liver, Alcoholic",
+      "DiseaseDescription": "Lipid infiltration of the hepatic parenchymal cells that is due to ALCOHOL ABUSE. The fatty changes in the alcoholic fatty liver may be reversible, depending on the amounts of TRIGLYCERIDES accumulated.",
+      "SlimMapping": "['Digestive system disease', 'Substance-related disorder']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005235",
+        "standardized_id": "MESH:D005235",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Fatty Liver, Alcoholic",
+        "standardized_name": "Fatty Liver, Alcoholic",
+        "normalized_name": "fatty liver alcoholic",
+        "synonyms": [],
+        "search_terms": [
+          "alcoholic",
+          "liver,",
+          "fatty",
+          "fatty liver, alcoholic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Lipid infiltration of the hepatic parenchymal cells that is due to ALCOHOL ABUSE. The fatty changes in the alcoholic fatty liver may be reversible, depending on the amounts of TRIGLYCERIDES accumulated.",
+        "cleaned_description": "Lipid infiltration of the hepatic parenchymal cells that is due to ALCOHOL ABUSE. The fatty changes in the alcoholic fatty liver may be reversible, depending on the amounts of TRIGLYCERIDES accumulated.",
+        "description_summary": "Lipid infiltration of the hepatic parenchymal cells that is due to ALCOHOL ABUSE.",
+        "key_terms": [],
+        "word_count": 31
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease",
+          "Substance-related disorder"
+        ],
+        "primary_categories": [
+          "Digestive system disease",
+          "Substance-related disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease",
+          "Substance-related disorder"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.522215",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006519",
+      "DiseaseName": "Hepatitis, Alcoholic",
+      "DiseaseDescription": "INFLAMMATION of the LIVER due to ALCOHOL ABUSE. It is characterized by NECROSIS of HEPATOCYTES, infiltration by NEUTROPHILS, and deposit of MALLORY BODIES. Depending on its severity, the inflammatory lesion may be reversible or progress to LIVER CIRRHOSIS.",
+      "SlimMapping": "['Digestive system disease', 'Substance-related disorder']",
+      "PathwayNames": "Unfolded Protein Response (UPR)",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006519",
+        "standardized_id": "MESH:D006519",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hepatitis, Alcoholic",
+        "standardized_name": "Hepatitis, Alcoholic",
+        "normalized_name": "hepatitis alcoholic",
+        "synonyms": [],
+        "search_terms": [
+          "alcoholic",
+          "hepatitis,",
+          "hepatitis, alcoholic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "INFLAMMATION of the LIVER due to ALCOHOL ABUSE. It is characterized by NECROSIS of HEPATOCYTES, infiltration by NEUTROPHILS, and deposit of MALLORY BODIES. Depending on its severity, the inflammatory lesion may be reversible or progress to LIVER CIRRHOSIS.",
+        "cleaned_description": "INFLAMMATION of the LIVER due to ALCOHOL ABUSE. It is characterized by NECROSIS of HEPATOCYTES, infiltration by NEUTROPHILS, and deposit of MALLORY BODIES. Depending on its severity, the inflammatory lesion may be reversible or progress to LIVER CIRRHOSIS.",
+        "description_summary": "INFLAMMATION of the LIVER due to ALCOHOL ABUSE.",
+        "key_terms": [
+          "NECROSIS",
+          "CIRRHOSIS"
+        ],
+        "word_count": 38
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease",
+          "Substance-related disorder"
+        ],
+        "primary_categories": [
+          "Digestive system disease",
+          "Substance-related disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease",
+          "Substance-related disorder"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Unfolded Protein Response (UPR)",
+        "pathway_list": [
+          "Unfolded Protein Response (UPR)"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.648936",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008108",
+      "DiseaseName": "Liver Diseases, Alcoholic",
+      "DiseaseDescription": "Liver diseases associated with ALCOHOLISM. It usually refers to the coexistence of two or more subentities, i.e., ALCOHOLIC FATTY LIVER; ALCOHOLIC HEPATITIS; and ALCOHOLIC CIRRHOSIS.",
+      "SlimMapping": "['Digestive system disease', 'Substance-related disorder']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008108",
+        "standardized_id": "MESH:D008108",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Liver Diseases, Alcoholic",
+        "standardized_name": "Liver Diseases, Alcoholic",
+        "normalized_name": "liver diseases alcoholic",
+        "synonyms": [],
+        "search_terms": [
+          "alcoholic",
+          "diseases,",
+          "liver diseases, alcoholic",
+          "liver"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Liver diseases associated with ALCOHOLISM. It usually refers to the coexistence of two or more subentities, i.e., ALCOHOLIC FATTY LIVER; ALCOHOLIC HEPATITIS; and ALCOHOLIC CIRRHOSIS.",
+        "cleaned_description": "Liver diseases associated with ALCOHOLISM. It usually refers to the coexistence of two or more subentities, i.e., ALCOHOLIC FATTY LIVER; ALCOHOLIC HEPATITIS; and ALCOHOLIC CIRRHOSIS.",
+        "description_summary": "Liver diseases associated with ALCOHOLISM.",
+        "key_terms": [
+          "CIRRHOSIS",
+          "HEPATITIS"
+        ],
+        "word_count": 25
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease",
+          "Substance-related disorder"
+        ],
+        "primary_categories": [
+          "Digestive system disease",
+          "Substance-related disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease",
+          "Substance-related disorder"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.820997",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D019512",
+      "DiseaseName": "Pancreatitis, Alcoholic",
+      "DiseaseDescription": "Acute or chronic INFLAMMATION of the PANCREAS due to excessive ALCOHOL DRINKING. Alcoholic pancreatitis usually presents as an acute episode but it is a chronic progressive disease in alcoholics.",
+      "SlimMapping": "['Digestive system disease', 'Substance-related disorder']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D019512",
+        "standardized_id": "MESH:D019512",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pancreatitis, Alcoholic",
+        "standardized_name": "Pancreatitis, Alcoholic",
+        "normalized_name": "pancreatitis alcoholic",
+        "synonyms": [],
+        "search_terms": [
+          "alcoholic",
+          "pancreatitis, alcoholic",
+          "pancreatitis,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Acute or chronic INFLAMMATION of the PANCREAS due to excessive ALCOHOL DRINKING. Alcoholic pancreatitis usually presents as an acute episode but it is a chronic progressive disease in alcoholics.",
+        "cleaned_description": "Acute or chronic INFLAMMATION of the PANCREAS due to excessive ALCOHOL DRINKING. Alcoholic pancreatitis usually presents as an acute episode but it is a chronic progressive disease in alcoholics.",
+        "description_summary": "Acute or chronic INFLAMMATION of the PANCREAS due to excessive ALCOHOL DRINKING.",
+        "key_terms": [
+          "pancreatitis"
+        ],
+        "word_count": 29
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease",
+          "Substance-related disorder"
+        ],
+        "primary_categories": [
+          "Digestive system disease",
+          "Substance-related disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease",
+          "Substance-related disorder"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.905175",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Parasitic disease', 'Skin disease']",
+    "export_timestamp": "2026-03-28T22:11:36.131033",
+    "total_records": 3
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D007896",
+      "DiseaseName": "Leishmaniasis",
+      "DiseaseDescription": "A disease caused by any of a number of species of protozoa in the genus LEISHMANIA. There are four major clinical types of this infection: cutaneous (Old and New World) (LEISHMANIASIS, CUTANEOUS), diffuse cutaneous (LEISHMANIASIS, DIFFUSE CUTANEOUS), mucocutaneous (LEISHMANIASIS, MUCOCUTANEOUS), and visceral (LEISHMANIASIS, VISCERAL).",
+      "SlimMapping": "['Parasitic disease', 'Skin disease']",
+      "PathwayNames": "Urea cycle",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007896",
+        "standardized_id": "MESH:D007896",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Leishmaniasis",
+        "standardized_name": "Leishmaniasis",
+        "normalized_name": "leishmaniasis",
+        "synonyms": [],
+        "search_terms": [
+          "leishmaniasis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A disease caused by any of a number of species of protozoa in the genus LEISHMANIA. There are four major clinical types of this infection: cutaneous (Old and New World) (LEISHMANIASIS, CUTANEOUS), diffuse cutaneous (LEISHMANIASIS, DIFFUSE CUTANEOUS), mucocutaneous (LEISHMANIASIS, MUCOCUTANEOUS), and visceral (LEISHMANIASIS, VISCERAL).",
+        "cleaned_description": "A disease caused by any of a number of species of protozoa in the genus LEISHMANIA. There are four major clinical types of this infection: cutaneous (Old and New World) (LEISHMANIASIS, CUTANEOUS), diffuse cutaneous (LEISHMANIASIS, DIFFUSE CUTANEOUS), mucocutaneous (LEISHMANIASIS, MUCOCUTANEOUS), and visceral (LEISHMANIASIS, VISCERAL).",
+        "description_summary": "A disease caused by any of a number of species of protozoa in the genus LEISHMANIA.",
+        "key_terms": [],
+        "word_count": 44
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Parasitic disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Parasitic disease",
+          "Skin disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Parasitic disease",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Urea cycle",
+        "pathway_list": [
+          "Urea cycle"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.805403",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D016773",
+      "DiseaseName": "Leishmaniasis, Cutaneous",
+      "DiseaseDescription": "An endemic disease that is characterized by the development of single or multiple localized lesions on exposed areas of skin that typically ulcerate. The disease has been divided into Old and New World forms. Old World leishmaniasis is separated into three distinct types according to epidemiology and clinical manifestations and is caused by species of the L. tropica and L. aethiopica complexes as well as by species of the L. major genus. New World leishmaniasis, also called American leishmaniasis, occurs in South and Central America and is caused by species of the L. mexicana or L. braziliensis complexes.",
+      "SlimMapping": "['Parasitic disease', 'Skin disease']",
+      "PathwayNames": "Unfolded Protein Response (UPR)",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D016773",
+        "standardized_id": "MESH:D016773",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Leishmaniasis, Cutaneous",
+        "standardized_name": "Leishmaniasis, Cutaneous",
+        "normalized_name": "leishmaniasis cutaneous",
+        "synonyms": [],
+        "search_terms": [
+          "cutaneous",
+          "leishmaniasis, cutaneous",
+          "leishmaniasis,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An endemic disease that is characterized by the development of single or multiple localized lesions on exposed areas of skin that typically ulcerate. The disease has been divided into Old and New World forms. Old World leishmaniasis is separated into three distinct types according to epidemiology and clinical manifestations and is caused by species of the L. tropica and L. aethiopica complexes as well as by species of the L. major genus. New World leishmaniasis, also called American leishmaniasis, occurs in South and Central America and is caused by species of the L. mexicana or L. braziliensis complexes.",
+        "cleaned_description": "An endemic disease that is characterized by the development of single or multiple localized lesions on exposed areas of skin that typically ulcerate. The disease has been divided into Old and New World forms. Old World leishmaniasis is separated into three distinct types according to epidemiology and clinical manifestations and is caused by species of the L. tropica and L. aethiopica complexes as well as by species of the L. major genus. New World leishmaniasis, also called American leishmaniasis, occurs in South and Central America and is caused by species of the L. mexicana or L. braziliensis complexes.",
+        "description_summary": "An endemic disease that is characterized by the development of single or multiple localized lesions on exposed areas of skin that typically ulcerate.",
+        "key_terms": [],
+        "word_count": 98
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Parasitic disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Parasitic disease",
+          "Skin disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Parasitic disease",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Unfolded Protein Response (UPR)",
+        "pathway_list": [
+          "Unfolded Protein Response (UPR)"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.805872",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007897",
+      "DiseaseName": "Leishmaniasis, Mucocutaneous",
+      "DiseaseDescription": "A disease characterized by the chronic, progressive spread of lesions from New World cutaneous leishmaniasis caused by species of the L. braziliensis complex to the nasal, pharyngeal, and buccal mucosa some time after the appearance of the initial cutaneous lesion. Nasal obstruction and epistaxis are frequent presenting symptoms.",
+      "SlimMapping": "['Parasitic disease', 'Skin disease']",
+      "PathwayNames": "Type I diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007897",
+        "standardized_id": "MESH:D007897",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Leishmaniasis, Mucocutaneous",
+        "standardized_name": "Leishmaniasis, Mucocutaneous",
+        "normalized_name": "leishmaniasis mucocutaneous",
+        "synonyms": [],
+        "search_terms": [
+          "mucocutaneous",
+          "leishmaniasis, mucocutaneous",
+          "leishmaniasis,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A disease characterized by the chronic, progressive spread of lesions from New World cutaneous leishmaniasis caused by species of the L. braziliensis complex to the nasal, pharyngeal, and buccal mucosa some time after the appearance of the initial cutaneous lesion. Nasal obstruction and epistaxis are frequent presenting symptoms.",
+        "cleaned_description": "A disease characterized by the chronic, progressive spread of lesions from New World cutaneous leishmaniasis caused by species of the L. braziliensis complex to the nasal, pharyngeal, and buccal mucosa some time after the appearance of the initial cutaneous lesion. Nasal obstruction and epistaxis are frequent presenting symptoms.",
+        "description_summary": "A disease characterized by the chronic, progressive spread of lesions from New World cutaneous leishmaniasis caused by species of the L.",
+        "key_terms": [],
+        "word_count": 48
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Parasitic disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Parasitic disease",
+          "Skin disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Parasitic disease",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type I diabetes mellitus",
+        "pathway_list": [
+          "Type I diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.806190",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Immune system disease', 'Lymphatic disease', 'Viral disease']",
+    "export_timestamp": "2026-03-28T22:11:35.824417",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D002051",
+      "DiseaseName": "Burkitt Lymphoma",
+      "DiseaseDescription": "A form of undifferentiated malignant LYMPHOMA usually found in central Africa, but also reported in other parts of the world. It is commonly manifested as a large osteolytic lesion in the jaw or as an abdominal mass. B-cell antigens are expressed on the immature cells that make up the tumor in virtually all cases of Burkitt lymphoma. The Epstein-Barr virus (HERPESVIRUS 4, HUMAN) has been isolated from Burkitt lymphoma cases in Africa and it is implicated as the causative agent in these cases; however, most non-African cases are EBV-negative.",
+      "SlimMapping": "['Cancer', 'Immune system disease', 'Lymphatic disease', 'Viral disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002051",
+        "standardized_id": "MESH:D002051",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Burkitt Lymphoma",
+        "standardized_name": "Burkitt Lymphoma",
+        "normalized_name": "burkitt lymphoma",
+        "synonyms": [],
+        "search_terms": [
+          "lymphoma",
+          "burkitt",
+          "burkitt lymphoma"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A form of undifferentiated malignant LYMPHOMA usually found in central Africa, but also reported in other parts of the world. It is commonly manifested as a large osteolytic lesion in the jaw or as an abdominal mass. B-cell antigens are expressed on the immature cells that make up the tumor in virtually all cases of Burkitt lymphoma. The Epstein-Barr virus (HERPESVIRUS 4, HUMAN) has been isolated from Burkitt lymphoma cases in Africa and it is implicated as the causative agent in these cases; however, most non-African cases are EBV-negative.",
+        "cleaned_description": "A form of undifferentiated malignant LYMPHOMA usually found in central Africa, but also reported in other parts of the world. It is commonly manifested as a large osteolytic lesion in the jaw or as an abdominal mass. B-cell antigens are expressed on the immature cells that make up the tumor in virtually all cases of Burkitt lymphoma. The Epstein-Barr virus (HERPESVIRUS 4, HUMAN) has been isolated from Burkitt lymphoma cases in Africa and it is implicated as the causative agent in these cases; however, most non-African cases are EBV-negative.",
+        "description_summary": "A form of undifferentiated malignant LYMPHOMA usually found in central Africa, but also reported in other parts of the world.",
+        "key_terms": [],
+        "word_count": 89
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Immune system disease",
+          "Lymphatic disease",
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Immune system disease",
+          "Lymphatic disease"
+        ],
+        "broad_categories": [
+          "immune_system",
+          "infectious"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Immune system disease",
+          "Lymphatic disease",
+          "Viral disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.411756",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

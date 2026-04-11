@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Bacterial infection or mycosis', 'Skin disease']",
+    "export_timestamp": "2026-03-28T22:11:36.058878",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D017497",
+      "DiseaseName": "Hidradenitis Suppurativa",
+      "DiseaseDescription": "A chronic suppurative and cicatricial disease of the apocrine glands occurring chiefly in the axillae in women and in the groin and anal regions in men. It is characterized by poral occlusion with secondary bacterial infection, evolving into abscesses which eventually rupture. As the disease becomes chronic, ulcers appear, sinus tracts enlarge, fistulas develop, and fibrosis and scarring become evident.",
+      "SlimMapping": "['Bacterial infection or mycosis', 'Skin disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017497",
+        "standardized_id": "MESH:D017497",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hidradenitis Suppurativa",
+        "standardized_name": "Hidradenitis Suppurativa",
+        "normalized_name": "hidradenitis suppurativa",
+        "synonyms": [],
+        "search_terms": [
+          "hidradenitis suppurativa",
+          "hidradenitis",
+          "suppurativa"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A chronic suppurative and cicatricial disease of the apocrine glands occurring chiefly in the axillae in women and in the groin and anal regions in men. It is characterized by poral occlusion with secondary bacterial infection, evolving into abscesses which eventually rupture. As the disease becomes chronic, ulcers appear, sinus tracts enlarge, fistulas develop, and fibrosis and scarring become evident.",
+        "cleaned_description": "A chronic suppurative and cicatricial disease of the apocrine glands occurring chiefly in the axillae in women and in the groin and anal regions in men. It is characterized by poral occlusion with secondary bacterial infection, evolving into abscesses which eventually rupture. As the disease becomes chronic, ulcers appear, sinus tracts enlarge, fistulas develop, and fibrosis and scarring become evident.",
+        "description_summary": "A chronic suppurative and cicatricial disease of the apocrine glands occurring chiefly in the axillae in women and in the groin and anal regions in men.",
+        "key_terms": [
+          "fibrosis"
+        ],
+        "word_count": 60
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Bacterial infection or mycosis",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Bacterial infection or mycosis",
+          "Skin disease"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Bacterial infection or mycosis",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.657804",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,439 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Endocrine system disease', 'Urogenital disease (female)']",
+    "export_timestamp": "2026-03-28T22:11:35.839692",
+    "total_records": 6
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D018269",
+      "DiseaseName": "Carcinoma, Endometrioid",
+      "DiseaseDescription": "An adenocarcinoma characterized by the presence of cells resembling the glandular cells of the ENDOMETRIUM. It is a common histological type of ovarian CARCINOMA and ENDOMETRIAL CARCINOMA. There is a high frequency of co-occurrence of this form of adenocarcinoma in both tissues.",
+      "SlimMapping": "['Cancer', 'Endocrine system disease', 'Urogenital disease (female)']",
+      "PathwayNames": "Post-translational protein modification",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018269",
+        "standardized_id": "MESH:D018269",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Carcinoma, Endometrioid",
+        "standardized_name": "Carcinoma, Endometrioid",
+        "normalized_name": "carcinoma endometrioid",
+        "synonyms": [],
+        "search_terms": [
+          "endometrioid",
+          "carcinoma, endometrioid",
+          "carcinoma,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An adenocarcinoma characterized by the presence of cells resembling the glandular cells of the ENDOMETRIUM. It is a common histological type of ovarian CARCINOMA and ENDOMETRIAL CARCINOMA. There is a high frequency of co-occurrence of this form of adenocarcinoma in both tissues.",
+        "cleaned_description": "An adenocarcinoma characterized by the presence of cells resembling the glandular cells of the ENDOMETRIUM. It is a common histological type of ovarian CARCINOMA and ENDOMETRIAL CARCINOMA. There is a high frequency of co-occurrence of this form of adenocarcinoma in both tissues.",
+        "description_summary": "An adenocarcinoma characterized by the presence of cells resembling the glandular cells of the ENDOMETRIUM.",
+        "key_terms": [],
+        "word_count": 42
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Post-translational protein modification",
+        "pathway_list": [
+          "Post-translational protein modification"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.416863",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000077216",
+      "DiseaseName": "Carcinoma, Ovarian Epithelial",
+      "DiseaseDescription": "A malignant neoplasm that originates in cells on the surface EPITHELIUM of the ovary and is the most common form of ovarian cancer. There are five histologic subtypes: papillary serous, endometrioid, mucinous, clear cell, and transitional cell. Mutations in BRCA1, OPCML, PRKN, PIK3CA, AKT1, CTNNB1, RRAS2, and CDH1 genes are associated with this cancer.",
+      "SlimMapping": "['Cancer', 'Endocrine system disease', 'Urogenital disease (female)']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000077216",
+        "standardized_id": "MESH:D000077216",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Carcinoma, Ovarian Epithelial",
+        "standardized_name": "Carcinoma, Ovarian Epithelial",
+        "normalized_name": "carcinoma ovarian epithelial",
+        "synonyms": [],
+        "search_terms": [
+          "ovarian",
+          "carcinoma, ovarian epithelial",
+          "epithelial",
+          "carcinoma,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A malignant neoplasm that originates in cells on the surface EPITHELIUM of the ovary and is the most common form of ovarian cancer. There are five histologic subtypes: papillary serous, endometrioid, mucinous, clear cell, and transitional cell. Mutations in BRCA1, OPCML, PRKN, PIK3CA, AKT1, CTNNB1, RRAS2, and CDH1 genes are associated with this cancer.",
+        "cleaned_description": "A malignant neoplasm that originates in cells on the surface EPITHELIUM of the ovary and is the most common form of ovarian cancer. There are five histologic subtypes: papillary serous, endometrioid, mucinous, clear cell, and transitional cell. Mutations in BRCA1, OPCML, PRKN, PIK3CA, AKT1, CTNNB1, RRAS2, and CDH1 genes are associated with this cancer.",
+        "description_summary": "A malignant neoplasm that originates in cells on the surface EPITHELIUM of the ovary and is the most common form of ovarian cancer.",
+        "key_terms": [],
+        "word_count": 54
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.424024",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006106",
+      "DiseaseName": "Granulosa Cell Tumor",
+      "DiseaseDescription": "A neoplasm composed entirely of GRANULOSA CELLS, occurring mostly in the OVARY. In the adult form, it may contain some THECA CELLS. This tumor often produces ESTRADIOL and INHIBIN. The excess estrogen exposure can lead to other malignancies in women and PRECOCIOUS PUBERTY in girls. In rare cases, granulosa cell tumors have been identified in the TESTES.",
+      "SlimMapping": "['Cancer', 'Endocrine system disease', 'Urogenital disease (female)']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006106",
+        "standardized_id": "MESH:D006106",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Granulosa Cell Tumor",
+        "standardized_name": "Granulosa Cell Tumor",
+        "normalized_name": "granulosa cell tumor",
+        "synonyms": [],
+        "search_terms": [
+          "cell",
+          "granulosa cell tumor",
+          "granulosa",
+          "tumor"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A neoplasm composed entirely of GRANULOSA CELLS, occurring mostly in the OVARY. In the adult form, it may contain some THECA CELLS. This tumor often produces ESTRADIOL and INHIBIN. The excess estrogen exposure can lead to other malignancies in women and PRECOCIOUS PUBERTY in girls. In rare cases, granulosa cell tumors have been identified in the TESTES.",
+        "cleaned_description": "A neoplasm composed entirely of GRANULOSA CELLS, occurring mostly in the OVARY. In the adult form, it may contain some THECA CELLS. This tumor often produces ESTRADIOL and INHIBIN. The excess estrogen exposure can lead to other malignancies in women and PRECOCIOUS PUBERTY in girls. In rare cases, granulosa cell tumors have been identified in the TESTES.",
+        "description_summary": "A neoplasm composed entirely of GRANULOSA CELLS, occurring mostly in the OVARY.",
+        "key_terms": [],
+        "word_count": 57
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.554357",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010048",
+      "DiseaseName": "Ovarian Cysts",
+      "DiseaseDescription": "General term for CYSTS and cystic diseases of the OVARY.",
+      "SlimMapping": "['Cancer', 'Endocrine system disease', 'Urogenital disease (female)']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010048",
+        "standardized_id": "MESH:D010048",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Ovarian Cysts",
+        "standardized_name": "Ovarian Cysts",
+        "normalized_name": "ovarian cysts",
+        "synonyms": [],
+        "search_terms": [
+          "ovarian",
+          "ovarian cysts",
+          "cysts"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "General term for CYSTS and cystic diseases of the OVARY.",
+        "cleaned_description": "General term for CYSTS and cystic diseases of the OVARY.",
+        "description_summary": "General term for CYSTS and cystic diseases of the OVARY.",
+        "key_terms": [],
+        "word_count": 10
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.899254",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010051",
+      "DiseaseName": "Ovarian Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the OVARY. These neoplasms can be benign or malignant. They are classified according to the tissue of origin, such as the surface EPITHELIUM, the stromal endocrine cells, and the totipotent GERM CELLS.",
+      "SlimMapping": "['Cancer', 'Endocrine system disease', 'Urogenital disease (female)']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010051",
+        "standardized_id": "MESH:D010051",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Ovarian Neoplasms",
+        "standardized_name": "Ovarian Neoplasms",
+        "normalized_name": "ovarian neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "ovarian",
+          "ovarian neoplasms",
+          "neoplasms"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the OVARY. These neoplasms can be benign or malignant. They are classified according to the tissue of origin, such as the surface EPITHELIUM, the stromal endocrine cells, and the totipotent GERM CELLS.",
+        "cleaned_description": "Tumors or cancer of the OVARY. These neoplasms can be benign or malignant. They are classified according to the tissue of origin, such as the surface EPITHELIUM, the stromal endocrine cells, and the totipotent GERM CELLS.",
+        "description_summary": "Tumors or cancer of the OVARY.",
+        "key_terms": [],
+        "word_count": 36
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.899663",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011085",
+      "DiseaseName": "Polycystic Ovary Syndrome",
+      "DiseaseDescription": "A complex disorder characterized by infertility, HIRSUTISM; OBESITY; and various menstrual disturbances such as OLIGOMENORRHEA; AMENORRHEA; ANOVULATION. Polycystic ovary syndrome is usually associated with bilateral enlarged ovaries studded with atretic follicles, not with cysts. The term, polycystic ovary, is misleading.",
+      "SlimMapping": "['Cancer', 'Endocrine system disease', 'Urogenital disease (female)']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011085",
+        "standardized_id": "MESH:D011085",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Polycystic Ovary Syndrome",
+        "standardized_name": "Polycystic Ovary Syndrome",
+        "normalized_name": "polycystic ovary syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "polycystic ovary syndrome",
+          "syndrome",
+          "polycystic",
+          "ovary"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A complex disorder characterized by infertility, HIRSUTISM; OBESITY; and various menstrual disturbances such as OLIGOMENORRHEA; AMENORRHEA; ANOVULATION. Polycystic ovary syndrome is usually associated with bilateral enlarged ovaries studded with atretic follicles, not with cysts. The term, polycystic ovary, is misleading.",
+        "cleaned_description": "A complex disorder characterized by infertility, HIRSUTISM; OBESITY; and various menstrual disturbances such as OLIGOMENORRHEA; AMENORRHEA; ANOVULATION. Polycystic ovary syndrome is usually associated with bilateral enlarged ovaries studded with atretic follicles, not with cysts. The term, polycystic ovary, is misleading.",
+        "description_summary": "A complex disorder characterized by infertility, HIRSUTISM; OBESITY; and various menstrual disturbances such as OLIGOMENORRHEA; AMENORRHEA; ANOVULATION.",
+        "key_terms": [],
+        "word_count": 40
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.922254",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

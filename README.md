@@ -9,25 +9,56 @@ It handles:
 
 ## Project Structure
 
-The project has been organized for maximum clarity and ease of use:
-
 ```
-├── train.py               # Main script to train all ML models
-├── evaluate.py            # Comprehensive script to evaluate trained models
-├── simulate.py            # Script to run patient simulations under various scenarios
-├── clinical_app.py        # Clinical decision support interface
-├── checkpoints/           # Trained model weights (.pth files)
-├── results/               # Output plots, evaluation metrics, and curves
-├── notebooks/             # Jupyter notebooks for data exploration and validation
-├── archive/               # Older diagnostic or duplicate evaluation scripts
-├── real_data/             # Core real datasets (drugs, organs, clinical trials)
-├── data/                  # Synthetic or intermediate generated data
-├── src/                   # Core biological, modeling, and simulation logic
-│   ├── models/            # Neural network architectures
-│   ├── biological_system/ # Virtual human components
-│   ├── training/          # Training loop and loss functions
-│   ├── simulation/        # Core simulation engine logic
-│   └── data/              # Data parsing and specification logic
+PK-PD/
+├── apps/                          # Streamlit web interfaces
+│   ├── advanced_dashboard.py      # Primary simulation dashboard (run this)
+│   └── clinical_dashboard.py      # Secondary EHR-style clinical interface
+├── scripts/                       # CLI entry points
+│   ├── train.py                   # Train all neural network models
+│   ├── evaluate.py                # Evaluate trained models
+│   └── simulate.py                # Run drug response simulations
+├── src/                           # Core library
+│   ├── models/                    # Neural network architectures
+│   │   ├── mlp_architectures.py   # Shared MLP classes (SimpleMLP, DeepMLP, ResidualMLP)
+│   │   ├── gnn_pkpd.py            # Graph Neural Network PK-PD model
+│   │   ├── pk_simulator.py        # Pharmacokinetics simulation
+│   │   └── pd_simulator.py        # Pharmacodynamics simulation
+│   ├── biological_system/         # Virtual human physiology
+│   │   ├── organ_network.py       # 12-organ model with blood flow topology
+│   │   └── disease_models.py      # Disease progression and drug-disease interactions
+│   ├── domain/                    # Domain knowledge modules
+│   │   ├── drug_database.py       # Comprehensive drug properties database
+│   │   ├── disease_modifiers.py   # Disease-specific PK-PD parameter adjustments
+│   │   ├── clinical_validation.py # Clinical trial validation framework
+│   │   └── pk_pd_interface.py     # High-level PK-PD model interface
+│   ├── simulation/
+│   │   └── runner.py              # Primary simulation engine
+│   ├── training/
+│   │   └── trainer.py             # Training loop, loss functions, cross-validation
+│   └── data/                      # Data ingestion and preparation pipeline
+│       ├── generators/            # Synthetic data generation
+│       ├── ingestion/             # CSV ingestor and consolidation engine
+│       ├── processors/            # Data transformation
+│       ├── validators/            # Data validation
+│       └── exporters/             # Export utilities
+├── data/                          # All project data
+│   ├── raw/                       # Source CSV datasets (drugs, organs, clinical trials)
+│   └── knowledge/                 # Knowledge base JSON files
+├── checkpoints/                   # Trained model weights (.pth files)
+├── results/                       # All outputs
+│   ├── models/                    # Model performance reports and training data
+│   ├── simulations/               # Simulation result PNGs and JSON outputs
+│   └── ingestion/                 # Data ingestion result files
+├── notebooks/
+│   ├── demos/                     # Interactive demos and working examples
+│   └── production/                # Step-by-step production pipeline notebooks
+├── examples/                      # Runnable code examples
+├── tests/                         # Test suite
+├── archive/                       # Preserved historical files (deprecated)
+├── requirements.txt
+├── README.md
+└── SETUP.md
 ```
 
 ## Installation and Setup
@@ -51,47 +82,53 @@ pip install -r requirements.txt
 ## How to Run
 
 ### 1. Training Models
-To train the neural networks from scratch using the datasets in `real_data/`, run:
+Train neural networks from scratch using the datasets in `data/raw/`:
 ```bash
-python train.py
+python scripts/train.py
 ```
 This script will:
 - Load all required clinical and biological data
 - Setup training for Simple MLP, Deep MLP, and Residual MLP
 - Train models for 50 epochs each
 - Save model checkpoints to `checkpoints/`
-- Output performance comparisons (R², RMSE, MAE) and training curves to `results/`
+- Output performance comparisons (R², RMSE, MAE) and training curves to `results/simulations/`
 
 ### 2. Evaluating Models
-To comprehensively evaluate the complex GNN models, run:
+Evaluate trained MLP models:
 ```bash
-python evaluate.py
+python scripts/evaluate.py
 ```
 This script will:
 - Run forward passes over a test hold-out set
 - Evaluate temporal and component-wise accuracy (PK vs PD separate scores)
-- Emit final error metrics to the console and diagnostic plots to `results/`
+- Emit final error metrics to the console and diagnostic plots to `results/simulations/`
 
 ### 3. Running Simulations
-To simulate drug effects across different virtual populations and dosages, run:
+Simulate drug effects across different virtual populations and dosages:
 ```bash
-python simulate.py
+python scripts/simulate.py
 ```
 This module:
 - Loads the best checkpoint from `checkpoints/`
 - Runs simulated scenarios (young adult, elderly, pediatric, obese) for multiple drugs
 - Generates dose-response curves, time-course predictions, and population-level response estimates
-- Visualizes everything and saves to `results/`
+- Saves visualizations to `results/simulations/`
 
-### 4. Exploring Clinical App
-To interact with a textual simulation interface meant for health practitioners, run:
+### 4. Launching the Dashboard
+To interact with the full simulation dashboard:
 ```bash
-python clinical_app.py
+.\env\Scripts\streamlit run apps/advanced_dashboard.py
+```
+Or for the clinical EHR-style interface:
+```bash
+.\env\Scripts\streamlit run apps/clinical_dashboard.py
 ```
 
 ## Output Locations
-- **Model Checkpoints:** Found in `checkpoints/` as `.pth` files.
-- **Evaluation Plots:** Found in `results/` as `.png` images.
+- **Model Checkpoints:** `checkpoints/` as `.pth` files
+- **Evaluation Plots:** `results/simulations/` as `.png` images
+- **Model Reports:** `results/models/performance_report.txt`
+- **Ingestion Results:** `results/ingestion/`
 
 ## Contact & License
 

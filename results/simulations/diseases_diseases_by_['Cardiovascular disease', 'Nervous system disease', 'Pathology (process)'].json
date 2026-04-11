@@ -1,0 +1,520 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cardiovascular disease', 'Nervous system disease', 'Pathology (process)']",
+    "export_timestamp": "2026-03-28T22:11:35.756222",
+    "total_records": 7
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D020520",
+      "DiseaseName": "Brain Infarction",
+      "DiseaseDescription": "Tissue NECROSIS in any area of the brain, including the CEREBRAL HEMISPHERES, the CEREBELLUM, and the BRAIN STEM. Brain infarction is the result of a cascade of events initiated by inadequate blood flow through the brain that is followed by HYPOXIA and HYPOGLYCEMIA in brain tissue. Damage may be temporary, permanent, selective or pan-necrosis.",
+      "SlimMapping": "['Cardiovascular disease', 'Nervous system disease', 'Pathology (process)']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020520",
+        "standardized_id": "MESH:D020520",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Brain Infarction",
+        "standardized_name": "Brain Infarction",
+        "normalized_name": "brain infarction",
+        "synonyms": [],
+        "search_terms": [
+          "infarction",
+          "brain",
+          "brain infarction"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tissue NECROSIS in any area of the brain, including the CEREBRAL HEMISPHERES, the CEREBELLUM, and the BRAIN STEM. Brain infarction is the result of a cascade of events initiated by inadequate blood flow through the brain that is followed by HYPOXIA and HYPOGLYCEMIA in brain tissue. Damage may be temporary, permanent, selective or pan-necrosis.",
+        "cleaned_description": "Tissue NECROSIS in any area of the brain, including the CEREBRAL HEMISPHERES, the CEREBELLUM, and the BRAIN STEM. Brain infarction is the result of a cascade of events initiated by inadequate blood flow through the brain that is followed by HYPOXIA and HYPOGLYCEMIA in brain tissue. Damage may be temporary, permanent, selective or pan-necrosis.",
+        "description_summary": "Tissue NECROSIS in any area of the brain, including the CEREBRAL HEMISPHERES, the CEREBELLUM, and the BRAIN STEM.",
+        "key_terms": [
+          "necrosis",
+          "NECROSIS",
+          "HYPOGLYCEMIA"
+        ],
+        "word_count": 54
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease",
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease",
+          "Pathology (process)"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease",
+          "Pathology (process)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.406099",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002543",
+      "DiseaseName": "Cerebral Hemorrhage",
+      "DiseaseDescription": "Bleeding into one or both CEREBRAL HEMISPHERES including the BASAL GANGLIA and the CEREBRAL CORTEX. It is often associated with HYPERTENSION and CRANIOCEREBRAL TRAUMA.",
+      "SlimMapping": "['Cardiovascular disease', 'Nervous system disease', 'Pathology (process)']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002543",
+        "standardized_id": "MESH:D002543",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cerebral Hemorrhage",
+        "standardized_name": "Cerebral Hemorrhage",
+        "normalized_name": "cerebral hemorrhage",
+        "synonyms": [],
+        "search_terms": [
+          "cerebral hemorrhage",
+          "cerebral",
+          "hemorrhage"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Bleeding into one or both CEREBRAL HEMISPHERES including the BASAL GANGLIA and the CEREBRAL CORTEX. It is often associated with HYPERTENSION and CRANIOCEREBRAL TRAUMA.",
+        "cleaned_description": "Bleeding into one or both CEREBRAL HEMISPHERES including the BASAL GANGLIA and the CEREBRAL CORTEX. It is often associated with HYPERTENSION and CRANIOCEREBRAL TRAUMA.",
+        "description_summary": "Bleeding into one or both CEREBRAL HEMISPHERES including the BASAL GANGLIA and the CEREBRAL CORTEX.",
+        "key_terms": [],
+        "word_count": 24
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease",
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease",
+          "Pathology (process)"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease",
+          "Pathology (process)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.439614",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002544",
+      "DiseaseName": "Cerebral Infarction",
+      "DiseaseDescription": "The formation of an area of NECROSIS in the CEREBRUM caused by an insufficiency of arterial or venous blood flow. Infarcts of the cerebrum are generally classified by hemisphere (i.e., left vs. right), lobe (e.g., frontal lobe infarction), arterial distribution (e.g., INFARCTION, ANTERIOR CEREBRAL ARTERY), and etiology (e.g., embolic infarction).",
+      "SlimMapping": "['Cardiovascular disease', 'Nervous system disease', 'Pathology (process)']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002544",
+        "standardized_id": "MESH:D002544",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cerebral Infarction",
+        "standardized_name": "Cerebral Infarction",
+        "normalized_name": "cerebral infarction",
+        "synonyms": [],
+        "search_terms": [
+          "cerebral infarction",
+          "infarction",
+          "cerebral"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The formation of an area of NECROSIS in the CEREBRUM caused by an insufficiency of arterial or venous blood flow. Infarcts of the cerebrum are generally classified by hemisphere (i.e., left vs. right), lobe (e.g., frontal lobe infarction), arterial distribution (e.g., INFARCTION, ANTERIOR CEREBRAL ARTERY), and etiology (e.g., embolic infarction).",
+        "cleaned_description": "The formation of an area of NECROSIS in the CEREBRUM caused by an insufficiency of arterial or venous blood flow. Infarcts of the cerebrum are generally classified by hemisphere (i.e., left vs. right), lobe (e.g., frontal lobe infarction), arterial distribution (e.g., INFARCTION, ANTERIOR CEREBRAL ARTERY), and etiology (e.g., embolic infarction).",
+        "description_summary": "The formation of an area of NECROSIS in the CEREBRUM caused by an insufficiency of arterial or venous blood flow.",
+        "key_terms": [
+          "NECROSIS"
+        ],
+        "word_count": 50
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease",
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease",
+          "Pathology (process)"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease",
+          "Pathology (process)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.439955",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020244",
+      "DiseaseName": "Infarction, Middle Cerebral Artery",
+      "DiseaseDescription": "NECROSIS occurring in the MIDDLE CEREBRAL ARTERY distribution system which brings blood to the entire lateral aspects of each CEREBRAL HEMISPHERE. Clinical signs include impaired cognition; APHASIA; AGRAPHIA; weak and numbness in the face and arms, contralaterally or bilaterally depending on the infarction.",
+      "SlimMapping": "['Cardiovascular disease', 'Nervous system disease', 'Pathology (process)']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020244",
+        "standardized_id": "MESH:D020244",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Infarction, Middle Cerebral Artery",
+        "standardized_name": "Infarction, Middle Cerebral Artery",
+        "normalized_name": "infarction middle cerebral artery",
+        "synonyms": [],
+        "search_terms": [
+          "artery",
+          "cerebral",
+          "infarction,",
+          "middle",
+          "infarction, middle cerebral artery"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "NECROSIS occurring in the MIDDLE CEREBRAL ARTERY distribution system which brings blood to the entire lateral aspects of each CEREBRAL HEMISPHERE. Clinical signs include impaired cognition; APHASIA; AGRAPHIA; weak and numbness in the face and arms, contralaterally or bilaterally depending on the infarction.",
+        "cleaned_description": "NECROSIS occurring in the MIDDLE CEREBRAL ARTERY distribution system which brings blood to the entire lateral aspects of each CEREBRAL HEMISPHERE. Clinical signs include impaired cognition; APHASIA; AGRAPHIA; weak and numbness in the face and arms, contralaterally or bilaterally depending on the infarction.",
+        "description_summary": "NECROSIS occurring in the MIDDLE CEREBRAL ARTERY distribution system which brings blood to the entire lateral aspects of each CEREBRAL HEMISPHERE.",
+        "key_terms": [
+          "NECROSIS"
+        ],
+        "word_count": 43
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease",
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease",
+          "Pathology (process)"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease",
+          "Pathology (process)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.787133",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020300",
+      "DiseaseName": "Intracranial Hemorrhages",
+      "DiseaseDescription": "Bleeding within the SKULL, including hemorrhages in the brain and the three membranes of MENINGES. The escape of blood often leads to the formation of HEMATOMA in the cranial epidural, subdural, and subarachnoid spaces.",
+      "SlimMapping": "['Cardiovascular disease', 'Nervous system disease', 'Pathology (process)']",
+      "PathwayNames": "Vitamin digestion and absorption",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020300",
+        "standardized_id": "MESH:D020300",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Intracranial Hemorrhages",
+        "standardized_name": "Intracranial Hemorrhages",
+        "normalized_name": "intracranial hemorrhages",
+        "synonyms": [],
+        "search_terms": [
+          "hemorrhages",
+          "intracranial",
+          "intracranial hemorrhages"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Bleeding within the SKULL, including hemorrhages in the brain and the three membranes of MENINGES. The escape of blood often leads to the formation of HEMATOMA in the cranial epidural, subdural, and subarachnoid spaces.",
+        "cleaned_description": "Bleeding within the SKULL, including hemorrhages in the brain and the three membranes of MENINGES. The escape of blood often leads to the formation of HEMATOMA in the cranial epidural, subdural, and subarachnoid spaces.",
+        "description_summary": "Bleeding within the SKULL, including hemorrhages in the brain and the three membranes of MENINGES.",
+        "key_terms": [],
+        "word_count": 34
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease",
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease",
+          "Pathology (process)"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease",
+          "Pathology (process)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamin digestion and absorption",
+        "pathway_list": [
+          "Vitamin digestion and absorption"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.792008",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014854",
+      "DiseaseName": "Lateral Medullary Syndrome",
+      "DiseaseDescription": "INFARCTION of the dorsolateral aspect of MEDULLA OBLONGATA in the BRAIN STEM. It is caused by occlusion of the VERTEBRAL ARTERY and/or the posterior inferior cerebellar artery. Clinical manifestations vary with the size of infarction, but may include loss of pain and temperature sensation in the ipsilateral face and contralateral body below the chin; ipsilateral HORNER SYNDROME; ipsilateral ATAXIA; DYSARTHRIA; VERTIGO; nausea, hiccup; dysphagia; and VOCAL CORD PARALYSIS. (From Adams et al., Principles of Neurology, 6th ed, p801)",
+      "SlimMapping": "['Cardiovascular disease', 'Nervous system disease', 'Pathology (process)']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014854",
+        "standardized_id": "MESH:D014854",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Lateral Medullary Syndrome",
+        "standardized_name": "Lateral Medullary Syndrome",
+        "normalized_name": "lateral medullary syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "lateral medullary syndrome",
+          "lateral",
+          "medullary",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "INFARCTION of the dorsolateral aspect of MEDULLA OBLONGATA in the BRAIN STEM. It is caused by occlusion of the VERTEBRAL ARTERY and/or the posterior inferior cerebellar artery. Clinical manifestations vary with the size of infarction, but may include loss of pain and temperature sensation in the ipsilateral face and contralateral body below the chin; ipsilateral HORNER SYNDROME; ipsilateral ATAXIA; DYSARTHRIA; VERTIGO; nausea, hiccup; dysphagia; and VOCAL CORD PARALYSIS. (From Adams et al., Principles of Neurology, 6th ed, p801)",
+        "cleaned_description": "INFARCTION of the dorsolateral aspect of MEDULLA OBLONGATA in the BRAIN STEM. It is caused by occlusion of the VERTEBRAL ARTERY and/or the posterior inferior cerebellar artery. Clinical manifestations vary with the size of infarction, but may include loss of pain and temperature sensation in the ipsilateral face and contralateral body below the chin; ipsilateral HORNER SYNDROME; ipsilateral ATAXIA; DYSARTHRIA; VERTIGO; nausea, hiccup; dysphagia; and VOCAL CORD PARALYSIS. (From Adams et al., Principles of Neurology, 6th ed, p801)",
+        "description_summary": "INFARCTION of the dorsolateral aspect of MEDULLA OBLONGATA in the BRAIN STEM.",
+        "key_terms": [],
+        "word_count": 78
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease",
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease",
+          "Pathology (process)"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease",
+          "Pathology (process)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.804198",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013345",
+      "DiseaseName": "Subarachnoid Hemorrhage",
+      "DiseaseDescription": "Bleeding into the intracranial or spinal SUBARACHNOID SPACE, most resulting from INTRACRANIAL ANEURYSM rupture. It can occur after traumatic injuries (SUBARACHNOID HEMORRHAGE, TRAUMATIC). Clinical features include HEADACHE; NAUSEA; VOMITING, nuchal rigidity, variable neurological deficits and reduced mental status.",
+      "SlimMapping": "['Cardiovascular disease', 'Nervous system disease', 'Pathology (process)']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013345",
+        "standardized_id": "MESH:D013345",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Subarachnoid Hemorrhage",
+        "standardized_name": "Subarachnoid Hemorrhage",
+        "normalized_name": "subarachnoid hemorrhage",
+        "synonyms": [],
+        "search_terms": [
+          "subarachnoid hemorrhage",
+          "hemorrhage",
+          "subarachnoid"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Bleeding into the intracranial or spinal SUBARACHNOID SPACE, most resulting from INTRACRANIAL ANEURYSM rupture. It can occur after traumatic injuries (SUBARACHNOID HEMORRHAGE, TRAUMATIC). Clinical features include HEADACHE; NAUSEA; VOMITING, nuchal rigidity, variable neurological deficits and reduced mental status.",
+        "cleaned_description": "Bleeding into the intracranial or spinal SUBARACHNOID SPACE, most resulting from INTRACRANIAL ANEURYSM rupture. It can occur after traumatic injuries (SUBARACHNOID HEMORRHAGE, TRAUMATIC). Clinical features include HEADACHE; NAUSEA; VOMITING, nuchal rigidity, variable neurological deficits and reduced mental status.",
+        "description_summary": "Bleeding into the intracranial or spinal SUBARACHNOID SPACE, most resulting from INTRACRANIAL ANEURYSM rupture.",
+        "key_terms": [],
+        "word_count": 38
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease",
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease",
+          "Pathology (process)"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Nervous system disease",
+          "Pathology (process)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.981727",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

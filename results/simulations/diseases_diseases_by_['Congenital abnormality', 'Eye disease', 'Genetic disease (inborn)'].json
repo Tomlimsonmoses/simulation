@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Congenital abnormality', 'Eye disease', 'Genetic disease (inborn)']",
+    "export_timestamp": "2026-03-28T22:11:36.290674",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D015792",
+      "DiseaseName": "Retinal Dysplasia",
+      "DiseaseDescription": "Congenital, often bilateral, retinal abnormality characterized by the arrangement of outer nuclear retinal cells in a palisading or radiating pattern surrounding a central ocular space. This disorder is sometimes hereditary.",
+      "SlimMapping": "['Congenital abnormality', 'Eye disease', 'Genetic disease (inborn)']",
+      "PathwayNames": "Transport of the SLBP Dependant Mature mRNA",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D015792",
+        "standardized_id": "MESH:D015792",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Retinal Dysplasia",
+        "standardized_name": "Retinal Dysplasia",
+        "normalized_name": "retinal dysplasia",
+        "synonyms": [],
+        "search_terms": [
+          "dysplasia",
+          "retinal dysplasia",
+          "retinal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Congenital, often bilateral, retinal abnormality characterized by the arrangement of outer nuclear retinal cells in a palisading or radiating pattern surrounding a central ocular space. This disorder is sometimes hereditary.",
+        "cleaned_description": "Congenital, often bilateral, retinal abnormality characterized by the arrangement of outer nuclear retinal cells in a palisading or radiating pattern surrounding a central ocular space. This disorder is sometimes hereditary.",
+        "description_summary": "Congenital, often bilateral, retinal abnormality characterized by the arrangement of outer nuclear retinal cells in a palisading or radiating pattern surrounding a central ocular space.",
+        "key_terms": [],
+        "word_count": 30
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Eye disease",
+          "Genetic disease (inborn)"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Eye disease",
+          "Genetic disease (inborn)"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Eye disease",
+          "Genetic disease (inborn)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of the SLBP Dependant Mature mRNA",
+        "pathway_list": [
+          "Transport of the SLBP Dependant Mature mRNA"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.954152",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

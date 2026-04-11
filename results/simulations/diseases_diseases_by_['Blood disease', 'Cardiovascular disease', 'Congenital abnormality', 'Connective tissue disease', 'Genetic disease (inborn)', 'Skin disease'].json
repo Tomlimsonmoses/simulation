@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Blood disease', 'Cardiovascular disease', 'Congenital abnormality', 'Connective tissue disease', 'Genetic disease (inborn)', 'Skin disease']",
+    "export_timestamp": "2026-03-28T22:11:36.279440",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D011561",
+      "DiseaseName": "Pseudoxanthoma Elasticum",
+      "DiseaseDescription": "An inherited disorder of connective tissue with extensive degeneration and calcification of ELASTIC TISSUE primarily in the skin, eye, and vasculature. At least two forms exist, autosomal recessive and autosomal dominant. This disorder is caused by mutations of one of the ATP-BINDING CASSETTE TRANSPORTERS. Patients are predisposed to MYOCARDIAL INFARCTION and GASTROINTESTINAL HEMORRHAGE.",
+      "SlimMapping": "['Blood disease', 'Cardiovascular disease', 'Congenital abnormality', 'Connective tissue disease', 'Genetic disease (inborn)', 'Skin disease']",
+      "PathwayNames": "Transmembrane transport of small molecules",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011561",
+        "standardized_id": "MESH:D011561",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pseudoxanthoma Elasticum",
+        "standardized_name": "Pseudoxanthoma Elasticum",
+        "normalized_name": "pseudoxanthoma elasticum",
+        "synonyms": [],
+        "search_terms": [
+          "pseudoxanthoma elasticum",
+          "pseudoxanthoma",
+          "elasticum"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An inherited disorder of connective tissue with extensive degeneration and calcification of ELASTIC TISSUE primarily in the skin, eye, and vasculature. At least two forms exist, autosomal recessive and autosomal dominant. This disorder is caused by mutations of one of the ATP-BINDING CASSETTE TRANSPORTERS. Patients are predisposed to MYOCARDIAL INFARCTION and GASTROINTESTINAL HEMORRHAGE.",
+        "cleaned_description": "An inherited disorder of connective tissue with extensive degeneration and calcification of ELASTIC TISSUE primarily in the skin, eye, and vasculature. At least two forms exist, autosomal recessive and autosomal dominant. This disorder is caused by mutations of one of the ATP-BINDING CASSETTE TRANSPORTERS. Patients are predisposed to MYOCARDIAL INFARCTION and GASTROINTESTINAL HEMORRHAGE.",
+        "description_summary": "An inherited disorder of connective tissue with extensive degeneration and calcification of ELASTIC TISSUE primarily in the skin, eye, and vasculature.",
+        "key_terms": [],
+        "word_count": 53
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Cardiovascular disease",
+          "Congenital abnormality",
+          "Connective tissue disease",
+          "Genetic disease (inborn)",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "broad_categories": [
+          "cardiovascular",
+          "genetic"
+        ],
+        "all_categories": [
+          "Blood disease",
+          "Cardiovascular disease",
+          "Congenital abnormality",
+          "Connective tissue disease",
+          "Genetic disease (inborn)",
+          "Skin disease"
+        ],
+        "category_count": 6
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmembrane transport of small molecules",
+        "pathway_list": [
+          "Transmembrane transport of small molecules"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.937896",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

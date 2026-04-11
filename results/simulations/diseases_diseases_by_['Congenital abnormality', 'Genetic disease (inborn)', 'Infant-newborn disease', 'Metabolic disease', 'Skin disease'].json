@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Congenital abnormality', 'Genetic disease (inborn)', 'Infant-newborn disease', 'Metabolic disease', 'Skin disease']",
+    "export_timestamp": "2026-03-28T22:11:36.112478",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D016114",
+      "DiseaseName": "Ichthyosis, X-Linked",
+      "DiseaseDescription": "Chronic form of ichthyosis that is inherited as a sex-linked recessive trait carried on the X-chromosome and transmitted to the male offspring. It is characterized by severe scaling, especially on the extremities, and is associated with steroid sulfatase deficiency.",
+      "SlimMapping": "['Congenital abnormality', 'Genetic disease (inborn)', 'Infant-newborn disease', 'Metabolic disease', 'Skin disease']",
+      "PathwayNames": "The activation of arylsulfatases",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D016114",
+        "standardized_id": "MESH:D016114",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Ichthyosis, X-Linked",
+        "standardized_name": "Ichthyosis, X-Linked",
+        "normalized_name": "ichthyosis x-linked",
+        "synonyms": [],
+        "search_terms": [
+          "ichthyosis, x-linked",
+          "x-linked",
+          "ichthyosis,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Chronic form of ichthyosis that is inherited as a sex-linked recessive trait carried on the X-chromosome and transmitted to the male offspring. It is characterized by severe scaling, especially on the extremities, and is associated with steroid sulfatase deficiency.",
+        "cleaned_description": "Chronic form of ichthyosis that is inherited as a sex-linked recessive trait carried on the X-chromosome and transmitted to the male offspring. It is characterized by severe scaling, especially on the extremities, and is associated with steroid sulfatase deficiency.",
+        "description_summary": "Chronic form of ichthyosis that is inherited as a sex-linked recessive trait carried on the X-chromosome and transmitted to the male offspring.",
+        "key_terms": [
+          "ichthyosis"
+        ],
+        "word_count": 39
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Infant-newborn disease",
+          "Metabolic disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Infant-newborn disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Infant-newborn disease",
+          "Metabolic disease",
+          "Skin disease"
+        ],
+        "category_count": 5
+      },
+      "processed_pathways": {
+        "raw_pathways": "The activation of arylsulfatases",
+        "pathway_list": [
+          "The activation of arylsulfatases"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.781222",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D016111",
+      "DiseaseName": "Sjogren-Larsson Syndrome",
+      "DiseaseDescription": "An autosomal recessive neurocutaneous disorder characterized by severe ichthyosis MENTAL RETARDATION; SPASTIC PARAPLEGIA; and congenital ICHTHYOSIS. It is caused by mutation of gene encoding microsomal fatty ALDEHYDE DEHYDROGENASE leading to defect in fatty alcohol metabolism.",
+      "SlimMapping": "['Congenital abnormality', 'Genetic disease (inborn)', 'Infant-newborn disease', 'Metabolic disease', 'Skin disease']",
+      "PathwayNames": "Valine, leucine and isoleucine degradation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D016111",
+        "standardized_id": "MESH:D016111",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Sjogren-Larsson Syndrome",
+        "standardized_name": "Sjogren-Larsson Syndrome",
+        "normalized_name": "sjogren-larsson syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "syndrome",
+          "sjogren-larsson syndrome",
+          "sjogren-larsson"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An autosomal recessive neurocutaneous disorder characterized by severe ichthyosis MENTAL RETARDATION; SPASTIC PARAPLEGIA; and congenital ICHTHYOSIS. It is caused by mutation of gene encoding microsomal fatty ALDEHYDE DEHYDROGENASE leading to defect in fatty alcohol metabolism.",
+        "cleaned_description": "An autosomal recessive neurocutaneous disorder characterized by severe ichthyosis MENTAL RETARDATION; SPASTIC PARAPLEGIA; and congenital ICHTHYOSIS. It is caused by mutation of gene encoding microsomal fatty ALDEHYDE DEHYDROGENASE leading to defect in fatty alcohol metabolism.",
+        "description_summary": "An autosomal recessive neurocutaneous disorder characterized by severe ichthyosis MENTAL RETARDATION; SPASTIC PARAPLEGIA; and congenital ICHTHYOSIS.",
+        "key_terms": [
+          "ICHTHYOSIS",
+          "ichthyosis"
+        ],
+        "word_count": 35
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Infant-newborn disease",
+          "Metabolic disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Infant-newborn disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Infant-newborn disease",
+          "Metabolic disease",
+          "Skin disease"
+        ],
+        "category_count": 5
+      },
+      "processed_pathways": {
+        "raw_pathways": "Valine, leucine and isoleucine degradation",
+        "pathway_list": [
+          "leucine and isoleucine degradation",
+          "Valine"
+        ],
+        "pathway_count": 2,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.965350",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

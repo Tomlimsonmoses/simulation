@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Blood disease', 'Immune system disease', 'Pathology (process)', 'Signs and symptoms']",
+    "export_timestamp": "2026-03-28T22:11:36.283003",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D016553",
+      "DiseaseName": "Purpura, Thrombocytopenic, Idiopathic",
+      "DiseaseDescription": "Thrombocytopenia occurring in the absence of toxic exposure or a disease associated with decreased platelets. It is mediated by immune mechanisms, in most cases IMMUNOGLOBULIN G autoantibodies which attach to platelets and subsequently undergo destruction by macrophages. The disease is seen in acute (affecting children) and chronic (adult) forms.",
+      "SlimMapping": "['Blood disease', 'Immune system disease', 'Pathology (process)', 'Signs and symptoms']",
+      "PathwayNames": "Post-translational protein modification",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D016553",
+        "standardized_id": "MESH:D016553",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Purpura, Thrombocytopenic, Idiopathic",
+        "standardized_name": "Purpura, Thrombocytopenic, Idiopathic",
+        "normalized_name": "purpura thrombocytopenic idiopathic",
+        "synonyms": [],
+        "search_terms": [
+          "purpura,",
+          "purpura, thrombocytopenic, idiopathic",
+          "thrombocytopenic,",
+          "idiopathic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Thrombocytopenia occurring in the absence of toxic exposure or a disease associated with decreased platelets. It is mediated by immune mechanisms, in most cases IMMUNOGLOBULIN G autoantibodies which attach to platelets and subsequently undergo destruction by macrophages. The disease is seen in acute (affecting children) and chronic (adult) forms.",
+        "cleaned_description": "Thrombocytopenia occurring in the absence of toxic exposure or a disease associated with decreased platelets. It is mediated by immune mechanisms, in most cases IMMUNOGLOBULIN G autoantibodies which attach to platelets and subsequently undergo destruction by macrophages. The disease is seen in acute (affecting children) and chronic (adult) forms.",
+        "description_summary": "Thrombocytopenia occurring in the absence of toxic exposure or a disease associated with decreased platelets.",
+        "key_terms": [],
+        "word_count": 49
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Immune system disease",
+          "Pathology (process)",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Immune system disease",
+          "Pathology (process)"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Blood disease",
+          "Immune system disease",
+          "Pathology (process)",
+          "Signs and symptoms"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Post-translational protein modification",
+        "pathway_list": [
+          "Post-translational protein modification"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.942395",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

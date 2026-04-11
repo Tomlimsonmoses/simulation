@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Eye disease', 'Genetic disease (inborn)', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:35.966711",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D004370",
+      "DiseaseName": "Duane Retraction Syndrome",
+      "DiseaseDescription": "A syndrome characterized by marked limitation of abduction of the eye, variable limitation of adduction and retraction of the globe, and narrowing of the palpebral fissure on attempted adduction. The condition is caused by aberrant innervation of the lateral rectus by fibers of the OCULOMOTOR NERVE.",
+      "SlimMapping": "['Eye disease', 'Genetic disease (inborn)', 'Nervous system disease']",
+      "PathwayNames": "Transcriptional regulation of pluripotent stem cells",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004370",
+        "standardized_id": "MESH:D004370",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Duane Retraction Syndrome",
+        "standardized_name": "Duane Retraction Syndrome",
+        "normalized_name": "duane retraction syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "duane",
+          "duane retraction syndrome",
+          "retraction",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A syndrome characterized by marked limitation of abduction of the eye, variable limitation of adduction and retraction of the globe, and narrowing of the palpebral fissure on attempted adduction. The condition is caused by aberrant innervation of the lateral rectus by fibers of the OCULOMOTOR NERVE.",
+        "cleaned_description": "A syndrome characterized by marked limitation of abduction of the eye, variable limitation of adduction and retraction of the globe, and narrowing of the palpebral fissure on attempted adduction. The condition is caused by aberrant innervation of the lateral rectus by fibers of the OCULOMOTOR NERVE.",
+        "description_summary": "A syndrome characterized by marked limitation of abduction of the eye, variable limitation of adduction and retraction of the globe, and narrowing of the palpebral fissure on attempted adduction.",
+        "key_terms": [],
+        "word_count": 46
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Eye disease",
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Eye disease",
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Eye disease",
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional regulation of pluripotent stem cells",
+        "pathway_list": [
+          "Transcriptional regulation of pluripotent stem cells"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional regulation of pluripotent stem cells"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.483676",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

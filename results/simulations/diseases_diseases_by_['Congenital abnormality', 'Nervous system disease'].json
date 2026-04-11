@@ -1,0 +1,558 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Congenital abnormality', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:35.528435",
+    "total_records": 8
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000757",
+      "DiseaseName": "Anencephaly",
+      "DiseaseDescription": "A malformation of the nervous system caused by failure of the anterior neuropore to close. Infants are born with intact spinal cords, cerebellums, and brainstems, but lack formation of neural structures above this level. The skull is only partially formed but the eyes are usually normal. This condition may be associated with folate deficiency. Affected infants are only capable of primitive (brain stem) reflexes and usually do not survive for more than two weeks. (From Menkes, Textbook of Child Neurology, 5th ed, p247)",
+      "SlimMapping": "['Congenital abnormality', 'Nervous system disease']",
+      "PathwayNames": "Immune System",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000757",
+        "standardized_id": "MESH:D000757",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Anencephaly",
+        "standardized_name": "Anencephaly",
+        "normalized_name": "anencephaly",
+        "synonyms": [],
+        "search_terms": [
+          "anencephaly"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A malformation of the nervous system caused by failure of the anterior neuropore to close. Infants are born with intact spinal cords, cerebellums, and brainstems, but lack formation of neural structures above this level. The skull is only partially formed but the eyes are usually normal. This condition may be associated with folate deficiency. Affected infants are only capable of primitive (brain stem) reflexes and usually do not survive for more than two weeks. (From Menkes, Textbook of Child Neurology, 5th ed, p247)",
+        "cleaned_description": "A malformation of the nervous system caused by failure of the anterior neuropore to close. Infants are born with intact spinal cords, cerebellums, and brainstems, but lack formation of neural structures above this level. The skull is only partially formed but the eyes are usually normal. This condition may be associated with folate deficiency. Affected infants are only capable of primitive (brain stem) reflexes and usually do not survive for more than two weeks. (From Menkes, Textbook of Child Neurology, 5th ed, p247)",
+        "description_summary": "A malformation of the nervous system caused by failure of the anterior neuropore to close.",
+        "key_terms": [],
+        "word_count": 83
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Immune System",
+        "pathway_list": [
+          "Immune System"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.364545",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001139",
+      "DiseaseName": "Arnold-Chiari Malformation",
+      "DiseaseDescription": "A group of congenital malformations involving the brainstem, cerebellum, upper spinal cord, and surrounding bony structures. Type II is the most common, and features compression of the medulla and cerebellar tonsils into the upper cervical spinal canal and an associated MENINGOMYELOCELE. Type I features similar, but less severe malformations and is without an associated meningomyelocele. Type III has the features of type II with an additional herniation of the entire cerebellum through the bony defect involving the foramen magnum, forming an ENCEPHALOCELE. Type IV is a form a cerebellar hypoplasia. Clinical manifestations of types I-III include TORTICOLLIS; opisthotonus; HEADACHE; VERTIGO; VOCAL CORD PARALYSIS; APNEA; NYSTAGMUS, CONGENITAL; swallowing difficulties; and ATAXIA. (From Menkes, Textbook of Child Neurology, 5th ed, p261; Davis, Textbook of Neuropathology, 2nd ed, pp236-46)",
+      "SlimMapping": "['Congenital abnormality', 'Nervous system disease']",
+      "PathwayNames": "Oncogene Induced Senescence",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001139",
+        "standardized_id": "MESH:D001139",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Arnold-Chiari Malformation",
+        "standardized_name": "Arnold-Chiari Malformation",
+        "normalized_name": "arnold-chiari malformation",
+        "synonyms": [],
+        "search_terms": [
+          "arnold-chiari",
+          "malformation",
+          "arnold-chiari malformation"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A group of congenital malformations involving the brainstem, cerebellum, upper spinal cord, and surrounding bony structures. Type II is the most common, and features compression of the medulla and cerebellar tonsils into the upper cervical spinal canal and an associated MENINGOMYELOCELE. Type I features similar, but less severe malformations and is without an associated meningomyelocele. Type III has the features of type II with an additional herniation of the entire cerebellum through the bony defect involving the foramen magnum, forming an ENCEPHALOCELE. Type IV is a form a cerebellar hypoplasia. Clinical manifestations of types I-III include TORTICOLLIS; opisthotonus; HEADACHE; VERTIGO; VOCAL CORD PARALYSIS; APNEA; NYSTAGMUS, CONGENITAL; swallowing difficulties; and ATAXIA. (From Menkes, Textbook of Child Neurology, 5th ed, p261; Davis, Textbook of Neuropathology, 2nd ed, pp236-46)",
+        "cleaned_description": "A group of congenital malformations involving the brainstem, cerebellum, upper spinal cord, and surrounding bony structures. Type II is the most common, and features compression of the medulla and cerebellar tonsils into the upper cervical spinal canal and an associated MENINGOMYELOCELE. Type I features similar, but less severe malformations and is without an associated meningomyelocele. Type III has the features of type II with an additional herniation of the entire cerebellum through the bony defect involving the foramen magnum, forming an ENCEPHALOCELE. Type IV is a form a cerebellar hypoplasia. Clinical manifestations of types I-III include TORTICOLLIS; opisthotonus; HEADACHE; VERTIGO; VOCAL CORD PARALYSIS; APNEA; NYSTAGMUS, CONGENITAL; swallowing difficulties; and ATAXIA. (From Menkes, Textbook of Child Neurology, 5th ed, p261; Davis, Textbook of Neuropathology, 2nd ed, pp236-46)",
+        "description_summary": "A group of congenital malformations involving the brainstem, cerebellum, upper spinal cord, and surrounding bony structures.",
+        "key_terms": [],
+        "word_count": 126
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Oncogene Induced Senescence",
+        "pathway_list": [
+          "Oncogene Induced Senescence"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.373289",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D054220",
+      "DiseaseName": "Malformations of Cortical Development",
+      "DiseaseDescription": "Abnormalities in the development of the CEREBRAL CORTEX. These include malformations arising from abnormal neuronal and glial CELL PROLIFERATION or APOPTOSIS (Group I); abnormal neuronal migration (Group II); and abnormal establishment of cortical organization (Group III). Many INBORN METABOLIC BRAIN DISORDERS affecting CNS formation are often associated with cortical malformations. They are common causes of EPILEPSY and developmental delay.",
+      "SlimMapping": "['Congenital abnormality', 'Nervous system disease']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D054220",
+        "standardized_id": "MESH:D054220",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Malformations of Cortical Development",
+        "standardized_name": "Malformations of Cortical Development",
+        "normalized_name": "malformations of cortical development",
+        "synonyms": [],
+        "search_terms": [
+          "malformations of cortical development",
+          "development",
+          "cortical",
+          "malformations"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormalities in the development of the CEREBRAL CORTEX. These include malformations arising from abnormal neuronal and glial CELL PROLIFERATION or APOPTOSIS (Group I); abnormal neuronal migration (Group II); and abnormal establishment of cortical organization (Group III). Many INBORN METABOLIC BRAIN DISORDERS affecting CNS formation are often associated with cortical malformations. They are common causes of EPILEPSY and developmental delay.",
+        "cleaned_description": "Abnormalities in the development of the CEREBRAL CORTEX. These include malformations arising from abnormal neuronal and glial CELL PROLIFERATION or APOPTOSIS (Group I); abnormal neuronal migration (Group II); and abnormal establishment of cortical organization (Group III). Many INBORN METABOLIC BRAIN DISORDERS affecting CNS formation are often associated with cortical malformations. They are common causes of EPILEPSY and developmental delay.",
+        "description_summary": "Abnormalities in the development of the CEREBRAL CORTEX.",
+        "key_terms": [
+          "APOPTOSIS"
+        ],
+        "word_count": 59
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.836737",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008591",
+      "DiseaseName": "Meningomyelocele",
+      "DiseaseDescription": "Congenital, or rarely acquired, herniation of meningeal and spinal cord tissue through a bony defect in the vertebral column. The majority of these defects occur in the lumbosacral region. Clinical features include PARAPLEGIA, loss of sensation in the lower body, and incontinence. This condition may be associated with the ARNOLD-CHIARI MALFORMATION and HYDROCEPHALUS. (From Joynt, Clinical Neurology, 1992, Ch55, pp35-6)",
+      "SlimMapping": "['Congenital abnormality', 'Nervous system disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008591",
+        "standardized_id": "MESH:D008591",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Meningomyelocele",
+        "standardized_name": "Meningomyelocele",
+        "normalized_name": "meningomyelocele",
+        "synonyms": [],
+        "search_terms": [
+          "meningomyelocele"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Congenital, or rarely acquired, herniation of meningeal and spinal cord tissue through a bony defect in the vertebral column. The majority of these defects occur in the lumbosacral region. Clinical features include PARAPLEGIA, loss of sensation in the lower body, and incontinence. This condition may be associated with the ARNOLD-CHIARI MALFORMATION and HYDROCEPHALUS. (From Joynt, Clinical Neurology, 1992, Ch55, pp35-6)",
+        "cleaned_description": "Congenital, or rarely acquired, herniation of meningeal and spinal cord tissue through a bony defect in the vertebral column. The majority of these defects occur in the lumbosacral region. Clinical features include PARAPLEGIA, loss of sensation in the lower body, and incontinence. This condition may be associated with the ARNOLD-CHIARI MALFORMATION and HYDROCEPHALUS. (From Joynt, Clinical Neurology, 1992, Ch55, pp35-6)",
+        "description_summary": "Congenital, or rarely acquired, herniation of meningeal and spinal cord tissue through a bony defect in the vertebral column.",
+        "key_terms": [],
+        "word_count": 60
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.844614",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009421",
+      "DiseaseName": "Nervous System Malformations",
+      "DiseaseDescription": "Structural abnormalities of the central or peripheral nervous system resulting primarily from defects of embryogenesis.",
+      "SlimMapping": "['Congenital abnormality', 'Nervous system disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009421",
+        "standardized_id": "MESH:D009421",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Nervous System Malformations",
+        "standardized_name": "Nervous System Malformations",
+        "normalized_name": "nervous system malformations",
+        "synonyms": [],
+        "search_terms": [
+          "malformations",
+          "nervous",
+          "nervous system malformations",
+          "system"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Structural abnormalities of the central or peripheral nervous system resulting primarily from defects of embryogenesis.",
+        "cleaned_description": "Structural abnormalities of the central or peripheral nervous system resulting primarily from defects of embryogenesis.",
+        "description_summary": "Structural abnormalities of the central or peripheral nervous system resulting primarily from defects of embryogenesis.",
+        "key_terms": [],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.878551",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009436",
+      "DiseaseName": "Neural Tube Defects",
+      "DiseaseDescription": "Congenital malformations of the central nervous system and adjacent structures related to defective neural tube closure during the first trimester of pregnancy generally occurring between days 18-29 of gestation. Ectodermal and mesodermal malformations (mainly involving the skull and vertebrae) may occur as a result of defects of neural tube closure. (From Joynt, Clinical Neurology, 1992, Ch55, pp31-41)",
+      "SlimMapping": "['Congenital abnormality', 'Nervous system disease']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009436",
+        "standardized_id": "MESH:D009436",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Neural Tube Defects",
+        "standardized_name": "Neural Tube Defects",
+        "normalized_name": "neural tube defects",
+        "synonyms": [],
+        "search_terms": [
+          "tube",
+          "defects",
+          "neural tube defects",
+          "neural"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Congenital malformations of the central nervous system and adjacent structures related to defective neural tube closure during the first trimester of pregnancy generally occurring between days 18-29 of gestation. Ectodermal and mesodermal malformations (mainly involving the skull and vertebrae) may occur as a result of defects of neural tube closure. (From Joynt, Clinical Neurology, 1992, Ch55, pp31-41)",
+        "cleaned_description": "Congenital malformations of the central nervous system and adjacent structures related to defective neural tube closure during the first trimester of pregnancy generally occurring between days 18-29 of gestation. Ectodermal and mesodermal malformations (mainly involving the skull and vertebrae) may occur as a result of defects of neural tube closure. (From Joynt, Clinical Neurology, 1992, Ch55, pp31-41)",
+        "description_summary": "Congenital malformations of the central nervous system and adjacent structures related to defective neural tube closure during the first trimester of pregnancy generally occurring between days 18-29 of gestation.",
+        "key_terms": [],
+        "word_count": 57
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.879423",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D016137",
+      "DiseaseName": "Spina Bifida Cystica",
+      "DiseaseDescription": "A form of spinal dysraphism associated with a protruding cyst made up of either meninges (i.e., a MENINGOCELE) or meninges in combination with spinal cord tissue (i.e., a MENINGOMYELOCELE). These lesions are frequently associated with spinal cord dysfunction, HYDROCEPHALUS, and SYRINGOMYELIA. (From Davis et al., Textbook of Neuropathology, 2nd ed, pp224-5)",
+      "SlimMapping": "['Congenital abnormality', 'Nervous system disease']",
+      "PathwayNames": "Transmission across Chemical Synapses",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D016137",
+        "standardized_id": "MESH:D016137",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Spina Bifida Cystica",
+        "standardized_name": "Spina Bifida Cystica",
+        "normalized_name": "spina bifida cystica",
+        "synonyms": [],
+        "search_terms": [
+          "spina bifida cystica",
+          "bifida",
+          "cystica",
+          "spina"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A form of spinal dysraphism associated with a protruding cyst made up of either meninges (i.e., a MENINGOCELE) or meninges in combination with spinal cord tissue (i.e., a MENINGOMYELOCELE). These lesions are frequently associated with spinal cord dysfunction, HYDROCEPHALUS, and SYRINGOMYELIA. (From Davis et al., Textbook of Neuropathology, 2nd ed, pp224-5)",
+        "cleaned_description": "A form of spinal dysraphism associated with a protruding cyst made up of either meninges (i.e., a MENINGOCELE) or meninges in combination with spinal cord tissue (i.e., a MENINGOMYELOCELE). These lesions are frequently associated with spinal cord dysfunction, HYDROCEPHALUS, and SYRINGOMYELIA. (From Davis et al., Textbook of Neuropathology, 2nd ed, pp224-5)",
+        "description_summary": "A form of spinal dysraphism associated with a protruding cyst made up of either meninges (i.",
+        "key_terms": [],
+        "word_count": 51
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmission across Chemical Synapses",
+        "pathway_list": [
+          "Transmission across Chemical Synapses"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.973709",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D016135",
+      "DiseaseName": "Spinal Dysraphism",
+      "DiseaseDescription": "Congenital defects of closure of one or more vertebral arches, which may be associated with malformations of the spinal cord, nerve roots, congenital fibrous bands, lipomas, and congenital cysts. These malformations range from mild (e.g., SPINA BIFIDA OCCULTA) to severe, including rachischisis where there is complete failure of neural tube and spinal cord fusion, resulting in exposure of the spinal cord at the surface. Spinal dysraphism includes all forms of spina bifida. The open form is called SPINA BIFIDA CYSTICA and the closed form is SPINA BIFIDA OCCULTA. (From Joynt, Clinical Neurology, 1992, Ch55, p34)",
+      "SlimMapping": "['Congenital abnormality', 'Nervous system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D016135",
+        "standardized_id": "MESH:D016135",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Spinal Dysraphism",
+        "standardized_name": "Spinal Dysraphism",
+        "normalized_name": "spinal dysraphism",
+        "synonyms": [],
+        "search_terms": [
+          "dysraphism",
+          "spinal dysraphism",
+          "spinal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Congenital defects of closure of one or more vertebral arches, which may be associated with malformations of the spinal cord, nerve roots, congenital fibrous bands, lipomas, and congenital cysts. These malformations range from mild (e.g., SPINA BIFIDA OCCULTA) to severe, including rachischisis where there is complete failure of neural tube and spinal cord fusion, resulting in exposure of the spinal cord at the surface. Spinal dysraphism includes all forms of spina bifida. The open form is called SPINA BIFIDA CYSTICA and the closed form is SPINA BIFIDA OCCULTA. (From Joynt, Clinical Neurology, 1992, Ch55, p34)",
+        "cleaned_description": "Congenital defects of closure of one or more vertebral arches, which may be associated with malformations of the spinal cord, nerve roots, congenital fibrous bands, lipomas, and congenital cysts. These malformations range from mild (e.g., SPINA BIFIDA OCCULTA) to severe, including rachischisis where there is complete failure of neural tube and spinal cord fusion, resulting in exposure of the spinal cord at the surface. Spinal dysraphism includes all forms of spina bifida. The open form is called SPINA BIFIDA CYSTICA and the closed form is SPINA BIFIDA OCCULTA. (From Joynt, Clinical Neurology, 1992, Ch55, p34)",
+        "description_summary": "Congenital defects of closure of one or more vertebral arches, which may be associated with malformations of the spinal cord, nerve roots, congenital fibrous bands, lipomas, and congenital cysts.",
+        "key_terms": [],
+        "word_count": 95
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.975587",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

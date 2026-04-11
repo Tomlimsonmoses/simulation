@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Blood disease', 'Immune system disease', 'Signs and symptoms']",
+    "export_timestamp": "2026-03-28T22:11:36.093679",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D006942",
+      "DiseaseName": "Hypergammaglobulinemia",
+      "DiseaseDescription": "An excess of GAMMA-GLOBULINS in the serum due to chronic infections or PARAPROTEINEMIAS.",
+      "SlimMapping": "['Blood disease', 'Immune system disease', 'Signs and symptoms']",
+      "PathwayNames": "The role of Nef in HIV-1 replication and disease pathogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006942",
+        "standardized_id": "MESH:D006942",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypergammaglobulinemia",
+        "standardized_name": "Hypergammaglobulinemia",
+        "normalized_name": "hypergammaglobulinemia",
+        "synonyms": [],
+        "search_terms": [
+          "hypergammaglobulinemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An excess of GAMMA-GLOBULINS in the serum due to chronic infections or PARAPROTEINEMIAS.",
+        "cleaned_description": "An excess of GAMMA-GLOBULINS in the serum due to chronic infections or PARAPROTEINEMIAS.",
+        "description_summary": "An excess of GAMMA-GLOBULINS in the serum due to chronic infections or PARAPROTEINEMIAS.",
+        "key_terms": [],
+        "word_count": 13
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Immune system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Immune system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Blood disease",
+          "Immune system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "The role of Nef in HIV-1 replication and disease pathogenesis",
+        "pathway_list": [
+          "The role of Nef in HIV-1 replication and disease pathogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.678285",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Genetic disease (inborn)', 'Metabolic disease', 'Nutrition disorder']",
+    "export_timestamp": "2026-03-28T22:11:36.094731",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D020138",
+      "DiseaseName": "Hyperhomocysteinemia",
+      "DiseaseDescription": "Condition in which the plasma levels of homocysteine and related metabolites are elevated (>13.9 μmol/l). Hyperhomocysteinemia can be familial or acquired. Development of the acquired hyperhomocysteinemia is mostly associated with vitamins B and/or folate deficiency (e.g., PERNICIOUS ANEMIA, vitamin malabsorption). Familial hyperhomocysteinemia often results in a more severe elevation of total homocysteine and excretion into the urine, resulting in HOMOCYSTINURIA. Hyperhomocysteinemia is a risk factor for cardiovascular and neurodegenerative diseases, osteoporotic fractures and complications during pregnancy.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease', 'Nutrition disorder']",
+      "PathwayNames": "Vitamin digestion and absorption",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020138",
+        "standardized_id": "MESH:D020138",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperhomocysteinemia",
+        "standardized_name": "Hyperhomocysteinemia",
+        "normalized_name": "hyperhomocysteinemia",
+        "synonyms": [],
+        "search_terms": [
+          "hyperhomocysteinemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Condition in which the plasma levels of homocysteine and related metabolites are elevated (>13.9 μmol/l). Hyperhomocysteinemia can be familial or acquired. Development of the acquired hyperhomocysteinemia is mostly associated with vitamins B and/or folate deficiency (e.g., PERNICIOUS ANEMIA, vitamin malabsorption). Familial hyperhomocysteinemia often results in a more severe elevation of total homocysteine and excretion into the urine, resulting in HOMOCYSTINURIA. Hyperhomocysteinemia is a risk factor for cardiovascular and neurodegenerative diseases, osteoporotic fractures and complications during pregnancy.",
+        "cleaned_description": "Condition in which the plasma levels of homocysteine and related metabolites are elevated (>13.9 μmol/l). Hyperhomocysteinemia can be familial or acquired. Development of the acquired hyperhomocysteinemia is mostly associated with vitamins B and/or folate deficiency (e.g., PERNICIOUS ANEMIA, vitamin malabsorption). Familial hyperhomocysteinemia often results in a more severe elevation of total homocysteine and excretion into the urine, resulting in HOMOCYSTINURIA. Hyperhomocysteinemia is a risk factor for cardiovascular and neurodegenerative diseases, osteoporotic fractures and complications during pregnancy.",
+        "description_summary": "Condition in which the plasma levels of homocysteine and related metabolites are elevated (>13.",
+        "key_terms": [
+          "ANEMIA",
+          "Hyperhomocysteinemia",
+          "hyperhomocysteinemia"
+        ],
+        "word_count": 76
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nutrition disorder"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nutrition disorder"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nutrition disorder"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamin digestion and absorption",
+        "pathway_list": [
+          "Vitamin digestion and absorption"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.680273",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

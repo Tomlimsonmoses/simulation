@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Mouth disease', 'Signs and symptoms']",
+    "export_timestamp": "2026-03-28T22:11:36.315624",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D014098",
+      "DiseaseName": "Toothache",
+      "DiseaseDescription": "Pain in the adjacent areas of the teeth.",
+      "SlimMapping": "['Mouth disease', 'Signs and symptoms']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014098",
+        "standardized_id": "MESH:D014098",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Toothache",
+        "standardized_name": "Toothache",
+        "normalized_name": "toothache",
+        "synonyms": [],
+        "search_terms": [
+          "toothache"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pain in the adjacent areas of the teeth.",
+        "cleaned_description": "Pain in the adjacent areas of the teeth.",
+        "description_summary": "Pain in the adjacent areas of the teeth.",
+        "key_terms": [],
+        "word_count": 8
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mouth disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Mouth disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mouth disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.999003",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

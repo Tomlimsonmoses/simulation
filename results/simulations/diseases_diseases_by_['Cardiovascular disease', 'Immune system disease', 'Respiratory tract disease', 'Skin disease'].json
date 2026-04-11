@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cardiovascular disease', 'Immune system disease', 'Respiratory tract disease', 'Skin disease']",
+    "export_timestamp": "2026-03-28T22:11:36.036842",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D014890",
+      "DiseaseName": "Granulomatosis with Polyangiitis",
+      "DiseaseDescription": "A multisystemic disease of a complex genetic background. It is characterized by inflammation of the blood vessels (VASCULITIS) leading to damage in any number of organs. The common features include granulomatous inflammation of the RESPIRATORY TRACT and KIDNEYS. Most patients have measurable autoantibodies (ANTINEUTROPHIL CYTOPLASMIC ANTIBODIES) against MYELOBLASTIN.",
+      "SlimMapping": "['Cardiovascular disease', 'Immune system disease', 'Respiratory tract disease', 'Skin disease']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014890",
+        "standardized_id": "MESH:D014890",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Granulomatosis with Polyangiitis",
+        "standardized_name": "Granulomatosis with Polyangiitis",
+        "normalized_name": "granulomatosis with polyangiitis",
+        "synonyms": [],
+        "search_terms": [
+          "granulomatosis",
+          "polyangiitis",
+          "granulomatosis with polyangiitis",
+          "with"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A multisystemic disease of a complex genetic background. It is characterized by inflammation of the blood vessels (VASCULITIS) leading to damage in any number of organs. The common features include granulomatous inflammation of the RESPIRATORY TRACT and KIDNEYS. Most patients have measurable autoantibodies (ANTINEUTROPHIL CYTOPLASMIC ANTIBODIES) against MYELOBLASTIN.",
+        "cleaned_description": "A multisystemic disease of a complex genetic background. It is characterized by inflammation of the blood vessels (VASCULITIS) leading to damage in any number of organs. The common features include granulomatous inflammation of the RESPIRATORY TRACT and KIDNEYS. Most patients have measurable autoantibodies (ANTINEUTROPHIL CYTOPLASMIC ANTIBODIES) against MYELOBLASTIN.",
+        "description_summary": "A multisystemic disease of a complex genetic background.",
+        "key_terms": [
+          "VASCULITIS"
+        ],
+        "word_count": 48
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Immune system disease",
+          "Respiratory tract disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Immune system disease",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory",
+          "cardiovascular",
+          "immune_system"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Immune system disease",
+          "Respiratory tract disease",
+          "Skin disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.550461",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

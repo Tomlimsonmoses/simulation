@@ -1,0 +1,230 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Immune system disease', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+    "export_timestamp": "2026-03-28T22:11:36.032803",
+    "total_records": 3
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D005922",
+      "DiseaseName": "Glomerulonephritis, IGA",
+      "DiseaseDescription": "A chronic form of glomerulonephritis characterized by deposits of predominantly IMMUNOGLOBULIN A in the mesangial area (GLOMERULAR MESANGIUM). Deposits of COMPLEMENT C3 and IMMUNOGLOBULIN G are also often found. Clinical features may progress from asymptomatic HEMATURIA to END-STAGE KIDNEY DISEASE.",
+      "SlimMapping": "['Immune system disease', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005922",
+        "standardized_id": "MESH:D005922",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Glomerulonephritis, IGA",
+        "standardized_name": "Glomerulonephritis, IGA",
+        "normalized_name": "glomerulonephritis iga",
+        "synonyms": [],
+        "search_terms": [
+          "iga",
+          "glomerulonephritis,",
+          "glomerulonephritis, iga"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A chronic form of glomerulonephritis characterized by deposits of predominantly IMMUNOGLOBULIN A in the mesangial area (GLOMERULAR MESANGIUM). Deposits of COMPLEMENT C3 and IMMUNOGLOBULIN G are also often found. Clinical features may progress from asymptomatic HEMATURIA to END-STAGE KIDNEY DISEASE.",
+        "cleaned_description": "A chronic form of glomerulonephritis characterized by deposits of predominantly IMMUNOGLOBULIN A in the mesangial area (GLOMERULAR MESANGIUM). Deposits of COMPLEMENT C3 and IMMUNOGLOBULIN G are also often found. Clinical features may progress from asymptomatic HEMATURIA to END-STAGE KIDNEY DISEASE.",
+        "description_summary": "A chronic form of glomerulonephritis characterized by deposits of predominantly IMMUNOGLOBULIN A in the mesangial area (GLOMERULAR MESANGIUM).",
+        "key_terms": [
+          "glomerulonephritis"
+        ],
+        "word_count": 40
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Immune system disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.543847",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D015432",
+      "DiseaseName": "Glomerulonephritis, Membranoproliferative",
+      "DiseaseDescription": "Chronic glomerulonephritis characterized histologically by proliferation of MESANGIAL CELLS, increase in the MESANGIAL EXTRACELLULAR MATRIX, and a thickening of the glomerular capillary walls. This may appear as a primary disorder or secondary to other diseases including infections and autoimmune disease SYSTEMIC LUPUS ERYTHEMATOSUS. Various subtypes are classified by their abnormal ultrastructures and immune deposits. Hypocomplementemia is a characteristic feature of all types of MPGN.",
+      "SlimMapping": "['Immune system disease', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D015432",
+        "standardized_id": "MESH:D015432",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Glomerulonephritis, Membranoproliferative",
+        "standardized_name": "Glomerulonephritis, Membranoproliferative",
+        "normalized_name": "glomerulonephritis membranoproliferative",
+        "synonyms": [],
+        "search_terms": [
+          "glomerulonephritis, membranoproliferative",
+          "glomerulonephritis,",
+          "membranoproliferative"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Chronic glomerulonephritis characterized histologically by proliferation of MESANGIAL CELLS, increase in the MESANGIAL EXTRACELLULAR MATRIX, and a thickening of the glomerular capillary walls. This may appear as a primary disorder or secondary to other diseases including infections and autoimmune disease SYSTEMIC LUPUS ERYTHEMATOSUS. Various subtypes are classified by their abnormal ultrastructures and immune deposits. Hypocomplementemia is a characteristic feature of all types of MPGN.",
+        "cleaned_description": "Chronic glomerulonephritis characterized histologically by proliferation of MESANGIAL CELLS, increase in the MESANGIAL EXTRACELLULAR MATRIX, and a thickening of the glomerular capillary walls. This may appear as a primary disorder or secondary to other diseases including infections and autoimmune disease SYSTEMIC LUPUS ERYTHEMATOSUS. Various subtypes are classified by their abnormal ultrastructures and immune deposits. Hypocomplementemia is a characteristic feature of all types of MPGN.",
+        "description_summary": "Chronic glomerulonephritis characterized histologically by proliferation of MESANGIAL CELLS, increase in the MESANGIAL EXTRACELLULAR MATRIX, and a thickening of the glomerular capillary walls.",
+        "key_terms": [
+          "glomerulonephritis",
+          "Hypocomplementemia"
+        ],
+        "word_count": 64
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Immune system disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.544282",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D015433",
+      "DiseaseName": "Glomerulonephritis, Membranous",
+      "DiseaseDescription": "A type of glomerulonephritis that is characterized by the accumulation of immune deposits (COMPLEMENT MEMBRANE ATTACK COMPLEX) on the outer aspect of the GLOMERULAR BASEMENT MEMBRANE. It progresses from subepithelial dense deposits, to basement membrane reaction and eventual thickening of the basement membrane.",
+      "SlimMapping": "['Immune system disease', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Vitamin digestion and absorption",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D015433",
+        "standardized_id": "MESH:D015433",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Glomerulonephritis, Membranous",
+        "standardized_name": "Glomerulonephritis, Membranous",
+        "normalized_name": "glomerulonephritis membranous",
+        "synonyms": [],
+        "search_terms": [
+          "glomerulonephritis,",
+          "glomerulonephritis, membranous",
+          "membranous"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A type of glomerulonephritis that is characterized by the accumulation of immune deposits (COMPLEMENT MEMBRANE ATTACK COMPLEX) on the outer aspect of the GLOMERULAR BASEMENT MEMBRANE. It progresses from subepithelial dense deposits, to basement membrane reaction and eventual thickening of the basement membrane.",
+        "cleaned_description": "A type of glomerulonephritis that is characterized by the accumulation of immune deposits (COMPLEMENT MEMBRANE ATTACK COMPLEX) on the outer aspect of the GLOMERULAR BASEMENT MEMBRANE. It progresses from subepithelial dense deposits, to basement membrane reaction and eventual thickening of the basement membrane.",
+        "description_summary": "A type of glomerulonephritis that is characterized by the accumulation of immune deposits (COMPLEMENT MEMBRANE ATTACK COMPLEX) on the outer aspect of the GLOMERULAR BASEMENT MEMBRANE.",
+        "key_terms": [
+          "glomerulonephritis"
+        ],
+        "word_count": 43
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Immune system disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamin digestion and absorption",
+        "pathway_list": [
+          "Vitamin digestion and absorption"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.544642",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

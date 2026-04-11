@@ -1,0 +1,1135 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cardiovascular disease', 'Congenital abnormality']",
+    "export_timestamp": "2026-03-28T22:11:35.621802",
+    "total_records": 16
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D001165",
+      "DiseaseName": "Arteriovenous Malformations",
+      "DiseaseDescription": "Abnormal formation of blood vessels that shunt arterial blood directly into veins without passing through the CAPILLARIES. They usually are crooked, dilated, and with thick vessel walls. A common type is the congenital arteriovenous fistula. The lack of blood flow and oxygen in the capillaries can lead to tissue damage in the affected areas.",
+      "SlimMapping": "['Cardiovascular disease', 'Congenital abnormality']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001165",
+        "standardized_id": "MESH:D001165",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Arteriovenous Malformations",
+        "standardized_name": "Arteriovenous Malformations",
+        "normalized_name": "arteriovenous malformations",
+        "synonyms": [],
+        "search_terms": [
+          "arteriovenous",
+          "arteriovenous malformations",
+          "malformations"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormal formation of blood vessels that shunt arterial blood directly into veins without passing through the CAPILLARIES. They usually are crooked, dilated, and with thick vessel walls. A common type is the congenital arteriovenous fistula. The lack of blood flow and oxygen in the capillaries can lead to tissue damage in the affected areas.",
+        "cleaned_description": "Abnormal formation of blood vessels that shunt arterial blood directly into veins without passing through the CAPILLARIES. They usually are crooked, dilated, and with thick vessel walls. A common type is the congenital arteriovenous fistula. The lack of blood flow and oxygen in the capillaries can lead to tissue damage in the affected areas.",
+        "description_summary": "Abnormal formation of blood vessels that shunt arterial blood directly into veins without passing through the CAPILLARIES.",
+        "key_terms": [],
+        "word_count": 54
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "broad_categories": [
+          "cardiovascular",
+          "genetic"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.374195",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D018376",
+      "DiseaseName": "Cardiovascular Abnormalities",
+      "DiseaseDescription": "Congenital, inherited, or acquired anomalies of the CARDIOVASCULAR SYSTEM, including the HEART and BLOOD VESSELS.",
+      "SlimMapping": "['Cardiovascular disease', 'Congenital abnormality']",
+      "PathwayNames": "Visual phototransduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018376",
+        "standardized_id": "MESH:D018376",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cardiovascular Abnormalities",
+        "standardized_name": "Cardiovascular Abnormalities",
+        "normalized_name": "cardiovascular abnormalities",
+        "synonyms": [],
+        "search_terms": [
+          "cardiovascular abnormalities",
+          "cardiovascular",
+          "abnormalities"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Congenital, inherited, or acquired anomalies of the CARDIOVASCULAR SYSTEM, including the HEART and BLOOD VESSELS.",
+        "cleaned_description": "Congenital, inherited, or acquired anomalies of the CARDIOVASCULAR SYSTEM, including the HEART and BLOOD VESSELS.",
+        "description_summary": "Congenital, inherited, or acquired anomalies of the CARDIOVASCULAR SYSTEM, including the HEART and BLOOD VESSELS.",
+        "key_terms": [],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "broad_categories": [
+          "cardiovascular",
+          "genetic"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Visual phototransduction",
+        "pathway_list": [
+          "Visual phototransduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.428851",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003330",
+      "DiseaseName": "Coronary Vessel Anomalies",
+      "DiseaseDescription": "Malformations of CORONARY VESSELS, either arteries or veins. Included are anomalous origins of coronary arteries; ARTERIOVENOUS FISTULA; CORONARY ANEURYSM; MYOCARDIAL BRIDGING; and others.",
+      "SlimMapping": "['Cardiovascular disease', 'Congenital abnormality']",
+      "PathwayNames": "Sulfur amino acid metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003330",
+        "standardized_id": "MESH:D003330",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Coronary Vessel Anomalies",
+        "standardized_name": "Coronary Vessel Anomalies",
+        "normalized_name": "coronary vessel anomalies",
+        "synonyms": [],
+        "search_terms": [
+          "coronary vessel anomalies",
+          "vessel",
+          "anomalies",
+          "coronary"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Malformations of CORONARY VESSELS, either arteries or veins. Included are anomalous origins of coronary arteries; ARTERIOVENOUS FISTULA; CORONARY ANEURYSM; MYOCARDIAL BRIDGING; and others.",
+        "cleaned_description": "Malformations of CORONARY VESSELS, either arteries or veins. Included are anomalous origins of coronary arteries; ARTERIOVENOUS FISTULA; CORONARY ANEURYSM; MYOCARDIAL BRIDGING; and others.",
+        "description_summary": "Malformations of CORONARY VESSELS, either arteries or veins.",
+        "key_terms": [],
+        "word_count": 23
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "broad_categories": [
+          "cardiovascular",
+          "genetic"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Sulfur amino acid metabolism",
+        "pathway_list": [
+          "Sulfur amino acid metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.461389",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003914",
+      "DiseaseName": "Dextrocardia",
+      "DiseaseDescription": "A congenital defect in which the heart is located on the right side of the THORAX instead of on the left side (levocardia, the normal position). When dextrocardia is accompanied with inverted HEART ATRIA, a right-sided STOMACH, and a left-sided LIVER, the combination is called dextrocardia with SITUS INVERSUS. Dextrocardia may adversely affect other thoracic organs.",
+      "SlimMapping": "['Cardiovascular disease', 'Congenital abnormality']",
+      "PathwayNames": "Transcriptional regulation of pluripotent stem cells",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003914",
+        "standardized_id": "MESH:D003914",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Dextrocardia",
+        "standardized_name": "Dextrocardia",
+        "normalized_name": "dextrocardia",
+        "synonyms": [],
+        "search_terms": [
+          "dextrocardia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A congenital defect in which the heart is located on the right side of the THORAX instead of on the left side (levocardia, the normal position). When dextrocardia is accompanied with inverted HEART ATRIA, a right-sided STOMACH, and a left-sided LIVER, the combination is called dextrocardia with SITUS INVERSUS. Dextrocardia may adversely affect other thoracic organs.",
+        "cleaned_description": "A congenital defect in which the heart is located on the right side of the THORAX instead of on the left side (levocardia, the normal position). When dextrocardia is accompanied with inverted HEART ATRIA, a right-sided STOMACH, and a left-sided LIVER, the combination is called dextrocardia with SITUS INVERSUS. Dextrocardia may adversely affect other thoracic organs.",
+        "description_summary": "A congenital defect in which the heart is located on the right side of the THORAX instead of on the left side (levocardia, the normal position).",
+        "key_terms": [],
+        "word_count": 56
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "broad_categories": [
+          "cardiovascular",
+          "genetic"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional regulation of pluripotent stem cells",
+        "pathway_list": [
+          "Transcriptional regulation of pluripotent stem cells"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional regulation of pluripotent stem cells"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.478388",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004310",
+      "DiseaseName": "Double Outlet Right Ventricle",
+      "DiseaseDescription": "Incomplete transposition of the great vessels in which both the AORTA and the PULMONARY ARTERY arise from the RIGHT VENTRICLE. The only outlet of the LEFT VENTRICLE is a large ventricular septal defect (VENTRICULAR SEPTAL DEFECTS or VSD). The various subtypes are classified by the location of the septal defect, such as subaortic, subpulmonary, or noncommitted.",
+      "SlimMapping": "['Cardiovascular disease', 'Congenital abnormality']",
+      "PathwayNames": "Sphingolipid metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004310",
+        "standardized_id": "MESH:D004310",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Double Outlet Right Ventricle",
+        "standardized_name": "Double Outlet Right Ventricle",
+        "normalized_name": "double outlet right ventricle",
+        "synonyms": [],
+        "search_terms": [
+          "right",
+          "double",
+          "double outlet right ventricle",
+          "ventricle",
+          "outlet"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Incomplete transposition of the great vessels in which both the AORTA and the PULMONARY ARTERY arise from the RIGHT VENTRICLE. The only outlet of the LEFT VENTRICLE is a large ventricular septal defect (VENTRICULAR SEPTAL DEFECTS or VSD). The various subtypes are classified by the location of the septal defect, such as subaortic, subpulmonary, or noncommitted.",
+        "cleaned_description": "Incomplete transposition of the great vessels in which both the AORTA and the PULMONARY ARTERY arise from the RIGHT VENTRICLE. The only outlet of the LEFT VENTRICLE is a large ventricular septal defect (VENTRICULAR SEPTAL DEFECTS or VSD). The various subtypes are classified by the location of the septal defect, such as subaortic, subpulmonary, or noncommitted.",
+        "description_summary": "Incomplete transposition of the great vessels in which both the AORTA and the PULMONARY ARTERY arise from the RIGHT VENTRICLE.",
+        "key_terms": [],
+        "word_count": 56
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "broad_categories": [
+          "cardiovascular",
+          "genetic"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Sphingolipid metabolism",
+        "pathway_list": [
+          "Sphingolipid metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.482748",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004374",
+      "DiseaseName": "Ductus Arteriosus, Patent",
+      "DiseaseDescription": "A congenital heart defect characterized by the persistent opening of fetal DUCTUS ARTERIOSUS that connects the PULMONARY ARTERY to the descending aorta (AORTA, DESCENDING) allowing unoxygenated blood to bypass the lung and flow to the PLACENTA. Normally, the ductus is closed shortly after birth.",
+      "SlimMapping": "['Cardiovascular disease', 'Congenital abnormality']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004374",
+        "standardized_id": "MESH:D004374",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Ductus Arteriosus, Patent",
+        "standardized_name": "Ductus Arteriosus, Patent",
+        "normalized_name": "ductus arteriosus patent",
+        "synonyms": [],
+        "search_terms": [
+          "patent",
+          "ductus",
+          "ductus arteriosus, patent",
+          "arteriosus,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A congenital heart defect characterized by the persistent opening of fetal DUCTUS ARTERIOSUS that connects the PULMONARY ARTERY to the descending aorta (AORTA, DESCENDING) allowing unoxygenated blood to bypass the lung and flow to the PLACENTA. Normally, the ductus is closed shortly after birth.",
+        "cleaned_description": "A congenital heart defect characterized by the persistent opening of fetal DUCTUS ARTERIOSUS that connects the PULMONARY ARTERY to the descending aorta (AORTA, DESCENDING) allowing unoxygenated blood to bypass the lung and flow to the PLACENTA. Normally, the ductus is closed shortly after birth.",
+        "description_summary": "A congenital heart defect characterized by the persistent opening of fetal DUCTUS ARTERIOSUS that connects the PULMONARY ARTERY to the descending aorta (AORTA, DESCENDING) allowing unoxygenated blood to bypass the lung and flow to the PLACENTA.",
+        "key_terms": [],
+        "word_count": 44
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "broad_categories": [
+          "cardiovascular",
+          "genetic"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.483843",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006330",
+      "DiseaseName": "Heart Defects, Congenital",
+      "DiseaseDescription": "Developmental abnormalities involving structures of the heart. These defects are present at birth but may be discovered later in life.",
+      "SlimMapping": "['Cardiovascular disease', 'Congenital abnormality']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006330",
+        "standardized_id": "MESH:D006330",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Heart Defects, Congenital",
+        "standardized_name": "Heart Defects, Congenital",
+        "normalized_name": "heart defects congenital",
+        "synonyms": [],
+        "search_terms": [
+          "heart defects, congenital",
+          "defects,",
+          "congenital",
+          "heart"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Developmental abnormalities involving structures of the heart. These defects are present at birth but may be discovered later in life.",
+        "cleaned_description": "Developmental abnormalities involving structures of the heart. These defects are present at birth but may be discovered later in life.",
+        "description_summary": "Developmental abnormalities involving structures of the heart.",
+        "key_terms": [],
+        "word_count": 20
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "broad_categories": [
+          "cardiovascular",
+          "genetic"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.613875",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006343",
+      "DiseaseName": "Heart Septal Defects",
+      "DiseaseDescription": "Abnormalities in any part of the HEART SEPTUM resulting in abnormal communication between the left and the right chambers of the heart. The abnormal blood flow inside the heart may be caused by defects in the ATRIAL SEPTUM, the VENTRICULAR SEPTUM, or both.",
+      "SlimMapping": "['Cardiovascular disease', 'Congenital abnormality']",
+      "PathwayNames": "Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006343",
+        "standardized_id": "MESH:D006343",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Heart Septal Defects",
+        "standardized_name": "Heart Septal Defects",
+        "normalized_name": "heart septal defects",
+        "synonyms": [],
+        "search_terms": [
+          "heart septal defects",
+          "heart",
+          "septal",
+          "defects"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormalities in any part of the HEART SEPTUM resulting in abnormal communication between the left and the right chambers of the heart. The abnormal blood flow inside the heart may be caused by defects in the ATRIAL SEPTUM, the VENTRICULAR SEPTUM, or both.",
+        "cleaned_description": "Abnormalities in any part of the HEART SEPTUM resulting in abnormal communication between the left and the right chambers of the heart. The abnormal blood flow inside the heart may be caused by defects in the ATRIAL SEPTUM, the VENTRICULAR SEPTUM, or both.",
+        "description_summary": "Abnormalities in any part of the HEART SEPTUM resulting in abnormal communication between the left and the right chambers of the heart.",
+        "key_terms": [],
+        "word_count": 43
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "broad_categories": [
+          "cardiovascular",
+          "genetic"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors",
+        "pathway_list": [
+          "Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.618921",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006344",
+      "DiseaseName": "Heart Septal Defects, Atrial",
+      "DiseaseDescription": "Developmental abnormalities in any portion of the ATRIAL SEPTUM resulting in abnormal communications between the two upper chambers of the heart. Classification of atrial septal defects is based on location of the communication and types of incomplete fusion of atrial septa with the ENDOCARDIAL CUSHIONS in the fetal heart. They include ostium primum, ostium secundum, sinus venosus, and coronary sinus defects.",
+      "SlimMapping": "['Cardiovascular disease', 'Congenital abnormality']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006344",
+        "standardized_id": "MESH:D006344",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Heart Septal Defects, Atrial",
+        "standardized_name": "Heart Septal Defects, Atrial",
+        "normalized_name": "heart septal defects atrial",
+        "synonyms": [],
+        "search_terms": [
+          "heart",
+          "atrial",
+          "defects,",
+          "heart septal defects, atrial",
+          "septal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Developmental abnormalities in any portion of the ATRIAL SEPTUM resulting in abnormal communications between the two upper chambers of the heart. Classification of atrial septal defects is based on location of the communication and types of incomplete fusion of atrial septa with the ENDOCARDIAL CUSHIONS in the fetal heart. They include ostium primum, ostium secundum, sinus venosus, and coronary sinus defects.",
+        "cleaned_description": "Developmental abnormalities in any portion of the ATRIAL SEPTUM resulting in abnormal communications between the two upper chambers of the heart. Classification of atrial septal defects is based on location of the communication and types of incomplete fusion of atrial septa with the ENDOCARDIAL CUSHIONS in the fetal heart. They include ostium primum, ostium secundum, sinus venosus, and coronary sinus defects.",
+        "description_summary": "Developmental abnormalities in any portion of the ATRIAL SEPTUM resulting in abnormal communications between the two upper chambers of the heart.",
+        "key_terms": [],
+        "word_count": 61
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "broad_categories": [
+          "cardiovascular",
+          "genetic"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.619961",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006345",
+      "DiseaseName": "Heart Septal Defects, Ventricular",
+      "DiseaseDescription": "Developmental abnormalities in any portion of the VENTRICULAR SEPTUM resulting in abnormal communications between the two lower chambers of the heart. Classification of ventricular septal defects is based on location of the communication, such as perimembranous, inlet, outlet (infundibular), central muscular, marginal muscular, or apical muscular defect.",
+      "SlimMapping": "['Cardiovascular disease', 'Congenital abnormality']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006345",
+        "standardized_id": "MESH:D006345",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Heart Septal Defects, Ventricular",
+        "standardized_name": "Heart Septal Defects, Ventricular",
+        "normalized_name": "heart septal defects ventricular",
+        "synonyms": [],
+        "search_terms": [
+          "ventricular",
+          "heart septal defects, ventricular",
+          "heart",
+          "defects,",
+          "septal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Developmental abnormalities in any portion of the VENTRICULAR SEPTUM resulting in abnormal communications between the two lower chambers of the heart. Classification of ventricular septal defects is based on location of the communication, such as perimembranous, inlet, outlet (infundibular), central muscular, marginal muscular, or apical muscular defect.",
+        "cleaned_description": "Developmental abnormalities in any portion of the VENTRICULAR SEPTUM resulting in abnormal communications between the two lower chambers of the heart. Classification of ventricular septal defects is based on location of the communication, such as perimembranous, inlet, outlet (infundibular), central muscular, marginal muscular, or apical muscular defect.",
+        "description_summary": "Developmental abnormalities in any portion of the VENTRICULAR SEPTUM resulting in abnormal communications between the two lower chambers of the heart.",
+        "key_terms": [],
+        "word_count": 47
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "broad_categories": [
+          "cardiovascular",
+          "genetic"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.620337",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D018636",
+      "DiseaseName": "Hypoplastic Left Heart Syndrome",
+      "DiseaseDescription": "A condition caused by underdevelopment of the whole left half of the heart. It is characterized by hypoplasia of the left cardiac chambers (HEART ATRIUM; HEART VENTRICLE), the AORTA, the AORTIC VALVE, and the MITRAL VALVE. Severe symptoms appear in early infancy when DUCTUS ARTERIOSUS closes.",
+      "SlimMapping": "['Cardiovascular disease', 'Congenital abnormality']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018636",
+        "standardized_id": "MESH:D018636",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypoplastic Left Heart Syndrome",
+        "standardized_name": "Hypoplastic Left Heart Syndrome",
+        "normalized_name": "hypoplastic left heart syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "hypoplastic left heart syndrome",
+          "heart",
+          "syndrome",
+          "hypoplastic",
+          "left"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition caused by underdevelopment of the whole left half of the heart. It is characterized by hypoplasia of the left cardiac chambers (HEART ATRIUM; HEART VENTRICLE), the AORTA, the AORTIC VALVE, and the MITRAL VALVE. Severe symptoms appear in early infancy when DUCTUS ARTERIOSUS closes.",
+        "cleaned_description": "A condition caused by underdevelopment of the whole left half of the heart. It is characterized by hypoplasia of the left cardiac chambers (HEART ATRIUM; HEART VENTRICLE), the AORTA, the AORTIC VALVE, and the MITRAL VALVE. Severe symptoms appear in early infancy when DUCTUS ARTERIOSUS closes.",
+        "description_summary": "A condition caused by underdevelopment of the whole left half of the heart.",
+        "key_terms": [],
+        "word_count": 46
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "broad_categories": [
+          "cardiovascular",
+          "genetic"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.776762",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013771",
+      "DiseaseName": "Tetralogy of Fallot",
+      "DiseaseDescription": "A combination of congenital heart defects consisting of four key features including VENTRICULAR SEPTAL DEFECTS; PULMONARY STENOSIS; RIGHT VENTRICULAR HYPERTROPHY; and a dextro-positioned AORTA. In this condition, blood from both ventricles (oxygen-rich and oxygen-poor) is pumped into the body often causing CYANOSIS.",
+      "SlimMapping": "['Cardiovascular disease', 'Congenital abnormality']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013771",
+        "standardized_id": "MESH:D013771",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Tetralogy of Fallot",
+        "standardized_name": "Tetralogy of Fallot",
+        "normalized_name": "tetralogy of fallot",
+        "synonyms": [],
+        "search_terms": [
+          "tetralogy of fallot",
+          "fallot",
+          "tetralogy"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A combination of congenital heart defects consisting of four key features including VENTRICULAR SEPTAL DEFECTS; PULMONARY STENOSIS; RIGHT VENTRICULAR HYPERTROPHY; and a dextro-positioned AORTA. In this condition, blood from both ventricles (oxygen-rich and oxygen-poor) is pumped into the body often causing CYANOSIS.",
+        "cleaned_description": "A combination of congenital heart defects consisting of four key features including VENTRICULAR SEPTAL DEFECTS; PULMONARY STENOSIS; RIGHT VENTRICULAR HYPERTROPHY; and a dextro-positioned AORTA. In this condition, blood from both ventricles (oxygen-rich and oxygen-poor) is pumped into the body often causing CYANOSIS.",
+        "description_summary": "A combination of congenital heart defects consisting of four key features including VENTRICULAR SEPTAL DEFECTS; PULMONARY STENOSIS; RIGHT VENTRICULAR HYPERTROPHY; and a dextro-positioned AORTA.",
+        "key_terms": [
+          "STENOSIS",
+          "CYANOSIS"
+        ],
+        "word_count": 42
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "broad_categories": [
+          "cardiovascular",
+          "genetic"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.993019",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014188",
+      "DiseaseName": "Transposition of Great Vessels",
+      "DiseaseDescription": "A congenital cardiovascular malformation in which the AORTA arises entirely from the RIGHT VENTRICLE, and the PULMONARY ARTERY arises from the LEFT VENTRICLE. Consequently, the pulmonary and the systemic circulations are parallel and not sequential, so that the venous return from the peripheral circulation is re-circulated by the right ventricle via aorta to the systemic circulation without being oxygenated in the lungs. This is a potentially lethal form of heart disease in newborns and infants.",
+      "SlimMapping": "['Cardiovascular disease', 'Congenital abnormality']",
+      "PathwayNames": "Sphingolipid metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014188",
+        "standardized_id": "MESH:D014188",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Transposition of Great Vessels",
+        "standardized_name": "Transposition of Great Vessels",
+        "normalized_name": "transposition of great vessels",
+        "synonyms": [],
+        "search_terms": [
+          "great",
+          "transposition",
+          "transposition of great vessels",
+          "vessels"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A congenital cardiovascular malformation in which the AORTA arises entirely from the RIGHT VENTRICLE, and the PULMONARY ARTERY arises from the LEFT VENTRICLE. Consequently, the pulmonary and the systemic circulations are parallel and not sequential, so that the venous return from the peripheral circulation is re-circulated by the right ventricle via aorta to the systemic circulation without being oxygenated in the lungs. This is a potentially lethal form of heart disease in newborns and infants.",
+        "cleaned_description": "A congenital cardiovascular malformation in which the AORTA arises entirely from the RIGHT VENTRICLE, and the PULMONARY ARTERY arises from the LEFT VENTRICLE. Consequently, the pulmonary and the systemic circulations are parallel and not sequential, so that the venous return from the peripheral circulation is re-circulated by the right ventricle via aorta to the systemic circulation without being oxygenated in the lungs. This is a potentially lethal form of heart disease in newborns and infants.",
+        "description_summary": "A congenital cardiovascular malformation in which the AORTA arises entirely from the RIGHT VENTRICLE, and the PULMONARY ARTERY arises from the LEFT VENTRICLE.",
+        "key_terms": [],
+        "word_count": 75
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "broad_categories": [
+          "cardiovascular",
+          "genetic"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Sphingolipid metabolism",
+        "pathway_list": [
+          "Sphingolipid metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.004694",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014339",
+      "DiseaseName": "Truncus Arteriosus, Persistent",
+      "DiseaseDescription": "A congenital anomaly caused by the failed development of TRUNCUS ARTERIOSUS into separate AORTA and PULMONARY ARTERY. It is characterized by a single arterial trunk that forms the outlet for both HEART VENTRICLES and gives rise to the systemic, pulmonary, and coronary arteries. It is always accompanied by a ventricular septal defect.",
+      "SlimMapping": "['Cardiovascular disease', 'Congenital abnormality']",
+      "PathwayNames": "Axon guidance",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014339",
+        "standardized_id": "MESH:D014339",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Truncus Arteriosus, Persistent",
+        "standardized_name": "Truncus Arteriosus, Persistent",
+        "normalized_name": "truncus arteriosus persistent",
+        "synonyms": [],
+        "search_terms": [
+          "truncus",
+          "persistent",
+          "truncus arteriosus, persistent",
+          "arteriosus,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A congenital anomaly caused by the failed development of TRUNCUS ARTERIOSUS into separate AORTA and PULMONARY ARTERY. It is characterized by a single arterial trunk that forms the outlet for both HEART VENTRICLES and gives rise to the systemic, pulmonary, and coronary arteries. It is always accompanied by a ventricular septal defect.",
+        "cleaned_description": "A congenital anomaly caused by the failed development of TRUNCUS ARTERIOSUS into separate AORTA and PULMONARY ARTERY. It is characterized by a single arterial trunk that forms the outlet for both HEART VENTRICLES and gives rise to the systemic, pulmonary, and coronary arteries. It is always accompanied by a ventricular septal defect.",
+        "description_summary": "A congenital anomaly caused by the failed development of TRUNCUS ARTERIOSUS into separate AORTA and PULMONARY ARTERY.",
+        "key_terms": [],
+        "word_count": 52
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "broad_categories": [
+          "cardiovascular",
+          "genetic"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Axon guidance",
+        "pathway_list": [
+          "Axon guidance"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.006600",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D054079",
+      "DiseaseName": "Vascular Malformations",
+      "DiseaseDescription": "A spectrum of congenital, inherited, or acquired abnormalities in BLOOD VESSELS that can adversely affect the normal blood flow in ARTERIES or VEINS. Most are congenital defects such as abnormal communications between blood vessels (fistula), shunting of arterial blood directly into veins bypassing the CAPILLARIES (arteriovenous malformations), formation of large dilated blood blood-filled vessels (cavernous angioma), and swollen capillaries (capillary telangiectases). In rare cases, vascular malformations can result from trauma or diseases.",
+      "SlimMapping": "['Cardiovascular disease', 'Congenital abnormality']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D054079",
+        "standardized_id": "MESH:D054079",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Vascular Malformations",
+        "standardized_name": "Vascular Malformations",
+        "normalized_name": "vascular malformations",
+        "synonyms": [],
+        "search_terms": [
+          "vascular",
+          "vascular malformations",
+          "malformations"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A spectrum of congenital, inherited, or acquired abnormalities in BLOOD VESSELS that can adversely affect the normal blood flow in ARTERIES or VEINS. Most are congenital defects such as abnormal communications between blood vessels (fistula), shunting of arterial blood directly into veins bypassing the CAPILLARIES (arteriovenous malformations), formation of large dilated blood blood-filled vessels (cavernous angioma), and swollen capillaries (capillary telangiectases). In rare cases, vascular malformations can result from trauma or diseases.",
+        "cleaned_description": "A spectrum of congenital, inherited, or acquired abnormalities in BLOOD VESSELS that can adversely affect the normal blood flow in ARTERIES or VEINS. Most are congenital defects such as abnormal communications between blood vessels (fistula), shunting of arterial blood directly into veins bypassing the CAPILLARIES (arteriovenous malformations), formation of large dilated blood blood-filled vessels (cavernous angioma), and swollen capillaries (capillary telangiectases). In rare cases, vascular malformations can result from trauma or diseases.",
+        "description_summary": "A spectrum of congenital, inherited, or acquired abnormalities in BLOOD VESSELS that can adversely affect the normal blood flow in ARTERIES or VEINS.",
+        "key_terms": [],
+        "word_count": 72
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "broad_categories": [
+          "cardiovascular",
+          "genetic"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.016843",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014927",
+      "DiseaseName": "Wolff-Parkinson-White Syndrome",
+      "DiseaseDescription": "A form of ventricular pre-excitation characterized by a short PR interval and a long QRS interval with a delta wave. In this syndrome, atrial impulses are abnormally conducted to the HEART VENTRICLES via an ACCESSORY CONDUCTING PATHWAY that is located between the wall of the right or left atria and the ventricles, also known as a BUNDLE OF KENT. The inherited form can be caused by mutation of PRKAG2 gene encoding a gamma-2 regulatory subunit of AMP-activated protein kinase.",
+      "SlimMapping": "['Cardiovascular disease', 'Congenital abnormality']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014927",
+        "standardized_id": "MESH:D014927",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Wolff-Parkinson-White Syndrome",
+        "standardized_name": "Wolff-Parkinson-White Syndrome",
+        "normalized_name": "wolff-parkinson-white syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "wolff-parkinson-white syndrome",
+          "wolff-parkinson-white",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A form of ventricular pre-excitation characterized by a short PR interval and a long QRS interval with a delta wave. In this syndrome, atrial impulses are abnormally conducted to the HEART VENTRICLES via an ACCESSORY CONDUCTING PATHWAY that is located between the wall of the right or left atria and the ventricles, also known as a BUNDLE OF KENT. The inherited form can be caused by mutation of PRKAG2 gene encoding a gamma-2 regulatory subunit of AMP-activated protein kinase.",
+        "cleaned_description": "A form of ventricular pre-excitation characterized by a short PR interval and a long QRS interval with a delta wave. In this syndrome, atrial impulses are abnormally conducted to the HEART VENTRICLES via an ACCESSORY CONDUCTING PATHWAY that is located between the wall of the right or left atria and the ventricles, also known as a BUNDLE OF KENT. The inherited form can be caused by mutation of PRKAG2 gene encoding a gamma-2 regulatory subunit of AMP-activated protein kinase.",
+        "description_summary": "A form of ventricular pre-excitation characterized by a short PR interval and a long QRS interval with a delta wave.",
+        "key_terms": [],
+        "word_count": 79
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "broad_categories": [
+          "cardiovascular",
+          "genetic"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.026998",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Animal disease', 'Cancer']",
+    "export_timestamp": "2026-03-28T22:11:36.176265",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D015674",
+      "DiseaseName": "Mammary Neoplasms, Animal",
+      "DiseaseDescription": "Tumors or cancer of the MAMMARY GLAND in animals (MAMMARY GLANDS, ANIMAL).",
+      "SlimMapping": "['Animal disease', 'Cancer']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D015674",
+        "standardized_id": "MESH:D015674",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Mammary Neoplasms, Animal",
+        "standardized_name": "Mammary Neoplasms, Animal",
+        "normalized_name": "mammary neoplasms animal",
+        "synonyms": [],
+        "search_terms": [
+          "animal",
+          "neoplasms,",
+          "mammary",
+          "mammary neoplasms, animal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the MAMMARY GLAND in animals (MAMMARY GLANDS, ANIMAL).",
+        "cleaned_description": "Tumors or cancer of the MAMMARY GLAND in animals (MAMMARY GLANDS, ANIMAL).",
+        "description_summary": "Tumors or cancer of the MAMMARY GLAND in animals (MAMMARY GLANDS, ANIMAL).",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Animal disease",
+          "Cancer"
+        ],
+        "primary_categories": [
+          "Animal disease",
+          "Cancer"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Animal disease",
+          "Cancer"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.837098",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

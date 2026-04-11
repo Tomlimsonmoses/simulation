@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "properties": {
+    "DrugID": {
+      "type": "string",
+      "description": "Drug identifier"
+    },
+    "DiseaseID": {
+      "type": "string",
+      "description": "Disease identifier"
+    },
+    "standardized_drug_id": {
+      "type": "object",
+      "description": "Standardized drug ID information"
+    },
+    "standardized_disease_id": {
+      "type": "object",
+      "description": "Standardized disease ID information"
+    },
+    "mapping_key": {
+      "type": "string",
+      "description": "Unique mapping key"
+    },
+    "relationship_info": {
+      "type": "object",
+      "description": "Relationship information"
+    },
+    "validation_info": {
+      "type": "object",
+      "description": "Validation information"
+    }
+  },
+  "required": [
+    "DrugID",
+    "DiseaseID",
+    "mapping_key"
+  ]
+}

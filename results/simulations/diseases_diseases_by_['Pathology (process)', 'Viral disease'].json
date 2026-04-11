@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Pathology (process)', 'Viral disease']",
+    "export_timestamp": "2026-03-28T22:11:36.258879",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D030361",
+      "DiseaseName": "Papillomavirus Infections",
+      "DiseaseDescription": "Neoplasms of the skin and mucous membranes caused by papillomaviruses. They are usually benign but some have a high risk for malignant progression.",
+      "SlimMapping": "['Pathology (process)', 'Viral disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D030361",
+        "standardized_id": "MESH:D030361",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Papillomavirus Infections",
+        "standardized_name": "Papillomavirus Infections",
+        "normalized_name": "papillomavirus infections",
+        "synonyms": [],
+        "search_terms": [
+          "papillomavirus",
+          "infections",
+          "papillomavirus infections"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Neoplasms of the skin and mucous membranes caused by papillomaviruses. They are usually benign but some have a high risk for malignant progression.",
+        "cleaned_description": "Neoplasms of the skin and mucous membranes caused by papillomaviruses. They are usually benign but some have a high risk for malignant progression.",
+        "description_summary": "Neoplasms of the skin and mucous membranes caused by papillomaviruses.",
+        "key_terms": [],
+        "word_count": 23
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)",
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Pathology (process)",
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Pathology (process)",
+          "Viral disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.906807",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014766",
+      "DiseaseName": "Viremia",
+      "DiseaseDescription": "The presence of viruses in the blood.",
+      "SlimMapping": "['Pathology (process)', 'Viral disease']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014766",
+        "standardized_id": "MESH:D014766",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Viremia",
+        "standardized_name": "Viremia",
+        "normalized_name": "viremia",
+        "synonyms": [],
+        "search_terms": [
+          "viremia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The presence of viruses in the blood.",
+        "cleaned_description": "The presence of viruses in the blood.",
+        "description_summary": "The presence of viruses in the blood.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)",
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Pathology (process)",
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Pathology (process)",
+          "Viral disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.023968",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Genetic disease (inborn)', 'Immune system disease', 'Skin disease']",
+    "export_timestamp": "2026-03-28T22:11:35.942460",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D003876",
+      "DiseaseName": "Dermatitis, Atopic",
+      "DiseaseDescription": "A chronic inflammatory genetically determined disease of the skin marked by increased ability to form reagin (IgE), with increased susceptibility to allergic rhinitis and asthma, and hereditary disposition to a lowered threshold for pruritus. It is manifested by lichenification, excoriation, and crusting, mainly on the flexural surfaces of the elbow and knee. In infants it is known as infantile eczema.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Immune system disease', 'Skin disease']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003876",
+        "standardized_id": "MESH:D003876",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Dermatitis, Atopic",
+        "standardized_name": "Dermatitis, Atopic",
+        "normalized_name": "dermatitis atopic",
+        "synonyms": [],
+        "search_terms": [
+          "dermatitis, atopic",
+          "dermatitis,",
+          "atopic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A chronic inflammatory genetically determined disease of the skin marked by increased ability to form reagin (IgE), with increased susceptibility to allergic rhinitis and asthma, and hereditary disposition to a lowered threshold for pruritus. It is manifested by lichenification, excoriation, and crusting, mainly on the flexural surfaces of the elbow and knee. In infants it is known as infantile eczema.",
+        "cleaned_description": "A chronic inflammatory genetically determined disease of the skin marked by increased ability to form reagin (IgE), with increased susceptibility to allergic rhinitis and asthma, and hereditary disposition to a lowered threshold for pruritus. It is manifested by lichenification, excoriation, and crusting, mainly on the flexural surfaces of the elbow and knee. In infants it is known as infantile eczema.",
+        "description_summary": "A chronic inflammatory genetically determined disease of the skin marked by increased ability to form reagin (IgE), with increased susceptibility to allergic rhinitis and asthma, and hereditary disposition to a lowered threshold for pruritus.",
+        "key_terms": [
+          "rhinitis"
+        ],
+        "word_count": 60
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Immune system disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Immune system disease",
+          "Skin disease"
+        ],
+        "broad_categories": [
+          "genetic",
+          "immune_system"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Immune system disease",
+          "Skin disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.474950",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

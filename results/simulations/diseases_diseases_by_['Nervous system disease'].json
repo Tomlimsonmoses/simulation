@@ -1,0 +1,3677 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:35.602703",
+    "total_records": 57
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D020261",
+      "DiseaseName": "Arsenic Poisoning",
+      "DiseaseDescription": "Disorders associated with acute or chronic exposure to compounds containing ARSENIC (ARSENICALS) which may be fatal. Acute oral ingestion is associated with gastrointestinal symptoms and an encephalopathy which may manifest as SEIZURES, mental status changes, and COMA. Chronic exposure is associated with mucosal irritation, desquamating rash, myalgias, peripheral neuropathy, and white transverse (Mees) lines in the fingernails. (Adams et al., Principles of Neurology, 6th ed, p1212)",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020261",
+        "standardized_id": "MESH:D020261",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Arsenic Poisoning",
+        "standardized_name": "Arsenic Poisoning",
+        "normalized_name": "arsenic poisoning",
+        "synonyms": [],
+        "search_terms": [
+          "poisoning",
+          "arsenic poisoning",
+          "arsenic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Disorders associated with acute or chronic exposure to compounds containing ARSENIC (ARSENICALS) which may be fatal. Acute oral ingestion is associated with gastrointestinal symptoms and an encephalopathy which may manifest as SEIZURES, mental status changes, and COMA. Chronic exposure is associated with mucosal irritation, desquamating rash, myalgias, peripheral neuropathy, and white transverse (Mees) lines in the fingernails. (Adams et al., Principles of Neurology, 6th ed, p1212)",
+        "cleaned_description": "Disorders associated with acute or chronic exposure to compounds containing ARSENIC (ARSENICALS) which may be fatal. Acute oral ingestion is associated with gastrointestinal symptoms and an encephalopathy which may manifest as SEIZURES, mental status changes, and COMA. Chronic exposure is associated with mucosal irritation, desquamating rash, myalgias, peripheral neuropathy, and white transverse (Mees) lines in the fingernails. (Adams et al., Principles of Neurology, 6th ed, p1212)",
+        "description_summary": "Disorders associated with acute or chronic exposure to compounds containing ARSENIC (ARSENICALS) which may be fatal.",
+        "key_terms": [
+          "neuropathy",
+          "encephalopathy"
+        ],
+        "word_count": 66
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.373709",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001342",
+      "DiseaseName": "Autonomic Nervous System Diseases",
+      "DiseaseDescription": "Diseases of the parasympathetic or sympathetic divisions of the AUTONOMIC NERVOUS SYSTEM; which has components located in the CENTRAL NERVOUS SYSTEM and PERIPHERAL NERVOUS SYSTEM. Autonomic dysfunction may be associated with HYPOTHALAMIC DISEASES; BRAIN STEM disorders; SPINAL CORD DISEASES; and PERIPHERAL NERVOUS SYSTEM DISEASES. Manifestations include impairments of vegetative functions including the maintenance of BLOOD PRESSURE; HEART RATE; pupil function; SWEATING; REPRODUCTIVE AND URINARY PHYSIOLOGY; and DIGESTION.",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001342",
+        "standardized_id": "MESH:D001342",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Autonomic Nervous System Diseases",
+        "standardized_name": "Autonomic Nervous System Diseases",
+        "normalized_name": "autonomic nervous system diseases",
+        "synonyms": [],
+        "search_terms": [
+          "autonomic nervous system diseases",
+          "diseases",
+          "nervous",
+          "autonomic",
+          "system"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases of the parasympathetic or sympathetic divisions of the AUTONOMIC NERVOUS SYSTEM; which has components located in the CENTRAL NERVOUS SYSTEM and PERIPHERAL NERVOUS SYSTEM. Autonomic dysfunction may be associated with HYPOTHALAMIC DISEASES; BRAIN STEM disorders; SPINAL CORD DISEASES; and PERIPHERAL NERVOUS SYSTEM DISEASES. Manifestations include impairments of vegetative functions including the maintenance of BLOOD PRESSURE; HEART RATE; pupil function; SWEATING; REPRODUCTIVE AND URINARY PHYSIOLOGY; and DIGESTION.",
+        "cleaned_description": "Diseases of the parasympathetic or sympathetic divisions of the AUTONOMIC NERVOUS SYSTEM; which has components located in the CENTRAL NERVOUS SYSTEM and PERIPHERAL NERVOUS SYSTEM. Autonomic dysfunction may be associated with HYPOTHALAMIC DISEASES; BRAIN STEM disorders; SPINAL CORD DISEASES; and PERIPHERAL NERVOUS SYSTEM DISEASES. Manifestations include impairments of vegetative functions including the maintenance of BLOOD PRESSURE; HEART RATE; pupil function; SWEATING; REPRODUCTIVE AND URINARY PHYSIOLOGY; and DIGESTION.",
+        "description_summary": "Diseases of the parasympathetic or sympathetic divisions of the AUTONOMIC NERVOUS SYSTEM; which has components located in the CENTRAL NERVOUS SYSTEM and PERIPHERAL NERVOUS SYSTEM.",
+        "key_terms": [],
+        "word_count": 67
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.388559",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001480",
+      "DiseaseName": "Basal Ganglia Diseases",
+      "DiseaseDescription": "Diseases of the BASAL GANGLIA including the PUTAMEN; GLOBUS PALLIDUS; claustrum; AMYGDALA; and CAUDATE NUCLEUS. DYSKINESIAS (most notably involuntary movements and alterations of the rate of movement) represent the primary clinical manifestations of these disorders. Common etiologies include CEREBROVASCULAR DISORDERS; NEURODEGENERATIVE DISEASES; and CRANIOCEREBRAL TRAUMA.",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001480",
+        "standardized_id": "MESH:D001480",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Basal Ganglia Diseases",
+        "standardized_name": "Basal Ganglia Diseases",
+        "normalized_name": "basal ganglia diseases",
+        "synonyms": [],
+        "search_terms": [
+          "basal ganglia diseases",
+          "diseases",
+          "ganglia",
+          "basal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases of the BASAL GANGLIA including the PUTAMEN; GLOBUS PALLIDUS; claustrum; AMYGDALA; and CAUDATE NUCLEUS. DYSKINESIAS (most notably involuntary movements and alterations of the rate of movement) represent the primary clinical manifestations of these disorders. Common etiologies include CEREBROVASCULAR DISORDERS; NEURODEGENERATIVE DISEASES; and CRANIOCEREBRAL TRAUMA.",
+        "cleaned_description": "Diseases of the BASAL GANGLIA including the PUTAMEN; GLOBUS PALLIDUS; claustrum; AMYGDALA; and CAUDATE NUCLEUS. DYSKINESIAS (most notably involuntary movements and alterations of the rate of movement) represent the primary clinical manifestations of these disorders. Common etiologies include CEREBROVASCULAR DISORDERS; NEURODEGENERATIVE DISEASES; and CRANIOCEREBRAL TRAUMA.",
+        "description_summary": "Diseases of the BASAL GANGLIA including the PUTAMEN; GLOBUS PALLIDUS; claustrum; AMYGDALA; and CAUDATE NUCLEUS.",
+        "key_terms": [],
+        "word_count": 45
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.392719",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020968",
+      "DiseaseName": "Brachial Plexus Neuritis",
+      "DiseaseDescription": "A syndrome associated with inflammation of the BRACHIAL PLEXUS. Clinical features include severe pain in the shoulder region which may be accompanied by MUSCLE WEAKNESS and loss of sensation in the upper extremity. This condition may be associated with VIRUS DISEASES; IMMUNIZATION; SURGERY; heroin use (see HEROIN DEPENDENCE); and other conditions. The term brachial neuralgia generally refers to pain associated with brachial plexus injury. (From Adams et al., Principles of Neurology, 6th ed, pp1355-6)",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Bacterial invasion of epithelial cells",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020968",
+        "standardized_id": "MESH:D020968",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Brachial Plexus Neuritis",
+        "standardized_name": "Brachial Plexus Neuritis",
+        "normalized_name": "brachial plexus neuritis",
+        "synonyms": [],
+        "search_terms": [
+          "plexus",
+          "brachial plexus neuritis",
+          "neuritis",
+          "brachial"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A syndrome associated with inflammation of the BRACHIAL PLEXUS. Clinical features include severe pain in the shoulder region which may be accompanied by MUSCLE WEAKNESS and loss of sensation in the upper extremity. This condition may be associated with VIRUS DISEASES; IMMUNIZATION; SURGERY; heroin use (see HEROIN DEPENDENCE); and other conditions. The term brachial neuralgia generally refers to pain associated with brachial plexus injury. (From Adams et al., Principles of Neurology, 6th ed, pp1355-6)",
+        "cleaned_description": "A syndrome associated with inflammation of the BRACHIAL PLEXUS. Clinical features include severe pain in the shoulder region which may be accompanied by MUSCLE WEAKNESS and loss of sensation in the upper extremity. This condition may be associated with VIRUS DISEASES; IMMUNIZATION; SURGERY; heroin use (see HEROIN DEPENDENCE); and other conditions. The term brachial neuralgia generally refers to pain associated with brachial plexus injury. (From Adams et al., Principles of Neurology, 6th ed, pp1355-6)",
+        "description_summary": "A syndrome associated with inflammation of the BRACHIAL PLEXUS.",
+        "key_terms": [],
+        "word_count": 74
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Bacterial invasion of epithelial cells",
+        "pathway_list": [
+          "Bacterial invasion of epithelial cells"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.400462",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001927",
+      "DiseaseName": "Brain Diseases",
+      "DiseaseDescription": "Pathologic conditions affecting the BRAIN, which is composed of the intracranial components of the CENTRAL NERVOUS SYSTEM. This includes (but is not limited to) the CEREBRAL CORTEX; intracranial white matter; BASAL GANGLIA; THALAMUS; HYPOTHALAMUS; BRAIN STEM; and CEREBELLUM.",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001927",
+        "standardized_id": "MESH:D001927",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Brain Diseases",
+        "standardized_name": "Brain Diseases",
+        "normalized_name": "brain diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "brain",
+          "brain diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathologic conditions affecting the BRAIN, which is composed of the intracranial components of the CENTRAL NERVOUS SYSTEM. This includes (but is not limited to) the CEREBRAL CORTEX; intracranial white matter; BASAL GANGLIA; THALAMUS; HYPOTHALAMUS; BRAIN STEM; and CEREBELLUM.",
+        "cleaned_description": "Pathologic conditions affecting the BRAIN, which is composed of the intracranial components of the CENTRAL NERVOUS SYSTEM. This includes (but is not limited to) the CEREBRAL CORTEX; intracranial white matter; BASAL GANGLIA; THALAMUS; HYPOTHALAMUS; BRAIN STEM; and CEREBELLUM.",
+        "description_summary": "Pathologic conditions affecting the BRAIN, which is composed of the intracranial components of the CENTRAL NERVOUS SYSTEM.",
+        "key_terms": [],
+        "word_count": 38
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.404688",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001929",
+      "DiseaseName": "Brain Edema",
+      "DiseaseDescription": "Increased intracellular or extracellular fluid in brain tissue. Cytotoxic brain edema (swelling due to increased intracellular fluid) is indicative of a disturbance in cell metabolism, and is commonly associated with hypoxic or ischemic injuries (see HYPOXIA, BRAIN). An increase in extracellular fluid may be caused by increased brain capillary permeability (vasogenic edema), an osmotic gradient, local blockages in interstitial fluid pathways, or by obstruction of CSF flow (e.g., obstructive HYDROCEPHALUS). (From Childs Nerv Syst 1992 Sep; 8(6):301-6)",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001929",
+        "standardized_id": "MESH:D001929",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Brain Edema",
+        "standardized_name": "Brain Edema",
+        "normalized_name": "brain edema",
+        "synonyms": [],
+        "search_terms": [
+          "edema",
+          "brain",
+          "brain edema"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Increased intracellular or extracellular fluid in brain tissue. Cytotoxic brain edema (swelling due to increased intracellular fluid) is indicative of a disturbance in cell metabolism, and is commonly associated with hypoxic or ischemic injuries (see HYPOXIA, BRAIN). An increase in extracellular fluid may be caused by increased brain capillary permeability (vasogenic edema), an osmotic gradient, local blockages in interstitial fluid pathways, or by obstruction of CSF flow (e.g., obstructive HYDROCEPHALUS). (From Childs Nerv Syst 1992 Sep; 8(6):301-6)",
+        "cleaned_description": "Increased intracellular or extracellular fluid in brain tissue. Cytotoxic brain edema (swelling due to increased intracellular fluid) is indicative of a disturbance in cell metabolism, and is commonly associated with hypoxic or ischemic injuries (see HYPOXIA, BRAIN). An increase in extracellular fluid may be caused by increased brain capillary permeability (vasogenic edema), an osmotic gradient, local blockages in interstitial fluid pathways, or by obstruction of CSF flow (e.g., obstructive HYDROCEPHALUS). (From Childs Nerv Syst 1992 Sep; 8(6):301-6)",
+        "description_summary": "Increased intracellular or extracellular fluid in brain tissue.",
+        "key_terms": [
+          "vasogenic"
+        ],
+        "word_count": 77
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.405447",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010244",
+      "DiseaseName": "Bulbar Palsy, Progressive",
+      "DiseaseDescription": "A motor neuron disease marked by progressive weakness of the muscles innervated by cranial nerves of the lower brain stem. Clinical manifestations include dysarthria, dysphagia, facial weakness, tongue weakness, and fasciculations of the tongue and facial muscles. The adult form of the disease is marked initially by bulbar weakness which progresses to involve motor neurons throughout the neuroaxis. Eventually this condition may become indistinguishable from AMYOTROPHIC LATERAL SCLEROSIS. Fazio-Londe syndrome is an inherited form of this illness which occurs in children and young adults. (Adams et al., Principles of Neurology, 6th ed, p1091; Brain 1992 Dec;115(Pt 6):1889-1900)",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Vitamin digestion and absorption",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010244",
+        "standardized_id": "MESH:D010244",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Bulbar Palsy, Progressive",
+        "standardized_name": "Bulbar Palsy, Progressive",
+        "normalized_name": "bulbar palsy progressive",
+        "synonyms": [],
+        "search_terms": [
+          "bulbar palsy, progressive",
+          "progressive",
+          "bulbar",
+          "palsy,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A motor neuron disease marked by progressive weakness of the muscles innervated by cranial nerves of the lower brain stem. Clinical manifestations include dysarthria, dysphagia, facial weakness, tongue weakness, and fasciculations of the tongue and facial muscles. The adult form of the disease is marked initially by bulbar weakness which progresses to involve motor neurons throughout the neuroaxis. Eventually this condition may become indistinguishable from AMYOTROPHIC LATERAL SCLEROSIS. Fazio-Londe syndrome is an inherited form of this illness which occurs in children and young adults. (Adams et al., Principles of Neurology, 6th ed, p1091; Brain 1992 Dec;115(Pt 6):1889-1900)",
+        "cleaned_description": "A motor neuron disease marked by progressive weakness of the muscles innervated by cranial nerves of the lower brain stem. Clinical manifestations include dysarthria, dysphagia, facial weakness, tongue weakness, and fasciculations of the tongue and facial muscles. The adult form of the disease is marked initially by bulbar weakness which progresses to involve motor neurons throughout the neuroaxis. Eventually this condition may become indistinguishable from AMYOTROPHIC LATERAL SCLEROSIS. Fazio-Londe syndrome is an inherited form of this illness which occurs in children and young adults. (Adams et al., Principles of Neurology, 6th ed, p1091; Brain 1992 Dec;115(Pt 6):1889-1900)",
+        "description_summary": "A motor neuron disease marked by progressive weakness of the muscles innervated by cranial nerves of the lower brain stem.",
+        "key_terms": [
+          "SCLEROSIS"
+        ],
+        "word_count": 97
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamin digestion and absorption",
+        "pathway_list": [
+          "Vitamin digestion and absorption"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.411271",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002493",
+      "DiseaseName": "Central Nervous System Diseases",
+      "DiseaseDescription": "Diseases of any component of the brain (including the cerebral hemispheres, diencephalon, brain stem, and cerebellum) or the spinal cord.",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "The citric acid (TCA) cycle and respiratory electron transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002493",
+        "standardized_id": "MESH:D002493",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Central Nervous System Diseases",
+        "standardized_name": "Central Nervous System Diseases",
+        "normalized_name": "central nervous system diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "nervous",
+          "central",
+          "system",
+          "central nervous system diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases of any component of the brain (including the cerebral hemispheres, diencephalon, brain stem, and cerebellum) or the spinal cord.",
+        "cleaned_description": "Diseases of any component of the brain (including the cerebral hemispheres, diencephalon, brain stem, and cerebellum) or the spinal cord.",
+        "description_summary": "Diseases of any component of the brain (including the cerebral hemispheres, diencephalon, brain stem, and cerebellum) or the spinal cord.",
+        "key_terms": [],
+        "word_count": 20
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "The citric acid (TCA) cycle and respiratory electron transport",
+        "pathway_list": [
+          "The citric acid (TCA) cycle and respiratory electron transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.433525",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002526",
+      "DiseaseName": "Cerebellar Diseases",
+      "DiseaseDescription": "Diseases that affect the structure or function of the cerebellum. Cardinal manifestations of cerebellar dysfunction include dysmetria, GAIT ATAXIA, and MUSCLE HYPOTONIA.",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Transmission across Chemical Synapses",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002526",
+        "standardized_id": "MESH:D002526",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cerebellar Diseases",
+        "standardized_name": "Cerebellar Diseases",
+        "normalized_name": "cerebellar diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "cerebellar diseases",
+          "cerebellar"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases that affect the structure or function of the cerebellum. Cardinal manifestations of cerebellar dysfunction include dysmetria, GAIT ATAXIA, and MUSCLE HYPOTONIA.",
+        "cleaned_description": "Diseases that affect the structure or function of the cerebellum. Cardinal manifestations of cerebellar dysfunction include dysmetria, GAIT ATAXIA, and MUSCLE HYPOTONIA.",
+        "description_summary": "Diseases that affect the structure or function of the cerebellum.",
+        "key_terms": [],
+        "word_count": 22
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmission across Chemical Synapses",
+        "pathway_list": [
+          "Transmission across Chemical Synapses"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.439305",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002547",
+      "DiseaseName": "Cerebral Palsy",
+      "DiseaseDescription": "A heterogeneous group of nonprogressive motor disorders caused by chronic brain injuries that originate in the prenatal period, perinatal period, or first few years of life. The four major subtypes are spastic, athetoid, ataxic, and mixed cerebral palsy, with spastic forms being the most common. The motor disorder may range from difficulties with fine motor control to severe spasticity (see MUSCLE SPASTICITY) in all limbs. Spastic diplegia (Little disease) is the most common subtype, and is characterized by spasticity that is more prominent in the legs than in the arms. Pathologically, this condition may be associated with LEUKOMALACIA, PERIVENTRICULAR. (From Dev Med Child Neurol 1998 Aug;40(8):520-7)",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002547",
+        "standardized_id": "MESH:D002547",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cerebral Palsy",
+        "standardized_name": "Cerebral Palsy",
+        "normalized_name": "cerebral palsy",
+        "synonyms": [],
+        "search_terms": [
+          "cerebral palsy",
+          "cerebral",
+          "palsy"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A heterogeneous group of nonprogressive motor disorders caused by chronic brain injuries that originate in the prenatal period, perinatal period, or first few years of life. The four major subtypes are spastic, athetoid, ataxic, and mixed cerebral palsy, with spastic forms being the most common. The motor disorder may range from difficulties with fine motor control to severe spasticity (see MUSCLE SPASTICITY) in all limbs. Spastic diplegia (Little disease) is the most common subtype, and is characterized by spasticity that is more prominent in the legs than in the arms. Pathologically, this condition may be associated with LEUKOMALACIA, PERIVENTRICULAR. (From Dev Med Child Neurol 1998 Aug;40(8):520-7)",
+        "cleaned_description": "A heterogeneous group of nonprogressive motor disorders caused by chronic brain injuries that originate in the prenatal period, perinatal period, or first few years of life. The four major subtypes are spastic, athetoid, ataxic, and mixed cerebral palsy, with spastic forms being the most common. The motor disorder may range from difficulties with fine motor control to severe spasticity (see MUSCLE SPASTICITY) in all limbs. Spastic diplegia (Little disease) is the most common subtype, and is characterized by spasticity that is more prominent in the legs than in the arms. Pathologically, this condition may be associated with LEUKOMALACIA, PERIVENTRICULAR. (From Dev Med Child Neurol 1998 Aug;40(8):520-7)",
+        "description_summary": "A heterogeneous group of nonprogressive motor disorders caused by chronic brain injuries that originate in the prenatal period, perinatal period, or first few years of life.",
+        "key_terms": [],
+        "word_count": 106
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.440433",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D021081",
+      "DiseaseName": "Chronobiology Disorders",
+      "DiseaseDescription": "Disruptions of the rhythmic cycle of bodily functions or activities.",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D021081",
+        "standardized_id": "MESH:D021081",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Chronobiology Disorders",
+        "standardized_name": "Chronobiology Disorders",
+        "normalized_name": "chronobiology disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "chronobiology",
+          "chronobiology disorders"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Disruptions of the rhythmic cycle of bodily functions or activities.",
+        "cleaned_description": "Disruptions of the rhythmic cycle of bodily functions or activities.",
+        "description_summary": "Disruptions of the rhythmic cycle of bodily functions or activities.",
+        "key_terms": [],
+        "word_count": 10
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.444627",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003711",
+      "DiseaseName": "Demyelinating Diseases",
+      "DiseaseDescription": "Diseases characterized by loss or dysfunction of myelin in the central or peripheral nervous system.",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003711",
+        "standardized_id": "MESH:D003711",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Demyelinating Diseases",
+        "standardized_name": "Demyelinating Diseases",
+        "normalized_name": "demyelinating diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "demyelinating",
+          "demyelinating diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases characterized by loss or dysfunction of myelin in the central or peripheral nervous system.",
+        "cleaned_description": "Diseases characterized by loss or dysfunction of myelin in the central or peripheral nervous system.",
+        "description_summary": "Diseases characterized by loss or dysfunction of myelin in the central or peripheral nervous system.",
+        "key_terms": [],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.472754",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020821",
+      "DiseaseName": "Dystonic Disorders",
+      "DiseaseDescription": "Acquired and inherited conditions that feature DYSTONIA as a primary manifestation of disease. These disorders are generally divided into generalized dystonias (e.g., dystonia musculorum deformans) and focal dystonias (e.g., writer's cramp). They are also classified by patterns of inheritance and by age of onset.",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020821",
+        "standardized_id": "MESH:D020821",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Dystonic Disorders",
+        "standardized_name": "Dystonic Disorders",
+        "normalized_name": "dystonic disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "dystonic",
+          "dystonic disorders"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Acquired and inherited conditions that feature DYSTONIA as a primary manifestation of disease. These disorders are generally divided into generalized dystonias (e.g., dystonia musculorum deformans) and focal dystonias (e.g., writer's cramp). They are also classified by patterns of inheritance and by age of onset.",
+        "cleaned_description": "Acquired and inherited conditions that feature DYSTONIA as a primary manifestation of disease. These disorders are generally divided into generalized dystonias (e.g., dystonia musculorum deformans) and focal dystonias (e.g., writer's cramp). They are also classified by patterns of inheritance and by age of onset.",
+        "description_summary": "Acquired and inherited conditions that feature DYSTONIA as a primary manifestation of disease.",
+        "key_terms": [],
+        "word_count": 44
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.490395",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004660",
+      "DiseaseName": "Encephalitis",
+      "DiseaseDescription": "Inflammation of the BRAIN due to infection, autoimmune processes, toxins, and other conditions. Viral infections (see ENCEPHALITIS, VIRAL) are a relatively frequent cause of this condition.",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004660",
+        "standardized_id": "MESH:D004660",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Encephalitis",
+        "standardized_name": "Encephalitis",
+        "normalized_name": "encephalitis",
+        "synonyms": [],
+        "search_terms": [
+          "encephalitis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inflammation of the BRAIN due to infection, autoimmune processes, toxins, and other conditions. Viral infections (see ENCEPHALITIS, VIRAL) are a relatively frequent cause of this condition.",
+        "cleaned_description": "Inflammation of the BRAIN due to infection, autoimmune processes, toxins, and other conditions. Viral infections (see ENCEPHALITIS, VIRAL) are a relatively frequent cause of this condition.",
+        "description_summary": "Inflammation of the BRAIN due to infection, autoimmune processes, toxins, and other conditions.",
+        "key_terms": [
+          "ENCEPHALITIS"
+        ],
+        "word_count": 26
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.493188",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004831",
+      "DiseaseName": "Epilepsies, Myoclonic",
+      "DiseaseDescription": "A clinically diverse group of epilepsy syndromes characterized either by myoclonic seizures or by myoclonus in association with other seizure types. Myoclonic epilepsy syndromes are divided into three subtypes based on etiology: familial, cryptogenic, and symptomatic.",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004831",
+        "standardized_id": "MESH:D004831",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Epilepsies, Myoclonic",
+        "standardized_name": "Epilepsies, Myoclonic",
+        "normalized_name": "epilepsies myoclonic",
+        "synonyms": [],
+        "search_terms": [
+          "myoclonic",
+          "epilepsies,",
+          "epilepsies, myoclonic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A clinically diverse group of epilepsy syndromes characterized either by myoclonic seizures or by myoclonus in association with other seizure types. Myoclonic epilepsy syndromes are divided into three subtypes based on etiology: familial, cryptogenic, and symptomatic.",
+        "cleaned_description": "A clinically diverse group of epilepsy syndromes characterized either by myoclonic seizures or by myoclonus in association with other seizure types. Myoclonic epilepsy syndromes are divided into three subtypes based on etiology: familial, cryptogenic, and symptomatic.",
+        "description_summary": "A clinically diverse group of epilepsy syndromes characterized either by myoclonic seizures or by myoclonus in association with other seizure types.",
+        "key_terms": [
+          "cryptogenic"
+        ],
+        "word_count": 36
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.506447",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004827",
+      "DiseaseName": "Epilepsy",
+      "DiseaseDescription": "A disorder characterized by recurrent episodes of paroxysmal brain dysfunction due to a sudden, disorderly, and excessive neuronal discharge. Epilepsy classification systems are generally based upon: (1) clinical features of the seizure episodes (e.g., motor seizure), (2) etiology (e.g., post-traumatic), (3) anatomic site of seizure origin (e.g., frontal lobe seizure), (4) tendency to spread to other structures in the brain, and (5) temporal patterns (e.g., nocturnal epilepsy). (From Adams et al., Principles of Neurology, 6th ed, p313)",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Voltage gated Potassium channels",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004827",
+        "standardized_id": "MESH:D004827",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Epilepsy",
+        "standardized_name": "Epilepsy",
+        "normalized_name": "epilepsy",
+        "synonyms": [],
+        "search_terms": [
+          "epilepsy"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A disorder characterized by recurrent episodes of paroxysmal brain dysfunction due to a sudden, disorderly, and excessive neuronal discharge. Epilepsy classification systems are generally based upon: (1) clinical features of the seizure episodes (e.g., motor seizure), (2) etiology (e.g., post-traumatic), (3) anatomic site of seizure origin (e.g., frontal lobe seizure), (4) tendency to spread to other structures in the brain, and (5) temporal patterns (e.g., nocturnal epilepsy). (From Adams et al., Principles of Neurology, 6th ed, p313)",
+        "cleaned_description": "A disorder characterized by recurrent episodes of paroxysmal brain dysfunction due to a sudden, disorderly, and excessive neuronal discharge. Epilepsy classification systems are generally based upon: (1) clinical features of the seizure episodes (e.g., motor seizure), (2) etiology (e.g., post-traumatic), (3) anatomic site of seizure origin (e.g., frontal lobe seizure), (4) tendency to spread to other structures in the brain, and (5) temporal patterns (e.g., nocturnal epilepsy). (From Adams et al., Principles of Neurology, 6th ed, p313)",
+        "description_summary": "A disorder characterized by recurrent episodes of paroxysmal brain dysfunction due to a sudden, disorderly, and excessive neuronal discharge.",
+        "key_terms": [],
+        "word_count": 77
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Voltage gated Potassium channels",
+        "pathway_list": [
+          "Voltage gated Potassium channels"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.506807",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004832",
+      "DiseaseName": "Epilepsy, Absence",
+      "DiseaseDescription": "A seizure disorder usually occurring in childhood characterized by rhythmic electrical brain discharges of generalized onset. Clinical features include a sudden cessation of ongoing activity usually without loss of postural tone. Rhythmic blinking of the eyelids or lip smacking frequently accompanies the SEIZURES. The usual duration is 5-10 seconds, and multiple episodes may occur daily. Juvenile absence epilepsy is characterized by the juvenile onset of absence seizures and an increased incidence of myoclonus and tonic-clonic seizures. (Menkes, Textbook of Child Neurology, 5th ed, p736)",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Type II diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004832",
+        "standardized_id": "MESH:D004832",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Epilepsy, Absence",
+        "standardized_name": "Epilepsy, Absence",
+        "normalized_name": "epilepsy absence",
+        "synonyms": [],
+        "search_terms": [
+          "absence",
+          "epilepsy,",
+          "epilepsy, absence"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A seizure disorder usually occurring in childhood characterized by rhythmic electrical brain discharges of generalized onset. Clinical features include a sudden cessation of ongoing activity usually without loss of postural tone. Rhythmic blinking of the eyelids or lip smacking frequently accompanies the SEIZURES. The usual duration is 5-10 seconds, and multiple episodes may occur daily. Juvenile absence epilepsy is characterized by the juvenile onset of absence seizures and an increased incidence of myoclonus and tonic-clonic seizures. (Menkes, Textbook of Child Neurology, 5th ed, p736)",
+        "cleaned_description": "A seizure disorder usually occurring in childhood characterized by rhythmic electrical brain discharges of generalized onset. Clinical features include a sudden cessation of ongoing activity usually without loss of postural tone. Rhythmic blinking of the eyelids or lip smacking frequently accompanies the SEIZURES. The usual duration is 5-10 seconds, and multiple episodes may occur daily. Juvenile absence epilepsy is characterized by the juvenile onset of absence seizures and an increased incidence of myoclonus and tonic-clonic seizures. (Menkes, Textbook of Child Neurology, 5th ed, p736)",
+        "description_summary": "A seizure disorder usually occurring in childhood characterized by rhythmic electrical brain discharges of generalized onset.",
+        "key_terms": [],
+        "word_count": 84
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type II diabetes mellitus",
+        "pathway_list": [
+          "Type II diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.507274",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D017029",
+      "DiseaseName": "Epilepsy, Complex Partial",
+      "DiseaseDescription": "A disorder characterized by recurrent partial seizures marked by impairment of cognition. During the seizure the individual may experience a wide variety of psychic phenomenon including formed hallucinations, illusions, deja vu, intense emotional feelings, confusion, and spatial disorientation. Focal motor activity, sensory alterations and AUTOMATISM may also occur. Complex partial seizures often originate from foci in one or both temporal lobes. The etiology may be idiopathic (cryptogenic partial complex epilepsy) or occur as a secondary manifestation of a focal cortical lesion (symptomatic partial complex epilepsy). (From Adams et al., Principles of Neurology, 6th ed, pp317-8)",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Taste transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017029",
+        "standardized_id": "MESH:D017029",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Epilepsy, Complex Partial",
+        "standardized_name": "Epilepsy, Complex Partial",
+        "normalized_name": "epilepsy complex partial",
+        "synonyms": [],
+        "search_terms": [
+          "complex",
+          "partial",
+          "epilepsy,",
+          "epilepsy, complex partial"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A disorder characterized by recurrent partial seizures marked by impairment of cognition. During the seizure the individual may experience a wide variety of psychic phenomenon including formed hallucinations, illusions, deja vu, intense emotional feelings, confusion, and spatial disorientation. Focal motor activity, sensory alterations and AUTOMATISM may also occur. Complex partial seizures often originate from foci in one or both temporal lobes. The etiology may be idiopathic (cryptogenic partial complex epilepsy) or occur as a secondary manifestation of a focal cortical lesion (symptomatic partial complex epilepsy). (From Adams et al., Principles of Neurology, 6th ed, pp317-8)",
+        "cleaned_description": "A disorder characterized by recurrent partial seizures marked by impairment of cognition. During the seizure the individual may experience a wide variety of psychic phenomenon including formed hallucinations, illusions, deja vu, intense emotional feelings, confusion, and spatial disorientation. Focal motor activity, sensory alterations and AUTOMATISM may also occur. Complex partial seizures often originate from foci in one or both temporal lobes. The etiology may be idiopathic (cryptogenic partial complex epilepsy) or occur as a secondary manifestation of a focal cortical lesion (symptomatic partial complex epilepsy). (From Adams et al., Principles of Neurology, 6th ed, pp317-8)",
+        "description_summary": "A disorder characterized by recurrent partial seizures marked by impairment of cognition.",
+        "key_terms": [
+          "cryptogenic"
+        ],
+        "word_count": 95
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Taste transduction",
+        "pathway_list": [
+          "Taste transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.508207",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004829",
+      "DiseaseName": "Epilepsy, Generalized",
+      "DiseaseDescription": "Recurrent conditions characterized by epileptic seizures which arise diffusely and simultaneously from both hemispheres of the brain. Classification is generally based upon motor manifestations of the seizure (e.g., convulsive, nonconvulsive, akinetic, atonic, etc.) or etiology (e.g., idiopathic, cryptogenic, and symptomatic). (From Mayo Clin Proc, 1996 Apr;71(4):405-14)",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Transmission across Chemical Synapses",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004829",
+        "standardized_id": "MESH:D004829",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Epilepsy, Generalized",
+        "standardized_name": "Epilepsy, Generalized",
+        "normalized_name": "epilepsy generalized",
+        "synonyms": [],
+        "search_terms": [
+          "epilepsy,",
+          "epilepsy, generalized",
+          "generalized"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Recurrent conditions characterized by epileptic seizures which arise diffusely and simultaneously from both hemispheres of the brain. Classification is generally based upon motor manifestations of the seizure (e.g., convulsive, nonconvulsive, akinetic, atonic, etc.) or etiology (e.g., idiopathic, cryptogenic, and symptomatic). (From Mayo Clin Proc, 1996 Apr;71(4):405-14)",
+        "cleaned_description": "Recurrent conditions characterized by epileptic seizures which arise diffusely and simultaneously from both hemispheres of the brain. Classification is generally based upon motor manifestations of the seizure (e.g., convulsive, nonconvulsive, akinetic, atonic, etc.) or etiology (e.g., idiopathic, cryptogenic, and symptomatic). (From Mayo Clin Proc, 1996 Apr;71(4):405-14)",
+        "description_summary": "Recurrent conditions characterized by epileptic seizures which arise diffusely and simultaneously from both hemispheres of the brain.",
+        "key_terms": [
+          "cryptogenic"
+        ],
+        "word_count": 46
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmission across Chemical Synapses",
+        "pathway_list": [
+          "Transmission across Chemical Synapses"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.508536",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D019305",
+      "DiseaseName": "Epilepsy, Rolandic",
+      "DiseaseDescription": "An autosomal dominant inherited partial epilepsy syndrome with onset between age 3 and 13 years. Seizures are characterized by PARESTHESIA and tonic or clonic activity of the lower face associated with drooling and DYSARTHRIA. In most cases, affected children are neurologically and developmentally normal. (From Epilepsia 1998 39;Suppl 4:S32-S41)",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D019305",
+        "standardized_id": "MESH:D019305",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Epilepsy, Rolandic",
+        "standardized_name": "Epilepsy, Rolandic",
+        "normalized_name": "epilepsy rolandic",
+        "synonyms": [],
+        "search_terms": [
+          "epilepsy, rolandic",
+          "epilepsy,",
+          "rolandic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An autosomal dominant inherited partial epilepsy syndrome with onset between age 3 and 13 years. Seizures are characterized by PARESTHESIA and tonic or clonic activity of the lower face associated with drooling and DYSARTHRIA. In most cases, affected children are neurologically and developmentally normal. (From Epilepsia 1998 39;Suppl 4:S32-S41)",
+        "cleaned_description": "An autosomal dominant inherited partial epilepsy syndrome with onset between age 3 and 13 years. Seizures are characterized by PARESTHESIA and tonic or clonic activity of the lower face associated with drooling and DYSARTHRIA. In most cases, affected children are neurologically and developmentally normal. (From Epilepsia 1998 39;Suppl 4:S32-S41)",
+        "description_summary": "An autosomal dominant inherited partial epilepsy syndrome with onset between age 3 and 13 years.",
+        "key_terms": [],
+        "word_count": 49
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.508840",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004833",
+      "DiseaseName": "Epilepsy, Temporal Lobe",
+      "DiseaseDescription": "A localization-related (focal) form of epilepsy characterized by recurrent seizures that arise from foci within the TEMPORAL LOBE, most commonly from its mesial aspect. A wide variety of psychic phenomena may be associated, including illusions, hallucinations, dyscognitive states, and affective experiences. The majority of complex partial seizures (see EPILEPSY, COMPLEX PARTIAL) originate from the temporal lobes. Temporal lobe seizures may be classified by etiology as cryptogenic, familial, or symptomatic. (From Adams et al., Principles of Neurology, 6th ed, p321).",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Voltage gated Potassium channels",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004833",
+        "standardized_id": "MESH:D004833",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Epilepsy, Temporal Lobe",
+        "standardized_name": "Epilepsy, Temporal Lobe",
+        "normalized_name": "epilepsy temporal lobe",
+        "synonyms": [],
+        "search_terms": [
+          "epilepsy, temporal lobe",
+          "epilepsy,",
+          "temporal",
+          "lobe"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A localization-related (focal) form of epilepsy characterized by recurrent seizures that arise from foci within the TEMPORAL LOBE, most commonly from its mesial aspect. A wide variety of psychic phenomena may be associated, including illusions, hallucinations, dyscognitive states, and affective experiences. The majority of complex partial seizures (see EPILEPSY, COMPLEX PARTIAL) originate from the temporal lobes. Temporal lobe seizures may be classified by etiology as cryptogenic, familial, or symptomatic. (From Adams et al., Principles of Neurology, 6th ed, p321).",
+        "cleaned_description": "A localization-related (focal) form of epilepsy characterized by recurrent seizures that arise from foci within the TEMPORAL LOBE, most commonly from its mesial aspect. A wide variety of psychic phenomena may be associated, including illusions, hallucinations, dyscognitive states, and affective experiences. The majority of complex partial seizures (see EPILEPSY, COMPLEX PARTIAL) originate from the temporal lobes. Temporal lobe seizures may be classified by etiology as cryptogenic, familial, or symptomatic. (From Adams et al., Principles of Neurology, 6th ed, p321).",
+        "description_summary": "A localization-related (focal) form of epilepsy characterized by recurrent seizures that arise from foci within the TEMPORAL LOBE, most commonly from its mesial aspect.",
+        "key_terms": [
+          "cryptogenic"
+        ],
+        "word_count": 79
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Voltage gated Potassium channels",
+        "pathway_list": [
+          "Voltage gated Potassium channels"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.509266",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004830",
+      "DiseaseName": "Epilepsy, Tonic-Clonic",
+      "DiseaseDescription": "A generalized seizure disorder characterized by recurrent major motor seizures. The initial brief tonic phase is marked by trunk flexion followed by diffuse extension of the trunk and extremities. The clonic phase features rhythmic flexor contractions of the trunk and limbs, pupillary dilation, elevations of blood pressure and pulse, urinary incontinence, and tongue biting. This is followed by a profound state of depressed consciousness (post-ictal state) which gradually improves over minutes to hours. The disorder may be cryptogenic, familial, or symptomatic (caused by an identified disease process). (From Adams et al., Principles of Neurology, 6th ed, p329)",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004830",
+        "standardized_id": "MESH:D004830",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Epilepsy, Tonic-Clonic",
+        "standardized_name": "Epilepsy, Tonic-Clonic",
+        "normalized_name": "epilepsy tonic-clonic",
+        "synonyms": [],
+        "search_terms": [
+          "epilepsy,",
+          "tonic-clonic",
+          "epilepsy, tonic-clonic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A generalized seizure disorder characterized by recurrent major motor seizures. The initial brief tonic phase is marked by trunk flexion followed by diffuse extension of the trunk and extremities. The clonic phase features rhythmic flexor contractions of the trunk and limbs, pupillary dilation, elevations of blood pressure and pulse, urinary incontinence, and tongue biting. This is followed by a profound state of depressed consciousness (post-ictal state) which gradually improves over minutes to hours. The disorder may be cryptogenic, familial, or symptomatic (caused by an identified disease process). (From Adams et al., Principles of Neurology, 6th ed, p329)",
+        "cleaned_description": "A generalized seizure disorder characterized by recurrent major motor seizures. The initial brief tonic phase is marked by trunk flexion followed by diffuse extension of the trunk and extremities. The clonic phase features rhythmic flexor contractions of the trunk and limbs, pupillary dilation, elevations of blood pressure and pulse, urinary incontinence, and tongue biting. This is followed by a profound state of depressed consciousness (post-ictal state) which gradually improves over minutes to hours. The disorder may be cryptogenic, familial, or symptomatic (caused by an identified disease process). (From Adams et al., Principles of Neurology, 6th ed, p329)",
+        "description_summary": "A generalized seizure disorder characterized by recurrent major motor seizures.",
+        "key_terms": [
+          "cryptogenic"
+        ],
+        "word_count": 97
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.509739",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020329",
+      "DiseaseName": "Essential Tremor",
+      "DiseaseDescription": "A relatively common disorder characterized by a fairly specific pattern of tremors which are most prominent in the upper extremities and neck, inducing titubations of the head. The tremor is usually mild, but when severe may be disabling. An autosomal dominant pattern of inheritance may occur in some families (i.e., familial tremor). (Mov Disord 1988;13(1):5-10)",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Transmission across Chemical Synapses",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020329",
+        "standardized_id": "MESH:D020329",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Essential Tremor",
+        "standardized_name": "Essential Tremor",
+        "normalized_name": "essential tremor",
+        "synonyms": [],
+        "search_terms": [
+          "essential tremor",
+          "tremor",
+          "essential"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A relatively common disorder characterized by a fairly specific pattern of tremors which are most prominent in the upper extremities and neck, inducing titubations of the head. The tremor is usually mild, but when severe may be disabling. An autosomal dominant pattern of inheritance may occur in some families (i.e., familial tremor). (Mov Disord 1988;13(1):5-10)",
+        "cleaned_description": "A relatively common disorder characterized by a fairly specific pattern of tremors which are most prominent in the upper extremities and neck, inducing titubations of the head. The tremor is usually mild, but when severe may be disabling. An autosomal dominant pattern of inheritance may occur in some families (i.e., familial tremor). (Mov Disord 1988;13(1):5-10)",
+        "description_summary": "A relatively common disorder characterized by a fairly specific pattern of tremors which are most prominent in the upper extremities and neck, inducing titubations of the head.",
+        "key_terms": [],
+        "word_count": 55
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmission across Chemical Synapses",
+        "pathway_list": [
+          "Transmission across Chemical Synapses"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.512839",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006849",
+      "DiseaseName": "Hydrocephalus",
+      "DiseaseDescription": "Excessive accumulation of cerebrospinal fluid within the cranium which may be associated with dilation of cerebral ventricles, INTRACRANIAL HYPERTENSION; HEADACHE; lethargy; URINARY INCONTINENCE; and ATAXIA.",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006849",
+        "standardized_id": "MESH:D006849",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hydrocephalus",
+        "standardized_name": "Hydrocephalus",
+        "normalized_name": "hydrocephalus",
+        "synonyms": [],
+        "search_terms": [
+          "hydrocephalus"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Excessive accumulation of cerebrospinal fluid within the cranium which may be associated with dilation of cerebral ventricles, INTRACRANIAL HYPERTENSION; HEADACHE; lethargy; URINARY INCONTINENCE; and ATAXIA.",
+        "cleaned_description": "Excessive accumulation of cerebrospinal fluid within the cranium which may be associated with dilation of cerebral ventricles, INTRACRANIAL HYPERTENSION; HEADACHE; lethargy; URINARY INCONTINENCE; and ATAXIA.",
+        "description_summary": "Excessive accumulation of cerebrospinal fluid within the cranium which may be associated with dilation of cerebral ventricles, INTRACRANIAL HYPERTENSION; HEADACHE; lethargy; URINARY INCONTINENCE; and ATAXIA.",
+        "key_terms": [],
+        "word_count": 25
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.672230",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D019586",
+      "DiseaseName": "Intracranial Hypertension",
+      "DiseaseDescription": "Increased pressure within the cranial vault. This may result from several conditions, including HYDROCEPHALUS; BRAIN EDEMA; intracranial masses; severe systemic HYPERTENSION; PSEUDOTUMOR CEREBRI; and other disorders.",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Transport of inorganic cations/anions and amino acids/oligopeptides",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D019586",
+        "standardized_id": "MESH:D019586",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Intracranial Hypertension",
+        "standardized_name": "Intracranial Hypertension",
+        "normalized_name": "intracranial hypertension",
+        "synonyms": [],
+        "search_terms": [
+          "intracranial hypertension",
+          "intracranial",
+          "hypertension"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Increased pressure within the cranial vault. This may result from several conditions, including HYDROCEPHALUS; BRAIN EDEMA; intracranial masses; severe systemic HYPERTENSION; PSEUDOTUMOR CEREBRI; and other disorders.",
+        "cleaned_description": "Increased pressure within the cranial vault. This may result from several conditions, including HYDROCEPHALUS; BRAIN EDEMA; intracranial masses; severe systemic HYPERTENSION; PSEUDOTUMOR CEREBRI; and other disorders.",
+        "description_summary": "Increased pressure within the cranial vault.",
+        "key_terms": [],
+        "word_count": 26
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of inorganic cations/anions and amino acids/oligopeptides",
+        "pathway_list": [
+          "Transport of inorganic cations/anions and amino acids/oligopeptides"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.792546",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D056784",
+      "DiseaseName": "Leukoencephalopathies",
+      "DiseaseDescription": "Any of various diseases affecting the white matter of the central nervous system.",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D056784",
+        "standardized_id": "MESH:D056784",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Leukoencephalopathies",
+        "standardized_name": "Leukoencephalopathies",
+        "normalized_name": "leukoencephalopathies",
+        "synonyms": [],
+        "search_terms": [
+          "leukoencephalopathies"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Any of various diseases affecting the white matter of the central nervous system.",
+        "cleaned_description": "Any of various diseases affecting the white matter of the central nervous system.",
+        "description_summary": "Any of various diseases affecting the white matter of the central nervous system.",
+        "key_terms": [],
+        "word_count": 13
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.812807",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020149",
+      "DiseaseName": "Manganese Poisoning",
+      "DiseaseDescription": "Manganese poisoning is associated with chronic inhalation of manganese particles by individuals who work with manganese ore. Clinical features include CONFUSION; HALLUCINATIONS; and an extrapyramidal syndrome (PARKINSON DISEASE, SECONDARY) that includes rigidity; DYSTONIA; retropulsion; and TREMOR. (Adams, Principles of Neurology, 6th ed, p1213)",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Zinc transporters",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020149",
+        "standardized_id": "MESH:D020149",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Manganese Poisoning",
+        "standardized_name": "Manganese Poisoning",
+        "normalized_name": "manganese poisoning",
+        "synonyms": [],
+        "search_terms": [
+          "poisoning",
+          "manganese poisoning",
+          "manganese"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Manganese poisoning is associated with chronic inhalation of manganese particles by individuals who work with manganese ore. Clinical features include CONFUSION; HALLUCINATIONS; and an extrapyramidal syndrome (PARKINSON DISEASE, SECONDARY) that includes rigidity; DYSTONIA; retropulsion; and TREMOR. (Adams, Principles of Neurology, 6th ed, p1213)",
+        "cleaned_description": "Manganese poisoning is associated with chronic inhalation of manganese particles by individuals who work with manganese ore. Clinical features include CONFUSION; HALLUCINATIONS; and an extrapyramidal syndrome (PARKINSON DISEASE, SECONDARY) that includes rigidity; DYSTONIA; retropulsion; and TREMOR. (Adams, Principles of Neurology, 6th ed, p1213)",
+        "description_summary": "Manganese poisoning is associated with chronic inhalation of manganese particles by individuals who work with manganese ore.",
+        "key_terms": [],
+        "word_count": 43
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Zinc transporters",
+        "pathway_list": [
+          "Zinc transporters"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.837438",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008581",
+      "DiseaseName": "Meningitis",
+      "DiseaseDescription": "Inflammation of the coverings of the brain and/or spinal cord, which consist of the PIA MATER; ARACHNOID; and DURA MATER. Infections (viral, bacterial, and fungal) are the most common causes of this condition, but subarachnoid hemorrhage (HEMORRHAGES, SUBARACHNOID), chemical irritation (chemical MENINGITIS), granulomatous conditions, neoplastic conditions (CARCINOMATOUS MENINGITIS), and other inflammatory conditions may produce this syndrome. (From Joynt, Clinical Neurology, 1994, Ch24, p6)",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Terminal pathway of complement",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008581",
+        "standardized_id": "MESH:D008581",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Meningitis",
+        "standardized_name": "Meningitis",
+        "normalized_name": "meningitis",
+        "synonyms": [],
+        "search_terms": [
+          "meningitis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inflammation of the coverings of the brain and/or spinal cord, which consist of the PIA MATER; ARACHNOID; and DURA MATER. Infections (viral, bacterial, and fungal) are the most common causes of this condition, but subarachnoid hemorrhage (HEMORRHAGES, SUBARACHNOID), chemical irritation (chemical MENINGITIS), granulomatous conditions, neoplastic conditions (CARCINOMATOUS MENINGITIS), and other inflammatory conditions may produce this syndrome. (From Joynt, Clinical Neurology, 1994, Ch24, p6)",
+        "cleaned_description": "Inflammation of the coverings of the brain and/or spinal cord, which consist of the PIA MATER; ARACHNOID; and DURA MATER. Infections (viral, bacterial, and fungal) are the most common causes of this condition, but subarachnoid hemorrhage (HEMORRHAGES, SUBARACHNOID), chemical irritation (chemical MENINGITIS), granulomatous conditions, neoplastic conditions (CARCINOMATOUS MENINGITIS), and other inflammatory conditions may produce this syndrome. (From Joynt, Clinical Neurology, 1994, Ch24, p6)",
+        "description_summary": "Inflammation of the coverings of the brain and/or spinal cord, which consist of the PIA MATER; ARACHNOID; and DURA MATER.",
+        "key_terms": [
+          "MENINGITIS"
+        ],
+        "word_count": 63
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Terminal pathway of complement",
+        "pathway_list": [
+          "Terminal pathway of complement"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.842874",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008582",
+      "DiseaseName": "Meningitis, Aseptic",
+      "DiseaseDescription": "A syndrome characterized by headache, neck stiffness, low grade fever, and CSF lymphocytic pleocytosis in the absence of an acute bacterial pathogen. Viral meningitis is the most frequent cause although MYCOPLASMA INFECTIONS; RICKETTSIA INFECTIONS; diagnostic or therapeutic procedures; NEOPLASTIC PROCESSES; septic perimeningeal foci; and other conditions may result in this syndrome. (From Adams et al., Principles of Neurology, 6th ed, p745)",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008582",
+        "standardized_id": "MESH:D008582",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Meningitis, Aseptic",
+        "standardized_name": "Meningitis, Aseptic",
+        "normalized_name": "meningitis aseptic",
+        "synonyms": [],
+        "search_terms": [
+          "meningitis, aseptic",
+          "meningitis,",
+          "aseptic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A syndrome characterized by headache, neck stiffness, low grade fever, and CSF lymphocytic pleocytosis in the absence of an acute bacterial pathogen. Viral meningitis is the most frequent cause although MYCOPLASMA INFECTIONS; RICKETTSIA INFECTIONS; diagnostic or therapeutic procedures; NEOPLASTIC PROCESSES; septic perimeningeal foci; and other conditions may result in this syndrome. (From Adams et al., Principles of Neurology, 6th ed, p745)",
+        "cleaned_description": "A syndrome characterized by headache, neck stiffness, low grade fever, and CSF lymphocytic pleocytosis in the absence of an acute bacterial pathogen. Viral meningitis is the most frequent cause although MYCOPLASMA INFECTIONS; RICKETTSIA INFECTIONS; diagnostic or therapeutic procedures; NEOPLASTIC PROCESSES; septic perimeningeal foci; and other conditions may result in this syndrome. (From Adams et al., Principles of Neurology, 6th ed, p745)",
+        "description_summary": "A syndrome characterized by headache, neck stiffness, low grade fever, and CSF lymphocytic pleocytosis in the absence of an acute bacterial pathogen.",
+        "key_terms": [
+          "pleocytosis",
+          "meningitis"
+        ],
+        "word_count": 61
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.843256",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008590",
+      "DiseaseName": "Meningoencephalitis",
+      "DiseaseDescription": "An inflammatory process involving the brain (ENCEPHALITIS) and meninges (MENINGITIS), most often produced by pathogenic organisms which invade the central nervous system, and occasionally by toxins, autoimmune disorders, and other conditions.",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Transcriptional misregulation in cancer",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008590",
+        "standardized_id": "MESH:D008590",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Meningoencephalitis",
+        "standardized_name": "Meningoencephalitis",
+        "normalized_name": "meningoencephalitis",
+        "synonyms": [],
+        "search_terms": [
+          "meningoencephalitis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An inflammatory process involving the brain (ENCEPHALITIS) and meninges (MENINGITIS), most often produced by pathogenic organisms which invade the central nervous system, and occasionally by toxins, autoimmune disorders, and other conditions.",
+        "cleaned_description": "An inflammatory process involving the brain (ENCEPHALITIS) and meninges (MENINGITIS), most often produced by pathogenic organisms which invade the central nervous system, and occasionally by toxins, autoimmune disorders, and other conditions.",
+        "description_summary": "An inflammatory process involving the brain (ENCEPHALITIS) and meninges (MENINGITIS), most often produced by pathogenic organisms which invade the central nervous system, and occasionally by toxins, autoimmune disorders, and other conditions.",
+        "key_terms": [
+          "ENCEPHALITIS",
+          "pathogenic",
+          "MENINGITIS"
+        ],
+        "word_count": 31
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional misregulation in cancer",
+        "pathway_list": [
+          "Transcriptional misregulation in cancer"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional misregulation in cancer"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.844165",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020262",
+      "DiseaseName": "Mercury Poisoning, Nervous System",
+      "DiseaseDescription": "Neurologic disorders associated with exposure to inorganic and organic forms of MERCURY. Acute intoxication may be associated with gastrointestinal disturbances, mental status changes, and PARAPARESIS. Chronic exposure to inorganic mercury usually occurs in industrial workers, and manifests as mental confusion, prominent behavioral changes (including psychosis), DYSKINESIAS, and NEURITIS. Alkyl mercury poisoning may occur through ingestion of contaminated seafood or grain, and its characteristic features include POLYNEUROPATHY; ATAXIA; vision loss; NYSTAGMUS, PATHOLOGIC; and DEAFNESS. (From Joynt, Clinical Neurology, 1997, Ch20, pp10-15)",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020262",
+        "standardized_id": "MESH:D020262",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Mercury Poisoning, Nervous System",
+        "standardized_name": "Mercury Poisoning, Nervous System",
+        "normalized_name": "mercury poisoning nervous system",
+        "synonyms": [],
+        "search_terms": [
+          "mercury poisoning, nervous system",
+          "mercury",
+          "nervous",
+          "system",
+          "poisoning,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Neurologic disorders associated with exposure to inorganic and organic forms of MERCURY. Acute intoxication may be associated with gastrointestinal disturbances, mental status changes, and PARAPARESIS. Chronic exposure to inorganic mercury usually occurs in industrial workers, and manifests as mental confusion, prominent behavioral changes (including psychosis), DYSKINESIAS, and NEURITIS. Alkyl mercury poisoning may occur through ingestion of contaminated seafood or grain, and its characteristic features include POLYNEUROPATHY; ATAXIA; vision loss; NYSTAGMUS, PATHOLOGIC; and DEAFNESS. (From Joynt, Clinical Neurology, 1997, Ch20, pp10-15)",
+        "cleaned_description": "Neurologic disorders associated with exposure to inorganic and organic forms of MERCURY. Acute intoxication may be associated with gastrointestinal disturbances, mental status changes, and PARAPARESIS. Chronic exposure to inorganic mercury usually occurs in industrial workers, and manifests as mental confusion, prominent behavioral changes (including psychosis), DYSKINESIAS, and NEURITIS. Alkyl mercury poisoning may occur through ingestion of contaminated seafood or grain, and its characteristic features include POLYNEUROPATHY; ATAXIA; vision loss; NYSTAGMUS, PATHOLOGIC; and DEAFNESS. (From Joynt, Clinical Neurology, 1997, Ch20, pp10-15)",
+        "description_summary": "Neurologic disorders associated with exposure to inorganic and organic forms of MERCURY.",
+        "key_terms": [
+          "psychosis",
+          "NEURITIS",
+          "POLYNEUROPATHY"
+        ],
+        "word_count": 80
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.845899",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008881",
+      "DiseaseName": "Migraine Disorders",
+      "DiseaseDescription": "A class of disabling primary headache disorders, characterized by recurrent unilateral pulsatile headaches. The two major subtypes are common migraine (without aura) and classic migraine (with aura or neurological symptoms). (International Classification of Headache Disorders, 2nd ed. Cephalalgia 2004: suppl 1)",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Visual phototransduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008881",
+        "standardized_id": "MESH:D008881",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Migraine Disorders",
+        "standardized_name": "Migraine Disorders",
+        "normalized_name": "migraine disorders",
+        "synonyms": [],
+        "search_terms": [
+          "migraine",
+          "migraine disorders",
+          "disorders"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A class of disabling primary headache disorders, characterized by recurrent unilateral pulsatile headaches. The two major subtypes are common migraine (without aura) and classic migraine (with aura or neurological symptoms). (International Classification of Headache Disorders, 2nd ed. Cephalalgia 2004: suppl 1)",
+        "cleaned_description": "A class of disabling primary headache disorders, characterized by recurrent unilateral pulsatile headaches. The two major subtypes are common migraine (without aura) and classic migraine (with aura or neurological symptoms). (International Classification of Headache Disorders, 2nd ed. Cephalalgia 2004: suppl 1)",
+        "description_summary": "A class of disabling primary headache disorders, characterized by recurrent unilateral pulsatile headaches.",
+        "key_terms": [],
+        "word_count": 41
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Visual phototransduction",
+        "pathway_list": [
+          "Visual phototransduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.849945",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020325",
+      "DiseaseName": "Migraine with Aura",
+      "DiseaseDescription": "A subtype of migraine disorder, characterized by recurrent attacks of reversible neurological symptoms (aura) that precede or accompany the headache. Aura may include a combination of sensory disturbances, such as blurred VISION; HALLUCINATIONS; VERTIGO; NUMBNESS; and difficulty in concentrating and speaking. Aura is usually followed by features of the COMMON MIGRAINE, such as PHOTOPHOBIA; PHONOPHOBIA; and NAUSEA. (International Classification of Headache Disorders, 2nd ed. Cephalalgia 2004: suppl 1)",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Type II diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020325",
+        "standardized_id": "MESH:D020325",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Migraine with Aura",
+        "standardized_name": "Migraine with Aura",
+        "normalized_name": "migraine with aura",
+        "synonyms": [],
+        "search_terms": [
+          "migraine",
+          "aura",
+          "migraine with aura",
+          "with"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A subtype of migraine disorder, characterized by recurrent attacks of reversible neurological symptoms (aura) that precede or accompany the headache. Aura may include a combination of sensory disturbances, such as blurred VISION; HALLUCINATIONS; VERTIGO; NUMBNESS; and difficulty in concentrating and speaking. Aura is usually followed by features of the COMMON MIGRAINE, such as PHOTOPHOBIA; PHONOPHOBIA; and NAUSEA. (International Classification of Headache Disorders, 2nd ed. Cephalalgia 2004: suppl 1)",
+        "cleaned_description": "A subtype of migraine disorder, characterized by recurrent attacks of reversible neurological symptoms (aura) that precede or accompany the headache. Aura may include a combination of sensory disturbances, such as blurred VISION; HALLUCINATIONS; VERTIGO; NUMBNESS; and difficulty in concentrating and speaking. Aura is usually followed by features of the COMMON MIGRAINE, such as PHOTOPHOBIA; PHONOPHOBIA; and NAUSEA. (International Classification of Headache Disorders, 2nd ed. Cephalalgia 2004: suppl 1)",
+        "description_summary": "A subtype of migraine disorder, characterized by recurrent attacks of reversible neurological symptoms (aura) that precede or accompany the headache.",
+        "key_terms": [],
+        "word_count": 68
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type II diabetes mellitus",
+        "pathway_list": [
+          "Type II diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.850337",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020326",
+      "DiseaseName": "Migraine without Aura",
+      "DiseaseDescription": "Recurrent unilateral pulsatile headaches, not preceded or accompanied by an aura, in attacks lasting 4-72 hours. It is characterized by PAIN of moderate to severe intensity; aggravated by physical activity; and associated with NAUSEA and / or PHOTOPHOBIA and PHONOPHOBIA. (International Classification of Headache Disorders, 2nd ed. Cephalalgia 2004: suppl 1)",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Visual phototransduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020326",
+        "standardized_id": "MESH:D020326",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Migraine without Aura",
+        "standardized_name": "Migraine without Aura",
+        "normalized_name": "migraine without aura",
+        "synonyms": [],
+        "search_terms": [
+          "migraine",
+          "aura",
+          "migraine without aura",
+          "without"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Recurrent unilateral pulsatile headaches, not preceded or accompanied by an aura, in attacks lasting 4-72 hours. It is characterized by PAIN of moderate to severe intensity; aggravated by physical activity; and associated with NAUSEA and / or PHOTOPHOBIA and PHONOPHOBIA. (International Classification of Headache Disorders, 2nd ed. Cephalalgia 2004: suppl 1)",
+        "cleaned_description": "Recurrent unilateral pulsatile headaches, not preceded or accompanied by an aura, in attacks lasting 4-72 hours. It is characterized by PAIN of moderate to severe intensity; aggravated by physical activity; and associated with NAUSEA and / or PHOTOPHOBIA and PHONOPHOBIA. (International Classification of Headache Disorders, 2nd ed. Cephalalgia 2004: suppl 1)",
+        "description_summary": "Recurrent unilateral pulsatile headaches, not preceded or accompanied by an aura, in attacks lasting 4-72 hours.",
+        "key_terms": [],
+        "word_count": 51
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Visual phototransduction",
+        "pathway_list": [
+          "Visual phototransduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.854147",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D016472",
+      "DiseaseName": "Motor Neuron Disease",
+      "DiseaseDescription": "Diseases characterized by a selective degeneration of the motor neurons of the spinal cord, brainstem, or motor cortex. Clinical subtypes are distinguished by the major site of degeneration. In AMYOTROPHIC LATERAL SCLEROSIS there is involvement of upper, lower, and brainstem motor neurons. In progressive muscular atrophy and related syndromes (see MUSCULAR ATROPHY, SPINAL) the motor neurons in the spinal cord are primarily affected. With progressive bulbar palsy (BULBAR PALSY, PROGRESSIVE), the initial degeneration occurs in the brainstem. In primary lateral sclerosis, the cortical neurons are affected in isolation. (Adams et al., Principles of Neurology, 6th ed, p1089)",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Striated Muscle Contraction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D016472",
+        "standardized_id": "MESH:D016472",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Motor Neuron Disease",
+        "standardized_name": "Motor Neuron Disease",
+        "normalized_name": "motor neuron disease",
+        "synonyms": [],
+        "search_terms": [
+          "disease",
+          "motor neuron disease",
+          "neuron",
+          "motor"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases characterized by a selective degeneration of the motor neurons of the spinal cord, brainstem, or motor cortex. Clinical subtypes are distinguished by the major site of degeneration. In AMYOTROPHIC LATERAL SCLEROSIS there is involvement of upper, lower, and brainstem motor neurons. In progressive muscular atrophy and related syndromes (see MUSCULAR ATROPHY, SPINAL) the motor neurons in the spinal cord are primarily affected. With progressive bulbar palsy (BULBAR PALSY, PROGRESSIVE), the initial degeneration occurs in the brainstem. In primary lateral sclerosis, the cortical neurons are affected in isolation. (Adams et al., Principles of Neurology, 6th ed, p1089)",
+        "cleaned_description": "Diseases characterized by a selective degeneration of the motor neurons of the spinal cord, brainstem, or motor cortex. Clinical subtypes are distinguished by the major site of degeneration. In AMYOTROPHIC LATERAL SCLEROSIS there is involvement of upper, lower, and brainstem motor neurons. In progressive muscular atrophy and related syndromes (see MUSCULAR ATROPHY, SPINAL) the motor neurons in the spinal cord are primarily affected. With progressive bulbar palsy (BULBAR PALSY, PROGRESSIVE), the initial degeneration occurs in the brainstem. In primary lateral sclerosis, the cortical neurons are affected in isolation. (Adams et al., Principles of Neurology, 6th ed, p1089)",
+        "description_summary": "Diseases characterized by a selective degeneration of the motor neurons of the spinal cord, brainstem, or motor cortex.",
+        "key_terms": [
+          "SCLEROSIS",
+          "sclerosis"
+        ],
+        "word_count": 97
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Striated Muscle Contraction",
+        "pathway_list": [
+          "Striated Muscle Contraction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.856932",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009069",
+      "DiseaseName": "Movement Disorders",
+      "DiseaseDescription": "Syndromes which feature DYSKINESIAS as a cardinal manifestation of the disease process. Included in this category are degenerative, hereditary, post-infectious, medication-induced, post-inflammatory, and post-traumatic conditions.",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Vibrio cholerae infection",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009069",
+        "standardized_id": "MESH:D009069",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Movement Disorders",
+        "standardized_name": "Movement Disorders",
+        "normalized_name": "movement disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "movement",
+          "movement disorders"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Syndromes which feature DYSKINESIAS as a cardinal manifestation of the disease process. Included in this category are degenerative, hereditary, post-infectious, medication-induced, post-inflammatory, and post-traumatic conditions.",
+        "cleaned_description": "Syndromes which feature DYSKINESIAS as a cardinal manifestation of the disease process. Included in this category are degenerative, hereditary, post-infectious, medication-induced, post-inflammatory, and post-traumatic conditions.",
+        "description_summary": "Syndromes which feature DYSKINESIAS as a cardinal manifestation of the disease process.",
+        "key_terms": [],
+        "word_count": 25
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vibrio cholerae infection",
+        "pathway_list": [
+          "Vibrio cholerae infection"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.857430",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020267",
+      "DiseaseName": "MPTP Poisoning",
+      "DiseaseDescription": "A condition caused by the neurotoxin MPTP which causes selective destruction of nigrostriatal dopaminergic neurons. Clinical features include irreversible parkinsonian signs including rigidity and bradykinesia (PARKINSON DISEASE, SECONDARY). MPTP toxicity is also used as an animal model for the study of PARKINSON DISEASE. (Adams et al., Principles of Neurology, 6th ed, p1072; Neurology 1986 Feb;36(2):250-8)",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020267",
+        "standardized_id": "MESH:D020267",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "MPTP Poisoning",
+        "standardized_name": "MPTP Poisoning",
+        "normalized_name": "mptp poisoning",
+        "synonyms": [],
+        "search_terms": [
+          "mptp poisoning",
+          "poisoning",
+          "mptp"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition caused by the neurotoxin MPTP which causes selective destruction of nigrostriatal dopaminergic neurons. Clinical features include irreversible parkinsonian signs including rigidity and bradykinesia (PARKINSON DISEASE, SECONDARY). MPTP toxicity is also used as an animal model for the study of PARKINSON DISEASE. (Adams et al., Principles of Neurology, 6th ed, p1072; Neurology 1986 Feb;36(2):250-8)",
+        "cleaned_description": "A condition caused by the neurotoxin MPTP which causes selective destruction of nigrostriatal dopaminergic neurons. Clinical features include irreversible parkinsonian signs including rigidity and bradykinesia (PARKINSON DISEASE, SECONDARY). MPTP toxicity is also used as an animal model for the study of PARKINSON DISEASE. (Adams et al., Principles of Neurology, 6th ed, p1072; Neurology 1986 Feb;36(2):250-8)",
+        "description_summary": "A condition caused by the neurotoxin MPTP which causes selective destruction of nigrostriatal dopaminergic neurons.",
+        "key_terms": [],
+        "word_count": 55
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.857623",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D019578",
+      "DiseaseName": "Multiple System Atrophy",
+      "DiseaseDescription": "A syndrome complex composed of three conditions which represent clinical variants of the same disease process: STRIATONIGRAL DEGENERATION; SHY-DRAGER SYNDROME; and the sporadic form of OLIVOPONTOCEREBELLAR ATROPHIES. Clinical features include autonomic, cerebellar, and basal ganglia dysfunction. Pathologic examination reveals atrophy of the basal ganglia, cerebellum, pons, and medulla, with prominent loss of autonomic neurons in the brain stem and spinal cord. (From Adams et al., Principles of Neurology, 6th ed, p1076; Baillieres Clin Neurol 1997 Apr;6(1):187-204; Med Clin North Am 1999 Mar;83(2):381-92)",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Ubiquinone biosynthesis, eukaryotes, 4-hydroxybenzoate => ubiquinone",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D019578",
+        "standardized_id": "MESH:D019578",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Multiple System Atrophy",
+        "standardized_name": "Multiple System Atrophy",
+        "normalized_name": "multiple system atrophy",
+        "synonyms": [],
+        "search_terms": [
+          "multiple",
+          "multiple system atrophy",
+          "atrophy",
+          "system"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A syndrome complex composed of three conditions which represent clinical variants of the same disease process: STRIATONIGRAL DEGENERATION; SHY-DRAGER SYNDROME; and the sporadic form of OLIVOPONTOCEREBELLAR ATROPHIES. Clinical features include autonomic, cerebellar, and basal ganglia dysfunction. Pathologic examination reveals atrophy of the basal ganglia, cerebellum, pons, and medulla, with prominent loss of autonomic neurons in the brain stem and spinal cord. (From Adams et al., Principles of Neurology, 6th ed, p1076; Baillieres Clin Neurol 1997 Apr;6(1):187-204; Med Clin North Am 1999 Mar;83(2):381-92)",
+        "cleaned_description": "A syndrome complex composed of three conditions which represent clinical variants of the same disease process: STRIATONIGRAL DEGENERATION; SHY-DRAGER SYNDROME; and the sporadic form of OLIVOPONTOCEREBELLAR ATROPHIES. Clinical features include autonomic, cerebellar, and basal ganglia dysfunction. Pathologic examination reveals atrophy of the basal ganglia, cerebellum, pons, and medulla, with prominent loss of autonomic neurons in the brain stem and spinal cord. (From Adams et al., Principles of Neurology, 6th ed, p1076; Baillieres Clin Neurol 1997 Apr;6(1):187-204; Med Clin North Am 1999 Mar;83(2):381-92)",
+        "description_summary": "A syndrome complex composed of three conditions which represent clinical variants of the same disease process: STRIATONIGRAL DEGENERATION; SHY-DRAGER SYNDROME; and the sporadic form of OLIVOPONTOCEREBELLAR ATROPHIES.",
+        "key_terms": [],
+        "word_count": 82
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Ubiquinone biosynthesis, eukaryotes, 4-hydroxybenzoate => ubiquinone",
+        "pathway_list": [
+          "Ubiquinone biosynthesis",
+          "4-hydroxybenzoate => ubiquinone",
+          "eukaryotes"
+        ],
+        "pathway_count": 3,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.859706",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009134",
+      "DiseaseName": "Muscular Atrophy, Spinal",
+      "DiseaseDescription": "A group of disorders marked by progressive degeneration of motor neurons in the spinal cord resulting in weakness and muscular atrophy, usually without evidence of injury to the corticospinal tracts. Diseases in this category include Werdnig-Hoffmann disease and later onset SPINAL MUSCULAR ATROPHIES OF CHILDHOOD, most of which are hereditary. (Adams et al., Principles of Neurology, 6th ed, p1089)",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "TRP channels",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009134",
+        "standardized_id": "MESH:D009134",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Muscular Atrophy, Spinal",
+        "standardized_name": "Muscular Atrophy, Spinal",
+        "normalized_name": "muscular atrophy spinal",
+        "synonyms": [],
+        "search_terms": [
+          "muscular",
+          "muscular atrophy, spinal",
+          "atrophy,",
+          "spinal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A group of disorders marked by progressive degeneration of motor neurons in the spinal cord resulting in weakness and muscular atrophy, usually without evidence of injury to the corticospinal tracts. Diseases in this category include Werdnig-Hoffmann disease and later onset SPINAL MUSCULAR ATROPHIES OF CHILDHOOD, most of which are hereditary. (Adams et al., Principles of Neurology, 6th ed, p1089)",
+        "cleaned_description": "A group of disorders marked by progressive degeneration of motor neurons in the spinal cord resulting in weakness and muscular atrophy, usually without evidence of injury to the corticospinal tracts. Diseases in this category include Werdnig-Hoffmann disease and later onset SPINAL MUSCULAR ATROPHIES OF CHILDHOOD, most of which are hereditary. (Adams et al., Principles of Neurology, 6th ed, p1089)",
+        "description_summary": "A group of disorders marked by progressive degeneration of motor neurons in the spinal cord resulting in weakness and muscular atrophy, usually without evidence of injury to the corticospinal tracts.",
+        "key_terms": [],
+        "word_count": 59
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "TRP channels",
+        "pathway_list": [
+          "TRP channels"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.860875",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020191",
+      "DiseaseName": "Myoclonic Epilepsies, Progressive",
+      "DiseaseDescription": "A heterogeneous group of primarily familial EPILEPSY disorders characterized by myoclonic seizures, tonic-clonic seizures, ataxia, progressive intellectual deterioration, and neuronal degeneration. These include LAFORA DISEASE; MERRF SYNDROME; NEURONAL CEROID-LIPOFUSCINOSIS; sialidosis (see MUCOLIPIDOSES), and UNVERRICHT-LUNDBORG SYNDROME.",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "XBP1(S) activates chaperone genes",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020191",
+        "standardized_id": "MESH:D020191",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Myoclonic Epilepsies, Progressive",
+        "standardized_name": "Myoclonic Epilepsies, Progressive",
+        "normalized_name": "myoclonic epilepsies progressive",
+        "synonyms": [],
+        "search_terms": [
+          "myoclonic",
+          "myoclonic epilepsies, progressive",
+          "progressive",
+          "epilepsies,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A heterogeneous group of primarily familial EPILEPSY disorders characterized by myoclonic seizures, tonic-clonic seizures, ataxia, progressive intellectual deterioration, and neuronal degeneration. These include LAFORA DISEASE; MERRF SYNDROME; NEURONAL CEROID-LIPOFUSCINOSIS; sialidosis (see MUCOLIPIDOSES), and UNVERRICHT-LUNDBORG SYNDROME.",
+        "cleaned_description": "A heterogeneous group of primarily familial EPILEPSY disorders characterized by myoclonic seizures, tonic-clonic seizures, ataxia, progressive intellectual deterioration, and neuronal degeneration. These include LAFORA DISEASE; MERRF SYNDROME; NEURONAL CEROID-LIPOFUSCINOSIS; sialidosis (see MUCOLIPIDOSES), and UNVERRICHT-LUNDBORG SYNDROME.",
+        "description_summary": "A heterogeneous group of primarily familial EPILEPSY disorders characterized by myoclonic seizures, tonic-clonic seizures, ataxia, progressive intellectual deterioration, and neuronal degeneration.",
+        "key_terms": [
+          "sialidosis",
+          "LIPOFUSCINOSIS"
+        ],
+        "word_count": 35
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "XBP1(S) activates chaperone genes",
+        "pathway_list": [
+          "XBP1(S) activates chaperone genes"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.863871",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020190",
+      "DiseaseName": "Myoclonic Epilepsy, Juvenile",
+      "DiseaseDescription": "A disorder characterized by the onset of myoclonus in adolescence, a marked increase in the incidence of absence seizures (see EPILEPSY, ABSENCE), and generalized major motor seizures (see EPILEPSY, TONIC-CLONIC). The myoclonic episodes tend to occur shortly after awakening. Seizures tend to be aggravated by sleep deprivation and alcohol consumption. Hereditary and sporadic forms have been identified. (From Adams et al., Principles of Neurology, 6th ed, p323)",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Transmission across Chemical Synapses",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020190",
+        "standardized_id": "MESH:D020190",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Myoclonic Epilepsy, Juvenile",
+        "standardized_name": "Myoclonic Epilepsy, Juvenile",
+        "normalized_name": "myoclonic epilepsy juvenile",
+        "synonyms": [],
+        "search_terms": [
+          "myoclonic",
+          "juvenile",
+          "myoclonic epilepsy, juvenile",
+          "epilepsy,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A disorder characterized by the onset of myoclonus in adolescence, a marked increase in the incidence of absence seizures (see EPILEPSY, ABSENCE), and generalized major motor seizures (see EPILEPSY, TONIC-CLONIC). The myoclonic episodes tend to occur shortly after awakening. Seizures tend to be aggravated by sleep deprivation and alcohol consumption. Hereditary and sporadic forms have been identified. (From Adams et al., Principles of Neurology, 6th ed, p323)",
+        "cleaned_description": "A disorder characterized by the onset of myoclonus in adolescence, a marked increase in the incidence of absence seizures (see EPILEPSY, ABSENCE), and generalized major motor seizures (see EPILEPSY, TONIC-CLONIC). The myoclonic episodes tend to occur shortly after awakening. Seizures tend to be aggravated by sleep deprivation and alcohol consumption. Hereditary and sporadic forms have been identified. (From Adams et al., Principles of Neurology, 6th ed, p323)",
+        "description_summary": "A disorder characterized by the onset of myoclonus in adolescence, a marked increase in the incidence of absence seizures (see EPILEPSY, ABSENCE), and generalized major motor seizures (see EPILEPSY, TONIC-CLONIC).",
+        "key_terms": [],
+        "word_count": 67
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmission across Chemical Synapses",
+        "pathway_list": [
+          "Transmission across Chemical Synapses"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.864057",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009422",
+      "DiseaseName": "Nervous System Diseases",
+      "DiseaseDescription": "Diseases of the central and peripheral nervous system. This includes disorders of the brain, spinal cord, cranial nerves, peripheral nerves, nerve roots, autonomic nervous system, neuromuscular junction, and muscle.",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009422",
+        "standardized_id": "MESH:D009422",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Nervous System Diseases",
+        "standardized_name": "Nervous System Diseases",
+        "normalized_name": "nervous system diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "nervous system diseases",
+          "nervous",
+          "system"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases of the central and peripheral nervous system. This includes disorders of the brain, spinal cord, cranial nerves, peripheral nerves, nerve roots, autonomic nervous system, neuromuscular junction, and muscle.",
+        "cleaned_description": "Diseases of the central and peripheral nervous system. This includes disorders of the brain, spinal cord, cranial nerves, peripheral nerves, nerve roots, autonomic nervous system, neuromuscular junction, and muscle.",
+        "description_summary": "Diseases of the central and peripheral nervous system.",
+        "key_terms": [],
+        "word_count": 29
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.878331",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D019150",
+      "DiseaseName": "Neuroaxonal Dystrophies",
+      "DiseaseDescription": "A nonspecific term referring both to the pathologic finding of swelling of distal portions of axons in the brain and to disorders which feature this finding. Neuroaxonal dystrophy is seen in various genetic diseases, vitamin deficiencies, and aging. Infantile neuroaxonal dystrophy is an autosomal recessive disease characterized by arrested psychomotor development at 6 months to 2 years of age, ataxia, brain stem dysfunction, and quadriparesis. Juvenile and adult forms also occur. Pathologic findings include brain atrophy and widespread accumulation of axonal spheroids throughout the neuroaxis, peripheral nerves, and dental pulp. (From Davis & Robertson, Textbook of Neuropathology, 2nd ed, p927)",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Lysosome",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D019150",
+        "standardized_id": "MESH:D019150",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Neuroaxonal Dystrophies",
+        "standardized_name": "Neuroaxonal Dystrophies",
+        "normalized_name": "neuroaxonal dystrophies",
+        "synonyms": [],
+        "search_terms": [
+          "neuroaxonal",
+          "neuroaxonal dystrophies",
+          "dystrophies"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A nonspecific term referring both to the pathologic finding of swelling of distal portions of axons in the brain and to disorders which feature this finding. Neuroaxonal dystrophy is seen in various genetic diseases, vitamin deficiencies, and aging. Infantile neuroaxonal dystrophy is an autosomal recessive disease characterized by arrested psychomotor development at 6 months to 2 years of age, ataxia, brain stem dysfunction, and quadriparesis. Juvenile and adult forms also occur. Pathologic findings include brain atrophy and widespread accumulation of axonal spheroids throughout the neuroaxis, peripheral nerves, and dental pulp. (From Davis & Robertson, Textbook of Neuropathology, 2nd ed, p927)",
+        "cleaned_description": "A nonspecific term referring both to the pathologic finding of swelling of distal portions of axons in the brain and to disorders which feature this finding. Neuroaxonal dystrophy is seen in various genetic diseases, vitamin deficiencies, and aging. Infantile neuroaxonal dystrophy is an autosomal recessive disease characterized by arrested psychomotor development at 6 months to 2 years of age, ataxia, brain stem dysfunction, and quadriparesis. Juvenile and adult forms also occur. Pathologic findings include brain atrophy and widespread accumulation of axonal spheroids throughout the neuroaxis, peripheral nerves, and dental pulp. (From Davis & Robertson, Textbook of Neuropathology, 2nd ed, p927)",
+        "description_summary": "A nonspecific term referring both to the pathologic finding of swelling of distal portions of axons in the brain and to disorders which feature this finding.",
+        "key_terms": [],
+        "word_count": 100
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Lysosome",
+        "pathway_list": [
+          "Lysosome"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.880313",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D019636",
+      "DiseaseName": "Neurodegenerative Diseases",
+      "DiseaseDescription": "Hereditary and sporadic conditions which are characterized by progressive nervous system dysfunction. These disorders are often associated with atrophy of the affected central or peripheral nervous system structures.",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D019636",
+        "standardized_id": "MESH:D019636",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Neurodegenerative Diseases",
+        "standardized_name": "Neurodegenerative Diseases",
+        "normalized_name": "neurodegenerative diseases",
+        "synonyms": [],
+        "search_terms": [
+          "neurodegenerative diseases",
+          "neurodegenerative",
+          "diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Hereditary and sporadic conditions which are characterized by progressive nervous system dysfunction. These disorders are often associated with atrophy of the affected central or peripheral nervous system structures.",
+        "cleaned_description": "Hereditary and sporadic conditions which are characterized by progressive nervous system dysfunction. These disorders are often associated with atrophy of the affected central or peripheral nervous system structures.",
+        "description_summary": "Hereditary and sporadic conditions which are characterized by progressive nervous system dysfunction.",
+        "key_terms": [],
+        "word_count": 28
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.881483",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009468",
+      "DiseaseName": "Neuromuscular Diseases",
+      "DiseaseDescription": "A general term encompassing lower MOTOR NEURON DISEASE; PERIPHERAL NERVOUS SYSTEM DISEASES; and certain MUSCULAR DISEASES. Manifestations include MUSCLE WEAKNESS; FASCICULATION; muscle ATROPHY; SPASM; MYOKYMIA; MUSCLE HYPERTONIA, myalgias, and MUSCLE HYPOTONIA.",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009468",
+        "standardized_id": "MESH:D009468",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Neuromuscular Diseases",
+        "standardized_name": "Neuromuscular Diseases",
+        "normalized_name": "neuromuscular diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "neuromuscular",
+          "neuromuscular diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A general term encompassing lower MOTOR NEURON DISEASE; PERIPHERAL NERVOUS SYSTEM DISEASES; and certain MUSCULAR DISEASES. Manifestations include MUSCLE WEAKNESS; FASCICULATION; muscle ATROPHY; SPASM; MYOKYMIA; MUSCLE HYPERTONIA, myalgias, and MUSCLE HYPOTONIA.",
+        "cleaned_description": "A general term encompassing lower MOTOR NEURON DISEASE; PERIPHERAL NERVOUS SYSTEM DISEASES; and certain MUSCULAR DISEASES. Manifestations include MUSCLE WEAKNESS; FASCICULATION; muscle ATROPHY; SPASM; MYOKYMIA; MUSCLE HYPERTONIA, myalgias, and MUSCLE HYPOTONIA.",
+        "description_summary": "A general term encompassing lower MOTOR NEURON DISEASE; PERIPHERAL NERVOUS SYSTEM DISEASES; and certain MUSCULAR DISEASES.",
+        "key_terms": [],
+        "word_count": 31
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.883802",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020258",
+      "DiseaseName": "Neurotoxicity Syndromes",
+      "DiseaseDescription": "Neurologic disorders caused by exposure to toxic substances through ingestion, injection, cutaneous application, or other method. This includes conditions caused by biologic, chemical, and pharmaceutical agents.",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020258",
+        "standardized_id": "MESH:D020258",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Neurotoxicity Syndromes",
+        "standardized_name": "Neurotoxicity Syndromes",
+        "normalized_name": "neurotoxicity syndromes",
+        "synonyms": [],
+        "search_terms": [
+          "syndromes",
+          "neurotoxicity",
+          "neurotoxicity syndromes"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Neurologic disorders caused by exposure to toxic substances through ingestion, injection, cutaneous application, or other method. This includes conditions caused by biologic, chemical, and pharmaceutical agents.",
+        "cleaned_description": "Neurologic disorders caused by exposure to toxic substances through ingestion, injection, cutaneous application, or other method. This includes conditions caused by biologic, chemical, and pharmaceutical agents.",
+        "description_summary": "Neurologic disorders caused by exposure to toxic substances through ingestion, injection, cutaneous application, or other method.",
+        "key_terms": [],
+        "word_count": 26
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.887640",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010300",
+      "DiseaseName": "Parkinson Disease",
+      "DiseaseDescription": "A progressive, degenerative neurologic disease characterized by a TREMOR that is maximal at rest, retropulsion (i.e. a tendency to fall backwards), rigidity, stooped posture, slowness of voluntary movements, and a masklike facial expression. Pathologic features include loss of melanin containing neurons in the substantia nigra and other pigmented nuclei of the brainstem. LEWY BODIES are present in the substantia nigra and locus coeruleus but may also be found in a related condition (LEWY BODY DISEASE, DIFFUSE) characterized by dementia in combination with varying degrees of parkinsonism. (Adams et al., Principles of Neurology, 6th ed, p1059, pp1067-75)",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010300",
+        "standardized_id": "MESH:D010300",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Parkinson Disease",
+        "standardized_name": "Parkinson Disease",
+        "normalized_name": "parkinson disease",
+        "synonyms": [],
+        "search_terms": [
+          "parkinson",
+          "disease",
+          "parkinson disease"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A progressive, degenerative neurologic disease characterized by a TREMOR that is maximal at rest, retropulsion (i.e. a tendency to fall backwards), rigidity, stooped posture, slowness of voluntary movements, and a masklike facial expression. Pathologic features include loss of melanin containing neurons in the substantia nigra and other pigmented nuclei of the brainstem. LEWY BODIES are present in the substantia nigra and locus coeruleus but may also be found in a related condition (LEWY BODY DISEASE, DIFFUSE) characterized by dementia in combination with varying degrees of parkinsonism. (Adams et al., Principles of Neurology, 6th ed, p1059, pp1067-75)",
+        "cleaned_description": "A progressive, degenerative neurologic disease characterized by a TREMOR that is maximal at rest, retropulsion (i.e. a tendency to fall backwards), rigidity, stooped posture, slowness of voluntary movements, and a masklike facial expression. Pathologic features include loss of melanin containing neurons in the substantia nigra and other pigmented nuclei of the brainstem. LEWY BODIES are present in the substantia nigra and locus coeruleus but may also be found in a related condition (LEWY BODY DISEASE, DIFFUSE) characterized by dementia in combination with varying degrees of parkinsonism. (Adams et al., Principles of Neurology, 6th ed, p1059, pp1067-75)",
+        "description_summary": "A progressive, degenerative neurologic disease characterized by a TREMOR that is maximal at rest, retropulsion (i.",
+        "key_terms": [],
+        "word_count": 96
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.909895",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010302",
+      "DiseaseName": "Parkinson Disease, Secondary",
+      "DiseaseDescription": "Conditions which feature clinical manifestations resembling primary Parkinson disease that are caused by a known or suspected condition. Examples include parkinsonism caused by vascular injury, drugs, trauma, toxin exposure, neoplasms, infections and degenerative or hereditary conditions. Clinical features may include bradykinesia, rigidity, parkinsonian gait, and masked facies. In general, tremor is less prominent in secondary parkinsonism than in the primary form. (From Joynt, Clinical Neurology, 1998, Ch38, pp39-42)",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010302",
+        "standardized_id": "MESH:D010302",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Parkinson Disease, Secondary",
+        "standardized_name": "Parkinson Disease, Secondary",
+        "normalized_name": "parkinson disease secondary",
+        "synonyms": [],
+        "search_terms": [
+          "secondary",
+          "parkinson",
+          "parkinson disease, secondary",
+          "disease,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Conditions which feature clinical manifestations resembling primary Parkinson disease that are caused by a known or suspected condition. Examples include parkinsonism caused by vascular injury, drugs, trauma, toxin exposure, neoplasms, infections and degenerative or hereditary conditions. Clinical features may include bradykinesia, rigidity, parkinsonian gait, and masked facies. In general, tremor is less prominent in secondary parkinsonism than in the primary form. (From Joynt, Clinical Neurology, 1998, Ch38, pp39-42)",
+        "cleaned_description": "Conditions which feature clinical manifestations resembling primary Parkinson disease that are caused by a known or suspected condition. Examples include parkinsonism caused by vascular injury, drugs, trauma, toxin exposure, neoplasms, infections and degenerative or hereditary conditions. Clinical features may include bradykinesia, rigidity, parkinsonian gait, and masked facies. In general, tremor is less prominent in secondary parkinsonism than in the primary form. (From Joynt, Clinical Neurology, 1998, Ch38, pp39-42)",
+        "description_summary": "Conditions which feature clinical manifestations resembling primary Parkinson disease that are caused by a known or suspected condition.",
+        "key_terms": [],
+        "word_count": 68
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.910331",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020734",
+      "DiseaseName": "Parkinsonian Disorders",
+      "DiseaseDescription": "A group of disorders which feature impaired motor control characterized by bradykinesia, MUSCLE RIGIDITY; TREMOR; and postural instability. Parkinsonian diseases are generally divided into primary parkinsonism (see PARKINSON DISEASE), secondary parkinsonism (see PARKINSON DISEASE, SECONDARY) and inherited forms. These conditions are associated with dysfunction of dopaminergic or closely related motor integration neuronal pathways in the BASAL GANGLIA.",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "XBP1(S) activates chaperone genes",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020734",
+        "standardized_id": "MESH:D020734",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Parkinsonian Disorders",
+        "standardized_name": "Parkinsonian Disorders",
+        "normalized_name": "parkinsonian disorders",
+        "synonyms": [],
+        "search_terms": [
+          "parkinsonian",
+          "parkinsonian disorders",
+          "disorders"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A group of disorders which feature impaired motor control characterized by bradykinesia, MUSCLE RIGIDITY; TREMOR; and postural instability. Parkinsonian diseases are generally divided into primary parkinsonism (see PARKINSON DISEASE), secondary parkinsonism (see PARKINSON DISEASE, SECONDARY) and inherited forms. These conditions are associated with dysfunction of dopaminergic or closely related motor integration neuronal pathways in the BASAL GANGLIA.",
+        "cleaned_description": "A group of disorders which feature impaired motor control characterized by bradykinesia, MUSCLE RIGIDITY; TREMOR; and postural instability. Parkinsonian diseases are generally divided into primary parkinsonism (see PARKINSON DISEASE), secondary parkinsonism (see PARKINSON DISEASE, SECONDARY) and inherited forms. These conditions are associated with dysfunction of dopaminergic or closely related motor integration neuronal pathways in the BASAL GANGLIA.",
+        "description_summary": "A group of disorders which feature impaired motor control characterized by bradykinesia, MUSCLE RIGIDITY; TREMOR; and postural instability.",
+        "key_terms": [],
+        "word_count": 57
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "XBP1(S) activates chaperone genes",
+        "pathway_list": [
+          "XBP1(S) activates chaperone genes"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.910690",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010523",
+      "DiseaseName": "Peripheral Nervous System Diseases",
+      "DiseaseDescription": "Diseases of the peripheral nerves external to the brain and spinal cord, which includes diseases of the nerve roots, ganglia, plexi, autonomic nerves, sensory nerves, and motor nerves.",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010523",
+        "standardized_id": "MESH:D010523",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Peripheral Nervous System Diseases",
+        "standardized_name": "Peripheral Nervous System Diseases",
+        "normalized_name": "peripheral nervous system diseases",
+        "synonyms": [],
+        "search_terms": [
+          "peripheral nervous system diseases",
+          "diseases",
+          "nervous",
+          "peripheral",
+          "system"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases of the peripheral nerves external to the brain and spinal cord, which includes diseases of the nerve roots, ganglia, plexi, autonomic nerves, sensory nerves, and motor nerves.",
+        "cleaned_description": "Diseases of the peripheral nerves external to the brain and spinal cord, which includes diseases of the nerve roots, ganglia, plexi, autonomic nerves, sensory nerves, and motor nerves.",
+        "description_summary": "Diseases of the peripheral nerves external to the brain and spinal cord, which includes diseases of the nerve roots, ganglia, plexi, autonomic nerves, sensory nerves, and motor nerves.",
+        "key_terms": [],
+        "word_count": 28
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.913948",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011115",
+      "DiseaseName": "Polyneuropathies",
+      "DiseaseDescription": "Diseases of multiple peripheral nerves simultaneously. Polyneuropathies usually are characterized by symmetrical, bilateral distal motor and sensory impairment with a graded increase in severity distally. The pathological processes affecting peripheral nerves include degeneration of the axon, myelin or both. The various forms of polyneuropathy are categorized by the type of nerve affected (e.g., sensory, motor, or autonomic), by the distribution of nerve injury (e.g., distal vs. proximal), by nerve component primarily affected (e.g., demyelinating vs. axonal), by etiology, or by pattern of inheritance.",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Synthesis of bile acids and bile salts via 7alpha-hydroxycholesterol",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011115",
+        "standardized_id": "MESH:D011115",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Polyneuropathies",
+        "standardized_name": "Polyneuropathies",
+        "normalized_name": "polyneuropathies",
+        "synonyms": [],
+        "search_terms": [
+          "polyneuropathies"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases of multiple peripheral nerves simultaneously. Polyneuropathies usually are characterized by symmetrical, bilateral distal motor and sensory impairment with a graded increase in severity distally. The pathological processes affecting peripheral nerves include degeneration of the axon, myelin or both. The various forms of polyneuropathy are categorized by the type of nerve affected (e.g., sensory, motor, or autonomic), by the distribution of nerve injury (e.g., distal vs. proximal), by nerve component primarily affected (e.g., demyelinating vs. axonal), by etiology, or by pattern of inheritance.",
+        "cleaned_description": "Diseases of multiple peripheral nerves simultaneously. Polyneuropathies usually are characterized by symmetrical, bilateral distal motor and sensory impairment with a graded increase in severity distally. The pathological processes affecting peripheral nerves include degeneration of the axon, myelin or both. The various forms of polyneuropathy are categorized by the type of nerve affected (e.g., sensory, motor, or autonomic), by the distribution of nerve injury (e.g., distal vs. proximal), by nerve component primarily affected (e.g., demyelinating vs. axonal), by etiology, or by pattern of inheritance.",
+        "description_summary": "Diseases of multiple peripheral nerves simultaneously.",
+        "key_terms": [
+          "polyneuropathy"
+        ],
+        "word_count": 83
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Synthesis of bile acids and bile salts via 7alpha-hydroxycholesterol",
+        "pathway_list": [
+          "Synthesis of bile acids and bile salts via 7alpha-hydroxycholesterol"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.923982",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D054038",
+      "DiseaseName": "Posterior Leukoencephalopathy Syndrome",
+      "DiseaseDescription": "A condition that is characterized by HEADACHE; SEIZURES; and visual loss with edema in the posterior aspects of the CEREBRAL HEMISPHERES, such as the BRAIN STEM. Generally, lesions involve the white matter (nerve fibers) but occasionally the grey matter (nerve cell bodies).",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "UCH proteinases",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D054038",
+        "standardized_id": "MESH:D054038",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Posterior Leukoencephalopathy Syndrome",
+        "standardized_name": "Posterior Leukoencephalopathy Syndrome",
+        "normalized_name": "posterior leukoencephalopathy syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "posterior leukoencephalopathy syndrome",
+          "syndrome",
+          "posterior",
+          "leukoencephalopathy"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition that is characterized by HEADACHE; SEIZURES; and visual loss with edema in the posterior aspects of the CEREBRAL HEMISPHERES, such as the BRAIN STEM. Generally, lesions involve the white matter (nerve fibers) but occasionally the grey matter (nerve cell bodies).",
+        "cleaned_description": "A condition that is characterized by HEADACHE; SEIZURES; and visual loss with edema in the posterior aspects of the CEREBRAL HEMISPHERES, such as the BRAIN STEM. Generally, lesions involve the white matter (nerve fibers) but occasionally the grey matter (nerve cell bodies).",
+        "description_summary": "A condition that is characterized by HEADACHE; SEIZURES; and visual loss with edema in the posterior aspects of the CEREBRAL HEMISPHERES, such as the BRAIN STEM.",
+        "key_terms": [],
+        "word_count": 42
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "UCH proteinases",
+        "pathway_list": [
+          "UCH proteinases"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.925666",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D017096",
+      "DiseaseName": "Prion Diseases",
+      "DiseaseDescription": "A group of genetic, infectious, or sporadic degenerative human and animal nervous system disorders associated with abnormal PRIONS. These diseases are characterized by conversion of the normal prion protein to an abnormal configuration via a post-translational process. In humans, these conditions generally feature DEMENTIA; ATAXIA; and a fatal outcome. Pathologic features include a spongiform encephalopathy without evidence of inflammation. The older literature occasionally refers to these as unconventional SLOW VIRUS DISEASES. (From Proc Natl Acad Sci USA 1998 Nov 10;95(23):13363-83)",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Prion diseases",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017096",
+        "standardized_id": "MESH:D017096",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Prion Diseases",
+        "standardized_name": "Prion Diseases",
+        "normalized_name": "prion diseases",
+        "synonyms": [],
+        "search_terms": [
+          "prion",
+          "diseases",
+          "prion diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A group of genetic, infectious, or sporadic degenerative human and animal nervous system disorders associated with abnormal PRIONS. These diseases are characterized by conversion of the normal prion protein to an abnormal configuration via a post-translational process. In humans, these conditions generally feature DEMENTIA; ATAXIA; and a fatal outcome. Pathologic features include a spongiform encephalopathy without evidence of inflammation. The older literature occasionally refers to these as unconventional SLOW VIRUS DISEASES. (From Proc Natl Acad Sci USA 1998 Nov 10;95(23):13363-83)",
+        "cleaned_description": "A group of genetic, infectious, or sporadic degenerative human and animal nervous system disorders associated with abnormal PRIONS. These diseases are characterized by conversion of the normal prion protein to an abnormal configuration via a post-translational process. In humans, these conditions generally feature DEMENTIA; ATAXIA; and a fatal outcome. Pathologic features include a spongiform encephalopathy without evidence of inflammation. The older literature occasionally refers to these as unconventional SLOW VIRUS DISEASES. (From Proc Natl Acad Sci USA 1998 Nov 10;95(23):13363-83)",
+        "description_summary": "A group of genetic, infectious, or sporadic degenerative human and animal nervous system disorders associated with abnormal PRIONS.",
+        "key_terms": [
+          "encephalopathy"
+        ],
+        "word_count": 80
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Prion diseases",
+        "pathway_list": [
+          "Prion diseases"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.929521",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020426",
+      "DiseaseName": "Sciatic Neuropathy",
+      "DiseaseDescription": "Disease or damage involving the SCIATIC NERVE, which divides into the PERONEAL NERVE and TIBIAL NERVE (see also PERONEAL NEUROPATHIES and TIBIAL NEUROPATHY). Clinical manifestations may include SCIATICA or pain localized to the hip, PARESIS or PARALYSIS of posterior thigh muscles and muscles innervated by the peroneal and tibial nerves, and sensory loss involving the lateral and posterior thigh, posterior and lateral leg, and sole of the foot. The sciatic nerve may be affected by trauma; ISCHEMIA; COLLAGEN DISEASES; and other conditions. (From Adams et al., Principles of Neurology, 6th ed, p1363)",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020426",
+        "standardized_id": "MESH:D020426",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Sciatic Neuropathy",
+        "standardized_name": "Sciatic Neuropathy",
+        "normalized_name": "sciatic neuropathy",
+        "synonyms": [],
+        "search_terms": [
+          "sciatic",
+          "sciatic neuropathy",
+          "neuropathy"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Disease or damage involving the SCIATIC NERVE, which divides into the PERONEAL NERVE and TIBIAL NERVE (see also PERONEAL NEUROPATHIES and TIBIAL NEUROPATHY). Clinical manifestations may include SCIATICA or pain localized to the hip, PARESIS or PARALYSIS of posterior thigh muscles and muscles innervated by the peroneal and tibial nerves, and sensory loss involving the lateral and posterior thigh, posterior and lateral leg, and sole of the foot. The sciatic nerve may be affected by trauma; ISCHEMIA; COLLAGEN DISEASES; and other conditions. (From Adams et al., Principles of Neurology, 6th ed, p1363)",
+        "cleaned_description": "Disease or damage involving the SCIATIC NERVE, which divides into the PERONEAL NERVE and TIBIAL NERVE (see also PERONEAL NEUROPATHIES and TIBIAL NEUROPATHY). Clinical manifestations may include SCIATICA or pain localized to the hip, PARESIS or PARALYSIS of posterior thigh muscles and muscles innervated by the peroneal and tibial nerves, and sensory loss involving the lateral and posterior thigh, posterior and lateral leg, and sole of the foot. The sciatic nerve may be affected by trauma; ISCHEMIA; COLLAGEN DISEASES; and other conditions. (From Adams et al., Principles of Neurology, 6th ed, p1363)",
+        "description_summary": "Disease or damage involving the SCIATIC NERVE, which divides into the PERONEAL NERVE and TIBIAL NERVE (see also PERONEAL NEUROPATHIES and TIBIAL NEUROPATHY).",
+        "key_terms": [
+          "ISCHEMIA",
+          "NEUROPATHY"
+        ],
+        "word_count": 92
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.960832",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013036",
+      "DiseaseName": "Spasms, Infantile",
+      "DiseaseDescription": "An epileptic syndrome characterized by the triad of infantile spasms, hypsarrhythmia, and arrest of psychomotor development at seizure onset. The majority present between 3-12 months of age, with spasms consisting of combinations of brief flexor or extensor movements of the head, trunk, and limbs. The condition is divided into two forms: cryptogenic (idiopathic) and symptomatic (secondary to a known disease process such as intrauterine infections; nervous system abnormalities; BRAIN DISEASES, METABOLIC, INBORN; prematurity; perinatal asphyxia; TUBEROUS SCLEROSIS; etc.). (From Menkes, Textbook of Child Neurology, 5th ed, pp744-8)",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013036",
+        "standardized_id": "MESH:D013036",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Spasms, Infantile",
+        "standardized_name": "Spasms, Infantile",
+        "normalized_name": "spasms infantile",
+        "synonyms": [],
+        "search_terms": [
+          "infantile",
+          "spasms, infantile",
+          "spasms,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An epileptic syndrome characterized by the triad of infantile spasms, hypsarrhythmia, and arrest of psychomotor development at seizure onset. The majority present between 3-12 months of age, with spasms consisting of combinations of brief flexor or extensor movements of the head, trunk, and limbs. The condition is divided into two forms: cryptogenic (idiopathic) and symptomatic (secondary to a known disease process such as intrauterine infections; nervous system abnormalities; BRAIN DISEASES, METABOLIC, INBORN; prematurity; perinatal asphyxia; TUBEROUS SCLEROSIS; etc.). (From Menkes, Textbook of Child Neurology, 5th ed, pp744-8)",
+        "cleaned_description": "An epileptic syndrome characterized by the triad of infantile spasms, hypsarrhythmia, and arrest of psychomotor development at seizure onset. The majority present between 3-12 months of age, with spasms consisting of combinations of brief flexor or extensor movements of the head, trunk, and limbs. The condition is divided into two forms: cryptogenic (idiopathic) and symptomatic (secondary to a known disease process such as intrauterine infections; nervous system abnormalities; BRAIN DISEASES, METABOLIC, INBORN; prematurity; perinatal asphyxia; TUBEROUS SCLEROSIS; etc.). (From Menkes, Textbook of Child Neurology, 5th ed, pp744-8)",
+        "description_summary": "An epileptic syndrome characterized by the triad of infantile spasms, hypsarrhythmia, and arrest of psychomotor development at seizure onset.",
+        "key_terms": [
+          "SCLEROSIS",
+          "cryptogenic"
+        ],
+        "word_count": 87
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.973102",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013118",
+      "DiseaseName": "Spinal Cord Diseases",
+      "DiseaseDescription": "Pathologic conditions which feature SPINAL CORD damage or dysfunction, including disorders involving the meninges and perimeningeal spaces surrounding the spinal cord. Traumatic injuries, vascular diseases, infections, and inflammatory/autoimmune processes may affect the spinal cord.",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013118",
+        "standardized_id": "MESH:D013118",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Spinal Cord Diseases",
+        "standardized_name": "Spinal Cord Diseases",
+        "normalized_name": "spinal cord diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "spinal cord diseases",
+          "cord",
+          "spinal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathologic conditions which feature SPINAL CORD damage or dysfunction, including disorders involving the meninges and perimeningeal spaces surrounding the spinal cord. Traumatic injuries, vascular diseases, infections, and inflammatory/autoimmune processes may affect the spinal cord.",
+        "cleaned_description": "Pathologic conditions which feature SPINAL CORD damage or dysfunction, including disorders involving the meninges and perimeningeal spaces surrounding the spinal cord. Traumatic injuries, vascular diseases, infections, and inflammatory/autoimmune processes may affect the spinal cord.",
+        "description_summary": "Pathologic conditions which feature SPINAL CORD damage or dysfunction, including disorders involving the meninges and perimeningeal spaces surrounding the spinal cord.",
+        "key_terms": [],
+        "word_count": 34
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.974341",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D024801",
+      "DiseaseName": "Tauopathies",
+      "DiseaseDescription": "Neurodegenerative disorders involving deposition of abnormal tau protein isoforms (TAU PROTEINS) in neurons and glial cells in the brain. Pathological aggregations of tau proteins are associated with mutation of the tau gene on chromosome 17 in patients with ALZHEIMER DISEASE; DEMENTIA; PARKINSONIAN DISORDERS; progressive supranuclear palsy (SUPRANUCLEAR PALSY, PROGRESSIVE); and corticobasal degeneration.",
+      "SlimMapping": "['Nervous system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D024801",
+        "standardized_id": "MESH:D024801",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Tauopathies",
+        "standardized_name": "Tauopathies",
+        "normalized_name": "tauopathies",
+        "synonyms": [],
+        "search_terms": [
+          "tauopathies"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Neurodegenerative disorders involving deposition of abnormal tau protein isoforms (TAU PROTEINS) in neurons and glial cells in the brain. Pathological aggregations of tau proteins are associated with mutation of the tau gene on chromosome 17 in patients with ALZHEIMER DISEASE; DEMENTIA; PARKINSONIAN DISORDERS; progressive supranuclear palsy (SUPRANUCLEAR PALSY, PROGRESSIVE); and corticobasal degeneration.",
+        "cleaned_description": "Neurodegenerative disorders involving deposition of abnormal tau protein isoforms (TAU PROTEINS) in neurons and glial cells in the brain. Pathological aggregations of tau proteins are associated with mutation of the tau gene on chromosome 17 in patients with ALZHEIMER DISEASE; DEMENTIA; PARKINSONIAN DISORDERS; progressive supranuclear palsy (SUPRANUCLEAR PALSY, PROGRESSIVE); and corticobasal degeneration.",
+        "description_summary": "Neurodegenerative disorders involving deposition of abnormal tau protein isoforms (TAU PROTEINS) in neurons and glial cells in the brain.",
+        "key_terms": [],
+        "word_count": 52
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.991301",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

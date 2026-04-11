@@ -1,0 +1,4116 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cardiovascular disease']",
+    "export_timestamp": "2026-03-28T22:11:35.248340",
+    "total_records": 62
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D054058",
+      "DiseaseName": "Acute Coronary Syndrome",
+      "DiseaseDescription": "An episode of MYOCARDIAL ISCHEMIA that generally lasts longer than a transient anginal episode that ultimately may lead to MYOCARDIAL INFARCTION.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Vpu mediated degradation of CD4",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D054058",
+        "standardized_id": "MESH:D054058",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Acute Coronary Syndrome",
+        "standardized_name": "Acute Coronary Syndrome",
+        "normalized_name": "acute coronary syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "acute coronary syndrome",
+          "coronary",
+          "syndrome",
+          "acute"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An episode of MYOCARDIAL ISCHEMIA that generally lasts longer than a transient anginal episode that ultimately may lead to MYOCARDIAL INFARCTION.",
+        "cleaned_description": "An episode of MYOCARDIAL ISCHEMIA that generally lasts longer than a transient anginal episode that ultimately may lead to MYOCARDIAL INFARCTION.",
+        "description_summary": "An episode of MYOCARDIAL ISCHEMIA that generally lasts longer than a transient anginal episode that ultimately may lead to MYOCARDIAL INFARCTION.",
+        "key_terms": [
+          "ISCHEMIA"
+        ],
+        "word_count": 21
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vpu mediated degradation of CD4",
+        "pathway_list": [
+          "Vpu mediated degradation of CD4"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.355035",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000783",
+      "DiseaseName": "Aneurysm",
+      "DiseaseDescription": "Pathological outpouching or sac-like dilatation in the wall of any blood vessel (ARTERIES or VEINS) or the heart (HEART ANEURYSM). It indicates a thin and weakened area in the wall which may later rupture. Aneurysms are classified by location, etiology, or other characteristics.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Signaling by Interleukins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000783",
+        "standardized_id": "MESH:D000783",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Aneurysm",
+        "standardized_name": "Aneurysm",
+        "normalized_name": "aneurysm",
+        "synonyms": [],
+        "search_terms": [
+          "aneurysm"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological outpouching or sac-like dilatation in the wall of any blood vessel (ARTERIES or VEINS) or the heart (HEART ANEURYSM). It indicates a thin and weakened area in the wall which may later rupture. Aneurysms are classified by location, etiology, or other characteristics.",
+        "cleaned_description": "Pathological outpouching or sac-like dilatation in the wall of any blood vessel (ARTERIES or VEINS) or the heart (HEART ANEURYSM). It indicates a thin and weakened area in the wall which may later rupture. Aneurysms are classified by location, etiology, or other characteristics.",
+        "description_summary": "Pathological outpouching or sac-like dilatation in the wall of any blood vessel (ARTERIES or VEINS) or the heart (HEART ANEURYSM).",
+        "key_terms": [],
+        "word_count": 43
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signaling by Interleukins",
+        "pathway_list": [
+          "Signaling by Interleukins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.364908",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001014",
+      "DiseaseName": "Aortic Aneurysm",
+      "DiseaseDescription": "An abnormal balloon- or sac-like dilatation in the wall of AORTA.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001014",
+        "standardized_id": "MESH:D001014",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Aortic Aneurysm",
+        "standardized_name": "Aortic Aneurysm",
+        "normalized_name": "aortic aneurysm",
+        "synonyms": [],
+        "search_terms": [
+          "aneurysm",
+          "aortic",
+          "aortic aneurysm"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An abnormal balloon- or sac-like dilatation in the wall of AORTA.",
+        "cleaned_description": "An abnormal balloon- or sac-like dilatation in the wall of AORTA.",
+        "description_summary": "An abnormal balloon- or sac-like dilatation in the wall of AORTA.",
+        "key_terms": [],
+        "word_count": 11
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.371648",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D017544",
+      "DiseaseName": "Aortic Aneurysm, Abdominal",
+      "DiseaseDescription": "An abnormal balloon- or sac-like dilatation in the wall of the ABDOMINAL AORTA which gives rise to the visceral, the parietal, and the terminal (iliac) branches below the aortic hiatus at the diaphragm.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017544",
+        "standardized_id": "MESH:D017544",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Aortic Aneurysm, Abdominal",
+        "standardized_name": "Aortic Aneurysm, Abdominal",
+        "normalized_name": "aortic aneurysm abdominal",
+        "synonyms": [],
+        "search_terms": [
+          "aortic aneurysm, abdominal",
+          "aneurysm,",
+          "aortic",
+          "abdominal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An abnormal balloon- or sac-like dilatation in the wall of the ABDOMINAL AORTA which gives rise to the visceral, the parietal, and the terminal (iliac) branches below the aortic hiatus at the diaphragm.",
+        "cleaned_description": "An abnormal balloon- or sac-like dilatation in the wall of the ABDOMINAL AORTA which gives rise to the visceral, the parietal, and the terminal (iliac) branches below the aortic hiatus at the diaphragm.",
+        "description_summary": "An abnormal balloon- or sac-like dilatation in the wall of the ABDOMINAL AORTA which gives rise to the visceral, the parietal, and the terminal (iliac) branches below the aortic hiatus at the diaphragm.",
+        "key_terms": [],
+        "word_count": 33
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.371810",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D017545",
+      "DiseaseName": "Aortic Aneurysm, Thoracic",
+      "DiseaseDescription": "An abnormal balloon- or sac-like dilatation in the wall of the THORACIC AORTA. This proximal descending portion of aorta gives rise to the visceral and the parietal branches above the aortic hiatus at the diaphragm.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Vascular smooth muscle contraction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017545",
+        "standardized_id": "MESH:D017545",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Aortic Aneurysm, Thoracic",
+        "standardized_name": "Aortic Aneurysm, Thoracic",
+        "normalized_name": "aortic aneurysm thoracic",
+        "synonyms": [],
+        "search_terms": [
+          "aortic aneurysm, thoracic",
+          "thoracic",
+          "aortic",
+          "aneurysm,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An abnormal balloon- or sac-like dilatation in the wall of the THORACIC AORTA. This proximal descending portion of aorta gives rise to the visceral and the parietal branches above the aortic hiatus at the diaphragm.",
+        "cleaned_description": "An abnormal balloon- or sac-like dilatation in the wall of the THORACIC AORTA. This proximal descending portion of aorta gives rise to the visceral and the parietal branches above the aortic hiatus at the diaphragm.",
+        "description_summary": "An abnormal balloon- or sac-like dilatation in the wall of the THORACIC AORTA.",
+        "key_terms": [],
+        "word_count": 35
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vascular smooth muscle contraction",
+        "pathway_list": [
+          "Vascular smooth muscle contraction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.371956",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001018",
+      "DiseaseName": "Aortic Diseases",
+      "DiseaseDescription": "Pathological processes involving any part of the AORTA.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Tryptophan metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001018",
+        "standardized_id": "MESH:D001018",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Aortic Diseases",
+        "standardized_name": "Aortic Diseases",
+        "normalized_name": "aortic diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "aortic diseases",
+          "aortic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological processes involving any part of the AORTA.",
+        "cleaned_description": "Pathological processes involving any part of the AORTA.",
+        "description_summary": "Pathological processes involving any part of the AORTA.",
+        "key_terms": [],
+        "word_count": 8
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tryptophan metabolism",
+        "pathway_list": [
+          "Tryptophan metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.372088",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000784",
+      "DiseaseName": "Aortic Dissection",
+      "DiseaseDescription": "A tear in the inner layer of the AORTA leading to interstitial HEMORRHAGE, and splitting (dissecting) of the aortic TUNICA MEDIA layer. It typically begins with a tear in the TUNICA INTIMA layer.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000784",
+        "standardized_id": "MESH:D000784",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Aortic Dissection",
+        "standardized_name": "Aortic Dissection",
+        "normalized_name": "aortic dissection",
+        "synonyms": [],
+        "search_terms": [
+          "aortic dissection",
+          "dissection",
+          "aortic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A tear in the inner layer of the AORTA leading to interstitial HEMORRHAGE, and splitting (dissecting) of the aortic TUNICA MEDIA layer. It typically begins with a tear in the TUNICA INTIMA layer.",
+        "cleaned_description": "A tear in the inner layer of the AORTA leading to interstitial HEMORRHAGE, and splitting (dissecting) of the aortic TUNICA MEDIA layer. It typically begins with a tear in the TUNICA INTIMA layer.",
+        "description_summary": "A tear in the inner layer of the AORTA leading to interstitial HEMORRHAGE, and splitting (dissecting) of the aortic TUNICA MEDIA layer.",
+        "key_terms": [],
+        "word_count": 33
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.372225",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001022",
+      "DiseaseName": "Aortic Valve Insufficiency",
+      "DiseaseDescription": "Pathological condition characterized by the backflow of blood from the ASCENDING AORTA back into the LEFT VENTRICLE, leading to regurgitation. It is caused by diseases of the AORTIC VALVE or its surrounding tissue (aortic root).",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001022",
+        "standardized_id": "MESH:D001022",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Aortic Valve Insufficiency",
+        "standardized_name": "Aortic Valve Insufficiency",
+        "normalized_name": "aortic valve insufficiency",
+        "synonyms": [],
+        "search_terms": [
+          "aortic valve insufficiency",
+          "valve",
+          "aortic",
+          "insufficiency"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological condition characterized by the backflow of blood from the ASCENDING AORTA back into the LEFT VENTRICLE, leading to regurgitation. It is caused by diseases of the AORTIC VALVE or its surrounding tissue (aortic root).",
+        "cleaned_description": "Pathological condition characterized by the backflow of blood from the ASCENDING AORTA back into the LEFT VENTRICLE, leading to regurgitation. It is caused by diseases of the AORTIC VALVE or its surrounding tissue (aortic root).",
+        "description_summary": "Pathological condition characterized by the backflow of blood from the ASCENDING AORTA back into the LEFT VENTRICLE, leading to regurgitation.",
+        "key_terms": [],
+        "word_count": 35
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.372550",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001157",
+      "DiseaseName": "Arterial Occlusive Diseases",
+      "DiseaseDescription": "Pathological processes which result in the partial or complete obstruction of ARTERIES. They are characterized by greatly reduced or absence of blood flow through these vessels. They are also known as arterial insufficiency.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Transcriptional misregulation in cancer",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001157",
+        "standardized_id": "MESH:D001157",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Arterial Occlusive Diseases",
+        "standardized_name": "Arterial Occlusive Diseases",
+        "normalized_name": "arterial occlusive diseases",
+        "synonyms": [],
+        "search_terms": [
+          "arterial",
+          "diseases",
+          "occlusive",
+          "arterial occlusive diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological processes which result in the partial or complete obstruction of ARTERIES. They are characterized by greatly reduced or absence of blood flow through these vessels. They are also known as arterial insufficiency.",
+        "cleaned_description": "Pathological processes which result in the partial or complete obstruction of ARTERIES. They are characterized by greatly reduced or absence of blood flow through these vessels. They are also known as arterial insufficiency.",
+        "description_summary": "Pathological processes which result in the partial or complete obstruction of ARTERIES.",
+        "key_terms": [],
+        "word_count": 33
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional misregulation in cancer",
+        "pathway_list": [
+          "Transcriptional misregulation in cancer"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional misregulation in cancer"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.373874",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001161",
+      "DiseaseName": "Arteriosclerosis",
+      "DiseaseDescription": "Thickening and loss of elasticity of the walls of ARTERIES of all sizes. There are many forms classified by the types of lesions and arteries involved, such as ATHEROSCLEROSIS with fatty lesions in the ARTERIAL INTIMA of medium and large muscular arteries.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001161",
+        "standardized_id": "MESH:D001161",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Arteriosclerosis",
+        "standardized_name": "Arteriosclerosis",
+        "normalized_name": "arteriosclerosis",
+        "synonyms": [],
+        "search_terms": [
+          "arteriosclerosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Thickening and loss of elasticity of the walls of ARTERIES of all sizes. There are many forms classified by the types of lesions and arteries involved, such as ATHEROSCLEROSIS with fatty lesions in the ARTERIAL INTIMA of medium and large muscular arteries.",
+        "cleaned_description": "Thickening and loss of elasticity of the walls of ARTERIES of all sizes. There are many forms classified by the types of lesions and arteries involved, such as ATHEROSCLEROSIS with fatty lesions in the ARTERIAL INTIMA of medium and large muscular arteries.",
+        "description_summary": "Thickening and loss of elasticity of the walls of ARTERIES of all sizes.",
+        "key_terms": [
+          "ATHEROSCLEROSIS"
+        ],
+        "word_count": 42
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.374005",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001167",
+      "DiseaseName": "Arteritis",
+      "DiseaseDescription": "INFLAMMATION of any ARTERIES.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001167",
+        "standardized_id": "MESH:D001167",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Arteritis",
+        "standardized_name": "Arteritis",
+        "normalized_name": "arteritis",
+        "synonyms": [],
+        "search_terms": [
+          "arteritis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "INFLAMMATION of any ARTERIES.",
+        "cleaned_description": "INFLAMMATION of any ARTERIES.",
+        "description_summary": "INFLAMMATION of any ARTERIES.",
+        "key_terms": [],
+        "word_count": 4
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.374261",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": [
+            "Very short or missing description"
+          ]
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D050197",
+      "DiseaseName": "Atherosclerosis",
+      "DiseaseDescription": "A thickening and loss of elasticity of the walls of ARTERIES that occurs with formation of ATHEROSCLEROTIC PLAQUES within the ARTERIAL INTIMA.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D050197",
+        "standardized_id": "MESH:D050197",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Atherosclerosis",
+        "standardized_name": "Atherosclerosis",
+        "normalized_name": "atherosclerosis",
+        "synonyms": [],
+        "search_terms": [
+          "atherosclerosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A thickening and loss of elasticity of the walls of ARTERIES that occurs with formation of ATHEROSCLEROTIC PLAQUES within the ARTERIAL INTIMA.",
+        "cleaned_description": "A thickening and loss of elasticity of the walls of ARTERIES that occurs with formation of ATHEROSCLEROTIC PLAQUES within the ARTERIAL INTIMA.",
+        "description_summary": "A thickening and loss of elasticity of the walls of ARTERIES that occurs with formation of ATHEROSCLEROTIC PLAQUES within the ARTERIAL INTIMA.",
+        "key_terms": [],
+        "word_count": 22
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.381286",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002305",
+      "DiseaseName": "Cardiac Tamponade",
+      "DiseaseDescription": "Compression of the heart by accumulated fluid (PERICARDIAL EFFUSION) or blood (HEMOPERICARDIUM) in the PERICARDIUM surrounding the heart. The affected cardiac functions and CARDIAC OUTPUT can range from minimal to total hemodynamic collapse.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Transcriptional misregulation in cancer",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002305",
+        "standardized_id": "MESH:D002305",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cardiac Tamponade",
+        "standardized_name": "Cardiac Tamponade",
+        "normalized_name": "cardiac tamponade",
+        "synonyms": [],
+        "search_terms": [
+          "cardiac tamponade",
+          "tamponade",
+          "cardiac"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Compression of the heart by accumulated fluid (PERICARDIAL EFFUSION) or blood (HEMOPERICARDIUM) in the PERICARDIUM surrounding the heart. The affected cardiac functions and CARDIAC OUTPUT can range from minimal to total hemodynamic collapse.",
+        "cleaned_description": "Compression of the heart by accumulated fluid (PERICARDIAL EFFUSION) or blood (HEMOPERICARDIUM) in the PERICARDIUM surrounding the heart. The affected cardiac functions and CARDIAC OUTPUT can range from minimal to total hemodynamic collapse.",
+        "description_summary": "Compression of the heart by accumulated fluid (PERICARDIAL EFFUSION) or blood (HEMOPERICARDIUM) in the PERICARDIUM surrounding the heart.",
+        "key_terms": [],
+        "word_count": 33
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional misregulation in cancer",
+        "pathway_list": [
+          "Transcriptional misregulation in cancer"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional misregulation in cancer"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.426483",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009202",
+      "DiseaseName": "Cardiomyopathies",
+      "DiseaseDescription": "A group of diseases in which the dominant feature is the involvement of the CARDIAC MUSCLE itself. Cardiomyopathies are classified according to their predominant pathophysiological features (DILATED CARDIOMYOPATHY; HYPERTROPHIC CARDIOMYOPATHY; RESTRICTIVE CARDIOMYOPATHY) or their etiological/pathological factors (CARDIOMYOPATHY, ALCOHOLIC; ENDOCARDIAL FIBROELASTOSIS).",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009202",
+        "standardized_id": "MESH:D009202",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cardiomyopathies",
+        "standardized_name": "Cardiomyopathies",
+        "normalized_name": "cardiomyopathies",
+        "synonyms": [],
+        "search_terms": [
+          "cardiomyopathies"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A group of diseases in which the dominant feature is the involvement of the CARDIAC MUSCLE itself. Cardiomyopathies are classified according to their predominant pathophysiological features (DILATED CARDIOMYOPATHY; HYPERTROPHIC CARDIOMYOPATHY; RESTRICTIVE CARDIOMYOPATHY) or their etiological/pathological factors (CARDIOMYOPATHY, ALCOHOLIC; ENDOCARDIAL FIBROELASTOSIS).",
+        "cleaned_description": "A group of diseases in which the dominant feature is the involvement of the CARDIAC MUSCLE itself. Cardiomyopathies are classified according to their predominant pathophysiological features (DILATED CARDIOMYOPATHY; HYPERTROPHIC CARDIOMYOPATHY; RESTRICTIVE CARDIOMYOPATHY) or their etiological/pathological factors (CARDIOMYOPATHY, ALCOHOLIC; ENDOCARDIAL FIBROELASTOSIS).",
+        "description_summary": "A group of diseases in which the dominant feature is the involvement of the CARDIAC MUSCLE itself.",
+        "key_terms": [
+          "FIBROELASTOSIS",
+          "CARDIOMYOPATHY"
+        ],
+        "word_count": 40
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.427125",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002312",
+      "DiseaseName": "Cardiomyopathy, Hypertrophic",
+      "DiseaseDescription": "A form of CARDIAC MUSCLE disease, characterized by left and/or right ventricular hypertrophy (HYPERTROPHY, LEFT VENTRICULAR; HYPERTROPHY, RIGHT VENTRICULAR), frequent asymmetrical involvement of the HEART SEPTUM, and normal or reduced left ventricular volume. Risk factors include HYPERTENSION; AORTIC STENOSIS; and gene MUTATION; (FAMILIAL HYPERTROPHIC CARDIOMYOPATHY).",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002312",
+        "standardized_id": "MESH:D002312",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cardiomyopathy, Hypertrophic",
+        "standardized_name": "Cardiomyopathy, Hypertrophic",
+        "normalized_name": "cardiomyopathy hypertrophic",
+        "synonyms": [],
+        "search_terms": [
+          "cardiomyopathy, hypertrophic",
+          "cardiomyopathy,",
+          "hypertrophic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A form of CARDIAC MUSCLE disease, characterized by left and/or right ventricular hypertrophy (HYPERTROPHY, LEFT VENTRICULAR; HYPERTROPHY, RIGHT VENTRICULAR), frequent asymmetrical involvement of the HEART SEPTUM, and normal or reduced left ventricular volume. Risk factors include HYPERTENSION; AORTIC STENOSIS; and gene MUTATION; (FAMILIAL HYPERTROPHIC CARDIOMYOPATHY).",
+        "cleaned_description": "A form of CARDIAC MUSCLE disease, characterized by left and/or right ventricular hypertrophy (HYPERTROPHY, LEFT VENTRICULAR; HYPERTROPHY, RIGHT VENTRICULAR), frequent asymmetrical involvement of the HEART SEPTUM, and normal or reduced left ventricular volume. Risk factors include HYPERTENSION; AORTIC STENOSIS; and gene MUTATION; (FAMILIAL HYPERTROPHIC CARDIOMYOPATHY).",
+        "description_summary": "A form of CARDIAC MUSCLE disease, characterized by left and/or right ventricular hypertrophy (HYPERTROPHY, LEFT VENTRICULAR; HYPERTROPHY, RIGHT VENTRICULAR), frequent asymmetrical involvement of the HEART SEPTUM, and normal or reduced left ventricular volume.",
+        "key_terms": [
+          "CARDIOMYOPATHY",
+          "STENOSIS"
+        ],
+        "word_count": 45
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.428112",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002313",
+      "DiseaseName": "Cardiomyopathy, Restrictive",
+      "DiseaseDescription": "A form of CARDIAC MUSCLE disease in which the ventricular walls are excessively rigid, impeding ventricular filling. It is marked by reduced diastolic volume of either or both ventricles but normal or nearly normal systolic function. It may be idiopathic or associated with other diseases (ENDOMYOCARDIAL FIBROSIS or AMYLOIDOSIS) causing interstitial fibrosis.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Striated Muscle Contraction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002313",
+        "standardized_id": "MESH:D002313",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cardiomyopathy, Restrictive",
+        "standardized_name": "Cardiomyopathy, Restrictive",
+        "normalized_name": "cardiomyopathy restrictive",
+        "synonyms": [],
+        "search_terms": [
+          "restrictive",
+          "cardiomyopathy, restrictive",
+          "cardiomyopathy,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A form of CARDIAC MUSCLE disease in which the ventricular walls are excessively rigid, impeding ventricular filling. It is marked by reduced diastolic volume of either or both ventricles but normal or nearly normal systolic function. It may be idiopathic or associated with other diseases (ENDOMYOCARDIAL FIBROSIS or AMYLOIDOSIS) causing interstitial fibrosis.",
+        "cleaned_description": "A form of CARDIAC MUSCLE disease in which the ventricular walls are excessively rigid, impeding ventricular filling. It is marked by reduced diastolic volume of either or both ventricles but normal or nearly normal systolic function. It may be idiopathic or associated with other diseases (ENDOMYOCARDIAL FIBROSIS or AMYLOIDOSIS) causing interstitial fibrosis.",
+        "description_summary": "A form of CARDIAC MUSCLE disease in which the ventricular walls are excessively rigid, impeding ventricular filling.",
+        "key_terms": [
+          "FIBROSIS",
+          "fibrosis",
+          "AMYLOIDOSIS"
+        ],
+        "word_count": 52
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Striated Muscle Contraction",
+        "pathway_list": [
+          "Striated Muscle Contraction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.428428",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002318",
+      "DiseaseName": "Cardiovascular Diseases",
+      "DiseaseDescription": "Pathological conditions involving the CARDIOVASCULAR SYSTEM including the HEART; the BLOOD VESSELS; or the PERICARDIUM.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002318",
+        "standardized_id": "MESH:D002318",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cardiovascular Diseases",
+        "standardized_name": "Cardiovascular Diseases",
+        "normalized_name": "cardiovascular diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "cardiovascular",
+          "cardiovascular diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological conditions involving the CARDIOVASCULAR SYSTEM including the HEART; the BLOOD VESSELS; or the PERICARDIUM.",
+        "cleaned_description": "Pathological conditions involving the CARDIOVASCULAR SYSTEM including the HEART; the BLOOD VESSELS; or the PERICARDIUM.",
+        "description_summary": "Pathological conditions involving the CARDIOVASCULAR SYSTEM including the HEART; the BLOOD VESSELS; or the PERICARDIUM.",
+        "key_terms": [],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.429101",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003323",
+      "DiseaseName": "Coronary Aneurysm",
+      "DiseaseDescription": "Abnormal balloon- or sac-like dilatation in the wall of CORONARY VESSELS. Most coronary aneurysms are due to CORONARY ATHEROSCLEROSIS, and the rest are due to inflammatory diseases, such as KAWASAKI DISEASE.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003323",
+        "standardized_id": "MESH:D003323",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Coronary Aneurysm",
+        "standardized_name": "Coronary Aneurysm",
+        "normalized_name": "coronary aneurysm",
+        "synonyms": [],
+        "search_terms": [
+          "aneurysm",
+          "coronary aneurysm",
+          "coronary"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormal balloon- or sac-like dilatation in the wall of CORONARY VESSELS. Most coronary aneurysms are due to CORONARY ATHEROSCLEROSIS, and the rest are due to inflammatory diseases, such as KAWASAKI DISEASE.",
+        "cleaned_description": "Abnormal balloon- or sac-like dilatation in the wall of CORONARY VESSELS. Most coronary aneurysms are due to CORONARY ATHEROSCLEROSIS, and the rest are due to inflammatory diseases, such as KAWASAKI DISEASE.",
+        "description_summary": "Abnormal balloon- or sac-like dilatation in the wall of CORONARY VESSELS.",
+        "key_terms": [
+          "ATHEROSCLEROSIS"
+        ],
+        "word_count": 31
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.459662",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003324",
+      "DiseaseName": "Coronary Artery Disease",
+      "DiseaseDescription": "Pathological processes of CORONARY ARTERIES that may derive from a congenital abnormality, atherosclerotic, or non-atherosclerotic cause.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "VLDLR internalisation and degradation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003324",
+        "standardized_id": "MESH:D003324",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Coronary Artery Disease",
+        "standardized_name": "Coronary Artery Disease",
+        "normalized_name": "coronary artery disease",
+        "synonyms": [],
+        "search_terms": [
+          "artery",
+          "coronary",
+          "disease",
+          "coronary artery disease"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological processes of CORONARY ARTERIES that may derive from a congenital abnormality, atherosclerotic, or non-atherosclerotic cause.",
+        "cleaned_description": "Pathological processes of CORONARY ARTERIES that may derive from a congenital abnormality, atherosclerotic, or non-atherosclerotic cause.",
+        "description_summary": "Pathological processes of CORONARY ARTERIES that may derive from a congenital abnormality, atherosclerotic, or non-atherosclerotic cause.",
+        "key_terms": [],
+        "word_count": 16
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VLDLR internalisation and degradation",
+        "pathway_list": [
+          "VLDLR internalisation and degradation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.459889",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003327",
+      "DiseaseName": "Coronary Disease",
+      "DiseaseDescription": "An imbalance between myocardial functional requirements and the capacity of the CORONARY VESSELS to supply sufficient blood flow. It is a form of MYOCARDIAL ISCHEMIA (insufficient blood supply to the heart muscle) caused by a decreased capacity of the coronary vessels.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003327",
+        "standardized_id": "MESH:D003327",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Coronary Disease",
+        "standardized_name": "Coronary Disease",
+        "normalized_name": "coronary disease",
+        "synonyms": [],
+        "search_terms": [
+          "coronary",
+          "disease",
+          "coronary disease"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An imbalance between myocardial functional requirements and the capacity of the CORONARY VESSELS to supply sufficient blood flow. It is a form of MYOCARDIAL ISCHEMIA (insufficient blood supply to the heart muscle) caused by a decreased capacity of the coronary vessels.",
+        "cleaned_description": "An imbalance between myocardial functional requirements and the capacity of the CORONARY VESSELS to supply sufficient blood flow. It is a form of MYOCARDIAL ISCHEMIA (insufficient blood supply to the heart muscle) caused by a decreased capacity of the coronary vessels.",
+        "description_summary": "An imbalance between myocardial functional requirements and the capacity of the CORONARY VESSELS to supply sufficient blood flow.",
+        "key_terms": [
+          "ISCHEMIA"
+        ],
+        "word_count": 41
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.460156",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D023903",
+      "DiseaseName": "Coronary Restenosis",
+      "DiseaseDescription": "Recurrent narrowing or constriction of a coronary artery following surgical procedures performed to alleviate a prior obstruction.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Type II diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D023903",
+        "standardized_id": "MESH:D023903",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Coronary Restenosis",
+        "standardized_name": "Coronary Restenosis",
+        "normalized_name": "coronary restenosis",
+        "synonyms": [],
+        "search_terms": [
+          "restenosis",
+          "coronary",
+          "coronary restenosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Recurrent narrowing or constriction of a coronary artery following surgical procedures performed to alleviate a prior obstruction.",
+        "cleaned_description": "Recurrent narrowing or constriction of a coronary artery following surgical procedures performed to alleviate a prior obstruction.",
+        "description_summary": "Recurrent narrowing or constriction of a coronary artery following surgical procedures performed to alleviate a prior obstruction.",
+        "key_terms": [],
+        "word_count": 17
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type II diabetes mellitus",
+        "pathway_list": [
+          "Type II diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.460360",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D023921",
+      "DiseaseName": "Coronary Stenosis",
+      "DiseaseDescription": "Narrowing or constriction of a coronary artery.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D023921",
+        "standardized_id": "MESH:D023921",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Coronary Stenosis",
+        "standardized_name": "Coronary Stenosis",
+        "normalized_name": "coronary stenosis",
+        "synonyms": [],
+        "search_terms": [
+          "coronary stenosis",
+          "coronary",
+          "stenosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Narrowing or constriction of a coronary artery.",
+        "cleaned_description": "Narrowing or constriction of a coronary artery.",
+        "description_summary": "Narrowing or constriction of a coronary artery.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.460500",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003328",
+      "DiseaseName": "Coronary Thrombosis",
+      "DiseaseDescription": "Coagulation of blood in any of the CORONARY VESSELS. The presence of a blood clot (THROMBUS) often leads to MYOCARDIAL INFARCTION.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003328",
+        "standardized_id": "MESH:D003328",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Coronary Thrombosis",
+        "standardized_name": "Coronary Thrombosis",
+        "normalized_name": "coronary thrombosis",
+        "synonyms": [],
+        "search_terms": [
+          "coronary",
+          "thrombosis",
+          "coronary thrombosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Coagulation of blood in any of the CORONARY VESSELS. The presence of a blood clot (THROMBUS) often leads to MYOCARDIAL INFARCTION.",
+        "cleaned_description": "Coagulation of blood in any of the CORONARY VESSELS. The presence of a blood clot (THROMBUS) often leads to MYOCARDIAL INFARCTION.",
+        "description_summary": "Coagulation of blood in any of the CORONARY VESSELS.",
+        "key_terms": [],
+        "word_count": 21
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.460899",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003329",
+      "DiseaseName": "Coronary Vasospasm",
+      "DiseaseDescription": "Spasm of the large- or medium-sized coronary arteries.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "VEGF signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003329",
+        "standardized_id": "MESH:D003329",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Coronary Vasospasm",
+        "standardized_name": "Coronary Vasospasm",
+        "normalized_name": "coronary vasospasm",
+        "synonyms": [],
+        "search_terms": [
+          "vasospasm",
+          "coronary",
+          "coronary vasospasm"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Spasm of the large- or medium-sized coronary arteries.",
+        "cleaned_description": "Spasm of the large- or medium-sized coronary arteries.",
+        "description_summary": "Spasm of the large- or medium-sized coronary arteries.",
+        "key_terms": [],
+        "word_count": 8
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGF signaling pathway",
+        "pathway_list": [
+          "VEGF signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGF signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.461077",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004617",
+      "DiseaseName": "Embolism",
+      "DiseaseDescription": "Blocking of a blood vessel by an embolus which can be a blood clot or other undissolved material in the blood stream.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Transcriptional misregulation in cancer",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004617",
+        "standardized_id": "MESH:D004617",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Embolism",
+        "standardized_name": "Embolism",
+        "normalized_name": "embolism",
+        "synonyms": [],
+        "search_terms": [
+          "embolism"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Blocking of a blood vessel by an embolus which can be a blood clot or other undissolved material in the blood stream.",
+        "cleaned_description": "Blocking of a blood vessel by an embolus which can be a blood clot or other undissolved material in the blood stream.",
+        "description_summary": "Blocking of a blood vessel by an embolus which can be a blood clot or other undissolved material in the blood stream.",
+        "key_terms": [],
+        "word_count": 22
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional misregulation in cancer",
+        "pathway_list": [
+          "Transcriptional misregulation in cancer"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional misregulation in cancer"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.492018",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D016769",
+      "DiseaseName": "Embolism and Thrombosis",
+      "DiseaseDescription": "A collective term for pathological conditions which are caused by the formation of a blood clot (THROMBUS) in a blood vessel, or by blocking of a blood vessel with an EMBOLUS, undissolved materials in the blood stream.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Transcriptional misregulation in cancer",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D016769",
+        "standardized_id": "MESH:D016769",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Embolism and Thrombosis",
+        "standardized_name": "Embolism and Thrombosis",
+        "normalized_name": "embolism and thrombosis",
+        "synonyms": [],
+        "search_terms": [
+          "embolism",
+          "embolism and thrombosis",
+          "thrombosis",
+          "and"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A collective term for pathological conditions which are caused by the formation of a blood clot (THROMBUS) in a blood vessel, or by blocking of a blood vessel with an EMBOLUS, undissolved materials in the blood stream.",
+        "cleaned_description": "A collective term for pathological conditions which are caused by the formation of a blood clot (THROMBUS) in a blood vessel, or by blocking of a blood vessel with an EMBOLUS, undissolved materials in the blood stream.",
+        "description_summary": "A collective term for pathological conditions which are caused by the formation of a blood clot (THROMBUS) in a blood vessel, or by blocking of a blood vessel with an EMBOLUS, undissolved materials in the blood stream.",
+        "key_terms": [],
+        "word_count": 37
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional misregulation in cancer",
+        "pathway_list": [
+          "Transcriptional misregulation in cancer"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional misregulation in cancer"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.492269",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D017700",
+      "DiseaseName": "Embolism, Cholesterol",
+      "DiseaseDescription": "Blocking of a blood vessel by CHOLESTEROL-rich atheromatous deposits, generally occurring in the flow from a large artery to small arterial branches. It is also called arterial-arterial embolization or atheroembolism which may be spontaneous or iatrogenic. Patients with spontaneous atheroembolism often have painful, cyanotic digits of acute onset.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Transcriptional misregulation in cancer",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017700",
+        "standardized_id": "MESH:D017700",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Embolism, Cholesterol",
+        "standardized_name": "Embolism, Cholesterol",
+        "normalized_name": "embolism cholesterol",
+        "synonyms": [],
+        "search_terms": [
+          "cholesterol",
+          "embolism,",
+          "embolism, cholesterol"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Blocking of a blood vessel by CHOLESTEROL-rich atheromatous deposits, generally occurring in the flow from a large artery to small arterial branches. It is also called arterial-arterial embolization or atheroembolism which may be spontaneous or iatrogenic. Patients with spontaneous atheroembolism often have painful, cyanotic digits of acute onset.",
+        "cleaned_description": "Blocking of a blood vessel by CHOLESTEROL-rich atheromatous deposits, generally occurring in the flow from a large artery to small arterial branches. It is also called arterial-arterial embolization or atheroembolism which may be spontaneous or iatrogenic. Patients with spontaneous atheroembolism often have painful, cyanotic digits of acute onset.",
+        "description_summary": "Blocking of a blood vessel by CHOLESTEROL-rich atheromatous deposits, generally occurring in the flow from a large artery to small arterial branches.",
+        "key_terms": [
+          "iatrogenic"
+        ],
+        "word_count": 48
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional misregulation in cancer",
+        "pathway_list": [
+          "Transcriptional misregulation in cancer"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional misregulation in cancer"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.492582",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004719",
+      "DiseaseName": "Endomyocardial Fibrosis",
+      "DiseaseDescription": "A condition characterized by the thickening of the ventricular ENDOCARDIUM and subendocardium (MYOCARDIUM), seen mostly in children and young adults in the TROPICAL CLIMATE. The fibrous tissue extends from the apex toward and often involves the HEART VALVES causing restrictive blood flow into the respective ventricles (CARDIOMYOPATHY, RESTRICTIVE).",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004719",
+        "standardized_id": "MESH:D004719",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Endomyocardial Fibrosis",
+        "standardized_name": "Endomyocardial Fibrosis",
+        "normalized_name": "endomyocardial fibrosis",
+        "synonyms": [],
+        "search_terms": [
+          "fibrosis",
+          "endomyocardial",
+          "endomyocardial fibrosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition characterized by the thickening of the ventricular ENDOCARDIUM and subendocardium (MYOCARDIUM), seen mostly in children and young adults in the TROPICAL CLIMATE. The fibrous tissue extends from the apex toward and often involves the HEART VALVES causing restrictive blood flow into the respective ventricles (CARDIOMYOPATHY, RESTRICTIVE).",
+        "cleaned_description": "A condition characterized by the thickening of the ventricular ENDOCARDIUM and subendocardium (MYOCARDIUM), seen mostly in children and young adults in the TROPICAL CLIMATE. The fibrous tissue extends from the apex toward and often involves the HEART VALVES causing restrictive blood flow into the respective ventricles (CARDIOMYOPATHY, RESTRICTIVE).",
+        "description_summary": "A condition characterized by the thickening of the ventricular ENDOCARDIUM and subendocardium (MYOCARDIUM), seen mostly in children and young adults in the TROPICAL CLIMATE.",
+        "key_terms": [
+          "CARDIOMYOPATHY"
+        ],
+        "word_count": 48
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.496158",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004916",
+      "DiseaseName": "Erythromelalgia",
+      "DiseaseDescription": "A peripheral arterial disease that is characterized by the triad of ERYTHEMA, burning PAIN, and increased SKIN TEMPERATURE of the extremities (or red, painful extremities). Erythromelalgia may be classified as primary or idiopathic, familial or non-familial. Secondary erythromelalgia is associated with other diseases, the most common being MYELOPROLIFERATIVE DISORDERS.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Taste transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004916",
+        "standardized_id": "MESH:D004916",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Erythromelalgia",
+        "standardized_name": "Erythromelalgia",
+        "normalized_name": "erythromelalgia",
+        "synonyms": [],
+        "search_terms": [
+          "erythromelalgia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A peripheral arterial disease that is characterized by the triad of ERYTHEMA, burning PAIN, and increased SKIN TEMPERATURE of the extremities (or red, painful extremities). Erythromelalgia may be classified as primary or idiopathic, familial or non-familial. Secondary erythromelalgia is associated with other diseases, the most common being MYELOPROLIFERATIVE DISORDERS.",
+        "cleaned_description": "A peripheral arterial disease that is characterized by the triad of ERYTHEMA, burning PAIN, and increased SKIN TEMPERATURE of the extremities (or red, painful extremities). Erythromelalgia may be classified as primary or idiopathic, familial or non-familial. Secondary erythromelalgia is associated with other diseases, the most common being MYELOPROLIFERATIVE DISORDERS.",
+        "description_summary": "A peripheral arterial disease that is characterized by the triad of ERYTHEMA, burning PAIN, and increased SKIN TEMPERATURE of the extremities (or red, painful extremities).",
+        "key_terms": [],
+        "word_count": 49
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Taste transduction",
+        "pathway_list": [
+          "Taste transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.510674",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000075222",
+      "DiseaseName": "Essential Hypertension",
+      "DiseaseDescription": "Hypertension that occurs without known cause, or preexisting renal disease. Associated polymorphisms for a number of genes have been identified, including AGT, GNB3, and ECE1. OMIM: 145500",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000075222",
+        "standardized_id": "MESH:D000075222",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Essential Hypertension",
+        "standardized_name": "Essential Hypertension",
+        "normalized_name": "essential hypertension",
+        "synonyms": [],
+        "search_terms": [
+          "essential hypertension",
+          "hypertension",
+          "essential"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Hypertension that occurs without known cause, or preexisting renal disease. Associated polymorphisms for a number of genes have been identified, including AGT, GNB3, and ECE1. OMIM: 145500",
+        "cleaned_description": "Hypertension that occurs without known cause, or preexisting renal disease. Associated polymorphisms for a number of genes have been identified, including AGT, GNB3, and ECE1. OMIM: 145500",
+        "description_summary": "Hypertension that occurs without known cause, or preexisting renal disease.",
+        "key_terms": [],
+        "word_count": 27
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.512516",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006323",
+      "DiseaseName": "Heart Arrest",
+      "DiseaseDescription": "Cessation of heart beat or MYOCARDIAL CONTRACTION. If it is treated within a few minutes, heart arrest can be reversed in most cases to normal cardiac rhythm and effective circulation.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006323",
+        "standardized_id": "MESH:D006323",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Heart Arrest",
+        "standardized_name": "Heart Arrest",
+        "normalized_name": "heart arrest",
+        "synonyms": [],
+        "search_terms": [
+          "heart arrest",
+          "arrest",
+          "heart"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Cessation of heart beat or MYOCARDIAL CONTRACTION. If it is treated within a few minutes, heart arrest can be reversed in most cases to normal cardiac rhythm and effective circulation.",
+        "cleaned_description": "Cessation of heart beat or MYOCARDIAL CONTRACTION. If it is treated within a few minutes, heart arrest can be reversed in most cases to normal cardiac rhythm and effective circulation.",
+        "description_summary": "Cessation of heart beat or MYOCARDIAL CONTRACTION.",
+        "key_terms": [],
+        "word_count": 30
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.612324",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006331",
+      "DiseaseName": "Heart Diseases",
+      "DiseaseDescription": "Pathological conditions involving the HEART including its structural and functional abnormalities.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006331",
+        "standardized_id": "MESH:D006331",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Heart Diseases",
+        "standardized_name": "Heart Diseases",
+        "normalized_name": "heart diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "heart diseases",
+          "heart"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological conditions involving the HEART including its structural and functional abnormalities.",
+        "cleaned_description": "Pathological conditions involving the HEART including its structural and functional abnormalities.",
+        "description_summary": "Pathological conditions involving the HEART including its structural and functional abnormalities.",
+        "key_terms": [],
+        "word_count": 11
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.614374",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006333",
+      "DiseaseName": "Heart Failure",
+      "DiseaseDescription": "A heterogeneous condition in which the heart is unable to pump out sufficient blood to meet the metabolic need of the body. Heart failure can be caused by structural defects, functional abnormalities (VENTRICULAR DYSFUNCTION), or a sudden overload beyond its capacity. Chronic heart failure is more common than acute heart failure which results from sudden insult to cardiac function, such as MYOCARDIAL INFARCTION.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006333",
+        "standardized_id": "MESH:D006333",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Heart Failure",
+        "standardized_name": "Heart Failure",
+        "normalized_name": "heart failure",
+        "synonyms": [],
+        "search_terms": [
+          "heart",
+          "heart failure",
+          "failure"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A heterogeneous condition in which the heart is unable to pump out sufficient blood to meet the metabolic need of the body. Heart failure can be caused by structural defects, functional abnormalities (VENTRICULAR DYSFUNCTION), or a sudden overload beyond its capacity. Chronic heart failure is more common than acute heart failure which results from sudden insult to cardiac function, such as MYOCARDIAL INFARCTION.",
+        "cleaned_description": "A heterogeneous condition in which the heart is unable to pump out sufficient blood to meet the metabolic need of the body. Heart failure can be caused by structural defects, functional abnormalities (VENTRICULAR DYSFUNCTION), or a sudden overload beyond its capacity. Chronic heart failure is more common than acute heart failure which results from sudden insult to cardiac function, such as MYOCARDIAL INFARCTION.",
+        "description_summary": "A heterogeneous condition in which the heart is unable to pump out sufficient blood to meet the metabolic need of the body.",
+        "key_terms": [],
+        "word_count": 63
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.615347",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D054144",
+      "DiseaseName": "Heart Failure, Diastolic",
+      "DiseaseDescription": "Heart failure caused by abnormal myocardial relaxation during DIASTOLE leading to defective cardiac filling.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D054144",
+        "standardized_id": "MESH:D054144",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Heart Failure, Diastolic",
+        "standardized_name": "Heart Failure, Diastolic",
+        "normalized_name": "heart failure diastolic",
+        "synonyms": [],
+        "search_terms": [
+          "heart failure, diastolic",
+          "diastolic",
+          "heart",
+          "failure,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Heart failure caused by abnormal myocardial relaxation during DIASTOLE leading to defective cardiac filling.",
+        "cleaned_description": "Heart failure caused by abnormal myocardial relaxation during DIASTOLE leading to defective cardiac filling.",
+        "description_summary": "Heart failure caused by abnormal myocardial relaxation during DIASTOLE leading to defective cardiac filling.",
+        "key_terms": [],
+        "word_count": 14
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.615563",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D054143",
+      "DiseaseName": "Heart Failure, Systolic",
+      "DiseaseDescription": "Heart failure caused by abnormal myocardial contraction during SYSTOLE leading to defective cardiac emptying.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Molecules associated with elastic fibres",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D054143",
+        "standardized_id": "MESH:D054143",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Heart Failure, Systolic",
+        "standardized_name": "Heart Failure, Systolic",
+        "normalized_name": "heart failure systolic",
+        "synonyms": [],
+        "search_terms": [
+          "heart failure, systolic",
+          "heart",
+          "failure,",
+          "systolic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Heart failure caused by abnormal myocardial contraction during SYSTOLE leading to defective cardiac emptying.",
+        "cleaned_description": "Heart failure caused by abnormal myocardial contraction during SYSTOLE leading to defective cardiac emptying.",
+        "description_summary": "Heart failure caused by abnormal myocardial contraction during SYSTOLE leading to defective cardiac emptying.",
+        "key_terms": [],
+        "word_count": 14
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Molecules associated with elastic fibres",
+        "pathway_list": [
+          "Molecules associated with elastic fibres"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.616249",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006342",
+      "DiseaseName": "Heart Rupture, Post-Infarction",
+      "DiseaseDescription": "Laceration or tearing of cardiac tissues appearing after MYOCARDIAL INFARCTION.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Transcriptional misregulation in cancer",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006342",
+        "standardized_id": "MESH:D006342",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Heart Rupture, Post-Infarction",
+        "standardized_name": "Heart Rupture, Post-Infarction",
+        "normalized_name": "heart rupture post-infarction",
+        "synonyms": [],
+        "search_terms": [
+          "heart rupture, post-infarction",
+          "heart",
+          "rupture,",
+          "post-infarction"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Laceration or tearing of cardiac tissues appearing after MYOCARDIAL INFARCTION.",
+        "cleaned_description": "Laceration or tearing of cardiac tissues appearing after MYOCARDIAL INFARCTION.",
+        "description_summary": "Laceration or tearing of cardiac tissues appearing after MYOCARDIAL INFARCTION.",
+        "key_terms": [],
+        "word_count": 10
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional misregulation in cancer",
+        "pathway_list": [
+          "Transcriptional misregulation in cancer"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional misregulation in cancer"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.616633",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006349",
+      "DiseaseName": "Heart Valve Diseases",
+      "DiseaseDescription": "Pathological conditions involving any of the various HEART VALVES and the associated structures (PAPILLARY MUSCLES and CHORDAE TENDINEAE).",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006349",
+        "standardized_id": "MESH:D006349",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Heart Valve Diseases",
+        "standardized_name": "Heart Valve Diseases",
+        "normalized_name": "heart valve diseases",
+        "synonyms": [],
+        "search_terms": [
+          "heart valve diseases",
+          "diseases",
+          "valve",
+          "heart"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological conditions involving any of the various HEART VALVES and the associated structures (PAPILLARY MUSCLES and CHORDAE TENDINEAE).",
+        "cleaned_description": "Pathological conditions involving any of the various HEART VALVES and the associated structures (PAPILLARY MUSCLES and CHORDAE TENDINEAE).",
+        "description_summary": "Pathological conditions involving any of the various HEART VALVES and the associated structures (PAPILLARY MUSCLES and CHORDAE TENDINEAE).",
+        "key_terms": [],
+        "word_count": 18
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.620538",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006940",
+      "DiseaseName": "Hyperemia",
+      "DiseaseDescription": "The presence of an increased amount of blood in a body part or an organ leading to congestion or engorgement of blood vessels. Hyperemia can be due to increase of blood flow into the area (active or arterial), or due to obstruction of outflow of blood from the area (passive or venous).",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "VEGF signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006940",
+        "standardized_id": "MESH:D006940",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperemia",
+        "standardized_name": "Hyperemia",
+        "normalized_name": "hyperemia",
+        "synonyms": [],
+        "search_terms": [
+          "hyperemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The presence of an increased amount of blood in a body part or an organ leading to congestion or engorgement of blood vessels. Hyperemia can be due to increase of blood flow into the area (active or arterial), or due to obstruction of outflow of blood from the area (passive or venous).",
+        "cleaned_description": "The presence of an increased amount of blood in a body part or an organ leading to congestion or engorgement of blood vessels. Hyperemia can be due to increase of blood flow into the area (active or arterial), or due to obstruction of outflow of blood from the area (passive or venous).",
+        "description_summary": "The presence of an increased amount of blood in a body part or an organ leading to congestion or engorgement of blood vessels.",
+        "key_terms": [
+          "Hyperemia"
+        ],
+        "word_count": 52
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGF signaling pathway",
+        "pathway_list": [
+          "VEGF signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGF signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.676833",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006973",
+      "DiseaseName": "Hypertension",
+      "DiseaseDescription": "Persistently high systemic arterial BLOOD PRESSURE. Based on multiple readings (BLOOD PRESSURE DETERMINATION), hypertension is currently defined as when SYSTOLIC PRESSURE is consistently greater than 140 mm Hg or when DIASTOLIC PRESSURE is consistently 90 mm Hg or more.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006973",
+        "standardized_id": "MESH:D006973",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypertension",
+        "standardized_name": "Hypertension",
+        "normalized_name": "hypertension",
+        "synonyms": [],
+        "search_terms": [
+          "hypertension"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Persistently high systemic arterial BLOOD PRESSURE. Based on multiple readings (BLOOD PRESSURE DETERMINATION), hypertension is currently defined as when SYSTOLIC PRESSURE is consistently greater than 140 mm Hg or when DIASTOLIC PRESSURE is consistently 90 mm Hg or more.",
+        "cleaned_description": "Persistently high systemic arterial BLOOD PRESSURE. Based on multiple readings (BLOOD PRESSURE DETERMINATION), hypertension is currently defined as when SYSTOLIC PRESSURE is consistently greater than 140 mm Hg or when DIASTOLIC PRESSURE is consistently 90 mm Hg or more.",
+        "description_summary": "Persistently high systemic arterial BLOOD PRESSURE.",
+        "key_terms": [],
+        "word_count": 39
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.766495",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006974",
+      "DiseaseName": "Hypertension, Malignant",
+      "DiseaseDescription": "A condition of markedly elevated BLOOD PRESSURE with DIASTOLIC PRESSURE usually greater than 120 mm Hg. Malignant hypertension is characterized by widespread vascular damage, PAPILLEDEMA, retinopathy, HYPERTENSIVE ENCEPHALOPATHY, and renal dysfunction.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Steroid hormone biosynthesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006974",
+        "standardized_id": "MESH:D006974",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypertension, Malignant",
+        "standardized_name": "Hypertension, Malignant",
+        "normalized_name": "hypertension malignant",
+        "synonyms": [],
+        "search_terms": [
+          "hypertension,",
+          "malignant",
+          "hypertension, malignant"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition of markedly elevated BLOOD PRESSURE with DIASTOLIC PRESSURE usually greater than 120 mm Hg. Malignant hypertension is characterized by widespread vascular damage, PAPILLEDEMA, retinopathy, HYPERTENSIVE ENCEPHALOPATHY, and renal dysfunction.",
+        "cleaned_description": "A condition of markedly elevated BLOOD PRESSURE with DIASTOLIC PRESSURE usually greater than 120 mm Hg. Malignant hypertension is characterized by widespread vascular damage, PAPILLEDEMA, retinopathy, HYPERTENSIVE ENCEPHALOPATHY, and renal dysfunction.",
+        "description_summary": "A condition of markedly elevated BLOOD PRESSURE with DIASTOLIC PRESSURE usually greater than 120 mm Hg.",
+        "key_terms": [
+          "retinopathy",
+          "ENCEPHALOPATHY"
+        ],
+        "word_count": 31
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Steroid hormone biosynthesis",
+        "pathway_list": [
+          "Steroid hormone biosynthesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.766756",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007022",
+      "DiseaseName": "Hypotension",
+      "DiseaseDescription": "Abnormally low BLOOD PRESSURE that can result in inadequate blood flow to the brain and other vital organs. Common symptom is DIZZINESS but greater negative impacts on the body occur when there is prolonged depravation of oxygen and nutrients.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007022",
+        "standardized_id": "MESH:D007022",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypotension",
+        "standardized_name": "Hypotension",
+        "normalized_name": "hypotension",
+        "synonyms": [],
+        "search_terms": [
+          "hypotension"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormally low BLOOD PRESSURE that can result in inadequate blood flow to the brain and other vital organs. Common symptom is DIZZINESS but greater negative impacts on the body occur when there is prolonged depravation of oxygen and nutrients.",
+        "cleaned_description": "Abnormally low BLOOD PRESSURE that can result in inadequate blood flow to the brain and other vital organs. Common symptom is DIZZINESS but greater negative impacts on the body occur when there is prolonged depravation of oxygen and nutrients.",
+        "description_summary": "Abnormally low BLOOD PRESSURE that can result in inadequate blood flow to the brain and other vital organs.",
+        "key_terms": [],
+        "word_count": 39
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.777500",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D017566",
+      "DiseaseName": "Microvascular Angina",
+      "DiseaseDescription": "ANGINA PECTORIS or angina-like chest pain with a normal coronary arteriogram and positive EXERCISE TEST. The cause of the syndrome is unknown. While its recognition is of clinical importance, its prognosis is excellent. (Braunwald, Heart Disease, 4th ed, p1346; Jablonski Dictionary of Syndromes & Eponymic Diseases, 2d ed). It is different from METABOLIC SYNDROME X, a syndrome characterized by INSULIN RESISTANCE and HYPERINSULINEMIA, that has increased risk for cardiovascular disease.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "One carbon pool by folate",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017566",
+        "standardized_id": "MESH:D017566",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Microvascular Angina",
+        "standardized_name": "Microvascular Angina",
+        "normalized_name": "microvascular angina",
+        "synonyms": [],
+        "search_terms": [
+          "microvascular angina",
+          "angina",
+          "microvascular"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "ANGINA PECTORIS or angina-like chest pain with a normal coronary arteriogram and positive EXERCISE TEST. The cause of the syndrome is unknown. While its recognition is of clinical importance, its prognosis is excellent. (Braunwald, Heart Disease, 4th ed, p1346; Jablonski Dictionary of Syndromes & Eponymic Diseases, 2d ed). It is different from METABOLIC SYNDROME X, a syndrome characterized by INSULIN RESISTANCE and HYPERINSULINEMIA, that has increased risk for cardiovascular disease.",
+        "cleaned_description": "ANGINA PECTORIS or angina-like chest pain with a normal coronary arteriogram and positive EXERCISE TEST. The cause of the syndrome is unknown. While its recognition is of clinical importance, its prognosis is excellent. (Braunwald, Heart Disease, 4th ed, p1346; Jablonski Dictionary of Syndromes & Eponymic Diseases, 2d ed). It is different from METABOLIC SYNDROME X, a syndrome characterized by INSULIN RESISTANCE and HYPERINSULINEMIA, that has increased risk for cardiovascular disease.",
+        "description_summary": "ANGINA PECTORIS or angina-like chest pain with a normal coronary arteriogram and positive EXERCISE TEST.",
+        "key_terms": [
+          "HYPERINSULINEMIA",
+          "prognosis"
+        ],
+        "word_count": 70
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "One carbon pool by folate",
+        "pathway_list": [
+          "One carbon pool by folate"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.849652",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008944",
+      "DiseaseName": "Mitral Valve Insufficiency",
+      "DiseaseDescription": "Backflow of blood from the LEFT VENTRICLE into the LEFT ATRIUM due to imperfect closure of the MITRAL VALVE. This can lead to mitral valve regurgitation.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Surfactant metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008944",
+        "standardized_id": "MESH:D008944",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Mitral Valve Insufficiency",
+        "standardized_name": "Mitral Valve Insufficiency",
+        "normalized_name": "mitral valve insufficiency",
+        "synonyms": [],
+        "search_terms": [
+          "mitral",
+          "insufficiency",
+          "valve",
+          "mitral valve insufficiency"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Backflow of blood from the LEFT VENTRICLE into the LEFT ATRIUM due to imperfect closure of the MITRAL VALVE. This can lead to mitral valve regurgitation.",
+        "cleaned_description": "Backflow of blood from the LEFT VENTRICLE into the LEFT ATRIUM due to imperfect closure of the MITRAL VALVE. This can lead to mitral valve regurgitation.",
+        "description_summary": "Backflow of blood from the LEFT VENTRICLE into the LEFT ATRIUM due to imperfect closure of the MITRAL VALVE.",
+        "key_terms": [],
+        "word_count": 26
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Surfactant metabolism",
+        "pathway_list": [
+          "Surfactant metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.855477",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D017202",
+      "DiseaseName": "Myocardial Ischemia",
+      "DiseaseDescription": "A disorder of cardiac function caused by insufficient blood flow to the muscle tissue of the heart. The decreased blood flow may be due to narrowing of the coronary arteries (CORONARY ARTERY DISEASE), to obstruction by a thrombus (CORONARY THROMBOSIS), or less commonly, to diffuse narrowing of arterioles and other small vessels within the heart. Severe interruption of the blood supply to the myocardial tissue may result in necrosis of cardiac muscle (MYOCARDIAL INFARCTION).",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017202",
+        "standardized_id": "MESH:D017202",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Myocardial Ischemia",
+        "standardized_name": "Myocardial Ischemia",
+        "normalized_name": "myocardial ischemia",
+        "synonyms": [],
+        "search_terms": [
+          "myocardial",
+          "ischemia",
+          "myocardial ischemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A disorder of cardiac function caused by insufficient blood flow to the muscle tissue of the heart. The decreased blood flow may be due to narrowing of the coronary arteries (CORONARY ARTERY DISEASE), to obstruction by a thrombus (CORONARY THROMBOSIS), or less commonly, to diffuse narrowing of arterioles and other small vessels within the heart. Severe interruption of the blood supply to the myocardial tissue may result in necrosis of cardiac muscle (MYOCARDIAL INFARCTION).",
+        "cleaned_description": "A disorder of cardiac function caused by insufficient blood flow to the muscle tissue of the heart. The decreased blood flow may be due to narrowing of the coronary arteries (CORONARY ARTERY DISEASE), to obstruction by a thrombus (CORONARY THROMBOSIS), or less commonly, to diffuse narrowing of arterioles and other small vessels within the heart. Severe interruption of the blood supply to the myocardial tissue may result in necrosis of cardiac muscle (MYOCARDIAL INFARCTION).",
+        "description_summary": "A disorder of cardiac function caused by insufficient blood flow to the muscle tissue of the heart.",
+        "key_terms": [
+          "necrosis",
+          "THROMBOSIS"
+        ],
+        "word_count": 74
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.863214",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009205",
+      "DiseaseName": "Myocarditis",
+      "DiseaseDescription": "Inflammatory processes of the muscular walls of the heart (MYOCARDIUM) which result in injury to the cardiac muscle cells (MYOCYTES, CARDIAC). Manifestations range from subclinical to sudden death (DEATH, SUDDEN). Myocarditis in association with cardiac dysfunction is classified as inflammatory CARDIOMYOPATHY usually caused by INFECTION, autoimmune diseases, or responses to toxic substances. Myocarditis is also a common cause of DILATED CARDIOMYOPATHY and other cardiomyopathies.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Type II diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009205",
+        "standardized_id": "MESH:D009205",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Myocarditis",
+        "standardized_name": "Myocarditis",
+        "normalized_name": "myocarditis",
+        "synonyms": [],
+        "search_terms": [
+          "myocarditis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inflammatory processes of the muscular walls of the heart (MYOCARDIUM) which result in injury to the cardiac muscle cells (MYOCYTES, CARDIAC). Manifestations range from subclinical to sudden death (DEATH, SUDDEN). Myocarditis in association with cardiac dysfunction is classified as inflammatory CARDIOMYOPATHY usually caused by INFECTION, autoimmune diseases, or responses to toxic substances. Myocarditis is also a common cause of DILATED CARDIOMYOPATHY and other cardiomyopathies.",
+        "cleaned_description": "Inflammatory processes of the muscular walls of the heart (MYOCARDIUM) which result in injury to the cardiac muscle cells (MYOCYTES, CARDIAC). Manifestations range from subclinical to sudden death (DEATH, SUDDEN). Myocarditis in association with cardiac dysfunction is classified as inflammatory CARDIOMYOPATHY usually caused by INFECTION, autoimmune diseases, or responses to toxic substances. Myocarditis is also a common cause of DILATED CARDIOMYOPATHY and other cardiomyopathies.",
+        "description_summary": "Inflammatory processes of the muscular walls of the heart (MYOCARDIUM) which result in injury to the cardiac muscle cells (MYOCYTES, CARDIAC).",
+        "key_terms": [
+          "Myocarditis",
+          "CARDIOMYOPATHY"
+        ],
+        "word_count": 64
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type II diabetes mellitus",
+        "pathway_list": [
+          "Type II diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.863693",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010490",
+      "DiseaseName": "Pericardial Effusion",
+      "DiseaseDescription": "Fluid accumulation within the PERICARDIUM. Serous effusions are associated with pericardial diseases. Hemopericardium is associated with trauma. Lipid-containing effusion (chylopericardium) results from leakage of THORACIC DUCT. Severe cases can lead to CARDIAC TAMPONADE.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "VEGF signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010490",
+        "standardized_id": "MESH:D010490",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pericardial Effusion",
+        "standardized_name": "Pericardial Effusion",
+        "normalized_name": "pericardial effusion",
+        "synonyms": [],
+        "search_terms": [
+          "pericardial effusion",
+          "pericardial",
+          "effusion"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Fluid accumulation within the PERICARDIUM. Serous effusions are associated with pericardial diseases. Hemopericardium is associated with trauma. Lipid-containing effusion (chylopericardium) results from leakage of THORACIC DUCT. Severe cases can lead to CARDIAC TAMPONADE.",
+        "cleaned_description": "Fluid accumulation within the PERICARDIUM. Serous effusions are associated with pericardial diseases. Hemopericardium is associated with trauma. Lipid-containing effusion (chylopericardium) results from leakage of THORACIC DUCT. Severe cases can lead to CARDIAC TAMPONADE.",
+        "description_summary": "Fluid accumulation within the PERICARDIUM.",
+        "key_terms": [],
+        "word_count": 33
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGF signaling pathway",
+        "pathway_list": [
+          "VEGF signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGF signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.913353",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D058729",
+      "DiseaseName": "Peripheral Arterial Disease",
+      "DiseaseDescription": "Lack of perfusion in the EXTREMITIES resulting from atherosclerosis. It is characterized by INTERMITTENT CLAUDICATION, and an ANKLE BRACHIAL INDEX of 0.9 or less.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "TGF-beta signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D058729",
+        "standardized_id": "MESH:D058729",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Peripheral Arterial Disease",
+        "standardized_name": "Peripheral Arterial Disease",
+        "normalized_name": "peripheral arterial disease",
+        "synonyms": [],
+        "search_terms": [
+          "arterial",
+          "disease",
+          "peripheral",
+          "peripheral arterial disease"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Lack of perfusion in the EXTREMITIES resulting from atherosclerosis. It is characterized by INTERMITTENT CLAUDICATION, and an ANKLE BRACHIAL INDEX of 0.9 or less.",
+        "cleaned_description": "Lack of perfusion in the EXTREMITIES resulting from atherosclerosis. It is characterized by INTERMITTENT CLAUDICATION, and an ANKLE BRACHIAL INDEX of 0.9 or less.",
+        "description_summary": "Lack of perfusion in the EXTREMITIES resulting from atherosclerosis.",
+        "key_terms": [
+          "atherosclerosis"
+        ],
+        "word_count": 24
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "TGF-beta signaling pathway",
+        "pathway_list": [
+          "TGF-beta signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "TGF-beta signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.913763",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D016491",
+      "DiseaseName": "Peripheral Vascular Diseases",
+      "DiseaseDescription": "Pathological processes involving any one of the BLOOD VESSELS in the vasculature outside the HEART.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D016491",
+        "standardized_id": "MESH:D016491",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Peripheral Vascular Diseases",
+        "standardized_name": "Peripheral Vascular Diseases",
+        "normalized_name": "peripheral vascular diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "peripheral vascular diseases",
+          "vascular",
+          "peripheral"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological processes involving any one of the BLOOD VESSELS in the vasculature outside the HEART.",
+        "cleaned_description": "Pathological processes involving any one of the BLOOD VESSELS in the vasculature outside the HEART.",
+        "description_summary": "Pathological processes involving any one of the BLOOD VESSELS in the vasculature outside the HEART.",
+        "key_terms": [],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.914031",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013479",
+      "DiseaseName": "Superior Vena Cava Syndrome",
+      "DiseaseDescription": "A condition that occurs when the obstruction of the thin-walled SUPERIOR VENA CAVA interrupts blood flow from the head, upper extremities, and thorax to the RIGHT ATRIUM. Obstruction can be caused by NEOPLASMS; THROMBOSIS; ANEURYSM; or external compression. The syndrome is characterized by swelling and/or CYANOSIS of the face, neck, and upper arms which is called Pemberton's sign. Classification of SVC obstruction is often based on COLLATERAL CIRCULATION.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013479",
+        "standardized_id": "MESH:D013479",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Superior Vena Cava Syndrome",
+        "standardized_name": "Superior Vena Cava Syndrome",
+        "normalized_name": "superior vena cava syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "superior",
+          "superior vena cava syndrome",
+          "syndrome",
+          "vena",
+          "cava"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition that occurs when the obstruction of the thin-walled SUPERIOR VENA CAVA interrupts blood flow from the head, upper extremities, and thorax to the RIGHT ATRIUM. Obstruction can be caused by NEOPLASMS; THROMBOSIS; ANEURYSM; or external compression. The syndrome is characterized by swelling and/or CYANOSIS of the face, neck, and upper arms which is called Pemberton's sign. Classification of SVC obstruction is often based on COLLATERAL CIRCULATION.",
+        "cleaned_description": "A condition that occurs when the obstruction of the thin-walled SUPERIOR VENA CAVA interrupts blood flow from the head, upper extremities, and thorax to the RIGHT ATRIUM. Obstruction can be caused by NEOPLASMS; THROMBOSIS; ANEURYSM; or external compression. The syndrome is characterized by swelling and/or CYANOSIS of the face, neck, and upper arms which is called Pemberton's sign. Classification of SVC obstruction is often based on COLLATERAL CIRCULATION.",
+        "description_summary": "A condition that occurs when the obstruction of the thin-walled SUPERIOR VENA CAVA interrupts blood flow from the head, upper extremities, and thorax to the RIGHT ATRIUM.",
+        "key_terms": [
+          "THROMBOSIS",
+          "CYANOSIS"
+        ],
+        "word_count": 68
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.982385",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D056647",
+      "DiseaseName": "Systemic Vasculitis",
+      "DiseaseDescription": "A heterogeneous group of diseases characterized by inflammation and necrosis of the blood vessel walls.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D056647",
+        "standardized_id": "MESH:D056647",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Systemic Vasculitis",
+        "standardized_name": "Systemic Vasculitis",
+        "normalized_name": "systemic vasculitis",
+        "synonyms": [],
+        "search_terms": [
+          "systemic vasculitis",
+          "vasculitis",
+          "systemic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A heterogeneous group of diseases characterized by inflammation and necrosis of the blood vessel walls.",
+        "cleaned_description": "A heterogeneous group of diseases characterized by inflammation and necrosis of the blood vessel walls.",
+        "description_summary": "A heterogeneous group of diseases characterized by inflammation and necrosis of the blood vessel walls.",
+        "key_terms": [
+          "necrosis"
+        ],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.989284",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013684",
+      "DiseaseName": "Telangiectasis",
+      "DiseaseDescription": "Permanent dilation of preexisting blood vessels (CAPILLARIES; ARTERIOLES; VENULES) creating small focal red lesions, most commonly in the skin or mucous membranes. It is characterized by the prominence of skin blood vessels, such as vascular spiders.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013684",
+        "standardized_id": "MESH:D013684",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Telangiectasis",
+        "standardized_name": "Telangiectasis",
+        "normalized_name": "telangiectasis",
+        "synonyms": [],
+        "search_terms": [
+          "telangiectasis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Permanent dilation of preexisting blood vessels (CAPILLARIES; ARTERIOLES; VENULES) creating small focal red lesions, most commonly in the skin or mucous membranes. It is characterized by the prominence of skin blood vessels, such as vascular spiders.",
+        "cleaned_description": "Permanent dilation of preexisting blood vessels (CAPILLARIES; ARTERIOLES; VENULES) creating small focal red lesions, most commonly in the skin or mucous membranes. It is characterized by the prominence of skin blood vessels, such as vascular spiders.",
+        "description_summary": "Permanent dilation of preexisting blood vessels (CAPILLARIES; ARTERIOLES; VENULES) creating small focal red lesions, most commonly in the skin or mucous membranes.",
+        "key_terms": [],
+        "word_count": 36
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.991529",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013923",
+      "DiseaseName": "Thromboembolism",
+      "DiseaseDescription": "Obstruction of a blood vessel (embolism) by a blood clot (THROMBUS) in the blood stream.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013923",
+        "standardized_id": "MESH:D013923",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Thromboembolism",
+        "standardized_name": "Thromboembolism",
+        "normalized_name": "thromboembolism",
+        "synonyms": [],
+        "search_terms": [
+          "thromboembolism"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Obstruction of a blood vessel (embolism) by a blood clot (THROMBUS) in the blood stream.",
+        "cleaned_description": "Obstruction of a blood vessel (embolism) by a blood clot (THROMBUS) in the blood stream.",
+        "description_summary": "Obstruction of a blood vessel (embolism) by a blood clot (THROMBUS) in the blood stream.",
+        "key_terms": [],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.994376",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013927",
+      "DiseaseName": "Thrombosis",
+      "DiseaseDescription": "Formation and development of a thrombus or blood clot in the blood vessel.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013927",
+        "standardized_id": "MESH:D013927",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Thrombosis",
+        "standardized_name": "Thrombosis",
+        "normalized_name": "thrombosis",
+        "synonyms": [],
+        "search_terms": [
+          "thrombosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Formation and development of a thrombus or blood clot in the blood vessel.",
+        "cleaned_description": "Formation and development of a thrombus or blood clot in the blood vessel.",
+        "description_summary": "Formation and development of a thrombus or blood clot in the blood vessel.",
+        "key_terms": [],
+        "word_count": 13
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.994707",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014648",
+      "DiseaseName": "Varicose Veins",
+      "DiseaseDescription": "Enlarged and tortuous VEINS.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Syndecan interactions",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014648",
+        "standardized_id": "MESH:D014648",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Varicose Veins",
+        "standardized_name": "Varicose Veins",
+        "normalized_name": "varicose veins",
+        "synonyms": [],
+        "search_terms": [
+          "varicose veins",
+          "varicose",
+          "veins"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Enlarged and tortuous VEINS.",
+        "cleaned_description": "Enlarged and tortuous VEINS.",
+        "description_summary": "Enlarged and tortuous VEINS.",
+        "key_terms": [],
+        "word_count": 4
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Syndecan interactions",
+        "pathway_list": [
+          "Syndecan interactions"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.015943",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": [
+            "Very short or missing description"
+          ]
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014652",
+      "DiseaseName": "Vascular Diseases",
+      "DiseaseDescription": "Pathological processes involving any of the BLOOD VESSELS in the cardiac or peripheral circulation. They include diseases of ARTERIES; VEINS; and rest of the vasculature system in the body.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014652",
+        "standardized_id": "MESH:D014652",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Vascular Diseases",
+        "standardized_name": "Vascular Diseases",
+        "normalized_name": "vascular diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "vascular",
+          "vascular diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological processes involving any of the BLOOD VESSELS in the cardiac or peripheral circulation. They include diseases of ARTERIES; VEINS; and rest of the vasculature system in the body.",
+        "cleaned_description": "Pathological processes involving any of the BLOOD VESSELS in the cardiac or peripheral circulation. They include diseases of ARTERIES; VEINS; and rest of the vasculature system in the body.",
+        "description_summary": "Pathological processes involving any of the BLOOD VESSELS in the cardiac or peripheral circulation.",
+        "key_terms": [],
+        "word_count": 29
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.016420",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014657",
+      "DiseaseName": "Vasculitis",
+      "DiseaseDescription": "Inflammation of any one of the blood vessels, including the ARTERIES; VEINS; and rest of the vasculature system in the body.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014657",
+        "standardized_id": "MESH:D014657",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Vasculitis",
+        "standardized_name": "Vasculitis",
+        "normalized_name": "vasculitis",
+        "synonyms": [],
+        "search_terms": [
+          "vasculitis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inflammation of any one of the blood vessels, including the ARTERIES; VEINS; and rest of the vasculature system in the body.",
+        "cleaned_description": "Inflammation of any one of the blood vessels, including the ARTERIES; VEINS; and rest of the vasculature system in the body.",
+        "description_summary": "Inflammation of any one of the blood vessels, including the ARTERIES; VEINS; and rest of the vasculature system in the body.",
+        "key_terms": [],
+        "word_count": 21
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.019466",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D054556",
+      "DiseaseName": "Venous Thromboembolism",
+      "DiseaseDescription": "Obstruction of a vein or VEINS (embolism) by a blood clot (THROMBUS) in the blood stream.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D054556",
+        "standardized_id": "MESH:D054556",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Venous Thromboembolism",
+        "standardized_name": "Venous Thromboembolism",
+        "normalized_name": "venous thromboembolism",
+        "synonyms": [],
+        "search_terms": [
+          "thromboembolism",
+          "venous thromboembolism",
+          "venous"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Obstruction of a vein or VEINS (embolism) by a blood clot (THROMBUS) in the blood stream.",
+        "cleaned_description": "Obstruction of a vein or VEINS (embolism) by a blood clot (THROMBUS) in the blood stream.",
+        "description_summary": "Obstruction of a vein or VEINS (embolism) by a blood clot (THROMBUS) in the blood stream.",
+        "key_terms": [],
+        "word_count": 16
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.020565",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020246",
+      "DiseaseName": "Venous Thrombosis",
+      "DiseaseDescription": "The formation or presence of a blood clot (THROMBUS) within a vein.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020246",
+        "standardized_id": "MESH:D020246",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Venous Thrombosis",
+        "standardized_name": "Venous Thrombosis",
+        "normalized_name": "venous thrombosis",
+        "synonyms": [],
+        "search_terms": [
+          "venous thrombosis",
+          "thrombosis",
+          "venous"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The formation or presence of a blood clot (THROMBUS) within a vein.",
+        "cleaned_description": "The formation or presence of a blood clot (THROMBUS) within a vein.",
+        "description_summary": "The formation or presence of a blood clot (THROMBUS) within a vein.",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.021326",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D018754",
+      "DiseaseName": "Ventricular Dysfunction",
+      "DiseaseDescription": "A condition in which HEART VENTRICLES exhibit impaired function.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018754",
+        "standardized_id": "MESH:D018754",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Ventricular Dysfunction",
+        "standardized_name": "Ventricular Dysfunction",
+        "normalized_name": "ventricular dysfunction",
+        "synonyms": [],
+        "search_terms": [
+          "ventricular dysfunction",
+          "ventricular",
+          "dysfunction"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition in which HEART VENTRICLES exhibit impaired function.",
+        "cleaned_description": "A condition in which HEART VENTRICLES exhibit impaired function.",
+        "description_summary": "A condition in which HEART VENTRICLES exhibit impaired function.",
+        "key_terms": [],
+        "word_count": 9
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.021540",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D018487",
+      "DiseaseName": "Ventricular Dysfunction, Left",
+      "DiseaseDescription": "A condition in which the LEFT VENTRICLE of the heart was functionally impaired. This condition usually leads to HEART FAILURE; MYOCARDIAL INFARCTION; and other cardiovascular complications. Diagnosis is made by measuring the diminished ejection fraction and a depressed level of motility of the left ventricular wall.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018487",
+        "standardized_id": "MESH:D018487",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Ventricular Dysfunction, Left",
+        "standardized_name": "Ventricular Dysfunction, Left",
+        "normalized_name": "ventricular dysfunction left",
+        "synonyms": [],
+        "search_terms": [
+          "dysfunction,",
+          "ventricular",
+          "ventricular dysfunction, left",
+          "left"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition in which the LEFT VENTRICLE of the heart was functionally impaired. This condition usually leads to HEART FAILURE; MYOCARDIAL INFARCTION; and other cardiovascular complications. Diagnosis is made by measuring the diminished ejection fraction and a depressed level of motility of the left ventricular wall.",
+        "cleaned_description": "A condition in which the LEFT VENTRICLE of the heart was functionally impaired. This condition usually leads to HEART FAILURE; MYOCARDIAL INFARCTION; and other cardiovascular complications. Diagnosis is made by measuring the diminished ejection fraction and a depressed level of motility of the left ventricular wall.",
+        "description_summary": "A condition in which the LEFT VENTRICLE of the heart was functionally impaired.",
+        "key_terms": [
+          "Diagnosis"
+        ],
+        "word_count": 46
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.021885",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D018497",
+      "DiseaseName": "Ventricular Dysfunction, Right",
+      "DiseaseDescription": "A condition in which the RIGHT VENTRICLE of the heart was functionally impaired. This condition usually leads to HEART FAILURE or MYOCARDIAL INFARCTION, and other cardiovascular complications. Diagnosis is made by measuring the diminished ejection fraction and a depressed level of motility of the right ventricular wall.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "cGMP-PKG signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018497",
+        "standardized_id": "MESH:D018497",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Ventricular Dysfunction, Right",
+        "standardized_name": "Ventricular Dysfunction, Right",
+        "normalized_name": "ventricular dysfunction right",
+        "synonyms": [],
+        "search_terms": [
+          "dysfunction,",
+          "ventricular dysfunction, right",
+          "ventricular",
+          "right"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition in which the RIGHT VENTRICLE of the heart was functionally impaired. This condition usually leads to HEART FAILURE or MYOCARDIAL INFARCTION, and other cardiovascular complications. Diagnosis is made by measuring the diminished ejection fraction and a depressed level of motility of the right ventricular wall.",
+        "cleaned_description": "A condition in which the RIGHT VENTRICLE of the heart was functionally impaired. This condition usually leads to HEART FAILURE or MYOCARDIAL INFARCTION, and other cardiovascular complications. Diagnosis is made by measuring the diminished ejection fraction and a depressed level of motility of the right ventricular wall.",
+        "description_summary": "A condition in which the RIGHT VENTRICLE of the heart was functionally impaired.",
+        "key_terms": [
+          "Diagnosis"
+        ],
+        "word_count": 47
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "cGMP-PKG signaling pathway",
+        "pathway_list": [
+          "cGMP-PKG signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "cGMP-PKG signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.022230",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014694",
+      "DiseaseName": "Ventricular Outflow Obstruction",
+      "DiseaseDescription": "Occlusion of the outflow tract in either the LEFT VENTRICLE or the RIGHT VENTRICLE of the heart. This may result from CONGENITAL HEART DEFECTS, predisposing heart diseases, complications of surgery, or HEART NEOPLASMS.",
+      "SlimMapping": "['Cardiovascular disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014694",
+        "standardized_id": "MESH:D014694",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Ventricular Outflow Obstruction",
+        "standardized_name": "Ventricular Outflow Obstruction",
+        "normalized_name": "ventricular outflow obstruction",
+        "synonyms": [],
+        "search_terms": [
+          "outflow",
+          "ventricular",
+          "ventricular outflow obstruction",
+          "obstruction"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Occlusion of the outflow tract in either the LEFT VENTRICLE or the RIGHT VENTRICLE of the heart. This may result from CONGENITAL HEART DEFECTS, predisposing heart diseases, complications of surgery, or HEART NEOPLASMS.",
+        "cleaned_description": "Occlusion of the outflow tract in either the LEFT VENTRICLE or the RIGHT VENTRICLE of the heart. This may result from CONGENITAL HEART DEFECTS, predisposing heart diseases, complications of surgery, or HEART NEOPLASMS.",
+        "description_summary": "Occlusion of the outflow tract in either the LEFT VENTRICLE or the RIGHT VENTRICLE of the heart.",
+        "key_terms": [],
+        "word_count": 33
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.022930",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

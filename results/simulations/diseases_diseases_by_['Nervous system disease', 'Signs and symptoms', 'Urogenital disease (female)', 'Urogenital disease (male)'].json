@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Nervous system disease', 'Signs and symptoms', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+    "export_timestamp": "2026-03-28T22:11:36.340784",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D001750",
+      "DiseaseName": "Urinary Bladder, Neurogenic",
+      "DiseaseDescription": "Dysfunction of the URINARY BLADDER due to disease of the central or peripheral nervous system pathways involved in the control of URINATION. This is often associated with SPINAL CORD DISEASES, but may also be caused by BRAIN DISEASES or PERIPHERAL NERVE DISEASES.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001750",
+        "standardized_id": "MESH:D001750",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Urinary Bladder, Neurogenic",
+        "standardized_name": "Urinary Bladder, Neurogenic",
+        "normalized_name": "urinary bladder neurogenic",
+        "synonyms": [],
+        "search_terms": [
+          "urinary",
+          "urinary bladder, neurogenic",
+          "neurogenic",
+          "bladder,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Dysfunction of the URINARY BLADDER due to disease of the central or peripheral nervous system pathways involved in the control of URINATION. This is often associated with SPINAL CORD DISEASES, but may also be caused by BRAIN DISEASES or PERIPHERAL NERVE DISEASES.",
+        "cleaned_description": "Dysfunction of the URINARY BLADDER due to disease of the central or peripheral nervous system pathways involved in the control of URINATION. This is often associated with SPINAL CORD DISEASES, but may also be caused by BRAIN DISEASES or PERIPHERAL NERVE DISEASES.",
+        "description_summary": "Dysfunction of the URINARY BLADDER due to disease of the central or peripheral nervous system pathways involved in the control of URINATION.",
+        "key_terms": [],
+        "word_count": 42
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms",
+          "Urogenital disease (female)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.011908",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

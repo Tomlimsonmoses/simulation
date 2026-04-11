@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Congenital abnormality', 'Genetic disease (inborn)', 'Nervous system disease', 'Nutrition disorder']",
+    "export_timestamp": "2026-03-28T22:11:36.278349",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D011218",
+      "DiseaseName": "Prader-Willi Syndrome",
+      "DiseaseDescription": "An autosomal dominant disorder caused by deletion of the proximal long arm of the paternal chromosome 15 (15q11-q13) or by inheritance of both of the pair of chromosomes 15 from the mother (UNIPARENTAL DISOMY) which are imprinted (GENETIC IMPRINTING) and hence silenced. Clinical manifestations include MENTAL RETARDATION; MUSCULAR HYPOTONIA; HYPERPHAGIA; OBESITY; short stature; HYPOGONADISM; STRABISMUS; and HYPERSOMNOLENCE. (Menkes, Textbook of Child Neurology, 5th ed, p229)",
+      "SlimMapping": "['Congenital abnormality', 'Genetic disease (inborn)', 'Nervous system disease', 'Nutrition disorder']",
+      "PathwayNames": "Ubiquitin mediated proteolysis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011218",
+        "standardized_id": "MESH:D011218",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Prader-Willi Syndrome",
+        "standardized_name": "Prader-Willi Syndrome",
+        "normalized_name": "prader-willi syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "syndrome",
+          "prader-willi",
+          "prader-willi syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An autosomal dominant disorder caused by deletion of the proximal long arm of the paternal chromosome 15 (15q11-q13) or by inheritance of both of the pair of chromosomes 15 from the mother (UNIPARENTAL DISOMY) which are imprinted (GENETIC IMPRINTING) and hence silenced. Clinical manifestations include MENTAL RETARDATION; MUSCULAR HYPOTONIA; HYPERPHAGIA; OBESITY; short stature; HYPOGONADISM; STRABISMUS; and HYPERSOMNOLENCE. (Menkes, Textbook of Child Neurology, 5th ed, p229)",
+        "cleaned_description": "An autosomal dominant disorder caused by deletion of the proximal long arm of the paternal chromosome 15 (15q11-q13) or by inheritance of both of the pair of chromosomes 15 from the mother (UNIPARENTAL DISOMY) which are imprinted (GENETIC IMPRINTING) and hence silenced. Clinical manifestations include MENTAL RETARDATION; MUSCULAR HYPOTONIA; HYPERPHAGIA; OBESITY; short stature; HYPOGONADISM; STRABISMUS; and HYPERSOMNOLENCE. (Menkes, Textbook of Child Neurology, 5th ed, p229)",
+        "description_summary": "An autosomal dominant disorder caused by deletion of the proximal long arm of the paternal chromosome 15 (15q11-q13) or by inheritance of both of the pair of chromosomes 15 from the mother (UNIPARENTAL DISOMY) which are imprinted (GENETIC IMPRINTING) and hence silenced.",
+        "key_terms": [],
+        "word_count": 65
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Nervous system disease",
+          "Nutrition disorder"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Nervous system disease",
+          "Nutrition disorder"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Ubiquitin mediated proteolysis",
+        "pathway_list": [
+          "Ubiquitin mediated proteolysis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.926066",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

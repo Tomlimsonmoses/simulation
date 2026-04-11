@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Genetic disease (inborn)', 'Lymphatic disease', 'Metabolic disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.228638",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D052556",
+      "DiseaseName": "Niemann-Pick Disease, Type C",
+      "DiseaseDescription": "An autosomal recessive lipid storage disorder that is characterized by accumulation of CHOLESTEROL and SPHINGOMYELINS in cells of the VISCERA and the CENTRAL NERVOUS SYSTEM. Type C (or C1) and type D are allelic disorders caused by mutation of the NPC1 gene, which encodes  a protein that mediates intracellular cholesterol transport from LYSOSOMES. Clinical signs include hepatosplenomegaly and chronic neurological symptoms. Type D is a variant in people with a Nova Scotia ancestry.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Lymphatic disease', 'Metabolic disease', 'Nervous system disease']",
+      "PathwayNames": "Steroid biosynthesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D052556",
+        "standardized_id": "MESH:D052556",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Niemann-Pick Disease, Type C",
+        "standardized_name": "Niemann-Pick Disease, Type C",
+        "normalized_name": "niemann-pick disease type c",
+        "synonyms": [],
+        "search_terms": [
+          "type",
+          "niemann-pick disease, type c",
+          "niemann-pick",
+          "disease,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An autosomal recessive lipid storage disorder that is characterized by accumulation of CHOLESTEROL and SPHINGOMYELINS in cells of the VISCERA and the CENTRAL NERVOUS SYSTEM. Type C (or C1) and type D are allelic disorders caused by mutation of the NPC1 gene, which encodes  a protein that mediates intracellular cholesterol transport from LYSOSOMES. Clinical signs include hepatosplenomegaly and chronic neurological symptoms. Type D is a variant in people with a Nova Scotia ancestry.",
+        "cleaned_description": "An autosomal recessive lipid storage disorder that is characterized by accumulation of CHOLESTEROL and SPHINGOMYELINS in cells of the VISCERA and the CENTRAL NERVOUS SYSTEM. Type C (or C1) and type D are allelic disorders caused by mutation of the NPC1 gene, which encodes  a protein that mediates intracellular cholesterol transport from LYSOSOMES. Clinical signs include hepatosplenomegaly and chronic neurological symptoms. Type D is a variant in people with a Nova Scotia ancestry.",
+        "description_summary": "An autosomal recessive lipid storage disorder that is characterized by accumulation of CHOLESTEROL and SPHINGOMYELINS in cells of the VISCERA and the CENTRAL NERVOUS SYSTEM.",
+        "key_terms": [],
+        "word_count": 73
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Lymphatic disease",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Lymphatic disease",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Lymphatic disease",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Steroid biosynthesis",
+        "pathway_list": [
+          "Steroid biosynthesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.888283",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

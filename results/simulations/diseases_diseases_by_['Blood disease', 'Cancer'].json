@@ -1,0 +1,354 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Blood disease', 'Cancer']",
+    "export_timestamp": "2026-03-28T22:11:35.745527",
+    "total_records": 5
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D019046",
+      "DiseaseName": "Bone Marrow Neoplasms",
+      "DiseaseDescription": "Neoplasms located in the bone marrow. They are differentiated from neoplasms composed of bone marrow cells, such as MULTIPLE MYELOMA. Most bone marrow neoplasms are metastatic.",
+      "SlimMapping": "['Blood disease', 'Cancer']",
+      "PathwayNames": "Signaling by Interleukins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D019046",
+        "standardized_id": "MESH:D019046",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Bone Marrow Neoplasms",
+        "standardized_name": "Bone Marrow Neoplasms",
+        "normalized_name": "bone marrow neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "bone",
+          "bone marrow neoplasms",
+          "marrow",
+          "neoplasms"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Neoplasms located in the bone marrow. They are differentiated from neoplasms composed of bone marrow cells, such as MULTIPLE MYELOMA. Most bone marrow neoplasms are metastatic.",
+        "cleaned_description": "Neoplasms located in the bone marrow. They are differentiated from neoplasms composed of bone marrow cells, such as MULTIPLE MYELOMA. Most bone marrow neoplasms are metastatic.",
+        "description_summary": "Neoplasms located in the bone marrow.",
+        "key_terms": [],
+        "word_count": 26
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Cancer"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Cancer"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease",
+          "Cancer"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signaling by Interleukins",
+        "pathway_list": [
+          "Signaling by Interleukins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.399389",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D019337",
+      "DiseaseName": "Hematologic Neoplasms",
+      "DiseaseDescription": "Neoplasms located in the blood and blood-forming tissue (the bone marrow and lymphatic tissue). The commonest forms are the various types of LEUKEMIA, of LYMPHOMA, and of the progressive, life-threatening forms of the MYELODYSPLASTIC SYNDROMES.",
+      "SlimMapping": "['Blood disease', 'Cancer']",
+      "PathwayNames": "Unfolded Protein Response (UPR)",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D019337",
+        "standardized_id": "MESH:D019337",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hematologic Neoplasms",
+        "standardized_name": "Hematologic Neoplasms",
+        "normalized_name": "hematologic neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "hematologic",
+          "hematologic neoplasms"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Neoplasms located in the blood and blood-forming tissue (the bone marrow and lymphatic tissue). The commonest forms are the various types of LEUKEMIA, of LYMPHOMA, and of the progressive, life-threatening forms of the MYELODYSPLASTIC SYNDROMES.",
+        "cleaned_description": "Neoplasms located in the blood and blood-forming tissue (the bone marrow and lymphatic tissue). The commonest forms are the various types of LEUKEMIA, of LYMPHOMA, and of the progressive, life-threatening forms of the MYELODYSPLASTIC SYNDROMES.",
+        "description_summary": "Neoplasms located in the blood and blood-forming tissue (the bone marrow and lymphatic tissue).",
+        "key_terms": [
+          "LEUKEMIA"
+        ],
+        "word_count": 35
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Cancer"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Cancer"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease",
+          "Cancer"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Unfolded Protein Response (UPR)",
+        "pathway_list": [
+          "Unfolded Protein Response (UPR)"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.622550",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004915",
+      "DiseaseName": "Leukemia, Erythroblastic, Acute",
+      "DiseaseDescription": "A myeloproliferative disorder characterized by neoplastic proliferation of erythroblastic and myeloblastic elements with atypical erythroblasts and myeloblasts in the peripheral blood.",
+      "SlimMapping": "['Blood disease', 'Cancer']",
+      "PathwayNames": "Uridine monophosphate biosynthesis, glutamine (+ PRPP) => UMP",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004915",
+        "standardized_id": "MESH:D004915",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Leukemia, Erythroblastic, Acute",
+        "standardized_name": "Leukemia, Erythroblastic, Acute",
+        "normalized_name": "leukemia erythroblastic acute",
+        "synonyms": [],
+        "search_terms": [
+          "erythroblastic,",
+          "leukemia,",
+          "leukemia, erythroblastic, acute",
+          "acute"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A myeloproliferative disorder characterized by neoplastic proliferation of erythroblastic and myeloblastic elements with atypical erythroblasts and myeloblasts in the peripheral blood.",
+        "cleaned_description": "A myeloproliferative disorder characterized by neoplastic proliferation of erythroblastic and myeloblastic elements with atypical erythroblasts and myeloblasts in the peripheral blood.",
+        "description_summary": "A myeloproliferative disorder characterized by neoplastic proliferation of erythroblastic and myeloblastic elements with atypical erythroblasts and myeloblasts in the peripheral blood.",
+        "key_terms": [],
+        "word_count": 21
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Cancer"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Cancer"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease",
+          "Cancer"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Uridine monophosphate biosynthesis, glutamine (+ PRPP) => UMP",
+        "pathway_list": [
+          "glutamine (+ PRPP) => UMP",
+          "Uridine monophosphate biosynthesis"
+        ],
+        "pathway_count": 2,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.807806",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D054429",
+      "DiseaseName": "Leukemia, Myelomonocytic, Juvenile",
+      "DiseaseDescription": "A leukemia affecting young children characterized by SPLENOMEGALY, enlarged lymph nodes, rashes, and hemorrhages. Traditionally classed as a myeloproliferative disease, it is now considered a mixed myeloproliferative-mylelodysplastic disorder.",
+      "SlimMapping": "['Blood disease', 'Cancer']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D054429",
+        "standardized_id": "MESH:D054429",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Leukemia, Myelomonocytic, Juvenile",
+        "standardized_name": "Leukemia, Myelomonocytic, Juvenile",
+        "normalized_name": "leukemia myelomonocytic juvenile",
+        "synonyms": [],
+        "search_terms": [
+          "leukemia,",
+          "leukemia, myelomonocytic, juvenile",
+          "myelomonocytic,",
+          "juvenile"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A leukemia affecting young children characterized by SPLENOMEGALY, enlarged lymph nodes, rashes, and hemorrhages. Traditionally classed as a myeloproliferative disease, it is now considered a mixed myeloproliferative-mylelodysplastic disorder.",
+        "cleaned_description": "A leukemia affecting young children characterized by SPLENOMEGALY, enlarged lymph nodes, rashes, and hemorrhages. Traditionally classed as a myeloproliferative disease, it is now considered a mixed myeloproliferative-mylelodysplastic disorder.",
+        "description_summary": "A leukemia affecting young children characterized by SPLENOMEGALY, enlarged lymph nodes, rashes, and hemorrhages.",
+        "key_terms": [
+          "leukemia"
+        ],
+        "word_count": 28
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Cancer"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Cancer"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease",
+          "Cancer"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.811607",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011087",
+      "DiseaseName": "Polycythemia Vera",
+      "DiseaseDescription": "A myeloproliferative disorder of unknown etiology, characterized by abnormal proliferation of all hematopoietic bone marrow elements and an absolute increase in red cell mass and total blood volume, associated frequently with splenomegaly, leukocytosis, and thrombocythemia. Hematopoiesis is also reactive in extramedullary sites (liver and spleen). In time myelofibrosis occurs.",
+      "SlimMapping": "['Blood disease', 'Cancer']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011087",
+        "standardized_id": "MESH:D011087",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Polycythemia Vera",
+        "standardized_name": "Polycythemia Vera",
+        "normalized_name": "polycythemia vera",
+        "synonyms": [],
+        "search_terms": [
+          "polycythemia vera",
+          "vera",
+          "polycythemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A myeloproliferative disorder of unknown etiology, characterized by abnormal proliferation of all hematopoietic bone marrow elements and an absolute increase in red cell mass and total blood volume, associated frequently with splenomegaly, leukocytosis, and thrombocythemia. Hematopoiesis is also reactive in extramedullary sites (liver and spleen). In time myelofibrosis occurs.",
+        "cleaned_description": "A myeloproliferative disorder of unknown etiology, characterized by abnormal proliferation of all hematopoietic bone marrow elements and an absolute increase in red cell mass and total blood volume, associated frequently with splenomegaly, leukocytosis, and thrombocythemia. Hematopoiesis is also reactive in extramedullary sites (liver and spleen). In time myelofibrosis occurs.",
+        "description_summary": "A myeloproliferative disorder of unknown etiology, characterized by abnormal proliferation of all hematopoietic bone marrow elements and an absolute increase in red cell mass and total blood volume, associated frequently with splenomegaly, leukocytosis, and thrombocythemia.",
+        "key_terms": [
+          "leukocytosis",
+          "myelofibrosis",
+          "thrombocythemia"
+        ],
+        "word_count": 49
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Cancer"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Cancer"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease",
+          "Cancer"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.922862",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Genetic disease (inborn)', 'Skin disease']",
+    "export_timestamp": "2026-03-28T22:11:35.908507",
+    "total_records": 4
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D007644",
+      "DiseaseName": "Darier Disease",
+      "DiseaseDescription": "An autosomal dominantly inherited skin disorder characterized by warty malodorous papules that coalesce into plaques. It is caused by mutations in the ATP2A2 gene encoding SERCA2 protein, one of the SARCOPLASMIC RETICULUM CALCIUM-TRANSPORTING ATPASES. The condition is similar, clinically and histologically, to BENIGN FAMILIAL PEMPHIGUS, another autosomal dominant skin disorder. Both diseases have defective calcium pumps (CALCIUM-TRANSPORTING ATPASES) and unstable desmosomal adhesion junctions (DESMOSOMES) between KERATINOCYTES.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Skin disease']",
+      "PathwayNames": "Transmembrane transport of small molecules",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007644",
+        "standardized_id": "MESH:D007644",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Darier Disease",
+        "standardized_name": "Darier Disease",
+        "normalized_name": "darier disease",
+        "synonyms": [],
+        "search_terms": [
+          "darier",
+          "disease",
+          "darier disease"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An autosomal dominantly inherited skin disorder characterized by warty malodorous papules that coalesce into plaques. It is caused by mutations in the ATP2A2 gene encoding SERCA2 protein, one of the SARCOPLASMIC RETICULUM CALCIUM-TRANSPORTING ATPASES. The condition is similar, clinically and histologically, to BENIGN FAMILIAL PEMPHIGUS, another autosomal dominant skin disorder. Both diseases have defective calcium pumps (CALCIUM-TRANSPORTING ATPASES) and unstable desmosomal adhesion junctions (DESMOSOMES) between KERATINOCYTES.",
+        "cleaned_description": "An autosomal dominantly inherited skin disorder characterized by warty malodorous papules that coalesce into plaques. It is caused by mutations in the ATP2A2 gene encoding SERCA2 protein, one of the SARCOPLASMIC RETICULUM CALCIUM-TRANSPORTING ATPASES. The condition is similar, clinically and histologically, to BENIGN FAMILIAL PEMPHIGUS, another autosomal dominant skin disorder. Both diseases have defective calcium pumps (CALCIUM-TRANSPORTING ATPASES) and unstable desmosomal adhesion junctions (DESMOSOMES) between KERATINOCYTES.",
+        "description_summary": "An autosomal dominantly inherited skin disorder characterized by warty malodorous papules that coalesce into plaques.",
+        "key_terms": [],
+        "word_count": 66
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Skin disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmembrane transport of small molecules",
+        "pathway_list": [
+          "Transmembrane transport of small molecules"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.466242",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007645",
+      "DiseaseName": "Keratoderma, Palmoplantar",
+      "DiseaseDescription": "Group of mostly hereditary disorders characterized by thickening of the palms and soles as a result of excessive keratin formation leading to hypertrophy of the stratum corneum (hyperkeratosis).",
+      "SlimMapping": "['Genetic disease (inborn)', 'Skin disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007645",
+        "standardized_id": "MESH:D007645",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Keratoderma, Palmoplantar",
+        "standardized_name": "Keratoderma, Palmoplantar",
+        "normalized_name": "keratoderma palmoplantar",
+        "synonyms": [],
+        "search_terms": [
+          "keratoderma,",
+          "palmoplantar",
+          "keratoderma, palmoplantar"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Group of mostly hereditary disorders characterized by thickening of the palms and soles as a result of excessive keratin formation leading to hypertrophy of the stratum corneum (hyperkeratosis).",
+        "cleaned_description": "Group of mostly hereditary disorders characterized by thickening of the palms and soles as a result of excessive keratin formation leading to hypertrophy of the stratum corneum (hyperkeratosis).",
+        "description_summary": "Group of mostly hereditary disorders characterized by thickening of the palms and soles as a result of excessive keratin formation leading to hypertrophy of the stratum corneum (hyperkeratosis).",
+        "key_terms": [
+          "hyperkeratosis"
+        ],
+        "word_count": 28
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Skin disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.797542",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010214",
+      "DiseaseName": "Papillon-Lefevre Disease",
+      "DiseaseDescription": "Rare, autosomal recessive disorder occurring between the first and fifth years of life. It is characterized by palmoplantar keratoderma with periodontitis followed by the premature shedding of both deciduous and permanent teeth. Mutations in the gene for CATHEPSIN C have been associated with this disease.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Skin disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010214",
+        "standardized_id": "MESH:D010214",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Papillon-Lefevre Disease",
+        "standardized_name": "Papillon-Lefevre Disease",
+        "normalized_name": "papillon-lefevre disease",
+        "synonyms": [],
+        "search_terms": [
+          "papillon-lefevre",
+          "papillon-lefevre disease",
+          "disease"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Rare, autosomal recessive disorder occurring between the first and fifth years of life. It is characterized by palmoplantar keratoderma with periodontitis followed by the premature shedding of both deciduous and permanent teeth. Mutations in the gene for CATHEPSIN C have been associated with this disease.",
+        "cleaned_description": "Rare, autosomal recessive disorder occurring between the first and fifth years of life. It is characterized by palmoplantar keratoderma with periodontitis followed by the premature shedding of both deciduous and permanent teeth. Mutations in the gene for CATHEPSIN C have been associated with this disease.",
+        "description_summary": "Rare, autosomal recessive disorder occurring between the first and fifth years of life.",
+        "key_terms": [
+          "periodontitis"
+        ],
+        "word_count": 45
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Skin disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.907128",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D016506",
+      "DiseaseName": "Pemphigus, Benign Familial",
+      "DiseaseDescription": "An autosomal dominantly inherited skin disorder characterized by recurrent eruptions of vesicles and BULLAE mainly on the neck, axillae, and groin. Mutations in the ATP2C1 gene (encoding the secretory pathway Ca2++/Mn2++ ATPase 1 (SPCA1)) cause this disease. It is clinically and histologically similar to DARIER DISEASE - both have abnormal, unstable DESMOSOMES between KERATINOCYTES and defective CALCIUM-TRANSPORTING ATPASES. It is unrelated to PEMPHIGUS VULGARIS though it closely resembles that disease.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Skin disease']",
+      "PathwayNames": "Transmembrane transport of small molecules",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D016506",
+        "standardized_id": "MESH:D016506",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pemphigus, Benign Familial",
+        "standardized_name": "Pemphigus, Benign Familial",
+        "normalized_name": "pemphigus benign familial",
+        "synonyms": [],
+        "search_terms": [
+          "pemphigus, benign familial",
+          "familial",
+          "benign",
+          "pemphigus,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An autosomal dominantly inherited skin disorder characterized by recurrent eruptions of vesicles and BULLAE mainly on the neck, axillae, and groin. Mutations in the ATP2C1 gene (encoding the secretory pathway Ca2++/Mn2++ ATPase 1 (SPCA1)) cause this disease. It is clinically and histologically similar to DARIER DISEASE - both have abnormal, unstable DESMOSOMES between KERATINOCYTES and defective CALCIUM-TRANSPORTING ATPASES. It is unrelated to PEMPHIGUS VULGARIS though it closely resembles that disease.",
+        "cleaned_description": "An autosomal dominantly inherited skin disorder characterized by recurrent eruptions of vesicles and BULLAE mainly on the neck, axillae, and groin. Mutations in the ATP2C1 gene (encoding the secretory pathway Ca2++/Mn2++ ATPase 1 (SPCA1)) cause this disease. It is clinically and histologically similar to DARIER DISEASE - both have abnormal, unstable DESMOSOMES between KERATINOCYTES and defective CALCIUM-TRANSPORTING ATPASES. It is unrelated to PEMPHIGUS VULGARIS though it closely resembles that disease.",
+        "description_summary": "An autosomal dominantly inherited skin disorder characterized by recurrent eruptions of vesicles and BULLAE mainly on the neck, axillae, and groin.",
+        "key_terms": [],
+        "word_count": 70
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Skin disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmembrane transport of small molecules",
+        "pathway_list": [
+          "Transmembrane transport of small molecules"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.912110",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

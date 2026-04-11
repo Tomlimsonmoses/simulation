@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Connective tissue disease']",
+    "export_timestamp": "2026-03-28T22:11:35.892463",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D003240",
+      "DiseaseName": "Connective Tissue Diseases",
+      "DiseaseDescription": "A heterogeneous group of disorders, some hereditary, others acquired, characterized by abnormal structure or function of one or more of the elements of connective tissue, i.e., collagen, elastin, or the mucopolysaccharides.",
+      "SlimMapping": "['Connective tissue disease']",
+      "PathwayNames": "Extracellular matrix organization",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003240",
+        "standardized_id": "MESH:D003240",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Connective Tissue Diseases",
+        "standardized_name": "Connective Tissue Diseases",
+        "normalized_name": "connective tissue diseases",
+        "synonyms": [],
+        "search_terms": [
+          "tissue",
+          "diseases",
+          "connective tissue diseases",
+          "connective"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A heterogeneous group of disorders, some hereditary, others acquired, characterized by abnormal structure or function of one or more of the elements of connective tissue, i.e., collagen, elastin, or the mucopolysaccharides.",
+        "cleaned_description": "A heterogeneous group of disorders, some hereditary, others acquired, characterized by abnormal structure or function of one or more of the elements of connective tissue, i.e., collagen, elastin, or the mucopolysaccharides.",
+        "description_summary": "A heterogeneous group of disorders, some hereditary, others acquired, characterized by abnormal structure or function of one or more of the elements of connective tissue, i.",
+        "key_terms": [],
+        "word_count": 31
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Connective tissue disease"
+        ],
+        "primary_categories": [
+          "Connective tissue disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Connective tissue disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Extracellular matrix organization",
+        "pathway_list": [
+          "Extracellular matrix organization"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.456475",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

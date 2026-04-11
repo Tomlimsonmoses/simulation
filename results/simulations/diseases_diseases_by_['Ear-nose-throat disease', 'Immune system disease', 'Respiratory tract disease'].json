@@ -1,0 +1,231 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Ear-nose-throat disease', 'Immune system disease', 'Respiratory tract disease']",
+    "export_timestamp": "2026-03-28T22:11:36.294953",
+    "total_records": 3
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D065631",
+      "DiseaseName": "Rhinitis, Allergic",
+      "DiseaseDescription": "An inflammation of the NASAL MUCOSA triggered by ALLERGENS.",
+      "SlimMapping": "['Ear-nose-throat disease', 'Immune system disease', 'Respiratory tract disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D065631",
+        "standardized_id": "MESH:D065631",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Rhinitis, Allergic",
+        "standardized_name": "Rhinitis, Allergic",
+        "normalized_name": "rhinitis allergic",
+        "synonyms": [],
+        "search_terms": [
+          "allergic",
+          "rhinitis,",
+          "rhinitis, allergic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An inflammation of the NASAL MUCOSA triggered by ALLERGENS.",
+        "cleaned_description": "An inflammation of the NASAL MUCOSA triggered by ALLERGENS.",
+        "description_summary": "An inflammation of the NASAL MUCOSA triggered by ALLERGENS.",
+        "key_terms": [],
+        "word_count": 9
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Ear-nose-throat disease",
+          "Immune system disease",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Ear-nose-throat disease",
+          "Immune system disease",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory",
+          "immune_system"
+        ],
+        "all_categories": [
+          "Ear-nose-throat disease",
+          "Immune system disease",
+          "Respiratory tract disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.957162",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012221",
+      "DiseaseName": "Rhinitis, Allergic, Perennial",
+      "DiseaseDescription": "Inflammation of the mucous membrane of the nose similar to that found in hay fever except that symptoms persist throughout the year. The causes are usually air-borne allergens, particularly dusts, feathers, molds, animal fur, etc.",
+      "SlimMapping": "['Ear-nose-throat disease', 'Immune system disease', 'Respiratory tract disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012221",
+        "standardized_id": "MESH:D012221",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Rhinitis, Allergic, Perennial",
+        "standardized_name": "Rhinitis, Allergic, Perennial",
+        "normalized_name": "rhinitis allergic perennial",
+        "synonyms": [],
+        "search_terms": [
+          "perennial",
+          "rhinitis, allergic, perennial",
+          "rhinitis,",
+          "allergic,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inflammation of the mucous membrane of the nose similar to that found in hay fever except that symptoms persist throughout the year. The causes are usually air-borne allergens, particularly dusts, feathers, molds, animal fur, etc.",
+        "cleaned_description": "Inflammation of the mucous membrane of the nose similar to that found in hay fever except that symptoms persist throughout the year. The causes are usually air-borne allergens, particularly dusts, feathers, molds, animal fur, etc.",
+        "description_summary": "Inflammation of the mucous membrane of the nose similar to that found in hay fever except that symptoms persist throughout the year.",
+        "key_terms": [],
+        "word_count": 35
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Ear-nose-throat disease",
+          "Immune system disease",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Ear-nose-throat disease",
+          "Immune system disease",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory",
+          "immune_system"
+        ],
+        "all_categories": [
+          "Ear-nose-throat disease",
+          "Immune system disease",
+          "Respiratory tract disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.957309",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006255",
+      "DiseaseName": "Rhinitis, Allergic, Seasonal",
+      "DiseaseDescription": "Allergic rhinitis that occurs at the same time every year. It is characterized by acute CONJUNCTIVITIS with lacrimation and ITCHING, and regarded as an allergic condition triggered by specific ALLERGENS.",
+      "SlimMapping": "['Ear-nose-throat disease', 'Immune system disease', 'Respiratory tract disease']",
+      "PathwayNames": "Salivary secretion",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006255",
+        "standardized_id": "MESH:D006255",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Rhinitis, Allergic, Seasonal",
+        "standardized_name": "Rhinitis, Allergic, Seasonal",
+        "normalized_name": "rhinitis allergic seasonal",
+        "synonyms": [],
+        "search_terms": [
+          "seasonal",
+          "allergic,",
+          "rhinitis,",
+          "rhinitis, allergic, seasonal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Allergic rhinitis that occurs at the same time every year. It is characterized by acute CONJUNCTIVITIS with lacrimation and ITCHING, and regarded as an allergic condition triggered by specific ALLERGENS.",
+        "cleaned_description": "Allergic rhinitis that occurs at the same time every year. It is characterized by acute CONJUNCTIVITIS with lacrimation and ITCHING, and regarded as an allergic condition triggered by specific ALLERGENS.",
+        "description_summary": "Allergic rhinitis that occurs at the same time every year.",
+        "key_terms": [
+          "CONJUNCTIVITIS",
+          "rhinitis"
+        ],
+        "word_count": 30
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Ear-nose-throat disease",
+          "Immune system disease",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Ear-nose-throat disease",
+          "Immune system disease",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory",
+          "immune_system"
+        ],
+        "all_categories": [
+          "Ear-nose-throat disease",
+          "Immune system disease",
+          "Respiratory tract disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Salivary secretion",
+        "pathway_list": [
+          "Salivary secretion"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.957468",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "type": "object",
+  "properties": {
+    "DrugID": {
+      "type": "string",
+      "description": "Unique drug identifier"
+    },
+    "DrugName": {
+      "type": "string",
+      "description": "Drug name"
+    },
+    "standardized_drug_id": {
+      "type": "object",
+      "description": "Standardized drug ID information"
+    },
+    "standardized_drug_name": {
+      "type": "object",
+      "description": "Standardized drug name information"
+    },
+    "processed_targets": {
+      "type": "object",
+      "description": "Processed target information"
+    },
+    "processed_mechanisms": {
+      "type": "object",
+      "description": "Processed mechanism information"
+    },
+    "processed_categories": {
+      "type": "object",
+      "description": "Processed category information"
+    },
+    "processed_conditions": {
+      "type": "object",
+      "description": "Processed condition information"
+    }
+  },
+  "required": [
+    "DrugID",
+    "DrugName"
+  ]
+}

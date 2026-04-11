@@ -1,0 +1,341 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Musculoskeletal disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.205705",
+    "total_records": 5
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D009135",
+      "DiseaseName": "Muscular Diseases",
+      "DiseaseDescription": "Acquired, familial, and congenital disorders of SKELETAL MUSCLE and SMOOTH MUSCLE.",
+      "SlimMapping": "['Musculoskeletal disease', 'Nervous system disease']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009135",
+        "standardized_id": "MESH:D009135",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Muscular Diseases",
+        "standardized_name": "Muscular Diseases",
+        "normalized_name": "muscular diseases",
+        "synonyms": [],
+        "search_terms": [
+          "muscular",
+          "diseases",
+          "muscular diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Acquired, familial, and congenital disorders of SKELETAL MUSCLE and SMOOTH MUSCLE.",
+        "cleaned_description": "Acquired, familial, and congenital disorders of SKELETAL MUSCLE and SMOOTH MUSCLE.",
+        "description_summary": "Acquired, familial, and congenital disorders of SKELETAL MUSCLE and SMOOTH MUSCLE.",
+        "key_terms": [],
+        "word_count": 11
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.860979",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009220",
+      "DiseaseName": "Myositis",
+      "DiseaseDescription": "Inflammation of a muscle or muscle tissue.",
+      "SlimMapping": "['Musculoskeletal disease', 'Nervous system disease']",
+      "PathwayNames": "tRNA Aminoacylation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009220",
+        "standardized_id": "MESH:D009220",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Myositis",
+        "standardized_name": "Myositis",
+        "normalized_name": "myositis",
+        "synonyms": [],
+        "search_terms": [
+          "myositis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inflammation of a muscle or muscle tissue.",
+        "cleaned_description": "Inflammation of a muscle or muscle tissue.",
+        "description_summary": "Inflammation of a muscle or muscle tissue.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "tRNA Aminoacylation",
+        "pathway_list": [
+          "tRNA Aminoacylation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.864401",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D018979",
+      "DiseaseName": "Myositis, Inclusion Body",
+      "DiseaseDescription": "Progressive myopathies characterized by the presence of inclusion bodies on muscle biopsy. Sporadic and hereditary forms have been described. The sporadic form is an acquired, adult-onset inflammatory vacuolar myopathy affecting proximal and distal muscles. Familial forms usually begin in childhood and lack inflammatory changes. Both forms feature intracytoplasmic and intranuclear inclusions in muscle tissue. (Adams et al., Principles of Neurology, 6th ed, pp1409-10)",
+      "SlimMapping": "['Musculoskeletal disease', 'Nervous system disease']",
+      "PathwayNames": "Synthesis of substrates in N-glycan biosythesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018979",
+        "standardized_id": "MESH:D018979",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Myositis, Inclusion Body",
+        "standardized_name": "Myositis, Inclusion Body",
+        "normalized_name": "myositis inclusion body",
+        "synonyms": [],
+        "search_terms": [
+          "inclusion",
+          "myositis, inclusion body",
+          "body",
+          "myositis,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Progressive myopathies characterized by the presence of inclusion bodies on muscle biopsy. Sporadic and hereditary forms have been described. The sporadic form is an acquired, adult-onset inflammatory vacuolar myopathy affecting proximal and distal muscles. Familial forms usually begin in childhood and lack inflammatory changes. Both forms feature intracytoplasmic and intranuclear inclusions in muscle tissue. (Adams et al., Principles of Neurology, 6th ed, pp1409-10)",
+        "cleaned_description": "Progressive myopathies characterized by the presence of inclusion bodies on muscle biopsy. Sporadic and hereditary forms have been described. The sporadic form is an acquired, adult-onset inflammatory vacuolar myopathy affecting proximal and distal muscles. Familial forms usually begin in childhood and lack inflammatory changes. Both forms feature intracytoplasmic and intranuclear inclusions in muscle tissue. (Adams et al., Principles of Neurology, 6th ed, pp1409-10)",
+        "description_summary": "Progressive myopathies characterized by the presence of inclusion bodies on muscle biopsy.",
+        "key_terms": [
+          "myopathy"
+        ],
+        "word_count": 63
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Synthesis of substrates in N-glycan biosythesis",
+        "pathway_list": [
+          "Synthesis of substrates in N-glycan biosythesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.864645",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020967",
+      "DiseaseName": "Myotonic Disorders",
+      "DiseaseDescription": "Diseases characterized by MYOTONIA, which may be inherited or acquired. Myotonia may be restricted to certain muscles (e.g., intrinsic hand muscles) or occur as a generalized condition.",
+      "SlimMapping": "['Musculoskeletal disease', 'Nervous system disease']",
+      "PathwayNames": "Phase 0 - rapid depolarisation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020967",
+        "standardized_id": "MESH:D020967",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Myotonic Disorders",
+        "standardized_name": "Myotonic Disorders",
+        "normalized_name": "myotonic disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "myotonic",
+          "myotonic disorders"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases characterized by MYOTONIA, which may be inherited or acquired. Myotonia may be restricted to certain muscles (e.g., intrinsic hand muscles) or occur as a generalized condition.",
+        "cleaned_description": "Diseases characterized by MYOTONIA, which may be inherited or acquired. Myotonia may be restricted to certain muscles (e.g., intrinsic hand muscles) or occur as a generalized condition.",
+        "description_summary": "Diseases characterized by MYOTONIA, which may be inherited or acquired.",
+        "key_terms": [],
+        "word_count": 27
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Phase 0 - rapid depolarisation",
+        "pathway_list": [
+          "Phase 0 - rapid depolarisation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.865162",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D017285",
+      "DiseaseName": "Polymyositis",
+      "DiseaseDescription": "Diseases characterized by inflammation involving multiple muscles. This may occur as an acute or chronic condition associated with medication toxicity (DRUG TOXICITY); CONNECTIVE TISSUE DISEASES; infections; malignant NEOPLASMS; and other disorders. The term polymyositis is frequently used to refer to a specific clinical entity characterized by subacute or slowly progressing symmetrical weakness primarily affecting the proximal limb and trunk muscles. The illness may occur at any age, but is most frequent in the fourth to sixth decade of life. Weakness of pharyngeal and laryngeal muscles, interstitial lung disease, and inflammation of the myocardium may also occur. Muscle biopsy reveals widespread destruction of segments of muscle fibers and an inflammatory cellular response. (Adams et al., Principles of Neurology, 6th ed, pp1404-9)",
+      "SlimMapping": "['Musculoskeletal disease', 'Nervous system disease']",
+      "PathwayNames": "Vitamins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017285",
+        "standardized_id": "MESH:D017285",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Polymyositis",
+        "standardized_name": "Polymyositis",
+        "normalized_name": "polymyositis",
+        "synonyms": [],
+        "search_terms": [
+          "polymyositis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases characterized by inflammation involving multiple muscles. This may occur as an acute or chronic condition associated with medication toxicity (DRUG TOXICITY); CONNECTIVE TISSUE DISEASES; infections; malignant NEOPLASMS; and other disorders. The term polymyositis is frequently used to refer to a specific clinical entity characterized by subacute or slowly progressing symmetrical weakness primarily affecting the proximal limb and trunk muscles. The illness may occur at any age, but is most frequent in the fourth to sixth decade of life. Weakness of pharyngeal and laryngeal muscles, interstitial lung disease, and inflammation of the myocardium may also occur. Muscle biopsy reveals widespread destruction of segments of muscle fibers and an inflammatory cellular response. (Adams et al., Principles of Neurology, 6th ed, pp1404-9)",
+        "cleaned_description": "Diseases characterized by inflammation involving multiple muscles. This may occur as an acute or chronic condition associated with medication toxicity (DRUG TOXICITY); CONNECTIVE TISSUE DISEASES; infections; malignant NEOPLASMS; and other disorders. The term polymyositis is frequently used to refer to a specific clinical entity characterized by subacute or slowly progressing symmetrical weakness primarily affecting the proximal limb and trunk muscles. The illness may occur at any age, but is most frequent in the fourth to sixth decade of life. Weakness of pharyngeal and laryngeal muscles, interstitial lung disease, and inflammation of the myocardium may also occur. Muscle biopsy reveals widespread destruction of segments of muscle fibers and an inflammatory cellular response. (Adams et al., Principles of Neurology, 6th ed, pp1404-9)",
+        "description_summary": "Diseases characterized by inflammation involving multiple muscles.",
+        "key_terms": [
+          "polymyositis"
+        ],
+        "word_count": 120
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamins",
+        "pathway_list": [
+          "Vitamins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.923724",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

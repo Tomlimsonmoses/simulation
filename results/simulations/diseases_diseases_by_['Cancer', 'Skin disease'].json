@@ -1,0 +1,479 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Skin disease']",
+    "export_timestamp": "2026-03-28T22:11:35.792663",
+    "total_records": 7
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D001943",
+      "DiseaseName": "Breast Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the human BREAST.",
+      "SlimMapping": "['Cancer', 'Skin disease']",
+      "PathwayNames": "Zinc transporters",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001943",
+        "standardized_id": "MESH:D001943",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Breast Neoplasms",
+        "standardized_name": "Breast Neoplasms",
+        "normalized_name": "breast neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "breast neoplasms",
+          "breast",
+          "neoplasms"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the human BREAST.",
+        "cleaned_description": "Tumors or cancer of the human BREAST.",
+        "description_summary": "Tumors or cancer of the human BREAST.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Skin disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Zinc transporters",
+        "pathway_list": [
+          "Zinc transporters"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.408095",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D018567",
+      "DiseaseName": "Breast Neoplasms, Male",
+      "DiseaseDescription": "Any neoplasms of the male breast. These occur infrequently in males in developed countries, the incidence being about 1% of that in females.",
+      "SlimMapping": "['Cancer', 'Skin disease']",
+      "PathwayNames": "Ub-specific processing proteases",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018567",
+        "standardized_id": "MESH:D018567",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Breast Neoplasms, Male",
+        "standardized_name": "Breast Neoplasms, Male",
+        "normalized_name": "breast neoplasms male",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms,",
+          "breast",
+          "breast neoplasms, male",
+          "male"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Any neoplasms of the male breast. These occur infrequently in males in developed countries, the incidence being about 1% of that in females.",
+        "cleaned_description": "Any neoplasms of the male breast. These occur infrequently in males in developed countries, the incidence being about 1% of that in females.",
+        "description_summary": "Any neoplasms of the male breast.",
+        "key_terms": [],
+        "word_count": 23
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Skin disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Ub-specific processing proteases",
+        "pathway_list": [
+          "Ub-specific processing proteases"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.408318",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D018270",
+      "DiseaseName": "Carcinoma, Ductal, Breast",
+      "DiseaseDescription": "An invasive (infiltrating) CARCINOMA of the mammary ductal system (MAMMARY GLANDS) in the human BREAST.",
+      "SlimMapping": "['Cancer', 'Skin disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018270",
+        "standardized_id": "MESH:D018270",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Carcinoma, Ductal, Breast",
+        "standardized_name": "Carcinoma, Ductal, Breast",
+        "normalized_name": "carcinoma ductal breast",
+        "synonyms": [],
+        "search_terms": [
+          "breast",
+          "ductal,",
+          "carcinoma, ductal, breast",
+          "carcinoma,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An invasive (infiltrating) CARCINOMA of the mammary ductal system (MAMMARY GLANDS) in the human BREAST.",
+        "cleaned_description": "An invasive (infiltrating) CARCINOMA of the mammary ductal system (MAMMARY GLANDS) in the human BREAST.",
+        "description_summary": "An invasive (infiltrating) CARCINOMA of the mammary ductal system (MAMMARY GLANDS) in the human BREAST.",
+        "key_terms": [],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Skin disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.416089",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D018275",
+      "DiseaseName": "Carcinoma, Lobular",
+      "DiseaseDescription": "A type of BREAST CANCER where the abnormal malignant cells form in the lobules, or milk-producing glands, of the breast.",
+      "SlimMapping": "['Cancer', 'Skin disease']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018275",
+        "standardized_id": "MESH:D018275",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Carcinoma, Lobular",
+        "standardized_name": "Carcinoma, Lobular",
+        "normalized_name": "carcinoma lobular",
+        "synonyms": [],
+        "search_terms": [
+          "carcinoma,",
+          "lobular",
+          "carcinoma, lobular"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A type of BREAST CANCER where the abnormal malignant cells form in the lobules, or milk-producing glands, of the breast.",
+        "cleaned_description": "A type of BREAST CANCER where the abnormal malignant cells form in the lobules, or milk-producing glands, of the breast.",
+        "description_summary": "A type of BREAST CANCER where the abnormal malignant cells form in the lobules, or milk-producing glands, of the breast.",
+        "key_terms": [],
+        "word_count": 20
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Skin disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.422557",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D058922",
+      "DiseaseName": "Inflammatory Breast Neoplasms",
+      "DiseaseDescription": "Metastatic breast cancer characterized by EDEMA and ERYTHEMA of the affected breast due to LYMPHATIC METASTASIS and eventual obstruction of LYMPHATIC VESSELS by the cancer cells.",
+      "SlimMapping": "['Cancer', 'Skin disease']",
+      "PathwayNames": "Unfolded Protein Response (UPR)",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D058922",
+        "standardized_id": "MESH:D058922",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Inflammatory Breast Neoplasms",
+        "standardized_name": "Inflammatory Breast Neoplasms",
+        "normalized_name": "inflammatory breast neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "breast",
+          "inflammatory breast neoplasms",
+          "inflammatory"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Metastatic breast cancer characterized by EDEMA and ERYTHEMA of the affected breast due to LYMPHATIC METASTASIS and eventual obstruction of LYMPHATIC VESSELS by the cancer cells.",
+        "cleaned_description": "Metastatic breast cancer characterized by EDEMA and ERYTHEMA of the affected breast due to LYMPHATIC METASTASIS and eventual obstruction of LYMPHATIC VESSELS by the cancer cells.",
+        "description_summary": "Metastatic breast cancer characterized by EDEMA and ERYTHEMA of the affected breast due to LYMPHATIC METASTASIS and eventual obstruction of LYMPHATIC VESSELS by the cancer cells.",
+        "key_terms": [],
+        "word_count": 26
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Skin disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Unfolded Protein Response (UPR)",
+        "pathway_list": [
+          "Unfolded Protein Response (UPR)"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.788183",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012878",
+      "DiseaseName": "Skin Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the SKIN.",
+      "SlimMapping": "['Cancer', 'Skin disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012878",
+        "standardized_id": "MESH:D012878",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Skin Neoplasms",
+        "standardized_name": "Skin Neoplasms",
+        "normalized_name": "skin neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "skin neoplasms",
+          "skin"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the SKIN.",
+        "cleaned_description": "Tumors or cancer of the SKIN.",
+        "description_summary": "Tumors or cancer of the SKIN.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Skin disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.966074",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D064726",
+      "DiseaseName": "Triple Negative Breast Neoplasms",
+      "DiseaseDescription": "Breast neoplasms that do not express ESTROGEN RECEPTORS; PROGESTERONE RECEPTORS; and do not overexpress the NEU RECEPTOR/HER-2 PROTO-ONCOGENE PROTEIN.",
+      "SlimMapping": "['Cancer', 'Skin disease']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D064726",
+        "standardized_id": "MESH:D064726",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Triple Negative Breast Neoplasms",
+        "standardized_name": "Triple Negative Breast Neoplasms",
+        "normalized_name": "triple negative breast neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "negative",
+          "triple negative breast neoplasms",
+          "triple",
+          "neoplasms",
+          "breast"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Breast neoplasms that do not express ESTROGEN RECEPTORS; PROGESTERONE RECEPTORS; and do not overexpress the NEU RECEPTOR/HER-2 PROTO-ONCOGENE PROTEIN.",
+        "cleaned_description": "Breast neoplasms that do not express ESTROGEN RECEPTORS; PROGESTERONE RECEPTORS; and do not overexpress the NEU RECEPTOR/HER-2 PROTO-ONCOGENE PROTEIN.",
+        "description_summary": "Breast neoplasms that do not express ESTROGEN RECEPTORS; PROGESTERONE RECEPTORS; and do not overexpress the NEU RECEPTOR/HER-2 PROTO-ONCOGENE PROTEIN.",
+        "key_terms": [],
+        "word_count": 19
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Skin disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.005792",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Mental disorder', 'Nervous system disease', 'Occupational disease']",
+    "export_timestamp": "2026-03-28T22:11:36.305105",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D020178",
+      "DiseaseName": "Sleep Disorders, Circadian Rhythm",
+      "DiseaseDescription": "Dyssomnias associated with disruption of the normal 24 hour sleep wake cycle secondary to travel (e.g., JET LAG SYNDROME), shift work, or other causes.",
+      "SlimMapping": "['Mental disorder', 'Nervous system disease', 'Occupational disease']",
+      "PathwayNames": "Tryptophan metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020178",
+        "standardized_id": "MESH:D020178",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Sleep Disorders, Circadian Rhythm",
+        "standardized_name": "Sleep Disorders, Circadian Rhythm",
+        "normalized_name": "sleep disorders circadian rhythm",
+        "synonyms": [],
+        "search_terms": [
+          "circadian",
+          "sleep disorders, circadian rhythm",
+          "sleep",
+          "disorders,",
+          "rhythm"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Dyssomnias associated with disruption of the normal 24 hour sleep wake cycle secondary to travel (e.g., JET LAG SYNDROME), shift work, or other causes.",
+        "cleaned_description": "Dyssomnias associated with disruption of the normal 24 hour sleep wake cycle secondary to travel (e.g., JET LAG SYNDROME), shift work, or other causes.",
+        "description_summary": "Dyssomnias associated with disruption of the normal 24 hour sleep wake cycle secondary to travel (e.",
+        "key_terms": [],
+        "word_count": 24
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Nervous system disease",
+          "Occupational disease"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Nervous system disease",
+          "Occupational disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Nervous system disease",
+          "Occupational disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tryptophan metabolism",
+        "pathway_list": [
+          "Tryptophan metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.966866",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

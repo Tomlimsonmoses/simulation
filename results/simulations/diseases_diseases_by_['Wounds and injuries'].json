@@ -1,0 +1,783 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Wounds and injuries']",
+    "export_timestamp": "2026-03-28T22:11:35.825598",
+    "total_records": 12
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D002056",
+      "DiseaseName": "Burns",
+      "DiseaseDescription": "Injuries to tissues caused by contact with heat, steam, chemicals (BURNS, CHEMICAL), electricity (BURNS, ELECTRIC), or the like.",
+      "SlimMapping": "['Wounds and injuries']",
+      "PathwayNames": "VEGF signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002056",
+        "standardized_id": "MESH:D002056",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Burns",
+        "standardized_name": "Burns",
+        "normalized_name": "burns",
+        "synonyms": [],
+        "search_terms": [
+          "burns"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Injuries to tissues caused by contact with heat, steam, chemicals (BURNS, CHEMICAL), electricity (BURNS, ELECTRIC), or the like.",
+        "cleaned_description": "Injuries to tissues caused by contact with heat, steam, chemicals (BURNS, CHEMICAL), electricity (BURNS, ELECTRIC), or the like.",
+        "description_summary": "Injuries to tissues caused by contact with heat, steam, chemicals (BURNS, CHEMICAL), electricity (BURNS, ELECTRIC), or the like.",
+        "key_terms": [],
+        "word_count": 18
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Wounds and injuries"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Wounds and injuries"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGF signaling pathway",
+        "pathway_list": [
+          "VEGF signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGF signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.412415",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002057",
+      "DiseaseName": "Burns, Chemical",
+      "DiseaseDescription": "Burns caused by contact with or exposure to CAUSTICS or strong ACIDS.",
+      "SlimMapping": "['Wounds and injuries']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002057",
+        "standardized_id": "MESH:D002057",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Burns, Chemical",
+        "standardized_name": "Burns, Chemical",
+        "normalized_name": "burns chemical",
+        "synonyms": [],
+        "search_terms": [
+          "chemical",
+          "burns,",
+          "burns, chemical"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Burns caused by contact with or exposure to CAUSTICS or strong ACIDS.",
+        "cleaned_description": "Burns caused by contact with or exposure to CAUSTICS or strong ACIDS.",
+        "description_summary": "Burns caused by contact with or exposure to CAUSTICS or strong ACIDS.",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Wounds and injuries"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Wounds and injuries"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.412577",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005264",
+      "DiseaseName": "Femoral Fractures",
+      "DiseaseDescription": "Fractures of the femur.",
+      "SlimMapping": "['Wounds and injuries']",
+      "PathwayNames": "TGF-beta signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005264",
+        "standardized_id": "MESH:D005264",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Femoral Fractures",
+        "standardized_name": "Femoral Fractures",
+        "normalized_name": "femoral fractures",
+        "synonyms": [],
+        "search_terms": [
+          "fractures",
+          "femoral",
+          "femoral fractures"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Fractures of the femur.",
+        "cleaned_description": "Fractures of the femur.",
+        "description_summary": "Fractures of the femur.",
+        "key_terms": [],
+        "word_count": 4
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Wounds and injuries"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Wounds and injuries"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "TGF-beta signaling pathway",
+        "pathway_list": [
+          "TGF-beta signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "TGF-beta signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.523035",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": [
+            "Very short or missing description"
+          ]
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D050723",
+      "DiseaseName": "Fractures, Bone",
+      "DiseaseDescription": "Breaks in bones.",
+      "SlimMapping": "['Wounds and injuries']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D050723",
+        "standardized_id": "MESH:D050723",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Fractures, Bone",
+        "standardized_name": "Fractures, Bone",
+        "normalized_name": "fractures bone",
+        "synonyms": [],
+        "search_terms": [
+          "bone",
+          "fractures,",
+          "fractures, bone"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Breaks in bones.",
+        "cleaned_description": "Breaks in bones.",
+        "description_summary": "Breaks in bones.",
+        "key_terms": [],
+        "word_count": 3
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Wounds and injuries"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Wounds and injuries"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.529604",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": [
+            "Very short or missing description"
+          ]
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005596",
+      "DiseaseName": "Fractures, Closed",
+      "DiseaseDescription": "Fractures in which the break in bone is not accompanied by an external wound.",
+      "SlimMapping": "['Wounds and injuries']",
+      "PathwayNames": "Toxoplasmosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005596",
+        "standardized_id": "MESH:D005596",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Fractures, Closed",
+        "standardized_name": "Fractures, Closed",
+        "normalized_name": "fractures closed",
+        "synonyms": [],
+        "search_terms": [
+          "fractures, closed",
+          "fractures,",
+          "closed"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Fractures in which the break in bone is not accompanied by an external wound.",
+        "cleaned_description": "Fractures in which the break in bone is not accompanied by an external wound.",
+        "description_summary": "Fractures in which the break in bone is not accompanied by an external wound.",
+        "key_terms": [],
+        "word_count": 14
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Wounds and injuries"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Wounds and injuries"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Toxoplasmosis",
+        "pathway_list": [
+          "Toxoplasmosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.529766",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006335",
+      "DiseaseName": "Heart Injuries",
+      "DiseaseDescription": "General or unspecified injuries to the heart.",
+      "SlimMapping": "['Wounds and injuries']",
+      "PathwayNames": "Valine, leucine and isoleucine degradation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006335",
+        "standardized_id": "MESH:D006335",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Heart Injuries",
+        "standardized_name": "Heart Injuries",
+        "normalized_name": "heart injuries",
+        "synonyms": [],
+        "search_terms": [
+          "injuries",
+          "heart injuries",
+          "heart"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "General or unspecified injuries to the heart.",
+        "cleaned_description": "General or unspecified injuries to the heart.",
+        "description_summary": "General or unspecified injuries to the heart.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Wounds and injuries"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Wounds and injuries"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Valine, leucine and isoleucine degradation",
+        "pathway_list": [
+          "leucine and isoleucine degradation",
+          "Valine"
+        ],
+        "pathway_count": 2,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.616418",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D018883",
+      "DiseaseName": "Heat Stroke",
+      "DiseaseDescription": "A condition caused by the failure of body to dissipate heat in an excessively hot environment or during PHYSICAL EXERTION in a hot environment. Contrast to HEAT EXHAUSTION, the body temperature in heat stroke patient is dangerously high with red, hot skin accompanied by DELUSIONS; CONVULSIONS; or COMA. It can be a life-threatening emergency and is most common in infants and the elderly.",
+      "SlimMapping": "['Wounds and injuries']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018883",
+        "standardized_id": "MESH:D018883",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Heat Stroke",
+        "standardized_name": "Heat Stroke",
+        "normalized_name": "heat stroke",
+        "synonyms": [],
+        "search_terms": [
+          "heat stroke",
+          "heat",
+          "stroke"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition caused by the failure of body to dissipate heat in an excessively hot environment or during PHYSICAL EXERTION in a hot environment. Contrast to HEAT EXHAUSTION, the body temperature in heat stroke patient is dangerously high with red, hot skin accompanied by DELUSIONS; CONVULSIONS; or COMA. It can be a life-threatening emergency and is most common in infants and the elderly.",
+        "cleaned_description": "A condition caused by the failure of body to dissipate heat in an excessively hot environment or during PHYSICAL EXERTION in a hot environment. Contrast to HEAT EXHAUSTION, the body temperature in heat stroke patient is dangerously high with red, hot skin accompanied by DELUSIONS; CONVULSIONS; or COMA. It can be a life-threatening emergency and is most common in infants and the elderly.",
+        "description_summary": "A condition caused by the failure of body to dissipate heat in an excessively hot environment or during PHYSICAL EXERTION in a hot environment.",
+        "key_terms": [],
+        "word_count": 63
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Wounds and injuries"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Wounds and injuries"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.620860",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006620",
+      "DiseaseName": "Hip Fractures",
+      "DiseaseDescription": "Fractures of the FEMUR HEAD; the FEMUR NECK; (FEMORAL NECK FRACTURES); the trochanters; or the inter- or subtrochanteric region. Excludes fractures of the acetabulum and fractures of the femoral shaft below the subtrochanteric region (FEMORAL FRACTURES).",
+      "SlimMapping": "['Wounds and injuries']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006620",
+        "standardized_id": "MESH:D006620",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hip Fractures",
+        "standardized_name": "Hip Fractures",
+        "normalized_name": "hip fractures",
+        "synonyms": [],
+        "search_terms": [
+          "hip",
+          "hip fractures",
+          "fractures"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Fractures of the FEMUR HEAD; the FEMUR NECK; (FEMORAL NECK FRACTURES); the trochanters; or the inter- or subtrochanteric region. Excludes fractures of the acetabulum and fractures of the femoral shaft below the subtrochanteric region (FEMORAL FRACTURES).",
+        "cleaned_description": "Fractures of the FEMUR HEAD; the FEMUR NECK; (FEMORAL NECK FRACTURES); the trochanters; or the inter- or subtrochanteric region. Excludes fractures of the acetabulum and fractures of the femoral shaft below the subtrochanteric region (FEMORAL FRACTURES).",
+        "description_summary": "Fractures of the FEMUR HEAD; the FEMUR NECK; (FEMORAL NECK FRACTURES); the trochanters; or the inter- or subtrochanteric region.",
+        "key_terms": [],
+        "word_count": 36
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Wounds and injuries"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Wounds and injuries"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.658060",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011832",
+      "DiseaseName": "Radiation Injuries",
+      "DiseaseDescription": "Harmful effects of non-experimental exposure to ionizing or non-ionizing radiation in VERTEBRATES.",
+      "SlimMapping": "['Wounds and injuries']",
+      "PathwayNames": "Peroxisome",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011832",
+        "standardized_id": "MESH:D011832",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Radiation Injuries",
+        "standardized_name": "Radiation Injuries",
+        "normalized_name": "radiation injuries",
+        "synonyms": [],
+        "search_terms": [
+          "radiation injuries",
+          "injuries",
+          "radiation"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Harmful effects of non-experimental exposure to ionizing or non-ionizing radiation in VERTEBRATES.",
+        "cleaned_description": "Harmful effects of non-experimental exposure to ionizing or non-ionizing radiation in VERTEBRATES.",
+        "description_summary": "Harmful effects of non-experimental exposure to ionizing or non-ionizing radiation in VERTEBRATES.",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Wounds and injuries"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Wounds and injuries"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Peroxisome",
+        "pathway_list": [
+          "Peroxisome"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.944568",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011833",
+      "DiseaseName": "Radiation Injuries, Experimental",
+      "DiseaseDescription": "Experimentally produced harmful effects of ionizing or non-ionizing RADIATION in CHORDATA animals.",
+      "SlimMapping": "['Wounds and injuries']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011833",
+        "standardized_id": "MESH:D011833",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Radiation Injuries, Experimental",
+        "standardized_name": "Radiation Injuries, Experimental",
+        "normalized_name": "radiation injuries experimental",
+        "synonyms": [],
+        "search_terms": [
+          "injuries,",
+          "radiation injuries, experimental",
+          "experimental",
+          "radiation"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Experimentally produced harmful effects of ionizing or non-ionizing RADIATION in CHORDATA animals.",
+        "cleaned_description": "Experimentally produced harmful effects of ionizing or non-ionizing RADIATION in CHORDATA animals.",
+        "description_summary": "Experimentally produced harmful effects of ionizing or non-ionizing RADIATION in CHORDATA animals.",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Wounds and injuries"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Wounds and injuries"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.944745",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014947",
+      "DiseaseName": "Wounds and Injuries",
+      "DiseaseDescription": "Damage inflicted on the body as the direct or indirect result of an external force, with or without disruption of structural continuity.",
+      "SlimMapping": "['Wounds and injuries']",
+      "PathwayNames": "Vitamin D (calciferol) metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014947",
+        "standardized_id": "MESH:D014947",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Wounds and Injuries",
+        "standardized_name": "Wounds and Injuries",
+        "normalized_name": "wounds and injuries",
+        "synonyms": [],
+        "search_terms": [
+          "injuries",
+          "and",
+          "wounds and injuries",
+          "wounds"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Damage inflicted on the body as the direct or indirect result of an external force, with or without disruption of structural continuity.",
+        "cleaned_description": "Damage inflicted on the body as the direct or indirect result of an external force, with or without disruption of structural continuity.",
+        "description_summary": "Damage inflicted on the body as the direct or indirect result of an external force, with or without disruption of structural continuity.",
+        "key_terms": [],
+        "word_count": 22
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Wounds and injuries"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Wounds and injuries"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamin D (calciferol) metabolism",
+        "pathway_list": [
+          "Vitamin D (calciferol) metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.027123",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014950",
+      "DiseaseName": "Wounds, Penetrating",
+      "DiseaseDescription": "Wounds caused by objects penetrating the skin.",
+      "SlimMapping": "['Wounds and injuries']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014950",
+        "standardized_id": "MESH:D014950",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Wounds, Penetrating",
+        "standardized_name": "Wounds, Penetrating",
+        "normalized_name": "wounds penetrating",
+        "synonyms": [],
+        "search_terms": [
+          "penetrating",
+          "wounds,",
+          "wounds, penetrating"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Wounds caused by objects penetrating the skin.",
+        "cleaned_description": "Wounds caused by objects penetrating the skin.",
+        "description_summary": "Wounds caused by objects penetrating the skin.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Wounds and injuries"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Wounds and injuries"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.027198",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

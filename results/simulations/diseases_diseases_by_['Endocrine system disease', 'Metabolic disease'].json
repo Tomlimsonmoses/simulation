@@ -1,0 +1,297 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Endocrine system disease', 'Metabolic disease']",
+    "export_timestamp": "2026-03-28T22:11:35.946109",
+    "total_records": 4
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D003920",
+      "DiseaseName": "Diabetes Mellitus",
+      "DiseaseDescription": "A heterogeneous group of disorders characterized by HYPERGLYCEMIA and GLUCOSE INTOLERANCE.",
+      "SlimMapping": "['Endocrine system disease', 'Metabolic disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003920",
+        "standardized_id": "MESH:D003920",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Diabetes Mellitus",
+        "standardized_name": "Diabetes Mellitus",
+        "normalized_name": "diabetes mellitus",
+        "synonyms": [],
+        "search_terms": [
+          "diabetes",
+          "mellitus",
+          "diabetes mellitus"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A heterogeneous group of disorders characterized by HYPERGLYCEMIA and GLUCOSE INTOLERANCE.",
+        "cleaned_description": "A heterogeneous group of disorders characterized by HYPERGLYCEMIA and GLUCOSE INTOLERANCE.",
+        "description_summary": "A heterogeneous group of disorders characterized by HYPERGLYCEMIA and GLUCOSE INTOLERANCE.",
+        "key_terms": [
+          "HYPERGLYCEMIA"
+        ],
+        "word_count": 11
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease",
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease",
+          "Metabolic disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.479775",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003921",
+      "DiseaseName": "Diabetes Mellitus, Experimental",
+      "DiseaseDescription": "Diabetes mellitus induced experimentally by administration of various diabetogenic agents or by PANCREATECTOMY.",
+      "SlimMapping": "['Endocrine system disease', 'Metabolic disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003921",
+        "standardized_id": "MESH:D003921",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Diabetes Mellitus, Experimental",
+        "standardized_name": "Diabetes Mellitus, Experimental",
+        "normalized_name": "diabetes mellitus experimental",
+        "synonyms": [],
+        "search_terms": [
+          "diabetes mellitus, experimental",
+          "mellitus,",
+          "diabetes",
+          "experimental"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diabetes mellitus induced experimentally by administration of various diabetogenic agents or by PANCREATECTOMY.",
+        "cleaned_description": "Diabetes mellitus induced experimentally by administration of various diabetogenic agents or by PANCREATECTOMY.",
+        "description_summary": "Diabetes mellitus induced experimentally by administration of various diabetogenic agents or by PANCREATECTOMY.",
+        "key_terms": [
+          "diabetogenic"
+        ],
+        "word_count": 13
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease",
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease",
+          "Metabolic disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.479894",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003924",
+      "DiseaseName": "Diabetes Mellitus, Type 2",
+      "DiseaseDescription": "A subclass of DIABETES MELLITUS that is not INSULIN-responsive or dependent (NIDDM). It is characterized initially by INSULIN RESISTANCE and HYPERINSULINEMIA; and eventually by GLUCOSE INTOLERANCE; HYPERGLYCEMIA; and overt diabetes. Type II diabetes mellitus is no longer considered a disease exclusively found in adults. Patients seldom develop KETOSIS but often exhibit OBESITY.",
+      "SlimMapping": "['Endocrine system disease', 'Metabolic disease']",
+      "PathwayNames": "Zinc transporters",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003924",
+        "standardized_id": "MESH:D003924",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Diabetes Mellitus, Type 2",
+        "standardized_name": "Diabetes Mellitus, Type 2",
+        "normalized_name": "diabetes mellitus type 2",
+        "synonyms": [],
+        "search_terms": [
+          "diabetes",
+          "mellitus,",
+          "diabetes mellitus, type 2",
+          "type"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A subclass of DIABETES MELLITUS that is not INSULIN-responsive or dependent (NIDDM). It is characterized initially by INSULIN RESISTANCE and HYPERINSULINEMIA; and eventually by GLUCOSE INTOLERANCE; HYPERGLYCEMIA; and overt diabetes. Type II diabetes mellitus is no longer considered a disease exclusively found in adults. Patients seldom develop KETOSIS but often exhibit OBESITY.",
+        "cleaned_description": "A subclass of DIABETES MELLITUS that is not INSULIN-responsive or dependent (NIDDM). It is characterized initially by INSULIN RESISTANCE and HYPERINSULINEMIA; and eventually by GLUCOSE INTOLERANCE; HYPERGLYCEMIA; and overt diabetes. Type II diabetes mellitus is no longer considered a disease exclusively found in adults. Patients seldom develop KETOSIS but often exhibit OBESITY.",
+        "description_summary": "A subclass of DIABETES MELLITUS that is not INSULIN-responsive or dependent (NIDDM).",
+        "key_terms": [
+          "HYPERINSULINEMIA",
+          "HYPERGLYCEMIA",
+          "KETOSIS"
+        ],
+        "word_count": 52
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease",
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease",
+          "Metabolic disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Zinc transporters",
+        "pathway_list": [
+          "Zinc transporters"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.480263",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D016883",
+      "DiseaseName": "Diabetic Ketoacidosis",
+      "DiseaseDescription": "A life-threatening complication of diabetes mellitus, primarily of TYPE 1 DIABETES MELLITUS with severe INSULIN deficiency and extreme HYPERGLYCEMIA. It is characterized by KETOSIS; DEHYDRATION; and depressed consciousness leading to COMA.",
+      "SlimMapping": "['Endocrine system disease', 'Metabolic disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D016883",
+        "standardized_id": "MESH:D016883",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Diabetic Ketoacidosis",
+        "standardized_name": "Diabetic Ketoacidosis",
+        "normalized_name": "diabetic ketoacidosis",
+        "synonyms": [],
+        "search_terms": [
+          "diabetic",
+          "diabetic ketoacidosis",
+          "ketoacidosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A life-threatening complication of diabetes mellitus, primarily of TYPE 1 DIABETES MELLITUS with severe INSULIN deficiency and extreme HYPERGLYCEMIA. It is characterized by KETOSIS; DEHYDRATION; and depressed consciousness leading to COMA.",
+        "cleaned_description": "A life-threatening complication of diabetes mellitus, primarily of TYPE 1 DIABETES MELLITUS with severe INSULIN deficiency and extreme HYPERGLYCEMIA. It is characterized by KETOSIS; DEHYDRATION; and depressed consciousness leading to COMA.",
+        "description_summary": "A life-threatening complication of diabetes mellitus, primarily of TYPE 1 DIABETES MELLITUS with severe INSULIN deficiency and extreme HYPERGLYCEMIA.",
+        "key_terms": [
+          "HYPERGLYCEMIA",
+          "KETOSIS"
+        ],
+        "word_count": 31
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease",
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease",
+          "Metabolic disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.480690",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

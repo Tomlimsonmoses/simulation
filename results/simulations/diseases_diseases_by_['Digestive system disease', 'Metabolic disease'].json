@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Digestive system disease', 'Metabolic disease']",
+    "export_timestamp": "2026-03-28T22:11:35.870461",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D002446",
+      "DiseaseName": "Celiac Disease",
+      "DiseaseDescription": "A malabsorption syndrome that is precipitated by the ingestion of foods containing GLUTEN, such as wheat, rye, and barley. It is characterized by INFLAMMATION of the SMALL INTESTINE, loss of MICROVILLI structure, failed INTESTINAL ABSORPTION, and MALNUTRITION.",
+      "SlimMapping": "['Digestive system disease', 'Metabolic disease']",
+      "PathwayNames": "VLDL interactions",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002446",
+        "standardized_id": "MESH:D002446",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Celiac Disease",
+        "standardized_name": "Celiac Disease",
+        "normalized_name": "celiac disease",
+        "synonyms": [],
+        "search_terms": [
+          "celiac",
+          "disease",
+          "celiac disease"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A malabsorption syndrome that is precipitated by the ingestion of foods containing GLUTEN, such as wheat, rye, and barley. It is characterized by INFLAMMATION of the SMALL INTESTINE, loss of MICROVILLI structure, failed INTESTINAL ABSORPTION, and MALNUTRITION.",
+        "cleaned_description": "A malabsorption syndrome that is precipitated by the ingestion of foods containing GLUTEN, such as wheat, rye, and barley. It is characterized by INFLAMMATION of the SMALL INTESTINE, loss of MICROVILLI structure, failed INTESTINAL ABSORPTION, and MALNUTRITION.",
+        "description_summary": "A malabsorption syndrome that is precipitated by the ingestion of foods containing GLUTEN, such as wheat, rye, and barley.",
+        "key_terms": [],
+        "word_count": 37
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease",
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Digestive system disease",
+          "Metabolic disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "VLDL interactions",
+        "pathway_list": [
+          "VLDL interactions"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.432294",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008286",
+      "DiseaseName": "Malabsorption Syndromes",
+      "DiseaseDescription": "General term for a group of MALNUTRITION syndromes caused by failure of normal INTESTINAL ABSORPTION of nutrients.",
+      "SlimMapping": "['Digestive system disease', 'Metabolic disease']",
+      "PathwayNames": "Vitamin digestion and absorption",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008286",
+        "standardized_id": "MESH:D008286",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Malabsorption Syndromes",
+        "standardized_name": "Malabsorption Syndromes",
+        "normalized_name": "malabsorption syndromes",
+        "synonyms": [],
+        "search_terms": [
+          "malabsorption",
+          "malabsorption syndromes",
+          "syndromes"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "General term for a group of MALNUTRITION syndromes caused by failure of normal INTESTINAL ABSORPTION of nutrients.",
+        "cleaned_description": "General term for a group of MALNUTRITION syndromes caused by failure of normal INTESTINAL ABSORPTION of nutrients.",
+        "description_summary": "General term for a group of MALNUTRITION syndromes caused by failure of normal INTESTINAL ABSORPTION of nutrients.",
+        "key_terms": [],
+        "word_count": 17
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease",
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Digestive system disease",
+          "Metabolic disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamin digestion and absorption",
+        "pathway_list": [
+          "Vitamin digestion and absorption"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.833595",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

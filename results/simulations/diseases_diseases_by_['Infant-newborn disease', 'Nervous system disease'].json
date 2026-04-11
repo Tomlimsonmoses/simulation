@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Infant-newborn disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:35.993543",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D020936",
+      "DiseaseName": "Epilepsy, Benign Neonatal",
+      "DiseaseDescription": "A condition marked by recurrent seizures that occur during the first 4-6 weeks of life despite an otherwise benign neonatal course. Autosomal dominant familial and sporadic forms have been identified. Seizures generally consist of brief episodes of tonic posturing and other movements, apnea, eye deviations, and blood pressure fluctuations. These tend to remit after the 6th week of life. The risk of developing epilepsy at an older age is moderately increased in the familial form of this disorder. (Neurologia 1996 Feb;11(2):51-5)",
+      "SlimMapping": "['Infant-newborn disease', 'Nervous system disease']",
+      "PathwayNames": "Voltage gated Potassium channels",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020936",
+        "standardized_id": "MESH:D020936",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Epilepsy, Benign Neonatal",
+        "standardized_name": "Epilepsy, Benign Neonatal",
+        "normalized_name": "epilepsy benign neonatal",
+        "synonyms": [],
+        "search_terms": [
+          "epilepsy,",
+          "benign",
+          "epilepsy, benign neonatal",
+          "neonatal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition marked by recurrent seizures that occur during the first 4-6 weeks of life despite an otherwise benign neonatal course. Autosomal dominant familial and sporadic forms have been identified. Seizures generally consist of brief episodes of tonic posturing and other movements, apnea, eye deviations, and blood pressure fluctuations. These tend to remit after the 6th week of life. The risk of developing epilepsy at an older age is moderately increased in the familial form of this disorder. (Neurologia 1996 Feb;11(2):51-5)",
+        "cleaned_description": "A condition marked by recurrent seizures that occur during the first 4-6 weeks of life despite an otherwise benign neonatal course. Autosomal dominant familial and sporadic forms have been identified. Seizures generally consist of brief episodes of tonic posturing and other movements, apnea, eye deviations, and blood pressure fluctuations. These tend to remit after the 6th week of life. The risk of developing epilepsy at an older age is moderately increased in the familial form of this disorder. (Neurologia 1996 Feb;11(2):51-5)",
+        "description_summary": "A condition marked by recurrent seizures that occur during the first 4-6 weeks of life despite an otherwise benign neonatal course.",
+        "key_terms": [],
+        "word_count": 81
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Infant-newborn disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Infant-newborn disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Infant-newborn disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Voltage gated Potassium channels",
+        "pathway_list": [
+          "Voltage gated Potassium channels"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.507717",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

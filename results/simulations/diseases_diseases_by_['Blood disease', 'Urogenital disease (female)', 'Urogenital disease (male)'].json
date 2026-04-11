@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Blood disease', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+    "export_timestamp": "2026-03-28T22:11:35.677551",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D065766",
+      "DiseaseName": "Atypical Hemolytic Uremic Syndrome",
+      "DiseaseDescription": "An hereditary hemolytic uremic syndrome associated with variations in the gene that encodes COMPLEMENT FACTOR H, or the related proteins CFHR1 and CFHR3. Disease often progresses to CHRONIC KIDNEY FAILURE without the prodromal symptoms of ENTEROCOLITIS and DIARRHEA that characterize typical hemolytic uremic syndrome.",
+      "SlimMapping": "['Blood disease', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D065766",
+        "standardized_id": "MESH:D065766",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Atypical Hemolytic Uremic Syndrome",
+        "standardized_name": "Atypical Hemolytic Uremic Syndrome",
+        "normalized_name": "atypical hemolytic uremic syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "hemolytic",
+          "atypical",
+          "uremic",
+          "syndrome",
+          "atypical hemolytic uremic syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An hereditary hemolytic uremic syndrome associated with variations in the gene that encodes COMPLEMENT FACTOR H, or the related proteins CFHR1 and CFHR3. Disease often progresses to CHRONIC KIDNEY FAILURE without the prodromal symptoms of ENTEROCOLITIS and DIARRHEA that characterize typical hemolytic uremic syndrome.",
+        "cleaned_description": "An hereditary hemolytic uremic syndrome associated with variations in the gene that encodes COMPLEMENT FACTOR H, or the related proteins CFHR1 and CFHR3. Disease often progresses to CHRONIC KIDNEY FAILURE without the prodromal symptoms of ENTEROCOLITIS and DIARRHEA that characterize typical hemolytic uremic syndrome.",
+        "description_summary": "An hereditary hemolytic uremic syndrome associated with variations in the gene that encodes COMPLEMENT FACTOR H, or the related proteins CFHR1 and CFHR3.",
+        "key_terms": [
+          "ENTEROCOLITIS"
+        ],
+        "word_count": 44
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.383178",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006463",
+      "DiseaseName": "Hemolytic-Uremic Syndrome",
+      "DiseaseDescription": "A syndrome that is associated with microvascular diseases of the KIDNEY, such as RENAL CORTICAL NECROSIS. It is characterized by hemolytic anemia (ANEMIA, HEMOLYTIC); THROMBOCYTOPENIA; and ACUTE RENAL FAILURE.",
+      "SlimMapping": "['Blood disease', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006463",
+        "standardized_id": "MESH:D006463",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hemolytic-Uremic Syndrome",
+        "standardized_name": "Hemolytic-Uremic Syndrome",
+        "normalized_name": "hemolytic-uremic syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "hemolytic-uremic",
+          "hemolytic-uremic syndrome",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A syndrome that is associated with microvascular diseases of the KIDNEY, such as RENAL CORTICAL NECROSIS. It is characterized by hemolytic anemia (ANEMIA, HEMOLYTIC); THROMBOCYTOPENIA; and ACUTE RENAL FAILURE.",
+        "cleaned_description": "A syndrome that is associated with microvascular diseases of the KIDNEY, such as RENAL CORTICAL NECROSIS. It is characterized by hemolytic anemia (ANEMIA, HEMOLYTIC); THROMBOCYTOPENIA; and ACUTE RENAL FAILURE.",
+        "description_summary": "A syndrome that is associated with microvascular diseases of the KIDNEY, such as RENAL CORTICAL NECROSIS.",
+        "key_terms": [
+          "ANEMIA",
+          "NECROSIS",
+          "anemia"
+        ],
+        "word_count": 29
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.644341",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Pathology (process)', 'Skin disease']",
+    "export_timestamp": "2026-03-28T22:11:36.273043",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D010859",
+      "DiseaseName": "Pigmentation Disorders",
+      "DiseaseDescription": "Diseases affecting PIGMENTATION, including SKIN PIGMENTATION.",
+      "SlimMapping": "['Pathology (process)', 'Skin disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010859",
+        "standardized_id": "MESH:D010859",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pigmentation Disorders",
+        "standardized_name": "Pigmentation Disorders",
+        "normalized_name": "pigmentation disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "pigmentation",
+          "pigmentation disorders"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases affecting PIGMENTATION, including SKIN PIGMENTATION.",
+        "cleaned_description": "Diseases affecting PIGMENTATION, including SKIN PIGMENTATION.",
+        "description_summary": "Diseases affecting PIGMENTATION, including SKIN PIGMENTATION.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Pathology (process)",
+          "Skin disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.915866",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

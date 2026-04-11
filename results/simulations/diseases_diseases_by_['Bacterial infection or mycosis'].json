@@ -1,0 +1,1500 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Bacterial infection or mycosis']",
+    "export_timestamp": "2026-03-28T22:11:35.648475",
+    "total_records": 23
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D001228",
+      "DiseaseName": "Aspergillosis",
+      "DiseaseDescription": "Infections with fungi of the genus ASPERGILLUS.",
+      "SlimMapping": "['Bacterial infection or mycosis']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001228",
+        "standardized_id": "MESH:D001228",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Aspergillosis",
+        "standardized_name": "Aspergillosis",
+        "normalized_name": "aspergillosis",
+        "synonyms": [],
+        "search_terms": [
+          "aspergillosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Infections with fungi of the genus ASPERGILLUS.",
+        "cleaned_description": "Infections with fungi of the genus ASPERGILLUS.",
+        "description_summary": "Infections with fungi of the genus ASPERGILLUS.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "primary_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.376938",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001424",
+      "DiseaseName": "Bacterial Infections",
+      "DiseaseDescription": "Infections by bacteria, general or unspecified.",
+      "SlimMapping": "['Bacterial infection or mycosis']",
+      "PathwayNames": "Protein folding",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001424",
+        "standardized_id": "MESH:D001424",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Bacterial Infections",
+        "standardized_name": "Bacterial Infections",
+        "normalized_name": "bacterial infections",
+        "synonyms": [],
+        "search_terms": [
+          "bacterial",
+          "infections",
+          "bacterial infections"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Infections by bacteria, general or unspecified.",
+        "cleaned_description": "Infections by bacteria, general or unspecified.",
+        "description_summary": "Infections by bacteria, general or unspecified.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "primary_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Protein folding",
+        "pathway_list": [
+          "Protein folding"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.390036",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002006",
+      "DiseaseName": "Brucellosis",
+      "DiseaseDescription": "Infection caused by bacteria of the genus BRUCELLA mainly involving the MONONUCLEAR PHAGOCYTE SYSTEM. This condition is characterized by fever, weakness, malaise, and weight loss.",
+      "SlimMapping": "['Bacterial infection or mycosis']",
+      "PathwayNames": "Metabolism of lipids and lipoproteins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002006",
+        "standardized_id": "MESH:D002006",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Brucellosis",
+        "standardized_name": "Brucellosis",
+        "normalized_name": "brucellosis",
+        "synonyms": [],
+        "search_terms": [
+          "brucellosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Infection caused by bacteria of the genus BRUCELLA mainly involving the MONONUCLEAR PHAGOCYTE SYSTEM. This condition is characterized by fever, weakness, malaise, and weight loss.",
+        "cleaned_description": "Infection caused by bacteria of the genus BRUCELLA mainly involving the MONONUCLEAR PHAGOCYTE SYSTEM. This condition is characterized by fever, weakness, malaise, and weight loss.",
+        "description_summary": "Infection caused by bacteria of the genus BRUCELLA mainly involving the MONONUCLEAR PHAGOCYTE SYSTEM.",
+        "key_terms": [],
+        "word_count": 25
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "primary_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Metabolism of lipids and lipoproteins",
+        "pathway_list": [
+          "Metabolism of lipids and lipoproteins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.410059",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002177",
+      "DiseaseName": "Candidiasis",
+      "DiseaseDescription": "Infection with a fungus of the genus CANDIDA. It is usually a superficial infection of the moist areas of the body and is generally caused by CANDIDA ALBICANS. (Dorland, 27th ed)",
+      "SlimMapping": "['Bacterial infection or mycosis']",
+      "PathwayNames": "Ubiquitin mediated proteolysis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002177",
+        "standardized_id": "MESH:D002177",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Candidiasis",
+        "standardized_name": "Candidiasis",
+        "normalized_name": "candidiasis",
+        "synonyms": [],
+        "search_terms": [
+          "candidiasis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Infection with a fungus of the genus CANDIDA. It is usually a superficial infection of the moist areas of the body and is generally caused by CANDIDA ALBICANS. (Dorland, 27th ed)",
+        "cleaned_description": "Infection with a fungus of the genus CANDIDA. It is usually a superficial infection of the moist areas of the body and is generally caused by CANDIDA ALBICANS. (Dorland, 27th ed)",
+        "description_summary": "Infection with a fungus of the genus CANDIDA.",
+        "key_terms": [],
+        "word_count": 31
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "primary_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Ubiquitin mediated proteolysis",
+        "pathway_list": [
+          "Ubiquitin mediated proteolysis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.413091",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002690",
+      "DiseaseName": "Chlamydia Infections",
+      "DiseaseDescription": "Infections with bacteria of the genus CHLAMYDIA.",
+      "SlimMapping": "['Bacterial infection or mycosis']",
+      "PathwayNames": "Type II diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002690",
+        "standardized_id": "MESH:D002690",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Chlamydia Infections",
+        "standardized_name": "Chlamydia Infections",
+        "normalized_name": "chlamydia infections",
+        "synonyms": [],
+        "search_terms": [
+          "infections",
+          "chlamydia infections",
+          "chlamydia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Infections with bacteria of the genus CHLAMYDIA.",
+        "cleaned_description": "Infections with bacteria of the genus CHLAMYDIA.",
+        "description_summary": "Infections with bacteria of the genus CHLAMYDIA.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "primary_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type II diabetes mellitus",
+        "pathway_list": [
+          "Type II diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.441950",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004927",
+      "DiseaseName": "Escherichia coli Infections",
+      "DiseaseDescription": "Infections with bacteria of the species ESCHERICHIA COLI.",
+      "SlimMapping": "['Bacterial infection or mycosis']",
+      "PathwayNames": "Transmembrane transport of small molecules",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004927",
+        "standardized_id": "MESH:D004927",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Escherichia coli Infections",
+        "standardized_name": "Escherichia coli Infections",
+        "normalized_name": "escherichia coli infections",
+        "synonyms": [],
+        "search_terms": [
+          "escherichia coli infections",
+          "coli",
+          "infections",
+          "escherichia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Infections with bacteria of the species ESCHERICHIA COLI.",
+        "cleaned_description": "Infections with bacteria of the species ESCHERICHIA COLI.",
+        "description_summary": "Infections with bacteria of the species ESCHERICHIA COLI.",
+        "key_terms": [],
+        "word_count": 8
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "primary_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmembrane transport of small molecules",
+        "pathway_list": [
+          "Transmembrane transport of small molecules"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.510818",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D016905",
+      "DiseaseName": "Gram-Negative Bacterial Infections",
+      "DiseaseDescription": "Infections caused by bacteria that show up as pink (negative) when treated by the gram-staining method.",
+      "SlimMapping": "['Bacterial infection or mycosis']",
+      "PathwayNames": "Neutrophil degranulation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D016905",
+        "standardized_id": "MESH:D016905",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Gram-Negative Bacterial Infections",
+        "standardized_name": "Gram-Negative Bacterial Infections",
+        "normalized_name": "gram-negative bacterial infections",
+        "synonyms": [],
+        "search_terms": [
+          "bacterial",
+          "gram-negative bacterial infections",
+          "infections",
+          "gram-negative"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Infections caused by bacteria that show up as pink (negative) when treated by the gram-staining method.",
+        "cleaned_description": "Infections caused by bacteria that show up as pink (negative) when treated by the gram-staining method.",
+        "description_summary": "Infections caused by bacteria that show up as pink (negative) when treated by the gram-staining method.",
+        "key_terms": [],
+        "word_count": 16
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "primary_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Neutrophil degranulation",
+        "pathway_list": [
+          "Neutrophil degranulation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.549324",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D016908",
+      "DiseaseName": "Gram-Positive Bacterial Infections",
+      "DiseaseDescription": "Infections caused by bacteria that retain the crystal violet stain (positive) when treated by the gram-staining method.",
+      "SlimMapping": "['Bacterial infection or mycosis']",
+      "PathwayNames": "Neutrophil degranulation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D016908",
+        "standardized_id": "MESH:D016908",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Gram-Positive Bacterial Infections",
+        "standardized_name": "Gram-Positive Bacterial Infections",
+        "normalized_name": "gram-positive bacterial infections",
+        "synonyms": [],
+        "search_terms": [
+          "bacterial",
+          "infections",
+          "gram-positive bacterial infections",
+          "gram-positive"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Infections caused by bacteria that retain the crystal violet stain (positive) when treated by the gram-staining method.",
+        "cleaned_description": "Infections caused by bacteria that retain the crystal violet stain (positive) when treated by the gram-staining method.",
+        "description_summary": "Infections caused by bacteria that retain the crystal violet stain (positive) when treated by the gram-staining method.",
+        "key_terms": [],
+        "word_count": 17
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "primary_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Neutrophil degranulation",
+        "pathway_list": [
+          "Neutrophil degranulation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.549535",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D016481",
+      "DiseaseName": "Helicobacter Infections",
+      "DiseaseDescription": "Infections with organisms of the genus HELICOBACTER, particularly, in humans, HELICOBACTER PYLORI. The clinical manifestations are focused in the stomach, usually the gastric mucosa and antrum, and the upper duodenum. This infection plays a major role in the pathogenesis of type B gastritis and peptic ulcer disease.",
+      "SlimMapping": "['Bacterial infection or mycosis']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D016481",
+        "standardized_id": "MESH:D016481",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Helicobacter Infections",
+        "standardized_name": "Helicobacter Infections",
+        "normalized_name": "helicobacter infections",
+        "synonyms": [],
+        "search_terms": [
+          "infections",
+          "helicobacter",
+          "helicobacter infections"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Infections with organisms of the genus HELICOBACTER, particularly, in humans, HELICOBACTER PYLORI. The clinical manifestations are focused in the stomach, usually the gastric mucosa and antrum, and the upper duodenum. This infection plays a major role in the pathogenesis of type B gastritis and peptic ulcer disease.",
+        "cleaned_description": "Infections with organisms of the genus HELICOBACTER, particularly, in humans, HELICOBACTER PYLORI. The clinical manifestations are focused in the stomach, usually the gastric mucosa and antrum, and the upper duodenum. This infection plays a major role in the pathogenesis of type B gastritis and peptic ulcer disease.",
+        "description_summary": "Infections with organisms of the genus HELICOBACTER, particularly, in humans, HELICOBACTER PYLORI.",
+        "key_terms": [
+          "gastritis"
+        ],
+        "word_count": 47
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "primary_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.621152",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007918",
+      "DiseaseName": "Leprosy",
+      "DiseaseDescription": "A chronic granulomatous infection caused by MYCOBACTERIUM LEPRAE. The granulomatous lesions are manifested in the skin, the mucous membranes, and the peripheral nerves. Two polar or principal types are lepromatous and tuberculoid.",
+      "SlimMapping": "['Bacterial infection or mycosis']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007918",
+        "standardized_id": "MESH:D007918",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Leprosy",
+        "standardized_name": "Leprosy",
+        "normalized_name": "leprosy",
+        "synonyms": [],
+        "search_terms": [
+          "leprosy"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A chronic granulomatous infection caused by MYCOBACTERIUM LEPRAE. The granulomatous lesions are manifested in the skin, the mucous membranes, and the peripheral nerves. Two polar or principal types are lepromatous and tuberculoid.",
+        "cleaned_description": "A chronic granulomatous infection caused by MYCOBACTERIUM LEPRAE. The granulomatous lesions are manifested in the skin, the mucous membranes, and the peripheral nerves. Two polar or principal types are lepromatous and tuberculoid.",
+        "description_summary": "A chronic granulomatous infection caused by MYCOBACTERIUM LEPRAE.",
+        "key_terms": [],
+        "word_count": 32
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "primary_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.806921",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008589",
+      "DiseaseName": "Meningococcal Infections",
+      "DiseaseDescription": "Infections with bacteria of the species NEISSERIA MENINGITIDIS.",
+      "SlimMapping": "['Bacterial infection or mycosis']",
+      "PathwayNames": "Staphylococcus aureus infection",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008589",
+        "standardized_id": "MESH:D008589",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Meningococcal Infections",
+        "standardized_name": "Meningococcal Infections",
+        "normalized_name": "meningococcal infections",
+        "synonyms": [],
+        "search_terms": [
+          "infections",
+          "meningococcal infections",
+          "meningococcal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Infections with bacteria of the species NEISSERIA MENINGITIDIS.",
+        "cleaned_description": "Infections with bacteria of the species NEISSERIA MENINGITIDIS.",
+        "description_summary": "Infections with bacteria of the species NEISSERIA MENINGITIDIS.",
+        "key_terms": [],
+        "word_count": 8
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "primary_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Staphylococcus aureus infection",
+        "pathway_list": [
+          "Staphylococcus aureus infection"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.843918",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009164",
+      "DiseaseName": "Mycobacterium Infections",
+      "DiseaseDescription": "Infections with bacteria of the genus MYCOBACTERIUM.",
+      "SlimMapping": "['Bacterial infection or mycosis']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009164",
+        "standardized_id": "MESH:D009164",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Mycobacterium Infections",
+        "standardized_name": "Mycobacterium Infections",
+        "normalized_name": "mycobacterium infections",
+        "synonyms": [],
+        "search_terms": [
+          "infections",
+          "mycobacterium infections",
+          "mycobacterium"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Infections with bacteria of the genus MYCOBACTERIUM.",
+        "cleaned_description": "Infections with bacteria of the genus MYCOBACTERIUM.",
+        "description_summary": "Infections with bacteria of the genus MYCOBACTERIUM.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "primary_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.862253",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009165",
+      "DiseaseName": "Mycobacterium Infections, Nontuberculous",
+      "DiseaseDescription": "Infections with nontuberculous mycobacteria (atypical mycobacteria): M. kansasii, M. marinum, M. scrofulaceum, M. flavescens, M. gordonae, M. obuense, M. gilvum, M. duvali, M. szulgai, M. intracellulare (see MYCOBACTERIUM AVIUM COMPLEX;), M. xenopi (littorale), M. ulcerans, M. buruli, M. terrae, M. fortuitum (minetti, giae), M. chelonae, M. leprae.",
+      "SlimMapping": "['Bacterial infection or mycosis']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009165",
+        "standardized_id": "MESH:D009165",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Mycobacterium Infections, Nontuberculous",
+        "standardized_name": "Mycobacterium Infections, Nontuberculous",
+        "normalized_name": "mycobacterium infections nontuberculous",
+        "synonyms": [],
+        "search_terms": [
+          "infections,",
+          "mycobacterium",
+          "mycobacterium infections, nontuberculous",
+          "nontuberculous"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Infections with nontuberculous mycobacteria (atypical mycobacteria): M. kansasii, M. marinum, M. scrofulaceum, M. flavescens, M. gordonae, M. obuense, M. gilvum, M. duvali, M. szulgai, M. intracellulare (see MYCOBACTERIUM AVIUM COMPLEX;), M. xenopi (littorale), M. ulcerans, M. buruli, M. terrae, M. fortuitum (minetti, giae), M. chelonae, M. leprae.",
+        "cleaned_description": "Infections with nontuberculous mycobacteria (atypical mycobacteria): M. kansasii, M. marinum, M. scrofulaceum, M. flavescens, M. gordonae, M. obuense, M. gilvum, M. duvali, M. szulgai, M. intracellulare (see MYCOBACTERIUM AVIUM COMPLEX;), M. xenopi (littorale), M. ulcerans, M. buruli, M. terrae, M. fortuitum (minetti, giae), M. chelonae, M. leprae.",
+        "description_summary": "Infections with nontuberculous mycobacteria (atypical mycobacteria): M.",
+        "key_terms": [],
+        "word_count": 47
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "primary_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.862428",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009175",
+      "DiseaseName": "Mycoplasma Infections",
+      "DiseaseDescription": "Infections with species of the genus MYCOPLASMA.",
+      "SlimMapping": "['Bacterial infection or mycosis']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009175",
+        "standardized_id": "MESH:D009175",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Mycoplasma Infections",
+        "standardized_name": "Mycoplasma Infections",
+        "normalized_name": "mycoplasma infections",
+        "synonyms": [],
+        "search_terms": [
+          "mycoplasma",
+          "infections",
+          "mycoplasma infections"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Infections with species of the genus MYCOPLASMA.",
+        "cleaned_description": "Infections with species of the genus MYCOPLASMA.",
+        "description_summary": "Infections with species of the genus MYCOPLASMA.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "primary_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.862505",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D016870",
+      "DiseaseName": "Neisseriaceae Infections",
+      "DiseaseDescription": "Infections with bacteria of the family NEISSERIACEAE.",
+      "SlimMapping": "['Bacterial infection or mycosis']",
+      "PathwayNames": "Terminal pathway of complement",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D016870",
+        "standardized_id": "MESH:D016870",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Neisseriaceae Infections",
+        "standardized_name": "Neisseriaceae Infections",
+        "normalized_name": "neisseriaceae infections",
+        "synonyms": [],
+        "search_terms": [
+          "neisseriaceae",
+          "infections",
+          "neisseriaceae infections"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Infections with bacteria of the family NEISSERIACEAE.",
+        "cleaned_description": "Infections with bacteria of the family NEISSERIACEAE.",
+        "description_summary": "Infections with bacteria of the family NEISSERIACEAE.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "primary_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Terminal pathway of complement",
+        "pathway_list": [
+          "Terminal pathway of complement"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.866689",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010930",
+      "DiseaseName": "Plague",
+      "DiseaseDescription": "An acute infectious disease caused by YERSINIA PESTIS that affects humans, wild rodents, and their ectoparasites. This condition persists due to its firm entrenchment in sylvatic rodent-flea ecosystems throughout the world. Bubonic plague is the most common form.",
+      "SlimMapping": "['Bacterial infection or mycosis']",
+      "PathwayNames": "Immune System",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010930",
+        "standardized_id": "MESH:D010930",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Plague",
+        "standardized_name": "Plague",
+        "normalized_name": "plague",
+        "synonyms": [],
+        "search_terms": [
+          "plague"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An acute infectious disease caused by YERSINIA PESTIS that affects humans, wild rodents, and their ectoparasites. This condition persists due to its firm entrenchment in sylvatic rodent-flea ecosystems throughout the world. Bubonic plague is the most common form.",
+        "cleaned_description": "An acute infectious disease caused by YERSINIA PESTIS that affects humans, wild rodents, and their ectoparasites. This condition persists due to its firm entrenchment in sylvatic rodent-flea ecosystems throughout the world. Bubonic plague is the most common form.",
+        "description_summary": "An acute infectious disease caused by YERSINIA PESTIS that affects humans, wild rodents, and their ectoparasites.",
+        "key_terms": [],
+        "word_count": 38
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "primary_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Immune System",
+        "pathway_list": [
+          "Immune System"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.917248",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011008",
+      "DiseaseName": "Pneumococcal Infections",
+      "DiseaseDescription": "Infections with bacteria of the species STREPTOCOCCUS PNEUMONIAE.",
+      "SlimMapping": "['Bacterial infection or mycosis']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011008",
+        "standardized_id": "MESH:D011008",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pneumococcal Infections",
+        "standardized_name": "Pneumococcal Infections",
+        "normalized_name": "pneumococcal infections",
+        "synonyms": [],
+        "search_terms": [
+          "infections",
+          "pneumococcal",
+          "pneumococcal infections"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Infections with bacteria of the species STREPTOCOCCUS PNEUMONIAE.",
+        "cleaned_description": "Infections with bacteria of the species STREPTOCOCCUS PNEUMONIAE.",
+        "description_summary": "Infections with bacteria of the species STREPTOCOCCUS PNEUMONIAE.",
+        "key_terms": [],
+        "word_count": 8
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "primary_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.919093",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011552",
+      "DiseaseName": "Pseudomonas Infections",
+      "DiseaseDescription": "Infections with bacteria of the genus PSEUDOMONAS.",
+      "SlimMapping": "['Bacterial infection or mycosis']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011552",
+        "standardized_id": "MESH:D011552",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pseudomonas Infections",
+        "standardized_name": "Pseudomonas Infections",
+        "normalized_name": "pseudomonas infections",
+        "synonyms": [],
+        "search_terms": [
+          "pseudomonas",
+          "infections",
+          "pseudomonas infections"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Infections with bacteria of the genus PSEUDOMONAS.",
+        "cleaned_description": "Infections with bacteria of the genus PSEUDOMONAS.",
+        "description_summary": "Infections with bacteria of the genus PSEUDOMONAS.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "primary_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.937480",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011778",
+      "DiseaseName": "Q Fever",
+      "DiseaseDescription": "An acute infectious disease caused by COXIELLA BURNETII. It is characterized by a sudden onset of FEVER; HEADACHE; malaise; and weakness. In humans, it is commonly contracted by inhalation of infected dusts derived from infected domestic animals (ANIMALS, DOMESTIC).",
+      "SlimMapping": "['Bacterial infection or mycosis']",
+      "PathwayNames": "Visual phototransduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011778",
+        "standardized_id": "MESH:D011778",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Q Fever",
+        "standardized_name": "Q Fever",
+        "normalized_name": "q fever",
+        "synonyms": [],
+        "search_terms": [
+          "fever",
+          "q fever"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An acute infectious disease caused by COXIELLA BURNETII. It is characterized by a sudden onset of FEVER; HEADACHE; malaise; and weakness. In humans, it is commonly contracted by inhalation of infected dusts derived from infected domestic animals (ANIMALS, DOMESTIC).",
+        "cleaned_description": "An acute infectious disease caused by COXIELLA BURNETII. It is characterized by a sudden onset of FEVER; HEADACHE; malaise; and weakness. In humans, it is commonly contracted by inhalation of infected dusts derived from infected domestic animals (ANIMALS, DOMESTIC).",
+        "description_summary": "An acute infectious disease caused by COXIELLA BURNETII.",
+        "key_terms": [],
+        "word_count": 39
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "primary_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Visual phototransduction",
+        "pathway_list": [
+          "Visual phototransduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.943944",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012282",
+      "DiseaseName": "Rickettsia Infections",
+      "DiseaseDescription": "Infections by the genus RICKETTSIA.",
+      "SlimMapping": "['Bacterial infection or mycosis']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012282",
+        "standardized_id": "MESH:D012282",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Rickettsia Infections",
+        "standardized_name": "Rickettsia Infections",
+        "normalized_name": "rickettsia infections",
+        "synonyms": [],
+        "search_terms": [
+          "infections",
+          "rickettsia infections",
+          "rickettsia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Infections by the genus RICKETTSIA.",
+        "cleaned_description": "Infections by the genus RICKETTSIA.",
+        "description_summary": "Infections by the genus RICKETTSIA.",
+        "key_terms": [],
+        "word_count": 5
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "primary_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.957755",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013203",
+      "DiseaseName": "Staphylococcal Infections",
+      "DiseaseDescription": "Infections with bacteria of the genus STAPHYLOCOCCUS.",
+      "SlimMapping": "['Bacterial infection or mycosis']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013203",
+        "standardized_id": "MESH:D013203",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Staphylococcal Infections",
+        "standardized_name": "Staphylococcal Infections",
+        "normalized_name": "staphylococcal infections",
+        "synonyms": [],
+        "search_terms": [
+          "staphylococcal",
+          "infections",
+          "staphylococcal infections"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Infections with bacteria of the genus STAPHYLOCOCCUS.",
+        "cleaned_description": "Infections with bacteria of the genus STAPHYLOCOCCUS.",
+        "description_summary": "Infections with bacteria of the genus STAPHYLOCOCCUS.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "primary_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.977364",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014376",
+      "DiseaseName": "Tuberculosis",
+      "DiseaseDescription": "Any of the infectious diseases of man and other animals caused by species of MYCOBACTERIUM TUBERCULOSIS.",
+      "SlimMapping": "['Bacterial infection or mycosis']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014376",
+        "standardized_id": "MESH:D014376",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Tuberculosis",
+        "standardized_name": "Tuberculosis",
+        "normalized_name": "tuberculosis",
+        "synonyms": [],
+        "search_terms": [
+          "tuberculosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Any of the infectious diseases of man and other animals caused by species of MYCOBACTERIUM TUBERCULOSIS.",
+        "cleaned_description": "Any of the infectious diseases of man and other animals caused by species of MYCOBACTERIUM TUBERCULOSIS.",
+        "description_summary": "Any of the infectious diseases of man and other animals caused by species of MYCOBACTERIUM TUBERCULOSIS.",
+        "key_terms": [
+          "TUBERCULOSIS"
+        ],
+        "word_count": 16
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "primary_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.006767",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014435",
+      "DiseaseName": "Typhoid Fever",
+      "DiseaseDescription": "An acute systemic febrile infection caused by SALMONELLA TYPHI, a serotype of SALMONELLA ENTERICA.",
+      "SlimMapping": "['Bacterial infection or mycosis']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014435",
+        "standardized_id": "MESH:D014435",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Typhoid Fever",
+        "standardized_name": "Typhoid Fever",
+        "normalized_name": "typhoid fever",
+        "synonyms": [],
+        "search_terms": [
+          "typhoid",
+          "fever",
+          "typhoid fever"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An acute systemic febrile infection caused by SALMONELLA TYPHI, a serotype of SALMONELLA ENTERICA.",
+        "cleaned_description": "An acute systemic febrile infection caused by SALMONELLA TYPHI, a serotype of SALMONELLA ENTERICA.",
+        "description_summary": "An acute systemic febrile infection caused by SALMONELLA TYPHI, a serotype of SALMONELLA ENTERICA.",
+        "key_terms": [],
+        "word_count": 14
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "primary_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Bacterial infection or mycosis"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.007988",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

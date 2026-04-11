@@ -1,0 +1,1522 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Respiratory tract disease']",
+    "export_timestamp": "2026-03-28T22:11:35.341548",
+    "total_records": 23
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D055371",
+      "DiseaseName": "Acute Lung Injury",
+      "DiseaseDescription": "A condition of lung damage that is characterized by bilateral pulmonary infiltrates (PULMONARY EDEMA) rich in NEUTROPHILS, and in the absence of clinical HEART FAILURE. This can represent a spectrum of pulmonary lesions, endothelial and epithelial, due to numerous factors (physical, chemical, or biological).",
+      "SlimMapping": "['Respiratory tract disease']",
+      "PathwayNames": "Vitamin digestion and absorption",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D055371",
+        "standardized_id": "MESH:D055371",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Acute Lung Injury",
+        "standardized_name": "Acute Lung Injury",
+        "normalized_name": "acute lung injury",
+        "synonyms": [],
+        "search_terms": [
+          "acute lung injury",
+          "injury",
+          "lung",
+          "acute"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition of lung damage that is characterized by bilateral pulmonary infiltrates (PULMONARY EDEMA) rich in NEUTROPHILS, and in the absence of clinical HEART FAILURE. This can represent a spectrum of pulmonary lesions, endothelial and epithelial, due to numerous factors (physical, chemical, or biological).",
+        "cleaned_description": "A condition of lung damage that is characterized by bilateral pulmonary infiltrates (PULMONARY EDEMA) rich in NEUTROPHILS, and in the absence of clinical HEART FAILURE. This can represent a spectrum of pulmonary lesions, endothelial and epithelial, due to numerous factors (physical, chemical, or biological).",
+        "description_summary": "A condition of lung damage that is characterized by bilateral pulmonary infiltrates (PULMONARY EDEMA) rich in NEUTROPHILS, and in the absence of clinical HEART FAILURE.",
+        "key_terms": [],
+        "word_count": 44
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Respiratory tract disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamin digestion and absorption",
+        "pathway_list": [
+          "Vitamin digestion and absorption"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.355362",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000402",
+      "DiseaseName": "Airway Obstruction",
+      "DiseaseDescription": "Any hindrance to the passage of air into and out of the lungs.",
+      "SlimMapping": "['Respiratory tract disease']",
+      "PathwayNames": "Transcriptional misregulation in cancer",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000402",
+        "standardized_id": "MESH:D000402",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Airway Obstruction",
+        "standardized_name": "Airway Obstruction",
+        "normalized_name": "airway obstruction",
+        "synonyms": [],
+        "search_terms": [
+          "airway obstruction",
+          "airway",
+          "obstruction"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Any hindrance to the passage of air into and out of the lungs.",
+        "cleaned_description": "Any hindrance to the passage of air into and out of the lungs.",
+        "description_summary": "Any hindrance to the passage of air into and out of the lungs.",
+        "key_terms": [],
+        "word_count": 13
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Respiratory tract disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional misregulation in cancer",
+        "pathway_list": [
+          "Transcriptional misregulation in cancer"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional misregulation in cancer"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.358872",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001982",
+      "DiseaseName": "Bronchial Diseases",
+      "DiseaseDescription": "Diseases involving the BRONCHI.",
+      "SlimMapping": "['Respiratory tract disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001982",
+        "standardized_id": "MESH:D001982",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Bronchial Diseases",
+        "standardized_name": "Bronchial Diseases",
+        "normalized_name": "bronchial diseases",
+        "synonyms": [],
+        "search_terms": [
+          "bronchial diseases",
+          "diseases",
+          "bronchial"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases involving the BRONCHI.",
+        "cleaned_description": "Diseases involving the BRONCHI.",
+        "description_summary": "Diseases involving the BRONCHI.",
+        "key_terms": [],
+        "word_count": 4
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Respiratory tract disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.408450",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": [
+            "Very short or missing description"
+          ]
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D016535",
+      "DiseaseName": "Bronchial Hyperreactivity",
+      "DiseaseDescription": "Tendency of the smooth muscle of the tracheobronchial tree to contract more intensely in response to a given stimulus than it does in the response seen in normal individuals. This condition is present in virtually all symptomatic patients with asthma. The most prominent manifestation of this smooth muscle contraction is a decrease in airway caliber that can be readily measured in the pulmonary function laboratory.",
+      "SlimMapping": "['Respiratory tract disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D016535",
+        "standardized_id": "MESH:D016535",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Bronchial Hyperreactivity",
+        "standardized_name": "Bronchial Hyperreactivity",
+        "normalized_name": "bronchial hyperreactivity",
+        "synonyms": [],
+        "search_terms": [
+          "bronchial",
+          "bronchial hyperreactivity",
+          "hyperreactivity"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tendency of the smooth muscle of the tracheobronchial tree to contract more intensely in response to a given stimulus than it does in the response seen in normal individuals. This condition is present in virtually all symptomatic patients with asthma. The most prominent manifestation of this smooth muscle contraction is a decrease in airway caliber that can be readily measured in the pulmonary function laboratory.",
+        "cleaned_description": "Tendency of the smooth muscle of the tracheobronchial tree to contract more intensely in response to a given stimulus than it does in the response seen in normal individuals. This condition is present in virtually all symptomatic patients with asthma. The most prominent manifestation of this smooth muscle contraction is a decrease in airway caliber that can be readily measured in the pulmonary function laboratory.",
+        "description_summary": "Tendency of the smooth muscle of the tracheobronchial tree to contract more intensely in response to a given stimulus than it does in the response seen in normal individuals.",
+        "key_terms": [],
+        "word_count": 65
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Respiratory tract disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.408800",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001987",
+      "DiseaseName": "Bronchiectasis",
+      "DiseaseDescription": "Persistent abnormal dilatation of the bronchi.",
+      "SlimMapping": "['Respiratory tract disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001987",
+        "standardized_id": "MESH:D001987",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Bronchiectasis",
+        "standardized_name": "Bronchiectasis",
+        "normalized_name": "bronchiectasis",
+        "synonyms": [],
+        "search_terms": [
+          "bronchiectasis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Persistent abnormal dilatation of the bronchi.",
+        "cleaned_description": "Persistent abnormal dilatation of the bronchi.",
+        "description_summary": "Persistent abnormal dilatation of the bronchi.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Respiratory tract disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.408942",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001989",
+      "DiseaseName": "Bronchiolitis Obliterans",
+      "DiseaseDescription": "Inflammation of the BRONCHIOLES leading to an obstructive lung disease. Bronchioles are characterized by fibrous granulation tissue with bronchial exudates in the lumens. Clinical features include a nonproductive cough and DYSPNEA.",
+      "SlimMapping": "['Respiratory tract disease']",
+      "PathwayNames": "Type I diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001989",
+        "standardized_id": "MESH:D001989",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Bronchiolitis Obliterans",
+        "standardized_name": "Bronchiolitis Obliterans",
+        "normalized_name": "bronchiolitis obliterans",
+        "synonyms": [],
+        "search_terms": [
+          "bronchiolitis obliterans",
+          "bronchiolitis",
+          "obliterans"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inflammation of the BRONCHIOLES leading to an obstructive lung disease. Bronchioles are characterized by fibrous granulation tissue with bronchial exudates in the lumens. Clinical features include a nonproductive cough and DYSPNEA.",
+        "cleaned_description": "Inflammation of the BRONCHIOLES leading to an obstructive lung disease. Bronchioles are characterized by fibrous granulation tissue with bronchial exudates in the lumens. Clinical features include a nonproductive cough and DYSPNEA.",
+        "description_summary": "Inflammation of the BRONCHIOLES leading to an obstructive lung disease.",
+        "key_terms": [],
+        "word_count": 31
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Respiratory tract disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type I diabetes mellitus",
+        "pathway_list": [
+          "Type I diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.409185",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D054990",
+      "DiseaseName": "Idiopathic Pulmonary Fibrosis",
+      "DiseaseDescription": "A common interstitial lung disease of unknown etiology, usually occurring between 50-70 years of age. Clinically, it is characterized by an insidious onset of breathlessness with exertion and a nonproductive cough, leading to progressive DYSPNEA. Pathological features show scant interstitial inflammation, patchy collagen fibrosis, prominent fibroblast proliferation foci, and microscopic honeycomb change.",
+      "SlimMapping": "['Respiratory tract disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D054990",
+        "standardized_id": "MESH:D054990",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Idiopathic Pulmonary Fibrosis",
+        "standardized_name": "Idiopathic Pulmonary Fibrosis",
+        "normalized_name": "idiopathic pulmonary fibrosis",
+        "synonyms": [],
+        "search_terms": [
+          "idiopathic",
+          "fibrosis",
+          "idiopathic pulmonary fibrosis",
+          "pulmonary"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A common interstitial lung disease of unknown etiology, usually occurring between 50-70 years of age. Clinically, it is characterized by an insidious onset of breathlessness with exertion and a nonproductive cough, leading to progressive DYSPNEA. Pathological features show scant interstitial inflammation, patchy collagen fibrosis, prominent fibroblast proliferation foci, and microscopic honeycomb change.",
+        "cleaned_description": "A common interstitial lung disease of unknown etiology, usually occurring between 50-70 years of age. Clinically, it is characterized by an insidious onset of breathlessness with exertion and a nonproductive cough, leading to progressive DYSPNEA. Pathological features show scant interstitial inflammation, patchy collagen fibrosis, prominent fibroblast proliferation foci, and microscopic honeycomb change.",
+        "description_summary": "A common interstitial lung disease of unknown etiology, usually occurring between 50-70 years of age.",
+        "key_terms": [
+          "fibrosis"
+        ],
+        "word_count": 52
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Respiratory tract disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.781592",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008171",
+      "DiseaseName": "Lung Diseases",
+      "DiseaseDescription": "Pathological processes involving any part of the LUNG.",
+      "SlimMapping": "['Respiratory tract disease']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008171",
+        "standardized_id": "MESH:D008171",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Lung Diseases",
+        "standardized_name": "Lung Diseases",
+        "normalized_name": "lung diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "lung",
+          "lung diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological processes involving any part of the LUNG.",
+        "cleaned_description": "Pathological processes involving any part of the LUNG.",
+        "description_summary": "Pathological processes involving any part of the LUNG.",
+        "key_terms": [],
+        "word_count": 8
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Respiratory tract disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.822869",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D017563",
+      "DiseaseName": "Lung Diseases, Interstitial",
+      "DiseaseDescription": "A diverse group of lung diseases that affect the lung parenchyma. They are characterized by an initial inflammation of PULMONARY ALVEOLI that extends to the interstitium and beyond leading to diffuse PULMONARY FIBROSIS. Interstitial lung diseases are classified by their etiology (known or unknown causes), and radiological-pathological features.",
+      "SlimMapping": "['Respiratory tract disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017563",
+        "standardized_id": "MESH:D017563",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Lung Diseases, Interstitial",
+        "standardized_name": "Lung Diseases, Interstitial",
+        "normalized_name": "lung diseases interstitial",
+        "synonyms": [],
+        "search_terms": [
+          "interstitial",
+          "diseases,",
+          "lung",
+          "lung diseases, interstitial"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A diverse group of lung diseases that affect the lung parenchyma. They are characterized by an initial inflammation of PULMONARY ALVEOLI that extends to the interstitium and beyond leading to diffuse PULMONARY FIBROSIS. Interstitial lung diseases are classified by their etiology (known or unknown causes), and radiological-pathological features.",
+        "cleaned_description": "A diverse group of lung diseases that affect the lung parenchyma. They are characterized by an initial inflammation of PULMONARY ALVEOLI that extends to the interstitium and beyond leading to diffuse PULMONARY FIBROSIS. Interstitial lung diseases are classified by their etiology (known or unknown causes), and radiological-pathological features.",
+        "description_summary": "A diverse group of lung diseases that affect the lung parenchyma.",
+        "key_terms": [
+          "FIBROSIS"
+        ],
+        "word_count": 48
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Respiratory tract disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.823185",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008173",
+      "DiseaseName": "Lung Diseases, Obstructive",
+      "DiseaseDescription": "Any disorder marked by obstruction of conducting airways of the lung. AIRWAY OBSTRUCTION may be acute, chronic, intermittent, or persistent.",
+      "SlimMapping": "['Respiratory tract disease']",
+      "PathwayNames": "Transmembrane transport of small molecules",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008173",
+        "standardized_id": "MESH:D008173",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Lung Diseases, Obstructive",
+        "standardized_name": "Lung Diseases, Obstructive",
+        "normalized_name": "lung diseases obstructive",
+        "synonyms": [],
+        "search_terms": [
+          "diseases,",
+          "obstructive",
+          "lung",
+          "lung diseases, obstructive"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Any disorder marked by obstruction of conducting airways of the lung. AIRWAY OBSTRUCTION may be acute, chronic, intermittent, or persistent.",
+        "cleaned_description": "Any disorder marked by obstruction of conducting airways of the lung. AIRWAY OBSTRUCTION may be acute, chronic, intermittent, or persistent.",
+        "description_summary": "Any disorder marked by obstruction of conducting airways of the lung.",
+        "key_terms": [],
+        "word_count": 20
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Respiratory tract disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmembrane transport of small molecules",
+        "pathway_list": [
+          "Transmembrane transport of small molecules"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.823402",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010995",
+      "DiseaseName": "Pleural Diseases",
+      "DiseaseDescription": "Diseases involving the PLEURA.",
+      "SlimMapping": "['Respiratory tract disease']",
+      "PathwayNames": "Unfolded Protein Response (UPR)",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010995",
+        "standardized_id": "MESH:D010995",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pleural Diseases",
+        "standardized_name": "Pleural Diseases",
+        "normalized_name": "pleural diseases",
+        "synonyms": [],
+        "search_terms": [
+          "pleural",
+          "diseases",
+          "pleural diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases involving the PLEURA.",
+        "cleaned_description": "Diseases involving the PLEURA.",
+        "description_summary": "Diseases involving the PLEURA.",
+        "key_terms": [],
+        "word_count": 4
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Respiratory tract disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Unfolded Protein Response (UPR)",
+        "pathway_list": [
+          "Unfolded Protein Response (UPR)"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.917890",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": [
+            "Very short or missing description"
+          ]
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010996",
+      "DiseaseName": "Pleural Effusion",
+      "DiseaseDescription": "Presence of fluid in the pleural cavity resulting from excessive transudation or exudation from the pleural surfaces. It is a sign of disease and not a diagnosis in itself.",
+      "SlimMapping": "['Respiratory tract disease']",
+      "PathwayNames": "Type II diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010996",
+        "standardized_id": "MESH:D010996",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pleural Effusion",
+        "standardized_name": "Pleural Effusion",
+        "normalized_name": "pleural effusion",
+        "synonyms": [],
+        "search_terms": [
+          "pleural",
+          "pleural effusion",
+          "effusion"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Presence of fluid in the pleural cavity resulting from excessive transudation or exudation from the pleural surfaces. It is a sign of disease and not a diagnosis in itself.",
+        "cleaned_description": "Presence of fluid in the pleural cavity resulting from excessive transudation or exudation from the pleural surfaces. It is a sign of disease and not a diagnosis in itself.",
+        "description_summary": "Presence of fluid in the pleural cavity resulting from excessive transudation or exudation from the pleural surfaces.",
+        "key_terms": [
+          "diagnosis"
+        ],
+        "word_count": 29
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Respiratory tract disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type II diabetes mellitus",
+        "pathway_list": [
+          "Type II diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.918289",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010998",
+      "DiseaseName": "Pleurisy",
+      "DiseaseDescription": "INFLAMMATION of PLEURA, the lining of the LUNG. When PARIETAL PLEURA is involved, there is pleuritic CHEST PAIN.",
+      "SlimMapping": "['Respiratory tract disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010998",
+        "standardized_id": "MESH:D010998",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pleurisy",
+        "standardized_name": "Pleurisy",
+        "normalized_name": "pleurisy",
+        "synonyms": [],
+        "search_terms": [
+          "pleurisy"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "INFLAMMATION of PLEURA, the lining of the LUNG. When PARIETAL PLEURA is involved, there is pleuritic CHEST PAIN.",
+        "cleaned_description": "INFLAMMATION of PLEURA, the lining of the LUNG. When PARIETAL PLEURA is involved, there is pleuritic CHEST PAIN.",
+        "description_summary": "INFLAMMATION of PLEURA, the lining of the LUNG.",
+        "key_terms": [],
+        "word_count": 18
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Respiratory tract disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.918943",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011014",
+      "DiseaseName": "Pneumonia",
+      "DiseaseDescription": "Infection of the lung often accompanied by inflammation.",
+      "SlimMapping": "['Respiratory tract disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011014",
+        "standardized_id": "MESH:D011014",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pneumonia",
+        "standardized_name": "Pneumonia",
+        "normalized_name": "pneumonia",
+        "synonyms": [],
+        "search_terms": [
+          "pneumonia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Infection of the lung often accompanied by inflammation.",
+        "cleaned_description": "Infection of the lung often accompanied by inflammation.",
+        "description_summary": "Infection of the lung often accompanied by inflammation.",
+        "key_terms": [],
+        "word_count": 8
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Respiratory tract disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.919224",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011015",
+      "DiseaseName": "Pneumonia, Aspiration",
+      "DiseaseDescription": "A type of lung inflammation resulting from the aspiration of food, liquid, or gastric contents into the upper RESPIRATORY TRACT.",
+      "SlimMapping": "['Respiratory tract disease']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011015",
+        "standardized_id": "MESH:D011015",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pneumonia, Aspiration",
+        "standardized_name": "Pneumonia, Aspiration",
+        "normalized_name": "pneumonia aspiration",
+        "synonyms": [],
+        "search_terms": [
+          "aspiration",
+          "pneumonia, aspiration",
+          "pneumonia,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A type of lung inflammation resulting from the aspiration of food, liquid, or gastric contents into the upper RESPIRATORY TRACT.",
+        "cleaned_description": "A type of lung inflammation resulting from the aspiration of food, liquid, or gastric contents into the upper RESPIRATORY TRACT.",
+        "description_summary": "A type of lung inflammation resulting from the aspiration of food, liquid, or gastric contents into the upper RESPIRATORY TRACT.",
+        "key_terms": [],
+        "word_count": 20
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Respiratory tract disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.919403",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011030",
+      "DiseaseName": "Pneumothorax",
+      "DiseaseDescription": "An accumulation of air or gas in the PLEURAL CAVITY, which may occur spontaneously or as a result of trauma or a pathological process. The gas may also be introduced deliberately during PNEUMOTHORAX, ARTIFICIAL.",
+      "SlimMapping": "['Respiratory tract disease']",
+      "PathwayNames": "Renal cell carcinoma",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011030",
+        "standardized_id": "MESH:D011030",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pneumothorax",
+        "standardized_name": "Pneumothorax",
+        "normalized_name": "pneumothorax",
+        "synonyms": [],
+        "search_terms": [
+          "pneumothorax"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An accumulation of air or gas in the PLEURAL CAVITY, which may occur spontaneously or as a result of trauma or a pathological process. The gas may also be introduced deliberately during PNEUMOTHORAX, ARTIFICIAL.",
+        "cleaned_description": "An accumulation of air or gas in the PLEURAL CAVITY, which may occur spontaneously or as a result of trauma or a pathological process. The gas may also be introduced deliberately during PNEUMOTHORAX, ARTIFICIAL.",
+        "description_summary": "An accumulation of air or gas in the PLEURAL CAVITY, which may occur spontaneously or as a result of trauma or a pathological process.",
+        "key_terms": [],
+        "word_count": 34
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Respiratory tract disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Renal cell carcinoma",
+        "pathway_list": [
+          "Renal cell carcinoma"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.920513",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011654",
+      "DiseaseName": "Pulmonary Edema",
+      "DiseaseDescription": "Excessive accumulation of extravascular fluid in the lung, an indication of a serious underlying disease or disorder. Pulmonary edema prevents efficient PULMONARY GAS EXCHANGE in the PULMONARY ALVEOLI, and can be life-threatening.",
+      "SlimMapping": "['Respiratory tract disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011654",
+        "standardized_id": "MESH:D011654",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pulmonary Edema",
+        "standardized_name": "Pulmonary Edema",
+        "normalized_name": "pulmonary edema",
+        "synonyms": [],
+        "search_terms": [
+          "edema",
+          "pulmonary edema",
+          "pulmonary"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Excessive accumulation of extravascular fluid in the lung, an indication of a serious underlying disease or disorder. Pulmonary edema prevents efficient PULMONARY GAS EXCHANGE in the PULMONARY ALVEOLI, and can be life-threatening.",
+        "cleaned_description": "Excessive accumulation of extravascular fluid in the lung, an indication of a serious underlying disease or disorder. Pulmonary edema prevents efficient PULMONARY GAS EXCHANGE in the PULMONARY ALVEOLI, and can be life-threatening.",
+        "description_summary": "Excessive accumulation of extravascular fluid in the lung, an indication of a serious underlying disease or disorder.",
+        "key_terms": [],
+        "word_count": 32
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Respiratory tract disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.940509",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012120",
+      "DiseaseName": "Respiration Disorders",
+      "DiseaseDescription": "Diseases of the respiratory system in general or unspecified or for a specific respiratory disease not available.",
+      "SlimMapping": "['Respiratory tract disease']",
+      "PathwayNames": "Vibrio cholerae infection",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012120",
+        "standardized_id": "MESH:D012120",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Respiration Disorders",
+        "standardized_name": "Respiration Disorders",
+        "normalized_name": "respiration disorders",
+        "synonyms": [],
+        "search_terms": [
+          "respiration",
+          "disorders",
+          "respiration disorders"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases of the respiratory system in general or unspecified or for a specific respiratory disease not available.",
+        "cleaned_description": "Diseases of the respiratory system in general or unspecified or for a specific respiratory disease not available.",
+        "description_summary": "Diseases of the respiratory system in general or unspecified or for a specific respiratory disease not available.",
+        "key_terms": [],
+        "word_count": 17
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Respiratory tract disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vibrio cholerae infection",
+        "pathway_list": [
+          "Vibrio cholerae infection"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.947145",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012128",
+      "DiseaseName": "Respiratory Distress Syndrome",
+      "DiseaseDescription": "A syndrome characterized by progressive life-threatening RESPIRATORY INSUFFICIENCY in the absence of known LUNG DISEASES, usually following a systemic insult such as surgery or major TRAUMA.",
+      "SlimMapping": "['Respiratory tract disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012128",
+        "standardized_id": "MESH:D012128",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Respiratory Distress Syndrome",
+        "standardized_name": "Respiratory Distress Syndrome",
+        "normalized_name": "respiratory distress syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "respiratory",
+          "respiratory distress syndrome",
+          "distress",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A syndrome characterized by progressive life-threatening RESPIRATORY INSUFFICIENCY in the absence of known LUNG DISEASES, usually following a systemic insult such as surgery or major TRAUMA.",
+        "cleaned_description": "A syndrome characterized by progressive life-threatening RESPIRATORY INSUFFICIENCY in the absence of known LUNG DISEASES, usually following a systemic insult such as surgery or major TRAUMA.",
+        "description_summary": "A syndrome characterized by progressive life-threatening RESPIRATORY INSUFFICIENCY in the absence of known LUNG DISEASES, usually following a systemic insult such as surgery or major TRAUMA.",
+        "key_terms": [],
+        "word_count": 26
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Respiratory tract disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.947373",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012131",
+      "DiseaseName": "Respiratory Insufficiency",
+      "DiseaseDescription": "Failure to adequately provide oxygen to cells of the body and to remove excess carbon dioxide from them. (Stedman, 25th ed)",
+      "SlimMapping": "['Respiratory tract disease']",
+      "PathwayNames": "Vitamin digestion and absorption",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012131",
+        "standardized_id": "MESH:D012131",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Respiratory Insufficiency",
+        "standardized_name": "Respiratory Insufficiency",
+        "normalized_name": "respiratory insufficiency",
+        "synonyms": [],
+        "search_terms": [
+          "respiratory",
+          "respiratory insufficiency",
+          "insufficiency"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Failure to adequately provide oxygen to cells of the body and to remove excess carbon dioxide from them. (Stedman, 25th ed)",
+        "cleaned_description": "Failure to adequately provide oxygen to cells of the body and to remove excess carbon dioxide from them. (Stedman, 25th ed)",
+        "description_summary": "Failure to adequately provide oxygen to cells of the body and to remove excess carbon dioxide from them.",
+        "key_terms": [],
+        "word_count": 21
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Respiratory tract disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamin digestion and absorption",
+        "pathway_list": [
+          "Vitamin digestion and absorption"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.948134",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012140",
+      "DiseaseName": "Respiratory Tract Diseases",
+      "DiseaseDescription": "Diseases involving the RESPIRATORY SYSTEM.",
+      "SlimMapping": "['Respiratory tract disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012140",
+        "standardized_id": "MESH:D012140",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Respiratory Tract Diseases",
+        "standardized_name": "Respiratory Tract Diseases",
+        "normalized_name": "respiratory tract diseases",
+        "synonyms": [],
+        "search_terms": [
+          "respiratory",
+          "respiratory tract diseases",
+          "diseases",
+          "tract"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases involving the RESPIRATORY SYSTEM.",
+        "cleaned_description": "Diseases involving the RESPIRATORY SYSTEM.",
+        "description_summary": "Diseases involving the RESPIRATORY SYSTEM.",
+        "key_terms": [],
+        "word_count": 5
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Respiratory tract disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.948842",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012141",
+      "DiseaseName": "Respiratory Tract Infections",
+      "DiseaseDescription": "Invasion of the host RESPIRATORY SYSTEM by microorganisms, usually leading to pathological processes or diseases.",
+      "SlimMapping": "['Respiratory tract disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012141",
+        "standardized_id": "MESH:D012141",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Respiratory Tract Infections",
+        "standardized_name": "Respiratory Tract Infections",
+        "normalized_name": "respiratory tract infections",
+        "synonyms": [],
+        "search_terms": [
+          "respiratory",
+          "infections",
+          "tract",
+          "respiratory tract infections"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Invasion of the host RESPIRATORY SYSTEM by microorganisms, usually leading to pathological processes or diseases.",
+        "cleaned_description": "Invasion of the host RESPIRATORY SYSTEM by microorganisms, usually leading to pathological processes or diseases.",
+        "description_summary": "Invasion of the host RESPIRATORY SYSTEM by microorganisms, usually leading to pathological processes or diseases.",
+        "key_terms": [],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Respiratory tract disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.949017",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013896",
+      "DiseaseName": "Thoracic Diseases",
+      "DiseaseDescription": "Disorders affecting the organs of the thorax.",
+      "SlimMapping": "['Respiratory tract disease']",
+      "PathwayNames": "PPAR signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013896",
+        "standardized_id": "MESH:D013896",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Thoracic Diseases",
+        "standardized_name": "Thoracic Diseases",
+        "normalized_name": "thoracic diseases",
+        "synonyms": [],
+        "search_terms": [
+          "thoracic diseases",
+          "thoracic",
+          "diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Disorders affecting the organs of the thorax.",
+        "cleaned_description": "Disorders affecting the organs of the thorax.",
+        "description_summary": "Disorders affecting the organs of the thorax.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Respiratory tract disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "PPAR signaling pathway",
+        "pathway_list": [
+          "PPAR signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "PPAR signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.993589",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

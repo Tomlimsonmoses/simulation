@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Digestive system disease', 'Signs and symptoms']",
+    "export_timestamp": "2026-03-28T22:11:36.031616",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D018589",
+      "DiseaseName": "Gastroparesis",
+      "DiseaseDescription": "Chronic delayed gastric emptying. Gastroparesis may be caused by motor dysfunction or paralysis of STOMACH muscles or may be associated with other systemic diseases such as DIABETES MELLITUS.",
+      "SlimMapping": "['Digestive system disease', 'Signs and symptoms']",
+      "PathwayNames": "Transmembrane transport of small molecules",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018589",
+        "standardized_id": "MESH:D018589",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Gastroparesis",
+        "standardized_name": "Gastroparesis",
+        "normalized_name": "gastroparesis",
+        "synonyms": [],
+        "search_terms": [
+          "gastroparesis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Chronic delayed gastric emptying. Gastroparesis may be caused by motor dysfunction or paralysis of STOMACH muscles or may be associated with other systemic diseases such as DIABETES MELLITUS.",
+        "cleaned_description": "Chronic delayed gastric emptying. Gastroparesis may be caused by motor dysfunction or paralysis of STOMACH muscles or may be associated with other systemic diseases such as DIABETES MELLITUS.",
+        "description_summary": "Chronic delayed gastric emptying.",
+        "key_terms": [],
+        "word_count": 28
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Digestive system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmembrane transport of small molecules",
+        "pathway_list": [
+          "Transmembrane transport of small molecules"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.536816",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Cardiovascular disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.311892",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D013341",
+      "DiseaseName": "Sturge-Weber Syndrome",
+      "DiseaseDescription": "A non-inherited congenital condition with vascular and neurological abnormalities. It is characterized by facial vascular nevi (PORT-WINE STAIN), and capillary angiomatosis of intracranial membranes (MENINGES; CHOROID). Neurological features include EPILEPSY; cognitive deficits; GLAUCOMA; and visual defects.",
+      "SlimMapping": "['Cancer', 'Cardiovascular disease', 'Nervous system disease']",
+      "PathwayNames": "Vascular smooth muscle contraction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013341",
+        "standardized_id": "MESH:D013341",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Sturge-Weber Syndrome",
+        "standardized_name": "Sturge-Weber Syndrome",
+        "normalized_name": "sturge-weber syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "syndrome",
+          "sturge-weber",
+          "sturge-weber syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A non-inherited congenital condition with vascular and neurological abnormalities. It is characterized by facial vascular nevi (PORT-WINE STAIN), and capillary angiomatosis of intracranial membranes (MENINGES; CHOROID). Neurological features include EPILEPSY; cognitive deficits; GLAUCOMA; and visual defects.",
+        "cleaned_description": "A non-inherited congenital condition with vascular and neurological abnormalities. It is characterized by facial vascular nevi (PORT-WINE STAIN), and capillary angiomatosis of intracranial membranes (MENINGES; CHOROID). Neurological features include EPILEPSY; cognitive deficits; GLAUCOMA; and visual defects.",
+        "description_summary": "A non-inherited congenital condition with vascular and neurological abnormalities.",
+        "key_terms": [
+          "angiomatosis"
+        ],
+        "word_count": 36
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Cardiovascular disease",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vascular smooth muscle contraction",
+        "pathway_list": [
+          "Vascular smooth muscle contraction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.981101",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

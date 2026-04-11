@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Congenital abnormality', 'Lymphatic disease']",
+    "export_timestamp": "2026-03-28T22:11:36.174983",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D044148",
+      "DiseaseName": "Lymphatic Abnormalities",
+      "DiseaseDescription": "Congenital or acquired structural abnormalities of the lymphatic system (LYMPHOID TISSUE) including the lymph vessels.",
+      "SlimMapping": "['Congenital abnormality', 'Lymphatic disease']",
+      "PathwayNames": "Developmental Biology",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D044148",
+        "standardized_id": "MESH:D044148",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Lymphatic Abnormalities",
+        "standardized_name": "Lymphatic Abnormalities",
+        "normalized_name": "lymphatic abnormalities",
+        "synonyms": [],
+        "search_terms": [
+          "abnormalities",
+          "lymphatic",
+          "lymphatic abnormalities"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Congenital or acquired structural abnormalities of the lymphatic system (LYMPHOID TISSUE) including the lymph vessels.",
+        "cleaned_description": "Congenital or acquired structural abnormalities of the lymphatic system (LYMPHOID TISSUE) including the lymph vessels.",
+        "description_summary": "Congenital or acquired structural abnormalities of the lymphatic system (LYMPHOID TISSUE) including the lymph vessels.",
+        "key_terms": [],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Lymphatic disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Lymphatic disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Lymphatic disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Developmental Biology",
+        "pathway_list": [
+          "Developmental Biology"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.826767",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

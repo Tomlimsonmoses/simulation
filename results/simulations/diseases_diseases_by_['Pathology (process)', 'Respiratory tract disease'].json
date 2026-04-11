@@ -1,0 +1,290 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Pathology (process)', 'Respiratory tract disease']",
+    "export_timestamp": "2026-03-28T22:11:35.813079",
+    "total_records": 4
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D029481",
+      "DiseaseName": "Bronchitis, Chronic",
+      "DiseaseDescription": "A subcategory of CHRONIC OBSTRUCTIVE PULMONARY DISEASE. The disease is characterized by hypersecretion of mucus accompanied by a chronic (more than 3 months in 2 consecutive years) productive cough. Infectious agents are a major cause of chronic bronchitis.",
+      "SlimMapping": "['Pathology (process)', 'Respiratory tract disease']",
+      "PathwayNames": "VEGF signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D029481",
+        "standardized_id": "MESH:D029481",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Bronchitis, Chronic",
+        "standardized_name": "Bronchitis, Chronic",
+        "normalized_name": "bronchitis chronic",
+        "synonyms": [],
+        "search_terms": [
+          "bronchitis,",
+          "chronic",
+          "bronchitis, chronic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A subcategory of CHRONIC OBSTRUCTIVE PULMONARY DISEASE. The disease is characterized by hypersecretion of mucus accompanied by a chronic (more than 3 months in 2 consecutive years) productive cough. Infectious agents are a major cause of chronic bronchitis.",
+        "cleaned_description": "A subcategory of CHRONIC OBSTRUCTIVE PULMONARY DISEASE. The disease is characterized by hypersecretion of mucus accompanied by a chronic (more than 3 months in 2 consecutive years) productive cough. Infectious agents are a major cause of chronic bronchitis.",
+        "description_summary": "A subcategory of CHRONIC OBSTRUCTIVE PULMONARY DISEASE.",
+        "key_terms": [
+          "bronchitis"
+        ],
+        "word_count": 38
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Pathology (process)",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Pathology (process)",
+          "Respiratory tract disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGF signaling pathway",
+        "pathway_list": [
+          "VEGF signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGF signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.409468",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D029424",
+      "DiseaseName": "Pulmonary Disease, Chronic Obstructive",
+      "DiseaseDescription": "A disease of chronic diffuse irreversible airflow obstruction. Subcategories of COPD include CHRONIC BRONCHITIS and PULMONARY EMPHYSEMA.",
+      "SlimMapping": "['Pathology (process)', 'Respiratory tract disease']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D029424",
+        "standardized_id": "MESH:D029424",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pulmonary Disease, Chronic Obstructive",
+        "standardized_name": "Pulmonary Disease, Chronic Obstructive",
+        "normalized_name": "pulmonary disease chronic obstructive",
+        "synonyms": [],
+        "search_terms": [
+          "obstructive",
+          "pulmonary",
+          "disease,",
+          "pulmonary disease, chronic obstructive",
+          "chronic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A disease of chronic diffuse irreversible airflow obstruction. Subcategories of COPD include CHRONIC BRONCHITIS and PULMONARY EMPHYSEMA.",
+        "cleaned_description": "A disease of chronic diffuse irreversible airflow obstruction. Subcategories of COPD include CHRONIC BRONCHITIS and PULMONARY EMPHYSEMA.",
+        "description_summary": "A disease of chronic diffuse irreversible airflow obstruction.",
+        "key_terms": [
+          "BRONCHITIS"
+        ],
+        "word_count": 17
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Pathology (process)",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Pathology (process)",
+          "Respiratory tract disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.940295",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011656",
+      "DiseaseName": "Pulmonary Emphysema",
+      "DiseaseDescription": "Enlargement of air spaces distal to the TERMINAL BRONCHIOLES where gas-exchange normally takes place. This is usually due to destruction of the alveolar wall. Pulmonary emphysema can be classified by the location and distribution of the lesions.",
+      "SlimMapping": "['Pathology (process)', 'Respiratory tract disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011656",
+        "standardized_id": "MESH:D011656",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pulmonary Emphysema",
+        "standardized_name": "Pulmonary Emphysema",
+        "normalized_name": "pulmonary emphysema",
+        "synonyms": [],
+        "search_terms": [
+          "emphysema",
+          "pulmonary emphysema",
+          "pulmonary"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Enlargement of air spaces distal to the TERMINAL BRONCHIOLES where gas-exchange normally takes place. This is usually due to destruction of the alveolar wall. Pulmonary emphysema can be classified by the location and distribution of the lesions.",
+        "cleaned_description": "Enlargement of air spaces distal to the TERMINAL BRONCHIOLES where gas-exchange normally takes place. This is usually due to destruction of the alveolar wall. Pulmonary emphysema can be classified by the location and distribution of the lesions.",
+        "description_summary": "Enlargement of air spaces distal to the TERMINAL BRONCHIOLES where gas-exchange normally takes place.",
+        "key_terms": [],
+        "word_count": 37
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Pathology (process)",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Pathology (process)",
+          "Respiratory tract disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.940902",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011658",
+      "DiseaseName": "Pulmonary Fibrosis",
+      "DiseaseDescription": "A process in which normal lung tissues are progressively replaced by FIBROBLASTS and COLLAGEN causing an irreversible loss of the ability to transfer oxygen into the bloodstream via PULMONARY ALVEOLI. Patients show progressive DYSPNEA finally resulting in death.",
+      "SlimMapping": "['Pathology (process)', 'Respiratory tract disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011658",
+        "standardized_id": "MESH:D011658",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pulmonary Fibrosis",
+        "standardized_name": "Pulmonary Fibrosis",
+        "normalized_name": "pulmonary fibrosis",
+        "synonyms": [],
+        "search_terms": [
+          "pulmonary fibrosis",
+          "fibrosis",
+          "pulmonary"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A process in which normal lung tissues are progressively replaced by FIBROBLASTS and COLLAGEN causing an irreversible loss of the ability to transfer oxygen into the bloodstream via PULMONARY ALVEOLI. Patients show progressive DYSPNEA finally resulting in death.",
+        "cleaned_description": "A process in which normal lung tissues are progressively replaced by FIBROBLASTS and COLLAGEN causing an irreversible loss of the ability to transfer oxygen into the bloodstream via PULMONARY ALVEOLI. Patients show progressive DYSPNEA finally resulting in death.",
+        "description_summary": "A process in which normal lung tissues are progressively replaced by FIBROBLASTS and COLLAGEN causing an irreversible loss of the ability to transfer oxygen into the bloodstream via PULMONARY ALVEOLI.",
+        "key_terms": [],
+        "word_count": 38
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Pathology (process)",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Pathology (process)",
+          "Respiratory tract disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.941408",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

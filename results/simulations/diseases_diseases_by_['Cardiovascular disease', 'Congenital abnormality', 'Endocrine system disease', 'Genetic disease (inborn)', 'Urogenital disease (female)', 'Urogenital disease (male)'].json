@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cardiovascular disease', 'Congenital abnormality', 'Endocrine system disease', 'Genetic disease (inborn)', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+    "export_timestamp": "2026-03-28T22:11:36.323192",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D014424",
+      "DiseaseName": "Turner Syndrome",
+      "DiseaseDescription": "A syndrome of defective gonadal development in phenotypic females associated with the karyotype 45,X (or 45,XO). Patients generally are of short stature with undifferentiated GONADS (streak gonads), SEXUAL INFANTILISM, HYPOGONADISM, webbing of the neck, cubitus valgus, elevated GONADOTROPINS, decreased ESTRADIOL level in blood, and CONGENITAL HEART DEFECTS. NOONAN SYNDROME (also called Pseudo-Turner Syndrome and Male Turner Syndrome) resembles this disorder; however, it occurs in males and females with a normal karyotype and is inherited as an autosomal dominant.",
+      "SlimMapping": "['Cardiovascular disease', 'Congenital abnormality', 'Endocrine system disease', 'Genetic disease (inborn)', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014424",
+        "standardized_id": "MESH:D014424",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Turner Syndrome",
+        "standardized_name": "Turner Syndrome",
+        "normalized_name": "turner syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "turner",
+          "syndrome",
+          "turner syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A syndrome of defective gonadal development in phenotypic females associated with the karyotype 45,X (or 45,XO). Patients generally are of short stature with undifferentiated GONADS (streak gonads), SEXUAL INFANTILISM, HYPOGONADISM, webbing of the neck, cubitus valgus, elevated GONADOTROPINS, decreased ESTRADIOL level in blood, and CONGENITAL HEART DEFECTS. NOONAN SYNDROME (also called Pseudo-Turner Syndrome and Male Turner Syndrome) resembles this disorder; however, it occurs in males and females with a normal karyotype and is inherited as an autosomal dominant.",
+        "cleaned_description": "A syndrome of defective gonadal development in phenotypic females associated with the karyotype 45,X (or 45,XO). Patients generally are of short stature with undifferentiated GONADS (streak gonads), SEXUAL INFANTILISM, HYPOGONADISM, webbing of the neck, cubitus valgus, elevated GONADOTROPINS, decreased ESTRADIOL level in blood, and CONGENITAL HEART DEFECTS. NOONAN SYNDROME (also called Pseudo-Turner Syndrome and Male Turner Syndrome) resembles this disorder; however, it occurs in males and females with a normal karyotype and is inherited as an autosomal dominant.",
+        "description_summary": "A syndrome of defective gonadal development in phenotypic females associated with the karyotype 45,X (or 45,XO).",
+        "key_terms": [],
+        "word_count": 78
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality",
+          "Endocrine system disease",
+          "Genetic disease (inborn)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality",
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "cardiovascular",
+          "genetic"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality",
+          "Endocrine system disease",
+          "Genetic disease (inborn)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 6
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.007829",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

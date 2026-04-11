@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Bacterial infection or mycosis', 'Respiratory tract disease']",
+    "export_timestamp": "2026-03-28T22:11:36.275544",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D011018",
+      "DiseaseName": "Pneumonia, Pneumococcal",
+      "DiseaseDescription": "A febrile disease caused by STREPTOCOCCUS PNEUMONIAE.",
+      "SlimMapping": "['Bacterial infection or mycosis', 'Respiratory tract disease']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011018",
+        "standardized_id": "MESH:D011018",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pneumonia, Pneumococcal",
+        "standardized_name": "Pneumonia, Pneumococcal",
+        "normalized_name": "pneumonia pneumococcal",
+        "synonyms": [],
+        "search_terms": [
+          "pneumonia, pneumococcal",
+          "pneumococcal",
+          "pneumonia,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A febrile disease caused by STREPTOCOCCUS PNEUMONIAE.",
+        "cleaned_description": "A febrile disease caused by STREPTOCOCCUS PNEUMONIAE.",
+        "description_summary": "A febrile disease caused by STREPTOCOCCUS PNEUMONIAE.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Bacterial infection or mycosis",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Bacterial infection or mycosis",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory",
+          "infectious"
+        ],
+        "all_categories": [
+          "Bacterial infection or mycosis",
+          "Respiratory tract disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.919560",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014397",
+      "DiseaseName": "Tuberculosis, Pulmonary",
+      "DiseaseDescription": "MYCOBACTERIUM infections of the lung.",
+      "SlimMapping": "['Bacterial infection or mycosis', 'Respiratory tract disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014397",
+        "standardized_id": "MESH:D014397",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Tuberculosis, Pulmonary",
+        "standardized_name": "Tuberculosis, Pulmonary",
+        "normalized_name": "tuberculosis pulmonary",
+        "synonyms": [],
+        "search_terms": [
+          "tuberculosis, pulmonary",
+          "tuberculosis,",
+          "pulmonary"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "MYCOBACTERIUM infections of the lung.",
+        "cleaned_description": "MYCOBACTERIUM infections of the lung.",
+        "description_summary": "MYCOBACTERIUM infections of the lung.",
+        "key_terms": [],
+        "word_count": 5
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Bacterial infection or mycosis",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Bacterial infection or mycosis",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory",
+          "infectious"
+        ],
+        "all_categories": [
+          "Bacterial infection or mycosis",
+          "Respiratory tract disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.006911",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

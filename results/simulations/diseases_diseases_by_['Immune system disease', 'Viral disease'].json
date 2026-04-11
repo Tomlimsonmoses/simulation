@@ -1,0 +1,294 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Immune system disease', 'Viral disease']",
+    "export_timestamp": "2026-03-28T22:11:35.221130",
+    "total_records": 4
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000163",
+      "DiseaseName": "Acquired Immunodeficiency Syndrome",
+      "DiseaseDescription": "An acquired defect of cellular immunity associated with infection by the human immunodeficiency virus (HIV), a CD4-positive T-lymphocyte count under 200 cells/microliter or less than 14% of total lymphocytes, and increased susceptibility to opportunistic infections and malignant neoplasms. Clinical manifestations also include emaciation (wasting) and dementia. These elements reflect criteria for AIDS as defined by the CDC in 1993.",
+      "SlimMapping": "['Immune system disease', 'Viral disease']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000163",
+        "standardized_id": "MESH:D000163",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Acquired Immunodeficiency Syndrome",
+        "standardized_name": "Acquired Immunodeficiency Syndrome",
+        "normalized_name": "acquired immunodeficiency syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "acquired",
+          "immunodeficiency",
+          "acquired immunodeficiency syndrome",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An acquired defect of cellular immunity associated with infection by the human immunodeficiency virus (HIV), a CD4-positive T-lymphocyte count under 200 cells/microliter or less than 14% of total lymphocytes, and increased susceptibility to opportunistic infections and malignant neoplasms. Clinical manifestations also include emaciation (wasting) and dementia. These elements reflect criteria for AIDS as defined by the CDC in 1993.",
+        "cleaned_description": "An acquired defect of cellular immunity associated with infection by the human immunodeficiency virus (HIV), a CD4-positive T-lymphocyte count under 200 cells/microliter or less than 14% of total lymphocytes, and increased susceptibility to opportunistic infections and malignant neoplasms. Clinical manifestations also include emaciation (wasting) and dementia. These elements reflect criteria for AIDS as defined by the CDC in 1993.",
+        "description_summary": "An acquired defect of cellular immunity associated with infection by the human immunodeficiency virus (HIV), a CD4-positive T-lymphocyte count under 200 cells/microliter or less than 14% of total lymphocytes, and increased susceptibility to opportunistic infections and malignant neoplasms.",
+        "key_terms": [],
+        "word_count": 59
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease",
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Immune system disease",
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "immune_system",
+          "infectious"
+        ],
+        "all_categories": [
+          "Immune system disease",
+          "Viral disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.353480",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D017088",
+      "DiseaseName": "AIDS-Related Opportunistic Infections",
+      "DiseaseDescription": "Opportunistic infections found in patients who test positive for human immunodeficiency virus (HIV). The most common include PNEUMOCYSTIS PNEUMONIA, Kaposi's sarcoma, cryptosporidiosis, herpes simplex, toxoplasmosis, cryptococcosis, and infections with Mycobacterium avium complex, Microsporidium, and Cytomegalovirus.",
+      "SlimMapping": "['Immune system disease', 'Viral disease']",
+      "PathwayNames": "Vpu mediated degradation of CD4",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017088",
+        "standardized_id": "MESH:D017088",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "AIDS-Related Opportunistic Infections",
+        "standardized_name": "AIDS-Related Opportunistic Infections",
+        "normalized_name": "aids-related opportunistic infections",
+        "synonyms": [],
+        "search_terms": [
+          "infections",
+          "aids-related",
+          "aids-related opportunistic infections",
+          "opportunistic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Opportunistic infections found in patients who test positive for human immunodeficiency virus (HIV). The most common include PNEUMOCYSTIS PNEUMONIA, Kaposi's sarcoma, cryptosporidiosis, herpes simplex, toxoplasmosis, cryptococcosis, and infections with Mycobacterium avium complex, Microsporidium, and Cytomegalovirus.",
+        "cleaned_description": "Opportunistic infections found in patients who test positive for human immunodeficiency virus (HIV). The most common include PNEUMOCYSTIS PNEUMONIA, Kaposi's sarcoma, cryptosporidiosis, herpes simplex, toxoplasmosis, cryptococcosis, and infections with Mycobacterium avium complex, Microsporidium, and Cytomegalovirus.",
+        "description_summary": "Opportunistic infections found in patients who test positive for human immunodeficiency virus (HIV).",
+        "key_terms": [
+          "cryptosporidiosis",
+          "cryptococcosis",
+          "toxoplasmosis"
+        ],
+        "word_count": 35
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease",
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Immune system disease",
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "immune_system",
+          "infectious"
+        ],
+        "all_categories": [
+          "Immune system disease",
+          "Viral disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vpu mediated degradation of CD4",
+        "pathway_list": [
+          "Vpu mediated degradation of CD4"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.358776",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D015658",
+      "DiseaseName": "HIV Infections",
+      "DiseaseDescription": "Includes the spectrum of human immunodeficiency virus infections that range from asymptomatic seropositivity, thru AIDS-related complex (ARC), to acquired immunodeficiency syndrome (AIDS).",
+      "SlimMapping": "['Immune system disease', 'Viral disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D015658",
+        "standardized_id": "MESH:D015658",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "HIV Infections",
+        "standardized_name": "HIV Infections",
+        "normalized_name": "hiv infections",
+        "synonyms": [],
+        "search_terms": [
+          "hiv",
+          "infections",
+          "hiv infections"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Includes the spectrum of human immunodeficiency virus infections that range from asymptomatic seropositivity, thru AIDS-related complex (ARC), to acquired immunodeficiency syndrome (AIDS).",
+        "cleaned_description": "Includes the spectrum of human immunodeficiency virus infections that range from asymptomatic seropositivity, thru AIDS-related complex (ARC), to acquired immunodeficiency syndrome (AIDS).",
+        "description_summary": "Includes the spectrum of human immunodeficiency virus infections that range from asymptomatic seropositivity, thru AIDS-related complex (ARC), to acquired immunodeficiency syndrome (AIDS).",
+        "key_terms": [],
+        "word_count": 22
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease",
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Immune system disease",
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "immune_system",
+          "infectious"
+        ],
+        "all_categories": [
+          "Immune system disease",
+          "Viral disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.658963",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006679",
+      "DiseaseName": "HIV Seropositivity",
+      "DiseaseDescription": "Development of neutralizing antibodies in individuals who have been exposed to the human immunodeficiency virus (HIV/HTLV-III/LAV).",
+      "SlimMapping": "['Immune system disease', 'Viral disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006679",
+        "standardized_id": "MESH:D006679",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "HIV Seropositivity",
+        "standardized_name": "HIV Seropositivity",
+        "normalized_name": "hiv seropositivity",
+        "synonyms": [],
+        "search_terms": [
+          "hiv",
+          "hiv seropositivity",
+          "seropositivity"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Development of neutralizing antibodies in individuals who have been exposed to the human immunodeficiency virus (HIV/HTLV-III/LAV).",
+        "cleaned_description": "Development of neutralizing antibodies in individuals who have been exposed to the human immunodeficiency virus (HIV/HTLV-III/LAV).",
+        "description_summary": "Development of neutralizing antibodies in individuals who have been exposed to the human immunodeficiency virus (HIV/HTLV-III/LAV).",
+        "key_terms": [],
+        "word_count": 16
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease",
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Immune system disease",
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "immune_system",
+          "infectious"
+        ],
+        "all_categories": [
+          "Immune system disease",
+          "Viral disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.659142",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

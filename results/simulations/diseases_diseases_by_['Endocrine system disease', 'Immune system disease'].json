@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Endocrine system disease', 'Immune system disease']",
+    "export_timestamp": "2026-03-28T22:11:35.395591",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000224",
+      "DiseaseName": "Addison Disease",
+      "DiseaseDescription": "An adrenal disease characterized by the progressive destruction of the ADRENAL CORTEX, resulting in insufficient production of ALDOSTERONE and HYDROCORTISONE. Clinical symptoms include ANOREXIA; NAUSEA; WEIGHT LOSS; MUSCLE WEAKNESS; and HYPERPIGMENTATION of the SKIN due to increase in circulating levels of ACTH precursor hormone which stimulates MELANOCYTES.",
+      "SlimMapping": "['Endocrine system disease', 'Immune system disease']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000224",
+        "standardized_id": "MESH:D000224",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Addison Disease",
+        "standardized_name": "Addison Disease",
+        "normalized_name": "addison disease",
+        "synonyms": [],
+        "search_terms": [
+          "addison",
+          "disease",
+          "addison disease"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An adrenal disease characterized by the progressive destruction of the ADRENAL CORTEX, resulting in insufficient production of ALDOSTERONE and HYDROCORTISONE. Clinical symptoms include ANOREXIA; NAUSEA; WEIGHT LOSS; MUSCLE WEAKNESS; and HYPERPIGMENTATION of the SKIN due to increase in circulating levels of ACTH precursor hormone which stimulates MELANOCYTES.",
+        "cleaned_description": "An adrenal disease characterized by the progressive destruction of the ADRENAL CORTEX, resulting in insufficient production of ALDOSTERONE and HYDROCORTISONE. Clinical symptoms include ANOREXIA; NAUSEA; WEIGHT LOSS; MUSCLE WEAKNESS; and HYPERPIGMENTATION of the SKIN due to increase in circulating levels of ACTH precursor hormone which stimulates MELANOCYTES.",
+        "description_summary": "An adrenal disease characterized by the progressive destruction of the ADRENAL CORTEX, resulting in insufficient production of ALDOSTERONE and HYDROCORTISONE.",
+        "key_terms": [],
+        "word_count": 47
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease",
+          "Immune system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease",
+          "Immune system disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "immune_system"
+        ],
+        "all_categories": [
+          "Endocrine system disease",
+          "Immune system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.355681",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013967",
+      "DiseaseName": "Thyroiditis, Autoimmune",
+      "DiseaseDescription": "Inflammatory disease of the THYROID GLAND due to autoimmune responses leading to lymphocytic infiltration of the gland. It is characterized by the presence of circulating thyroid antigen-specific T-CELLS and thyroid AUTOANTIBODIES. The clinical signs can range from HYPOTHYROIDISM to THYROTOXICOSIS depending on the type of autoimmune thyroiditis.",
+      "SlimMapping": "['Endocrine system disease', 'Immune system disease']",
+      "PathwayNames": "Thyroid hormone synthesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013967",
+        "standardized_id": "MESH:D013967",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Thyroiditis, Autoimmune",
+        "standardized_name": "Thyroiditis, Autoimmune",
+        "normalized_name": "thyroiditis autoimmune",
+        "synonyms": [],
+        "search_terms": [
+          "autoimmune",
+          "thyroiditis, autoimmune",
+          "thyroiditis,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inflammatory disease of the THYROID GLAND due to autoimmune responses leading to lymphocytic infiltration of the gland. It is characterized by the presence of circulating thyroid antigen-specific T-CELLS and thyroid AUTOANTIBODIES. The clinical signs can range from HYPOTHYROIDISM to THYROTOXICOSIS depending on the type of autoimmune thyroiditis.",
+        "cleaned_description": "Inflammatory disease of the THYROID GLAND due to autoimmune responses leading to lymphocytic infiltration of the gland. It is characterized by the presence of circulating thyroid antigen-specific T-CELLS and thyroid AUTOANTIBODIES. The clinical signs can range from HYPOTHYROIDISM to THYROTOXICOSIS depending on the type of autoimmune thyroiditis.",
+        "description_summary": "Inflammatory disease of the THYROID GLAND due to autoimmune responses leading to lymphocytic infiltration of the gland.",
+        "key_terms": [
+          "THYROTOXICOSIS",
+          "thyroiditis"
+        ],
+        "word_count": 47
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease",
+          "Immune system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease",
+          "Immune system disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "immune_system"
+        ],
+        "all_categories": [
+          "Endocrine system disease",
+          "Immune system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Thyroid hormone synthesis",
+        "pathway_list": [
+          "Thyroid hormone synthesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.996649",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

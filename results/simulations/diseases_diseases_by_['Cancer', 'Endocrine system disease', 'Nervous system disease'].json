@@ -1,0 +1,227 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Endocrine system disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.040221",
+    "total_records": 3
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D049912",
+      "DiseaseName": "Growth Hormone-Secreting Pituitary Adenoma",
+      "DiseaseDescription": "A pituitary tumor that secretes GROWTH HORMONE. In humans, excess HUMAN GROWTH HORMONE leads to ACROMEGALY.",
+      "SlimMapping": "['Cancer', 'Endocrine system disease', 'Nervous system disease']",
+      "PathwayNames": "Vibrio cholerae infection",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D049912",
+        "standardized_id": "MESH:D049912",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Growth Hormone-Secreting Pituitary Adenoma",
+        "standardized_name": "Growth Hormone-Secreting Pituitary Adenoma",
+        "normalized_name": "growth hormone-secreting pituitary adenoma",
+        "synonyms": [],
+        "search_terms": [
+          "growth hormone-secreting pituitary adenoma",
+          "growth",
+          "hormone-secreting",
+          "adenoma",
+          "pituitary"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A pituitary tumor that secretes GROWTH HORMONE. In humans, excess HUMAN GROWTH HORMONE leads to ACROMEGALY.",
+        "cleaned_description": "A pituitary tumor that secretes GROWTH HORMONE. In humans, excess HUMAN GROWTH HORMONE leads to ACROMEGALY.",
+        "description_summary": "A pituitary tumor that secretes GROWTH HORMONE.",
+        "key_terms": [],
+        "word_count": 16
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vibrio cholerae infection",
+        "pathway_list": [
+          "Vibrio cholerae infection"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.559576",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010911",
+      "DiseaseName": "Pituitary Neoplasms",
+      "DiseaseDescription": "Neoplasms which arise from or metastasize to the PITUITARY GLAND. The majority of pituitary neoplasms are adenomas, which are divided into non-secreting and secreting forms. Hormone producing forms are further classified by the type of hormone they secrete. Pituitary adenomas may also be characterized by their staining properties (see ADENOMA, BASOPHIL; ADENOMA, ACIDOPHIL; and ADENOMA, CHROMOPHOBE). Pituitary tumors may compress adjacent structures, including the HYPOTHALAMUS, several CRANIAL NERVES, and the OPTIC CHIASM. Chiasmal compression may result in bitemporal HEMIANOPSIA.",
+      "SlimMapping": "['Cancer', 'Endocrine system disease', 'Nervous system disease']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010911",
+        "standardized_id": "MESH:D010911",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pituitary Neoplasms",
+        "standardized_name": "Pituitary Neoplasms",
+        "normalized_name": "pituitary neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "pituitary neoplasms",
+          "pituitary"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Neoplasms which arise from or metastasize to the PITUITARY GLAND. The majority of pituitary neoplasms are adenomas, which are divided into non-secreting and secreting forms. Hormone producing forms are further classified by the type of hormone they secrete. Pituitary adenomas may also be characterized by their staining properties (see ADENOMA, BASOPHIL; ADENOMA, ACIDOPHIL; and ADENOMA, CHROMOPHOBE). Pituitary tumors may compress adjacent structures, including the HYPOTHALAMUS, several CRANIAL NERVES, and the OPTIC CHIASM. Chiasmal compression may result in bitemporal HEMIANOPSIA.",
+        "cleaned_description": "Neoplasms which arise from or metastasize to the PITUITARY GLAND. The majority of pituitary neoplasms are adenomas, which are divided into non-secreting and secreting forms. Hormone producing forms are further classified by the type of hormone they secrete. Pituitary adenomas may also be characterized by their staining properties (see ADENOMA, BASOPHIL; ADENOMA, ACIDOPHIL; and ADENOMA, CHROMOPHOBE). Pituitary tumors may compress adjacent structures, including the HYPOTHALAMUS, several CRANIAL NERVES, and the OPTIC CHIASM. Chiasmal compression may result in bitemporal HEMIANOPSIA.",
+        "description_summary": "Neoplasms which arise from or metastasize to the PITUITARY GLAND.",
+        "key_terms": [],
+        "word_count": 79
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.916578",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D015175",
+      "DiseaseName": "Prolactinoma",
+      "DiseaseDescription": "A pituitary adenoma which secretes PROLACTIN, leading to HYPERPROLACTINEMIA. Clinical manifestations include AMENORRHEA; GALACTORRHEA; IMPOTENCE; HEADACHE; visual disturbances; and CEREBROSPINAL FLUID RHINORRHEA.",
+      "SlimMapping": "['Cancer', 'Endocrine system disease', 'Nervous system disease']",
+      "PathwayNames": "Transcriptional regulation of white adipocyte differentiation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D015175",
+        "standardized_id": "MESH:D015175",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Prolactinoma",
+        "standardized_name": "Prolactinoma",
+        "normalized_name": "prolactinoma",
+        "synonyms": [],
+        "search_terms": [
+          "prolactinoma"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A pituitary adenoma which secretes PROLACTIN, leading to HYPERPROLACTINEMIA. Clinical manifestations include AMENORRHEA; GALACTORRHEA; IMPOTENCE; HEADACHE; visual disturbances; and CEREBROSPINAL FLUID RHINORRHEA.",
+        "cleaned_description": "A pituitary adenoma which secretes PROLACTIN, leading to HYPERPROLACTINEMIA. Clinical manifestations include AMENORRHEA; GALACTORRHEA; IMPOTENCE; HEADACHE; visual disturbances; and CEREBROSPINAL FLUID RHINORRHEA.",
+        "description_summary": "A pituitary adenoma which secretes PROLACTIN, leading to HYPERPROLACTINEMIA.",
+        "key_terms": [
+          "HYPERPROLACTINEMIA"
+        ],
+        "word_count": 22
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional regulation of white adipocyte differentiation",
+        "pathway_list": [
+          "Transcriptional regulation of white adipocyte differentiation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional regulation of white adipocyte differentiation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.930187",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+    "export_timestamp": "2026-03-28T22:11:35.850081",
+    "total_records": 6
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D002292",
+      "DiseaseName": "Carcinoma, Renal Cell",
+      "DiseaseDescription": "A heterogeneous group of sporadic or hereditary carcinoma derived from cells of the KIDNEYS. There are several subtypes including the clear cells, the papillary, the chromophobe, the collecting duct, the spindle cells (sarcomatoid), or mixed cell-type carcinoma.",
+      "SlimMapping": "['Cancer', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002292",
+        "standardized_id": "MESH:D002292",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Carcinoma, Renal Cell",
+        "standardized_name": "Carcinoma, Renal Cell",
+        "normalized_name": "carcinoma renal cell",
+        "synonyms": [],
+        "search_terms": [
+          "renal",
+          "cell",
+          "carcinoma, renal cell",
+          "carcinoma,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A heterogeneous group of sporadic or hereditary carcinoma derived from cells of the KIDNEYS. There are several subtypes including the clear cells, the papillary, the chromophobe, the collecting duct, the spindle cells (sarcomatoid), or mixed cell-type carcinoma.",
+        "cleaned_description": "A heterogeneous group of sporadic or hereditary carcinoma derived from cells of the KIDNEYS. There are several subtypes including the clear cells, the papillary, the chromophobe, the collecting duct, the spindle cells (sarcomatoid), or mixed cell-type carcinoma.",
+        "description_summary": "A heterogeneous group of sporadic or hereditary carcinoma derived from cells of the KIDNEYS.",
+        "key_terms": [],
+        "word_count": 37
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.424589",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007680",
+      "DiseaseName": "Kidney Neoplasms",
+      "DiseaseDescription": "Tumors or cancers of the KIDNEY.",
+      "SlimMapping": "['Cancer', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007680",
+        "standardized_id": "MESH:D007680",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Kidney Neoplasms",
+        "standardized_name": "Kidney Neoplasms",
+        "normalized_name": "kidney neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "kidney neoplasms",
+          "kidney"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancers of the KIDNEY.",
+        "cleaned_description": "Tumors or cancers of the KIDNEY.",
+        "description_summary": "Tumors or cancers of the KIDNEY.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.799616",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014516",
+      "DiseaseName": "Ureteral Neoplasms",
+      "DiseaseDescription": "Cancer or tumors of the URETER which may cause obstruction leading to hydroureter, HYDRONEPHROSIS, and PYELONEPHRITIS. HEMATURIA is a common symptom.",
+      "SlimMapping": "['Cancer', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014516",
+        "standardized_id": "MESH:D014516",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Ureteral Neoplasms",
+        "standardized_name": "Ureteral Neoplasms",
+        "normalized_name": "ureteral neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "ureteral",
+          "ureteral neoplasms"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Cancer or tumors of the URETER which may cause obstruction leading to hydroureter, HYDRONEPHROSIS, and PYELONEPHRITIS. HEMATURIA is a common symptom.",
+        "cleaned_description": "Cancer or tumors of the URETER which may cause obstruction leading to hydroureter, HYDRONEPHROSIS, and PYELONEPHRITIS. HEMATURIA is a common symptom.",
+        "description_summary": "Cancer or tumors of the URETER which may cause obstruction leading to hydroureter, HYDRONEPHROSIS, and PYELONEPHRITIS.",
+        "key_terms": [
+          "HYDRONEPHROSIS",
+          "PYELONEPHRITIS"
+        ],
+        "word_count": 21
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.010356",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001749",
+      "DiseaseName": "Urinary Bladder Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the URINARY BLADDER.",
+      "SlimMapping": "['Cancer', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001749",
+        "standardized_id": "MESH:D001749",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Urinary Bladder Neoplasms",
+        "standardized_name": "Urinary Bladder Neoplasms",
+        "normalized_name": "urinary bladder neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "urinary",
+          "bladder",
+          "urinary bladder neoplasms",
+          "neoplasms"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the URINARY BLADDER.",
+        "cleaned_description": "Tumors or cancer of the URINARY BLADDER.",
+        "description_summary": "Tumors or cancer of the URINARY BLADDER.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.011566",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014565",
+      "DiseaseName": "Urogenital Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the UROGENITAL SYSTEM in either the male or the female.",
+      "SlimMapping": "['Cancer', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014565",
+        "standardized_id": "MESH:D014565",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Urogenital Neoplasms",
+        "standardized_name": "Urogenital Neoplasms",
+        "normalized_name": "urogenital neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "urogenital neoplasms",
+          "urogenital"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the UROGENITAL SYSTEM in either the male or the female.",
+        "cleaned_description": "Tumors or cancer of the UROGENITAL SYSTEM in either the male or the female.",
+        "description_summary": "Tumors or cancer of the UROGENITAL SYSTEM in either the male or the female.",
+        "key_terms": [],
+        "word_count": 14
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.013309",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014571",
+      "DiseaseName": "Urologic Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the URINARY TRACT in either the male or the female.",
+      "SlimMapping": "['Cancer', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014571",
+        "standardized_id": "MESH:D014571",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Urologic Neoplasms",
+        "standardized_name": "Urologic Neoplasms",
+        "normalized_name": "urologic neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "urologic",
+          "urologic neoplasms"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the URINARY TRACT in either the male or the female.",
+        "cleaned_description": "Tumors or cancer of the URINARY TRACT in either the male or the female.",
+        "description_summary": "Tumors or cancer of the URINARY TRACT in either the male or the female.",
+        "key_terms": [],
+        "word_count": 14
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.014017",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

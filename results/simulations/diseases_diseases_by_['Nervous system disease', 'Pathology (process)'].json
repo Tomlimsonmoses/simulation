@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Nervous system disease', 'Pathology (process)']",
+    "export_timestamp": "2026-03-28T22:11:36.226228",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D020078",
+      "DiseaseName": "Neurogenic Inflammation",
+      "DiseaseDescription": "Inflammation caused by an injurious stimulus of peripheral neurons and resulting in release of neuropeptides which affect vascular permeability and help initiate proinflammatory and immune reactions at the site of injury.",
+      "SlimMapping": "['Nervous system disease', 'Pathology (process)']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020078",
+        "standardized_id": "MESH:D020078",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Neurogenic Inflammation",
+        "standardized_name": "Neurogenic Inflammation",
+        "normalized_name": "neurogenic inflammation",
+        "synonyms": [],
+        "search_terms": [
+          "neurogenic inflammation",
+          "neurogenic",
+          "inflammation"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inflammation caused by an injurious stimulus of peripheral neurons and resulting in release of neuropeptides which affect vascular permeability and help initiate proinflammatory and immune reactions at the site of injury.",
+        "cleaned_description": "Inflammation caused by an injurious stimulus of peripheral neurons and resulting in release of neuropeptides which affect vascular permeability and help initiate proinflammatory and immune reactions at the site of injury.",
+        "description_summary": "Inflammation caused by an injurious stimulus of peripheral neurons and resulting in release of neuropeptides which affect vascular permeability and help initiate proinflammatory and immune reactions at the site of injury.",
+        "key_terms": [],
+        "word_count": 31
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Pathology (process)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.883502",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Digestive system disease', 'Pathology (process)', 'Substance-related disorder']",
+    "export_timestamp": "2026-03-28T22:11:36.141844",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D008104",
+      "DiseaseName": "Liver Cirrhosis, Alcoholic",
+      "DiseaseDescription": "FIBROSIS of the hepatic parenchyma due to chronic excess ALCOHOL DRINKING.",
+      "SlimMapping": "['Digestive system disease', 'Pathology (process)', 'Substance-related disorder']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008104",
+        "standardized_id": "MESH:D008104",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Liver Cirrhosis, Alcoholic",
+        "standardized_name": "Liver Cirrhosis, Alcoholic",
+        "normalized_name": "liver cirrhosis alcoholic",
+        "synonyms": [],
+        "search_terms": [
+          "alcoholic",
+          "cirrhosis,",
+          "liver",
+          "liver cirrhosis, alcoholic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "FIBROSIS of the hepatic parenchyma due to chronic excess ALCOHOL DRINKING.",
+        "cleaned_description": "FIBROSIS of the hepatic parenchyma due to chronic excess ALCOHOL DRINKING.",
+        "description_summary": "FIBROSIS of the hepatic parenchyma due to chronic excess ALCOHOL DRINKING.",
+        "key_terms": [
+          "FIBROSIS"
+        ],
+        "word_count": 11
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease",
+          "Pathology (process)",
+          "Substance-related disorder"
+        ],
+        "primary_categories": [
+          "Digestive system disease",
+          "Pathology (process)",
+          "Substance-related disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease",
+          "Pathology (process)",
+          "Substance-related disorder"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.820015",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

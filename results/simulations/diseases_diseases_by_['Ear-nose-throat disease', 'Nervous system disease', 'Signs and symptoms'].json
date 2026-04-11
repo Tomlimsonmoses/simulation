@@ -1,0 +1,566 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Ear-nose-throat disease', 'Nervous system disease', 'Signs and symptoms']",
+    "export_timestamp": "2026-03-28T22:11:35.910557",
+    "total_records": 8
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D003638",
+      "DiseaseName": "Deafness",
+      "DiseaseDescription": "A general term for the complete loss of the ability to hear from both ears.",
+      "SlimMapping": "['Ear-nose-throat disease', 'Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003638",
+        "standardized_id": "MESH:D003638",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Deafness",
+        "standardized_name": "Deafness",
+        "normalized_name": "deafness",
+        "synonyms": [],
+        "search_terms": [
+          "deafness"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A general term for the complete loss of the ability to hear from both ears.",
+        "cleaned_description": "A general term for the complete loss of the ability to hear from both ears.",
+        "description_summary": "A general term for the complete loss of the ability to hear from both ears.",
+        "key_terms": [],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Ear-nose-throat disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Ear-nose-throat disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Ear-nose-throat disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.466339",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006311",
+      "DiseaseName": "Hearing Disorders",
+      "DiseaseDescription": "Conditions that impair the transmission of auditory impulses and information from the level of the ear to the temporal cortices, including the sensorineural pathways.",
+      "SlimMapping": "['Ear-nose-throat disease', 'Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Small interfering RNA (siRNA) biogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006311",
+        "standardized_id": "MESH:D006311",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hearing Disorders",
+        "standardized_name": "Hearing Disorders",
+        "normalized_name": "hearing disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "hearing",
+          "hearing disorders"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Conditions that impair the transmission of auditory impulses and information from the level of the ear to the temporal cortices, including the sensorineural pathways.",
+        "cleaned_description": "Conditions that impair the transmission of auditory impulses and information from the level of the ear to the temporal cortices, including the sensorineural pathways.",
+        "description_summary": "Conditions that impair the transmission of auditory impulses and information from the level of the ear to the temporal cortices, including the sensorineural pathways.",
+        "key_terms": [],
+        "word_count": 24
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Ear-nose-throat disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Ear-nose-throat disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Ear-nose-throat disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Small interfering RNA (siRNA) biogenesis",
+        "pathway_list": [
+          "Small interfering RNA (siRNA) biogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.607255",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D034381",
+      "DiseaseName": "Hearing Loss",
+      "DiseaseDescription": "A general term for the complete or partial loss of the ability to hear from one or both ears.",
+      "SlimMapping": "['Ear-nose-throat disease', 'Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Visual phototransduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D034381",
+        "standardized_id": "MESH:D034381",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hearing Loss",
+        "standardized_name": "Hearing Loss",
+        "normalized_name": "hearing loss",
+        "synonyms": [],
+        "search_terms": [
+          "hearing",
+          "loss",
+          "hearing loss"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A general term for the complete or partial loss of the ability to hear from one or both ears.",
+        "cleaned_description": "A general term for the complete or partial loss of the ability to hear from one or both ears.",
+        "description_summary": "A general term for the complete or partial loss of the ability to hear from one or both ears.",
+        "key_terms": [],
+        "word_count": 19
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Ear-nose-throat disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Ear-nose-throat disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Ear-nose-throat disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Visual phototransduction",
+        "pathway_list": [
+          "Visual phototransduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.607519",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006314",
+      "DiseaseName": "Hearing Loss, Conductive",
+      "DiseaseDescription": "Hearing loss due to interference with the mechanical reception or amplification of sound to the COCHLEA. The interference is in the outer or middle ear involving the EAR CANAL; TYMPANIC MEMBRANE; or EAR OSSICLES.",
+      "SlimMapping": "['Ear-nose-throat disease', 'Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Transcriptional misregulation in cancer",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006314",
+        "standardized_id": "MESH:D006314",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hearing Loss, Conductive",
+        "standardized_name": "Hearing Loss, Conductive",
+        "normalized_name": "hearing loss conductive",
+        "synonyms": [],
+        "search_terms": [
+          "hearing",
+          "hearing loss, conductive",
+          "loss,",
+          "conductive"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Hearing loss due to interference with the mechanical reception or amplification of sound to the COCHLEA. The interference is in the outer or middle ear involving the EAR CANAL; TYMPANIC MEMBRANE; or EAR OSSICLES.",
+        "cleaned_description": "Hearing loss due to interference with the mechanical reception or amplification of sound to the COCHLEA. The interference is in the outer or middle ear involving the EAR CANAL; TYMPANIC MEMBRANE; or EAR OSSICLES.",
+        "description_summary": "Hearing loss due to interference with the mechanical reception or amplification of sound to the COCHLEA.",
+        "key_terms": [],
+        "word_count": 34
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Ear-nose-throat disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Ear-nose-throat disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Ear-nose-throat disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional misregulation in cancer",
+        "pathway_list": [
+          "Transcriptional misregulation in cancer"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional misregulation in cancer"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.608957",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006317",
+      "DiseaseName": "Hearing Loss, Noise-Induced",
+      "DiseaseDescription": "Hearing loss due to exposure to explosive loud noise or chronic exposure to sound level greater than 85 dB. The hearing loss is often in the frequency range 4000-6000 hertz.",
+      "SlimMapping": "['Ear-nose-throat disease', 'Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Voltage gated Potassium channels",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006317",
+        "standardized_id": "MESH:D006317",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hearing Loss, Noise-Induced",
+        "standardized_name": "Hearing Loss, Noise-Induced",
+        "normalized_name": "hearing loss noise-induced",
+        "synonyms": [],
+        "search_terms": [
+          "hearing",
+          "hearing loss, noise-induced",
+          "loss,",
+          "noise-induced"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Hearing loss due to exposure to explosive loud noise or chronic exposure to sound level greater than 85 dB. The hearing loss is often in the frequency range 4000-6000 hertz.",
+        "cleaned_description": "Hearing loss due to exposure to explosive loud noise or chronic exposure to sound level greater than 85 dB. The hearing loss is often in the frequency range 4000-6000 hertz.",
+        "description_summary": "Hearing loss due to exposure to explosive loud noise or chronic exposure to sound level greater than 85 dB.",
+        "key_terms": [],
+        "word_count": 30
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Ear-nose-throat disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Ear-nose-throat disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Ear-nose-throat disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Voltage gated Potassium channels",
+        "pathway_list": [
+          "Voltage gated Potassium channels"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.609296",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006319",
+      "DiseaseName": "Hearing Loss, Sensorineural",
+      "DiseaseDescription": "Hearing loss resulting from damage to the COCHLEA and the sensorineural elements which lie internally beyond the oval and round windows. These elements include the AUDITORY NERVE and its connections in the BRAINSTEM.",
+      "SlimMapping": "['Ear-nose-throat disease', 'Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Vitamin D (calciferol) metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006319",
+        "standardized_id": "MESH:D006319",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hearing Loss, Sensorineural",
+        "standardized_name": "Hearing Loss, Sensorineural",
+        "normalized_name": "hearing loss sensorineural",
+        "synonyms": [],
+        "search_terms": [
+          "hearing",
+          "hearing loss, sensorineural",
+          "sensorineural",
+          "loss,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Hearing loss resulting from damage to the COCHLEA and the sensorineural elements which lie internally beyond the oval and round windows. These elements include the AUDITORY NERVE and its connections in the BRAINSTEM.",
+        "cleaned_description": "Hearing loss resulting from damage to the COCHLEA and the sensorineural elements which lie internally beyond the oval and round windows. These elements include the AUDITORY NERVE and its connections in the BRAINSTEM.",
+        "description_summary": "Hearing loss resulting from damage to the COCHLEA and the sensorineural elements which lie internally beyond the oval and round windows.",
+        "key_terms": [],
+        "word_count": 33
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Ear-nose-throat disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Ear-nose-throat disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Ear-nose-throat disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamin D (calciferol) metabolism",
+        "pathway_list": [
+          "Vitamin D (calciferol) metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.610217",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003639",
+      "DiseaseName": "Hearing Loss, Sudden",
+      "DiseaseDescription": "Sensorineural hearing loss which develops suddenly over a period of hours or a few days. It varies in severity from mild to total deafness. Sudden deafness can be due to head trauma, vascular diseases, infections, or can appear without obvious cause or warning.",
+      "SlimMapping": "['Ear-nose-throat disease', 'Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "One carbon pool by folate",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003639",
+        "standardized_id": "MESH:D003639",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hearing Loss, Sudden",
+        "standardized_name": "Hearing Loss, Sudden",
+        "normalized_name": "hearing loss sudden",
+        "synonyms": [],
+        "search_terms": [
+          "hearing",
+          "loss,",
+          "sudden",
+          "hearing loss, sudden"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Sensorineural hearing loss which develops suddenly over a period of hours or a few days. It varies in severity from mild to total deafness. Sudden deafness can be due to head trauma, vascular diseases, infections, or can appear without obvious cause or warning.",
+        "cleaned_description": "Sensorineural hearing loss which develops suddenly over a period of hours or a few days. It varies in severity from mild to total deafness. Sudden deafness can be due to head trauma, vascular diseases, infections, or can appear without obvious cause or warning.",
+        "description_summary": "Sensorineural hearing loss which develops suddenly over a period of hours or a few days.",
+        "key_terms": [],
+        "word_count": 43
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Ear-nose-throat disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Ear-nose-throat disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Ear-nose-throat disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "One carbon pool by folate",
+        "pathway_list": [
+          "One carbon pool by folate"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.610963",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014012",
+      "DiseaseName": "Tinnitus",
+      "DiseaseDescription": "A nonspecific symptom of hearing disorder characterized by the sensation of buzzing, ringing, clicking, pulsations, and other noises in the ear. Objective tinnitus refers to noises generated from within the ear or adjacent structures that can be heard by other individuals. The term subjective tinnitus is used when the sound is audible only to the affected individual. Tinnitus may occur as a manifestation of COCHLEAR DISEASES; VESTIBULOCOCHLEAR NERVE DISEASES; INTRACRANIAL HYPERTENSION; CRANIOCEREBRAL TRAUMA; and other conditions.",
+      "SlimMapping": "['Ear-nose-throat disease', 'Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014012",
+        "standardized_id": "MESH:D014012",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Tinnitus",
+        "standardized_name": "Tinnitus",
+        "normalized_name": "tinnitus",
+        "synonyms": [],
+        "search_terms": [
+          "tinnitus"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A nonspecific symptom of hearing disorder characterized by the sensation of buzzing, ringing, clicking, pulsations, and other noises in the ear. Objective tinnitus refers to noises generated from within the ear or adjacent structures that can be heard by other individuals. The term subjective tinnitus is used when the sound is audible only to the affected individual. Tinnitus may occur as a manifestation of COCHLEAR DISEASES; VESTIBULOCOCHLEAR NERVE DISEASES; INTRACRANIAL HYPERTENSION; CRANIOCEREBRAL TRAUMA; and other conditions.",
+        "cleaned_description": "A nonspecific symptom of hearing disorder characterized by the sensation of buzzing, ringing, clicking, pulsations, and other noises in the ear. Objective tinnitus refers to noises generated from within the ear or adjacent structures that can be heard by other individuals. The term subjective tinnitus is used when the sound is audible only to the affected individual. Tinnitus may occur as a manifestation of COCHLEAR DISEASES; VESTIBULOCOCHLEAR NERVE DISEASES; INTRACRANIAL HYPERTENSION; CRANIOCEREBRAL TRAUMA; and other conditions.",
+        "description_summary": "A nonspecific symptom of hearing disorder characterized by the sensation of buzzing, ringing, clicking, pulsations, and other noises in the ear.",
+        "key_terms": [],
+        "word_count": 76
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Ear-nose-throat disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Ear-nose-throat disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Ear-nose-throat disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.998478",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

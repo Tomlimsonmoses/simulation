@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Congenital abnormality', 'Genetic disease (inborn)', 'Musculoskeletal disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.089397",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D016142",
+      "DiseaseName": "Holoprosencephaly",
+      "DiseaseDescription": "Anterior midline brain, cranial, and facial malformations resulting from the failure of the embryonic prosencephalon to undergo segmentation and cleavage. Alobar prosencephaly is the most severe form and features anophthalmia; cyclopia; severe INTELLECTUAL DISABILITY; CLEFT LIP; CLEFT PALATE; SEIZURES; and microcephaly. Semilobar holoprosencepaly is characterized by hypotelorism, microphthalmia, coloboma, nasal malformations, and variable degrees of INTELLECTUAL DISABILITY. Lobar holoprosencephaly is associated with mild (or absent) facial malformations and intellectual abilities that range from mild INTELLECTUAL DISABILITY to normal. Holoprosencephaly is associated with CHROMOSOME ABNORMALITIES.",
+      "SlimMapping": "['Congenital abnormality', 'Genetic disease (inborn)', 'Musculoskeletal disease', 'Nervous system disease']",
+      "PathwayNames": "Transcriptional regulation of pluripotent stem cells",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D016142",
+        "standardized_id": "MESH:D016142",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Holoprosencephaly",
+        "standardized_name": "Holoprosencephaly",
+        "normalized_name": "holoprosencephaly",
+        "synonyms": [],
+        "search_terms": [
+          "holoprosencephaly"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Anterior midline brain, cranial, and facial malformations resulting from the failure of the embryonic prosencephalon to undergo segmentation and cleavage. Alobar prosencephaly is the most severe form and features anophthalmia; cyclopia; severe INTELLECTUAL DISABILITY; CLEFT LIP; CLEFT PALATE; SEIZURES; and microcephaly. Semilobar holoprosencepaly is characterized by hypotelorism, microphthalmia, coloboma, nasal malformations, and variable degrees of INTELLECTUAL DISABILITY. Lobar holoprosencephaly is associated with mild (or absent) facial malformations and intellectual abilities that range from mild INTELLECTUAL DISABILITY to normal. Holoprosencephaly is associated with CHROMOSOME ABNORMALITIES.",
+        "cleaned_description": "Anterior midline brain, cranial, and facial malformations resulting from the failure of the embryonic prosencephalon to undergo segmentation and cleavage. Alobar prosencephaly is the most severe form and features anophthalmia; cyclopia; severe INTELLECTUAL DISABILITY; CLEFT LIP; CLEFT PALATE; SEIZURES; and microcephaly. Semilobar holoprosencepaly is characterized by hypotelorism, microphthalmia, coloboma, nasal malformations, and variable degrees of INTELLECTUAL DISABILITY. Lobar holoprosencephaly is associated with mild (or absent) facial malformations and intellectual abilities that range from mild INTELLECTUAL DISABILITY to normal. Holoprosencephaly is associated with CHROMOSOME ABNORMALITIES.",
+        "description_summary": "Anterior midline brain, cranial, and facial malformations resulting from the failure of the embryonic prosencephalon to undergo segmentation and cleavage.",
+        "key_terms": [],
+        "word_count": 84
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional regulation of pluripotent stem cells",
+        "pathway_list": [
+          "Transcriptional regulation of pluripotent stem cells"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional regulation of pluripotent stem cells"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.661222",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

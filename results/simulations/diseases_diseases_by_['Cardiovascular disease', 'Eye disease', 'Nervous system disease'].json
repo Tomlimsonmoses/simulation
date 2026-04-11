@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cardiovascular disease', 'Eye disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.256700",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D018917",
+      "DiseaseName": "Optic Neuropathy, Ischemic",
+      "DiseaseDescription": "Ischemic injury to the OPTIC NERVE which usually affects the OPTIC DISK (optic neuropathy, anterior ischemic) and less frequently the retrobulbar portion of the nerve (optic neuropathy, posterior ischemic). The injury results from occlusion of arterial blood supply which may result from TEMPORAL ARTERITIS; ATHEROSCLEROSIS; COLLAGEN DISEASES; EMBOLISM; DIABETES MELLITUS; and other conditions. The disease primarily occurs in the sixth decade or later and presents with the sudden onset of painless and usually severe monocular visual loss. Anterior ischemic optic neuropathy also features optic disk edema with microhemorrhages. The optic disk appears normal in posterior ischemic optic neuropathy. (Glaser, Neuro-Ophthalmology, 2nd ed, p135)",
+      "SlimMapping": "['Cardiovascular disease', 'Eye disease', 'Nervous system disease']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018917",
+        "standardized_id": "MESH:D018917",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Optic Neuropathy, Ischemic",
+        "standardized_name": "Optic Neuropathy, Ischemic",
+        "normalized_name": "optic neuropathy ischemic",
+        "synonyms": [],
+        "search_terms": [
+          "optic neuropathy, ischemic",
+          "ischemic",
+          "optic",
+          "neuropathy,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Ischemic injury to the OPTIC NERVE which usually affects the OPTIC DISK (optic neuropathy, anterior ischemic) and less frequently the retrobulbar portion of the nerve (optic neuropathy, posterior ischemic). The injury results from occlusion of arterial blood supply which may result from TEMPORAL ARTERITIS; ATHEROSCLEROSIS; COLLAGEN DISEASES; EMBOLISM; DIABETES MELLITUS; and other conditions. The disease primarily occurs in the sixth decade or later and presents with the sudden onset of painless and usually severe monocular visual loss. Anterior ischemic optic neuropathy also features optic disk edema with microhemorrhages. The optic disk appears normal in posterior ischemic optic neuropathy. (Glaser, Neuro-Ophthalmology, 2nd ed, p135)",
+        "cleaned_description": "Ischemic injury to the OPTIC NERVE which usually affects the OPTIC DISK (optic neuropathy, anterior ischemic) and less frequently the retrobulbar portion of the nerve (optic neuropathy, posterior ischemic). The injury results from occlusion of arterial blood supply which may result from TEMPORAL ARTERITIS; ATHEROSCLEROSIS; COLLAGEN DISEASES; EMBOLISM; DIABETES MELLITUS; and other conditions. The disease primarily occurs in the sixth decade or later and presents with the sudden onset of painless and usually severe monocular visual loss. Anterior ischemic optic neuropathy also features optic disk edema with microhemorrhages. The optic disk appears normal in posterior ischemic optic neuropathy. (Glaser, Neuro-Ophthalmology, 2nd ed, p135)",
+        "description_summary": "Ischemic injury to the OPTIC NERVE which usually affects the OPTIC DISK (optic neuropathy, anterior ischemic) and less frequently the retrobulbar portion of the nerve (optic neuropathy, posterior ischemic).",
+        "key_terms": [
+          "neuropathy",
+          "ATHEROSCLEROSIS",
+          "ARTERITIS"
+        ],
+        "word_count": 103
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Eye disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Eye disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "cardiovascular"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Eye disease",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.895950",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

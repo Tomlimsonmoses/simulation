@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Endocrine system disease', 'Eye disease', 'Genetic disease (inborn)', 'Immune system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.039194",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D049970",
+      "DiseaseName": "Graves Ophthalmopathy",
+      "DiseaseDescription": "An autoimmune disorder of the EYE, occurring in patients with Graves disease. Subtypes include congestive (inflammation of the orbital connective tissue), myopathic (swelling and dysfunction of the extraocular muscles), and mixed congestive-myopathic ophthalmopathy.",
+      "SlimMapping": "['Endocrine system disease', 'Eye disease', 'Genetic disease (inborn)', 'Immune system disease']",
+      "PathwayNames": "VEGF signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D049970",
+        "standardized_id": "MESH:D049970",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Graves Ophthalmopathy",
+        "standardized_name": "Graves Ophthalmopathy",
+        "normalized_name": "graves ophthalmopathy",
+        "synonyms": [],
+        "search_terms": [
+          "ophthalmopathy",
+          "graves",
+          "graves ophthalmopathy"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An autoimmune disorder of the EYE, occurring in patients with Graves disease. Subtypes include congestive (inflammation of the orbital connective tissue), myopathic (swelling and dysfunction of the extraocular muscles), and mixed congestive-myopathic ophthalmopathy.",
+        "cleaned_description": "An autoimmune disorder of the EYE, occurring in patients with Graves disease. Subtypes include congestive (inflammation of the orbital connective tissue), myopathic (swelling and dysfunction of the extraocular muscles), and mixed congestive-myopathic ophthalmopathy.",
+        "description_summary": "An autoimmune disorder of the EYE, occurring in patients with Graves disease.",
+        "key_terms": [
+          "ophthalmopathy"
+        ],
+        "word_count": 33
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease",
+          "Eye disease",
+          "Genetic disease (inborn)",
+          "Immune system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease",
+          "Eye disease",
+          "Genetic disease (inborn)"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic",
+          "immune_system"
+        ],
+        "all_categories": [
+          "Endocrine system disease",
+          "Eye disease",
+          "Genetic disease (inborn)",
+          "Immune system disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGF signaling pathway",
+        "pathway_list": [
+          "VEGF signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGF signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.555128",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

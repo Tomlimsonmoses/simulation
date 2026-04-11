@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Genetic disease (inborn)', 'Metabolic disease', 'Skin disease']",
+    "export_timestamp": "2026-03-28T22:11:36.140664",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D052496",
+      "DiseaseName": "Lipodystrophy, Familial Partial",
+      "DiseaseDescription": "Inherited conditions characterized by the partial loss of ADIPOSE TISSUE, either confined to the extremities with normal or increased fat deposits on the face, neck and trunk (type 1), or confined to the loss of SUBCUTANEOUS FAT from the limbs and trunk (type 2). Type 3 is associated with mutation in the gene encoding PEROXISOME PROLIFERATOR-ACTIVATED RECEPTOR GAMMA.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease', 'Skin disease']",
+      "PathwayNames": "XBP1(S) activates chaperone genes",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D052496",
+        "standardized_id": "MESH:D052496",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Lipodystrophy, Familial Partial",
+        "standardized_name": "Lipodystrophy, Familial Partial",
+        "normalized_name": "lipodystrophy familial partial",
+        "synonyms": [],
+        "search_terms": [
+          "lipodystrophy,",
+          "partial",
+          "lipodystrophy, familial partial",
+          "familial"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inherited conditions characterized by the partial loss of ADIPOSE TISSUE, either confined to the extremities with normal or increased fat deposits on the face, neck and trunk (type 1), or confined to the loss of SUBCUTANEOUS FAT from the limbs and trunk (type 2). Type 3 is associated with mutation in the gene encoding PEROXISOME PROLIFERATOR-ACTIVATED RECEPTOR GAMMA.",
+        "cleaned_description": "Inherited conditions characterized by the partial loss of ADIPOSE TISSUE, either confined to the extremities with normal or increased fat deposits on the face, neck and trunk (type 1), or confined to the loss of SUBCUTANEOUS FAT from the limbs and trunk (type 2). Type 3 is associated with mutation in the gene encoding PEROXISOME PROLIFERATOR-ACTIVATED RECEPTOR GAMMA.",
+        "description_summary": "Inherited conditions characterized by the partial loss of ADIPOSE TISSUE, either confined to the extremities with normal or increased fat deposits on the face, neck and trunk (type 1), or confined to the loss of SUBCUTANEOUS FAT from the limbs and trunk (type 2).",
+        "key_terms": [],
+        "word_count": 58
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Skin disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Skin disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "XBP1(S) activates chaperone genes",
+        "pathway_list": [
+          "XBP1(S) activates chaperone genes"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.816446",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

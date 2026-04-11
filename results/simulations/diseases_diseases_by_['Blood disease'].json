@@ -1,0 +1,2110 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Blood disease']",
+    "export_timestamp": "2026-03-28T22:11:35.448566",
+    "total_records": 33
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000380",
+      "DiseaseName": "Agranulocytosis",
+      "DiseaseDescription": "A decrease in the number of GRANULOCYTES; (BASOPHILS; EOSINOPHILS; and NEUTROPHILS).",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000380",
+        "standardized_id": "MESH:D000380",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Agranulocytosis",
+        "standardized_name": "Agranulocytosis",
+        "normalized_name": "agranulocytosis",
+        "synonyms": [],
+        "search_terms": [
+          "agranulocytosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A decrease in the number of GRANULOCYTES; (BASOPHILS; EOSINOPHILS; and NEUTROPHILS).",
+        "cleaned_description": "A decrease in the number of GRANULOCYTES; (BASOPHILS; EOSINOPHILS; and NEUTROPHILS).",
+        "description_summary": "A decrease in the number of GRANULOCYTES; (BASOPHILS; EOSINOPHILS; and NEUTROPHILS).",
+        "key_terms": [],
+        "word_count": 11
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.358114",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000740",
+      "DiseaseName": "Anemia",
+      "DiseaseDescription": "A reduction in the number of circulating ERYTHROCYTES or in the quantity of HEMOGLOBIN.",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "Vpr-mediated nuclear import of PICs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000740",
+        "standardized_id": "MESH:D000740",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Anemia",
+        "standardized_name": "Anemia",
+        "normalized_name": "anemia",
+        "synonyms": [],
+        "search_terms": [
+          "anemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A reduction in the number of circulating ERYTHROCYTES or in the quantity of HEMOGLOBIN.",
+        "cleaned_description": "A reduction in the number of circulating ERYTHROCYTES or in the quantity of HEMOGLOBIN.",
+        "description_summary": "A reduction in the number of circulating ERYTHROCYTES or in the quantity of HEMOGLOBIN.",
+        "key_terms": [],
+        "word_count": 14
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vpr-mediated nuclear import of PICs",
+        "pathway_list": [
+          "Vpr-mediated nuclear import of PICs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.362891",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000741",
+      "DiseaseName": "Anemia, Aplastic",
+      "DiseaseDescription": "A form of anemia in which the bone marrow fails to produce adequate numbers of peripheral blood elements.",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000741",
+        "standardized_id": "MESH:D000741",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Anemia, Aplastic",
+        "standardized_name": "Anemia, Aplastic",
+        "normalized_name": "anemia aplastic",
+        "synonyms": [],
+        "search_terms": [
+          "anemia,",
+          "anemia, aplastic",
+          "aplastic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A form of anemia in which the bone marrow fails to produce adequate numbers of peripheral blood elements.",
+        "cleaned_description": "A form of anemia in which the bone marrow fails to produce adequate numbers of peripheral blood elements.",
+        "description_summary": "A form of anemia in which the bone marrow fails to produce adequate numbers of peripheral blood elements.",
+        "key_terms": [
+          "anemia"
+        ],
+        "word_count": 18
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.362974",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000743",
+      "DiseaseName": "Anemia, Hemolytic",
+      "DiseaseDescription": "A condition of inadequate circulating red blood cells (ANEMIA) or insufficient HEMOGLOBIN due to premature destruction of red blood cells (ERYTHROCYTES).",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000743",
+        "standardized_id": "MESH:D000743",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Anemia, Hemolytic",
+        "standardized_name": "Anemia, Hemolytic",
+        "normalized_name": "anemia hemolytic",
+        "synonyms": [],
+        "search_terms": [
+          "anemia, hemolytic",
+          "anemia,",
+          "hemolytic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition of inadequate circulating red blood cells (ANEMIA) or insufficient HEMOGLOBIN due to premature destruction of red blood cells (ERYTHROCYTES).",
+        "cleaned_description": "A condition of inadequate circulating red blood cells (ANEMIA) or insufficient HEMOGLOBIN due to premature destruction of red blood cells (ERYTHROCYTES).",
+        "description_summary": "A condition of inadequate circulating red blood cells (ANEMIA) or insufficient HEMOGLOBIN due to premature destruction of red blood cells (ERYTHROCYTES).",
+        "key_terms": [
+          "ANEMIA"
+        ],
+        "word_count": 21
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.363253",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000748",
+      "DiseaseName": "Anemia, Macrocytic",
+      "DiseaseDescription": "Anemia characterized by larger than normal erythrocytes, increased mean corpuscular volume (MCV) and increased mean corpuscular hemoglobin (MCH).",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000748",
+        "standardized_id": "MESH:D000748",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Anemia, Macrocytic",
+        "standardized_name": "Anemia, Macrocytic",
+        "normalized_name": "anemia macrocytic",
+        "synonyms": [],
+        "search_terms": [
+          "anemia, macrocytic",
+          "anemia,",
+          "macrocytic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Anemia characterized by larger than normal erythrocytes, increased mean corpuscular volume (MCV) and increased mean corpuscular hemoglobin (MCH).",
+        "cleaned_description": "Anemia characterized by larger than normal erythrocytes, increased mean corpuscular volume (MCV) and increased mean corpuscular hemoglobin (MCH).",
+        "description_summary": "Anemia characterized by larger than normal erythrocytes, increased mean corpuscular volume (MCV) and increased mean corpuscular hemoglobin (MCH).",
+        "key_terms": [
+          "Anemia"
+        ],
+        "word_count": 18
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.363743",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000749",
+      "DiseaseName": "Anemia, Megaloblastic",
+      "DiseaseDescription": "A disorder characterized by the presence of ANEMIA, abnormally large red blood cells (megalocytes or macrocytes), and MEGALOBLASTS.",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "Vitamin digestion and absorption",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000749",
+        "standardized_id": "MESH:D000749",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Anemia, Megaloblastic",
+        "standardized_name": "Anemia, Megaloblastic",
+        "normalized_name": "anemia megaloblastic",
+        "synonyms": [],
+        "search_terms": [
+          "anemia,",
+          "megaloblastic",
+          "anemia, megaloblastic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A disorder characterized by the presence of ANEMIA, abnormally large red blood cells (megalocytes or macrocytes), and MEGALOBLASTS.",
+        "cleaned_description": "A disorder characterized by the presence of ANEMIA, abnormally large red blood cells (megalocytes or macrocytes), and MEGALOBLASTS.",
+        "description_summary": "A disorder characterized by the presence of ANEMIA, abnormally large red blood cells (megalocytes or macrocytes), and MEGALOBLASTS.",
+        "key_terms": [
+          "ANEMIA"
+        ],
+        "word_count": 18
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamin digestion and absorption",
+        "pathway_list": [
+          "Vitamin digestion and absorption"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.363830",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000753",
+      "DiseaseName": "Anemia, Refractory",
+      "DiseaseDescription": "A severe sometimes chronic anemia, usually macrocytic in type, that does not respond to ordinary antianemic therapy.",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "Type II diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000753",
+        "standardized_id": "MESH:D000753",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Anemia, Refractory",
+        "standardized_name": "Anemia, Refractory",
+        "normalized_name": "anemia refractory",
+        "synonyms": [],
+        "search_terms": [
+          "refractory",
+          "anemia,",
+          "anemia, refractory"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A severe sometimes chronic anemia, usually macrocytic in type, that does not respond to ordinary antianemic therapy.",
+        "cleaned_description": "A severe sometimes chronic anemia, usually macrocytic in type, that does not respond to ordinary antianemic therapy.",
+        "description_summary": "A severe sometimes chronic anemia, usually macrocytic in type, that does not respond to ordinary antianemic therapy.",
+        "key_terms": [
+          "anemia"
+        ],
+        "word_count": 17
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type II diabetes mellitus",
+        "pathway_list": [
+          "Type II diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.364032",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000756",
+      "DiseaseName": "Anemia, Sideroblastic",
+      "DiseaseDescription": "Anemia characterized by the presence of erythroblasts containing excessive deposits of iron in the marrow.",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000756",
+        "standardized_id": "MESH:D000756",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Anemia, Sideroblastic",
+        "standardized_name": "Anemia, Sideroblastic",
+        "normalized_name": "anemia sideroblastic",
+        "synonyms": [],
+        "search_terms": [
+          "anemia,",
+          "sideroblastic",
+          "anemia, sideroblastic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Anemia characterized by the presence of erythroblasts containing excessive deposits of iron in the marrow.",
+        "cleaned_description": "Anemia characterized by the presence of erythroblasts containing excessive deposits of iron in the marrow.",
+        "description_summary": "Anemia characterized by the presence of erythroblasts containing excessive deposits of iron in the marrow.",
+        "key_terms": [
+          "Anemia"
+        ],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.364255",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001778",
+      "DiseaseName": "Blood Coagulation Disorders",
+      "DiseaseDescription": "Hemorrhagic and thrombotic disorders that occur as a consequence of abnormalities in blood coagulation due to a variety of factors such as COAGULATION PROTEIN DISORDERS; BLOOD PLATELET DISORDERS; BLOOD PROTEIN DISORDERS or nutritional conditions.",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001778",
+        "standardized_id": "MESH:D001778",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Blood Coagulation Disorders",
+        "standardized_name": "Blood Coagulation Disorders",
+        "normalized_name": "blood coagulation disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "coagulation",
+          "blood coagulation disorders",
+          "blood"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Hemorrhagic and thrombotic disorders that occur as a consequence of abnormalities in blood coagulation due to a variety of factors such as COAGULATION PROTEIN DISORDERS; BLOOD PLATELET DISORDERS; BLOOD PROTEIN DISORDERS or nutritional conditions.",
+        "cleaned_description": "Hemorrhagic and thrombotic disorders that occur as a consequence of abnormalities in blood coagulation due to a variety of factors such as COAGULATION PROTEIN DISORDERS; BLOOD PLATELET DISORDERS; BLOOD PROTEIN DISORDERS or nutritional conditions.",
+        "description_summary": "Hemorrhagic and thrombotic disorders that occur as a consequence of abnormalities in blood coagulation due to a variety of factors such as COAGULATION PROTEIN DISORDERS; BLOOD PLATELET DISORDERS; BLOOD PROTEIN DISORDERS or nutritional conditions.",
+        "key_terms": [],
+        "word_count": 34
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.398021",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001791",
+      "DiseaseName": "Blood Platelet Disorders",
+      "DiseaseDescription": "Disorders caused by abnormalities in platelet count or function.",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001791",
+        "standardized_id": "MESH:D001791",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Blood Platelet Disorders",
+        "standardized_name": "Blood Platelet Disorders",
+        "normalized_name": "blood platelet disorders",
+        "synonyms": [],
+        "search_terms": [
+          "platelet",
+          "blood platelet disorders",
+          "disorders",
+          "blood"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Disorders caused by abnormalities in platelet count or function.",
+        "cleaned_description": "Disorders caused by abnormalities in platelet count or function.",
+        "description_summary": "Disorders caused by abnormalities in platelet count or function.",
+        "key_terms": [],
+        "word_count": 9
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.398189",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001855",
+      "DiseaseName": "Bone Marrow Diseases",
+      "DiseaseDescription": "Diseases involving the BONE MARROW.",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "Telomere Maintenance",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001855",
+        "standardized_id": "MESH:D001855",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Bone Marrow Diseases",
+        "standardized_name": "Bone Marrow Diseases",
+        "normalized_name": "bone marrow diseases",
+        "synonyms": [],
+        "search_terms": [
+          "bone",
+          "diseases",
+          "marrow",
+          "bone marrow diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases involving the BONE MARROW.",
+        "cleaned_description": "Diseases involving the BONE MARROW.",
+        "description_summary": "Diseases involving the BONE MARROW.",
+        "key_terms": [],
+        "word_count": 5
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Telomere Maintenance",
+        "pathway_list": [
+          "Telomere Maintenance"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.399160",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004211",
+      "DiseaseName": "Disseminated Intravascular Coagulation",
+      "DiseaseDescription": "A disorder characterized by procoagulant substances entering the general circulation causing a systemic thrombotic process. The activation of the clotting mechanism may arise from any of a number of disorders. A majority of the patients manifest skin lesions, sometimes leading to PURPURA FULMINANS.",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "Vasopressin-like receptors",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004211",
+        "standardized_id": "MESH:D004211",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Disseminated Intravascular Coagulation",
+        "standardized_name": "Disseminated Intravascular Coagulation",
+        "normalized_name": "disseminated intravascular coagulation",
+        "synonyms": [],
+        "search_terms": [
+          "disseminated intravascular coagulation",
+          "disseminated",
+          "coagulation",
+          "intravascular"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A disorder characterized by procoagulant substances entering the general circulation causing a systemic thrombotic process. The activation of the clotting mechanism may arise from any of a number of disorders. A majority of the patients manifest skin lesions, sometimes leading to PURPURA FULMINANS.",
+        "cleaned_description": "A disorder characterized by procoagulant substances entering the general circulation causing a systemic thrombotic process. The activation of the clotting mechanism may arise from any of a number of disorders. A majority of the patients manifest skin lesions, sometimes leading to PURPURA FULMINANS.",
+        "description_summary": "A disorder characterized by procoagulant substances entering the general circulation causing a systemic thrombotic process.",
+        "key_terms": [],
+        "word_count": 43
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vasopressin-like receptors",
+        "pathway_list": [
+          "Vasopressin-like receptors"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.482287",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004802",
+      "DiseaseName": "Eosinophilia",
+      "DiseaseDescription": "Abnormal increase of EOSINOPHILS in the blood, tissues or organs.",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004802",
+        "standardized_id": "MESH:D004802",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Eosinophilia",
+        "standardized_name": "Eosinophilia",
+        "normalized_name": "eosinophilia",
+        "synonyms": [],
+        "search_terms": [
+          "eosinophilia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormal increase of EOSINOPHILS in the blood, tissues or organs.",
+        "cleaned_description": "Abnormal increase of EOSINOPHILS in the blood, tissues or organs.",
+        "description_summary": "Abnormal increase of EOSINOPHILS in the blood, tissues or organs.",
+        "key_terms": [],
+        "word_count": 10
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.504982",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006402",
+      "DiseaseName": "Hematologic Diseases",
+      "DiseaseDescription": "Disorders of the blood and blood forming tissues.",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "Type I diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006402",
+        "standardized_id": "MESH:D006402",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hematologic Diseases",
+        "standardized_name": "Hematologic Diseases",
+        "normalized_name": "hematologic diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "hematologic",
+          "hematologic diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Disorders of the blood and blood forming tissues.",
+        "cleaned_description": "Disorders of the blood and blood forming tissues.",
+        "description_summary": "Disorders of the blood and blood forming tissues.",
+        "key_terms": [],
+        "word_count": 8
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type I diabetes mellitus",
+        "pathway_list": [
+          "Type I diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.622279",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006457",
+      "DiseaseName": "Hemoglobinuria, Paroxysmal",
+      "DiseaseDescription": "A condition characterized by the recurrence of HEMOGLOBINURIA caused by intravascular HEMOLYSIS. In cases occurring upon cold exposure (paroxysmal cold hemoglobinuria), usually after infections, there is a circulating antibody which is also a cold hemolysin. In cases occurring during or after sleep (paroxysmal nocturnal hemoglobinuria), the clonal hematopoietic stem cells exhibit a global deficiency of cell membrane proteins.",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "Synthesis of glycosylphosphatidylinositol (GPI)",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006457",
+        "standardized_id": "MESH:D006457",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hemoglobinuria, Paroxysmal",
+        "standardized_name": "Hemoglobinuria, Paroxysmal",
+        "normalized_name": "hemoglobinuria paroxysmal",
+        "synonyms": [],
+        "search_terms": [
+          "hemoglobinuria,",
+          "paroxysmal",
+          "hemoglobinuria, paroxysmal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition characterized by the recurrence of HEMOGLOBINURIA caused by intravascular HEMOLYSIS. In cases occurring upon cold exposure (paroxysmal cold hemoglobinuria), usually after infections, there is a circulating antibody which is also a cold hemolysin. In cases occurring during or after sleep (paroxysmal nocturnal hemoglobinuria), the clonal hematopoietic stem cells exhibit a global deficiency of cell membrane proteins.",
+        "cleaned_description": "A condition characterized by the recurrence of HEMOGLOBINURIA caused by intravascular HEMOLYSIS. In cases occurring upon cold exposure (paroxysmal cold hemoglobinuria), usually after infections, there is a circulating antibody which is also a cold hemolysin. In cases occurring during or after sleep (paroxysmal nocturnal hemoglobinuria), the clonal hematopoietic stem cells exhibit a global deficiency of cell membrane proteins.",
+        "description_summary": "A condition characterized by the recurrence of HEMOGLOBINURIA caused by intravascular HEMOLYSIS.",
+        "key_terms": [],
+        "word_count": 58
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Synthesis of glycosylphosphatidylinositol (GPI)",
+        "pathway_list": [
+          "Synthesis of glycosylphosphatidylinositol (GPI)"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.643906",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006474",
+      "DiseaseName": "Hemorrhagic Disorders",
+      "DiseaseDescription": "Spontaneous or near spontaneous bleeding caused by a defect in clotting mechanisms (BLOOD COAGULATION DISORDERS) or another abnormality causing a structural flaw in the blood vessels (HEMOSTATIC DISORDERS).",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "Vibrio cholerae infection",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006474",
+        "standardized_id": "MESH:D006474",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hemorrhagic Disorders",
+        "standardized_name": "Hemorrhagic Disorders",
+        "normalized_name": "hemorrhagic disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "hemorrhagic",
+          "hemorrhagic disorders"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Spontaneous or near spontaneous bleeding caused by a defect in clotting mechanisms (BLOOD COAGULATION DISORDERS) or another abnormality causing a structural flaw in the blood vessels (HEMOSTATIC DISORDERS).",
+        "cleaned_description": "Spontaneous or near spontaneous bleeding caused by a defect in clotting mechanisms (BLOOD COAGULATION DISORDERS) or another abnormality causing a structural flaw in the blood vessels (HEMOSTATIC DISORDERS).",
+        "description_summary": "Spontaneous or near spontaneous bleeding caused by a defect in clotting mechanisms (BLOOD COAGULATION DISORDERS) or another abnormality causing a structural flaw in the blood vessels (HEMOSTATIC DISORDERS).",
+        "key_terms": [],
+        "word_count": 28
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vibrio cholerae infection",
+        "pathway_list": [
+          "Vibrio cholerae infection"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.644880",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D017681",
+      "DiseaseName": "Hypereosinophilic Syndrome",
+      "DiseaseDescription": "A heterogeneous group of disorders with the common feature of prolonged eosinophilia of unknown cause and associated organ system dysfunction, including the heart, central nervous system, kidneys, lungs, gastrointestinal tract, and skin. There is a massive increase in the number of EOSINOPHILS in the blood, mimicking leukemia, and extensive eosinophilic infiltration of the various organs.",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017681",
+        "standardized_id": "MESH:D017681",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypereosinophilic Syndrome",
+        "standardized_name": "Hypereosinophilic Syndrome",
+        "normalized_name": "hypereosinophilic syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "hypereosinophilic syndrome",
+          "hypereosinophilic",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A heterogeneous group of disorders with the common feature of prolonged eosinophilia of unknown cause and associated organ system dysfunction, including the heart, central nervous system, kidneys, lungs, gastrointestinal tract, and skin. There is a massive increase in the number of EOSINOPHILS in the blood, mimicking leukemia, and extensive eosinophilic infiltration of the various organs.",
+        "cleaned_description": "A heterogeneous group of disorders with the common feature of prolonged eosinophilia of unknown cause and associated organ system dysfunction, including the heart, central nervous system, kidneys, lungs, gastrointestinal tract, and skin. There is a massive increase in the number of EOSINOPHILS in the blood, mimicking leukemia, and extensive eosinophilic infiltration of the various organs.",
+        "description_summary": "A heterogeneous group of disorders with the common feature of prolonged eosinophilia of unknown cause and associated organ system dysfunction, including the heart, central nervous system, kidneys, lungs, gastrointestinal tract, and skin.",
+        "key_terms": [
+          "leukemia"
+        ],
+        "word_count": 55
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.677499",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D034141",
+      "DiseaseName": "Hypoalbuminemia",
+      "DiseaseDescription": "A condition in which albumin level in blood (SERUM ALBUMIN) is below the normal range. Hypoalbuminemia may be due to decreased hepatic albumin synthesis, increased albumin catabolism, altered albumin distribution, or albumin loss through the urine (ALBUMINURIA).",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D034141",
+        "standardized_id": "MESH:D034141",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypoalbuminemia",
+        "standardized_name": "Hypoalbuminemia",
+        "normalized_name": "hypoalbuminemia",
+        "synonyms": [],
+        "search_terms": [
+          "hypoalbuminemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition in which albumin level in blood (SERUM ALBUMIN) is below the normal range. Hypoalbuminemia may be due to decreased hepatic albumin synthesis, increased albumin catabolism, altered albumin distribution, or albumin loss through the urine (ALBUMINURIA).",
+        "cleaned_description": "A condition in which albumin level in blood (SERUM ALBUMIN) is below the normal range. Hypoalbuminemia may be due to decreased hepatic albumin synthesis, increased albumin catabolism, altered albumin distribution, or albumin loss through the urine (ALBUMINURIA).",
+        "description_summary": "A condition in which albumin level in blood (SERUM ALBUMIN) is below the normal range.",
+        "key_terms": [
+          "Hypoalbuminemia"
+        ],
+        "word_count": 37
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.772307",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007960",
+      "DiseaseName": "Leukocyte Disorders",
+      "DiseaseDescription": "Disordered formation of various types of leukocytes or an abnormal accumulation or deficiency of these cells.",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007960",
+        "standardized_id": "MESH:D007960",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Leukocyte Disorders",
+        "standardized_name": "Leukocyte Disorders",
+        "normalized_name": "leukocyte disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "leukocyte disorders",
+          "leukocyte"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Disordered formation of various types of leukocytes or an abnormal accumulation or deficiency of these cells.",
+        "cleaned_description": "Disordered formation of various types of leukocytes or an abnormal accumulation or deficiency of these cells.",
+        "description_summary": "Disordered formation of various types of leukocytes or an abnormal accumulation or deficiency of these cells.",
+        "key_terms": [],
+        "word_count": 16
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.812484",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007970",
+      "DiseaseName": "Leukopenia",
+      "DiseaseDescription": "A decrease in the number of LEUKOCYTES in a blood sample below the normal range (LEUKOCYTE COUNT less than 4000).",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007970",
+        "standardized_id": "MESH:D007970",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Leukopenia",
+        "standardized_name": "Leukopenia",
+        "normalized_name": "leukopenia",
+        "synonyms": [],
+        "search_terms": [
+          "leukopenia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A decrease in the number of LEUKOCYTES in a blood sample below the normal range (LEUKOCYTE COUNT less than 4000).",
+        "cleaned_description": "A decrease in the number of LEUKOCYTES in a blood sample below the normal range (LEUKOCYTE COUNT less than 4000).",
+        "description_summary": "A decrease in the number of LEUKOCYTES in a blood sample below the normal range (LEUKOCYTE COUNT less than 4000).",
+        "key_terms": [],
+        "word_count": 20
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.812988",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D018921",
+      "DiseaseName": "Leukostasis",
+      "DiseaseDescription": "Abnormal intravascular leukocyte aggregation and clumping often seen in leukemia patients. The brain and lungs are the two most commonly affected organs. This acute syndrome requires aggressive cytoreductive modalities including chemotherapy and/or leukophoresis. It is differentiated from LEUKEMIC INFILTRATION which is a neoplastic process where leukemic cells invade organs.",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018921",
+        "standardized_id": "MESH:D018921",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Leukostasis",
+        "standardized_name": "Leukostasis",
+        "normalized_name": "leukostasis",
+        "synonyms": [],
+        "search_terms": [
+          "leukostasis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormal intravascular leukocyte aggregation and clumping often seen in leukemia patients. The brain and lungs are the two most commonly affected organs. This acute syndrome requires aggressive cytoreductive modalities including chemotherapy and/or leukophoresis. It is differentiated from LEUKEMIC INFILTRATION which is a neoplastic process where leukemic cells invade organs.",
+        "cleaned_description": "Abnormal intravascular leukocyte aggregation and clumping often seen in leukemia patients. The brain and lungs are the two most commonly affected organs. This acute syndrome requires aggressive cytoreductive modalities including chemotherapy and/or leukophoresis. It is differentiated from LEUKEMIC INFILTRATION which is a neoplastic process where leukemic cells invade organs.",
+        "description_summary": "Abnormal intravascular leukocyte aggregation and clumping often seen in leukemia patients.",
+        "key_terms": [
+          "leukemia"
+        ],
+        "word_count": 49
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.813579",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008708",
+      "DiseaseName": "Methemoglobinemia",
+      "DiseaseDescription": "The presence of methemoglobin in the blood, resulting in cyanosis. A small amount of methemoglobin is present in the blood normally, but injury or toxic agents convert a larger proportion of hemoglobin into methemoglobin, which does not function reversibly as an oxygen carrier. Methemoglobinemia may be due to a defect in the enzyme NADH methemoglobin reductase (an autosomal recessive trait) or to an abnormality in hemoglobin M (an autosomal dominant trait). (Dorland, 27th ed)",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008708",
+        "standardized_id": "MESH:D008708",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Methemoglobinemia",
+        "standardized_name": "Methemoglobinemia",
+        "normalized_name": "methemoglobinemia",
+        "synonyms": [],
+        "search_terms": [
+          "methemoglobinemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The presence of methemoglobin in the blood, resulting in cyanosis. A small amount of methemoglobin is present in the blood normally, but injury or toxic agents convert a larger proportion of hemoglobin into methemoglobin, which does not function reversibly as an oxygen carrier. Methemoglobinemia may be due to a defect in the enzyme NADH methemoglobin reductase (an autosomal recessive trait) or to an abnormality in hemoglobin M (an autosomal dominant trait). (Dorland, 27th ed)",
+        "cleaned_description": "The presence of methemoglobin in the blood, resulting in cyanosis. A small amount of methemoglobin is present in the blood normally, but injury or toxic agents convert a larger proportion of hemoglobin into methemoglobin, which does not function reversibly as an oxygen carrier. Methemoglobinemia may be due to a defect in the enzyme NADH methemoglobin reductase (an autosomal recessive trait) or to an abnormality in hemoglobin M (an autosomal dominant trait). (Dorland, 27th ed)",
+        "description_summary": "The presence of methemoglobin in the blood, resulting in cyanosis.",
+        "key_terms": [
+          "cyanosis",
+          "Methemoglobinemia"
+        ],
+        "word_count": 74
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.848172",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009190",
+      "DiseaseName": "Myelodysplastic Syndromes",
+      "DiseaseDescription": "Clonal hematopoietic stem cell disorders characterized by dysplasia in one or more hematopoietic cell lineages. They predominantly affect patients over 60, are considered preleukemic conditions, and have high probability of transformation into ACUTE MYELOID LEUKEMIA.",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009190",
+        "standardized_id": "MESH:D009190",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Myelodysplastic Syndromes",
+        "standardized_name": "Myelodysplastic Syndromes",
+        "normalized_name": "myelodysplastic syndromes",
+        "synonyms": [],
+        "search_terms": [
+          "myelodysplastic syndromes",
+          "syndromes",
+          "myelodysplastic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Clonal hematopoietic stem cell disorders characterized by dysplasia in one or more hematopoietic cell lineages. They predominantly affect patients over 60, are considered preleukemic conditions, and have high probability of transformation into ACUTE MYELOID LEUKEMIA.",
+        "cleaned_description": "Clonal hematopoietic stem cell disorders characterized by dysplasia in one or more hematopoietic cell lineages. They predominantly affect patients over 60, are considered preleukemic conditions, and have high probability of transformation into ACUTE MYELOID LEUKEMIA.",
+        "description_summary": "Clonal hematopoietic stem cell disorders characterized by dysplasia in one or more hematopoietic cell lineages.",
+        "key_terms": [
+          "LEUKEMIA"
+        ],
+        "word_count": 35
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.862766",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009196",
+      "DiseaseName": "Myeloproliferative Disorders",
+      "DiseaseDescription": "Conditions which cause proliferation of hemopoietically active tissue or of tissue which has embryonic hemopoietic potential. They all involve dysregulation of multipotent MYELOID PROGENITOR CELLS, most often caused by a mutation in the JAK2 PROTEIN TYROSINE KINASE.",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009196",
+        "standardized_id": "MESH:D009196",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Myeloproliferative Disorders",
+        "standardized_name": "Myeloproliferative Disorders",
+        "normalized_name": "myeloproliferative disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "myeloproliferative",
+          "myeloproliferative disorders"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Conditions which cause proliferation of hemopoietically active tissue or of tissue which has embryonic hemopoietic potential. They all involve dysregulation of multipotent MYELOID PROGENITOR CELLS, most often caused by a mutation in the JAK2 PROTEIN TYROSINE KINASE.",
+        "cleaned_description": "Conditions which cause proliferation of hemopoietically active tissue or of tissue which has embryonic hemopoietic potential. They all involve dysregulation of multipotent MYELOID PROGENITOR CELLS, most often caused by a mutation in the JAK2 PROTEIN TYROSINE KINASE.",
+        "description_summary": "Conditions which cause proliferation of hemopoietically active tissue or of tissue which has embryonic hemopoietic potential.",
+        "key_terms": [],
+        "word_count": 37
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.862899",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009503",
+      "DiseaseName": "Neutropenia",
+      "DiseaseDescription": "A decrease in the number of NEUTROPHILS found in the blood.",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "Vpr-mediated nuclear import of PICs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009503",
+        "standardized_id": "MESH:D009503",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Neutropenia",
+        "standardized_name": "Neutropenia",
+        "normalized_name": "neutropenia",
+        "synonyms": [],
+        "search_terms": [
+          "neutropenia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A decrease in the number of NEUTROPHILS found in the blood.",
+        "cleaned_description": "A decrease in the number of NEUTROPHILS found in the blood.",
+        "description_summary": "A decrease in the number of NEUTROPHILS found in the blood.",
+        "key_terms": [],
+        "word_count": 11
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vpr-mediated nuclear import of PICs",
+        "pathway_list": [
+          "Vpr-mediated nuclear import of PICs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.887794",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010198",
+      "DiseaseName": "Pancytopenia",
+      "DiseaseDescription": "Deficiency of all three cell elements of the blood, erythrocytes, leukocytes and platelets.",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "Vitamin digestion and absorption",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010198",
+        "standardized_id": "MESH:D010198",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pancytopenia",
+        "standardized_name": "Pancytopenia",
+        "normalized_name": "pancytopenia",
+        "synonyms": [],
+        "search_terms": [
+          "pancytopenia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Deficiency of all three cell elements of the blood, erythrocytes, leukocytes and platelets.",
+        "cleaned_description": "Deficiency of all three cell elements of the blood, erythrocytes, leukocytes and platelets.",
+        "description_summary": "Deficiency of all three cell elements of the blood, erythrocytes, leukocytes and platelets.",
+        "key_terms": [],
+        "word_count": 13
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamin digestion and absorption",
+        "pathway_list": [
+          "Vitamin digestion and absorption"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.905674",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011086",
+      "DiseaseName": "Polycythemia",
+      "DiseaseDescription": "An increase in the total red cell mass of the blood. (Dorland, 27th ed)",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011086",
+        "standardized_id": "MESH:D011086",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Polycythemia",
+        "standardized_name": "Polycythemia",
+        "normalized_name": "polycythemia",
+        "synonyms": [],
+        "search_terms": [
+          "polycythemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An increase in the total red cell mass of the blood. (Dorland, 27th ed)",
+        "cleaned_description": "An increase in the total red cell mass of the blood. (Dorland, 27th ed)",
+        "description_summary": "An increase in the total red cell mass of the blood.",
+        "key_terms": [],
+        "word_count": 14
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.922462",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D055728",
+      "DiseaseName": "Primary Myelofibrosis",
+      "DiseaseDescription": "A de novo myeloproliferation arising from an abnormal stem cell. It is characterized by the replacement of bone marrow by fibrous tissue, a process that is mediated by CYTOKINES arising from the abnormal clone.",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "Virus Assembly and Release",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D055728",
+        "standardized_id": "MESH:D055728",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Primary Myelofibrosis",
+        "standardized_name": "Primary Myelofibrosis",
+        "normalized_name": "primary myelofibrosis",
+        "synonyms": [],
+        "search_terms": [
+          "primary myelofibrosis",
+          "myelofibrosis",
+          "primary"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A de novo myeloproliferation arising from an abnormal stem cell. It is characterized by the replacement of bone marrow by fibrous tissue, a process that is mediated by CYTOKINES arising from the abnormal clone.",
+        "cleaned_description": "A de novo myeloproliferation arising from an abnormal stem cell. It is characterized by the replacement of bone marrow by fibrous tissue, a process that is mediated by CYTOKINES arising from the abnormal clone.",
+        "description_summary": "A de novo myeloproliferation arising from an abnormal stem cell.",
+        "key_terms": [],
+        "word_count": 34
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Virus Assembly and Release",
+        "pathway_list": [
+          "Virus Assembly and Release"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.928647",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013920",
+      "DiseaseName": "Thrombocythemia, Essential",
+      "DiseaseDescription": "A clinical syndrome characterized by repeated spontaneous hemorrhages and a remarkable increase in the number of circulating platelets.",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013920",
+        "standardized_id": "MESH:D013920",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Thrombocythemia, Essential",
+        "standardized_name": "Thrombocythemia, Essential",
+        "normalized_name": "thrombocythemia essential",
+        "synonyms": [],
+        "search_terms": [
+          "thrombocythemia, essential",
+          "thrombocythemia,",
+          "essential"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A clinical syndrome characterized by repeated spontaneous hemorrhages and a remarkable increase in the number of circulating platelets.",
+        "cleaned_description": "A clinical syndrome characterized by repeated spontaneous hemorrhages and a remarkable increase in the number of circulating platelets.",
+        "description_summary": "A clinical syndrome characterized by repeated spontaneous hemorrhages and a remarkable increase in the number of circulating platelets.",
+        "key_terms": [],
+        "word_count": 18
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.993926",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013921",
+      "DiseaseName": "Thrombocytopenia",
+      "DiseaseDescription": "A subnormal level of BLOOD PLATELETS.",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013921",
+        "standardized_id": "MESH:D013921",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Thrombocytopenia",
+        "standardized_name": "Thrombocytopenia",
+        "normalized_name": "thrombocytopenia",
+        "synonyms": [],
+        "search_terms": [
+          "thrombocytopenia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A subnormal level of BLOOD PLATELETS.",
+        "cleaned_description": "A subnormal level of BLOOD PLATELETS.",
+        "description_summary": "A subnormal level of BLOOD PLATELETS.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.994058",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013922",
+      "DiseaseName": "Thrombocytosis",
+      "DiseaseDescription": "Increased numbers of platelets in the peripheral blood. (Dorland, 27th ed)",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "Virus Assembly and Release",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013922",
+        "standardized_id": "MESH:D013922",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Thrombocytosis",
+        "standardized_name": "Thrombocytosis",
+        "normalized_name": "thrombocytosis",
+        "synonyms": [],
+        "search_terms": [
+          "thrombocytosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Increased numbers of platelets in the peripheral blood. (Dorland, 27th ed)",
+        "cleaned_description": "Increased numbers of platelets in the peripheral blood. (Dorland, 27th ed)",
+        "description_summary": "Increased numbers of platelets in the peripheral blood.",
+        "key_terms": [],
+        "word_count": 11
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Virus Assembly and Release",
+        "pathway_list": [
+          "Virus Assembly and Release"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.994209",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D019851",
+      "DiseaseName": "Thrombophilia",
+      "DiseaseDescription": "A disorder of HEMOSTASIS in which there is a tendency for the occurrence of THROMBOSIS.",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D019851",
+        "standardized_id": "MESH:D019851",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Thrombophilia",
+        "standardized_name": "Thrombophilia",
+        "normalized_name": "thrombophilia",
+        "synonyms": [],
+        "search_terms": [
+          "thrombophilia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A disorder of HEMOSTASIS in which there is a tendency for the occurrence of THROMBOSIS.",
+        "cleaned_description": "A disorder of HEMOSTASIS in which there is a tendency for the occurrence of THROMBOSIS.",
+        "description_summary": "A disorder of HEMOSTASIS in which there is a tendency for the occurrence of THROMBOSIS.",
+        "key_terms": [
+          "THROMBOSIS"
+        ],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.994548",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D057049",
+      "DiseaseName": "Thrombotic Microangiopathies",
+      "DiseaseDescription": "Diseases that result in THROMBOSIS in MICROVASCULATURE. The two most prominent diseases are PURPURA, THROMBOTIC THROMBOCYTOPENIC; and HEMOLYTIC-UREMIC SYNDROME. Multiple etiological factors include VASCULAR ENDOTHELIAL CELL damage due to SHIGA TOXIN; FACTOR H deficiency; and aberrant VON WILLEBRAND FACTOR formation.",
+      "SlimMapping": "['Blood disease']",
+      "PathwayNames": "VEGF signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D057049",
+        "standardized_id": "MESH:D057049",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Thrombotic Microangiopathies",
+        "standardized_name": "Thrombotic Microangiopathies",
+        "normalized_name": "thrombotic microangiopathies",
+        "synonyms": [],
+        "search_terms": [
+          "thrombotic microangiopathies",
+          "microangiopathies",
+          "thrombotic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases that result in THROMBOSIS in MICROVASCULATURE. The two most prominent diseases are PURPURA, THROMBOTIC THROMBOCYTOPENIC; and HEMOLYTIC-UREMIC SYNDROME. Multiple etiological factors include VASCULAR ENDOTHELIAL CELL damage due to SHIGA TOXIN; FACTOR H deficiency; and aberrant VON WILLEBRAND FACTOR formation.",
+        "cleaned_description": "Diseases that result in THROMBOSIS in MICROVASCULATURE. The two most prominent diseases are PURPURA, THROMBOTIC THROMBOCYTOPENIC; and HEMOLYTIC-UREMIC SYNDROME. Multiple etiological factors include VASCULAR ENDOTHELIAL CELL damage due to SHIGA TOXIN; FACTOR H deficiency; and aberrant VON WILLEBRAND FACTOR formation.",
+        "description_summary": "Diseases that result in THROMBOSIS in MICROVASCULATURE.",
+        "key_terms": [
+          "THROMBOSIS"
+        ],
+        "word_count": 40
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease"
+        ],
+        "primary_categories": [
+          "Blood disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGF signaling pathway",
+        "pathway_list": [
+          "VEGF signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGF signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.994997",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

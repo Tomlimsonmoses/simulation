@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Immune system disease', 'Mental disorder', 'Nervous system disease', 'Viral disease']",
+    "export_timestamp": "2026-03-28T22:11:35.462337",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D015526",
+      "DiseaseName": "AIDS Dementia Complex",
+      "DiseaseDescription": "A neurologic condition associated with the ACQUIRED IMMUNODEFICIENCY SYNDROME and characterized by impaired concentration and memory, slowness of hand movements, ATAXIA, incontinence, apathy, and gait difficulties associated with HIV-1 viral infection of the central nervous system. Pathologic examination of the brain reveals white matter rarefaction, perivascular infiltrates of lymphocytes, foamy macrophages, and multinucleated giant cells. (From Adams et al., Principles of Neurology, 6th ed, pp760-1; N Engl J Med, 1995 Apr 6;332(14):934-40)",
+      "SlimMapping": "['Immune system disease', 'Mental disorder', 'Nervous system disease', 'Viral disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D015526",
+        "standardized_id": "MESH:D015526",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "AIDS Dementia Complex",
+        "standardized_name": "AIDS Dementia Complex",
+        "normalized_name": "aids dementia complex",
+        "synonyms": [],
+        "search_terms": [
+          "complex",
+          "aids",
+          "aids dementia complex",
+          "dementia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A neurologic condition associated with the ACQUIRED IMMUNODEFICIENCY SYNDROME and characterized by impaired concentration and memory, slowness of hand movements, ATAXIA, incontinence, apathy, and gait difficulties associated with HIV-1 viral infection of the central nervous system. Pathologic examination of the brain reveals white matter rarefaction, perivascular infiltrates of lymphocytes, foamy macrophages, and multinucleated giant cells. (From Adams et al., Principles of Neurology, 6th ed, pp760-1; N Engl J Med, 1995 Apr 6;332(14):934-40)",
+        "cleaned_description": "A neurologic condition associated with the ACQUIRED IMMUNODEFICIENCY SYNDROME and characterized by impaired concentration and memory, slowness of hand movements, ATAXIA, incontinence, apathy, and gait difficulties associated with HIV-1 viral infection of the central nervous system. Pathologic examination of the brain reveals white matter rarefaction, perivascular infiltrates of lymphocytes, foamy macrophages, and multinucleated giant cells. (From Adams et al., Principles of Neurology, 6th ed, pp760-1; N Engl J Med, 1995 Apr 6;332(14):934-40)",
+        "description_summary": "A neurologic condition associated with the ACQUIRED IMMUNODEFICIENCY SYNDROME and characterized by impaired concentration and memory, slowness of hand movements, ATAXIA, incontinence, apathy, and gait difficulties associated with HIV-1 viral infection of the central nervous system.",
+        "key_terms": [
+          "apathy"
+        ],
+        "word_count": 72
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease",
+          "Mental disorder",
+          "Nervous system disease",
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Immune system disease",
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "immune_system",
+          "infectious"
+        ],
+        "all_categories": [
+          "Immune system disease",
+          "Mental disorder",
+          "Nervous system disease",
+          "Viral disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.358620",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

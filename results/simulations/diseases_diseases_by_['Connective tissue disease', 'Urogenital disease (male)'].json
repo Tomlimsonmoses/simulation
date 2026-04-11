@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Connective tissue disease', 'Urogenital disease (male)']",
+    "export_timestamp": "2026-03-28T22:11:36.265933",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D010411",
+      "DiseaseName": "Penile Induration",
+      "DiseaseDescription": "A condition characterized by hardening of the PENIS due to the formation of fibrous plaques on the dorsolateral aspect of the PENIS, usually involving the membrane (tunica albuginea) surrounding the erectile tissue (corpus cavernosum penis). This may eventually cause a painful deformity of the shaft or constriction of the urethra, or both.",
+      "SlimMapping": "['Connective tissue disease', 'Urogenital disease (male)']",
+      "PathwayNames": "UCH proteinases",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010411",
+        "standardized_id": "MESH:D010411",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Penile Induration",
+        "standardized_name": "Penile Induration",
+        "normalized_name": "penile induration",
+        "synonyms": [],
+        "search_terms": [
+          "penile",
+          "induration",
+          "penile induration"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition characterized by hardening of the PENIS due to the formation of fibrous plaques on the dorsolateral aspect of the PENIS, usually involving the membrane (tunica albuginea) surrounding the erectile tissue (corpus cavernosum penis). This may eventually cause a painful deformity of the shaft or constriction of the urethra, or both.",
+        "cleaned_description": "A condition characterized by hardening of the PENIS due to the formation of fibrous plaques on the dorsolateral aspect of the PENIS, usually involving the membrane (tunica albuginea) surrounding the erectile tissue (corpus cavernosum penis). This may eventually cause a painful deformity of the shaft or constriction of the urethra, or both.",
+        "description_summary": "A condition characterized by hardening of the PENIS due to the formation of fibrous plaques on the dorsolateral aspect of the PENIS, usually involving the membrane (tunica albuginea) surrounding the erectile tissue (corpus cavernosum penis).",
+        "key_terms": [],
+        "word_count": 52
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Connective tissue disease",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Connective tissue disease",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Connective tissue disease",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "UCH proteinases",
+        "pathway_list": [
+          "UCH proteinases"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.912608",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

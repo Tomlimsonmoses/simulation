@@ -1,0 +1,489 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Eye disease', 'Nervous system disease', 'Signs and symptoms']",
+    "export_timestamp": "2026-03-28T22:11:35.726422",
+    "total_records": 7
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D001766",
+      "DiseaseName": "Blindness",
+      "DiseaseDescription": "The inability to see or the loss or absence of perception of visual stimuli. This condition may be the result of EYE DISEASES; OPTIC NERVE DISEASES; OPTIC CHIASM diseases; or BRAIN DISEASES affecting the VISUAL PATHWAYS or OCCIPITAL LOBE.",
+      "SlimMapping": "['Eye disease', 'Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Visual phototransduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001766",
+        "standardized_id": "MESH:D001766",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Blindness",
+        "standardized_name": "Blindness",
+        "normalized_name": "blindness",
+        "synonyms": [],
+        "search_terms": [
+          "blindness"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The inability to see or the loss or absence of perception of visual stimuli. This condition may be the result of EYE DISEASES; OPTIC NERVE DISEASES; OPTIC CHIASM diseases; or BRAIN DISEASES affecting the VISUAL PATHWAYS or OCCIPITAL LOBE.",
+        "cleaned_description": "The inability to see or the loss or absence of perception of visual stimuli. This condition may be the result of EYE DISEASES; OPTIC NERVE DISEASES; OPTIC CHIASM diseases; or BRAIN DISEASES affecting the VISUAL PATHWAYS or OCCIPITAL LOBE.",
+        "description_summary": "The inability to see or the loss or absence of perception of visual stimuli.",
+        "key_terms": [],
+        "word_count": 39
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Eye disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Eye disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Eye disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Visual phototransduction",
+        "pathway_list": [
+          "Visual phototransduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.397480",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003117",
+      "DiseaseName": "Color Vision Defects",
+      "DiseaseDescription": "Defects of color vision are mainly hereditary traits but can be secondary to acquired or developmental abnormalities in the CONES (RETINA). Severity of hereditary defects of color vision depends on the degree of mutation of the ROD OPSINS genes (on X CHROMOSOME and CHROMOSOME 3) that code the photopigments for red, green and blue.",
+      "SlimMapping": "['Eye disease', 'Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Unfolded Protein Response (UPR)",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003117",
+        "standardized_id": "MESH:D003117",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Color Vision Defects",
+        "standardized_name": "Color Vision Defects",
+        "normalized_name": "color vision defects",
+        "synonyms": [],
+        "search_terms": [
+          "color vision defects",
+          "vision",
+          "color",
+          "defects"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Defects of color vision are mainly hereditary traits but can be secondary to acquired or developmental abnormalities in the CONES (RETINA). Severity of hereditary defects of color vision depends on the degree of mutation of the ROD OPSINS genes (on X CHROMOSOME and CHROMOSOME 3) that code the photopigments for red, green and blue.",
+        "cleaned_description": "Defects of color vision are mainly hereditary traits but can be secondary to acquired or developmental abnormalities in the CONES (RETINA). Severity of hereditary defects of color vision depends on the degree of mutation of the ROD OPSINS genes (on X CHROMOSOME and CHROMOSOME 3) that code the photopigments for red, green and blue.",
+        "description_summary": "Defects of color vision are mainly hereditary traits but can be secondary to acquired or developmental abnormalities in the CONES (RETINA).",
+        "key_terms": [],
+        "word_count": 54
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Eye disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Eye disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Eye disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Unfolded Protein Response (UPR)",
+        "pathway_list": [
+          "Unfolded Protein Response (UPR)"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.449057",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D015877",
+      "DiseaseName": "Miosis",
+      "DiseaseDescription": "Pupillary constriction. This may result from congenital absence of the dilatator pupillary muscle, defective sympathetic innervation, or irritation of the CONJUNCTIVA or CORNEA.",
+      "SlimMapping": "['Eye disease', 'Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D015877",
+        "standardized_id": "MESH:D015877",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Miosis",
+        "standardized_name": "Miosis",
+        "normalized_name": "miosis",
+        "synonyms": [],
+        "search_terms": [
+          "miosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pupillary constriction. This may result from congenital absence of the dilatator pupillary muscle, defective sympathetic innervation, or irritation of the CONJUNCTIVA or CORNEA.",
+        "cleaned_description": "Pupillary constriction. This may result from congenital absence of the dilatator pupillary muscle, defective sympathetic innervation, or irritation of the CONJUNCTIVA or CORNEA.",
+        "description_summary": "Pupillary constriction.",
+        "key_terms": [],
+        "word_count": 23
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Eye disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Eye disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Eye disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.854495",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009886",
+      "DiseaseName": "Ophthalmoplegia",
+      "DiseaseDescription": "Paralysis of one or more of the ocular muscles due to disorders of the eye muscles, neuromuscular junction, supporting soft tissue, tendons, or innervation to the muscles.",
+      "SlimMapping": "['Eye disease', 'Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Metabolism of lipids and lipoproteins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009886",
+        "standardized_id": "MESH:D009886",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Ophthalmoplegia",
+        "standardized_name": "Ophthalmoplegia",
+        "normalized_name": "ophthalmoplegia",
+        "synonyms": [],
+        "search_terms": [
+          "ophthalmoplegia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Paralysis of one or more of the ocular muscles due to disorders of the eye muscles, neuromuscular junction, supporting soft tissue, tendons, or innervation to the muscles.",
+        "cleaned_description": "Paralysis of one or more of the ocular muscles due to disorders of the eye muscles, neuromuscular junction, supporting soft tissue, tendons, or innervation to the muscles.",
+        "description_summary": "Paralysis of one or more of the ocular muscles due to disorders of the eye muscles, neuromuscular junction, supporting soft tissue, tendons, or innervation to the muscles.",
+        "key_terms": [],
+        "word_count": 27
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Eye disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Eye disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Eye disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Metabolism of lipids and lipoproteins",
+        "pathway_list": [
+          "Metabolism of lipids and lipoproteins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.892223",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020795",
+      "DiseaseName": "Photophobia",
+      "DiseaseDescription": "Abnormal sensitivity to light. This may occur as a manifestation of EYE DISEASES; MIGRAINE; SUBARACHNOID HEMORRHAGE; MENINGITIS; and other disorders. Photophobia may also occur in association with DEPRESSION and other MENTAL DISORDERS.",
+      "SlimMapping": "['Eye disease', 'Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Unfolded Protein Response (UPR)",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020795",
+        "standardized_id": "MESH:D020795",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Photophobia",
+        "standardized_name": "Photophobia",
+        "normalized_name": "photophobia",
+        "synonyms": [],
+        "search_terms": [
+          "photophobia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormal sensitivity to light. This may occur as a manifestation of EYE DISEASES; MIGRAINE; SUBARACHNOID HEMORRHAGE; MENINGITIS; and other disorders. Photophobia may also occur in association with DEPRESSION and other MENTAL DISORDERS.",
+        "cleaned_description": "Abnormal sensitivity to light. This may occur as a manifestation of EYE DISEASES; MIGRAINE; SUBARACHNOID HEMORRHAGE; MENINGITIS; and other disorders. Photophobia may also occur in association with DEPRESSION and other MENTAL DISORDERS.",
+        "description_summary": "Abnormal sensitivity to light.",
+        "key_terms": [
+          "MENINGITIS"
+        ],
+        "word_count": 32
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Eye disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Eye disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Eye disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Unfolded Protein Response (UPR)",
+        "pathway_list": [
+          "Unfolded Protein Response (UPR)"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.915429",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013494",
+      "DiseaseName": "Supranuclear Palsy, Progressive",
+      "DiseaseDescription": "A degenerative disease of the central nervous system characterized by balance difficulties; OCULAR MOTILITY DISORDERS (supranuclear ophthalmoplegia); DYSARTHRIA; swallowing difficulties; and axial DYSTONIA. Onset is usually in the fifth decade and disease progression occurs over several years. Pathologic findings include neurofibrillary degeneration and neuronal loss in the dorsal MESENCEPHALON; SUBTHALAMIC NUCLEUS; RED NUCLEUS; pallidum; dentate nucleus; and vestibular nuclei. (From Adams et al., Principles of Neurology, 6th ed, pp1076-7)",
+      "SlimMapping": "['Eye disease', 'Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013494",
+        "standardized_id": "MESH:D013494",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Supranuclear Palsy, Progressive",
+        "standardized_name": "Supranuclear Palsy, Progressive",
+        "normalized_name": "supranuclear palsy progressive",
+        "synonyms": [],
+        "search_terms": [
+          "progressive",
+          "supranuclear",
+          "palsy,",
+          "supranuclear palsy, progressive"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A degenerative disease of the central nervous system characterized by balance difficulties; OCULAR MOTILITY DISORDERS (supranuclear ophthalmoplegia); DYSARTHRIA; swallowing difficulties; and axial DYSTONIA. Onset is usually in the fifth decade and disease progression occurs over several years. Pathologic findings include neurofibrillary degeneration and neuronal loss in the dorsal MESENCEPHALON; SUBTHALAMIC NUCLEUS; RED NUCLEUS; pallidum; dentate nucleus; and vestibular nuclei. (From Adams et al., Principles of Neurology, 6th ed, pp1076-7)",
+        "cleaned_description": "A degenerative disease of the central nervous system characterized by balance difficulties; OCULAR MOTILITY DISORDERS (supranuclear ophthalmoplegia); DYSARTHRIA; swallowing difficulties; and axial DYSTONIA. Onset is usually in the fifth decade and disease progression occurs over several years. Pathologic findings include neurofibrillary degeneration and neuronal loss in the dorsal MESENCEPHALON; SUBTHALAMIC NUCLEUS; RED NUCLEUS; pallidum; dentate nucleus; and vestibular nuclei. (From Adams et al., Principles of Neurology, 6th ed, pp1076-7)",
+        "description_summary": "A degenerative disease of the central nervous system characterized by balance difficulties; OCULAR MOTILITY DISORDERS (supranuclear ophthalmoplegia); DYSARTHRIA; swallowing difficulties; and axial DYSTONIA.",
+        "key_terms": [],
+        "word_count": 69
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Eye disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Eye disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Eye disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.982611",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014786",
+      "DiseaseName": "Vision Disorders",
+      "DiseaseDescription": "Visual impairments limiting one or more of the basic functions of the eye: visual acuity, dark adaptation, color vision, or peripheral vision. These may result from EYE DISEASES; OPTIC NERVE DISEASES; VISUAL PATHWAY diseases; OCCIPITAL LOBE diseases; OCULAR MOTILITY DISORDERS; and other conditions (From Newell, Ophthalmology: Principles and Concepts, 7th ed, p132).",
+      "SlimMapping": "['Eye disease', 'Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Ub-specific processing proteases",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014786",
+        "standardized_id": "MESH:D014786",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Vision Disorders",
+        "standardized_name": "Vision Disorders",
+        "normalized_name": "vision disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "vision disorders",
+          "vision"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Visual impairments limiting one or more of the basic functions of the eye: visual acuity, dark adaptation, color vision, or peripheral vision. These may result from EYE DISEASES; OPTIC NERVE DISEASES; VISUAL PATHWAY diseases; OCCIPITAL LOBE diseases; OCULAR MOTILITY DISORDERS; and other conditions (From Newell, Ophthalmology: Principles and Concepts, 7th ed, p132).",
+        "cleaned_description": "Visual impairments limiting one or more of the basic functions of the eye: visual acuity, dark adaptation, color vision, or peripheral vision. These may result from EYE DISEASES; OPTIC NERVE DISEASES; VISUAL PATHWAY diseases; OCCIPITAL LOBE diseases; OCULAR MOTILITY DISORDERS; and other conditions (From Newell, Ophthalmology: Principles and Concepts, 7th ed, p132).",
+        "description_summary": "Visual impairments limiting one or more of the basic functions of the eye: visual acuity, dark adaptation, color vision, or peripheral vision.",
+        "key_terms": [],
+        "word_count": 52
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Eye disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Eye disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Eye disease",
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Ub-specific processing proteases",
+        "pathway_list": [
+          "Ub-specific processing proteases"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.024255",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

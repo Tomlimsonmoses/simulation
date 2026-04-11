@@ -1,0 +1,2 @@
+organ_id,organ_name,organ_type,volume,mass,blood_flow,metabolic_rate,oxygen_consumption,blood_flow_per_gram,size_category
+ORG_06,adipose,adipose,15.75,15.0,300,0.352624844562884,15.0,19.999998666666755,large

@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Endocrine system disease', 'Eye disease', 'Immune system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.038092",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D006111",
+      "DiseaseName": "Graves Disease",
+      "DiseaseDescription": "A common form of hyperthyroidism with a diffuse hyperplastic GOITER. It is an autoimmune disorder that produces antibodies against the THYROID STIMULATING HORMONE RECEPTOR. These autoantibodies activate the TSH receptor, thereby stimulating the THYROID GLAND and hypersecretion of THYROID HORMONES. These autoantibodies can also affect the eyes (GRAVES OPHTHALMOPATHY) and the skin (Graves dermopathy).",
+      "SlimMapping": "['Endocrine system disease', 'Eye disease', 'Immune system disease']",
+      "PathwayNames": "Vpu mediated degradation of CD4",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006111",
+        "standardized_id": "MESH:D006111",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Graves Disease",
+        "standardized_name": "Graves Disease",
+        "normalized_name": "graves disease",
+        "synonyms": [],
+        "search_terms": [
+          "graves disease",
+          "graves",
+          "disease"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A common form of hyperthyroidism with a diffuse hyperplastic GOITER. It is an autoimmune disorder that produces antibodies against the THYROID STIMULATING HORMONE RECEPTOR. These autoantibodies activate the TSH receptor, thereby stimulating the THYROID GLAND and hypersecretion of THYROID HORMONES. These autoantibodies can also affect the eyes (GRAVES OPHTHALMOPATHY) and the skin (Graves dermopathy).",
+        "cleaned_description": "A common form of hyperthyroidism with a diffuse hyperplastic GOITER. It is an autoimmune disorder that produces antibodies against the THYROID STIMULATING HORMONE RECEPTOR. These autoantibodies activate the TSH receptor, thereby stimulating the THYROID GLAND and hypersecretion of THYROID HORMONES. These autoantibodies can also affect the eyes (GRAVES OPHTHALMOPATHY) and the skin (Graves dermopathy).",
+        "description_summary": "A common form of hyperthyroidism with a diffuse hyperplastic GOITER.",
+        "key_terms": [
+          "OPHTHALMOPATHY",
+          "dermopathy"
+        ],
+        "word_count": 54
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease",
+          "Eye disease",
+          "Immune system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease",
+          "Eye disease",
+          "Immune system disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "immune_system"
+        ],
+        "all_categories": [
+          "Endocrine system disease",
+          "Eye disease",
+          "Immune system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vpu mediated degradation of CD4",
+        "pathway_list": [
+          "Vpu mediated degradation of CD4"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.554782",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

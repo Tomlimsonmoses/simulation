@@ -1,0 +1,287 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Genetic disease (inborn)', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.212610",
+    "total_records": 4
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D020294",
+      "DiseaseName": "Myasthenic Syndromes, Congenital",
+      "DiseaseDescription": "A heterogeneous group of disorders characterized by a congenital defect in neuromuscular transmission at the NEUROMUSCULAR JUNCTION. This includes presynaptic, synaptic, and postsynaptic disorders (that are not of autoimmune origin). The majority of these diseases are caused by mutations of various subunits of the nicotinic acetylcholine receptor (RECEPTORS, NICOTINIC) on the postsynaptic surface of the junction. (From Arch Neurol 1999 Feb;56(2):163-7)",
+      "SlimMapping": "['Genetic disease (inborn)', 'Nervous system disease']",
+      "PathwayNames": "XBP1(S) activates chaperone genes",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020294",
+        "standardized_id": "MESH:D020294",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Myasthenic Syndromes, Congenital",
+        "standardized_name": "Myasthenic Syndromes, Congenital",
+        "normalized_name": "myasthenic syndromes congenital",
+        "synonyms": [],
+        "search_terms": [
+          "myasthenic",
+          "myasthenic syndromes, congenital",
+          "congenital",
+          "syndromes,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A heterogeneous group of disorders characterized by a congenital defect in neuromuscular transmission at the NEUROMUSCULAR JUNCTION. This includes presynaptic, synaptic, and postsynaptic disorders (that are not of autoimmune origin). The majority of these diseases are caused by mutations of various subunits of the nicotinic acetylcholine receptor (RECEPTORS, NICOTINIC) on the postsynaptic surface of the junction. (From Arch Neurol 1999 Feb;56(2):163-7)",
+        "cleaned_description": "A heterogeneous group of disorders characterized by a congenital defect in neuromuscular transmission at the NEUROMUSCULAR JUNCTION. This includes presynaptic, synaptic, and postsynaptic disorders (that are not of autoimmune origin). The majority of these diseases are caused by mutations of various subunits of the nicotinic acetylcholine receptor (RECEPTORS, NICOTINIC) on the postsynaptic surface of the junction. (From Arch Neurol 1999 Feb;56(2):163-7)",
+        "description_summary": "A heterogeneous group of disorders characterized by a congenital defect in neuromuscular transmission at the NEUROMUSCULAR JUNCTION.",
+        "key_terms": [],
+        "word_count": 61
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "XBP1(S) activates chaperone genes",
+        "pathway_list": [
+          "XBP1(S) activates chaperone genes"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.862178",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020754",
+      "DiseaseName": "Spinocerebellar Ataxias",
+      "DiseaseDescription": "A group of predominately late-onset, cerebellar ataxias which have been divided into multiple subtypes based on clinical features and genetic mapping. Progressive ataxia is a central feature of these conditions, and in certain subtypes POLYNEUROPATHY; DYSARTHRIA; visual loss; and other disorders may develop. (From Joynt, Clinical Neurology, 1997, Ch65, pp 12-17; J Neuropathol Exp Neurol 1998 Jun;57(6):531-43)",
+      "SlimMapping": "['Genetic disease (inborn)', 'Nervous system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020754",
+        "standardized_id": "MESH:D020754",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Spinocerebellar Ataxias",
+        "standardized_name": "Spinocerebellar Ataxias",
+        "normalized_name": "spinocerebellar ataxias",
+        "synonyms": [],
+        "search_terms": [
+          "spinocerebellar",
+          "ataxias",
+          "spinocerebellar ataxias"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A group of predominately late-onset, cerebellar ataxias which have been divided into multiple subtypes based on clinical features and genetic mapping. Progressive ataxia is a central feature of these conditions, and in certain subtypes POLYNEUROPATHY; DYSARTHRIA; visual loss; and other disorders may develop. (From Joynt, Clinical Neurology, 1997, Ch65, pp 12-17; J Neuropathol Exp Neurol 1998 Jun;57(6):531-43)",
+        "cleaned_description": "A group of predominately late-onset, cerebellar ataxias which have been divided into multiple subtypes based on clinical features and genetic mapping. Progressive ataxia is a central feature of these conditions, and in certain subtypes POLYNEUROPATHY; DYSARTHRIA; visual loss; and other disorders may develop. (From Joynt, Clinical Neurology, 1997, Ch65, pp 12-17; J Neuropathol Exp Neurol 1998 Jun;57(6):531-43)",
+        "description_summary": "A group of predominately late-onset, cerebellar ataxias which have been divided into multiple subtypes based on clinical features and genetic mapping.",
+        "key_terms": [
+          "POLYNEUROPATHY"
+        ],
+        "word_count": 57
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.975954",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013132",
+      "DiseaseName": "Spinocerebellar Degenerations",
+      "DiseaseDescription": "A heterogenous group of degenerative syndromes marked by progressive cerebellar dysfunction either in isolation or combined with other neurologic manifestations. Sporadic and inherited subtypes occur. Inheritance patterns include autosomal dominant, autosomal recessive, and X-linked.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Nervous system disease']",
+      "PathwayNames": "Protein processing in endoplasmic reticulum",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013132",
+        "standardized_id": "MESH:D013132",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Spinocerebellar Degenerations",
+        "standardized_name": "Spinocerebellar Degenerations",
+        "normalized_name": "spinocerebellar degenerations",
+        "synonyms": [],
+        "search_terms": [
+          "spinocerebellar",
+          "spinocerebellar degenerations",
+          "degenerations"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A heterogenous group of degenerative syndromes marked by progressive cerebellar dysfunction either in isolation or combined with other neurologic manifestations. Sporadic and inherited subtypes occur. Inheritance patterns include autosomal dominant, autosomal recessive, and X-linked.",
+        "cleaned_description": "A heterogenous group of degenerative syndromes marked by progressive cerebellar dysfunction either in isolation or combined with other neurologic manifestations. Sporadic and inherited subtypes occur. Inheritance patterns include autosomal dominant, autosomal recessive, and X-linked.",
+        "description_summary": "A heterogenous group of degenerative syndromes marked by progressive cerebellar dysfunction either in isolation or combined with other neurologic manifestations.",
+        "key_terms": [],
+        "word_count": 34
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Protein processing in endoplasmic reticulum",
+        "pathway_list": [
+          "Protein processing in endoplasmic reticulum"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.976246",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020194",
+      "DiseaseName": "Unverricht-Lundborg Syndrome",
+      "DiseaseDescription": "An autosomal recessive condition characterized by recurrent myoclonic and generalized seizures, ATAXIA, slowly progressive intellectual deterioration, DYSARTHRIA, and intention tremor. Myoclonic seizures are severe and continuous, and tend to be triggered by movement, stress, and sensory stimuli. The age of onset is between 8 and 13 years, and the condition is relatively frequent in the Baltic region, especially Finland. (From Menkes, Textbook of Child Neurology, 5th ed, pp109-110)",
+      "SlimMapping": "['Genetic disease (inborn)', 'Nervous system disease']",
+      "PathwayNames": "Neutrophil degranulation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020194",
+        "standardized_id": "MESH:D020194",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Unverricht-Lundborg Syndrome",
+        "standardized_name": "Unverricht-Lundborg Syndrome",
+        "normalized_name": "unverricht-lundborg syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "unverricht-lundborg",
+          "unverricht-lundborg syndrome",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An autosomal recessive condition characterized by recurrent myoclonic and generalized seizures, ATAXIA, slowly progressive intellectual deterioration, DYSARTHRIA, and intention tremor. Myoclonic seizures are severe and continuous, and tend to be triggered by movement, stress, and sensory stimuli. The age of onset is between 8 and 13 years, and the condition is relatively frequent in the Baltic region, especially Finland. (From Menkes, Textbook of Child Neurology, 5th ed, pp109-110)",
+        "cleaned_description": "An autosomal recessive condition characterized by recurrent myoclonic and generalized seizures, ATAXIA, slowly progressive intellectual deterioration, DYSARTHRIA, and intention tremor. Myoclonic seizures are severe and continuous, and tend to be triggered by movement, stress, and sensory stimuli. The age of onset is between 8 and 13 years, and the condition is relatively frequent in the Baltic region, especially Finland. (From Menkes, Textbook of Child Neurology, 5th ed, pp109-110)",
+        "description_summary": "An autosomal recessive condition characterized by recurrent myoclonic and generalized seizures, ATAXIA, slowly progressive intellectual deterioration, DYSARTHRIA, and intention tremor.",
+        "key_terms": [],
+        "word_count": 68
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Neutrophil degranulation",
+        "pathway_list": [
+          "Neutrophil degranulation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.009286",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

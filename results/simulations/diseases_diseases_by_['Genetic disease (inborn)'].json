@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Genetic disease (inborn)']",
+    "export_timestamp": "2026-03-28T22:11:36.008710",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D010505",
+      "DiseaseName": "Familial Mediterranean Fever",
+      "DiseaseDescription": "A group of HEREDITARY AUTOINFLAMMATION DISEASES, characterized by recurrent fever, abdominal pain, headache, rash, PLEURISY; and ARTHRITIS. ORCHITIS; benign MENINGITIS; and AMYLOIDOSIS may also occur. Homozygous or compound heterozygous mutations in marenostrin gene encoding PYRIN result in autosomal recessive transmission; simple heterozygous, autosomal dominant form of the disease also exists with mutations in the same gene.",
+      "SlimMapping": "['Genetic disease (inborn)']",
+      "PathwayNames": "The NLRP3 inflammasome",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010505",
+        "standardized_id": "MESH:D010505",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Familial Mediterranean Fever",
+        "standardized_name": "Familial Mediterranean Fever",
+        "normalized_name": "familial mediterranean fever",
+        "synonyms": [],
+        "search_terms": [
+          "familial mediterranean fever",
+          "familial",
+          "fever",
+          "mediterranean"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A group of HEREDITARY AUTOINFLAMMATION DISEASES, characterized by recurrent fever, abdominal pain, headache, rash, PLEURISY; and ARTHRITIS. ORCHITIS; benign MENINGITIS; and AMYLOIDOSIS may also occur. Homozygous or compound heterozygous mutations in marenostrin gene encoding PYRIN result in autosomal recessive transmission; simple heterozygous, autosomal dominant form of the disease also exists with mutations in the same gene.",
+        "cleaned_description": "A group of HEREDITARY AUTOINFLAMMATION DISEASES, characterized by recurrent fever, abdominal pain, headache, rash, PLEURISY; and ARTHRITIS. ORCHITIS; benign MENINGITIS; and AMYLOIDOSIS may also occur. Homozygous or compound heterozygous mutations in marenostrin gene encoding PYRIN result in autosomal recessive transmission; simple heterozygous, autosomal dominant form of the disease also exists with mutations in the same gene.",
+        "description_summary": "A group of HEREDITARY AUTOINFLAMMATION DISEASES, characterized by recurrent fever, abdominal pain, headache, rash, PLEURISY; and ARTHRITIS.",
+        "key_terms": [
+          "AMYLOIDOSIS",
+          "ARTHRITIS",
+          "MENINGITIS",
+          "ORCHITIS"
+        ],
+        "word_count": 56
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "The NLRP3 inflammasome",
+        "pathway_list": [
+          "The NLRP3 inflammasome"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.516213",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D030342",
+      "DiseaseName": "Genetic Diseases, Inborn",
+      "DiseaseDescription": "Diseases that are caused by genetic mutations present during embryo or fetal development, although they may be observed later in life. The mutations may be inherited from a parent's genome or they may be acquired in utero.",
+      "SlimMapping": "['Genetic disease (inborn)']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D030342",
+        "standardized_id": "MESH:D030342",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Genetic Diseases, Inborn",
+        "standardized_name": "Genetic Diseases, Inborn",
+        "normalized_name": "genetic diseases inborn",
+        "synonyms": [],
+        "search_terms": [
+          "diseases,",
+          "genetic",
+          "genetic diseases, inborn",
+          "inborn"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases that are caused by genetic mutations present during embryo or fetal development, although they may be observed later in life. The mutations may be inherited from a parent's genome or they may be acquired in utero.",
+        "cleaned_description": "Diseases that are caused by genetic mutations present during embryo or fetal development, although they may be observed later in life. The mutations may be inherited from a parent's genome or they may be acquired in utero.",
+        "description_summary": "Diseases that are caused by genetic mutations present during embryo or fetal development, although they may be observed later in life.",
+        "key_terms": [],
+        "word_count": 37
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.538677",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

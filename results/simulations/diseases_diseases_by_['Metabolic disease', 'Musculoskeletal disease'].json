@@ -1,0 +1,216 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Metabolic disease', 'Musculoskeletal disease']",
+    "export_timestamp": "2026-03-28T22:11:35.731984",
+    "total_records": 3
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D001851",
+      "DiseaseName": "Bone Diseases, Metabolic",
+      "DiseaseDescription": "Diseases that affect the METABOLIC PROCESSES of BONE TISSUE.",
+      "SlimMapping": "['Metabolic disease', 'Musculoskeletal disease']",
+      "PathwayNames": "Vitamins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001851",
+        "standardized_id": "MESH:D001851",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Bone Diseases, Metabolic",
+        "standardized_name": "Bone Diseases, Metabolic",
+        "normalized_name": "bone diseases metabolic",
+        "synonyms": [],
+        "search_terms": [
+          "bone",
+          "diseases,",
+          "metabolic",
+          "bone diseases, metabolic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases that affect the METABOLIC PROCESSES of BONE TISSUE.",
+        "cleaned_description": "Diseases that affect the METABOLIC PROCESSES of BONE TISSUE.",
+        "description_summary": "Diseases that affect the METABOLIC PROCESSES of BONE TISSUE.",
+        "key_terms": [],
+        "word_count": 9
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamins",
+        "pathway_list": [
+          "Vitamins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.399028",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010024",
+      "DiseaseName": "Osteoporosis",
+      "DiseaseDescription": "Reduction of bone mass without alteration in the composition of bone, leading to fractures. Primary osteoporosis can be of two major types: postmenopausal osteoporosis (OSTEOPOROSIS, POSTMENOPAUSAL) and age-related or senile osteoporosis.",
+      "SlimMapping": "['Metabolic disease', 'Musculoskeletal disease']",
+      "PathwayNames": "XBP1(S) activates chaperone genes",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010024",
+        "standardized_id": "MESH:D010024",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Osteoporosis",
+        "standardized_name": "Osteoporosis",
+        "normalized_name": "osteoporosis",
+        "synonyms": [],
+        "search_terms": [
+          "osteoporosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Reduction of bone mass without alteration in the composition of bone, leading to fractures. Primary osteoporosis can be of two major types: postmenopausal osteoporosis (OSTEOPOROSIS, POSTMENOPAUSAL) and age-related or senile osteoporosis.",
+        "cleaned_description": "Reduction of bone mass without alteration in the composition of bone, leading to fractures. Primary osteoporosis can be of two major types: postmenopausal osteoporosis (OSTEOPOROSIS, POSTMENOPAUSAL) and age-related or senile osteoporosis.",
+        "description_summary": "Reduction of bone mass without alteration in the composition of bone, leading to fractures.",
+        "key_terms": [
+          "osteoporosis",
+          "OSTEOPOROSIS"
+        ],
+        "word_count": 31
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "XBP1(S) activates chaperone genes",
+        "pathway_list": [
+          "XBP1(S) activates chaperone genes"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.898555",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D015663",
+      "DiseaseName": "Osteoporosis, Postmenopausal",
+      "DiseaseDescription": "Metabolic disorder associated with fractures of the femoral neck, vertebrae, and distal forearm. It occurs commonly in women within 15-20 years after menopause, and is caused by factors associated with menopause including estrogen deficiency.",
+      "SlimMapping": "['Metabolic disease', 'Musculoskeletal disease']",
+      "PathwayNames": "UCH proteinases",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D015663",
+        "standardized_id": "MESH:D015663",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Osteoporosis, Postmenopausal",
+        "standardized_name": "Osteoporosis, Postmenopausal",
+        "normalized_name": "osteoporosis postmenopausal",
+        "synonyms": [],
+        "search_terms": [
+          "osteoporosis, postmenopausal",
+          "osteoporosis,",
+          "postmenopausal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Metabolic disorder associated with fractures of the femoral neck, vertebrae, and distal forearm. It occurs commonly in women within 15-20 years after menopause, and is caused by factors associated with menopause including estrogen deficiency.",
+        "cleaned_description": "Metabolic disorder associated with fractures of the femoral neck, vertebrae, and distal forearm. It occurs commonly in women within 15-20 years after menopause, and is caused by factors associated with menopause including estrogen deficiency.",
+        "description_summary": "Metabolic disorder associated with fractures of the femoral neck, vertebrae, and distal forearm.",
+        "key_terms": [],
+        "word_count": 34
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "UCH proteinases",
+        "pathway_list": [
+          "UCH proteinases"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.898691",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

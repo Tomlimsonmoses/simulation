@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Animal disease', 'Bacterial infection or mycosis']",
+    "export_timestamp": "2026-03-28T22:11:36.297737",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D012481",
+      "DiseaseName": "Salmonella Infections, Animal",
+      "DiseaseDescription": "Infections in animals with bacteria of the genus SALMONELLA.",
+      "SlimMapping": "['Animal disease', 'Bacterial infection or mycosis']",
+      "PathwayNames": "Unfolded Protein Response (UPR)",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012481",
+        "standardized_id": "MESH:D012481",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Salmonella Infections, Animal",
+        "standardized_name": "Salmonella Infections, Animal",
+        "normalized_name": "salmonella infections animal",
+        "synonyms": [],
+        "search_terms": [
+          "infections,",
+          "animal",
+          "salmonella infections, animal",
+          "salmonella"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Infections in animals with bacteria of the genus SALMONELLA.",
+        "cleaned_description": "Infections in animals with bacteria of the genus SALMONELLA.",
+        "description_summary": "Infections in animals with bacteria of the genus SALMONELLA.",
+        "key_terms": [],
+        "word_count": 9
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Animal disease",
+          "Bacterial infection or mycosis"
+        ],
+        "primary_categories": [
+          "Animal disease",
+          "Bacterial infection or mycosis"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Animal disease",
+          "Bacterial infection or mycosis"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Unfolded Protein Response (UPR)",
+        "pathway_list": [
+          "Unfolded Protein Response (UPR)"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.958766",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

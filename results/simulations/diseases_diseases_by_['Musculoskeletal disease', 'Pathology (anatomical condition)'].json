@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Musculoskeletal disease', 'Pathology (anatomical condition)']",
+    "export_timestamp": "2026-03-28T22:11:36.118881",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D007405",
+      "DiseaseName": "Intervertebral Disc Displacement",
+      "DiseaseDescription": "An INTERVERTEBRAL DISC in which the NUCLEUS PULPOSUS has protruded through surrounding ANNULUS FIBROSUS. This occurs most frequently in the lower lumbar region.",
+      "SlimMapping": "['Musculoskeletal disease', 'Pathology (anatomical condition)']",
+      "PathwayNames": "Protein digestion and absorption",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007405",
+        "standardized_id": "MESH:D007405",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Intervertebral Disc Displacement",
+        "standardized_name": "Intervertebral Disc Displacement",
+        "normalized_name": "intervertebral disc displacement",
+        "synonyms": [],
+        "search_terms": [
+          "displacement",
+          "intervertebral disc displacement",
+          "intervertebral",
+          "disc"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An INTERVERTEBRAL DISC in which the NUCLEUS PULPOSUS has protruded through surrounding ANNULUS FIBROSUS. This occurs most frequently in the lower lumbar region.",
+        "cleaned_description": "An INTERVERTEBRAL DISC in which the NUCLEUS PULPOSUS has protruded through surrounding ANNULUS FIBROSUS. This occurs most frequently in the lower lumbar region.",
+        "description_summary": "An INTERVERTEBRAL DISC in which the NUCLEUS PULPOSUS has protruded through surrounding ANNULUS FIBROSUS.",
+        "key_terms": [],
+        "word_count": 23
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease",
+          "Pathology (anatomical condition)"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease",
+          "Pathology (anatomical condition)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease",
+          "Pathology (anatomical condition)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Protein digestion and absorption",
+        "pathway_list": [
+          "Protein digestion and absorption"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.789710",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

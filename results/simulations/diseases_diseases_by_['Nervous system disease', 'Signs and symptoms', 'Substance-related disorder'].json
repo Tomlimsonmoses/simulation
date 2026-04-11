@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Nervous system disease', 'Signs and symptoms', 'Substance-related disorder']",
+    "export_timestamp": "2026-03-28T22:11:35.491921",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D020270",
+      "DiseaseName": "Alcohol Withdrawal Seizures",
+      "DiseaseDescription": "A condition where seizures occur in association with ethanol abuse (ALCOHOLISM) without other identifiable causes. Seizures usually occur within the first 6-48 hours after the cessation of alcohol intake, but may occur during periods of alcohol intoxication. Single generalized tonic-clonic motor seizures are the most common subtype, however, STATUS EPILEPTICUS may occur. (Adams et al., Principles of Neurology, 6th ed, p1174)",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms', 'Substance-related disorder']",
+      "PathwayNames": "Transport of vitamins, nucleosides, and related molecules",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020270",
+        "standardized_id": "MESH:D020270",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Alcohol Withdrawal Seizures",
+        "standardized_name": "Alcohol Withdrawal Seizures",
+        "normalized_name": "alcohol withdrawal seizures",
+        "synonyms": [],
+        "search_terms": [
+          "withdrawal",
+          "seizures",
+          "alcohol",
+          "alcohol withdrawal seizures"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition where seizures occur in association with ethanol abuse (ALCOHOLISM) without other identifiable causes. Seizures usually occur within the first 6-48 hours after the cessation of alcohol intake, but may occur during periods of alcohol intoxication. Single generalized tonic-clonic motor seizures are the most common subtype, however, STATUS EPILEPTICUS may occur. (Adams et al., Principles of Neurology, 6th ed, p1174)",
+        "cleaned_description": "A condition where seizures occur in association with ethanol abuse (ALCOHOLISM) without other identifiable causes. Seizures usually occur within the first 6-48 hours after the cessation of alcohol intake, but may occur during periods of alcohol intoxication. Single generalized tonic-clonic motor seizures are the most common subtype, however, STATUS EPILEPTICUS may occur. (Adams et al., Principles of Neurology, 6th ed, p1174)",
+        "description_summary": "A condition where seizures occur in association with ethanol abuse (ALCOHOLISM) without other identifiable causes.",
+        "key_terms": [],
+        "word_count": 61
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms",
+          "Substance-related disorder"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms",
+          "Substance-related disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms",
+          "Substance-related disorder"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of vitamins, nucleosides, and related molecules",
+        "pathway_list": [
+          "Transport of vitamins",
+          "and related molecules",
+          "nucleosides"
+        ],
+        "pathway_count": 3,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.359879",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

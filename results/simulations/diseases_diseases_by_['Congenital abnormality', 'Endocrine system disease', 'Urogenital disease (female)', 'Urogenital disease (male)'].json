@@ -1,0 +1,233 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Congenital abnormality', 'Endocrine system disease', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+    "export_timestamp": "2026-03-28T22:11:35.961624",
+    "total_records": 3
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D012734",
+      "DiseaseName": "Disorders of Sex Development",
+      "DiseaseDescription": "In gonochoristic organisms, congenital conditions in which development of chromosomal, gonadal, or anatomical sex is atypical. Effects from exposure to abnormal levels of GONADAL HORMONES in the maternal environment, or disruption of the function of those hormones by ENDOCRINE DISRUPTORS are included.",
+      "SlimMapping": "['Congenital abnormality', 'Endocrine system disease', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Visual phototransduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012734",
+        "standardized_id": "MESH:D012734",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Disorders of Sex Development",
+        "standardized_name": "Disorders of Sex Development",
+        "normalized_name": "disorders of sex development",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "sex",
+          "development",
+          "disorders of sex development"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "In gonochoristic organisms, congenital conditions in which development of chromosomal, gonadal, or anatomical sex is atypical. Effects from exposure to abnormal levels of GONADAL HORMONES in the maternal environment, or disruption of the function of those hormones by ENDOCRINE DISRUPTORS are included.",
+        "cleaned_description": "In gonochoristic organisms, congenital conditions in which development of chromosomal, gonadal, or anatomical sex is atypical. Effects from exposure to abnormal levels of GONADAL HORMONES in the maternal environment, or disruption of the function of those hormones by ENDOCRINE DISRUPTORS are included.",
+        "description_summary": "In gonochoristic organisms, congenital conditions in which development of chromosomal, gonadal, or anatomical sex is atypical.",
+        "key_terms": [],
+        "word_count": 42
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Endocrine system disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Endocrine system disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Visual phototransduction",
+        "pathway_list": [
+          "Visual phototransduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.481959",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006059",
+      "DiseaseName": "Gonadal Dysgenesis",
+      "DiseaseDescription": "A number of syndromes with defective gonadal developments such as streak GONADS and dysgenetic testes or ovaries. The spectrum of gonadal and sexual abnormalities is reflected in their varied sex chromosome (SEX CHROMOSOMES) constitution as shown by the karyotypes of 45,X monosomy (TURNER SYNDROME); 46,XX (GONADAL DYSGENESIS, 46XX); 46,XY (GONADAL DYSGENESIS, 46,XY); and sex chromosome MOSAICISM; (GONADAL DYSGENESIS, MIXED). Their phenotypes range from female, through ambiguous, to male. This concept includes gonadal agenesis.",
+      "SlimMapping": "['Congenital abnormality', 'Endocrine system disease', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "RNA transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006059",
+        "standardized_id": "MESH:D006059",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Gonadal Dysgenesis",
+        "standardized_name": "Gonadal Dysgenesis",
+        "normalized_name": "gonadal dysgenesis",
+        "synonyms": [],
+        "search_terms": [
+          "gonadal",
+          "dysgenesis",
+          "gonadal dysgenesis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A number of syndromes with defective gonadal developments such as streak GONADS and dysgenetic testes or ovaries. The spectrum of gonadal and sexual abnormalities is reflected in their varied sex chromosome (SEX CHROMOSOMES) constitution as shown by the karyotypes of 45,X monosomy (TURNER SYNDROME); 46,XX (GONADAL DYSGENESIS, 46XX); 46,XY (GONADAL DYSGENESIS, 46,XY); and sex chromosome MOSAICISM; (GONADAL DYSGENESIS, MIXED). Their phenotypes range from female, through ambiguous, to male. This concept includes gonadal agenesis.",
+        "cleaned_description": "A number of syndromes with defective gonadal developments such as streak GONADS and dysgenetic testes or ovaries. The spectrum of gonadal and sexual abnormalities is reflected in their varied sex chromosome (SEX CHROMOSOMES) constitution as shown by the karyotypes of 45,X monosomy (TURNER SYNDROME); 46,XX (GONADAL DYSGENESIS, 46XX); 46,XY (GONADAL DYSGENESIS, 46,XY); and sex chromosome MOSAICISM; (GONADAL DYSGENESIS, MIXED). Their phenotypes range from female, through ambiguous, to male. This concept includes gonadal agenesis.",
+        "description_summary": "A number of syndromes with defective gonadal developments such as streak GONADS and dysgenetic testes or ovaries.",
+        "key_terms": [],
+        "word_count": 73
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Endocrine system disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Endocrine system disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "RNA transport",
+        "pathway_list": [
+          "RNA transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.548394",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D017588",
+      "DiseaseName": "Hyperandrogenism",
+      "DiseaseDescription": "A condition caused by the excessive secretion of ANDROGENS from the ADRENAL CORTEX; the OVARIES; or the TESTES. The clinical significance in males is negligible. In women, the common manifestations are HIRSUTISM and VIRILISM as seen in patients with POLYCYSTIC OVARY SYNDROME and ADRENOCORTICAL HYPERFUNCTION.",
+      "SlimMapping": "['Congenital abnormality', 'Endocrine system disease', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "TGF-beta signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017588",
+        "standardized_id": "MESH:D017588",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperandrogenism",
+        "standardized_name": "Hyperandrogenism",
+        "normalized_name": "hyperandrogenism",
+        "synonyms": [],
+        "search_terms": [
+          "hyperandrogenism"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition caused by the excessive secretion of ANDROGENS from the ADRENAL CORTEX; the OVARIES; or the TESTES. The clinical significance in males is negligible. In women, the common manifestations are HIRSUTISM and VIRILISM as seen in patients with POLYCYSTIC OVARY SYNDROME and ADRENOCORTICAL HYPERFUNCTION.",
+        "cleaned_description": "A condition caused by the excessive secretion of ANDROGENS from the ADRENAL CORTEX; the OVARIES; or the TESTES. The clinical significance in males is negligible. In women, the common manifestations are HIRSUTISM and VIRILISM as seen in patients with POLYCYSTIC OVARY SYNDROME and ADRENOCORTICAL HYPERFUNCTION.",
+        "description_summary": "A condition caused by the excessive secretion of ANDROGENS from the ADRENAL CORTEX; the OVARIES; or the TESTES.",
+        "key_terms": [],
+        "word_count": 45
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Endocrine system disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Endocrine system disease",
+          "Urogenital disease (female)"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Endocrine system disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "TGF-beta signaling pathway",
+        "pathway_list": [
+          "TGF-beta signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "TGF-beta signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.674819",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Respiratory tract disease', 'Wounds and injuries']",
+    "export_timestamp": "2026-03-28T22:11:36.144237",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D055370",
+      "DiseaseName": "Lung Injury",
+      "DiseaseDescription": "Damage to any compartment of the lung caused by physical, chemical, or biological agents which characteristically elicit inflammatory reaction. These inflammatory reactions can either be acute and dominated by NEUTROPHILS, or chronic and dominated by LYMPHOCYTES and MACROPHAGES.",
+      "SlimMapping": "['Respiratory tract disease', 'Wounds and injuries']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D055370",
+        "standardized_id": "MESH:D055370",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Lung Injury",
+        "standardized_name": "Lung Injury",
+        "normalized_name": "lung injury",
+        "synonyms": [],
+        "search_terms": [
+          "lung injury",
+          "injury",
+          "lung"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Damage to any compartment of the lung caused by physical, chemical, or biological agents which characteristically elicit inflammatory reaction. These inflammatory reactions can either be acute and dominated by NEUTROPHILS, or chronic and dominated by LYMPHOCYTES and MACROPHAGES.",
+        "cleaned_description": "Damage to any compartment of the lung caused by physical, chemical, or biological agents which characteristically elicit inflammatory reaction. These inflammatory reactions can either be acute and dominated by NEUTROPHILS, or chronic and dominated by LYMPHOCYTES and MACROPHAGES.",
+        "description_summary": "Damage to any compartment of the lung caused by physical, chemical, or biological agents which characteristically elicit inflammatory reaction.",
+        "key_terms": [],
+        "word_count": 38
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Respiratory tract disease",
+          "Wounds and injuries"
+        ],
+        "primary_categories": [
+          "Respiratory tract disease",
+          "Wounds and injuries"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Respiratory tract disease",
+          "Wounds and injuries"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.823778",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

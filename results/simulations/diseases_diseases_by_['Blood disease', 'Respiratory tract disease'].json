@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Blood disease', 'Respiratory tract disease']",
+    "export_timestamp": "2026-03-28T22:11:36.280507",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D011657",
+      "DiseaseName": "Pulmonary Eosinophilia",
+      "DiseaseDescription": "A condition characterized by infiltration of the lung with EOSINOPHILS due to inflammation or other disease processes. Major eosinophilic lung diseases are the eosinophilic pneumonias caused by infections, allergens, or toxic agents.",
+      "SlimMapping": "['Blood disease', 'Respiratory tract disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011657",
+        "standardized_id": "MESH:D011657",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pulmonary Eosinophilia",
+        "standardized_name": "Pulmonary Eosinophilia",
+        "normalized_name": "pulmonary eosinophilia",
+        "synonyms": [],
+        "search_terms": [
+          "pulmonary eosinophilia",
+          "eosinophilia",
+          "pulmonary"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition characterized by infiltration of the lung with EOSINOPHILS due to inflammation or other disease processes. Major eosinophilic lung diseases are the eosinophilic pneumonias caused by infections, allergens, or toxic agents.",
+        "cleaned_description": "A condition characterized by infiltration of the lung with EOSINOPHILS due to inflammation or other disease processes. Major eosinophilic lung diseases are the eosinophilic pneumonias caused by infections, allergens, or toxic agents.",
+        "description_summary": "A condition characterized by infiltration of the lung with EOSINOPHILS due to inflammation or other disease processes.",
+        "key_terms": [],
+        "word_count": 32
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Blood disease",
+          "Respiratory tract disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.941134",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

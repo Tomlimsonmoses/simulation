@@ -1,0 +1,264 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Lymphatic disease']",
+    "export_timestamp": "2026-03-28T22:11:36.096923",
+    "total_records": 4
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D006971",
+      "DiseaseName": "Hypersplenism",
+      "DiseaseDescription": "Condition characterized by splenomegaly, some reduction in the number of circulating blood cells in the presence of a normal or hyperactive bone marrow, and the potential for reversal by splenectomy.",
+      "SlimMapping": "['Lymphatic disease']",
+      "PathwayNames": "Type I diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006971",
+        "standardized_id": "MESH:D006971",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypersplenism",
+        "standardized_name": "Hypersplenism",
+        "normalized_name": "hypersplenism",
+        "synonyms": [],
+        "search_terms": [
+          "hypersplenism"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Condition characterized by splenomegaly, some reduction in the number of circulating blood cells in the presence of a normal or hyperactive bone marrow, and the potential for reversal by splenectomy.",
+        "cleaned_description": "Condition characterized by splenomegaly, some reduction in the number of circulating blood cells in the presence of a normal or hyperactive bone marrow, and the potential for reversal by splenectomy.",
+        "description_summary": "Condition characterized by splenomegaly, some reduction in the number of circulating blood cells in the presence of a normal or hyperactive bone marrow, and the potential for reversal by splenectomy.",
+        "key_terms": [],
+        "word_count": 30
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Lymphatic disease"
+        ],
+        "primary_categories": [
+          "Lymphatic disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Lymphatic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type I diabetes mellitus",
+        "pathway_list": [
+          "Type I diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.766013",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008209",
+      "DiseaseName": "Lymphedema",
+      "DiseaseDescription": "Edema due to obstruction of lymph vessels or disorders of the lymph nodes.",
+      "SlimMapping": "['Lymphatic disease']",
+      "PathwayNames": "VEGF ligand-receptor interactions",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008209",
+        "standardized_id": "MESH:D008209",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Lymphedema",
+        "standardized_name": "Lymphedema",
+        "normalized_name": "lymphedema",
+        "synonyms": [],
+        "search_terms": [
+          "lymphedema"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Edema due to obstruction of lymph vessels or disorders of the lymph nodes.",
+        "cleaned_description": "Edema due to obstruction of lymph vessels or disorders of the lymph nodes.",
+        "description_summary": "Edema due to obstruction of lymph vessels or disorders of the lymph nodes.",
+        "key_terms": [],
+        "word_count": 13
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Lymphatic disease"
+        ],
+        "primary_categories": [
+          "Lymphatic disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Lymphatic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGF ligand-receptor interactions",
+        "pathway_list": [
+          "VEGF ligand-receptor interactions"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.827157",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D051359",
+      "DiseaseName": "Lymphohistiocytosis, Hemophagocytic",
+      "DiseaseDescription": "A group of related disorders characterized by LYMPHOCYTOSIS; HISTIOCYTOSIS; and hemophagocytosis. The two major forms are familial and reactive.",
+      "SlimMapping": "['Lymphatic disease']",
+      "PathwayNames": "Signaling by Interleukins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D051359",
+        "standardized_id": "MESH:D051359",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Lymphohistiocytosis, Hemophagocytic",
+        "standardized_name": "Lymphohistiocytosis, Hemophagocytic",
+        "normalized_name": "lymphohistiocytosis hemophagocytic",
+        "synonyms": [],
+        "search_terms": [
+          "lymphohistiocytosis,",
+          "hemophagocytic",
+          "lymphohistiocytosis, hemophagocytic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A group of related disorders characterized by LYMPHOCYTOSIS; HISTIOCYTOSIS; and hemophagocytosis. The two major forms are familial and reactive.",
+        "cleaned_description": "A group of related disorders characterized by LYMPHOCYTOSIS; HISTIOCYTOSIS; and hemophagocytosis. The two major forms are familial and reactive.",
+        "description_summary": "A group of related disorders characterized by LYMPHOCYTOSIS; HISTIOCYTOSIS; and hemophagocytosis.",
+        "key_terms": [
+          "HISTIOCYTOSIS",
+          "LYMPHOCYTOSIS",
+          "hemophagocytosis"
+        ],
+        "word_count": 19
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Lymphatic disease"
+        ],
+        "primary_categories": [
+          "Lymphatic disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Lymphatic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signaling by Interleukins",
+        "pathway_list": [
+          "Signaling by Interleukins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.827359",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013158",
+      "DiseaseName": "Splenic Diseases",
+      "DiseaseDescription": "Diseases involving the SPLEEN.",
+      "SlimMapping": "['Lymphatic disease']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013158",
+        "standardized_id": "MESH:D013158",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Splenic Diseases",
+        "standardized_name": "Splenic Diseases",
+        "normalized_name": "splenic diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "splenic diseases",
+          "splenic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases involving the SPLEEN.",
+        "cleaned_description": "Diseases involving the SPLEEN.",
+        "description_summary": "Diseases involving the SPLEEN.",
+        "key_terms": [],
+        "word_count": 4
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Lymphatic disease"
+        ],
+        "primary_categories": [
+          "Lymphatic disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Lymphatic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.976392",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": [
+            "Very short or missing description"
+          ]
+        }
+      }
+    }
+  ]
+}

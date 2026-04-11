@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Endocrine system disease', 'Metabolic disease', 'Pregnancy complication']",
+    "export_timestamp": "2026-03-28T22:11:35.944907",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D016640",
+      "DiseaseName": "Diabetes, Gestational",
+      "DiseaseDescription": "Diabetes mellitus induced by PREGNANCY but resolved at the end of pregnancy. It does not include previously diagnosed diabetics who become pregnant (PREGNANCY IN DIABETICS). Gestational diabetes usually develops in late pregnancy when insulin antagonistic hormones peaks leading to INSULIN RESISTANCE; GLUCOSE INTOLERANCE; and HYPERGLYCEMIA.",
+      "SlimMapping": "['Endocrine system disease', 'Metabolic disease', 'Pregnancy complication']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D016640",
+        "standardized_id": "MESH:D016640",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Diabetes, Gestational",
+        "standardized_name": "Diabetes, Gestational",
+        "normalized_name": "diabetes gestational",
+        "synonyms": [],
+        "search_terms": [
+          "gestational",
+          "diabetes,",
+          "diabetes, gestational"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diabetes mellitus induced by PREGNANCY but resolved at the end of pregnancy. It does not include previously diagnosed diabetics who become pregnant (PREGNANCY IN DIABETICS). Gestational diabetes usually develops in late pregnancy when insulin antagonistic hormones peaks leading to INSULIN RESISTANCE; GLUCOSE INTOLERANCE; and HYPERGLYCEMIA.",
+        "cleaned_description": "Diabetes mellitus induced by PREGNANCY but resolved at the end of pregnancy. It does not include previously diagnosed diabetics who become pregnant (PREGNANCY IN DIABETICS). Gestational diabetes usually develops in late pregnancy when insulin antagonistic hormones peaks leading to INSULIN RESISTANCE; GLUCOSE INTOLERANCE; and HYPERGLYCEMIA.",
+        "description_summary": "Diabetes mellitus induced by PREGNANCY but resolved at the end of pregnancy.",
+        "key_terms": [
+          "HYPERGLYCEMIA"
+        ],
+        "word_count": 45
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease",
+          "Metabolic disease",
+          "Pregnancy complication"
+        ],
+        "primary_categories": [
+          "Endocrine system disease",
+          "Metabolic disease",
+          "Pregnancy complication"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease",
+          "Metabolic disease",
+          "Pregnancy complication"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.479033",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

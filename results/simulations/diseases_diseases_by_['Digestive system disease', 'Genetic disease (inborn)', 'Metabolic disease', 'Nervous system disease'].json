@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Digestive system disease', 'Genetic disease (inborn)', 'Metabolic disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.052914",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D006527",
+      "DiseaseName": "Hepatolenticular Degeneration",
+      "DiseaseDescription": "A rare autosomal recessive disease characterized by the deposition of copper in the BRAIN; LIVER; CORNEA; and other organs. It is caused by defects in the ATP7B gene encoding copper-transporting ATPase 2 (EC 3.6.3.4), also known as the Wilson disease protein. The overload of copper inevitably leads to progressive liver and neurological dysfunction such as LIVER CIRRHOSIS; TREMOR; ATAXIA and intellectual deterioration. Hepatic dysfunction may precede neurologic dysfunction by several years.",
+      "SlimMapping": "['Digestive system disease', 'Genetic disease (inborn)', 'Metabolic disease', 'Nervous system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006527",
+        "standardized_id": "MESH:D006527",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hepatolenticular Degeneration",
+        "standardized_name": "Hepatolenticular Degeneration",
+        "normalized_name": "hepatolenticular degeneration",
+        "synonyms": [],
+        "search_terms": [
+          "degeneration",
+          "hepatolenticular degeneration",
+          "hepatolenticular"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A rare autosomal recessive disease characterized by the deposition of copper in the BRAIN; LIVER; CORNEA; and other organs. It is caused by defects in the ATP7B gene encoding copper-transporting ATPase 2 (EC 3.6.3.4), also known as the Wilson disease protein. The overload of copper inevitably leads to progressive liver and neurological dysfunction such as LIVER CIRRHOSIS; TREMOR; ATAXIA and intellectual deterioration. Hepatic dysfunction may precede neurologic dysfunction by several years.",
+        "cleaned_description": "A rare autosomal recessive disease characterized by the deposition of copper in the BRAIN; LIVER; CORNEA; and other organs. It is caused by defects in the ATP7B gene encoding copper-transporting ATPase 2 (EC 3.6.3.4), also known as the Wilson disease protein. The overload of copper inevitably leads to progressive liver and neurological dysfunction such as LIVER CIRRHOSIS; TREMOR; ATAXIA and intellectual deterioration. Hepatic dysfunction may precede neurologic dysfunction by several years.",
+        "description_summary": "A rare autosomal recessive disease characterized by the deposition of copper in the BRAIN; LIVER; CORNEA; and other organs.",
+        "key_terms": [
+          "CIRRHOSIS"
+        ],
+        "word_count": 71
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Digestive system disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Digestive system disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.654417",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

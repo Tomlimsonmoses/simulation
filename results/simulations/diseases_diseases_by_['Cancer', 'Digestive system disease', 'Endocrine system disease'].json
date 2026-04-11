@@ -1,0 +1,297 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Digestive system disease', 'Endocrine system disease']",
+    "export_timestamp": "2026-03-28T22:11:35.847012",
+    "total_records": 4
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D021441",
+      "DiseaseName": "Carcinoma, Pancreatic Ductal",
+      "DiseaseDescription": "Carcinoma that arises from the PANCREATIC DUCTS. It accounts for the majority of cancers derived from the PANCREAS.",
+      "SlimMapping": "['Cancer', 'Digestive system disease', 'Endocrine system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D021441",
+        "standardized_id": "MESH:D021441",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Carcinoma, Pancreatic Ductal",
+        "standardized_name": "Carcinoma, Pancreatic Ductal",
+        "normalized_name": "carcinoma pancreatic ductal",
+        "synonyms": [],
+        "search_terms": [
+          "ductal",
+          "pancreatic",
+          "carcinoma, pancreatic ductal",
+          "carcinoma,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Carcinoma that arises from the PANCREATIC DUCTS. It accounts for the majority of cancers derived from the PANCREAS.",
+        "cleaned_description": "Carcinoma that arises from the PANCREATIC DUCTS. It accounts for the majority of cancers derived from the PANCREAS.",
+        "description_summary": "Carcinoma that arises from the PANCREATIC DUCTS.",
+        "key_terms": [],
+        "word_count": 18
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Digestive system disease",
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Digestive system disease",
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Digestive system disease",
+          "Endocrine system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.424274",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007340",
+      "DiseaseName": "Insulinoma",
+      "DiseaseDescription": "A benign tumor of the PANCREATIC BETA CELLS. Insulinoma secretes excess INSULIN resulting in HYPOGLYCEMIA.",
+      "SlimMapping": "['Cancer', 'Digestive system disease', 'Endocrine system disease']",
+      "PathwayNames": "Transcriptional misregulation in cancer",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007340",
+        "standardized_id": "MESH:D007340",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Insulinoma",
+        "standardized_name": "Insulinoma",
+        "normalized_name": "insulinoma",
+        "synonyms": [],
+        "search_terms": [
+          "insulinoma"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A benign tumor of the PANCREATIC BETA CELLS. Insulinoma secretes excess INSULIN resulting in HYPOGLYCEMIA.",
+        "cleaned_description": "A benign tumor of the PANCREATIC BETA CELLS. Insulinoma secretes excess INSULIN resulting in HYPOGLYCEMIA.",
+        "description_summary": "A benign tumor of the PANCREATIC BETA CELLS.",
+        "key_terms": [
+          "HYPOGLYCEMIA"
+        ],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Digestive system disease",
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Digestive system disease",
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Digestive system disease",
+          "Endocrine system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional misregulation in cancer",
+        "pathway_list": [
+          "Transcriptional misregulation in cancer"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional misregulation in cancer"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.788673",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010190",
+      "DiseaseName": "Pancreatic Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the PANCREAS. Depending on the types of ISLET CELLS present in the tumors, various hormones can be secreted: GLUCAGON from PANCREATIC ALPHA CELLS; INSULIN from PANCREATIC BETA CELLS; and SOMATOSTATIN from the SOMATOSTATIN-SECRETING CELLS. Most are malignant except the insulin-producing tumors (INSULINOMA).",
+      "SlimMapping": "['Cancer', 'Digestive system disease', 'Endocrine system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010190",
+        "standardized_id": "MESH:D010190",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pancreatic Neoplasms",
+        "standardized_name": "Pancreatic Neoplasms",
+        "normalized_name": "pancreatic neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "pancreatic neoplasms",
+          "pancreatic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the PANCREAS. Depending on the types of ISLET CELLS present in the tumors, various hormones can be secreted: GLUCAGON from PANCREATIC ALPHA CELLS; INSULIN from PANCREATIC BETA CELLS; and SOMATOSTATIN from the SOMATOSTATIN-SECRETING CELLS. Most are malignant except the insulin-producing tumors (INSULINOMA).",
+        "cleaned_description": "Tumors or cancer of the PANCREAS. Depending on the types of ISLET CELLS present in the tumors, various hormones can be secreted: GLUCAGON from PANCREATIC ALPHA CELLS; INSULIN from PANCREATIC BETA CELLS; and SOMATOSTATIN from the SOMATOSTATIN-SECRETING CELLS. Most are malignant except the insulin-producing tumors (INSULINOMA).",
+        "description_summary": "Tumors or cancer of the PANCREAS.",
+        "key_terms": [],
+        "word_count": 46
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Digestive system disease",
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Digestive system disease",
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Digestive system disease",
+          "Endocrine system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.904208",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003969",
+      "DiseaseName": "Vipoma",
+      "DiseaseDescription": "A tumor that secretes VASOACTIVE INTESTINAL PEPTIDE, a neuropeptide that causes VASODILATION; relaxation of smooth muscles; watery DIARRHEA; HYPOKALEMIA; and HYPOCHLORHYDRIA. Vipomas, derived from the pancreatic ISLET CELLS, generally are malignant and can secrete other hormones. In most cases, Vipomas are located in the PANCREAS but can be found in extrapancreatic sites.",
+      "SlimMapping": "['Cancer', 'Digestive system disease', 'Endocrine system disease']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003969",
+        "standardized_id": "MESH:D003969",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Vipoma",
+        "standardized_name": "Vipoma",
+        "normalized_name": "vipoma",
+        "synonyms": [],
+        "search_terms": [
+          "vipoma"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A tumor that secretes VASOACTIVE INTESTINAL PEPTIDE, a neuropeptide that causes VASODILATION; relaxation of smooth muscles; watery DIARRHEA; HYPOKALEMIA; and HYPOCHLORHYDRIA. Vipomas, derived from the pancreatic ISLET CELLS, generally are malignant and can secrete other hormones. In most cases, Vipomas are located in the PANCREAS but can be found in extrapancreatic sites.",
+        "cleaned_description": "A tumor that secretes VASOACTIVE INTESTINAL PEPTIDE, a neuropeptide that causes VASODILATION; relaxation of smooth muscles; watery DIARRHEA; HYPOKALEMIA; and HYPOCHLORHYDRIA. Vipomas, derived from the pancreatic ISLET CELLS, generally are malignant and can secrete other hormones. In most cases, Vipomas are located in the PANCREAS but can be found in extrapancreatic sites.",
+        "description_summary": "A tumor that secretes VASOACTIVE INTESTINAL PEPTIDE, a neuropeptide that causes VASODILATION; relaxation of smooth muscles; watery DIARRHEA; HYPOKALEMIA; and HYPOCHLORHYDRIA.",
+        "key_terms": [
+          "HYPOKALEMIA"
+        ],
+        "word_count": 52
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Digestive system disease",
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Digestive system disease",
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Digestive system disease",
+          "Endocrine system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.023871",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Urogenital disease (male)']",
+    "export_timestamp": "2026-03-28T22:11:36.270552",
+    "total_records": 3
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D010412",
+      "DiseaseName": "Penile Neoplasms",
+      "DiseaseDescription": "Cancers or tumors of the PENIS or of its component tissues.",
+      "SlimMapping": "['Cancer', 'Urogenital disease (male)']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010412",
+        "standardized_id": "MESH:D010412",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Penile Neoplasms",
+        "standardized_name": "Penile Neoplasms",
+        "normalized_name": "penile neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "penile",
+          "penile neoplasms"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Cancers or tumors of the PENIS or of its component tissues.",
+        "cleaned_description": "Cancers or tumors of the PENIS or of its component tissues.",
+        "description_summary": "Cancers or tumors of the PENIS or of its component tissues.",
+        "key_terms": [],
+        "word_count": 11
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.912779",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011471",
+      "DiseaseName": "Prostatic Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the PROSTATE.",
+      "SlimMapping": "['Cancer', 'Urogenital disease (male)']",
+      "PathwayNames": "Zinc transporters",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011471",
+        "standardized_id": "MESH:D011471",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Prostatic Neoplasms",
+        "standardized_name": "Prostatic Neoplasms",
+        "normalized_name": "prostatic neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "prostatic neoplasms",
+          "prostatic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the PROSTATE.",
+        "cleaned_description": "Tumors or cancer of the PROSTATE.",
+        "description_summary": "Tumors or cancer of the PROSTATE.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Zinc transporters",
+        "pathway_list": [
+          "Zinc transporters"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.931519",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D064129",
+      "DiseaseName": "Prostatic Neoplasms, Castration-Resistant",
+      "DiseaseDescription": "Tumors or cancer of the PROSTATE which can grow in the presence of low or residual amount of androgen hormones such as TESTOSTERONE.",
+      "SlimMapping": "['Cancer', 'Urogenital disease (male)']",
+      "PathwayNames": "Visual phototransduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D064129",
+        "standardized_id": "MESH:D064129",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Prostatic Neoplasms, Castration-Resistant",
+        "standardized_name": "Prostatic Neoplasms, Castration-Resistant",
+        "normalized_name": "prostatic neoplasms castration-resistant",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms,",
+          "castration-resistant",
+          "prostatic neoplasms, castration-resistant",
+          "prostatic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the PROSTATE which can grow in the presence of low or residual amount of androgen hormones such as TESTOSTERONE.",
+        "cleaned_description": "Tumors or cancer of the PROSTATE which can grow in the presence of low or residual amount of androgen hormones such as TESTOSTERONE.",
+        "description_summary": "Tumors or cancer of the PROSTATE which can grow in the presence of low or residual amount of androgen hormones such as TESTOSTERONE.",
+        "key_terms": [],
+        "word_count": 23
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Visual phototransduction",
+        "pathway_list": [
+          "Visual phototransduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.931733",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

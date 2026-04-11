@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Eye disease', 'Immune system disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.227304",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D009471",
+      "DiseaseName": "Neuromyelitis Optica",
+      "DiseaseDescription": "A syndrome characterized by acute OPTIC NEURITIS; MYELITIS, TRANSVERSE; demyelinating and/or necrotizing lesions in the OPTIC NERVES and SPINAL CORD; and presence of specific autoantibodies to AQUAPORIN 4.",
+      "SlimMapping": "['Eye disease', 'Immune system disease', 'Nervous system disease']",
+      "PathwayNames": "Vasopressin regulates renal water homeostasis via Aquaporins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009471",
+        "standardized_id": "MESH:D009471",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Neuromyelitis Optica",
+        "standardized_name": "Neuromyelitis Optica",
+        "normalized_name": "neuromyelitis optica",
+        "synonyms": [],
+        "search_terms": [
+          "optica",
+          "neuromyelitis",
+          "neuromyelitis optica"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A syndrome characterized by acute OPTIC NEURITIS; MYELITIS, TRANSVERSE; demyelinating and/or necrotizing lesions in the OPTIC NERVES and SPINAL CORD; and presence of specific autoantibodies to AQUAPORIN 4.",
+        "cleaned_description": "A syndrome characterized by acute OPTIC NEURITIS; MYELITIS, TRANSVERSE; demyelinating and/or necrotizing lesions in the OPTIC NERVES and SPINAL CORD; and presence of specific autoantibodies to AQUAPORIN 4.",
+        "description_summary": "A syndrome characterized by acute OPTIC NEURITIS; MYELITIS, TRANSVERSE; demyelinating and/or necrotizing lesions in the OPTIC NERVES and SPINAL CORD; and presence of specific autoantibodies to AQUAPORIN 4.",
+        "key_terms": [
+          "NEURITIS",
+          "MYELITIS"
+        ],
+        "word_count": 28
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Eye disease",
+          "Immune system disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Eye disease",
+          "Immune system disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Eye disease",
+          "Immune system disease",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vasopressin regulates renal water homeostasis via Aquaporins",
+        "pathway_list": [
+          "Vasopressin regulates renal water homeostasis via Aquaporins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.887382",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014607",
+      "DiseaseName": "Uveomeningoencephalitic Syndrome",
+      "DiseaseDescription": "A syndrome characterized by bilateral granulomatous UVEITIS with IRITIS and secondary GLAUCOMA, premature ALOPECIA, symmetrical VITILIGO, poliosis circumscripta (a strand of depigmented hair), HEARING DISORDERS, and meningeal signs (neck stiffness and headache). Examination of the cerebrospinal fluid reveals a pattern consistent with MENINGITIS, ASEPTIC. (Adams et al., Principles of Neurology, 6th ed, p748; Surv Ophthalmol 1995 Jan;39(4):265-292)",
+      "SlimMapping": "['Eye disease', 'Immune system disease', 'Nervous system disease']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014607",
+        "standardized_id": "MESH:D014607",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Uveomeningoencephalitic Syndrome",
+        "standardized_name": "Uveomeningoencephalitic Syndrome",
+        "normalized_name": "uveomeningoencephalitic syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "uveomeningoencephalitic syndrome",
+          "syndrome",
+          "uveomeningoencephalitic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A syndrome characterized by bilateral granulomatous UVEITIS with IRITIS and secondary GLAUCOMA, premature ALOPECIA, symmetrical VITILIGO, poliosis circumscripta (a strand of depigmented hair), HEARING DISORDERS, and meningeal signs (neck stiffness and headache). Examination of the cerebrospinal fluid reveals a pattern consistent with MENINGITIS, ASEPTIC. (Adams et al., Principles of Neurology, 6th ed, p748; Surv Ophthalmol 1995 Jan;39(4):265-292)",
+        "cleaned_description": "A syndrome characterized by bilateral granulomatous UVEITIS with IRITIS and secondary GLAUCOMA, premature ALOPECIA, symmetrical VITILIGO, poliosis circumscripta (a strand of depigmented hair), HEARING DISORDERS, and meningeal signs (neck stiffness and headache). Examination of the cerebrospinal fluid reveals a pattern consistent with MENINGITIS, ASEPTIC. (Adams et al., Principles of Neurology, 6th ed, p748; Surv Ophthalmol 1995 Jan;39(4):265-292)",
+        "description_summary": "A syndrome characterized by bilateral granulomatous UVEITIS with IRITIS and secondary GLAUCOMA, premature ALOPECIA, symmetrical VITILIGO, poliosis circumscripta (a strand of depigmented hair), HEARING DISORDERS, and meningeal signs (neck stiffness and headache).",
+        "key_terms": [
+          "UVEITIS",
+          "MENINGITIS",
+          "IRITIS",
+          "poliosis"
+        ],
+        "word_count": 57
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Eye disease",
+          "Immune system disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Eye disease",
+          "Immune system disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Eye disease",
+          "Immune system disease",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.015647",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

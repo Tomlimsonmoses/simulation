@@ -1,0 +1,290 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Immune system disease', 'Respiratory tract disease']",
+    "export_timestamp": "2026-03-28T22:11:35.507627",
+    "total_records": 4
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000542",
+      "DiseaseName": "Alveolitis, Extrinsic Allergic",
+      "DiseaseDescription": "A common interstitial lung disease caused by hypersensitivity reactions of PULMONARY ALVEOLI after inhalation of and sensitization to environmental antigens of microbial, animal, or chemical sources. The disease is characterized by lymphocytic alveolitis and granulomatous pneumonitis.",
+      "SlimMapping": "['Immune system disease', 'Respiratory tract disease']",
+      "PathwayNames": "Peroxisome",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000542",
+        "standardized_id": "MESH:D000542",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Alveolitis, Extrinsic Allergic",
+        "standardized_name": "Alveolitis, Extrinsic Allergic",
+        "normalized_name": "alveolitis extrinsic allergic",
+        "synonyms": [],
+        "search_terms": [
+          "alveolitis,",
+          "alveolitis, extrinsic allergic",
+          "extrinsic",
+          "allergic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A common interstitial lung disease caused by hypersensitivity reactions of PULMONARY ALVEOLI after inhalation of and sensitization to environmental antigens of microbial, animal, or chemical sources. The disease is characterized by lymphocytic alveolitis and granulomatous pneumonitis.",
+        "cleaned_description": "A common interstitial lung disease caused by hypersensitivity reactions of PULMONARY ALVEOLI after inhalation of and sensitization to environmental antigens of microbial, animal, or chemical sources. The disease is characterized by lymphocytic alveolitis and granulomatous pneumonitis.",
+        "description_summary": "A common interstitial lung disease caused by hypersensitivity reactions of PULMONARY ALVEOLI after inhalation of and sensitization to environmental antigens of microbial, animal, or chemical sources.",
+        "key_terms": [
+          "pneumonitis",
+          "alveolitis"
+        ],
+        "word_count": 36
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Immune system disease",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory",
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease",
+          "Respiratory tract disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Peroxisome",
+        "pathway_list": [
+          "Peroxisome"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.360994",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001249",
+      "DiseaseName": "Asthma",
+      "DiseaseDescription": "A form of bronchial disorder with three distinct components: airway hyper-responsiveness (RESPIRATORY HYPERSENSITIVITY), airway INFLAMMATION, and intermittent AIRWAY OBSTRUCTION. It is characterized by spasmodic contraction of airway smooth muscle, WHEEZING, and dyspnea (DYSPNEA, PAROXYSMAL).",
+      "SlimMapping": "['Immune system disease', 'Respiratory tract disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001249",
+        "standardized_id": "MESH:D001249",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Asthma",
+        "standardized_name": "Asthma",
+        "normalized_name": "asthma",
+        "synonyms": [],
+        "search_terms": [
+          "asthma"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A form of bronchial disorder with three distinct components: airway hyper-responsiveness (RESPIRATORY HYPERSENSITIVITY), airway INFLAMMATION, and intermittent AIRWAY OBSTRUCTION. It is characterized by spasmodic contraction of airway smooth muscle, WHEEZING, and dyspnea (DYSPNEA, PAROXYSMAL).",
+        "cleaned_description": "A form of bronchial disorder with three distinct components: airway hyper-responsiveness (RESPIRATORY HYPERSENSITIVITY), airway INFLAMMATION, and intermittent AIRWAY OBSTRUCTION. It is characterized by spasmodic contraction of airway smooth muscle, WHEEZING, and dyspnea (DYSPNEA, PAROXYSMAL).",
+        "description_summary": "A form of bronchial disorder with three distinct components: airway hyper-responsiveness (RESPIRATORY HYPERSENSITIVITY), airway INFLAMMATION, and intermittent AIRWAY OBSTRUCTION.",
+        "key_terms": [],
+        "word_count": 34
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Immune system disease",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory",
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease",
+          "Respiratory tract disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.377875",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D055963",
+      "DiseaseName": "Asthma, Aspirin-Induced",
+      "DiseaseDescription": "Asthmatic adverse reaction (e.g., BRONCHOCONSTRICTION) to conventional NSAIDS including aspirin use.",
+      "SlimMapping": "['Immune system disease', 'Respiratory tract disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D055963",
+        "standardized_id": "MESH:D055963",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Asthma, Aspirin-Induced",
+        "standardized_name": "Asthma, Aspirin-Induced",
+        "normalized_name": "asthma aspirin-induced",
+        "synonyms": [],
+        "search_terms": [
+          "aspirin-induced",
+          "asthma,",
+          "asthma, aspirin-induced"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Asthmatic adverse reaction (e.g., BRONCHOCONSTRICTION) to conventional NSAIDS including aspirin use.",
+        "cleaned_description": "Asthmatic adverse reaction (e.g., BRONCHOCONSTRICTION) to conventional NSAIDS including aspirin use.",
+        "description_summary": "Asthmatic adverse reaction (e.",
+        "key_terms": [],
+        "word_count": 11
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Immune system disease",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory",
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease",
+          "Respiratory tract disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.378172",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012130",
+      "DiseaseName": "Respiratory Hypersensitivity",
+      "DiseaseDescription": "A form of hypersensitivity affecting the respiratory tract. It includes ASTHMA and RHINITIS, ALLERGIC, SEASONAL.",
+      "SlimMapping": "['Immune system disease', 'Respiratory tract disease']",
+      "PathwayNames": "Zinc transporters",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012130",
+        "standardized_id": "MESH:D012130",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Respiratory Hypersensitivity",
+        "standardized_name": "Respiratory Hypersensitivity",
+        "normalized_name": "respiratory hypersensitivity",
+        "synonyms": [],
+        "search_terms": [
+          "respiratory",
+          "respiratory hypersensitivity",
+          "hypersensitivity"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A form of hypersensitivity affecting the respiratory tract. It includes ASTHMA and RHINITIS, ALLERGIC, SEASONAL.",
+        "cleaned_description": "A form of hypersensitivity affecting the respiratory tract. It includes ASTHMA and RHINITIS, ALLERGIC, SEASONAL.",
+        "description_summary": "A form of hypersensitivity affecting the respiratory tract.",
+        "key_terms": [
+          "RHINITIS"
+        ],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Immune system disease",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory",
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease",
+          "Respiratory tract disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Zinc transporters",
+        "pathway_list": [
+          "Zinc transporters"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.947937",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

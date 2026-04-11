@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Occupational disease', 'Respiratory tract disease']",
+    "export_timestamp": "2026-03-28T22:11:35.646948",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D001195",
+      "DiseaseName": "Asbestosis",
+      "DiseaseDescription": "A form of pneumoconiosis caused by inhalation of asbestos fibers which elicit potent inflammatory responses in the parenchyma of the lung. The disease is characterized by interstitial fibrosis of the lung, varying from scattered sites to extensive scarring of the alveolar interstitium.",
+      "SlimMapping": "['Occupational disease', 'Respiratory tract disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001195",
+        "standardized_id": "MESH:D001195",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Asbestosis",
+        "standardized_name": "Asbestosis",
+        "normalized_name": "asbestosis",
+        "synonyms": [],
+        "search_terms": [
+          "asbestosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A form of pneumoconiosis caused by inhalation of asbestos fibers which elicit potent inflammatory responses in the parenchyma of the lung. The disease is characterized by interstitial fibrosis of the lung, varying from scattered sites to extensive scarring of the alveolar interstitium.",
+        "cleaned_description": "A form of pneumoconiosis caused by inhalation of asbestos fibers which elicit potent inflammatory responses in the parenchyma of the lung. The disease is characterized by interstitial fibrosis of the lung, varying from scattered sites to extensive scarring of the alveolar interstitium.",
+        "description_summary": "A form of pneumoconiosis caused by inhalation of asbestos fibers which elicit potent inflammatory responses in the parenchyma of the lung.",
+        "key_terms": [
+          "pneumoconiosis",
+          "fibrosis"
+        ],
+        "word_count": 42
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Occupational disease",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Occupational disease",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Occupational disease",
+          "Respiratory tract disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.376185",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001607",
+      "DiseaseName": "Berylliosis",
+      "DiseaseDescription": "A form of pneumoconiosis caused by inhaled rare metal BERYLLIUM or its soluble salts which are used in a wide variety of industry including alloys, ceramics, radiographic equipment, and vacuum tubes. Berylliosis is characterized by an acute inflammatory reaction in the upper airway leading to BRONCHIOLITIS; PULMONARY EDEMA; and pneumonia.",
+      "SlimMapping": "['Occupational disease', 'Respiratory tract disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001607",
+        "standardized_id": "MESH:D001607",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Berylliosis",
+        "standardized_name": "Berylliosis",
+        "normalized_name": "berylliosis",
+        "synonyms": [],
+        "search_terms": [
+          "berylliosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A form of pneumoconiosis caused by inhaled rare metal BERYLLIUM or its soluble salts which are used in a wide variety of industry including alloys, ceramics, radiographic equipment, and vacuum tubes. Berylliosis is characterized by an acute inflammatory reaction in the upper airway leading to BRONCHIOLITIS; PULMONARY EDEMA; and pneumonia.",
+        "cleaned_description": "A form of pneumoconiosis caused by inhaled rare metal BERYLLIUM or its soluble salts which are used in a wide variety of industry including alloys, ceramics, radiographic equipment, and vacuum tubes. Berylliosis is characterized by an acute inflammatory reaction in the upper airway leading to BRONCHIOLITIS; PULMONARY EDEMA; and pneumonia.",
+        "description_summary": "A form of pneumoconiosis caused by inhaled rare metal BERYLLIUM or its soluble salts which are used in a wide variety of industry including alloys, ceramics, radiographic equipment, and vacuum tubes.",
+        "key_terms": [
+          "Berylliosis",
+          "pneumoconiosis",
+          "BRONCHIOLITIS"
+        ],
+        "word_count": 50
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Occupational disease",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Occupational disease",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Occupational disease",
+          "Respiratory tract disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.393624",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

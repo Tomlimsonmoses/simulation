@@ -1,0 +1,223 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Infant-newborn disease', 'Respiratory tract disease']",
+    "export_timestamp": "2026-03-28T22:11:35.816268",
+    "total_records": 3
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D001997",
+      "DiseaseName": "Bronchopulmonary Dysplasia",
+      "DiseaseDescription": "A chronic lung disease developed after OXYGEN INHALATION THERAPY or mechanical ventilation (VENTILATION, MECHANICAL) usually occurring in certain premature infants (INFANT, PREMATURE) or newborn infants with respiratory distress syndrome (RESPIRATORY DISTRESS SYNDROME, NEWBORN). Histologically, it is characterized by the unusual abnormalities of the bronchioles, such as METAPLASIA, decrease in alveolar number, and formation of CYSTS.",
+      "SlimMapping": "['Infant-newborn disease', 'Respiratory tract disease']",
+      "PathwayNames": "Type I diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001997",
+        "standardized_id": "MESH:D001997",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Bronchopulmonary Dysplasia",
+        "standardized_name": "Bronchopulmonary Dysplasia",
+        "normalized_name": "bronchopulmonary dysplasia",
+        "synonyms": [],
+        "search_terms": [
+          "bronchopulmonary",
+          "dysplasia",
+          "bronchopulmonary dysplasia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A chronic lung disease developed after OXYGEN INHALATION THERAPY or mechanical ventilation (VENTILATION, MECHANICAL) usually occurring in certain premature infants (INFANT, PREMATURE) or newborn infants with respiratory distress syndrome (RESPIRATORY DISTRESS SYNDROME, NEWBORN). Histologically, it is characterized by the unusual abnormalities of the bronchioles, such as METAPLASIA, decrease in alveolar number, and formation of CYSTS.",
+        "cleaned_description": "A chronic lung disease developed after OXYGEN INHALATION THERAPY or mechanical ventilation (VENTILATION, MECHANICAL) usually occurring in certain premature infants (INFANT, PREMATURE) or newborn infants with respiratory distress syndrome (RESPIRATORY DISTRESS SYNDROME, NEWBORN). Histologically, it is characterized by the unusual abnormalities of the bronchioles, such as METAPLASIA, decrease in alveolar number, and formation of CYSTS.",
+        "description_summary": "A chronic lung disease developed after OXYGEN INHALATION THERAPY or mechanical ventilation (VENTILATION, MECHANICAL) usually occurring in certain premature infants (INFANT, PREMATURE) or newborn infants with respiratory distress syndrome (RESPIRATORY DISTRESS SYNDROME, NEWBORN).",
+        "key_terms": [],
+        "word_count": 55
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Infant-newborn disease",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Infant-newborn disease",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Infant-newborn disease",
+          "Respiratory tract disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type I diabetes mellitus",
+        "pathway_list": [
+          "Type I diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.409843",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010547",
+      "DiseaseName": "Persistent Fetal Circulation Syndrome",
+      "DiseaseDescription": "A syndrome of persistent PULMONARY HYPERTENSION in the newborn infant (INFANT, NEWBORN) without demonstrable HEART DISEASES. This neonatal condition can be caused by severe pulmonary vasoconstriction (reactive type), hypertrophy of pulmonary arterial muscle (hypertrophic type), or abnormally developed pulmonary arterioles (hypoplastic type). The newborn patient exhibits CYANOSIS and ACIDOSIS due to the persistence of fetal circulatory pattern of right-to-left shunting of blood through a patent ductus arteriosus (DUCTUS ARTERIOSUS, PATENT) and at times a patent foramen ovale (FORAMEN OVALE, PATENT).",
+      "SlimMapping": "['Infant-newborn disease', 'Respiratory tract disease']",
+      "PathwayNames": "Urea cycle",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010547",
+        "standardized_id": "MESH:D010547",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Persistent Fetal Circulation Syndrome",
+        "standardized_name": "Persistent Fetal Circulation Syndrome",
+        "normalized_name": "persistent fetal circulation syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "circulation",
+          "persistent",
+          "syndrome",
+          "fetal",
+          "persistent fetal circulation syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A syndrome of persistent PULMONARY HYPERTENSION in the newborn infant (INFANT, NEWBORN) without demonstrable HEART DISEASES. This neonatal condition can be caused by severe pulmonary vasoconstriction (reactive type), hypertrophy of pulmonary arterial muscle (hypertrophic type), or abnormally developed pulmonary arterioles (hypoplastic type). The newborn patient exhibits CYANOSIS and ACIDOSIS due to the persistence of fetal circulatory pattern of right-to-left shunting of blood through a patent ductus arteriosus (DUCTUS ARTERIOSUS, PATENT) and at times a patent foramen ovale (FORAMEN OVALE, PATENT).",
+        "cleaned_description": "A syndrome of persistent PULMONARY HYPERTENSION in the newborn infant (INFANT, NEWBORN) without demonstrable HEART DISEASES. This neonatal condition can be caused by severe pulmonary vasoconstriction (reactive type), hypertrophy of pulmonary arterial muscle (hypertrophic type), or abnormally developed pulmonary arterioles (hypoplastic type). The newborn patient exhibits CYANOSIS and ACIDOSIS due to the persistence of fetal circulatory pattern of right-to-left shunting of blood through a patent ductus arteriosus (DUCTUS ARTERIOSUS, PATENT) and at times a patent foramen ovale (FORAMEN OVALE, PATENT).",
+        "description_summary": "A syndrome of persistent PULMONARY HYPERTENSION in the newborn infant (INFANT, NEWBORN) without demonstrable HEART DISEASES.",
+        "key_terms": [
+          "ACIDOSIS",
+          "CYANOSIS"
+        ],
+        "word_count": 80
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Infant-newborn disease",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Infant-newborn disease",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Infant-newborn disease",
+          "Respiratory tract disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Urea cycle",
+        "pathway_list": [
+          "Urea cycle"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.914744",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012127",
+      "DiseaseName": "Respiratory Distress Syndrome, Newborn",
+      "DiseaseDescription": "A condition of the newborn marked by DYSPNEA with CYANOSIS, heralded by such prodromal signs as dilatation of the alae nasi, expiratory grunt, and retraction of the suprasternal notch or costal margins, mostly frequently occurring in premature infants, children of diabetic mothers, and infants delivered by cesarean section, and sometimes with no apparent predisposing cause.",
+      "SlimMapping": "['Infant-newborn disease', 'Respiratory tract disease']",
+      "PathwayNames": "Striated Muscle Contraction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012127",
+        "standardized_id": "MESH:D012127",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Respiratory Distress Syndrome, Newborn",
+        "standardized_name": "Respiratory Distress Syndrome, Newborn",
+        "normalized_name": "respiratory distress syndrome newborn",
+        "synonyms": [],
+        "search_terms": [
+          "respiratory",
+          "distress",
+          "respiratory distress syndrome, newborn",
+          "syndrome,",
+          "newborn"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition of the newborn marked by DYSPNEA with CYANOSIS, heralded by such prodromal signs as dilatation of the alae nasi, expiratory grunt, and retraction of the suprasternal notch or costal margins, mostly frequently occurring in premature infants, children of diabetic mothers, and infants delivered by cesarean section, and sometimes with no apparent predisposing cause.",
+        "cleaned_description": "A condition of the newborn marked by DYSPNEA with CYANOSIS, heralded by such prodromal signs as dilatation of the alae nasi, expiratory grunt, and retraction of the suprasternal notch or costal margins, mostly frequently occurring in premature infants, children of diabetic mothers, and infants delivered by cesarean section, and sometimes with no apparent predisposing cause.",
+        "description_summary": "A condition of the newborn marked by DYSPNEA with CYANOSIS, heralded by such prodromal signs as dilatation of the alae nasi, expiratory grunt, and retraction of the suprasternal notch or costal margins, mostly frequently occurring in premature infants, children of diabetic mothers, and infants deliv",
+        "key_terms": [
+          "CYANOSIS"
+        ],
+        "word_count": 55
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Infant-newborn disease",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Infant-newborn disease",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Infant-newborn disease",
+          "Respiratory tract disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Striated Muscle Contraction",
+        "pathway_list": [
+          "Striated Muscle Contraction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.947733",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

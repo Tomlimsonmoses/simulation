@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Eye disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.251491",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D053578",
+      "DiseaseName": "Opsoclonus-Myoclonus Syndrome",
+      "DiseaseDescription": "A neurological condition that is characterized by uncontrolled rapid irregular movements of the eye (OPSOCLONUS) and the muscle (MYOCLONUS) causing unsteady, trembling gait. It is also known as dancing eyes-dancing feet syndrome and is often associated with neoplasms, viral infections, or autoimmune disorders involving the nervous system.",
+      "SlimMapping": "['Cancer', 'Eye disease', 'Nervous system disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D053578",
+        "standardized_id": "MESH:D053578",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Opsoclonus-Myoclonus Syndrome",
+        "standardized_name": "Opsoclonus-Myoclonus Syndrome",
+        "normalized_name": "opsoclonus-myoclonus syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "opsoclonus-myoclonus syndrome",
+          "opsoclonus-myoclonus",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A neurological condition that is characterized by uncontrolled rapid irregular movements of the eye (OPSOCLONUS) and the muscle (MYOCLONUS) causing unsteady, trembling gait. It is also known as dancing eyes-dancing feet syndrome and is often associated with neoplasms, viral infections, or autoimmune disorders involving the nervous system.",
+        "cleaned_description": "A neurological condition that is characterized by uncontrolled rapid irregular movements of the eye (OPSOCLONUS) and the muscle (MYOCLONUS) causing unsteady, trembling gait. It is also known as dancing eyes-dancing feet syndrome and is often associated with neoplasms, viral infections, or autoimmune disorders involving the nervous system.",
+        "description_summary": "A neurological condition that is characterized by uncontrolled rapid irregular movements of the eye (OPSOCLONUS) and the muscle (MYOCLONUS) causing unsteady, trembling gait.",
+        "key_terms": [],
+        "word_count": 47
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Eye disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Eye disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Eye disease",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.893221",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

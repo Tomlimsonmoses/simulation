@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Immune system disease', 'Metabolic disease', 'Nutrition disorder', 'Viral disease']",
+    "export_timestamp": "2026-03-28T22:11:36.061082",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D019247",
+      "DiseaseName": "HIV Wasting Syndrome",
+      "DiseaseDescription": "Involuntary weight loss of greater than 10 percent associated with intermittent or constant fever and chronic diarrhea or fatigue for more than 30 days in the absence of a defined cause other than HIV infection. A constant feature is major muscle wasting with scattered myofiber degeneration. A variety of etiologies, which vary among patients, contributes to this syndrome. (From Harrison's Principles of Internal Medicine, 13th ed, p1611).",
+      "SlimMapping": "['Immune system disease', 'Metabolic disease', 'Nutrition disorder', 'Viral disease']",
+      "PathwayNames": "Type II diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D019247",
+        "standardized_id": "MESH:D019247",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "HIV Wasting Syndrome",
+        "standardized_name": "HIV Wasting Syndrome",
+        "normalized_name": "hiv wasting syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "hiv",
+          "hiv wasting syndrome",
+          "wasting",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Involuntary weight loss of greater than 10 percent associated with intermittent or constant fever and chronic diarrhea or fatigue for more than 30 days in the absence of a defined cause other than HIV infection. A constant feature is major muscle wasting with scattered myofiber degeneration. A variety of etiologies, which vary among patients, contributes to this syndrome. (From Harrison's Principles of Internal Medicine, 13th ed, p1611).",
+        "cleaned_description": "Involuntary weight loss of greater than 10 percent associated with intermittent or constant fever and chronic diarrhea or fatigue for more than 30 days in the absence of a defined cause other than HIV infection. A constant feature is major muscle wasting with scattered myofiber degeneration. A variety of etiologies, which vary among patients, contributes to this syndrome. (From Harrison's Principles of Internal Medicine, 13th ed, p1611).",
+        "description_summary": "Involuntary weight loss of greater than 10 percent associated with intermittent or constant fever and chronic diarrhea or fatigue for more than 30 days in the absence of a defined cause other than HIV infection.",
+        "key_terms": [],
+        "word_count": 67
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease",
+          "Metabolic disease",
+          "Nutrition disorder",
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Immune system disease",
+          "Metabolic disease",
+          "Nutrition disorder"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "immune_system",
+          "infectious"
+        ],
+        "all_categories": [
+          "Immune system disease",
+          "Metabolic disease",
+          "Nutrition disorder",
+          "Viral disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type II diabetes mellitus",
+        "pathway_list": [
+          "Type II diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.659518",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

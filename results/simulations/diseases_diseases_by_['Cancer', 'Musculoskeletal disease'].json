@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Musculoskeletal disease']",
+    "export_timestamp": "2026-03-28T22:11:35.748687",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D001859",
+      "DiseaseName": "Bone Neoplasms",
+      "DiseaseDescription": "Tumors or cancer located in bone tissue or specific BONES.",
+      "SlimMapping": "['Cancer', 'Musculoskeletal disease']",
+      "PathwayNames": "VEGF signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001859",
+        "standardized_id": "MESH:D001859",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Bone Neoplasms",
+        "standardized_name": "Bone Neoplasms",
+        "normalized_name": "bone neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "bone",
+          "neoplasms",
+          "bone neoplasms"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer located in bone tissue or specific BONES.",
+        "cleaned_description": "Tumors or cancer located in bone tissue or specific BONES.",
+        "description_summary": "Tumors or cancer located in bone tissue or specific BONES.",
+        "key_terms": [],
+        "word_count": 10
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGF signaling pathway",
+        "pathway_list": [
+          "VEGF signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGF signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.399549",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

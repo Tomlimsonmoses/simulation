@@ -1,0 +1,68 @@
+{
+  "overview": {
+    "data_type": "mappings",
+    "total_records": 42200,
+    "total_sources": 1,
+    "records_processed": 42200,
+    "records_consolidated": 42200,
+    "consolidation_rate": 1.0
+  },
+  "quality_metrics": {
+    "duplicates_removed": 0,
+    "conflicts_resolved": 0,
+    "validation_errors": 0,
+    "warnings": 0,
+    "quality_score": 1
+  },
+  "data_statistics": {
+    "record_count": 42200,
+    "field_completeness": {
+      "DrugID": {
+        "complete_records": 42200,
+        "total_records": 42200,
+        "completeness_ratio": 1.0
+      },
+      "DiseaseID": {
+        "complete_records": 42200,
+        "total_records": 42200,
+        "completeness_ratio": 1.0
+      },
+      "standardized_drug_id": {
+        "complete_records": 42200,
+        "total_records": 42200,
+        "completeness_ratio": 1.0
+      },
+      "standardized_disease_id": {
+        "complete_records": 42200,
+        "total_records": 42200,
+        "completeness_ratio": 1.0
+      },
+      "mapping_key": {
+        "complete_records": 42200,
+        "total_records": 42200,
+        "completeness_ratio": 1.0
+      },
+      "relationship_info": {
+        "complete_records": 42200,
+        "total_records": 42200,
+        "completeness_ratio": 1.0
+      },
+      "validation_info": {
+        "complete_records": 42200,
+        "total_records": 42200,
+        "completeness_ratio": 1.0
+      }
+    },
+    "data_types": {},
+    "mapping_statistics": {
+      "unique_mappings": 42200,
+      "unique_drugs": 1410,
+      "unique_diseases": 1573,
+      "valid_mappings": 42200
+    }
+  },
+  "sources": [
+    "primary_mappings"
+  ],
+  "processing_timestamp": "2026-03-28T22:11:54.493272"
+}

@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Endocrine system disease', 'Urogenital disease (male)']",
+    "export_timestamp": "2026-03-28T22:11:36.137648",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D007984",
+      "DiseaseName": "Leydig Cell Tumor",
+      "DiseaseDescription": "Gonadal interstitial or stromal cell neoplasm composed of only LEYDIG CELLS. These tumors may produce one or more of the steroid hormones such as ANDROGENS; ESTROGENS; and CORTICOSTEROIDS. Clinical symptoms include testicular swelling, GYNECOMASTIA, sexual precocity in children, or virilization (VIRILISM) in females.",
+      "SlimMapping": "['Cancer', 'Endocrine system disease', 'Urogenital disease (male)']",
+      "PathwayNames": "Transport to the Golgi and subsequent modification",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007984",
+        "standardized_id": "MESH:D007984",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Leydig Cell Tumor",
+        "standardized_name": "Leydig Cell Tumor",
+        "normalized_name": "leydig cell tumor",
+        "synonyms": [],
+        "search_terms": [
+          "cell",
+          "leydig cell tumor",
+          "leydig",
+          "tumor"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Gonadal interstitial or stromal cell neoplasm composed of only LEYDIG CELLS. These tumors may produce one or more of the steroid hormones such as ANDROGENS; ESTROGENS; and CORTICOSTEROIDS. Clinical symptoms include testicular swelling, GYNECOMASTIA, sexual precocity in children, or virilization (VIRILISM) in females.",
+        "cleaned_description": "Gonadal interstitial or stromal cell neoplasm composed of only LEYDIG CELLS. These tumors may produce one or more of the steroid hormones such as ANDROGENS; ESTROGENS; and CORTICOSTEROIDS. Clinical symptoms include testicular swelling, GYNECOMASTIA, sexual precocity in children, or virilization (VIRILISM) in females.",
+        "description_summary": "Gonadal interstitial or stromal cell neoplasm composed of only LEYDIG CELLS.",
+        "key_terms": [],
+        "word_count": 43
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport to the Golgi and subsequent modification",
+        "pathway_list": [
+          "Transport to the Golgi and subsequent modification"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.814439",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013736",
+      "DiseaseName": "Testicular Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the TESTIS. Germ cell tumors (GERMINOMA) of the testis constitute 95% of all testicular neoplasms.",
+      "SlimMapping": "['Cancer', 'Endocrine system disease', 'Urogenital disease (male)']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013736",
+        "standardized_id": "MESH:D013736",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Testicular Neoplasms",
+        "standardized_name": "Testicular Neoplasms",
+        "normalized_name": "testicular neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "testicular neoplasms",
+          "testicular"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the TESTIS. Germ cell tumors (GERMINOMA) of the testis constitute 95% of all testicular neoplasms.",
+        "cleaned_description": "Tumors or cancer of the TESTIS. Germ cell tumors (GERMINOMA) of the testis constitute 95% of all testicular neoplasms.",
+        "description_summary": "Tumors or cancer of the TESTIS.",
+        "key_terms": [],
+        "word_count": 19
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Endocrine system disease",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.992697",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

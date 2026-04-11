@@ -1,0 +1,523 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Genetic disease (inborn)', 'Metabolic disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:35.495341",
+    "total_records": 7
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D038261",
+      "DiseaseName": "Alexander Disease",
+      "DiseaseDescription": "Rare leukoencephalopathy with infantile-onset accumulation of Rosenthal fibers in the subpial, periventricular, and subependymal zones of the brain. Rosenthal fibers are GLIAL FIBRILLARY ACIDIC PROTEIN aggregates found in ASTROCYTES. Juvenile- and adult-onset types show progressive atrophy of the lower brainstem instead. De novo mutations in the GFAP gene are associated with the disease with propensity for paternal inheritance.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease', 'Nervous system disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D038261",
+        "standardized_id": "MESH:D038261",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Alexander Disease",
+        "standardized_name": "Alexander Disease",
+        "normalized_name": "alexander disease",
+        "synonyms": [],
+        "search_terms": [
+          "disease",
+          "alexander",
+          "alexander disease"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Rare leukoencephalopathy with infantile-onset accumulation of Rosenthal fibers in the subpial, periventricular, and subependymal zones of the brain. Rosenthal fibers are GLIAL FIBRILLARY ACIDIC PROTEIN aggregates found in ASTROCYTES. Juvenile- and adult-onset types show progressive atrophy of the lower brainstem instead. De novo mutations in the GFAP gene are associated with the disease with propensity for paternal inheritance.",
+        "cleaned_description": "Rare leukoencephalopathy with infantile-onset accumulation of Rosenthal fibers in the subpial, periventricular, and subependymal zones of the brain. Rosenthal fibers are GLIAL FIBRILLARY ACIDIC PROTEIN aggregates found in ASTROCYTES. Juvenile- and adult-onset types show progressive atrophy of the lower brainstem instead. De novo mutations in the GFAP gene are associated with the disease with propensity for paternal inheritance.",
+        "description_summary": "Rare leukoencephalopathy with infantile-onset accumulation of Rosenthal fibers in the subpial, periventricular, and subependymal zones of the brain.",
+        "key_terms": [
+          "leukoencephalopathy"
+        ],
+        "word_count": 58
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.360097",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D028227",
+      "DiseaseName": "Amyloid Neuropathies, Familial",
+      "DiseaseDescription": "Inherited disorders of the peripheral nervous system associated with the deposition of AMYLOID in nerve tissue. The different clinical types based on symptoms correspond to the presence of a variety of mutations in several different proteins including transthyretin (PREALBUMIN); APOLIPOPROTEIN A-I; and GELSOLIN.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease', 'Nervous system disease']",
+      "PathwayNames": "Visual phototransduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D028227",
+        "standardized_id": "MESH:D028227",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Amyloid Neuropathies, Familial",
+        "standardized_name": "Amyloid Neuropathies, Familial",
+        "normalized_name": "amyloid neuropathies familial",
+        "synonyms": [],
+        "search_terms": [
+          "amyloid",
+          "neuropathies,",
+          "familial",
+          "amyloid neuropathies, familial"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inherited disorders of the peripheral nervous system associated with the deposition of AMYLOID in nerve tissue. The different clinical types based on symptoms correspond to the presence of a variety of mutations in several different proteins including transthyretin (PREALBUMIN); APOLIPOPROTEIN A-I; and GELSOLIN.",
+        "cleaned_description": "Inherited disorders of the peripheral nervous system associated with the deposition of AMYLOID in nerve tissue. The different clinical types based on symptoms correspond to the presence of a variety of mutations in several different proteins including transthyretin (PREALBUMIN); APOLIPOPROTEIN A-I; and GELSOLIN.",
+        "description_summary": "Inherited disorders of the peripheral nervous system associated with the deposition of AMYLOID in nerve tissue.",
+        "key_terms": [],
+        "word_count": 43
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Visual phototransduction",
+        "pathway_list": [
+          "Visual phototransduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.362257",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005621",
+      "DiseaseName": "Friedreich Ataxia",
+      "DiseaseDescription": "An autosomal recessive disease, usually of childhood onset, characterized pathologically by degeneration of the spinocerebellar tracts, posterior columns, and to a lesser extent the corticospinal tracts. Clinical manifestations include GAIT ATAXIA, pes cavus, speech impairment, lateral curvature of spine, rhythmic head tremor, kyphoscoliosis, congestive heart failure (secondary to a cardiomyopathy), and lower extremity weakness. Most forms of this condition are associated with a mutation in a gene on chromosome 9, at band q13, which codes for the mitochondrial protein frataxin. (From Adams et al., Principles of Neurology, 6th ed, p1081; N Engl J Med 1996 Oct 17;335(16):1169-75) The severity of Friedreich ataxia associated with expansion of GAA repeats in the first intron of the frataxin gene correlates with the number of trinucleotide repeats. (From Durr et al, N Engl J Med 1996 Oct 17;335(16):1169-75)",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease', 'Nervous system disease']",
+      "PathwayNames": "Porphyrin and chlorophyll metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005621",
+        "standardized_id": "MESH:D005621",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Friedreich Ataxia",
+        "standardized_name": "Friedreich Ataxia",
+        "normalized_name": "friedreich ataxia",
+        "synonyms": [],
+        "search_terms": [
+          "ataxia",
+          "friedreich",
+          "friedreich ataxia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An autosomal recessive disease, usually of childhood onset, characterized pathologically by degeneration of the spinocerebellar tracts, posterior columns, and to a lesser extent the corticospinal tracts. Clinical manifestations include GAIT ATAXIA, pes cavus, speech impairment, lateral curvature of spine, rhythmic head tremor, kyphoscoliosis, congestive heart failure (secondary to a cardiomyopathy), and lower extremity weakness. Most forms of this condition are associated with a mutation in a gene on chromosome 9, at band q13, which codes for the mitochondrial protein frataxin. (From Adams et al., Principles of Neurology, 6th ed, p1081; N Engl J Med 1996 Oct 17;335(16):1169-75) The severity of Friedreich ataxia associated with expansion of GAA repeats in the first intron of the frataxin gene correlates with the number of trinucleotide repeats. (From Durr et al, N Engl J Med 1996 Oct 17;335(16):1169-75)",
+        "cleaned_description": "An autosomal recessive disease, usually of childhood onset, characterized pathologically by degeneration of the spinocerebellar tracts, posterior columns, and to a lesser extent the corticospinal tracts. Clinical manifestations include GAIT ATAXIA, pes cavus, speech impairment, lateral curvature of spine, rhythmic head tremor, kyphoscoliosis, congestive heart failure (secondary to a cardiomyopathy), and lower extremity weakness. Most forms of this condition are associated with a mutation in a gene on chromosome 9, at band q13, which codes for the mitochondrial protein frataxin. (From Adams et al., Principles of Neurology, 6th ed, p1081; N Engl J Med 1996 Oct 17;335(16):1169-75) The severity of Friedreich ataxia associated with expansion of GAA repeats in the first intron of the frataxin gene correlates with the number of trinucleotide repeats. (From Durr et al, N Engl J Med 1996 Oct 17;335(16):1169-75)",
+        "description_summary": "An autosomal recessive disease, usually of childhood onset, characterized pathologically by degeneration of the spinocerebellar tracts, posterior columns, and to a lesser extent the corticospinal tracts.",
+        "key_terms": [
+          "kyphoscoliosis",
+          "cardiomyopathy"
+        ],
+        "word_count": 134
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Porphyrin and chlorophyll metabolism",
+        "pathway_list": [
+          "Porphyrin and chlorophyll metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.530860",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005776",
+      "DiseaseName": "Gaucher Disease",
+      "DiseaseDescription": "An autosomal recessive disorder caused by a deficiency of acid beta-glucosidase (GLUCOSYLCERAMIDASE) leading to intralysosomal accumulation of glycosylceramide mainly in cells of the MONONUCLEAR PHAGOCYTE SYSTEM. The characteristic Gaucher cells, glycosphingolipid-filled HISTIOCYTES, displace normal cells in BONE MARROW and visceral organs causing skeletal deterioration, hepatosplenomegaly, and organ dysfunction. There are several subtypes based on the presence and severity of neurological involvement.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease', 'Nervous system disease']",
+      "PathwayNames": "Sphingolipid metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005776",
+        "standardized_id": "MESH:D005776",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Gaucher Disease",
+        "standardized_name": "Gaucher Disease",
+        "normalized_name": "gaucher disease",
+        "synonyms": [],
+        "search_terms": [
+          "gaucher disease",
+          "disease",
+          "gaucher"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An autosomal recessive disorder caused by a deficiency of acid beta-glucosidase (GLUCOSYLCERAMIDASE) leading to intralysosomal accumulation of glycosylceramide mainly in cells of the MONONUCLEAR PHAGOCYTE SYSTEM. The characteristic Gaucher cells, glycosphingolipid-filled HISTIOCYTES, displace normal cells in BONE MARROW and visceral organs causing skeletal deterioration, hepatosplenomegaly, and organ dysfunction. There are several subtypes based on the presence and severity of neurological involvement.",
+        "cleaned_description": "An autosomal recessive disorder caused by a deficiency of acid beta-glucosidase (GLUCOSYLCERAMIDASE) leading to intralysosomal accumulation of glycosylceramide mainly in cells of the MONONUCLEAR PHAGOCYTE SYSTEM. The characteristic Gaucher cells, glycosphingolipid-filled HISTIOCYTES, displace normal cells in BONE MARROW and visceral organs causing skeletal deterioration, hepatosplenomegaly, and organ dysfunction. There are several subtypes based on the presence and severity of neurological involvement.",
+        "description_summary": "An autosomal recessive disorder caused by a deficiency of acid beta-glucosidase (GLUCOSYLCERAMIDASE) leading to intralysosomal accumulation of glycosylceramide mainly in cells of the MONONUCLEAR PHAGOCYTE SYSTEM.",
+        "key_terms": [],
+        "word_count": 61
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Sphingolipid metabolism",
+        "pathway_list": [
+          "Sphingolipid metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.538189",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020158",
+      "DiseaseName": "Hyperglycinemia, Nonketotic",
+      "DiseaseDescription": "An autosomal recessive metabolic disorder caused by deficiencies in the mitochondrial GLYCINE cleavage system.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease', 'Nervous system disease']",
+      "PathwayNames": "One carbon pool by folate",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020158",
+        "standardized_id": "MESH:D020158",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperglycinemia, Nonketotic",
+        "standardized_name": "Hyperglycinemia, Nonketotic",
+        "normalized_name": "hyperglycinemia nonketotic",
+        "synonyms": [],
+        "search_terms": [
+          "hyperglycinemia,",
+          "hyperglycinemia, nonketotic",
+          "nonketotic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An autosomal recessive metabolic disorder caused by deficiencies in the mitochondrial GLYCINE cleavage system.",
+        "cleaned_description": "An autosomal recessive metabolic disorder caused by deficiencies in the mitochondrial GLYCINE cleavage system.",
+        "description_summary": "An autosomal recessive metabolic disorder caused by deficiencies in the mitochondrial GLYCINE cleavage system.",
+        "key_terms": [],
+        "word_count": 14
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "One carbon pool by folate",
+        "pathway_list": [
+          "One carbon pool by folate"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.678888",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020163",
+      "DiseaseName": "Ornithine Carbamoyltransferase Deficiency Disease",
+      "DiseaseDescription": "An inherited urea cycle disorder associated with deficiency of the enzyme ORNITHINE CARBAMOYLTRANSFERASE, transmitted as an X-linked trait and featuring elevations of amino acids and ammonia in the serum. Clinical features, which are more prominent in males, include seizures, behavioral alterations, episodic vomiting, lethargy, and coma. (Menkes, Textbook of Child Neurology, 5th ed, pp49-50)",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease', 'Nervous system disease']",
+      "PathwayNames": "Urea cycle",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020163",
+        "standardized_id": "MESH:D020163",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Ornithine Carbamoyltransferase Deficiency Disease",
+        "standardized_name": "Ornithine Carbamoyltransferase Deficiency Disease",
+        "normalized_name": "ornithine carbamoyltransferase deficiency disease",
+        "synonyms": [],
+        "search_terms": [
+          "ornithine carbamoyltransferase deficiency disease",
+          "carbamoyltransferase",
+          "ornithine",
+          "deficiency",
+          "disease"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An inherited urea cycle disorder associated with deficiency of the enzyme ORNITHINE CARBAMOYLTRANSFERASE, transmitted as an X-linked trait and featuring elevations of amino acids and ammonia in the serum. Clinical features, which are more prominent in males, include seizures, behavioral alterations, episodic vomiting, lethargy, and coma. (Menkes, Textbook of Child Neurology, 5th ed, pp49-50)",
+        "cleaned_description": "An inherited urea cycle disorder associated with deficiency of the enzyme ORNITHINE CARBAMOYLTRANSFERASE, transmitted as an X-linked trait and featuring elevations of amino acids and ammonia in the serum. Clinical features, which are more prominent in males, include seizures, behavioral alterations, episodic vomiting, lethargy, and coma. (Menkes, Textbook of Child Neurology, 5th ed, pp49-50)",
+        "description_summary": "An inherited urea cycle disorder associated with deficiency of the enzyme ORNITHINE CARBAMOYLTRANSFERASE, transmitted as an X-linked trait and featuring elevations of amino acids and ammonia in the serum.",
+        "key_terms": [],
+        "word_count": 54
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Urea cycle",
+        "pathway_list": [
+          "Urea cycle"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.896682",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020176",
+      "DiseaseName": "Tyrosinemias",
+      "DiseaseDescription": "A group of disorders which have in common elevations of tyrosine in the blood and urine secondary to an enzyme deficiency. Type I tyrosinemia features episodic weakness, self-mutilation, hepatic necrosis, renal tubular injury, and seizures and is caused by a deficiency of the enzyme fumarylacetoacetase. Type II tyrosinemia features INTELLECTUAL DISABILITY, painful corneal ulcers, and keratoses of the palms and plantar surfaces and is caused by a deficiency of the enzyme TYROSINE TRANSAMINASE. Type III tyrosinemia features INTELLECTUAL DISABILITY and is caused by a deficiency of the enzyme 4-HYDROXYPHENYLPYRUVATE DIOXYGENASE. (Menkes, Textbook of Child Neurology, 5th ed, pp42-3)",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease', 'Nervous system disease']",
+      "PathwayNames": "Ubiquinone and other terpenoid-quinone biosynthesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020176",
+        "standardized_id": "MESH:D020176",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Tyrosinemias",
+        "standardized_name": "Tyrosinemias",
+        "normalized_name": "tyrosinemias",
+        "synonyms": [],
+        "search_terms": [
+          "tyrosinemias"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A group of disorders which have in common elevations of tyrosine in the blood and urine secondary to an enzyme deficiency. Type I tyrosinemia features episodic weakness, self-mutilation, hepatic necrosis, renal tubular injury, and seizures and is caused by a deficiency of the enzyme fumarylacetoacetase. Type II tyrosinemia features INTELLECTUAL DISABILITY, painful corneal ulcers, and keratoses of the palms and plantar surfaces and is caused by a deficiency of the enzyme TYROSINE TRANSAMINASE. Type III tyrosinemia features INTELLECTUAL DISABILITY and is caused by a deficiency of the enzyme 4-HYDROXYPHENYLPYRUVATE DIOXYGENASE. (Menkes, Textbook of Child Neurology, 5th ed, pp42-3)",
+        "cleaned_description": "A group of disorders which have in common elevations of tyrosine in the blood and urine secondary to an enzyme deficiency. Type I tyrosinemia features episodic weakness, self-mutilation, hepatic necrosis, renal tubular injury, and seizures and is caused by a deficiency of the enzyme fumarylacetoacetase. Type II tyrosinemia features INTELLECTUAL DISABILITY, painful corneal ulcers, and keratoses of the palms and plantar surfaces and is caused by a deficiency of the enzyme TYROSINE TRANSAMINASE. Type III tyrosinemia features INTELLECTUAL DISABILITY and is caused by a deficiency of the enzyme 4-HYDROXYPHENYLPYRUVATE DIOXYGENASE. (Menkes, Textbook of Child Neurology, 5th ed, pp42-3)",
+        "description_summary": "A group of disorders which have in common elevations of tyrosine in the blood and urine secondary to an enzyme deficiency.",
+        "key_terms": [
+          "necrosis",
+          "tyrosinemia"
+        ],
+        "word_count": 98
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Ubiquinone and other terpenoid-quinone biosynthesis",
+        "pathway_list": [
+          "Ubiquinone and other terpenoid-quinone biosynthesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.008455",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

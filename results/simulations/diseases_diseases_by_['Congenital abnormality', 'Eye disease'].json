@@ -1,0 +1,278 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Congenital abnormality', 'Eye disease']",
+    "export_timestamp": "2026-03-28T22:11:35.554770",
+    "total_records": 4
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000853",
+      "DiseaseName": "Anophthalmos",
+      "DiseaseDescription": "Congenital absence of the eye or eyes.",
+      "SlimMapping": "['Congenital abnormality', 'Eye disease']",
+      "PathwayNames": "Visual phototransduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000853",
+        "standardized_id": "MESH:D000853",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Anophthalmos",
+        "standardized_name": "Anophthalmos",
+        "normalized_name": "anophthalmos",
+        "synonyms": [],
+        "search_terms": [
+          "anophthalmos"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Congenital absence of the eye or eyes.",
+        "cleaned_description": "Congenital absence of the eye or eyes.",
+        "description_summary": "Congenital absence of the eye or eyes.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Eye disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Eye disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Eye disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Visual phototransduction",
+        "pathway_list": [
+          "Visual phototransduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.365840",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003103",
+      "DiseaseName": "Coloboma",
+      "DiseaseDescription": "Congenital anomaly in which some of the structures of the eye are absent due to incomplete fusion of the fetal intraocular fissure during gestation.",
+      "SlimMapping": "['Congenital abnormality', 'Eye disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003103",
+        "standardized_id": "MESH:D003103",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Coloboma",
+        "standardized_name": "Coloboma",
+        "normalized_name": "coloboma",
+        "synonyms": [],
+        "search_terms": [
+          "coloboma"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Congenital anomaly in which some of the structures of the eye are absent due to incomplete fusion of the fetal intraocular fissure during gestation.",
+        "cleaned_description": "Congenital anomaly in which some of the structures of the eye are absent due to incomplete fusion of the fetal intraocular fissure during gestation.",
+        "description_summary": "Congenital anomaly in which some of the structures of the eye are absent due to incomplete fusion of the fetal intraocular fissure during gestation.",
+        "key_terms": [],
+        "word_count": 24
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Eye disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Eye disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Eye disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.447658",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005124",
+      "DiseaseName": "Eye Abnormalities",
+      "DiseaseDescription": "Congenital absence of or defects in structures of the eye; may also be hereditary.",
+      "SlimMapping": "['Congenital abnormality', 'Eye disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005124",
+        "standardized_id": "MESH:D005124",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Eye Abnormalities",
+        "standardized_name": "Eye Abnormalities",
+        "normalized_name": "eye abnormalities",
+        "synonyms": [],
+        "search_terms": [
+          "eye abnormalities",
+          "eye",
+          "abnormalities"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Congenital absence of or defects in structures of the eye; may also be hereditary.",
+        "cleaned_description": "Congenital absence of or defects in structures of the eye; may also be hereditary.",
+        "description_summary": "Congenital absence of or defects in structures of the eye; may also be hereditary.",
+        "key_terms": [],
+        "word_count": 14
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Eye disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Eye disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Eye disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.513832",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008850",
+      "DiseaseName": "Microphthalmos",
+      "DiseaseDescription": "Congenital or developmental anomaly in which the eyeballs are abnormally small.",
+      "SlimMapping": "['Congenital abnormality', 'Eye disease']",
+      "PathwayNames": "Visual phototransduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008850",
+        "standardized_id": "MESH:D008850",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Microphthalmos",
+        "standardized_name": "Microphthalmos",
+        "normalized_name": "microphthalmos",
+        "synonyms": [],
+        "search_terms": [
+          "microphthalmos"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Congenital or developmental anomaly in which the eyeballs are abnormally small.",
+        "cleaned_description": "Congenital or developmental anomaly in which the eyeballs are abnormally small.",
+        "description_summary": "Congenital or developmental anomaly in which the eyeballs are abnormally small.",
+        "key_terms": [],
+        "word_count": 11
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Eye disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Eye disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Eye disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Visual phototransduction",
+        "pathway_list": [
+          "Visual phototransduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.849260",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

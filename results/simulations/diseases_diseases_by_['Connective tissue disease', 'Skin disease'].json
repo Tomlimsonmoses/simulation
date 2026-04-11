@@ -1,0 +1,277 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Connective tissue disease', 'Skin disease']",
+    "export_timestamp": "2026-03-28T22:11:36.145164",
+    "total_records": 4
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D008179",
+      "DiseaseName": "Lupus Erythematosus, Discoid",
+      "DiseaseDescription": "A chronic form of cutaneous lupus erythematosus (LUPUS ERYTHEMATOSUS, CUTANEOUS) in which the skin lesions mimic those of the systemic form but in which systemic signs are rare. It is characterized by the presence of discoid skin plaques showing varying degrees of edema, erythema, scaliness, follicular plugging, and skin atrophy. Lesions are surrounded by an elevated erythematous border. The condition typically involves the face and scalp, but widespread dissemination may occur.",
+      "SlimMapping": "['Connective tissue disease', 'Skin disease']",
+      "PathwayNames": "Resolution of Abasic Sites (AP sites)",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008179",
+        "standardized_id": "MESH:D008179",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Lupus Erythematosus, Discoid",
+        "standardized_name": "Lupus Erythematosus, Discoid",
+        "normalized_name": "lupus erythematosus discoid",
+        "synonyms": [],
+        "search_terms": [
+          "lupus",
+          "lupus erythematosus, discoid",
+          "erythematosus,",
+          "discoid"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A chronic form of cutaneous lupus erythematosus (LUPUS ERYTHEMATOSUS, CUTANEOUS) in which the skin lesions mimic those of the systemic form but in which systemic signs are rare. It is characterized by the presence of discoid skin plaques showing varying degrees of edema, erythema, scaliness, follicular plugging, and skin atrophy. Lesions are surrounded by an elevated erythematous border. The condition typically involves the face and scalp, but widespread dissemination may occur.",
+        "cleaned_description": "A chronic form of cutaneous lupus erythematosus (LUPUS ERYTHEMATOSUS, CUTANEOUS) in which the skin lesions mimic those of the systemic form but in which systemic signs are rare. It is characterized by the presence of discoid skin plaques showing varying degrees of edema, erythema, scaliness, follicular plugging, and skin atrophy. Lesions are surrounded by an elevated erythematous border. The condition typically involves the face and scalp, but widespread dissemination may occur.",
+        "description_summary": "A chronic form of cutaneous lupus erythematosus (LUPUS ERYTHEMATOSUS, CUTANEOUS) in which the skin lesions mimic those of the systemic form but in which systemic signs are rare.",
+        "key_terms": [],
+        "word_count": 71
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Connective tissue disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Connective tissue disease",
+          "Skin disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Connective tissue disease",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Resolution of Abasic Sites (AP sites)",
+        "pathway_list": [
+          "Resolution of Abasic Sites (AP sites)"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.824969",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D045743",
+      "DiseaseName": "Scleroderma, Diffuse",
+      "DiseaseDescription": "A rapid onset form of SYSTEMIC SCLERODERMA with progressive widespread SKIN thickening over the arms, the legs and the trunk, resulting in stiffness and disability.",
+      "SlimMapping": "['Connective tissue disease', 'Skin disease']",
+      "PathwayNames": "UCH proteinases",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D045743",
+        "standardized_id": "MESH:D045743",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Scleroderma, Diffuse",
+        "standardized_name": "Scleroderma, Diffuse",
+        "normalized_name": "scleroderma diffuse",
+        "synonyms": [],
+        "search_terms": [
+          "diffuse",
+          "scleroderma, diffuse",
+          "scleroderma,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A rapid onset form of SYSTEMIC SCLERODERMA with progressive widespread SKIN thickening over the arms, the legs and the trunk, resulting in stiffness and disability.",
+        "cleaned_description": "A rapid onset form of SYSTEMIC SCLERODERMA with progressive widespread SKIN thickening over the arms, the legs and the trunk, resulting in stiffness and disability.",
+        "description_summary": "A rapid onset form of SYSTEMIC SCLERODERMA with progressive widespread SKIN thickening over the arms, the legs and the trunk, resulting in stiffness and disability.",
+        "key_terms": [],
+        "word_count": 25
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Connective tissue disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Connective tissue disease",
+          "Skin disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Connective tissue disease",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "UCH proteinases",
+        "pathway_list": [
+          "UCH proteinases"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.960947",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012594",
+      "DiseaseName": "Scleroderma, Localized",
+      "DiseaseDescription": "A term used to describe a variety of localized asymmetrical SKIN thickening that is similar to those of SYSTEMIC SCLERODERMA but without the disease features in the multiple internal organs and BLOOD VESSELS. Lesions may be characterized as patches or plaques (morphea), bands (linear), or nodules.",
+      "SlimMapping": "['Connective tissue disease', 'Skin disease']",
+      "PathwayNames": "XBP1(S) activates chaperone genes",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012594",
+        "standardized_id": "MESH:D012594",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Scleroderma, Localized",
+        "standardized_name": "Scleroderma, Localized",
+        "normalized_name": "scleroderma localized",
+        "synonyms": [],
+        "search_terms": [
+          "localized",
+          "scleroderma,",
+          "scleroderma, localized"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A term used to describe a variety of localized asymmetrical SKIN thickening that is similar to those of SYSTEMIC SCLERODERMA but without the disease features in the multiple internal organs and BLOOD VESSELS. Lesions may be characterized as patches or plaques (morphea), bands (linear), or nodules.",
+        "cleaned_description": "A term used to describe a variety of localized asymmetrical SKIN thickening that is similar to those of SYSTEMIC SCLERODERMA but without the disease features in the multiple internal organs and BLOOD VESSELS. Lesions may be characterized as patches or plaques (morphea), bands (linear), or nodules.",
+        "description_summary": "A term used to describe a variety of localized asymmetrical SKIN thickening that is similar to those of SYSTEMIC SCLERODERMA but without the disease features in the multiple internal organs and BLOOD VESSELS.",
+        "key_terms": [],
+        "word_count": 46
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Connective tissue disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Connective tissue disease",
+          "Skin disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Connective tissue disease",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "XBP1(S) activates chaperone genes",
+        "pathway_list": [
+          "XBP1(S) activates chaperone genes"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.961118",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012595",
+      "DiseaseName": "Scleroderma, Systemic",
+      "DiseaseDescription": "A chronic multi-system disorder of CONNECTIVE TISSUE. It is characterized by SCLEROSIS in the SKIN, the LUNGS, the HEART, the GASTROINTESTINAL TRACT, the KIDNEYS, and the MUSCULOSKELETAL SYSTEM. Other important features include diseased small BLOOD VESSELS and AUTOANTIBODIES. The disorder is named for its most prominent feature (hard skin), and classified into subsets by the extent of skin thickening: LIMITED SCLERODERMA and DIFFUSE SCLERODERMA.",
+      "SlimMapping": "['Connective tissue disease', 'Skin disease']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012595",
+        "standardized_id": "MESH:D012595",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Scleroderma, Systemic",
+        "standardized_name": "Scleroderma, Systemic",
+        "normalized_name": "scleroderma systemic",
+        "synonyms": [],
+        "search_terms": [
+          "systemic",
+          "scleroderma,",
+          "scleroderma, systemic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A chronic multi-system disorder of CONNECTIVE TISSUE. It is characterized by SCLEROSIS in the SKIN, the LUNGS, the HEART, the GASTROINTESTINAL TRACT, the KIDNEYS, and the MUSCULOSKELETAL SYSTEM. Other important features include diseased small BLOOD VESSELS and AUTOANTIBODIES. The disorder is named for its most prominent feature (hard skin), and classified into subsets by the extent of skin thickening: LIMITED SCLERODERMA and DIFFUSE SCLERODERMA.",
+        "cleaned_description": "A chronic multi-system disorder of CONNECTIVE TISSUE. It is characterized by SCLEROSIS in the SKIN, the LUNGS, the HEART, the GASTROINTESTINAL TRACT, the KIDNEYS, and the MUSCULOSKELETAL SYSTEM. Other important features include diseased small BLOOD VESSELS and AUTOANTIBODIES. The disorder is named for its most prominent feature (hard skin), and classified into subsets by the extent of skin thickening: LIMITED SCLERODERMA and DIFFUSE SCLERODERMA.",
+        "description_summary": "A chronic multi-system disorder of CONNECTIVE TISSUE.",
+        "key_terms": [
+          "SCLEROSIS"
+        ],
+        "word_count": 64
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Connective tissue disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Connective tissue disease",
+          "Skin disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Connective tissue disease",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.961330",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

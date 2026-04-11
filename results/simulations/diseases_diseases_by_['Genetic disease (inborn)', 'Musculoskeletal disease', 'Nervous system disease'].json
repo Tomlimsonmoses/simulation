@@ -1,0 +1,368 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Genetic disease (inborn)', 'Musculoskeletal disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:35.963659",
+    "total_records": 5
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D049310",
+      "DiseaseName": "Distal Myopathies",
+      "DiseaseDescription": "A heterogeneous group of genetic disorders characterized by progressive MUSCULAR ATROPHY and MUSCLE WEAKNESS beginning in the hands, the legs, or the feet. Most are adult-onset autosomal dominant forms. Others are autosomal recessive.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Musculoskeletal disease', 'Nervous system disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D049310",
+        "standardized_id": "MESH:D049310",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Distal Myopathies",
+        "standardized_name": "Distal Myopathies",
+        "normalized_name": "distal myopathies",
+        "synonyms": [],
+        "search_terms": [
+          "myopathies",
+          "distal",
+          "distal myopathies"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A heterogeneous group of genetic disorders characterized by progressive MUSCULAR ATROPHY and MUSCLE WEAKNESS beginning in the hands, the legs, or the feet. Most are adult-onset autosomal dominant forms. Others are autosomal recessive.",
+        "cleaned_description": "A heterogeneous group of genetic disorders characterized by progressive MUSCULAR ATROPHY and MUSCLE WEAKNESS beginning in the hands, the legs, or the feet. Most are adult-onset autosomal dominant forms. Others are autosomal recessive.",
+        "description_summary": "A heterogeneous group of genetic disorders characterized by progressive MUSCULAR ATROPHY and MUSCLE WEAKNESS beginning in the hands, the legs, or the feet.",
+        "key_terms": [],
+        "word_count": 33
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.482444",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009136",
+      "DiseaseName": "Muscular Dystrophies",
+      "DiseaseDescription": "A heterogeneous group of inherited MYOPATHIES, characterized by wasting and weakness of the SKELETAL MUSCLE. They are categorized by the sites of MUSCLE WEAKNESS; AGE OF ONSET; and INHERITANCE PATTERNS.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Musculoskeletal disease', 'Nervous system disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009136",
+        "standardized_id": "MESH:D009136",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Muscular Dystrophies",
+        "standardized_name": "Muscular Dystrophies",
+        "normalized_name": "muscular dystrophies",
+        "synonyms": [],
+        "search_terms": [
+          "muscular",
+          "muscular dystrophies",
+          "dystrophies"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A heterogeneous group of inherited MYOPATHIES, characterized by wasting and weakness of the SKELETAL MUSCLE. They are categorized by the sites of MUSCLE WEAKNESS; AGE OF ONSET; and INHERITANCE PATTERNS.",
+        "cleaned_description": "A heterogeneous group of inherited MYOPATHIES, characterized by wasting and weakness of the SKELETAL MUSCLE. They are categorized by the sites of MUSCLE WEAKNESS; AGE OF ONSET; and INHERITANCE PATTERNS.",
+        "description_summary": "A heterogeneous group of inherited MYOPATHIES, characterized by wasting and weakness of the SKELETAL MUSCLE.",
+        "key_terms": [],
+        "word_count": 30
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.861127",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020388",
+      "DiseaseName": "Muscular Dystrophy, Duchenne",
+      "DiseaseDescription": "An X-linked recessive muscle disease caused by an inability to synthesize DYSTROPHIN, which is involved with maintaining the integrity of the sarcolemma. Muscle fibers undergo a process that features degeneration and regeneration. Clinical manifestations include proximal weakness in the first few years of life, pseudohypertrophy, cardiomyopathy (see MYOCARDIAL DISEASES), and an increased incidence of impaired mentation. Becker muscular dystrophy is a closely related condition featuring a later onset of disease (usually adolescence) and a slowly progressive course. (Adams et al., Principles of Neurology, 6th ed, p1415)",
+      "SlimMapping": "['Genetic disease (inborn)', 'Musculoskeletal disease', 'Nervous system disease']",
+      "PathwayNames": "Vpu mediated degradation of CD4",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020388",
+        "standardized_id": "MESH:D020388",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Muscular Dystrophy, Duchenne",
+        "standardized_name": "Muscular Dystrophy, Duchenne",
+        "normalized_name": "muscular dystrophy duchenne",
+        "synonyms": [],
+        "search_terms": [
+          "muscular",
+          "muscular dystrophy, duchenne",
+          "dystrophy,",
+          "duchenne"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An X-linked recessive muscle disease caused by an inability to synthesize DYSTROPHIN, which is involved with maintaining the integrity of the sarcolemma. Muscle fibers undergo a process that features degeneration and regeneration. Clinical manifestations include proximal weakness in the first few years of life, pseudohypertrophy, cardiomyopathy (see MYOCARDIAL DISEASES), and an increased incidence of impaired mentation. Becker muscular dystrophy is a closely related condition featuring a later onset of disease (usually adolescence) and a slowly progressive course. (Adams et al., Principles of Neurology, 6th ed, p1415)",
+        "cleaned_description": "An X-linked recessive muscle disease caused by an inability to synthesize DYSTROPHIN, which is involved with maintaining the integrity of the sarcolemma. Muscle fibers undergo a process that features degeneration and regeneration. Clinical manifestations include proximal weakness in the first few years of life, pseudohypertrophy, cardiomyopathy (see MYOCARDIAL DISEASES), and an increased incidence of impaired mentation. Becker muscular dystrophy is a closely related condition featuring a later onset of disease (usually adolescence) and a slowly progressive course. (Adams et al., Principles of Neurology, 6th ed, p1415)",
+        "description_summary": "An X-linked recessive muscle disease caused by an inability to synthesize DYSTROPHIN, which is involved with maintaining the integrity of the sarcolemma.",
+        "key_terms": [
+          "cardiomyopathy"
+        ],
+        "word_count": 86
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vpu mediated degradation of CD4",
+        "pathway_list": [
+          "Vpu mediated degradation of CD4"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.861470",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009224",
+      "DiseaseName": "Myotonia Congenita",
+      "DiseaseDescription": "Inherited myotonic disorders with early childhood onset MYOTONIA. Muscular hypertrophy is common and myotonia may impair ambulation and other movements. It is classified as Thomsen (autosomal dominant) or Becker (autosomal recessive) generalized myotonia mainly based on the inheritance pattern. Becker type is also clinically more severe. An autosomal dominant variant with milder symptoms and later onset is known as myotonia levior. Mutations in the voltage-dependent skeletal muscle chloride channel are associated with the disorders.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Musculoskeletal disease', 'Nervous system disease']",
+      "PathwayNames": "Transmembrane transport of small molecules",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009224",
+        "standardized_id": "MESH:D009224",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Myotonia Congenita",
+        "standardized_name": "Myotonia Congenita",
+        "normalized_name": "myotonia congenita",
+        "synonyms": [],
+        "search_terms": [
+          "myotonia",
+          "congenita",
+          "myotonia congenita"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inherited myotonic disorders with early childhood onset MYOTONIA. Muscular hypertrophy is common and myotonia may impair ambulation and other movements. It is classified as Thomsen (autosomal dominant) or Becker (autosomal recessive) generalized myotonia mainly based on the inheritance pattern. Becker type is also clinically more severe. An autosomal dominant variant with milder symptoms and later onset is known as myotonia levior. Mutations in the voltage-dependent skeletal muscle chloride channel are associated with the disorders.",
+        "cleaned_description": "Inherited myotonic disorders with early childhood onset MYOTONIA. Muscular hypertrophy is common and myotonia may impair ambulation and other movements. It is classified as Thomsen (autosomal dominant) or Becker (autosomal recessive) generalized myotonia mainly based on the inheritance pattern. Becker type is also clinically more severe. An autosomal dominant variant with milder symptoms and later onset is known as myotonia levior. Mutations in the voltage-dependent skeletal muscle chloride channel are associated with the disorders.",
+        "description_summary": "Inherited myotonic disorders with early childhood onset MYOTONIA.",
+        "key_terms": [],
+        "word_count": 74
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmembrane transport of small molecules",
+        "pathway_list": [
+          "Transmembrane transport of small molecules"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.865039",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009223",
+      "DiseaseName": "Myotonic Dystrophy",
+      "DiseaseDescription": "Neuromuscular disorder characterized by PROGRESSIVE MUSCULAR ATROPHY; MYOTONIA, and various multisystem atrophies. Mild INTELLECTUAL DISABILITY may also occur. Abnormal TRINUCLEOTIDE REPEAT EXPANSION in the 3' UNTRANSLATED REGIONS of DMPK PROTEIN gene is associated with Myotonic Dystrophy 1. DNA REPEAT EXPANSION of zinc finger protein-9 gene intron is associated with Myotonic Dystrophy 2.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Musculoskeletal disease', 'Nervous system disease']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009223",
+        "standardized_id": "MESH:D009223",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Myotonic Dystrophy",
+        "standardized_name": "Myotonic Dystrophy",
+        "normalized_name": "myotonic dystrophy",
+        "synonyms": [],
+        "search_terms": [
+          "myotonic dystrophy",
+          "myotonic",
+          "dystrophy"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Neuromuscular disorder characterized by PROGRESSIVE MUSCULAR ATROPHY; MYOTONIA, and various multisystem atrophies. Mild INTELLECTUAL DISABILITY may also occur. Abnormal TRINUCLEOTIDE REPEAT EXPANSION in the 3' UNTRANSLATED REGIONS of DMPK PROTEIN gene is associated with Myotonic Dystrophy 1. DNA REPEAT EXPANSION of zinc finger protein-9 gene intron is associated with Myotonic Dystrophy 2.",
+        "cleaned_description": "Neuromuscular disorder characterized by PROGRESSIVE MUSCULAR ATROPHY; MYOTONIA, and various multisystem atrophies. Mild INTELLECTUAL DISABILITY may also occur. Abnormal TRINUCLEOTIDE REPEAT EXPANSION in the 3' UNTRANSLATED REGIONS of DMPK PROTEIN gene is associated with Myotonic Dystrophy 1. DNA REPEAT EXPANSION of zinc finger protein-9 gene intron is associated with Myotonic Dystrophy 2.",
+        "description_summary": "Neuromuscular disorder characterized by PROGRESSIVE MUSCULAR ATROPHY; MYOTONIA, and various multisystem atrophies.",
+        "key_terms": [],
+        "word_count": 52
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.865367",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

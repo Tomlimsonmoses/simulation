@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Eye disease', 'Genetic disease (inborn)']",
+    "export_timestamp": "2026-03-28T22:11:36.292840",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D012174",
+      "DiseaseName": "Retinitis Pigmentosa",
+      "DiseaseDescription": "Hereditary, progressive degeneration of the retina due to death of ROD PHOTORECEPTORS initially and subsequent death of CONE PHOTORECEPTORS. It is characterized by deposition of pigment in the retina.",
+      "SlimMapping": "['Eye disease', 'Genetic disease (inborn)']",
+      "PathwayNames": "VxPx cargo-targeting to cilium",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012174",
+        "standardized_id": "MESH:D012174",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Retinitis Pigmentosa",
+        "standardized_name": "Retinitis Pigmentosa",
+        "normalized_name": "retinitis pigmentosa",
+        "synonyms": [],
+        "search_terms": [
+          "retinitis",
+          "pigmentosa",
+          "retinitis pigmentosa"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Hereditary, progressive degeneration of the retina due to death of ROD PHOTORECEPTORS initially and subsequent death of CONE PHOTORECEPTORS. It is characterized by deposition of pigment in the retina.",
+        "cleaned_description": "Hereditary, progressive degeneration of the retina due to death of ROD PHOTORECEPTORS initially and subsequent death of CONE PHOTORECEPTORS. It is characterized by deposition of pigment in the retina.",
+        "description_summary": "Hereditary, progressive degeneration of the retina due to death of ROD PHOTORECEPTORS initially and subsequent death of CONE PHOTORECEPTORS.",
+        "key_terms": [],
+        "word_count": 29
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Eye disease",
+          "Genetic disease (inborn)"
+        ],
+        "primary_categories": [
+          "Eye disease",
+          "Genetic disease (inborn)"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Eye disease",
+          "Genetic disease (inborn)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "VxPx cargo-targeting to cilium",
+        "pathway_list": [
+          "VxPx cargo-targeting to cilium"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.955411",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

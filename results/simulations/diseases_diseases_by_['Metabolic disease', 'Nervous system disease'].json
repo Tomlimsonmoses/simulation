@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Metabolic disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:35.515958",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000690",
+      "DiseaseName": "Amyotrophic Lateral Sclerosis",
+      "DiseaseDescription": "A degenerative disorder affecting upper MOTOR NEURONS in the brain and lower motor neurons in the brain stem and SPINAL CORD. Disease onset is usually after the age of 50 and the process is usually fatal within 3 to 6 years. Clinical manifestations include progressive weakness, atrophy, FASCICULATION, hyperreflexia, DYSARTHRIA, dysphagia, and eventual paralysis of respiratory function. Pathologic features include the replacement of motor neurons with fibrous ASTROCYTES and atrophy of anterior SPINAL NERVE ROOTS and corticospinal tracts. (From Adams et al., Principles of Neurology, 6th ed, pp1089-94)",
+      "SlimMapping": "['Metabolic disease', 'Nervous system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000690",
+        "standardized_id": "MESH:D000690",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Amyotrophic Lateral Sclerosis",
+        "standardized_name": "Amyotrophic Lateral Sclerosis",
+        "normalized_name": "amyotrophic lateral sclerosis",
+        "synonyms": [],
+        "search_terms": [
+          "amyotrophic",
+          "amyotrophic lateral sclerosis",
+          "lateral",
+          "sclerosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A degenerative disorder affecting upper MOTOR NEURONS in the brain and lower motor neurons in the brain stem and SPINAL CORD. Disease onset is usually after the age of 50 and the process is usually fatal within 3 to 6 years. Clinical manifestations include progressive weakness, atrophy, FASCICULATION, hyperreflexia, DYSARTHRIA, dysphagia, and eventual paralysis of respiratory function. Pathologic features include the replacement of motor neurons with fibrous ASTROCYTES and atrophy of anterior SPINAL NERVE ROOTS and corticospinal tracts. (From Adams et al., Principles of Neurology, 6th ed, pp1089-94)",
+        "cleaned_description": "A degenerative disorder affecting upper MOTOR NEURONS in the brain and lower motor neurons in the brain stem and SPINAL CORD. Disease onset is usually after the age of 50 and the process is usually fatal within 3 to 6 years. Clinical manifestations include progressive weakness, atrophy, FASCICULATION, hyperreflexia, DYSARTHRIA, dysphagia, and eventual paralysis of respiratory function. Pathologic features include the replacement of motor neurons with fibrous ASTROCYTES and atrophy of anterior SPINAL NERVE ROOTS and corticospinal tracts. (From Adams et al., Principles of Neurology, 6th ed, pp1089-94)",
+        "description_summary": "A degenerative disorder affecting upper MOTOR NEURONS in the brain and lower motor neurons in the brain stem and SPINAL CORD.",
+        "key_terms": [],
+        "word_count": 88
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.362670",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001928",
+      "DiseaseName": "Brain Diseases, Metabolic",
+      "DiseaseDescription": "Acquired or inborn metabolic diseases that produce brain dysfunction or damage. These include primary (i.e., disorders intrinsic to the brain) and secondary (i.e., extracranial) metabolic conditions that adversely affect cerebral function.",
+      "SlimMapping": "['Metabolic disease', 'Nervous system disease']",
+      "PathwayNames": "Transmission across Chemical Synapses",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001928",
+        "standardized_id": "MESH:D001928",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Brain Diseases, Metabolic",
+        "standardized_name": "Brain Diseases, Metabolic",
+        "normalized_name": "brain diseases metabolic",
+        "synonyms": [],
+        "search_terms": [
+          "diseases,",
+          "brain diseases, metabolic",
+          "metabolic",
+          "brain"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Acquired or inborn metabolic diseases that produce brain dysfunction or damage. These include primary (i.e., disorders intrinsic to the brain) and secondary (i.e., extracranial) metabolic conditions that adversely affect cerebral function.",
+        "cleaned_description": "Acquired or inborn metabolic diseases that produce brain dysfunction or damage. These include primary (i.e., disorders intrinsic to the brain) and secondary (i.e., extracranial) metabolic conditions that adversely affect cerebral function.",
+        "description_summary": "Acquired or inborn metabolic diseases that produce brain dysfunction or damage.",
+        "key_terms": [],
+        "word_count": 31
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmission across Chemical Synapses",
+        "pathway_list": [
+          "Transmission across Chemical Synapses"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.404966",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

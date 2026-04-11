@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Congenital abnormality', 'Mouth disease']",
+    "export_timestamp": "2026-03-28T22:11:35.552496",
+    "total_records": 3
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000848",
+      "DiseaseName": "Anodontia",
+      "DiseaseDescription": "Congenital absence of the teeth; it may involve all (total anodontia) or only some of the teeth (partial anodontia, hypodontia), and both the deciduous and the permanent dentition, or only teeth of the permanent dentition. (Dorland, 27th ed)",
+      "SlimMapping": "['Congenital abnormality', 'Mouth disease']",
+      "PathwayNames": "Molecules associated with elastic fibres",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000848",
+        "standardized_id": "MESH:D000848",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Anodontia",
+        "standardized_name": "Anodontia",
+        "normalized_name": "anodontia",
+        "synonyms": [],
+        "search_terms": [
+          "anodontia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Congenital absence of the teeth; it may involve all (total anodontia) or only some of the teeth (partial anodontia, hypodontia), and both the deciduous and the permanent dentition, or only teeth of the permanent dentition. (Dorland, 27th ed)",
+        "cleaned_description": "Congenital absence of the teeth; it may involve all (total anodontia) or only some of the teeth (partial anodontia, hypodontia), and both the deciduous and the permanent dentition, or only teeth of the permanent dentition. (Dorland, 27th ed)",
+        "description_summary": "Congenital absence of the teeth; it may involve all (total anodontia) or only some of the teeth (partial anodontia, hypodontia), and both the deciduous and the permanent dentition, or only teeth of the permanent dentition.",
+        "key_terms": [],
+        "word_count": 38
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Mouth disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Mouth disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Mouth disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Molecules associated with elastic fibres",
+        "pathway_list": [
+          "Molecules associated with elastic fibres"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.365771",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002971",
+      "DiseaseName": "Cleft Lip",
+      "DiseaseDescription": "Congenital defect in the upper lip where the maxillary prominence fails to merge with the merged medial nasal prominences. It is thought to be caused by faulty migration of the mesoderm in the head region.",
+      "SlimMapping": "['Congenital abnormality', 'Mouth disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002971",
+        "standardized_id": "MESH:D002971",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cleft Lip",
+        "standardized_name": "Cleft Lip",
+        "normalized_name": "cleft lip",
+        "synonyms": [],
+        "search_terms": [
+          "cleft",
+          "cleft lip",
+          "lip"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Congenital defect in the upper lip where the maxillary prominence fails to merge with the merged medial nasal prominences. It is thought to be caused by faulty migration of the mesoderm in the head region.",
+        "cleaned_description": "Congenital defect in the upper lip where the maxillary prominence fails to merge with the merged medial nasal prominences. It is thought to be caused by faulty migration of the mesoderm in the head region.",
+        "description_summary": "Congenital defect in the upper lip where the maxillary prominence fails to merge with the merged medial nasal prominences.",
+        "key_terms": [],
+        "word_count": 35
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Mouth disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Mouth disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Mouth disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.445441",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009056",
+      "DiseaseName": "Mouth Abnormalities",
+      "DiseaseDescription": "Congenital absence of or defects in structures of the mouth.",
+      "SlimMapping": "['Congenital abnormality', 'Mouth disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009056",
+        "standardized_id": "MESH:D009056",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Mouth Abnormalities",
+        "standardized_name": "Mouth Abnormalities",
+        "normalized_name": "mouth abnormalities",
+        "synonyms": [],
+        "search_terms": [
+          "abnormalities",
+          "mouth",
+          "mouth abnormalities"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Congenital absence of or defects in structures of the mouth.",
+        "cleaned_description": "Congenital absence of or defects in structures of the mouth.",
+        "description_summary": "Congenital absence of or defects in structures of the mouth.",
+        "key_terms": [],
+        "word_count": 10
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Mouth disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Mouth disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Mouth disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.857149",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

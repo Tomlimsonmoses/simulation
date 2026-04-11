@@ -1,0 +1,40 @@
+{
+  "export_info": {
+    "data_type": "diseases",
+    "export_timestamp": "2026-03-28T22:11:34.978375",
+    "exporter_version": "1.0.0",
+    "output_format": "json",
+    "compression": false
+  },
+  "consolidation_metadata": {
+    "data_type": "diseases",
+    "sources": [
+      "primary_diseases"
+    ],
+    "consolidation_config": {
+      "merge_strategy": "merge",
+      "conflict_resolution": "highest_priority",
+      "deduplication": true,
+      "validation_enabled": true,
+      "output_format": "json"
+    },
+    "processing_timestamp": "2026-03-28T22:11:34.031502"
+  },
+  "processing_info": {
+    "total_sources": 1,
+    "total_records_processed": 1573,
+    "total_records_consolidated": 1573,
+    "duplicates_removed": 0,
+    "conflicts_resolved": 0,
+    "validation_errors_count": 0,
+    "warnings_count": 0
+  },
+  "data_distribution": {
+    "diseases": 1573
+  },
+  "quality_assessment": {
+    "validation_errors": [],
+    "warnings": [],
+    "overall_quality_score": 1
+  }
+}

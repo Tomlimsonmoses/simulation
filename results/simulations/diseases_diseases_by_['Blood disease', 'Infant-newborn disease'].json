@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Blood disease', 'Infant-newborn disease']",
+    "export_timestamp": "2026-03-28T22:11:35.527349",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000751",
+      "DiseaseName": "Anemia, Neonatal",
+      "DiseaseDescription": "The mildest form of erythroblastosis fetalis in which anemia is the chief manifestation.",
+      "SlimMapping": "['Blood disease', 'Infant-newborn disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000751",
+        "standardized_id": "MESH:D000751",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Anemia, Neonatal",
+        "standardized_name": "Anemia, Neonatal",
+        "normalized_name": "anemia neonatal",
+        "synonyms": [],
+        "search_terms": [
+          "anemia,",
+          "anemia, neonatal",
+          "neonatal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The mildest form of erythroblastosis fetalis in which anemia is the chief manifestation.",
+        "cleaned_description": "The mildest form of erythroblastosis fetalis in which anemia is the chief manifestation.",
+        "description_summary": "The mildest form of erythroblastosis fetalis in which anemia is the chief manifestation.",
+        "key_terms": [
+          "anemia",
+          "erythroblastosis"
+        ],
+        "word_count": 13
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Infant-newborn disease"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Infant-newborn disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Blood disease",
+          "Infant-newborn disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.363943",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Ear-nose-throat disease', 'Respiratory tract disease']",
+    "export_timestamp": "2026-03-28T22:11:36.129920",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D007822",
+      "DiseaseName": "Laryngeal Neoplasms",
+      "DiseaseDescription": "Cancers or tumors of the LARYNX or any of its parts: the GLOTTIS; EPIGLOTTIS; LARYNGEAL CARTILAGES; LARYNGEAL MUSCLES; and VOCAL CORDS.",
+      "SlimMapping": "['Cancer', 'Ear-nose-throat disease', 'Respiratory tract disease']",
+      "PathwayNames": "Tyrosine metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007822",
+        "standardized_id": "MESH:D007822",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Laryngeal Neoplasms",
+        "standardized_name": "Laryngeal Neoplasms",
+        "normalized_name": "laryngeal neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "laryngeal neoplasms",
+          "laryngeal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Cancers or tumors of the LARYNX or any of its parts: the GLOTTIS; EPIGLOTTIS; LARYNGEAL CARTILAGES; LARYNGEAL MUSCLES; and VOCAL CORDS.",
+        "cleaned_description": "Cancers or tumors of the LARYNX or any of its parts: the GLOTTIS; EPIGLOTTIS; LARYNGEAL CARTILAGES; LARYNGEAL MUSCLES; and VOCAL CORDS.",
+        "description_summary": "Cancers or tumors of the LARYNX or any of its parts: the GLOTTIS; EPIGLOTTIS; LARYNGEAL CARTILAGES; LARYNGEAL MUSCLES; and VOCAL CORDS.",
+        "key_terms": [],
+        "word_count": 21
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Ear-nose-throat disease",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Ear-nose-throat disease",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Ear-nose-throat disease",
+          "Respiratory tract disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tyrosine metabolism",
+        "pathway_list": [
+          "Tyrosine metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.803578",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

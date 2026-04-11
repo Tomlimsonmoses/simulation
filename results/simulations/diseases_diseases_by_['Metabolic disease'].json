@@ -1,0 +1,2218 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Metabolic disease']",
+    "export_timestamp": "2026-03-28T22:11:35.159991",
+    "total_records": 34
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000138",
+      "DiseaseName": "Acidosis",
+      "DiseaseDescription": "A pathologic condition of acid accumulation or depletion of base in the body. The two main types are RESPIRATORY ACIDOSIS and metabolic acidosis, due to metabolic acid build up.",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "Transport of inorganic cations/anions and amino acids/oligopeptides",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000138",
+        "standardized_id": "MESH:D000138",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Acidosis",
+        "standardized_name": "Acidosis",
+        "normalized_name": "acidosis",
+        "synonyms": [],
+        "search_terms": [
+          "acidosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A pathologic condition of acid accumulation or depletion of base in the body. The two main types are RESPIRATORY ACIDOSIS and metabolic acidosis, due to metabolic acid build up.",
+        "cleaned_description": "A pathologic condition of acid accumulation or depletion of base in the body. The two main types are RESPIRATORY ACIDOSIS and metabolic acidosis, due to metabolic acid build up.",
+        "description_summary": "A pathologic condition of acid accumulation or depletion of base in the body.",
+        "key_terms": [
+          "ACIDOSIS",
+          "acidosis"
+        ],
+        "word_count": 29
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of inorganic cations/anions and amino acids/oligopeptides",
+        "pathway_list": [
+          "Transport of inorganic cations/anions and amino acids/oligopeptides"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.349087",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000140",
+      "DiseaseName": "Acidosis, Lactic",
+      "DiseaseDescription": "Acidosis caused by accumulation of lactic acid more rapidly than it can be metabolized. It may occur spontaneously or in association with diseases such as DIABETES MELLITUS; LEUKEMIA; or LIVER FAILURE.",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "Transcriptional Regulation by TP53",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000140",
+        "standardized_id": "MESH:D000140",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Acidosis, Lactic",
+        "standardized_name": "Acidosis, Lactic",
+        "normalized_name": "acidosis lactic",
+        "synonyms": [],
+        "search_terms": [
+          "acidosis, lactic",
+          "lactic",
+          "acidosis,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Acidosis caused by accumulation of lactic acid more rapidly than it can be metabolized. It may occur spontaneously or in association with diseases such as DIABETES MELLITUS; LEUKEMIA; or LIVER FAILURE.",
+        "cleaned_description": "Acidosis caused by accumulation of lactic acid more rapidly than it can be metabolized. It may occur spontaneously or in association with diseases such as DIABETES MELLITUS; LEUKEMIA; or LIVER FAILURE.",
+        "description_summary": "Acidosis caused by accumulation of lactic acid more rapidly than it can be metabolized.",
+        "key_terms": [
+          "Acidosis",
+          "LEUKEMIA"
+        ],
+        "word_count": 31
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional Regulation by TP53",
+        "pathway_list": [
+          "Transcriptional Regulation by TP53"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional Regulation by TP53"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.349351",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000471",
+      "DiseaseName": "Alkalosis",
+      "DiseaseDescription": "A pathological condition that removes acid or adds base to the body fluids.",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000471",
+        "standardized_id": "MESH:D000471",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Alkalosis",
+        "standardized_name": "Alkalosis",
+        "normalized_name": "alkalosis",
+        "synonyms": [],
+        "search_terms": [
+          "alkalosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A pathological condition that removes acid or adds base to the body fluids.",
+        "cleaned_description": "A pathological condition that removes acid or adds base to the body fluids.",
+        "description_summary": "A pathological condition that removes acid or adds base to the body fluids.",
+        "key_terms": [],
+        "word_count": 13
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.360179",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000686",
+      "DiseaseName": "Amyloidosis",
+      "DiseaseDescription": "A group of sporadic, familial and/or inherited, degenerative, and infectious disease processes, linked by the common theme of abnormal protein folding and deposition of AMYLOID. As the amyloid deposits enlarge they displace normal tissue structures, causing disruption of function. Various signs and symptoms depend on the location and size of the deposits.",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000686",
+        "standardized_id": "MESH:D000686",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Amyloidosis",
+        "standardized_name": "Amyloidosis",
+        "normalized_name": "amyloidosis",
+        "synonyms": [],
+        "search_terms": [
+          "amyloidosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A group of sporadic, familial and/or inherited, degenerative, and infectious disease processes, linked by the common theme of abnormal protein folding and deposition of AMYLOID. As the amyloid deposits enlarge they displace normal tissue structures, causing disruption of function. Various signs and symptoms depend on the location and size of the deposits.",
+        "cleaned_description": "A group of sporadic, familial and/or inherited, degenerative, and infectious disease processes, linked by the common theme of abnormal protein folding and deposition of AMYLOID. As the amyloid deposits enlarge they displace normal tissue structures, causing disruption of function. Various signs and symptoms depend on the location and size of the deposits.",
+        "description_summary": "A group of sporadic, familial and/or inherited, degenerative, and infectious disease processes, linked by the common theme of abnormal protein folding and deposition of AMYLOID.",
+        "key_terms": [],
+        "word_count": 52
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.362412",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002114",
+      "DiseaseName": "Calcinosis",
+      "DiseaseDescription": "Pathologic deposition of calcium salts in tissues.",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002114",
+        "standardized_id": "MESH:D002114",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Calcinosis",
+        "standardized_name": "Calcinosis",
+        "normalized_name": "calcinosis",
+        "synonyms": [],
+        "search_terms": [
+          "calcinosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathologic deposition of calcium salts in tissues.",
+        "cleaned_description": "Pathologic deposition of calcium salts in tissues.",
+        "description_summary": "Pathologic deposition of calcium salts in tissues.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.412876",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D050171",
+      "DiseaseName": "Dyslipidemias",
+      "DiseaseDescription": "Abnormalities in the serum levels of LIPIDS, including overproduction or deficiency. Abnormal serum lipid profiles may include high total CHOLESTEROL, high TRIGLYCERIDES, low HIGH DENSITY LIPOPROTEIN CHOLESTEROL, and elevated LOW DENSITY LIPOPROTEIN CHOLESTEROL.",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D050171",
+        "standardized_id": "MESH:D050171",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Dyslipidemias",
+        "standardized_name": "Dyslipidemias",
+        "normalized_name": "dyslipidemias",
+        "synonyms": [],
+        "search_terms": [
+          "dyslipidemias"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormalities in the serum levels of LIPIDS, including overproduction or deficiency. Abnormal serum lipid profiles may include high total CHOLESTEROL, high TRIGLYCERIDES, low HIGH DENSITY LIPOPROTEIN CHOLESTEROL, and elevated LOW DENSITY LIPOPROTEIN CHOLESTEROL.",
+        "cleaned_description": "Abnormalities in the serum levels of LIPIDS, including overproduction or deficiency. Abnormal serum lipid profiles may include high total CHOLESTEROL, high TRIGLYCERIDES, low HIGH DENSITY LIPOPROTEIN CHOLESTEROL, and elevated LOW DENSITY LIPOPROTEIN CHOLESTEROL.",
+        "description_summary": "Abnormalities in the serum levels of LIPIDS, including overproduction or deficiency.",
+        "key_terms": [],
+        "word_count": 33
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.488924",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D018149",
+      "DiseaseName": "Glucose Intolerance",
+      "DiseaseDescription": "A pathological state in which BLOOD GLUCOSE level is less than approximately 140 mg/100 ml of PLASMA at fasting, and above approximately 200 mg/100 ml plasma at 30-, 60-, or 90-minute during a GLUCOSE TOLERANCE TEST. This condition is seen frequently in DIABETES MELLITUS, but also occurs with other diseases and MALNUTRITION.",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018149",
+        "standardized_id": "MESH:D018149",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Glucose Intolerance",
+        "standardized_name": "Glucose Intolerance",
+        "normalized_name": "glucose intolerance",
+        "synonyms": [],
+        "search_terms": [
+          "glucose intolerance",
+          "intolerance",
+          "glucose"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A pathological state in which BLOOD GLUCOSE level is less than approximately 140 mg/100 ml of PLASMA at fasting, and above approximately 200 mg/100 ml plasma at 30-, 60-, or 90-minute during a GLUCOSE TOLERANCE TEST. This condition is seen frequently in DIABETES MELLITUS, but also occurs with other diseases and MALNUTRITION.",
+        "cleaned_description": "A pathological state in which BLOOD GLUCOSE level is less than approximately 140 mg/100 ml of PLASMA at fasting, and above approximately 200 mg/100 ml plasma at 30-, 60-, or 90-minute during a GLUCOSE TOLERANCE TEST. This condition is seen frequently in DIABETES MELLITUS, but also occurs with other diseases and MALNUTRITION.",
+        "description_summary": "A pathological state in which BLOOD GLUCOSE level is less than approximately 140 mg/100 ml of PLASMA at fasting, and above approximately 200 mg/100 ml plasma at 30-, 60-, or 90-minute during a GLUCOSE TOLERANCE TEST.",
+        "key_terms": [],
+        "word_count": 52
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.545389",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D044882",
+      "DiseaseName": "Glucose Metabolism Disorders",
+      "DiseaseDescription": "Pathological conditions in which the BLOOD GLUCOSE cannot be maintained within the normal range, such as in HYPOGLYCEMIA and HYPERGLYCEMIA. Etiology of these disorders varies. Plasma glucose concentration is critical to survival for it is the predominant fuel for the CENTRAL NERVOUS SYSTEM.",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D044882",
+        "standardized_id": "MESH:D044882",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Glucose Metabolism Disorders",
+        "standardized_name": "Glucose Metabolism Disorders",
+        "normalized_name": "glucose metabolism disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "metabolism",
+          "glucose metabolism disorders",
+          "glucose"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological conditions in which the BLOOD GLUCOSE cannot be maintained within the normal range, such as in HYPOGLYCEMIA and HYPERGLYCEMIA. Etiology of these disorders varies. Plasma glucose concentration is critical to survival for it is the predominant fuel for the CENTRAL NERVOUS SYSTEM.",
+        "cleaned_description": "Pathological conditions in which the BLOOD GLUCOSE cannot be maintained within the normal range, such as in HYPOGLYCEMIA and HYPERGLYCEMIA. Etiology of these disorders varies. Plasma glucose concentration is critical to survival for it is the predominant fuel for the CENTRAL NERVOUS SYSTEM.",
+        "description_summary": "Pathological conditions in which the BLOOD GLUCOSE cannot be maintained within the normal range, such as in HYPOGLYCEMIA and HYPERGLYCEMIA.",
+        "key_terms": [
+          "HYPOGLYCEMIA",
+          "HYPERGLYCEMIA"
+        ],
+        "word_count": 43
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.545699",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006934",
+      "DiseaseName": "Hypercalcemia",
+      "DiseaseDescription": "Abnormally high level of calcium in the blood.",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "Vitamins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006934",
+        "standardized_id": "MESH:D006934",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypercalcemia",
+        "standardized_name": "Hypercalcemia",
+        "normalized_name": "hypercalcemia",
+        "synonyms": [],
+        "search_terms": [
+          "hypercalcemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormally high level of calcium in the blood.",
+        "cleaned_description": "Abnormally high level of calcium in the blood.",
+        "description_summary": "Abnormally high level of calcium in the blood.",
+        "key_terms": [],
+        "word_count": 8
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamins",
+        "pathway_list": [
+          "Vitamins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.675674",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006937",
+      "DiseaseName": "Hypercholesterolemia",
+      "DiseaseDescription": "A condition with abnormally high levels of CHOLESTEROL in the blood. It is defined as a cholesterol value exceeding the 95th percentile for the population.",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "VLDLR internalisation and degradation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006937",
+        "standardized_id": "MESH:D006937",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypercholesterolemia",
+        "standardized_name": "Hypercholesterolemia",
+        "normalized_name": "hypercholesterolemia",
+        "synonyms": [],
+        "search_terms": [
+          "hypercholesterolemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition with abnormally high levels of CHOLESTEROL in the blood. It is defined as a cholesterol value exceeding the 95th percentile for the population.",
+        "cleaned_description": "A condition with abnormally high levels of CHOLESTEROL in the blood. It is defined as a cholesterol value exceeding the 95th percentile for the population.",
+        "description_summary": "A condition with abnormally high levels of CHOLESTEROL in the blood.",
+        "key_terms": [],
+        "word_count": 25
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VLDLR internalisation and degradation",
+        "pathway_list": [
+          "VLDLR internalisation and degradation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.676547",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006943",
+      "DiseaseName": "Hyperglycemia",
+      "DiseaseDescription": "Abnormally high BLOOD GLUCOSE level.",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006943",
+        "standardized_id": "MESH:D006943",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperglycemia",
+        "standardized_name": "Hyperglycemia",
+        "normalized_name": "hyperglycemia",
+        "synonyms": [],
+        "search_terms": [
+          "hyperglycemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormally high BLOOD GLUCOSE level.",
+        "cleaned_description": "Abnormally high BLOOD GLUCOSE level.",
+        "description_summary": "Abnormally high BLOOD GLUCOSE level.",
+        "key_terms": [],
+        "word_count": 5
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.678447",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006946",
+      "DiseaseName": "Hyperinsulinism",
+      "DiseaseDescription": "A syndrome with excessively high INSULIN levels in the BLOOD. It may cause HYPOGLYCEMIA. Etiology of hyperinsulinism varies, including hypersecretion of a beta cell tumor (INSULINOMA); autoantibodies against insulin (INSULIN ANTIBODIES); defective insulin receptor (INSULIN RESISTANCE); or overuse of exogenous insulin or HYPOGLYCEMIC AGENTS.",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006946",
+        "standardized_id": "MESH:D006946",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperinsulinism",
+        "standardized_name": "Hyperinsulinism",
+        "normalized_name": "hyperinsulinism",
+        "synonyms": [],
+        "search_terms": [
+          "hyperinsulinism"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A syndrome with excessively high INSULIN levels in the BLOOD. It may cause HYPOGLYCEMIA. Etiology of hyperinsulinism varies, including hypersecretion of a beta cell tumor (INSULINOMA); autoantibodies against insulin (INSULIN ANTIBODIES); defective insulin receptor (INSULIN RESISTANCE); or overuse of exogenous insulin or HYPOGLYCEMIC AGENTS.",
+        "cleaned_description": "A syndrome with excessively high INSULIN levels in the BLOOD. It may cause HYPOGLYCEMIA. Etiology of hyperinsulinism varies, including hypersecretion of a beta cell tumor (INSULINOMA); autoantibodies against insulin (INSULIN ANTIBODIES); defective insulin receptor (INSULIN RESISTANCE); or overuse of exogenous insulin or HYPOGLYCEMIC AGENTS.",
+        "description_summary": "A syndrome with excessively high INSULIN levels in the BLOOD.",
+        "key_terms": [
+          "HYPOGLYCEMIA"
+        ],
+        "word_count": 44
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.726623",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006947",
+      "DiseaseName": "Hyperkalemia",
+      "DiseaseDescription": "Abnormally high potassium concentration in the blood, most often due to defective renal excretion. It is characterized clinically by electrocardiographic abnormalities (elevated T waves and depressed P waves, and eventually by atrial asystole). In severe cases, weakness and flaccid paralysis may occur. (Dorland, 27th ed)",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006947",
+        "standardized_id": "MESH:D006947",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperkalemia",
+        "standardized_name": "Hyperkalemia",
+        "normalized_name": "hyperkalemia",
+        "synonyms": [],
+        "search_terms": [
+          "hyperkalemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormally high potassium concentration in the blood, most often due to defective renal excretion. It is characterized clinically by electrocardiographic abnormalities (elevated T waves and depressed P waves, and eventually by atrial asystole). In severe cases, weakness and flaccid paralysis may occur. (Dorland, 27th ed)",
+        "cleaned_description": "Abnormally high potassium concentration in the blood, most often due to defective renal excretion. It is characterized clinically by electrocardiographic abnormalities (elevated T waves and depressed P waves, and eventually by atrial asystole). In severe cases, weakness and flaccid paralysis may occur. (Dorland, 27th ed)",
+        "description_summary": "Abnormally high potassium concentration in the blood, most often due to defective renal excretion.",
+        "key_terms": [],
+        "word_count": 45
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.727036",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006949",
+      "DiseaseName": "Hyperlipidemias",
+      "DiseaseDescription": "Conditions with excess LIPIDS in the blood.",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006949",
+        "standardized_id": "MESH:D006949",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperlipidemias",
+        "standardized_name": "Hyperlipidemias",
+        "normalized_name": "hyperlipidemias",
+        "synonyms": [],
+        "search_terms": [
+          "hyperlipidemias"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Conditions with excess LIPIDS in the blood.",
+        "cleaned_description": "Conditions with excess LIPIDS in the blood.",
+        "description_summary": "Conditions with excess LIPIDS in the blood.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.727838",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006951",
+      "DiseaseName": "Hyperlipoproteinemias",
+      "DiseaseDescription": "Conditions with abnormally elevated levels of LIPOPROTEINS in the blood. They may be inherited, acquired, primary, or secondary. Hyperlipoproteinemias are classified according to the pattern of lipoproteins on electrophoresis or ultracentrifugation.",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006951",
+        "standardized_id": "MESH:D006951",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperlipoproteinemias",
+        "standardized_name": "Hyperlipoproteinemias",
+        "normalized_name": "hyperlipoproteinemias",
+        "synonyms": [],
+        "search_terms": [
+          "hyperlipoproteinemias"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Conditions with abnormally elevated levels of LIPOPROTEINS in the blood. They may be inherited, acquired, primary, or secondary. Hyperlipoproteinemias are classified according to the pattern of lipoproteins on electrophoresis or ultracentrifugation.",
+        "cleaned_description": "Conditions with abnormally elevated levels of LIPOPROTEINS in the blood. They may be inherited, acquired, primary, or secondary. Hyperlipoproteinemias are classified according to the pattern of lipoproteins on electrophoresis or ultracentrifugation.",
+        "description_summary": "Conditions with abnormally elevated levels of LIPOPROTEINS in the blood.",
+        "key_terms": [],
+        "word_count": 31
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.728152",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006955",
+      "DiseaseName": "Hypernatremia",
+      "DiseaseDescription": "Excessive amount of sodium in the blood. (Dorland, 27th ed)",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006955",
+        "standardized_id": "MESH:D006955",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypernatremia",
+        "standardized_name": "Hypernatremia",
+        "normalized_name": "hypernatremia",
+        "synonyms": [],
+        "search_terms": [
+          "hypernatremia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Excessive amount of sodium in the blood. (Dorland, 27th ed)",
+        "cleaned_description": "Excessive amount of sodium in the blood. (Dorland, 27th ed)",
+        "description_summary": "Excessive amount of sodium in the blood.",
+        "key_terms": [],
+        "word_count": 10
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.733787",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D054559",
+      "DiseaseName": "Hyperphosphatemia",
+      "DiseaseDescription": "A condition of abnormally high level of PHOSPHATES in the blood, usually significantly above the normal range of 0.84-1.58 mmol per liter of serum.",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D054559",
+        "standardized_id": "MESH:D054559",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperphosphatemia",
+        "standardized_name": "Hyperphosphatemia",
+        "normalized_name": "hyperphosphatemia",
+        "synonyms": [],
+        "search_terms": [
+          "hyperphosphatemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition of abnormally high level of PHOSPHATES in the blood, usually significantly above the normal range of 0.84-1.58 mmol per liter of serum.",
+        "cleaned_description": "A condition of abnormally high level of PHOSPHATES in the blood, usually significantly above the normal range of 0.84-1.58 mmol per liter of serum.",
+        "description_summary": "A condition of abnormally high level of PHOSPHATES in the blood, usually significantly above the normal range of 0.",
+        "key_terms": [],
+        "word_count": 24
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.739824",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D015228",
+      "DiseaseName": "Hypertriglyceridemia",
+      "DiseaseDescription": "A condition of elevated levels of TRIGLYCERIDES in the blood.",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D015228",
+        "standardized_id": "MESH:D015228",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypertriglyceridemia",
+        "standardized_name": "Hypertriglyceridemia",
+        "normalized_name": "hypertriglyceridemia",
+        "synonyms": [],
+        "search_terms": [
+          "hypertriglyceridemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition of elevated levels of TRIGLYCERIDES in the blood.",
+        "cleaned_description": "A condition of elevated levels of TRIGLYCERIDES in the blood.",
+        "description_summary": "A condition of elevated levels of TRIGLYCERIDES in the blood.",
+        "key_terms": [],
+        "word_count": 10
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.770674",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006996",
+      "DiseaseName": "Hypocalcemia",
+      "DiseaseDescription": "Reduction of the blood calcium below normal. Manifestations include hyperactive deep tendon reflexes, Chvostek's sign, muscle and abdominal cramps, and carpopedal spasm. (Dorland, 27th ed)",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006996",
+        "standardized_id": "MESH:D006996",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypocalcemia",
+        "standardized_name": "Hypocalcemia",
+        "normalized_name": "hypocalcemia",
+        "synonyms": [],
+        "search_terms": [
+          "hypocalcemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Reduction of the blood calcium below normal. Manifestations include hyperactive deep tendon reflexes, Chvostek's sign, muscle and abdominal cramps, and carpopedal spasm. (Dorland, 27th ed)",
+        "cleaned_description": "Reduction of the blood calcium below normal. Manifestations include hyperactive deep tendon reflexes, Chvostek's sign, muscle and abdominal cramps, and carpopedal spasm. (Dorland, 27th ed)",
+        "description_summary": "Reduction of the blood calcium below normal.",
+        "key_terms": [],
+        "word_count": 25
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.773074",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007003",
+      "DiseaseName": "Hypoglycemia",
+      "DiseaseDescription": "A syndrome of abnormally low BLOOD GLUCOSE level. Clinical hypoglycemia has diverse etiologies. Severe hypoglycemia eventually lead to glucose deprivation of the CENTRAL NERVOUS SYSTEM resulting in HUNGER; SWEATING; PARESTHESIA; impaired mental function; SEIZURES; COMA; and even DEATH.",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007003",
+        "standardized_id": "MESH:D007003",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypoglycemia",
+        "standardized_name": "Hypoglycemia",
+        "normalized_name": "hypoglycemia",
+        "synonyms": [],
+        "search_terms": [
+          "hypoglycemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A syndrome of abnormally low BLOOD GLUCOSE level. Clinical hypoglycemia has diverse etiologies. Severe hypoglycemia eventually lead to glucose deprivation of the CENTRAL NERVOUS SYSTEM resulting in HUNGER; SWEATING; PARESTHESIA; impaired mental function; SEIZURES; COMA; and even DEATH.",
+        "cleaned_description": "A syndrome of abnormally low BLOOD GLUCOSE level. Clinical hypoglycemia has diverse etiologies. Severe hypoglycemia eventually lead to glucose deprivation of the CENTRAL NERVOUS SYSTEM resulting in HUNGER; SWEATING; PARESTHESIA; impaired mental function; SEIZURES; COMA; and even DEATH.",
+        "description_summary": "A syndrome of abnormally low BLOOD GLUCOSE level.",
+        "key_terms": [
+          "hypoglycemia"
+        ],
+        "word_count": 38
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.773334",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007008",
+      "DiseaseName": "Hypokalemia",
+      "DiseaseDescription": "Abnormally low potassium concentration in the blood. It may result from potassium loss by renal secretion or by the gastrointestinal route, as by vomiting or diarrhea. It may be manifested clinically by neuromuscular disorders ranging from weakness to paralysis, by electrocardiographic abnormalities (depression of the T wave and elevation of the U wave), by renal disease, and by gastrointestinal disorders. (Dorland, 27th ed)",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007008",
+        "standardized_id": "MESH:D007008",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypokalemia",
+        "standardized_name": "Hypokalemia",
+        "normalized_name": "hypokalemia",
+        "synonyms": [],
+        "search_terms": [
+          "hypokalemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormally low potassium concentration in the blood. It may result from potassium loss by renal secretion or by the gastrointestinal route, as by vomiting or diarrhea. It may be manifested clinically by neuromuscular disorders ranging from weakness to paralysis, by electrocardiographic abnormalities (depression of the T wave and elevation of the U wave), by renal disease, and by gastrointestinal disorders. (Dorland, 27th ed)",
+        "cleaned_description": "Abnormally low potassium concentration in the blood. It may result from potassium loss by renal secretion or by the gastrointestinal route, as by vomiting or diarrhea. It may be manifested clinically by neuromuscular disorders ranging from weakness to paralysis, by electrocardiographic abnormalities (depression of the T wave and elevation of the U wave), by renal disease, and by gastrointestinal disorders. (Dorland, 27th ed)",
+        "description_summary": "Abnormally low potassium concentration in the blood.",
+        "key_terms": [],
+        "word_count": 63
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.773992",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007010",
+      "DiseaseName": "Hyponatremia",
+      "DiseaseDescription": "Deficiency of sodium in the blood; salt depletion. (Dorland, 27th ed)",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007010",
+        "standardized_id": "MESH:D007010",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyponatremia",
+        "standardized_name": "Hyponatremia",
+        "normalized_name": "hyponatremia",
+        "synonyms": [],
+        "search_terms": [
+          "hyponatremia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Deficiency of sodium in the blood; salt depletion. (Dorland, 27th ed)",
+        "cleaned_description": "Deficiency of sodium in the blood; salt depletion. (Dorland, 27th ed)",
+        "description_summary": "Deficiency of sodium in the blood; salt depletion.",
+        "key_terms": [],
+        "word_count": 11
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.775091",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D017674",
+      "DiseaseName": "Hypophosphatemia",
+      "DiseaseDescription": "A condition of an abnormally low level of PHOSPHATES in the blood.",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "Type II Na+/Pi cotransporters",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017674",
+        "standardized_id": "MESH:D017674",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypophosphatemia",
+        "standardized_name": "Hypophosphatemia",
+        "normalized_name": "hypophosphatemia",
+        "synonyms": [],
+        "search_terms": [
+          "hypophosphatemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition of an abnormally low level of PHOSPHATES in the blood.",
+        "cleaned_description": "A condition of an abnormally low level of PHOSPHATES in the blood.",
+        "description_summary": "A condition of an abnormally low level of PHOSPHATES in the blood.",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type II Na+/Pi cotransporters",
+        "pathway_list": [
+          "Type II Na+/Pi cotransporters"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.775582",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007333",
+      "DiseaseName": "Insulin Resistance",
+      "DiseaseDescription": "Diminished effectiveness of INSULIN in lowering blood sugar levels: requiring the use of 200 units or more of insulin per day to prevent HYPERGLYCEMIA or KETOSIS.",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007333",
+        "standardized_id": "MESH:D007333",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Insulin Resistance",
+        "standardized_name": "Insulin Resistance",
+        "normalized_name": "insulin resistance",
+        "synonyms": [],
+        "search_terms": [
+          "insulin",
+          "resistance",
+          "insulin resistance"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diminished effectiveness of INSULIN in lowering blood sugar levels: requiring the use of 200 units or more of insulin per day to prevent HYPERGLYCEMIA or KETOSIS.",
+        "cleaned_description": "Diminished effectiveness of INSULIN in lowering blood sugar levels: requiring the use of 200 units or more of insulin per day to prevent HYPERGLYCEMIA or KETOSIS.",
+        "description_summary": "Diminished effectiveness of INSULIN in lowering blood sugar levels: requiring the use of 200 units or more of insulin per day to prevent HYPERGLYCEMIA or KETOSIS.",
+        "key_terms": [
+          "HYPERGLYCEMIA",
+          "KETOSIS"
+        ],
+        "word_count": 26
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.788896",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D019189",
+      "DiseaseName": "Iron Metabolism Disorders",
+      "DiseaseDescription": "Disorders in the processing of iron in the body: its absorption, transport, storage, and utilization. (From Mosby's Medical, Nursing, & Allied Health Dictionary, 4th ed)",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D019189",
+        "standardized_id": "MESH:D019189",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Iron Metabolism Disorders",
+        "standardized_name": "Iron Metabolism Disorders",
+        "normalized_name": "iron metabolism disorders",
+        "synonyms": [],
+        "search_terms": [
+          "iron metabolism disorders",
+          "metabolism",
+          "iron",
+          "disorders"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Disorders in the processing of iron in the body: its absorption, transport, storage, and utilization. (From Mosby's Medical, Nursing, & Allied Health Dictionary, 4th ed)",
+        "cleaned_description": "Disorders in the processing of iron in the body: its absorption, transport, storage, and utilization. (From Mosby's Medical, Nursing, & Allied Health Dictionary, 4th ed)",
+        "description_summary": "Disorders in the processing of iron in the body: its absorption, transport, storage, and utilization.",
+        "key_terms": [],
+        "word_count": 25
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.793032",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D019190",
+      "DiseaseName": "Iron Overload",
+      "DiseaseDescription": "An excessive accumulation of iron in the body due to a greater than normal absorption of iron from the gastrointestinal tract or from parenteral injection. This may arise from idiopathic hemochromatosis, excessive iron intake, chronic alcoholism, certain types of refractory anemia, or transfusional hemosiderosis. (From Churchill's Illustrated Medical Dictionary, 1989)",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D019190",
+        "standardized_id": "MESH:D019190",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Iron Overload",
+        "standardized_name": "Iron Overload",
+        "normalized_name": "iron overload",
+        "synonyms": [],
+        "search_terms": [
+          "overload",
+          "iron overload",
+          "iron"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An excessive accumulation of iron in the body due to a greater than normal absorption of iron from the gastrointestinal tract or from parenteral injection. This may arise from idiopathic hemochromatosis, excessive iron intake, chronic alcoholism, certain types of refractory anemia, or transfusional hemosiderosis. (From Churchill's Illustrated Medical Dictionary, 1989)",
+        "cleaned_description": "An excessive accumulation of iron in the body due to a greater than normal absorption of iron from the gastrointestinal tract or from parenteral injection. This may arise from idiopathic hemochromatosis, excessive iron intake, chronic alcoholism, certain types of refractory anemia, or transfusional hemosiderosis. (From Churchill's Illustrated Medical Dictionary, 1989)",
+        "description_summary": "An excessive accumulation of iron in the body due to a greater than normal absorption of iron from the gastrointestinal tract or from parenteral injection.",
+        "key_terms": [
+          "hemosiderosis",
+          "anemia",
+          "hemochromatosis"
+        ],
+        "word_count": 50
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.793349",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D052439",
+      "DiseaseName": "Lipid Metabolism Disorders",
+      "DiseaseDescription": "Pathological conditions resulting from abnormal anabolism or catabolism of lipids in the body.",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "Vitamin digestion and absorption",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D052439",
+        "standardized_id": "MESH:D052439",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Lipid Metabolism Disorders",
+        "standardized_name": "Lipid Metabolism Disorders",
+        "normalized_name": "lipid metabolism disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "metabolism",
+          "lipid metabolism disorders",
+          "lipid"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological conditions resulting from abnormal anabolism or catabolism of lipids in the body.",
+        "cleaned_description": "Pathological conditions resulting from abnormal anabolism or catabolism of lipids in the body.",
+        "description_summary": "Pathological conditions resulting from abnormal anabolism or catabolism of lipids in the body.",
+        "key_terms": [],
+        "word_count": 13
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamin digestion and absorption",
+        "pathway_list": [
+          "Vitamin digestion and absorption"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.815489",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008659",
+      "DiseaseName": "Metabolic Diseases",
+      "DiseaseDescription": "Generic term for diseases caused by an abnormal metabolic process. It can be congenital due to inherited enzyme abnormality (METABOLISM, INBORN ERRORS) or acquired due to disease of an endocrine organ or failure of a metabolically important organ such as the liver. (Stedman, 26th ed)",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008659",
+        "standardized_id": "MESH:D008659",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Metabolic Diseases",
+        "standardized_name": "Metabolic Diseases",
+        "normalized_name": "metabolic diseases",
+        "synonyms": [],
+        "search_terms": [
+          "metabolic diseases",
+          "diseases",
+          "metabolic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Generic term for diseases caused by an abnormal metabolic process. It can be congenital due to inherited enzyme abnormality (METABOLISM, INBORN ERRORS) or acquired due to disease of an endocrine organ or failure of a metabolically important organ such as the liver. (Stedman, 26th ed)",
+        "cleaned_description": "Generic term for diseases caused by an abnormal metabolic process. It can be congenital due to inherited enzyme abnormality (METABOLISM, INBORN ERRORS) or acquired due to disease of an endocrine organ or failure of a metabolically important organ such as the liver. (Stedman, 26th ed)",
+        "description_summary": "Generic term for diseases caused by an abnormal metabolic process.",
+        "key_terms": [],
+        "word_count": 45
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.847143",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D024821",
+      "DiseaseName": "Metabolic Syndrome",
+      "DiseaseDescription": "A cluster of symptoms that are risk factors for CARDIOVASCULAR DISEASES and TYPE 2 DIABETES MELLITUS. The major components of metabolic syndrome include ABDOMINAL OBESITY; atherogenic DYSLIPIDEMIA; HYPERTENSION; HYPERGLYCEMIA; INSULIN RESISTANCE; a proinflammatory state; and a prothrombotic (THROMBOSIS) state.",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "Vpr-mediated nuclear import of PICs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D024821",
+        "standardized_id": "MESH:D024821",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Metabolic Syndrome",
+        "standardized_name": "Metabolic Syndrome",
+        "normalized_name": "metabolic syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "metabolic",
+          "metabolic syndrome",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A cluster of symptoms that are risk factors for CARDIOVASCULAR DISEASES and TYPE 2 DIABETES MELLITUS. The major components of metabolic syndrome include ABDOMINAL OBESITY; atherogenic DYSLIPIDEMIA; HYPERTENSION; HYPERGLYCEMIA; INSULIN RESISTANCE; a proinflammatory state; and a prothrombotic (THROMBOSIS) state.",
+        "cleaned_description": "A cluster of symptoms that are risk factors for CARDIOVASCULAR DISEASES and TYPE 2 DIABETES MELLITUS. The major components of metabolic syndrome include ABDOMINAL OBESITY; atherogenic DYSLIPIDEMIA; HYPERTENSION; HYPERGLYCEMIA; INSULIN RESISTANCE; a proinflammatory state; and a prothrombotic (THROMBOSIS) state.",
+        "description_summary": "A cluster of symptoms that are risk factors for CARDIOVASCULAR DISEASES and TYPE 2 DIABETES MELLITUS.",
+        "key_terms": [
+          "DYSLIPIDEMIA",
+          "THROMBOSIS",
+          "HYPERGLYCEMIA",
+          "atherogenic"
+        ],
+        "word_count": 39
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vpr-mediated nuclear import of PICs",
+        "pathway_list": [
+          "Vpr-mediated nuclear import of PICs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.847428",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D028361",
+      "DiseaseName": "Mitochondrial Diseases",
+      "DiseaseDescription": "Diseases caused by abnormal function of the MITOCHONDRIA. They may be caused by mutations, acquired or inherited, in mitochondrial DNA or in nuclear genes that code for mitochondrial components. They may also be the result of acquired mitochondria dysfunction due to adverse effects of drugs, infections, or other environmental causes.",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D028361",
+        "standardized_id": "MESH:D028361",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Mitochondrial Diseases",
+        "standardized_name": "Mitochondrial Diseases",
+        "normalized_name": "mitochondrial diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "mitochondrial",
+          "mitochondrial diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases caused by abnormal function of the MITOCHONDRIA. They may be caused by mutations, acquired or inherited, in mitochondrial DNA or in nuclear genes that code for mitochondrial components. They may also be the result of acquired mitochondria dysfunction due to adverse effects of drugs, infections, or other environmental causes.",
+        "cleaned_description": "Diseases caused by abnormal function of the MITOCHONDRIA. They may be caused by mutations, acquired or inherited, in mitochondrial DNA or in nuclear genes that code for mitochondrial components. They may also be the result of acquired mitochondria dysfunction due to adverse effects of drugs, infections, or other environmental causes.",
+        "description_summary": "Diseases caused by abnormal function of the MITOCHONDRIA.",
+        "key_terms": [],
+        "word_count": 50
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.855009",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011164",
+      "DiseaseName": "Porphyrias",
+      "DiseaseDescription": "A diverse group of metabolic diseases characterized by errors in the biosynthetic pathway of HEME in the LIVER, the BONE MARROW, or both. They are classified by the deficiency of specific enzymes, the tissue site of enzyme defect, or the clinical features that include neurological (acute) or cutaneous (skin lesions). Porphyrias can be hereditary or acquired as a result of toxicity to the hepatic or erythropoietic marrow tissues.",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "Transcriptional activation of mitochondrial biogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011164",
+        "standardized_id": "MESH:D011164",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Porphyrias",
+        "standardized_name": "Porphyrias",
+        "normalized_name": "porphyrias",
+        "synonyms": [],
+        "search_terms": [
+          "porphyrias"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A diverse group of metabolic diseases characterized by errors in the biosynthetic pathway of HEME in the LIVER, the BONE MARROW, or both. They are classified by the deficiency of specific enzymes, the tissue site of enzyme defect, or the clinical features that include neurological (acute) or cutaneous (skin lesions). Porphyrias can be hereditary or acquired as a result of toxicity to the hepatic or erythropoietic marrow tissues.",
+        "cleaned_description": "A diverse group of metabolic diseases characterized by errors in the biosynthetic pathway of HEME in the LIVER, the BONE MARROW, or both. They are classified by the deficiency of specific enzymes, the tissue site of enzyme defect, or the clinical features that include neurological (acute) or cutaneous (skin lesions). Porphyrias can be hereditary or acquired as a result of toxicity to the hepatic or erythropoietic marrow tissues.",
+        "description_summary": "A diverse group of metabolic diseases characterized by errors in the biosynthetic pathway of HEME in the LIVER, the BONE MARROW, or both.",
+        "key_terms": [],
+        "word_count": 68
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional activation of mitochondrial biogenesis",
+        "pathway_list": [
+          "Transcriptional activation of mitochondrial biogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional activation of mitochondrial biogenesis"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.925002",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D061205",
+      "DiseaseName": "Vascular Calcification",
+      "DiseaseDescription": "Deposition of calcium into the blood vessel structures. Excessive calcification of the vessels is associated with ATHEROSCLEROTIC PLAQUES formation particularly after MYOCARDIAL INFARCTION (see MONCKEBERG MEDIAL CALCIFIC SCLEROSIS) and chronic kidney diseases which in turn increase VASCULAR STIFFNESS.",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D061205",
+        "standardized_id": "MESH:D061205",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Vascular Calcification",
+        "standardized_name": "Vascular Calcification",
+        "normalized_name": "vascular calcification",
+        "synonyms": [],
+        "search_terms": [
+          "vascular calcification",
+          "vascular",
+          "calcification"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Deposition of calcium into the blood vessel structures. Excessive calcification of the vessels is associated with ATHEROSCLEROTIC PLAQUES formation particularly after MYOCARDIAL INFARCTION (see MONCKEBERG MEDIAL CALCIFIC SCLEROSIS) and chronic kidney diseases which in turn increase VASCULAR STIFFNESS.",
+        "cleaned_description": "Deposition of calcium into the blood vessel structures. Excessive calcification of the vessels is associated with ATHEROSCLEROTIC PLAQUES formation particularly after MYOCARDIAL INFARCTION (see MONCKEBERG MEDIAL CALCIFIC SCLEROSIS) and chronic kidney diseases which in turn increase VASCULAR STIFFNESS.",
+        "description_summary": "Deposition of calcium into the blood vessel structures.",
+        "key_terms": [
+          "SCLEROSIS"
+        ],
+        "word_count": 38
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.016210",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014869",
+      "DiseaseName": "Water Intoxication",
+      "DiseaseDescription": "A condition resulting from the excessive retention of water with sodium depletion.",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "Vasopressin-like receptors",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014869",
+        "standardized_id": "MESH:D014869",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Water Intoxication",
+        "standardized_name": "Water Intoxication",
+        "normalized_name": "water intoxication",
+        "synonyms": [],
+        "search_terms": [
+          "water intoxication",
+          "water",
+          "intoxication"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition resulting from the excessive retention of water with sodium depletion.",
+        "cleaned_description": "A condition resulting from the excessive retention of water with sodium depletion.",
+        "description_summary": "A condition resulting from the excessive retention of water with sodium depletion.",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vasopressin-like receptors",
+        "pathway_list": [
+          "Vasopressin-like receptors"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.025677",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014973",
+      "DiseaseName": "Xanthomatosis",
+      "DiseaseDescription": "A condition marked by the development of widespread xanthomas, yellow tumor-like structures filled with lipid deposits. Xanthomas can be found in a variety of tissues including the SKIN; TENDONS; joints of KNEES and ELBOWS. Xanthomatosis is associated with disturbance of LIPID METABOLISM and formation of FOAM CELLS.",
+      "SlimMapping": "['Metabolic disease']",
+      "PathwayNames": "Transmembrane transport of small molecules",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014973",
+        "standardized_id": "MESH:D014973",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Xanthomatosis",
+        "standardized_name": "Xanthomatosis",
+        "normalized_name": "xanthomatosis",
+        "synonyms": [],
+        "search_terms": [
+          "xanthomatosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition marked by the development of widespread xanthomas, yellow tumor-like structures filled with lipid deposits. Xanthomas can be found in a variety of tissues including the SKIN; TENDONS; joints of KNEES and ELBOWS. Xanthomatosis is associated with disturbance of LIPID METABOLISM and formation of FOAM CELLS.",
+        "cleaned_description": "A condition marked by the development of widespread xanthomas, yellow tumor-like structures filled with lipid deposits. Xanthomas can be found in a variety of tissues including the SKIN; TENDONS; joints of KNEES and ELBOWS. Xanthomatosis is associated with disturbance of LIPID METABOLISM and formation of FOAM CELLS.",
+        "description_summary": "A condition marked by the development of widespread xanthomas, yellow tumor-like structures filled with lipid deposits.",
+        "key_terms": [
+          "Xanthomatosis"
+        ],
+        "word_count": 47
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Metabolic disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmembrane transport of small molecules",
+        "pathway_list": [
+          "Transmembrane transport of small molecules"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.027363",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

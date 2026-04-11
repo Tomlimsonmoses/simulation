@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Immune system disease', 'Metabolic disease', 'Skin disease', 'Viral disease']",
+    "export_timestamp": "2026-03-28T22:11:36.059993",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D039682",
+      "DiseaseName": "HIV-Associated Lipodystrophy Syndrome",
+      "DiseaseDescription": "Defective metabolism leading to fat maldistribution in patients infected with HIV. The etiology appears to be multifactorial and probably involves some combination of infection-induced alterations in metabolism, direct effects of antiretroviral therapy, and patient-related factors.",
+      "SlimMapping": "['Immune system disease', 'Metabolic disease', 'Skin disease', 'Viral disease']",
+      "PathwayNames": "XBP1(S) activates chaperone genes",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D039682",
+        "standardized_id": "MESH:D039682",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "HIV-Associated Lipodystrophy Syndrome",
+        "standardized_name": "HIV-Associated Lipodystrophy Syndrome",
+        "normalized_name": "hiv-associated lipodystrophy syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "hiv-associated lipodystrophy syndrome",
+          "lipodystrophy",
+          "hiv-associated",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Defective metabolism leading to fat maldistribution in patients infected with HIV. The etiology appears to be multifactorial and probably involves some combination of infection-induced alterations in metabolism, direct effects of antiretroviral therapy, and patient-related factors.",
+        "cleaned_description": "Defective metabolism leading to fat maldistribution in patients infected with HIV. The etiology appears to be multifactorial and probably involves some combination of infection-induced alterations in metabolism, direct effects of antiretroviral therapy, and patient-related factors.",
+        "description_summary": "Defective metabolism leading to fat maldistribution in patients infected with HIV.",
+        "key_terms": [],
+        "word_count": 35
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease",
+          "Metabolic disease",
+          "Skin disease",
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Immune system disease",
+          "Metabolic disease",
+          "Skin disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "immune_system",
+          "infectious"
+        ],
+        "all_categories": [
+          "Immune system disease",
+          "Metabolic disease",
+          "Skin disease",
+          "Viral disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "XBP1(S) activates chaperone genes",
+        "pathway_list": [
+          "XBP1(S) activates chaperone genes"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.658756",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

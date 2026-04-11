@@ -1,0 +1,480 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:35.787700",
+    "total_records": 7
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D001932",
+      "DiseaseName": "Brain Neoplasms",
+      "DiseaseDescription": "Neoplasms of the intracranial components of the central nervous system, including the cerebral hemispheres, basal ganglia, hypothalamus, thalamus, brain stem, and cerebellum. Brain neoplasms are subdivided into primary (originating from brain tissue) and secondary (i.e., metastatic) forms. Primary neoplasms are subdivided into benign and malignant forms. In general, brain tumors may also be classified by age of onset, histologic type, or presenting location in the brain.",
+      "SlimMapping": "['Cancer', 'Nervous system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001932",
+        "standardized_id": "MESH:D001932",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Brain Neoplasms",
+        "standardized_name": "Brain Neoplasms",
+        "normalized_name": "brain neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "brain neoplasms",
+          "brain"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Neoplasms of the intracranial components of the central nervous system, including the cerebral hemispheres, basal ganglia, hypothalamus, thalamus, brain stem, and cerebellum. Brain neoplasms are subdivided into primary (originating from brain tissue) and secondary (i.e., metastatic) forms. Primary neoplasms are subdivided into benign and malignant forms. In general, brain tumors may also be classified by age of onset, histologic type, or presenting location in the brain.",
+        "cleaned_description": "Neoplasms of the intracranial components of the central nervous system, including the cerebral hemispheres, basal ganglia, hypothalamus, thalamus, brain stem, and cerebellum. Brain neoplasms are subdivided into primary (originating from brain tissue) and secondary (i.e., metastatic) forms. Primary neoplasms are subdivided into benign and malignant forms. In general, brain tumors may also be classified by age of onset, histologic type, or presenting location in the brain.",
+        "description_summary": "Neoplasms of the intracranial components of the central nervous system, including the cerebral hemispheres, basal ganglia, hypothalamus, thalamus, brain stem, and cerebellum.",
+        "key_terms": [],
+        "word_count": 66
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.407377",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020295",
+      "DiseaseName": "Brain Stem Neoplasms",
+      "DiseaseDescription": "Benign and malignant intra-axial tumors of the MESENCEPHALON; PONS; or MEDULLA OBLONGATA of the BRAIN STEM. Primary and metastatic neoplasms may occur in this location. Clinical features include ATAXIA, cranial neuropathies (see CRANIAL NERVE DISEASES), NAUSEA, hemiparesis (see HEMIPLEGIA), and quadriparesis. Primary brain stem neoplasms are more frequent in children. Histologic subtypes include GLIOMA; HEMANGIOBLASTOMA; GANGLIOGLIOMA; and EPENDYMOMA.",
+      "SlimMapping": "['Cancer', 'Nervous system disease']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020295",
+        "standardized_id": "MESH:D020295",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Brain Stem Neoplasms",
+        "standardized_name": "Brain Stem Neoplasms",
+        "normalized_name": "brain stem neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "stem",
+          "brain stem neoplasms",
+          "brain",
+          "neoplasms"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Benign and malignant intra-axial tumors of the MESENCEPHALON; PONS; or MEDULLA OBLONGATA of the BRAIN STEM. Primary and metastatic neoplasms may occur in this location. Clinical features include ATAXIA, cranial neuropathies (see CRANIAL NERVE DISEASES), NAUSEA, hemiparesis (see HEMIPLEGIA), and quadriparesis. Primary brain stem neoplasms are more frequent in children. Histologic subtypes include GLIOMA; HEMANGIOBLASTOMA; GANGLIOGLIOMA; and EPENDYMOMA.",
+        "cleaned_description": "Benign and malignant intra-axial tumors of the MESENCEPHALON; PONS; or MEDULLA OBLONGATA of the BRAIN STEM. Primary and metastatic neoplasms may occur in this location. Clinical features include ATAXIA, cranial neuropathies (see CRANIAL NERVE DISEASES), NAUSEA, hemiparesis (see HEMIPLEGIA), and quadriparesis. Primary brain stem neoplasms are more frequent in children. Histologic subtypes include GLIOMA; HEMANGIOBLASTOMA; GANGLIOGLIOMA; and EPENDYMOMA.",
+        "description_summary": "Benign and malignant intra-axial tumors of the MESENCEPHALON; PONS; or MEDULLA OBLONGATA of the BRAIN STEM.",
+        "key_terms": [],
+        "word_count": 58
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.407774",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D016543",
+      "DiseaseName": "Central Nervous System Neoplasms",
+      "DiseaseDescription": "Benign and malignant neoplastic processes that arise from or secondarily involve the brain, spinal cord, or meninges.",
+      "SlimMapping": "['Cancer', 'Nervous system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D016543",
+        "standardized_id": "MESH:D016543",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Central Nervous System Neoplasms",
+        "standardized_name": "Central Nervous System Neoplasms",
+        "normalized_name": "central nervous system neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "central nervous system neoplasms",
+          "neoplasms",
+          "nervous",
+          "central",
+          "system"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Benign and malignant neoplastic processes that arise from or secondarily involve the brain, spinal cord, or meninges.",
+        "cleaned_description": "Benign and malignant neoplastic processes that arise from or secondarily involve the brain, spinal cord, or meninges.",
+        "description_summary": "Benign and malignant neoplastic processes that arise from or secondarily involve the brain, spinal cord, or meninges.",
+        "key_terms": [],
+        "word_count": 17
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.433745",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008579",
+      "DiseaseName": "Meningioma",
+      "DiseaseDescription": "A relatively common neoplasm of the CENTRAL NERVOUS SYSTEM that arises from arachnoidal cells. The majority are well differentiated vascular tumors which grow slowly and have a low potential to be invasive, although malignant subtypes occur. Meningiomas have a predilection to arise from the parasagittal region, cerebral convexity, sphenoidal ridge, olfactory groove, and SPINAL CANAL. (From DeVita et al., Cancer: Principles and Practice of Oncology, 5th ed, pp2056-7)",
+      "SlimMapping": "['Cancer', 'Nervous system disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008579",
+        "standardized_id": "MESH:D008579",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Meningioma",
+        "standardized_name": "Meningioma",
+        "normalized_name": "meningioma",
+        "synonyms": [],
+        "search_terms": [
+          "meningioma"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A relatively common neoplasm of the CENTRAL NERVOUS SYSTEM that arises from arachnoidal cells. The majority are well differentiated vascular tumors which grow slowly and have a low potential to be invasive, although malignant subtypes occur. Meningiomas have a predilection to arise from the parasagittal region, cerebral convexity, sphenoidal ridge, olfactory groove, and SPINAL CANAL. (From DeVita et al., Cancer: Principles and Practice of Oncology, 5th ed, pp2056-7)",
+        "cleaned_description": "A relatively common neoplasm of the CENTRAL NERVOUS SYSTEM that arises from arachnoidal cells. The majority are well differentiated vascular tumors which grow slowly and have a low potential to be invasive, although malignant subtypes occur. Meningiomas have a predilection to arise from the parasagittal region, cerebral convexity, sphenoidal ridge, olfactory groove, and SPINAL CANAL. (From DeVita et al., Cancer: Principles and Practice of Oncology, 5th ed, pp2056-7)",
+        "description_summary": "A relatively common neoplasm of the CENTRAL NERVOUS SYSTEM that arises from arachnoidal cells.",
+        "key_terms": [],
+        "word_count": 68
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.842159",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D018317",
+      "DiseaseName": "Nerve Sheath Neoplasms",
+      "DiseaseDescription": "Neoplasms which arise from nerve sheaths formed by SCHWANN CELLS in the PERIPHERAL NERVOUS SYSTEM or by OLIGODENDROCYTES in the CENTRAL NERVOUS SYSTEM. Malignant peripheral nerve sheath tumors, NEUROFIBROMA, and NEURILEMMOMA are relatively common tumors in this category.",
+      "SlimMapping": "['Cancer', 'Nervous system disease']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018317",
+        "standardized_id": "MESH:D018317",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Nerve Sheath Neoplasms",
+        "standardized_name": "Nerve Sheath Neoplasms",
+        "normalized_name": "nerve sheath neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "sheath",
+          "nerve",
+          "neoplasms",
+          "nerve sheath neoplasms"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Neoplasms which arise from nerve sheaths formed by SCHWANN CELLS in the PERIPHERAL NERVOUS SYSTEM or by OLIGODENDROCYTES in the CENTRAL NERVOUS SYSTEM. Malignant peripheral nerve sheath tumors, NEUROFIBROMA, and NEURILEMMOMA are relatively common tumors in this category.",
+        "cleaned_description": "Neoplasms which arise from nerve sheaths formed by SCHWANN CELLS in the PERIPHERAL NERVOUS SYSTEM or by OLIGODENDROCYTES in the CENTRAL NERVOUS SYSTEM. Malignant peripheral nerve sheath tumors, NEUROFIBROMA, and NEURILEMMOMA are relatively common tumors in this category.",
+        "description_summary": "Neoplasms which arise from nerve sheaths formed by SCHWANN CELLS in the PERIPHERAL NERVOUS SYSTEM or by OLIGODENDROCYTES in the CENTRAL NERVOUS SYSTEM.",
+        "key_terms": [],
+        "word_count": 38
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.878096",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D018318",
+      "DiseaseName": "Neurofibroma, Plexiform",
+      "DiseaseDescription": "A type of neurofibroma manifesting as a diffuse overgrowth of subcutaneous tissue, usually involving the face, scalp, neck, and chest but occasionally occurring in the abdomen or pelvis. The tumors tend to progress, and may extend along nerve roots to eventually involve the spinal roots and spinal cord. This process is almost always a manifestation of NEUROFIBROMATOSIS 1. (From Adams et al., Principles of Neurology, 6th ed, p1016; J Pediatr 1997 Nov;131(5):678-82)",
+      "SlimMapping": "['Cancer', 'Nervous system disease']",
+      "PathwayNames": "VEGFA-VEGFR2 Pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018318",
+        "standardized_id": "MESH:D018318",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Neurofibroma, Plexiform",
+        "standardized_name": "Neurofibroma, Plexiform",
+        "normalized_name": "neurofibroma plexiform",
+        "synonyms": [],
+        "search_terms": [
+          "neurofibroma,",
+          "neurofibroma, plexiform",
+          "plexiform"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A type of neurofibroma manifesting as a diffuse overgrowth of subcutaneous tissue, usually involving the face, scalp, neck, and chest but occasionally occurring in the abdomen or pelvis. The tumors tend to progress, and may extend along nerve roots to eventually involve the spinal roots and spinal cord. This process is almost always a manifestation of NEUROFIBROMATOSIS 1. (From Adams et al., Principles of Neurology, 6th ed, p1016; J Pediatr 1997 Nov;131(5):678-82)",
+        "cleaned_description": "A type of neurofibroma manifesting as a diffuse overgrowth of subcutaneous tissue, usually involving the face, scalp, neck, and chest but occasionally occurring in the abdomen or pelvis. The tumors tend to progress, and may extend along nerve roots to eventually involve the spinal roots and spinal cord. This process is almost always a manifestation of NEUROFIBROMATOSIS 1. (From Adams et al., Principles of Neurology, 6th ed, p1016; J Pediatr 1997 Nov;131(5):678-82)",
+        "description_summary": "A type of neurofibroma manifesting as a diffuse overgrowth of subcutaneous tissue, usually involving the face, scalp, neck, and chest but occasionally occurring in the abdomen or pelvis.",
+        "key_terms": [
+          "NEUROFIBROMATOSIS"
+        ],
+        "word_count": 72
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFA-VEGFR2 Pathway",
+        "pathway_list": [
+          "VEGFA-VEGFR2 Pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.883363",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D015173",
+      "DiseaseName": "Supratentorial Neoplasms",
+      "DiseaseDescription": "Primary and metastatic (secondary) tumors of the brain located above the tentorium cerebelli, a fold of dura mater separating the CEREBELLUM and BRAIN STEM from the cerebral hemispheres and DIENCEPHALON (i.e., THALAMUS and HYPOTHALAMUS and related structures). In adults, primary neoplasms tend to arise in the supratentorial compartment, whereas in children they occur more frequently in the infratentorial space. Clinical manifestations vary with the location of the lesion, but SEIZURES; APHASIA; HEMIANOPSIA; hemiparesis; and sensory deficits are relatively common features. Metastatic supratentorial neoplasms are frequently multiple at the time of presentation.",
+      "SlimMapping": "['Cancer', 'Nervous system disease']",
+      "PathwayNames": "Transcriptional Regulation by TP53",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D015173",
+        "standardized_id": "MESH:D015173",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Supratentorial Neoplasms",
+        "standardized_name": "Supratentorial Neoplasms",
+        "normalized_name": "supratentorial neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "supratentorial",
+          "supratentorial neoplasms"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Primary and metastatic (secondary) tumors of the brain located above the tentorium cerebelli, a fold of dura mater separating the CEREBELLUM and BRAIN STEM from the cerebral hemispheres and DIENCEPHALON (i.e., THALAMUS and HYPOTHALAMUS and related structures). In adults, primary neoplasms tend to arise in the supratentorial compartment, whereas in children they occur more frequently in the infratentorial space. Clinical manifestations vary with the location of the lesion, but SEIZURES; APHASIA; HEMIANOPSIA; hemiparesis; and sensory deficits are relatively common features. Metastatic supratentorial neoplasms are frequently multiple at the time of presentation.",
+        "cleaned_description": "Primary and metastatic (secondary) tumors of the brain located above the tentorium cerebelli, a fold of dura mater separating the CEREBELLUM and BRAIN STEM from the cerebral hemispheres and DIENCEPHALON (i.e., THALAMUS and HYPOTHALAMUS and related structures). In adults, primary neoplasms tend to arise in the supratentorial compartment, whereas in children they occur more frequently in the infratentorial space. Clinical manifestations vary with the location of the lesion, but SEIZURES; APHASIA; HEMIANOPSIA; hemiparesis; and sensory deficits are relatively common features. Metastatic supratentorial neoplasms are frequently multiple at the time of presentation.",
+        "description_summary": "Primary and metastatic (secondary) tumors of the brain located above the tentorium cerebelli, a fold of dura mater separating the CEREBELLUM and BRAIN STEM from the cerebral hemispheres and DIENCEPHALON (i.",
+        "key_terms": [],
+        "word_count": 91
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional Regulation by TP53",
+        "pathway_list": [
+          "Transcriptional Regulation by TP53"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional Regulation by TP53"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.982857",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

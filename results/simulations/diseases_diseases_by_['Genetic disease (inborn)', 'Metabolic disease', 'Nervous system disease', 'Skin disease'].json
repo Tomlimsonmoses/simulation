@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Genetic disease (inborn)', 'Metabolic disease', 'Nervous system disease', 'Skin disease']",
+    "export_timestamp": "2026-03-28T22:11:36.185618",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D007706",
+      "DiseaseName": "Menkes Kinky Hair Syndrome",
+      "DiseaseDescription": "An inherited disorder of copper metabolism transmitted as an X-linked trait and characterized by the infantile onset of HYPOTHERMIA, feeding difficulties, hypotonia, SEIZURES, bony deformities, pili torti (twisted hair), and severely impaired intellectual development. Defective copper transport across plasma and endoplasmic reticulum membranes results in copper being unavailable for the synthesis of several copper containing enzymes, including PROTEIN-LYSINE 6-OXIDASE; CERULOPLASMIN; and SUPEROXIDE DISMUTASE. Pathologic changes include defects in arterial elastin, neuronal loss, and gliosis. (From Menkes, Textbook of Child Neurology, 5th ed, p125)",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease', 'Nervous system disease', 'Skin disease']",
+      "PathwayNames": "Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007706",
+        "standardized_id": "MESH:D007706",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Menkes Kinky Hair Syndrome",
+        "standardized_name": "Menkes Kinky Hair Syndrome",
+        "normalized_name": "menkes kinky hair syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "kinky",
+          "hair",
+          "syndrome",
+          "menkes",
+          "menkes kinky hair syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An inherited disorder of copper metabolism transmitted as an X-linked trait and characterized by the infantile onset of HYPOTHERMIA, feeding difficulties, hypotonia, SEIZURES, bony deformities, pili torti (twisted hair), and severely impaired intellectual development. Defective copper transport across plasma and endoplasmic reticulum membranes results in copper being unavailable for the synthesis of several copper containing enzymes, including PROTEIN-LYSINE 6-OXIDASE; CERULOPLASMIN; and SUPEROXIDE DISMUTASE. Pathologic changes include defects in arterial elastin, neuronal loss, and gliosis. (From Menkes, Textbook of Child Neurology, 5th ed, p125)",
+        "cleaned_description": "An inherited disorder of copper metabolism transmitted as an X-linked trait and characterized by the infantile onset of HYPOTHERMIA, feeding difficulties, hypotonia, SEIZURES, bony deformities, pili torti (twisted hair), and severely impaired intellectual development. Defective copper transport across plasma and endoplasmic reticulum membranes results in copper being unavailable for the synthesis of several copper containing enzymes, including PROTEIN-LYSINE 6-OXIDASE; CERULOPLASMIN; and SUPEROXIDE DISMUTASE. Pathologic changes include defects in arterial elastin, neuronal loss, and gliosis. (From Menkes, Textbook of Child Neurology, 5th ed, p125)",
+        "description_summary": "An inherited disorder of copper metabolism transmitted as an X-linked trait and characterized by the infantile onset of HYPOTHERMIA, feeding difficulties, hypotonia, SEIZURES, bony deformities, pili torti (twisted hair), and severely impaired intellectual development.",
+        "key_terms": [
+          "gliosis"
+        ],
+        "word_count": 83
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease",
+          "Skin disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds",
+        "pathway_list": [
+          "metal ions and amine compounds",
+          "Transport of glucose and other sugars",
+          "bile salts and organic acids"
+        ],
+        "pathway_count": 3,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.845186",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

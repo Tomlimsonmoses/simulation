@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cardiovascular disease', 'Immune system disease', 'Skin disease']",
+    "export_timestamp": "2026-03-28T22:11:35.540870",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000799",
+      "DiseaseName": "Angioedema",
+      "DiseaseDescription": "Swelling involving the deep DERMIS, subcutaneous, or submucosal tissues, representing localized EDEMA. Angioedema often occurs in the face, lips, tongue, and larynx.",
+      "SlimMapping": "['Cardiovascular disease', 'Immune system disease', 'Skin disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000799",
+        "standardized_id": "MESH:D000799",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Angioedema",
+        "standardized_name": "Angioedema",
+        "normalized_name": "angioedema",
+        "synonyms": [],
+        "search_terms": [
+          "angioedema"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Swelling involving the deep DERMIS, subcutaneous, or submucosal tissues, representing localized EDEMA. Angioedema often occurs in the face, lips, tongue, and larynx.",
+        "cleaned_description": "Swelling involving the deep DERMIS, subcutaneous, or submucosal tissues, representing localized EDEMA. Angioedema often occurs in the face, lips, tongue, and larynx.",
+        "description_summary": "Swelling involving the deep DERMIS, subcutaneous, or submucosal tissues, representing localized EDEMA.",
+        "key_terms": [],
+        "word_count": 22
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Immune system disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Immune system disease",
+          "Skin disease"
+        ],
+        "broad_categories": [
+          "cardiovascular",
+          "immune_system"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Immune system disease",
+          "Skin disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.365424",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D056829",
+      "DiseaseName": "Hereditary Angioedema Types I and II",
+      "DiseaseDescription": "Forms of hereditary angioedema that occur due to mutations in the gene for COMPLEMENT C1 INHIBITOR PROTEIN. Type I hereditary angioedema is associated with reduced serum levels of complement C1 inhibitor protein. Type II hereditary angioedema is associated with the production of a non-functional complement C1 inhibitor protein.",
+      "SlimMapping": "['Cardiovascular disease', 'Immune system disease', 'Skin disease']",
+      "PathwayNames": "Systemic lupus erythematosus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D056829",
+        "standardized_id": "MESH:D056829",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hereditary Angioedema Types I and II",
+        "standardized_name": "Hereditary Angioedema Types I and II",
+        "normalized_name": "hereditary angioedema types i and ii",
+        "synonyms": [],
+        "search_terms": [
+          "angioedema",
+          "and",
+          "types",
+          "hereditary angioedema types i and ii",
+          "hereditary"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Forms of hereditary angioedema that occur due to mutations in the gene for COMPLEMENT C1 INHIBITOR PROTEIN. Type I hereditary angioedema is associated with reduced serum levels of complement C1 inhibitor protein. Type II hereditary angioedema is associated with the production of a non-functional complement C1 inhibitor protein.",
+        "cleaned_description": "Forms of hereditary angioedema that occur due to mutations in the gene for COMPLEMENT C1 INHIBITOR PROTEIN. Type I hereditary angioedema is associated with reduced serum levels of complement C1 inhibitor protein. Type II hereditary angioedema is associated with the production of a non-functional complement C1 inhibitor protein.",
+        "description_summary": "Forms of hereditary angioedema that occur due to mutations in the gene for COMPLEMENT C1 INHIBITOR PROTEIN.",
+        "key_terms": [],
+        "word_count": 48
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Immune system disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Immune system disease",
+          "Skin disease"
+        ],
+        "broad_categories": [
+          "cardiovascular",
+          "immune_system"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Immune system disease",
+          "Skin disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Systemic lupus erythematosus",
+        "pathway_list": [
+          "Systemic lupus erythematosus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.655222",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

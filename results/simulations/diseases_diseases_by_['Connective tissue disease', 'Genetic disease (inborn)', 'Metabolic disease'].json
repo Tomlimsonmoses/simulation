@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Connective tissue disease', 'Genetic disease (inborn)', 'Metabolic disease']",
+    "export_timestamp": "2026-03-28T22:11:36.193668",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D009084",
+      "DiseaseName": "Mucopolysaccharidosis III",
+      "DiseaseDescription": "Mucopolysaccharidosis characterized by heparitin sulfate in the urine, progressive mental retardation, mild dwarfism, and other skeletal disorders. There are four clinically indistinguishable but biochemically distinct forms, each due to a deficiency of a different enzyme.",
+      "SlimMapping": "['Connective tissue disease', 'Genetic disease (inborn)', 'Metabolic disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009084",
+        "standardized_id": "MESH:D009084",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Mucopolysaccharidosis III",
+        "standardized_name": "Mucopolysaccharidosis III",
+        "normalized_name": "mucopolysaccharidosis iii",
+        "synonyms": [],
+        "search_terms": [
+          "mucopolysaccharidosis",
+          "iii",
+          "mucopolysaccharidosis iii"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Mucopolysaccharidosis characterized by heparitin sulfate in the urine, progressive mental retardation, mild dwarfism, and other skeletal disorders. There are four clinically indistinguishable but biochemically distinct forms, each due to a deficiency of a different enzyme.",
+        "cleaned_description": "Mucopolysaccharidosis characterized by heparitin sulfate in the urine, progressive mental retardation, mild dwarfism, and other skeletal disorders. There are four clinically indistinguishable but biochemically distinct forms, each due to a deficiency of a different enzyme.",
+        "description_summary": "Mucopolysaccharidosis characterized by heparitin sulfate in the urine, progressive mental retardation, mild dwarfism, and other skeletal disorders.",
+        "key_terms": [
+          "Mucopolysaccharidosis"
+        ],
+        "word_count": 35
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Connective tissue disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Connective tissue disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Connective tissue disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.857967",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

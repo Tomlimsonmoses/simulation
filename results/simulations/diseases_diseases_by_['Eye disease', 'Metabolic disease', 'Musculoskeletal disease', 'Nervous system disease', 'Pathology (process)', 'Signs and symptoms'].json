@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Eye disease', 'Metabolic disease', 'Musculoskeletal disease', 'Nervous system disease', 'Pathology (process)', 'Signs and symptoms']",
+    "export_timestamp": "2026-03-28T22:11:36.249475",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D017246",
+      "DiseaseName": "Ophthalmoplegia, Chronic Progressive External",
+      "DiseaseDescription": "A mitochondrial myopathy characterized by slowly progressive paralysis of the levator palpebrae, orbicularis oculi, and extraocular muscles. Ragged-red fibers and atrophy are found on muscle biopsy. Familial and sporadic forms may occur. Disease onset is usually in the first or second decade of life, and the illness slowly progresses until usually all ocular motility is lost. (From Adams et al., Principles of Neurology, 6th ed, p1422)",
+      "SlimMapping": "['Eye disease', 'Metabolic disease', 'Musculoskeletal disease', 'Nervous system disease', 'Pathology (process)', 'Signs and symptoms']",
+      "PathwayNames": "Type I diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017246",
+        "standardized_id": "MESH:D017246",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Ophthalmoplegia, Chronic Progressive External",
+        "standardized_name": "Ophthalmoplegia, Chronic Progressive External",
+        "normalized_name": "ophthalmoplegia chronic progressive external",
+        "synonyms": [],
+        "search_terms": [
+          "ophthalmoplegia,",
+          "chronic",
+          "progressive",
+          "external",
+          "ophthalmoplegia, chronic progressive external"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A mitochondrial myopathy characterized by slowly progressive paralysis of the levator palpebrae, orbicularis oculi, and extraocular muscles. Ragged-red fibers and atrophy are found on muscle biopsy. Familial and sporadic forms may occur. Disease onset is usually in the first or second decade of life, and the illness slowly progresses until usually all ocular motility is lost. (From Adams et al., Principles of Neurology, 6th ed, p1422)",
+        "cleaned_description": "A mitochondrial myopathy characterized by slowly progressive paralysis of the levator palpebrae, orbicularis oculi, and extraocular muscles. Ragged-red fibers and atrophy are found on muscle biopsy. Familial and sporadic forms may occur. Disease onset is usually in the first or second decade of life, and the illness slowly progresses until usually all ocular motility is lost. (From Adams et al., Principles of Neurology, 6th ed, p1422)",
+        "description_summary": "A mitochondrial myopathy characterized by slowly progressive paralysis of the levator palpebrae, orbicularis oculi, and extraocular muscles.",
+        "key_terms": [
+          "myopathy"
+        ],
+        "word_count": 66
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Eye disease",
+          "Metabolic disease",
+          "Musculoskeletal disease",
+          "Nervous system disease",
+          "Pathology (process)",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Eye disease",
+          "Metabolic disease",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Eye disease",
+          "Metabolic disease",
+          "Musculoskeletal disease",
+          "Nervous system disease",
+          "Pathology (process)",
+          "Signs and symptoms"
+        ],
+        "category_count": 6
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type I diabetes mellitus",
+        "pathway_list": [
+          "Type I diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.892688",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

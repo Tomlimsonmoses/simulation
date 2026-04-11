@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cardiovascular disease', 'Congenital abnormality', 'Genetic disease (inborn)', 'Metabolic disease']",
+    "export_timestamp": "2026-03-28T22:11:35.690473",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D056889",
+      "DiseaseName": "Barth Syndrome",
+      "DiseaseDescription": "Rare congenital X-linked disorder of lipid metabolism. Barth syndrome is transmitted in an X-linked recessive pattern. The syndrome is characterized by muscular weakness, growth retardation, DILATED CARDIOMYOPATHY, variable NEUTROPENIA, 3-methylglutaconic aciduria (type II) and decreases in mitochondrial CARDIOLIPIN level. Other biochemical and morphological mitochondrial abnormalities also exist.",
+      "SlimMapping": "['Cardiovascular disease', 'Congenital abnormality', 'Genetic disease (inborn)', 'Metabolic disease']",
+      "PathwayNames": "Phospholipid metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D056889",
+        "standardized_id": "MESH:D056889",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Barth Syndrome",
+        "standardized_name": "Barth Syndrome",
+        "normalized_name": "barth syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "syndrome",
+          "barth",
+          "barth syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Rare congenital X-linked disorder of lipid metabolism. Barth syndrome is transmitted in an X-linked recessive pattern. The syndrome is characterized by muscular weakness, growth retardation, DILATED CARDIOMYOPATHY, variable NEUTROPENIA, 3-methylglutaconic aciduria (type II) and decreases in mitochondrial CARDIOLIPIN level. Other biochemical and morphological mitochondrial abnormalities also exist.",
+        "cleaned_description": "Rare congenital X-linked disorder of lipid metabolism. Barth syndrome is transmitted in an X-linked recessive pattern. The syndrome is characterized by muscular weakness, growth retardation, DILATED CARDIOMYOPATHY, variable NEUTROPENIA, 3-methylglutaconic aciduria (type II) and decreases in mitochondrial CARDIOLIPIN level. Other biochemical and morphological mitochondrial abnormalities also exist.",
+        "description_summary": "Rare congenital X-linked disorder of lipid metabolism.",
+        "key_terms": [
+          "CARDIOMYOPATHY"
+        ],
+        "word_count": 47
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality",
+          "Genetic disease (inborn)"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "cardiovascular",
+          "genetic"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Phospholipid metabolism",
+        "pathway_list": [
+          "Phospholipid metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.391059",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

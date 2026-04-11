@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Congenital abnormality', 'Genetic disease (inborn)', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+    "export_timestamp": "2026-03-28T22:11:36.277020",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D016891",
+      "DiseaseName": "Polycystic Kidney, Autosomal Dominant",
+      "DiseaseDescription": "Kidney disorders with autosomal dominant inheritance and characterized by multiple CYSTS in both KIDNEYS with progressive deterioration of renal function.",
+      "SlimMapping": "['Congenital abnormality', 'Genetic disease (inborn)', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D016891",
+        "standardized_id": "MESH:D016891",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Polycystic Kidney, Autosomal Dominant",
+        "standardized_name": "Polycystic Kidney, Autosomal Dominant",
+        "normalized_name": "polycystic kidney autosomal dominant",
+        "synonyms": [],
+        "search_terms": [
+          "autosomal",
+          "dominant",
+          "polycystic kidney, autosomal dominant",
+          "polycystic",
+          "kidney,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Kidney disorders with autosomal dominant inheritance and characterized by multiple CYSTS in both KIDNEYS with progressive deterioration of renal function.",
+        "cleaned_description": "Kidney disorders with autosomal dominant inheritance and characterized by multiple CYSTS in both KIDNEYS with progressive deterioration of renal function.",
+        "description_summary": "Kidney disorders with autosomal dominant inheritance and characterized by multiple CYSTS in both KIDNEYS with progressive deterioration of renal function.",
+        "key_terms": [],
+        "word_count": 20
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Urogenital disease (female)"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.921456",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007690",
+      "DiseaseName": "Polycystic Kidney Diseases",
+      "DiseaseDescription": "Hereditary diseases that are characterized by the progressive expansion of a large number of tightly packed CYSTS within the KIDNEYS. They include diseases with autosomal dominant and autosomal recessive inheritance.",
+      "SlimMapping": "['Congenital abnormality', 'Genetic disease (inborn)', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "XBP1(S) activates chaperone genes",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007690",
+        "standardized_id": "MESH:D007690",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Polycystic Kidney Diseases",
+        "standardized_name": "Polycystic Kidney Diseases",
+        "normalized_name": "polycystic kidney diseases",
+        "synonyms": [],
+        "search_terms": [
+          "polycystic",
+          "diseases",
+          "polycystic kidney diseases",
+          "kidney"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Hereditary diseases that are characterized by the progressive expansion of a large number of tightly packed CYSTS within the KIDNEYS. They include diseases with autosomal dominant and autosomal recessive inheritance.",
+        "cleaned_description": "Hereditary diseases that are characterized by the progressive expansion of a large number of tightly packed CYSTS within the KIDNEYS. They include diseases with autosomal dominant and autosomal recessive inheritance.",
+        "description_summary": "Hereditary diseases that are characterized by the progressive expansion of a large number of tightly packed CYSTS within the KIDNEYS.",
+        "key_terms": [],
+        "word_count": 30
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Urogenital disease (female)"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "XBP1(S) activates chaperone genes",
+        "pathway_list": [
+          "XBP1(S) activates chaperone genes"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.921839",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Pathology (anatomical condition)', 'Skin disease']",
+    "export_timestamp": "2026-03-28T22:11:35.502177",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000505",
+      "DiseaseName": "Alopecia",
+      "DiseaseDescription": "Absence of hair from areas where it is normally present.",
+      "SlimMapping": "['Pathology (anatomical condition)', 'Skin disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000505",
+        "standardized_id": "MESH:D000505",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Alopecia",
+        "standardized_name": "Alopecia",
+        "normalized_name": "alopecia",
+        "synonyms": [],
+        "search_terms": [
+          "alopecia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Absence of hair from areas where it is normally present.",
+        "cleaned_description": "Absence of hair from areas where it is normally present.",
+        "description_summary": "Absence of hair from areas where it is normally present.",
+        "key_terms": [],
+        "word_count": 10
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (anatomical condition)",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Pathology (anatomical condition)",
+          "Skin disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (anatomical condition)",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.360278",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001768",
+      "DiseaseName": "Blister",
+      "DiseaseDescription": "Visible accumulations of fluid within or beneath the epidermis.",
+      "SlimMapping": "['Pathology (anatomical condition)', 'Skin disease']",
+      "PathwayNames": "TNF signaling",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001768",
+        "standardized_id": "MESH:D001768",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Blister",
+        "standardized_name": "Blister",
+        "normalized_name": "blister",
+        "synonyms": [],
+        "search_terms": [
+          "blister"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Visible accumulations of fluid within or beneath the epidermis.",
+        "cleaned_description": "Visible accumulations of fluid within or beneath the epidermis.",
+        "description_summary": "Visible accumulations of fluid within or beneath the epidermis.",
+        "key_terms": [],
+        "word_count": 9
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (anatomical condition)",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Pathology (anatomical condition)",
+          "Skin disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (anatomical condition)",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "TNF signaling",
+        "pathway_list": [
+          "TNF signaling"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.397745",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

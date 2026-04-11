@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Congenital abnormality', 'Genetic disease (inborn)', 'Metabolic disease', 'Musculoskeletal disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:35.884371",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D003057",
+      "DiseaseName": "Cockayne Syndrome",
+      "DiseaseDescription": "A syndrome characterized by multiple system abnormalities including DWARFISM; PHOTOSENSITIVITY DISORDERS; PREMATURE AGING; and HEARING LOSS. It is caused by mutations of a number of autosomal recessive genes encoding proteins that involve transcriptional-coupled DNA REPAIR processes. Cockayne syndrome is classified by the severity and age of onset. Type I (classical; CSA) is early childhood onset in the second year of life; type II (congenital; CSB) is early onset at birth with severe symptoms; type III (xeroderma pigmentosum; XP) is late childhood onset with mild symptoms.",
+      "SlimMapping": "['Congenital abnormality', 'Genetic disease (inborn)', 'Metabolic disease', 'Musculoskeletal disease', 'Nervous system disease']",
+      "PathwayNames": "Ubiquitin mediated proteolysis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003057",
+        "standardized_id": "MESH:D003057",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cockayne Syndrome",
+        "standardized_name": "Cockayne Syndrome",
+        "normalized_name": "cockayne syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "cockayne syndrome",
+          "syndrome",
+          "cockayne"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A syndrome characterized by multiple system abnormalities including DWARFISM; PHOTOSENSITIVITY DISORDERS; PREMATURE AGING; and HEARING LOSS. It is caused by mutations of a number of autosomal recessive genes encoding proteins that involve transcriptional-coupled DNA REPAIR processes. Cockayne syndrome is classified by the severity and age of onset. Type I (classical; CSA) is early childhood onset in the second year of life; type II (congenital; CSB) is early onset at birth with severe symptoms; type III (xeroderma pigmentosum; XP) is late childhood onset with mild symptoms.",
+        "cleaned_description": "A syndrome characterized by multiple system abnormalities including DWARFISM; PHOTOSENSITIVITY DISORDERS; PREMATURE AGING; and HEARING LOSS. It is caused by mutations of a number of autosomal recessive genes encoding proteins that involve transcriptional-coupled DNA REPAIR processes. Cockayne syndrome is classified by the severity and age of onset. Type I (classical; CSA) is early childhood onset in the second year of life; type II (congenital; CSB) is early onset at birth with severe symptoms; type III (xeroderma pigmentosum; XP) is late childhood onset with mild symptoms.",
+        "description_summary": "A syndrome characterized by multiple system abnormalities including DWARFISM; PHOTOSENSITIVITY DISORDERS; PREMATURE AGING; and HEARING LOSS.",
+        "key_terms": [],
+        "word_count": 85
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "category_count": 5
+      },
+      "processed_pathways": {
+        "raw_pathways": "Ubiquitin mediated proteolysis",
+        "pathway_list": [
+          "Ubiquitin mediated proteolysis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.446693",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

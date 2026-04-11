@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Connective tissue disease', 'Genetic disease (inborn)', 'Metabolic disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.090761",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D006712",
+      "DiseaseName": "Homocystinuria",
+      "DiseaseDescription": "Autosomal recessive inborn error of methionine metabolism usually caused by a deficiency of CYSTATHIONINE BETA-SYNTHASE and associated with elevations of homocysteine in plasma and urine. Clinical features include a tall slender habitus, SCOLIOSIS, arachnodactyly, MUSCLE WEAKNESS, genu varus, thin blond hair, malar flush, lens dislocations, an increased incidence of MENTAL RETARDATION, and a tendency to develop fibrosis of arteries, frequently complicated by CEREBROVASCULAR ACCIDENTS and MYOCARDIAL INFARCTION. (From Adams et al., Principles of Neurology, 6th ed, p979)",
+      "SlimMapping": "['Connective tissue disease', 'Genetic disease (inborn)', 'Metabolic disease', 'Nervous system disease']",
+      "PathwayNames": "Sulfur amino acid metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006712",
+        "standardized_id": "MESH:D006712",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Homocystinuria",
+        "standardized_name": "Homocystinuria",
+        "normalized_name": "homocystinuria",
+        "synonyms": [],
+        "search_terms": [
+          "homocystinuria"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Autosomal recessive inborn error of methionine metabolism usually caused by a deficiency of CYSTATHIONINE BETA-SYNTHASE and associated with elevations of homocysteine in plasma and urine. Clinical features include a tall slender habitus, SCOLIOSIS, arachnodactyly, MUSCLE WEAKNESS, genu varus, thin blond hair, malar flush, lens dislocations, an increased incidence of MENTAL RETARDATION, and a tendency to develop fibrosis of arteries, frequently complicated by CEREBROVASCULAR ACCIDENTS and MYOCARDIAL INFARCTION. (From Adams et al., Principles of Neurology, 6th ed, p979)",
+        "cleaned_description": "Autosomal recessive inborn error of methionine metabolism usually caused by a deficiency of CYSTATHIONINE BETA-SYNTHASE and associated with elevations of homocysteine in plasma and urine. Clinical features include a tall slender habitus, SCOLIOSIS, arachnodactyly, MUSCLE WEAKNESS, genu varus, thin blond hair, malar flush, lens dislocations, an increased incidence of MENTAL RETARDATION, and a tendency to develop fibrosis of arteries, frequently complicated by CEREBROVASCULAR ACCIDENTS and MYOCARDIAL INFARCTION. (From Adams et al., Principles of Neurology, 6th ed, p979)",
+        "description_summary": "Autosomal recessive inborn error of methionine metabolism usually caused by a deficiency of CYSTATHIONINE BETA-SYNTHASE and associated with elevations of homocysteine in plasma and urine.",
+        "key_terms": [
+          "SCOLIOSIS",
+          "fibrosis"
+        ],
+        "word_count": 77
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Connective tissue disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Connective tissue disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Connective tissue disease",
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Nervous system disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Sulfur amino acid metabolism",
+        "pathway_list": [
+          "Sulfur amino acid metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.663326",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

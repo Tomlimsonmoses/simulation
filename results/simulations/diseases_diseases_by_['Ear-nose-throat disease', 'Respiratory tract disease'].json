@@ -1,0 +1,210 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Ear-nose-throat disease', 'Respiratory tract disease']",
+    "export_timestamp": "2026-03-28T22:11:36.218148",
+    "total_records": 3
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D015508",
+      "DiseaseName": "Nasal Obstruction",
+      "DiseaseDescription": "Any hindrance to the passage of air into and out of the nose. The obstruction may be unilateral or bilateral, and may involve any part of the NASAL CAVITY.",
+      "SlimMapping": "['Ear-nose-throat disease', 'Respiratory tract disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D015508",
+        "standardized_id": "MESH:D015508",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Nasal Obstruction",
+        "standardized_name": "Nasal Obstruction",
+        "normalized_name": "nasal obstruction",
+        "synonyms": [],
+        "search_terms": [
+          "nasal obstruction",
+          "obstruction",
+          "nasal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Any hindrance to the passage of air into and out of the nose. The obstruction may be unilateral or bilateral, and may involve any part of the NASAL CAVITY.",
+        "cleaned_description": "Any hindrance to the passage of air into and out of the nose. The obstruction may be unilateral or bilateral, and may involve any part of the NASAL CAVITY.",
+        "description_summary": "Any hindrance to the passage of air into and out of the nose.",
+        "key_terms": [],
+        "word_count": 29
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Ear-nose-throat disease",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Ear-nose-throat disease",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Ear-nose-throat disease",
+          "Respiratory tract disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.865780",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012220",
+      "DiseaseName": "Rhinitis",
+      "DiseaseDescription": "Inflammation of the NASAL MUCOSA, the mucous membrane lining the NASAL CAVITIES.",
+      "SlimMapping": "['Ear-nose-throat disease', 'Respiratory tract disease']",
+      "PathwayNames": "Vibrio cholerae infection",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012220",
+        "standardized_id": "MESH:D012220",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Rhinitis",
+        "standardized_name": "Rhinitis",
+        "normalized_name": "rhinitis",
+        "synonyms": [],
+        "search_terms": [
+          "rhinitis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inflammation of the NASAL MUCOSA, the mucous membrane lining the NASAL CAVITIES.",
+        "cleaned_description": "Inflammation of the NASAL MUCOSA, the mucous membrane lining the NASAL CAVITIES.",
+        "description_summary": "Inflammation of the NASAL MUCOSA, the mucous membrane lining the NASAL CAVITIES.",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Ear-nose-throat disease",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Ear-nose-throat disease",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Ear-nose-throat disease",
+          "Respiratory tract disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vibrio cholerae infection",
+        "pathway_list": [
+          "Vibrio cholerae infection"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.957037",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012852",
+      "DiseaseName": "Sinusitis",
+      "DiseaseDescription": "Inflammation of the NASAL MUCOSA in one or more of the PARANASAL SINUSES.",
+      "SlimMapping": "['Ear-nose-throat disease', 'Respiratory tract disease']",
+      "PathwayNames": "Vibrio cholerae infection",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012852",
+        "standardized_id": "MESH:D012852",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Sinusitis",
+        "standardized_name": "Sinusitis",
+        "normalized_name": "sinusitis",
+        "synonyms": [],
+        "search_terms": [
+          "sinusitis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inflammation of the NASAL MUCOSA in one or more of the PARANASAL SINUSES.",
+        "cleaned_description": "Inflammation of the NASAL MUCOSA in one or more of the PARANASAL SINUSES.",
+        "description_summary": "Inflammation of the NASAL MUCOSA in one or more of the PARANASAL SINUSES.",
+        "key_terms": [],
+        "word_count": 13
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Ear-nose-throat disease",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Ear-nose-throat disease",
+          "Respiratory tract disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Ear-nose-throat disease",
+          "Respiratory tract disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vibrio cholerae infection",
+        "pathway_list": [
+          "Vibrio cholerae infection"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.964757",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

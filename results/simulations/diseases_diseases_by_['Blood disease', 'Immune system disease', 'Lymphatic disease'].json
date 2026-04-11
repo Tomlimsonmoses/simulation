@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Blood disease', 'Immune system disease', 'Lymphatic disease']",
+    "export_timestamp": "2026-03-28T22:11:35.443311",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000361",
+      "DiseaseName": "Agammaglobulinemia",
+      "DiseaseDescription": "An immunologic deficiency state characterized by an extremely low level of generally all classes of gamma-globulin in the blood.",
+      "SlimMapping": "['Blood disease', 'Immune system disease', 'Lymphatic disease']",
+      "PathwayNames": "Transcriptional misregulation in cancer",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000361",
+        "standardized_id": "MESH:D000361",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Agammaglobulinemia",
+        "standardized_name": "Agammaglobulinemia",
+        "normalized_name": "agammaglobulinemia",
+        "synonyms": [],
+        "search_terms": [
+          "agammaglobulinemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An immunologic deficiency state characterized by an extremely low level of generally all classes of gamma-globulin in the blood.",
+        "cleaned_description": "An immunologic deficiency state characterized by an extremely low level of generally all classes of gamma-globulin in the blood.",
+        "description_summary": "An immunologic deficiency state characterized by an extremely low level of generally all classes of gamma-globulin in the blood.",
+        "key_terms": [],
+        "word_count": 19
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Immune system disease",
+          "Lymphatic disease"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Immune system disease",
+          "Lymphatic disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Blood disease",
+          "Immune system disease",
+          "Lymphatic disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional misregulation in cancer",
+        "pathway_list": [
+          "Transcriptional misregulation in cancer"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional misregulation in cancer"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.357775",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

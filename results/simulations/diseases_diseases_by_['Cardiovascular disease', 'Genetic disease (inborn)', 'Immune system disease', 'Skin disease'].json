@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cardiovascular disease', 'Genetic disease (inborn)', 'Immune system disease', 'Skin disease']",
+    "export_timestamp": "2026-03-28T22:11:35.542524",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D054179",
+      "DiseaseName": "Angioedemas, Hereditary",
+      "DiseaseDescription": "Inherited disorders that are characterized by subcutaneous and submucosal EDEMA in the upper RESPIRATORY TRACT and GASTROINTESTINAL TRACT.",
+      "SlimMapping": "['Cardiovascular disease', 'Genetic disease (inborn)', 'Immune system disease', 'Skin disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D054179",
+        "standardized_id": "MESH:D054179",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Angioedemas, Hereditary",
+        "standardized_name": "Angioedemas, Hereditary",
+        "normalized_name": "angioedemas hereditary",
+        "synonyms": [],
+        "search_terms": [
+          "angioedemas, hereditary",
+          "angioedemas,",
+          "hereditary"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Inherited disorders that are characterized by subcutaneous and submucosal EDEMA in the upper RESPIRATORY TRACT and GASTROINTESTINAL TRACT.",
+        "cleaned_description": "Inherited disorders that are characterized by subcutaneous and submucosal EDEMA in the upper RESPIRATORY TRACT and GASTROINTESTINAL TRACT.",
+        "description_summary": "Inherited disorders that are characterized by subcutaneous and submucosal EDEMA in the upper RESPIRATORY TRACT and GASTROINTESTINAL TRACT.",
+        "key_terms": [],
+        "word_count": 18
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Genetic disease (inborn)",
+          "Immune system disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Genetic disease (inborn)",
+          "Immune system disease"
+        ],
+        "broad_categories": [
+          "cardiovascular",
+          "genetic",
+          "immune_system"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Genetic disease (inborn)",
+          "Immune system disease",
+          "Skin disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.365544",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

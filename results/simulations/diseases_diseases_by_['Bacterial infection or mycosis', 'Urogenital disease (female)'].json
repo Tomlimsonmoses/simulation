@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Bacterial infection or mycosis', 'Urogenital disease (female)']",
+    "export_timestamp": "2026-03-28T22:11:35.833362",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D002181",
+      "DiseaseName": "Candidiasis, Vulvovaginal",
+      "DiseaseDescription": "Infection of the VULVA and VAGINA with a fungus of the genus CANDIDA.",
+      "SlimMapping": "['Bacterial infection or mycosis', 'Urogenital disease (female)']",
+      "PathwayNames": "Response of Mtb to phagocytosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002181",
+        "standardized_id": "MESH:D002181",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Candidiasis, Vulvovaginal",
+        "standardized_name": "Candidiasis, Vulvovaginal",
+        "normalized_name": "candidiasis vulvovaginal",
+        "synonyms": [],
+        "search_terms": [
+          "candidiasis,",
+          "candidiasis, vulvovaginal",
+          "vulvovaginal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Infection of the VULVA and VAGINA with a fungus of the genus CANDIDA.",
+        "cleaned_description": "Infection of the VULVA and VAGINA with a fungus of the genus CANDIDA.",
+        "description_summary": "Infection of the VULVA and VAGINA with a fungus of the genus CANDIDA.",
+        "key_terms": [],
+        "word_count": 13
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Bacterial infection or mycosis",
+          "Urogenital disease (female)"
+        ],
+        "primary_categories": [
+          "Bacterial infection or mycosis",
+          "Urogenital disease (female)"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Bacterial infection or mycosis",
+          "Urogenital disease (female)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Response of Mtb to phagocytosis",
+        "pathway_list": [
+          "Response of Mtb to phagocytosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.413824",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

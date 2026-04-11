@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Endocrine system disease', 'Musculoskeletal disease', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:35.226356",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000172",
+      "DiseaseName": "Acromegaly",
+      "DiseaseDescription": "A condition caused by prolonged exposure to excessive HUMAN GROWTH HORMONE in adults. It is characterized by bony enlargement of the FACE; lower jaw (PROGNATHISM); hands; FEET; HEAD; and THORAX. The most common etiology is a GROWTH HORMONE-SECRETING PITUITARY ADENOMA. (From Joynt, Clinical Neurology, 1992, Ch36, pp79-80)",
+      "SlimMapping": "['Endocrine system disease', 'Musculoskeletal disease', 'Nervous system disease']",
+      "PathwayNames": "Vibrio cholerae infection",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000172",
+        "standardized_id": "MESH:D000172",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Acromegaly",
+        "standardized_name": "Acromegaly",
+        "normalized_name": "acromegaly",
+        "synonyms": [],
+        "search_terms": [
+          "acromegaly"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition caused by prolonged exposure to excessive HUMAN GROWTH HORMONE in adults. It is characterized by bony enlargement of the FACE; lower jaw (PROGNATHISM); hands; FEET; HEAD; and THORAX. The most common etiology is a GROWTH HORMONE-SECRETING PITUITARY ADENOMA. (From Joynt, Clinical Neurology, 1992, Ch36, pp79-80)",
+        "cleaned_description": "A condition caused by prolonged exposure to excessive HUMAN GROWTH HORMONE in adults. It is characterized by bony enlargement of the FACE; lower jaw (PROGNATHISM); hands; FEET; HEAD; and THORAX. The most common etiology is a GROWTH HORMONE-SECRETING PITUITARY ADENOMA. (From Joynt, Clinical Neurology, 1992, Ch36, pp79-80)",
+        "description_summary": "A condition caused by prolonged exposure to excessive HUMAN GROWTH HORMONE in adults.",
+        "key_terms": [],
+        "word_count": 47
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Endocrine system disease",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vibrio cholerae infection",
+        "pathway_list": [
+          "Vibrio cholerae infection"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.354738",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

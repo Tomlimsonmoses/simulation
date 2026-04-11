@@ -1,0 +1,968 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Congenital abnormality', 'Musculoskeletal disease']",
+    "export_timestamp": "2026-03-28T22:11:35.641719",
+    "total_records": 14
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D001176",
+      "DiseaseName": "Arthrogryposis",
+      "DiseaseDescription": "Persistent flexure or contracture of a joint.",
+      "SlimMapping": "['Congenital abnormality', 'Musculoskeletal disease']",
+      "PathwayNames": "Transmission across Chemical Synapses",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001176",
+        "standardized_id": "MESH:D001176",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Arthrogryposis",
+        "standardized_name": "Arthrogryposis",
+        "normalized_name": "arthrogryposis",
+        "synonyms": [],
+        "search_terms": [
+          "arthrogryposis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Persistent flexure or contracture of a joint.",
+        "cleaned_description": "Persistent flexure or contracture of a joint.",
+        "description_summary": "Persistent flexure or contracture of a joint.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmission across Chemical Synapses",
+        "pathway_list": [
+          "Transmission across Chemical Synapses"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.375876",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003025",
+      "DiseaseName": "Clubfoot",
+      "DiseaseDescription": "A deformed foot in which the foot is plantarflexed, inverted, and adducted.",
+      "SlimMapping": "['Congenital abnormality', 'Musculoskeletal disease']",
+      "PathwayNames": "One carbon pool by folate",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003025",
+        "standardized_id": "MESH:D003025",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Clubfoot",
+        "standardized_name": "Clubfoot",
+        "normalized_name": "clubfoot",
+        "synonyms": [],
+        "search_terms": [
+          "clubfoot"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A deformed foot in which the foot is plantarflexed, inverted, and adducted.",
+        "cleaned_description": "A deformed foot in which the foot is plantarflexed, inverted, and adducted.",
+        "description_summary": "A deformed foot in which the foot is plantarflexed, inverted, and adducted.",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "One carbon pool by folate",
+        "pathway_list": [
+          "One carbon pool by folate"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.445814",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D019465",
+      "DiseaseName": "Craniofacial Abnormalities",
+      "DiseaseDescription": "Congenital structural deformities, malformations, or other abnormalities of the cranium and facial bones.",
+      "SlimMapping": "['Congenital abnormality', 'Musculoskeletal disease']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D019465",
+        "standardized_id": "MESH:D019465",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Craniofacial Abnormalities",
+        "standardized_name": "Craniofacial Abnormalities",
+        "normalized_name": "craniofacial abnormalities",
+        "synonyms": [],
+        "search_terms": [
+          "craniofacial abnormalities",
+          "craniofacial",
+          "abnormalities"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Congenital structural deformities, malformations, or other abnormalities of the cranium and facial bones.",
+        "cleaned_description": "Congenital structural deformities, malformations, or other abnormalities of the cranium and facial bones.",
+        "description_summary": "Congenital structural deformities, malformations, or other abnormalities of the cranium and facial bones.",
+        "key_terms": [],
+        "word_count": 13
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.463048",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003394",
+      "DiseaseName": "Craniofacial Dysostosis",
+      "DiseaseDescription": "Autosomal dominant CRANIOSYNOSTOSIS with shallow ORBITS; EXOPHTHALMOS; and maxillary hypoplasia.",
+      "SlimMapping": "['Congenital abnormality', 'Musculoskeletal disease']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003394",
+        "standardized_id": "MESH:D003394",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Craniofacial Dysostosis",
+        "standardized_name": "Craniofacial Dysostosis",
+        "normalized_name": "craniofacial dysostosis",
+        "synonyms": [],
+        "search_terms": [
+          "craniofacial",
+          "dysostosis",
+          "craniofacial dysostosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Autosomal dominant CRANIOSYNOSTOSIS with shallow ORBITS; EXOPHTHALMOS; and maxillary hypoplasia.",
+        "cleaned_description": "Autosomal dominant CRANIOSYNOSTOSIS with shallow ORBITS; EXOPHTHALMOS; and maxillary hypoplasia.",
+        "description_summary": "Autosomal dominant CRANIOSYNOSTOSIS with shallow ORBITS; EXOPHTHALMOS; and maxillary hypoplasia.",
+        "key_terms": [
+          "CRANIOSYNOSTOSIS"
+        ],
+        "word_count": 10
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.463236",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003398",
+      "DiseaseName": "Craniosynostoses",
+      "DiseaseDescription": "Premature closure of one or more CRANIAL SUTURES. It often results in plagiocephaly. Craniosynostoses that involve multiple sutures are sometimes associated with congenital syndromes such as ACROCEPHALOSYNDACTYLIA; and CRANIOFACIAL DYSOSTOSIS.",
+      "SlimMapping": "['Congenital abnormality', 'Musculoskeletal disease']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003398",
+        "standardized_id": "MESH:D003398",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Craniosynostoses",
+        "standardized_name": "Craniosynostoses",
+        "normalized_name": "craniosynostoses",
+        "synonyms": [],
+        "search_terms": [
+          "craniosynostoses"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Premature closure of one or more CRANIAL SUTURES. It often results in plagiocephaly. Craniosynostoses that involve multiple sutures are sometimes associated with congenital syndromes such as ACROCEPHALOSYNDACTYLIA; and CRANIOFACIAL DYSOSTOSIS.",
+        "cleaned_description": "Premature closure of one or more CRANIAL SUTURES. It often results in plagiocephaly. Craniosynostoses that involve multiple sutures are sometimes associated with congenital syndromes such as ACROCEPHALOSYNDACTYLIA; and CRANIOFACIAL DYSOSTOSIS.",
+        "description_summary": "Premature closure of one or more CRANIAL SUTURES.",
+        "key_terms": [
+          "DYSOSTOSIS"
+        ],
+        "word_count": 30
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.463575",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005532",
+      "DiseaseName": "Foot Deformities, Congenital",
+      "DiseaseDescription": "Alterations or deviations from normal shape or size which result in a disfigurement of the foot occurring at or before birth.",
+      "SlimMapping": "['Congenital abnormality', 'Musculoskeletal disease']",
+      "PathwayNames": "XBP1(S) activates chaperone genes",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005532",
+        "standardized_id": "MESH:D005532",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Foot Deformities, Congenital",
+        "standardized_name": "Foot Deformities, Congenital",
+        "normalized_name": "foot deformities congenital",
+        "synonyms": [],
+        "search_terms": [
+          "foot deformities, congenital",
+          "deformities,",
+          "congenital",
+          "foot"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Alterations or deviations from normal shape or size which result in a disfigurement of the foot occurring at or before birth.",
+        "cleaned_description": "Alterations or deviations from normal shape or size which result in a disfigurement of the foot occurring at or before birth.",
+        "description_summary": "Alterations or deviations from normal shape or size which result in a disfigurement of the foot occurring at or before birth.",
+        "key_terms": [],
+        "word_count": 21
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "XBP1(S) activates chaperone genes",
+        "pathway_list": [
+          "XBP1(S) activates chaperone genes"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.529483",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006053",
+      "DiseaseName": "Goldenhar Syndrome",
+      "DiseaseDescription": "Mandibulofacial dysostosis with congenital eyelid dermoids.",
+      "SlimMapping": "['Congenital abnormality', 'Musculoskeletal disease']",
+      "PathwayNames": "Spliceosome, U2-snRNP",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006053",
+        "standardized_id": "MESH:D006053",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Goldenhar Syndrome",
+        "standardized_name": "Goldenhar Syndrome",
+        "normalized_name": "goldenhar syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "goldenhar syndrome",
+          "goldenhar",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Mandibulofacial dysostosis with congenital eyelid dermoids.",
+        "cleaned_description": "Mandibulofacial dysostosis with congenital eyelid dermoids.",
+        "description_summary": "Mandibulofacial dysostosis with congenital eyelid dermoids.",
+        "key_terms": [
+          "dysostosis"
+        ],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Spliceosome, U2-snRNP",
+        "pathway_list": [
+          "U2-snRNP",
+          "Spliceosome"
+        ],
+        "pathway_count": 2,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.547269",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006228",
+      "DiseaseName": "Hand Deformities, Congenital",
+      "DiseaseDescription": "Alterations or deviations from normal shape or size which result in a disfigurement of the hand occurring at or before birth.",
+      "SlimMapping": "['Congenital abnormality', 'Musculoskeletal disease']",
+      "PathwayNames": "XBP1(S) activates chaperone genes",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006228",
+        "standardized_id": "MESH:D006228",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hand Deformities, Congenital",
+        "standardized_name": "Hand Deformities, Congenital",
+        "normalized_name": "hand deformities congenital",
+        "synonyms": [],
+        "search_terms": [
+          "deformities,",
+          "hand deformities, congenital",
+          "congenital",
+          "hand"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Alterations or deviations from normal shape or size which result in a disfigurement of the hand occurring at or before birth.",
+        "cleaned_description": "Alterations or deviations from normal shape or size which result in a disfigurement of the hand occurring at or before birth.",
+        "description_summary": "Alterations or deviations from normal shape or size which result in a disfigurement of the hand occurring at or before birth.",
+        "key_terms": [],
+        "word_count": 21
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "XBP1(S) activates chaperone genes",
+        "pathway_list": [
+          "XBP1(S) activates chaperone genes"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.604892",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006972",
+      "DiseaseName": "Hypertelorism",
+      "DiseaseDescription": "Abnormal increase in the interorbital distance due to overdevelopment of the lesser wings of the sphenoid.",
+      "SlimMapping": "['Congenital abnormality', 'Musculoskeletal disease']",
+      "PathwayNames": "Ephrin signaling",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006972",
+        "standardized_id": "MESH:D006972",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypertelorism",
+        "standardized_name": "Hypertelorism",
+        "normalized_name": "hypertelorism",
+        "synonyms": [],
+        "search_terms": [
+          "hypertelorism"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormal increase in the interorbital distance due to overdevelopment of the lesser wings of the sphenoid.",
+        "cleaned_description": "Abnormal increase in the interorbital distance due to overdevelopment of the lesser wings of the sphenoid.",
+        "description_summary": "Abnormal increase in the interorbital distance due to overdevelopment of the lesser wings of the sphenoid.",
+        "key_terms": [],
+        "word_count": 16
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Ephrin signaling",
+        "pathway_list": [
+          "Ephrin signaling"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.766222",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D017880",
+      "DiseaseName": "Limb Deformities, Congenital",
+      "DiseaseDescription": "Congenital structural deformities of the upper and lower extremities collectively or unspecified.",
+      "SlimMapping": "['Congenital abnormality', 'Musculoskeletal disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017880",
+        "standardized_id": "MESH:D017880",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Limb Deformities, Congenital",
+        "standardized_name": "Limb Deformities, Congenital",
+        "normalized_name": "limb deformities congenital",
+        "synonyms": [],
+        "search_terms": [
+          "limb",
+          "deformities,",
+          "congenital",
+          "limb deformities, congenital"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Congenital structural deformities of the upper and lower extremities collectively or unspecified.",
+        "cleaned_description": "Congenital structural deformities of the upper and lower extremities collectively or unspecified.",
+        "description_summary": "Congenital structural deformities of the upper and lower extremities collectively or unspecified.",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.815315",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009139",
+      "DiseaseName": "Musculoskeletal Abnormalities",
+      "DiseaseDescription": "Congenital structural abnormalities and deformities of the musculoskeletal system.",
+      "SlimMapping": "['Congenital abnormality', 'Musculoskeletal disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009139",
+        "standardized_id": "MESH:D009139",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Musculoskeletal Abnormalities",
+        "standardized_name": "Musculoskeletal Abnormalities",
+        "normalized_name": "musculoskeletal abnormalities",
+        "synonyms": [],
+        "search_terms": [
+          "musculoskeletal abnormalities",
+          "abnormalities",
+          "musculoskeletal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Congenital structural abnormalities and deformities of the musculoskeletal system.",
+        "cleaned_description": "Congenital structural abnormalities and deformities of the musculoskeletal system.",
+        "description_summary": "Congenital structural abnormalities and deformities of the musculoskeletal system.",
+        "key_terms": [],
+        "word_count": 9
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.861585",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D017689",
+      "DiseaseName": "Polydactyly",
+      "DiseaseDescription": "A congenital anomaly of the hand or foot, marked by the presence of supernumerary digits.",
+      "SlimMapping": "['Congenital abnormality', 'Musculoskeletal disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D017689",
+        "standardized_id": "MESH:D017689",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Polydactyly",
+        "standardized_name": "Polydactyly",
+        "normalized_name": "polydactyly",
+        "synonyms": [],
+        "search_terms": [
+          "polydactyly"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A congenital anomaly of the hand or foot, marked by the presence of supernumerary digits.",
+        "cleaned_description": "A congenital anomaly of the hand or foot, marked by the presence of supernumerary digits.",
+        "description_summary": "A congenital anomaly of the hand or foot, marked by the presence of supernumerary digits.",
+        "key_terms": [],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.923077",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013576",
+      "DiseaseName": "Syndactyly",
+      "DiseaseDescription": "A congenital anomaly of the hand or foot, marked by the webbing between adjacent fingers or toes. Syndactylies are classified as complete or incomplete by the degree of joining. Syndactylies can also be simple or complex. Simple syndactyly indicates joining of only skin or soft tissue; complex syndactyly marks joining of bony elements.",
+      "SlimMapping": "['Congenital abnormality', 'Musculoskeletal disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013576",
+        "standardized_id": "MESH:D013576",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Syndactyly",
+        "standardized_name": "Syndactyly",
+        "normalized_name": "syndactyly",
+        "synonyms": [],
+        "search_terms": [
+          "syndactyly"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A congenital anomaly of the hand or foot, marked by the webbing between adjacent fingers or toes. Syndactylies are classified as complete or incomplete by the degree of joining. Syndactylies can also be simple or complex. Simple syndactyly indicates joining of only skin or soft tissue; complex syndactyly marks joining of bony elements.",
+        "cleaned_description": "A congenital anomaly of the hand or foot, marked by the webbing between adjacent fingers or toes. Syndactylies are classified as complete or incomplete by the degree of joining. Syndactylies can also be simple or complex. Simple syndactyly indicates joining of only skin or soft tissue; complex syndactyly marks joining of bony elements.",
+        "description_summary": "A congenital anomaly of the hand or foot, marked by the webbing between adjacent fingers or toes.",
+        "key_terms": [],
+        "word_count": 53
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.983014",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D038062",
+      "DiseaseName": "Upper Extremity Deformities, Congenital",
+      "DiseaseDescription": "Congenital structural abnormalities of the UPPER EXTREMITY.",
+      "SlimMapping": "['Congenital abnormality', 'Musculoskeletal disease']",
+      "PathwayNames": "PRC2 methylates histones and DNA",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D038062",
+        "standardized_id": "MESH:D038062",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Upper Extremity Deformities, Congenital",
+        "standardized_name": "Upper Extremity Deformities, Congenital",
+        "normalized_name": "upper extremity deformities congenital",
+        "synonyms": [],
+        "search_terms": [
+          "extremity",
+          "deformities,",
+          "congenital",
+          "upper",
+          "upper extremity deformities, congenital"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Congenital structural abnormalities of the UPPER EXTREMITY.",
+        "cleaned_description": "Congenital structural abnormalities of the UPPER EXTREMITY.",
+        "description_summary": "Congenital structural abnormalities of the UPPER EXTREMITY.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Congenital abnormality",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "PRC2 methylates histones and DNA",
+        "pathway_list": [
+          "PRC2 methylates histones and DNA"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.009472",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

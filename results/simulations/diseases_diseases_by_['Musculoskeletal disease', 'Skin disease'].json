@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Musculoskeletal disease', 'Skin disease']",
+    "export_timestamp": "2026-03-28T22:11:35.639872",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D015535",
+      "DiseaseName": "Arthritis, Psoriatic",
+      "DiseaseDescription": "A type of inflammatory arthritis associated with PSORIASIS, often involving the axial joints and the peripheral terminal interphalangeal joints. It is characterized by the presence of HLA-B27-associated SPONDYLARTHROPATHY, and the absence of rheumatoid factor.",
+      "SlimMapping": "['Musculoskeletal disease', 'Skin disease']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D015535",
+        "standardized_id": "MESH:D015535",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Arthritis, Psoriatic",
+        "standardized_name": "Arthritis, Psoriatic",
+        "normalized_name": "arthritis psoriatic",
+        "synonyms": [],
+        "search_terms": [
+          "psoriatic",
+          "arthritis, psoriatic",
+          "arthritis,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A type of inflammatory arthritis associated with PSORIASIS, often involving the axial joints and the peripheral terminal interphalangeal joints. It is characterized by the presence of HLA-B27-associated SPONDYLARTHROPATHY, and the absence of rheumatoid factor.",
+        "cleaned_description": "A type of inflammatory arthritis associated with PSORIASIS, often involving the axial joints and the peripheral terminal interphalangeal joints. It is characterized by the presence of HLA-B27-associated SPONDYLARTHROPATHY, and the absence of rheumatoid factor.",
+        "description_summary": "A type of inflammatory arthritis associated with PSORIASIS, often involving the axial joints and the peripheral terminal interphalangeal joints.",
+        "key_terms": [
+          "SPONDYLARTHROPATHY",
+          "arthritis"
+        ],
+        "word_count": 34
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease",
+          "Skin disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.375337",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,801 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Immune system disease']",
+    "export_timestamp": "2026-03-28T22:11:35.518564",
+    "total_records": 12
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000707",
+      "DiseaseName": "Anaphylaxis",
+      "DiseaseDescription": "An acute hypersensitivity reaction due to exposure to a previously encountered ANTIGEN. The reaction may include rapidly progressing URTICARIA, respiratory distress, vascular collapse, systemic SHOCK, and death.",
+      "SlimMapping": "['Immune system disease']",
+      "PathwayNames": "The NLRP3 inflammasome",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000707",
+        "standardized_id": "MESH:D000707",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Anaphylaxis",
+        "standardized_name": "Anaphylaxis",
+        "normalized_name": "anaphylaxis",
+        "synonyms": [],
+        "search_terms": [
+          "anaphylaxis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An acute hypersensitivity reaction due to exposure to a previously encountered ANTIGEN. The reaction may include rapidly progressing URTICARIA, respiratory distress, vascular collapse, systemic SHOCK, and death.",
+        "cleaned_description": "An acute hypersensitivity reaction due to exposure to a previously encountered ANTIGEN. The reaction may include rapidly progressing URTICARIA, respiratory distress, vascular collapse, systemic SHOCK, and death.",
+        "description_summary": "An acute hypersensitivity reaction due to exposure to a previously encountered ANTIGEN.",
+        "key_terms": [],
+        "word_count": 27
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease"
+        ],
+        "primary_categories": [
+          "Immune system disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "The NLRP3 inflammasome",
+        "pathway_list": [
+          "The NLRP3 inflammasome"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.362811",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D016736",
+      "DiseaseName": "Antiphospholipid Syndrome",
+      "DiseaseDescription": "The presence of antibodies directed against phospholipids (ANTIBODIES, ANTIPHOSPHOLIPID). The condition is associated with a variety of diseases, notably systemic lupus erythematosus and other connective tissue diseases, thrombopenia, and arterial or venous thromboses. In pregnancy it can cause abortion. Of the phospholipids, the cardiolipins show markedly elevated levels of anticardiolipin antibodies (ANTIBODIES, ANTICARDIOLIPIN). Present also are high levels of lupus anticoagulant (LUPUS COAGULATION INHIBITOR).",
+      "SlimMapping": "['Immune system disease']",
+      "PathwayNames": "Transcriptional regulation of white adipocyte differentiation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D016736",
+        "standardized_id": "MESH:D016736",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Antiphospholipid Syndrome",
+        "standardized_name": "Antiphospholipid Syndrome",
+        "normalized_name": "antiphospholipid syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "antiphospholipid",
+          "antiphospholipid syndrome",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The presence of antibodies directed against phospholipids (ANTIBODIES, ANTIPHOSPHOLIPID). The condition is associated with a variety of diseases, notably systemic lupus erythematosus and other connective tissue diseases, thrombopenia, and arterial or venous thromboses. In pregnancy it can cause abortion. Of the phospholipids, the cardiolipins show markedly elevated levels of anticardiolipin antibodies (ANTIBODIES, ANTICARDIOLIPIN). Present also are high levels of lupus anticoagulant (LUPUS COAGULATION INHIBITOR).",
+        "cleaned_description": "The presence of antibodies directed against phospholipids (ANTIBODIES, ANTIPHOSPHOLIPID). The condition is associated with a variety of diseases, notably systemic lupus erythematosus and other connective tissue diseases, thrombopenia, and arterial or venous thromboses. In pregnancy it can cause abortion. Of the phospholipids, the cardiolipins show markedly elevated levels of anticardiolipin antibodies (ANTIBODIES, ANTICARDIOLIPIN). Present also are high levels of lupus anticoagulant (LUPUS COAGULATION INHIBITOR).",
+        "description_summary": "The presence of antibodies directed against phospholipids (ANTIBODIES, ANTIPHOSPHOLIPID).",
+        "key_terms": [],
+        "word_count": 64
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease"
+        ],
+        "primary_categories": [
+          "Immune system disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional regulation of white adipocyte differentiation",
+        "pathway_list": [
+          "Transcriptional regulation of white adipocyte differentiation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional regulation of white adipocyte differentiation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.367127",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001327",
+      "DiseaseName": "Autoimmune Diseases",
+      "DiseaseDescription": "Disorders that are characterized by the production of antibodies that react with host tissues or immune effector cells that are autoreactive to endogenous peptides.",
+      "SlimMapping": "['Immune system disease']",
+      "PathwayNames": "Visual phototransduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001327",
+        "standardized_id": "MESH:D001327",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Autoimmune Diseases",
+        "standardized_name": "Autoimmune Diseases",
+        "normalized_name": "autoimmune diseases",
+        "synonyms": [],
+        "search_terms": [
+          "autoimmune diseases",
+          "autoimmune",
+          "diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Disorders that are characterized by the production of antibodies that react with host tissues or immune effector cells that are autoreactive to endogenous peptides.",
+        "cleaned_description": "Disorders that are characterized by the production of antibodies that react with host tissues or immune effector cells that are autoreactive to endogenous peptides.",
+        "description_summary": "Disorders that are characterized by the production of antibodies that react with host tissues or immune effector cells that are autoreactive to endogenous peptides.",
+        "key_terms": [],
+        "word_count": 24
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease"
+        ],
+        "primary_categories": [
+          "Immune system disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Visual phototransduction",
+        "pathway_list": [
+          "Visual phototransduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.387554",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005512",
+      "DiseaseName": "Food Hypersensitivity",
+      "DiseaseDescription": "Gastrointestinal disturbances, skin eruptions, or shock due to allergic reactions to allergens in food.",
+      "SlimMapping": "['Immune system disease']",
+      "PathwayNames": "Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005512",
+        "standardized_id": "MESH:D005512",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Food Hypersensitivity",
+        "standardized_name": "Food Hypersensitivity",
+        "normalized_name": "food hypersensitivity",
+        "synonyms": [],
+        "search_terms": [
+          "hypersensitivity",
+          "food hypersensitivity",
+          "food"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Gastrointestinal disturbances, skin eruptions, or shock due to allergic reactions to allergens in food.",
+        "cleaned_description": "Gastrointestinal disturbances, skin eruptions, or shock due to allergic reactions to allergens in food.",
+        "description_summary": "Gastrointestinal disturbances, skin eruptions, or shock due to allergic reactions to allergens in food.",
+        "key_terms": [],
+        "word_count": 14
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease"
+        ],
+        "primary_categories": [
+          "Immune system disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds",
+        "pathway_list": [
+          "metal ions and amine compounds",
+          "Transport of glucose and other sugars",
+          "bile salts and organic acids"
+        ],
+        "pathway_count": 3,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.529261",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006086",
+      "DiseaseName": "Graft vs Host Disease",
+      "DiseaseDescription": "The clinical entity characterized by anorexia, diarrhea, loss of hair, leukopenia, thrombocytopenia, growth retardation, and eventual death brought about by the GRAFT VS HOST REACTION.",
+      "SlimMapping": "['Immune system disease']",
+      "PathwayNames": "Type I diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006086",
+        "standardized_id": "MESH:D006086",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Graft vs Host Disease",
+        "standardized_name": "Graft vs Host Disease",
+        "normalized_name": "graft vs host disease",
+        "synonyms": [],
+        "search_terms": [
+          "graft vs host disease",
+          "disease",
+          "graft",
+          "host"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The clinical entity characterized by anorexia, diarrhea, loss of hair, leukopenia, thrombocytopenia, growth retardation, and eventual death brought about by the GRAFT VS HOST REACTION.",
+        "cleaned_description": "The clinical entity characterized by anorexia, diarrhea, loss of hair, leukopenia, thrombocytopenia, growth retardation, and eventual death brought about by the GRAFT VS HOST REACTION.",
+        "description_summary": "The clinical entity characterized by anorexia, diarrhea, loss of hair, leukopenia, thrombocytopenia, growth retardation, and eventual death brought about by the GRAFT VS HOST REACTION.",
+        "key_terms": [],
+        "word_count": 25
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease"
+        ],
+        "primary_categories": [
+          "Immune system disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type I diabetes mellitus",
+        "pathway_list": [
+          "Type I diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.549133",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006967",
+      "DiseaseName": "Hypersensitivity",
+      "DiseaseDescription": "Altered reactivity to an antigen, which can result in pathologic reactions upon subsequent exposure to that particular antigen.",
+      "SlimMapping": "['Immune system disease']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006967",
+        "standardized_id": "MESH:D006967",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypersensitivity",
+        "standardized_name": "Hypersensitivity",
+        "normalized_name": "hypersensitivity",
+        "synonyms": [],
+        "search_terms": [
+          "hypersensitivity"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Altered reactivity to an antigen, which can result in pathologic reactions upon subsequent exposure to that particular antigen.",
+        "cleaned_description": "Altered reactivity to an antigen, which can result in pathologic reactions upon subsequent exposure to that particular antigen.",
+        "description_summary": "Altered reactivity to an antigen, which can result in pathologic reactions upon subsequent exposure to that particular antigen.",
+        "key_terms": [],
+        "word_count": 18
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease"
+        ],
+        "primary_categories": [
+          "Immune system disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.765248",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006968",
+      "DiseaseName": "Hypersensitivity, Delayed",
+      "DiseaseDescription": "An increased reactivity to specific antigens mediated not by antibodies but by sensitized T CELLS.",
+      "SlimMapping": "['Immune system disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006968",
+        "standardized_id": "MESH:D006968",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypersensitivity, Delayed",
+        "standardized_name": "Hypersensitivity, Delayed",
+        "normalized_name": "hypersensitivity delayed",
+        "synonyms": [],
+        "search_terms": [
+          "delayed",
+          "hypersensitivity, delayed",
+          "hypersensitivity,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An increased reactivity to specific antigens mediated not by antibodies but by sensitized T CELLS.",
+        "cleaned_description": "An increased reactivity to specific antigens mediated not by antibodies but by sensitized T CELLS.",
+        "description_summary": "An increased reactivity to specific antigens mediated not by antibodies but by sensitized T CELLS.",
+        "key_terms": [],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease"
+        ],
+        "primary_categories": [
+          "Immune system disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.765492",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006969",
+      "DiseaseName": "Hypersensitivity, Immediate",
+      "DiseaseDescription": "Hypersensitivity reactions which occur within minutes of exposure to challenging antigen due to the release of histamine which follows the antigen-antibody reaction and causes smooth muscle contraction and increased vascular permeability.",
+      "SlimMapping": "['Immune system disease']",
+      "PathwayNames": "Ub-specific processing proteases",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006969",
+        "standardized_id": "MESH:D006969",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypersensitivity, Immediate",
+        "standardized_name": "Hypersensitivity, Immediate",
+        "normalized_name": "hypersensitivity immediate",
+        "synonyms": [],
+        "search_terms": [
+          "immediate",
+          "hypersensitivity, immediate",
+          "hypersensitivity,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Hypersensitivity reactions which occur within minutes of exposure to challenging antigen due to the release of histamine which follows the antigen-antibody reaction and causes smooth muscle contraction and increased vascular permeability.",
+        "cleaned_description": "Hypersensitivity reactions which occur within minutes of exposure to challenging antigen due to the release of histamine which follows the antigen-antibody reaction and causes smooth muscle contraction and increased vascular permeability.",
+        "description_summary": "Hypersensitivity reactions which occur within minutes of exposure to challenging antigen due to the release of histamine which follows the antigen-antibody reaction and causes smooth muscle contraction and increased vascular permeability.",
+        "key_terms": [],
+        "word_count": 31
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease"
+        ],
+        "primary_categories": [
+          "Immune system disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Ub-specific processing proteases",
+        "pathway_list": [
+          "Ub-specific processing proteases"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.765770",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007105",
+      "DiseaseName": "Immune Complex Diseases",
+      "DiseaseDescription": "Group of diseases mediated by the deposition of large soluble complexes of antigen and antibody with resultant damage to tissue. Besides SERUM SICKNESS and the ARTHUS REACTION, evidence supports a pathogenic role for immune complexes in many other IMMUNE SYSTEM DISEASES including GLOMERULONEPHRITIS, systemic lupus erythematosus (LUPUS ERYTHEMATOSUS, SYSTEMIC) and POLYARTERITIS NODOSA.",
+      "SlimMapping": "['Immune system disease']",
+      "PathwayNames": "Type I diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007105",
+        "standardized_id": "MESH:D007105",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Immune Complex Diseases",
+        "standardized_name": "Immune Complex Diseases",
+        "normalized_name": "immune complex diseases",
+        "synonyms": [],
+        "search_terms": [
+          "complex",
+          "diseases",
+          "immune complex diseases",
+          "immune"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Group of diseases mediated by the deposition of large soluble complexes of antigen and antibody with resultant damage to tissue. Besides SERUM SICKNESS and the ARTHUS REACTION, evidence supports a pathogenic role for immune complexes in many other IMMUNE SYSTEM DISEASES including GLOMERULONEPHRITIS, systemic lupus erythematosus (LUPUS ERYTHEMATOSUS, SYSTEMIC) and POLYARTERITIS NODOSA.",
+        "cleaned_description": "Group of diseases mediated by the deposition of large soluble complexes of antigen and antibody with resultant damage to tissue. Besides SERUM SICKNESS and the ARTHUS REACTION, evidence supports a pathogenic role for immune complexes in many other IMMUNE SYSTEM DISEASES including GLOMERULONEPHRITIS, systemic lupus erythematosus (LUPUS ERYTHEMATOSUS, SYSTEMIC) and POLYARTERITIS NODOSA.",
+        "description_summary": "Group of diseases mediated by the deposition of large soluble complexes of antigen and antibody with resultant damage to tissue.",
+        "key_terms": [
+          "pathogenic",
+          "POLYARTERITIS",
+          "GLOMERULONEPHRITIS"
+        ],
+        "word_count": 52
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease"
+        ],
+        "primary_categories": [
+          "Immune system disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type I diabetes mellitus",
+        "pathway_list": [
+          "Type I diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.782733",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007154",
+      "DiseaseName": "Immune System Diseases",
+      "DiseaseDescription": "Disorders caused by abnormal or absent immunologic mechanisms, whether humoral, cell-mediated, or both.",
+      "SlimMapping": "['Immune system disease']",
+      "PathwayNames": "Urea cycle",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007154",
+        "standardized_id": "MESH:D007154",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Immune System Diseases",
+        "standardized_name": "Immune System Diseases",
+        "normalized_name": "immune system diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "immune",
+          "system",
+          "immune system diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Disorders caused by abnormal or absent immunologic mechanisms, whether humoral, cell-mediated, or both.",
+        "cleaned_description": "Disorders caused by abnormal or absent immunologic mechanisms, whether humoral, cell-mediated, or both.",
+        "description_summary": "Disorders caused by abnormal or absent immunologic mechanisms, whether humoral, cell-mediated, or both.",
+        "key_terms": [],
+        "word_count": 13
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease"
+        ],
+        "primary_categories": [
+          "Immune system disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Urea cycle",
+        "pathway_list": [
+          "Urea cycle"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.782903",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007153",
+      "DiseaseName": "Immunologic Deficiency Syndromes",
+      "DiseaseDescription": "Syndromes in which there is a deficiency or defect in the mechanisms of immunity, either cellular or humoral.",
+      "SlimMapping": "['Immune system disease']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007153",
+        "standardized_id": "MESH:D007153",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Immunologic Deficiency Syndromes",
+        "standardized_name": "Immunologic Deficiency Syndromes",
+        "normalized_name": "immunologic deficiency syndromes",
+        "synonyms": [],
+        "search_terms": [
+          "syndromes",
+          "deficiency",
+          "immunologic deficiency syndromes",
+          "immunologic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Syndromes in which there is a deficiency or defect in the mechanisms of immunity, either cellular or humoral.",
+        "cleaned_description": "Syndromes in which there is a deficiency or defect in the mechanisms of immunity, either cellular or humoral.",
+        "description_summary": "Syndromes in which there is a deficiency or defect in the mechanisms of immunity, either cellular or humoral.",
+        "key_terms": [],
+        "word_count": 18
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease"
+        ],
+        "primary_categories": [
+          "Immune system disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.783348",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D019873",
+      "DiseaseName": "Schnitzler Syndrome",
+      "DiseaseDescription": "An extremely rare condition manifested as monoclonal IMMUNOGLOBULIN M dysproteinemia without features of lymphoproliferative disease, but with chronic urticaria, fever of unknown origin, disabling bone pain, hyperostosis, and increased erythrocyte sedimentation rate.",
+      "SlimMapping": "['Immune system disease']",
+      "PathwayNames": "Signaling by Interleukins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D019873",
+        "standardized_id": "MESH:D019873",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Schnitzler Syndrome",
+        "standardized_name": "Schnitzler Syndrome",
+        "normalized_name": "schnitzler syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "schnitzler syndrome",
+          "schnitzler",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An extremely rare condition manifested as monoclonal IMMUNOGLOBULIN M dysproteinemia without features of lymphoproliferative disease, but with chronic urticaria, fever of unknown origin, disabling bone pain, hyperostosis, and increased erythrocyte sedimentation rate.",
+        "cleaned_description": "An extremely rare condition manifested as monoclonal IMMUNOGLOBULIN M dysproteinemia without features of lymphoproliferative disease, but with chronic urticaria, fever of unknown origin, disabling bone pain, hyperostosis, and increased erythrocyte sedimentation rate.",
+        "description_summary": "An extremely rare condition manifested as monoclonal IMMUNOGLOBULIN M dysproteinemia without features of lymphoproliferative disease, but with chronic urticaria, fever of unknown origin, disabling bone pain, hyperostosis, and increased erythrocyte sedimentation rate.",
+        "key_terms": [
+          "hyperostosis",
+          "dysproteinemia"
+        ],
+        "word_count": 32
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Immune system disease"
+        ],
+        "primary_categories": [
+          "Immune system disease"
+        ],
+        "broad_categories": [
+          "immune_system"
+        ],
+        "all_categories": [
+          "Immune system disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signaling by Interleukins",
+        "pathway_list": [
+          "Signaling by Interleukins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.960579",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

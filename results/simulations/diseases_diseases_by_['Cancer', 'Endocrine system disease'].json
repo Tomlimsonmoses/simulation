@@ -1,0 +1,356 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Endocrine system disease']",
+    "export_timestamp": "2026-03-28T22:11:35.439285",
+    "total_records": 5
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000310",
+      "DiseaseName": "Adrenal Gland Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the ADRENAL GLANDS.",
+      "SlimMapping": "['Cancer', 'Endocrine system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000310",
+        "standardized_id": "MESH:D000310",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Adrenal Gland Neoplasms",
+        "standardized_name": "Adrenal Gland Neoplasms",
+        "normalized_name": "adrenal gland neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "gland",
+          "adrenal gland neoplasms",
+          "adrenal",
+          "neoplasms"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the ADRENAL GLANDS.",
+        "cleaned_description": "Tumors or cancer of the ADRENAL GLANDS.",
+        "description_summary": "Tumors or cancer of the ADRENAL GLANDS.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Endocrine system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.357000",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D018268",
+      "DiseaseName": "Adrenocortical Carcinoma",
+      "DiseaseDescription": "A malignant neoplasm of the ADRENAL CORTEX. Adrenocortical carcinomas are unencapsulated anaplastic (ANAPLASIA) masses sometimes exceeding 20 cm or 200 g. They are more likely to be functional than nonfunctional, and produce ADRENAL CORTEX HORMONES that may result in hypercortisolism (CUSHING SYNDROME); HYPERALDOSTERONISM; and/or VIRILISM.",
+      "SlimMapping": "['Cancer', 'Endocrine system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018268",
+        "standardized_id": "MESH:D018268",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Adrenocortical Carcinoma",
+        "standardized_name": "Adrenocortical Carcinoma",
+        "normalized_name": "adrenocortical carcinoma",
+        "synonyms": [],
+        "search_terms": [
+          "adrenocortical carcinoma",
+          "carcinoma",
+          "adrenocortical"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A malignant neoplasm of the ADRENAL CORTEX. Adrenocortical carcinomas are unencapsulated anaplastic (ANAPLASIA) masses sometimes exceeding 20 cm or 200 g. They are more likely to be functional than nonfunctional, and produce ADRENAL CORTEX HORMONES that may result in hypercortisolism (CUSHING SYNDROME); HYPERALDOSTERONISM; and/or VIRILISM.",
+        "cleaned_description": "A malignant neoplasm of the ADRENAL CORTEX. Adrenocortical carcinomas are unencapsulated anaplastic (ANAPLASIA) masses sometimes exceeding 20 cm or 200 g. They are more likely to be functional than nonfunctional, and produce ADRENAL CORTEX HORMONES that may result in hypercortisolism (CUSHING SYNDROME); HYPERALDOSTERONISM; and/or VIRILISM.",
+        "description_summary": "A malignant neoplasm of the ADRENAL CORTEX.",
+        "key_terms": [],
+        "word_count": 45
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Endocrine system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.357638",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010282",
+      "DiseaseName": "Parathyroid Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the PARATHYROID GLANDS.",
+      "SlimMapping": "['Cancer', 'Endocrine system disease']",
+      "PathwayNames": "TCF dependent signaling in response to WNT",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010282",
+        "standardized_id": "MESH:D010282",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Parathyroid Neoplasms",
+        "standardized_name": "Parathyroid Neoplasms",
+        "normalized_name": "parathyroid neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "parathyroid neoplasms",
+          "parathyroid"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the PARATHYROID GLANDS.",
+        "cleaned_description": "Tumors or cancer of the PARATHYROID GLANDS.",
+        "description_summary": "Tumors or cancer of the PARATHYROID GLANDS.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Endocrine system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "TCF dependent signaling in response to WNT",
+        "pathway_list": [
+          "TCF dependent signaling in response to WNT"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.908765",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000077273",
+      "DiseaseName": "Thyroid Cancer, Papillary",
+      "DiseaseDescription": "An ADENOCARCINOMA that originates from follicular cells of the THYROID GLAND and accounts for the majority of THYROID CANCER cases. Cells exhibit enlarged, oval, or elongated morphologies with clear, round, nuclei. Fusions of RET, NTRK1, TPM3, and PCM1 genes are associated with this cancer.",
+      "SlimMapping": "['Cancer', 'Endocrine system disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000077273",
+        "standardized_id": "MESH:D000077273",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Thyroid Cancer, Papillary",
+        "standardized_name": "Thyroid Cancer, Papillary",
+        "normalized_name": "thyroid cancer papillary",
+        "synonyms": [],
+        "search_terms": [
+          "thyroid cancer, papillary",
+          "papillary",
+          "cancer,",
+          "thyroid"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An ADENOCARCINOMA that originates from follicular cells of the THYROID GLAND and accounts for the majority of THYROID CANCER cases. Cells exhibit enlarged, oval, or elongated morphologies with clear, round, nuclei. Fusions of RET, NTRK1, TPM3, and PCM1 genes are associated with this cancer.",
+        "cleaned_description": "An ADENOCARCINOMA that originates from follicular cells of the THYROID GLAND and accounts for the majority of THYROID CANCER cases. Cells exhibit enlarged, oval, or elongated morphologies with clear, round, nuclei. Fusions of RET, NTRK1, TPM3, and PCM1 genes are associated with this cancer.",
+        "description_summary": "An ADENOCARCINOMA that originates from follicular cells of the THYROID GLAND and accounts for the majority of THYROID CANCER cases.",
+        "key_terms": [],
+        "word_count": 44
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Endocrine system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.995469",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013964",
+      "DiseaseName": "Thyroid Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the THYROID GLAND.",
+      "SlimMapping": "['Cancer', 'Endocrine system disease']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013964",
+        "standardized_id": "MESH:D013964",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Thyroid Neoplasms",
+        "standardized_name": "Thyroid Neoplasms",
+        "normalized_name": "thyroid neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "thyroid neoplasms",
+          "thyroid",
+          "neoplasms"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the THYROID GLAND.",
+        "cleaned_description": "Tumors or cancer of the THYROID GLAND.",
+        "description_summary": "Tumors or cancer of the THYROID GLAND.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Endocrine system disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Endocrine system disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Endocrine system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.996812",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

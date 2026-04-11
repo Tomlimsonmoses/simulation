@@ -1,0 +1,678 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Mental disorder', 'Nervous system disease']",
+    "export_timestamp": "2026-03-28T22:11:35.509497",
+    "total_records": 10
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000544",
+      "DiseaseName": "Alzheimer Disease",
+      "DiseaseDescription": "A degenerative disease of the BRAIN characterized by the insidious onset of DEMENTIA. Impairment of MEMORY, judgment, attention span, and problem solving skills are followed by severe APRAXIAS and a global loss of cognitive abilities. The condition primarily occurs after age 60, and is marked pathologically by severe cortical atrophy and the triad of SENILE PLAQUES; NEUROFIBRILLARY TANGLES; and NEUROPIL THREADS. (From Adams et al., Principles of Neurology, 6th ed, pp1049-57)",
+      "SlimMapping": "['Mental disorder', 'Nervous system disease']",
+      "PathwayNames": "Zinc transporters",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000544",
+        "standardized_id": "MESH:D000544",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Alzheimer Disease",
+        "standardized_name": "Alzheimer Disease",
+        "normalized_name": "alzheimer disease",
+        "synonyms": [],
+        "search_terms": [
+          "alzheimer",
+          "disease",
+          "alzheimer disease"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A degenerative disease of the BRAIN characterized by the insidious onset of DEMENTIA. Impairment of MEMORY, judgment, attention span, and problem solving skills are followed by severe APRAXIAS and a global loss of cognitive abilities. The condition primarily occurs after age 60, and is marked pathologically by severe cortical atrophy and the triad of SENILE PLAQUES; NEUROFIBRILLARY TANGLES; and NEUROPIL THREADS. (From Adams et al., Principles of Neurology, 6th ed, pp1049-57)",
+        "cleaned_description": "A degenerative disease of the BRAIN characterized by the insidious onset of DEMENTIA. Impairment of MEMORY, judgment, attention span, and problem solving skills are followed by severe APRAXIAS and a global loss of cognitive abilities. The condition primarily occurs after age 60, and is marked pathologically by severe cortical atrophy and the triad of SENILE PLAQUES; NEUROFIBRILLARY TANGLES; and NEUROPIL THREADS. (From Adams et al., Principles of Neurology, 6th ed, pp1049-57)",
+        "description_summary": "A degenerative disease of the BRAIN characterized by the insidious onset of DEMENTIA.",
+        "key_terms": [],
+        "word_count": 71
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Zinc transporters",
+        "pathway_list": [
+          "Zinc transporters"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.361217",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007562",
+      "DiseaseName": "Creutzfeldt-Jakob Syndrome",
+      "DiseaseDescription": "A rare transmissible encephalopathy most prevalent between the ages of 50 and 70 years. Affected individuals may present with sleep disturbances, personality changes, ATAXIA; APHASIA, visual loss, weakness, muscle atrophy, MYOCLONUS, progressive dementia, and death within one year of disease onset. A familial form exhibiting autosomal dominant inheritance and a new variant CJD (potentially associated with ENCEPHALOPATHY, BOVINE SPONGIFORM) have been described. Pathological features include prominent cerebellar and cerebral cortical spongiform degeneration and the presence of PRIONS. (From N Engl J Med, 1998 Dec 31;339(27))",
+      "SlimMapping": "['Mental disorder', 'Nervous system disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007562",
+        "standardized_id": "MESH:D007562",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Creutzfeldt-Jakob Syndrome",
+        "standardized_name": "Creutzfeldt-Jakob Syndrome",
+        "normalized_name": "creutzfeldt-jakob syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "creutzfeldt-jakob",
+          "creutzfeldt-jakob syndrome",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A rare transmissible encephalopathy most prevalent between the ages of 50 and 70 years. Affected individuals may present with sleep disturbances, personality changes, ATAXIA; APHASIA, visual loss, weakness, muscle atrophy, MYOCLONUS, progressive dementia, and death within one year of disease onset. A familial form exhibiting autosomal dominant inheritance and a new variant CJD (potentially associated with ENCEPHALOPATHY, BOVINE SPONGIFORM) have been described. Pathological features include prominent cerebellar and cerebral cortical spongiform degeneration and the presence of PRIONS. (From N Engl J Med, 1998 Dec 31;339(27))",
+        "cleaned_description": "A rare transmissible encephalopathy most prevalent between the ages of 50 and 70 years. Affected individuals may present with sleep disturbances, personality changes, ATAXIA; APHASIA, visual loss, weakness, muscle atrophy, MYOCLONUS, progressive dementia, and death within one year of disease onset. A familial form exhibiting autosomal dominant inheritance and a new variant CJD (potentially associated with ENCEPHALOPATHY, BOVINE SPONGIFORM) have been described. Pathological features include prominent cerebellar and cerebral cortical spongiform degeneration and the presence of PRIONS. (From N Engl J Med, 1998 Dec 31;339(27))",
+        "description_summary": "A rare transmissible encephalopathy most prevalent between the ages of 50 and 70 years.",
+        "key_terms": [
+          "ENCEPHALOPATHY",
+          "encephalopathy"
+        ],
+        "word_count": 85
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.463860",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003704",
+      "DiseaseName": "Dementia",
+      "DiseaseDescription": "An acquired organic mental disorder with loss of intellectual abilities of sufficient severity to interfere with social or occupational functioning. The dysfunction is multifaceted and involves memory, behavior, personality, judgment, attention, spatial relations, language, abstract thought, and other executive functions. The intellectual decline is usually progressive, and initially spares the level of consciousness.",
+      "SlimMapping": "['Mental disorder', 'Nervous system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003704",
+        "standardized_id": "MESH:D003704",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Dementia",
+        "standardized_name": "Dementia",
+        "normalized_name": "dementia",
+        "synonyms": [],
+        "search_terms": [
+          "dementia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An acquired organic mental disorder with loss of intellectual abilities of sufficient severity to interfere with social or occupational functioning. The dysfunction is multifaceted and involves memory, behavior, personality, judgment, attention, spatial relations, language, abstract thought, and other executive functions. The intellectual decline is usually progressive, and initially spares the level of consciousness.",
+        "cleaned_description": "An acquired organic mental disorder with loss of intellectual abilities of sufficient severity to interfere with social or occupational functioning. The dysfunction is multifaceted and involves memory, behavior, personality, judgment, attention, spatial relations, language, abstract thought, and other executive functions. The intellectual decline is usually progressive, and initially spares the level of consciousness.",
+        "description_summary": "An acquired organic mental disorder with loss of intellectual abilities of sufficient severity to interfere with social or occupational functioning.",
+        "key_terms": [],
+        "word_count": 53
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.472538",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020920",
+      "DiseaseName": "Dyssomnias",
+      "DiseaseDescription": "A broad category of sleep disorders characterized by either hypersomnolence or insomnia. The three major subcategories include intrinsic (i.e., arising from within the body) (SLEEP DISORDERS, INTRINSIC), extrinsic (secondary to environmental conditions or various pathologic conditions), and disturbances of circadian rhythm. (From Thorpy, Sleep Disorders Medicine, 1994, p187)",
+      "SlimMapping": "['Mental disorder', 'Nervous system disease']",
+      "PathwayNames": "Circadian Clock",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020920",
+        "standardized_id": "MESH:D020920",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Dyssomnias",
+        "standardized_name": "Dyssomnias",
+        "normalized_name": "dyssomnias",
+        "synonyms": [],
+        "search_terms": [
+          "dyssomnias"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A broad category of sleep disorders characterized by either hypersomnolence or insomnia. The three major subcategories include intrinsic (i.e., arising from within the body) (SLEEP DISORDERS, INTRINSIC), extrinsic (secondary to environmental conditions or various pathologic conditions), and disturbances of circadian rhythm. (From Thorpy, Sleep Disorders Medicine, 1994, p187)",
+        "cleaned_description": "A broad category of sleep disorders characterized by either hypersomnolence or insomnia. The three major subcategories include intrinsic (i.e., arising from within the body) (SLEEP DISORDERS, INTRINSIC), extrinsic (secondary to environmental conditions or various pathologic conditions), and disturbances of circadian rhythm. (From Thorpy, Sleep Disorders Medicine, 1994, p187)",
+        "description_summary": "A broad category of sleep disorders characterized by either hypersomnolence or insomnia.",
+        "key_terms": [],
+        "word_count": 48
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Circadian Clock",
+        "pathway_list": [
+          "Circadian Clock"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.489744",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020961",
+      "DiseaseName": "Lewy Body Disease",
+      "DiseaseDescription": "A neurodegenerative disease characterized by dementia, mild parkinsonism, and fluctuations in attention and alertness. The neuropsychiatric manifestations tend to precede the onset of bradykinesia, MUSCLE RIGIDITY, and other extrapyramidal signs. DELUSIONS and visual HALLUCINATIONS are relatively frequent in this condition. Histologic examination reveals LEWY BODIES in the CEREBRAL CORTEX and BRAIN STEM. SENILE PLAQUES and other pathologic features characteristic of ALZHEIMER DISEASE may also be present. (From Neurology 1997;48:376-380; Neurology 1996;47:1113-1124)",
+      "SlimMapping": "['Mental disorder', 'Nervous system disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020961",
+        "standardized_id": "MESH:D020961",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Lewy Body Disease",
+        "standardized_name": "Lewy Body Disease",
+        "normalized_name": "lewy body disease",
+        "synonyms": [],
+        "search_terms": [
+          "lewy body disease",
+          "disease",
+          "body",
+          "lewy"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A neurodegenerative disease characterized by dementia, mild parkinsonism, and fluctuations in attention and alertness. The neuropsychiatric manifestations tend to precede the onset of bradykinesia, MUSCLE RIGIDITY, and other extrapyramidal signs. DELUSIONS and visual HALLUCINATIONS are relatively frequent in this condition. Histologic examination reveals LEWY BODIES in the CEREBRAL CORTEX and BRAIN STEM. SENILE PLAQUES and other pathologic features characteristic of ALZHEIMER DISEASE may also be present. (From Neurology 1997;48:376-380; Neurology 1996;47:1113-1124)",
+        "cleaned_description": "A neurodegenerative disease characterized by dementia, mild parkinsonism, and fluctuations in attention and alertness. The neuropsychiatric manifestations tend to precede the onset of bradykinesia, MUSCLE RIGIDITY, and other extrapyramidal signs. DELUSIONS and visual HALLUCINATIONS are relatively frequent in this condition. Histologic examination reveals LEWY BODIES in the CEREBRAL CORTEX and BRAIN STEM. SENILE PLAQUES and other pathologic features characteristic of ALZHEIMER DISEASE may also be present. (From Neurology 1997;48:376-380; Neurology 1996;47:1113-1124)",
+        "description_summary": "A neurodegenerative disease characterized by dementia, mild parkinsonism, and fluctuations in attention and alertness.",
+        "key_terms": [],
+        "word_count": 71
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.814095",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009290",
+      "DiseaseName": "Narcolepsy",
+      "DiseaseDescription": "A condition characterized by recurrent episodes of daytime somnolence and lapses in consciousness (microsomnias) that may be associated with automatic behaviors and AMNESIA. CATAPLEXY; SLEEP PARALYSIS, and hypnagogic HALLUCINATIONS frequently accompany narcolepsy. The pathophysiology of this disorder includes sleep-onset rapid eye movement (REM) sleep, which normally follows stage III or IV sleep. (From Neurology 1998 Feb;50(2 Suppl 1):S2-S7)",
+      "SlimMapping": "['Mental disorder', 'Nervous system disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009290",
+        "standardized_id": "MESH:D009290",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Narcolepsy",
+        "standardized_name": "Narcolepsy",
+        "normalized_name": "narcolepsy",
+        "synonyms": [],
+        "search_terms": [
+          "narcolepsy"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition characterized by recurrent episodes of daytime somnolence and lapses in consciousness (microsomnias) that may be associated with automatic behaviors and AMNESIA. CATAPLEXY; SLEEP PARALYSIS, and hypnagogic HALLUCINATIONS frequently accompany narcolepsy. The pathophysiology of this disorder includes sleep-onset rapid eye movement (REM) sleep, which normally follows stage III or IV sleep. (From Neurology 1998 Feb;50(2 Suppl 1):S2-S7)",
+        "cleaned_description": "A condition characterized by recurrent episodes of daytime somnolence and lapses in consciousness (microsomnias) that may be associated with automatic behaviors and AMNESIA. CATAPLEXY; SLEEP PARALYSIS, and hypnagogic HALLUCINATIONS frequently accompany narcolepsy. The pathophysiology of this disorder includes sleep-onset rapid eye movement (REM) sleep, which normally follows stage III or IV sleep. (From Neurology 1998 Feb;50(2 Suppl 1):S2-S7)",
+        "description_summary": "A condition characterized by recurrent episodes of daytime somnolence and lapses in consciousness (microsomnias) that may be associated with automatic behaviors and AMNESIA.",
+        "key_terms": [],
+        "word_count": 58
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.865663",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020774",
+      "DiseaseName": "Pick Disease of the Brain",
+      "DiseaseDescription": "A rare form of DEMENTIA that is sometimes familial. Clinical features include APHASIA; APRAXIA; CONFUSION; ANOMIA; memory loss; and personality deterioration. This pattern is consistent with the pathologic findings of circumscribed atrophy of the poles of the FRONTAL LOBE and TEMPORAL LOBE. Neuronal loss is maximal in the HIPPOCAMPUS, entorhinal cortex, and AMYGDALA. Some ballooned cortical neurons contain argentophylic (Pick) bodies. (From Brain Pathol 1998 Apr;8(2):339-54; Adams et al., Principles of Neurology, 6th ed, pp1057-9)",
+      "SlimMapping": "['Mental disorder', 'Nervous system disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020774",
+        "standardized_id": "MESH:D020774",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pick Disease of the Brain",
+        "standardized_name": "Pick Disease of the Brain",
+        "normalized_name": "pick disease of the brain",
+        "synonyms": [],
+        "search_terms": [
+          "pick disease of the brain",
+          "brain",
+          "pick",
+          "the",
+          "disease"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A rare form of DEMENTIA that is sometimes familial. Clinical features include APHASIA; APRAXIA; CONFUSION; ANOMIA; memory loss; and personality deterioration. This pattern is consistent with the pathologic findings of circumscribed atrophy of the poles of the FRONTAL LOBE and TEMPORAL LOBE. Neuronal loss is maximal in the HIPPOCAMPUS, entorhinal cortex, and AMYGDALA. Some ballooned cortical neurons contain argentophylic (Pick) bodies. (From Brain Pathol 1998 Apr;8(2):339-54; Adams et al., Principles of Neurology, 6th ed, pp1057-9)",
+        "cleaned_description": "A rare form of DEMENTIA that is sometimes familial. Clinical features include APHASIA; APRAXIA; CONFUSION; ANOMIA; memory loss; and personality deterioration. This pattern is consistent with the pathologic findings of circumscribed atrophy of the poles of the FRONTAL LOBE and TEMPORAL LOBE. Neuronal loss is maximal in the HIPPOCAMPUS, entorhinal cortex, and AMYGDALA. Some ballooned cortical neurons contain argentophylic (Pick) bodies. (From Brain Pathol 1998 Apr;8(2):339-54; Adams et al., Principles of Neurology, 6th ed, pp1057-9)",
+        "description_summary": "A rare form of DEMENTIA that is sometimes familial.",
+        "key_terms": [],
+        "word_count": 75
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.915784",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012148",
+      "DiseaseName": "Restless Legs Syndrome",
+      "DiseaseDescription": "A disorder characterized by aching or burning sensations in the lower and rarely the upper extremities that occur prior to sleep or may awaken the patient from sleep.",
+      "SlimMapping": "['Mental disorder', 'Nervous system disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012148",
+        "standardized_id": "MESH:D012148",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Restless Legs Syndrome",
+        "standardized_name": "Restless Legs Syndrome",
+        "normalized_name": "restless legs syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "restless",
+          "restless legs syndrome",
+          "legs",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A disorder characterized by aching or burning sensations in the lower and rarely the upper extremities that occur prior to sleep or may awaken the patient from sleep.",
+        "cleaned_description": "A disorder characterized by aching or burning sensations in the lower and rarely the upper extremities that occur prior to sleep or may awaken the patient from sleep.",
+        "description_summary": "A disorder characterized by aching or burning sensations in the lower and rarely the upper extremities that occur prior to sleep or may awaken the patient from sleep.",
+        "key_terms": [],
+        "word_count": 28
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.949244",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007319",
+      "DiseaseName": "Sleep Initiation and Maintenance Disorders",
+      "DiseaseDescription": "Disorders characterized by impairment of the ability to initiate or maintain sleep. This may occur as a primary disorder or in association with another medical or psychiatric condition.",
+      "SlimMapping": "['Mental disorder', 'Nervous system disease']",
+      "PathwayNames": "Vascular smooth muscle contraction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007319",
+        "standardized_id": "MESH:D007319",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Sleep Initiation and Maintenance Disorders",
+        "standardized_name": "Sleep Initiation and Maintenance Disorders",
+        "normalized_name": "sleep initiation and maintenance disorders",
+        "synonyms": [],
+        "search_terms": [
+          "sleep",
+          "and",
+          "initiation",
+          "maintenance",
+          "disorders",
+          "sleep initiation and maintenance disorders"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Disorders characterized by impairment of the ability to initiate or maintain sleep. This may occur as a primary disorder or in association with another medical or psychiatric condition.",
+        "cleaned_description": "Disorders characterized by impairment of the ability to initiate or maintain sleep. This may occur as a primary disorder or in association with another medical or psychiatric condition.",
+        "description_summary": "Disorders characterized by impairment of the ability to initiate or maintain sleep.",
+        "key_terms": [],
+        "word_count": 28
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vascular smooth muscle contraction",
+        "pathway_list": [
+          "Vascular smooth muscle contraction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.966998",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013981",
+      "DiseaseName": "Tic Disorders",
+      "DiseaseDescription": "Disorders characterized by recurrent TICS that may interfere with speech and other activities. Tics are sudden, rapid, nonrhythmic, stereotyped motor movements or vocalizations which may be exacerbated by stress and are generally attenuated during absorbing activities. Tic disorders are distinguished from conditions which feature other types of abnormal movements that may accompany another another condition. (From DSM-IV, 1994)",
+      "SlimMapping": "['Mental disorder', 'Nervous system disease']",
+      "PathwayNames": "Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013981",
+        "standardized_id": "MESH:D013981",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Tic Disorders",
+        "standardized_name": "Tic Disorders",
+        "normalized_name": "tic disorders",
+        "synonyms": [],
+        "search_terms": [
+          "tic disorders",
+          "tic",
+          "disorders"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Disorders characterized by recurrent TICS that may interfere with speech and other activities. Tics are sudden, rapid, nonrhythmic, stereotyped motor movements or vocalizations which may be exacerbated by stress and are generally attenuated during absorbing activities. Tic disorders are distinguished from conditions which feature other types of abnormal movements that may accompany another another condition. (From DSM-IV, 1994)",
+        "cleaned_description": "Disorders characterized by recurrent TICS that may interfere with speech and other activities. Tics are sudden, rapid, nonrhythmic, stereotyped motor movements or vocalizations which may be exacerbated by stress and are generally attenuated during absorbing activities. Tic disorders are distinguished from conditions which feature other types of abnormal movements that may accompany another another condition. (From DSM-IV, 1994)",
+        "description_summary": "Disorders characterized by recurrent TICS that may interfere with speech and other activities.",
+        "key_terms": [],
+        "word_count": 58
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "primary_categories": [
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Mental disorder",
+          "Nervous system disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds",
+        "pathway_list": [
+          "metal ions and amine compounds",
+          "Transport of glucose and other sugars",
+          "bile salts and organic acids"
+        ],
+        "pathway_count": 3,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.997514",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,838 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Pregnancy complication']",
+    "export_timestamp": "2026-03-28T22:11:35.152656",
+    "total_records": 13
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D000026",
+      "DiseaseName": "Abortion, Habitual",
+      "DiseaseDescription": "Three or more consecutive spontaneous abortions.",
+      "SlimMapping": "['Pregnancy complication']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000026",
+        "standardized_id": "MESH:D000026",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Abortion, Habitual",
+        "standardized_name": "Abortion, Habitual",
+        "normalized_name": "abortion habitual",
+        "synonyms": [],
+        "search_terms": [
+          "habitual",
+          "abortion,",
+          "abortion, habitual"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Three or more consecutive spontaneous abortions.",
+        "cleaned_description": "Three or more consecutive spontaneous abortions.",
+        "description_summary": "Three or more consecutive spontaneous abortions.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pregnancy complication"
+        ],
+        "primary_categories": [
+          "Pregnancy complication"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pregnancy complication"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.348411",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000022",
+      "DiseaseName": "Abortion, Spontaneous",
+      "DiseaseDescription": "Expulsion of the product of FERTILIZATION before completing the term of GESTATION and without deliberate interference.",
+      "SlimMapping": "['Pregnancy complication']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000022",
+        "standardized_id": "MESH:D000022",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Abortion, Spontaneous",
+        "standardized_name": "Abortion, Spontaneous",
+        "normalized_name": "abortion spontaneous",
+        "synonyms": [],
+        "search_terms": [
+          "abortion, spontaneous",
+          "spontaneous",
+          "abortion,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Expulsion of the product of FERTILIZATION before completing the term of GESTATION and without deliberate interference.",
+        "cleaned_description": "Expulsion of the product of FERTILIZATION before completing the term of GESTATION and without deliberate interference.",
+        "description_summary": "Expulsion of the product of FERTILIZATION before completing the term of GESTATION and without deliberate interference.",
+        "key_terms": [],
+        "word_count": 16
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pregnancy complication"
+        ],
+        "primary_categories": [
+          "Pregnancy complication"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pregnancy complication"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.348619",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000037",
+      "DiseaseName": "Abruptio Placentae",
+      "DiseaseDescription": "Premature separation of the normally implanted PLACENTA from the UTERUS. Signs of varying degree of severity include UTERINE BLEEDING, uterine MUSCLE HYPERTONIA, and FETAL DISTRESS or FETAL DEATH.",
+      "SlimMapping": "['Pregnancy complication']",
+      "PathwayNames": "VEGF signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000037",
+        "standardized_id": "MESH:D000037",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Abruptio Placentae",
+        "standardized_name": "Abruptio Placentae",
+        "normalized_name": "abruptio placentae",
+        "synonyms": [],
+        "search_terms": [
+          "abruptio placentae",
+          "placentae",
+          "abruptio"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Premature separation of the normally implanted PLACENTA from the UTERUS. Signs of varying degree of severity include UTERINE BLEEDING, uterine MUSCLE HYPERTONIA, and FETAL DISTRESS or FETAL DEATH.",
+        "cleaned_description": "Premature separation of the normally implanted PLACENTA from the UTERUS. Signs of varying degree of severity include UTERINE BLEEDING, uterine MUSCLE HYPERTONIA, and FETAL DISTRESS or FETAL DEATH.",
+        "description_summary": "Premature separation of the normally implanted PLACENTA from the UTERUS.",
+        "key_terms": [],
+        "word_count": 28
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pregnancy complication"
+        ],
+        "primary_categories": [
+          "Pregnancy complication"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pregnancy complication"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGF signaling pathway",
+        "pathway_list": [
+          "VEGF signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGF signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.348861",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007752",
+      "DiseaseName": "Obstetric Labor, Premature",
+      "DiseaseDescription": "Onset of OBSTETRIC LABOR before term (TERM BIRTH) but usually after the FETUS has become viable. In humans, it occurs sometime during the 29th through 38th week of PREGNANCY. TOCOLYSIS inhibits premature labor and can prevent the BIRTH of premature infants (INFANT, PREMATURE).",
+      "SlimMapping": "['Pregnancy complication']",
+      "PathwayNames": "Unfolded Protein Response (UPR)",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007752",
+        "standardized_id": "MESH:D007752",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Obstetric Labor, Premature",
+        "standardized_name": "Obstetric Labor, Premature",
+        "normalized_name": "obstetric labor premature",
+        "synonyms": [],
+        "search_terms": [
+          "obstetric",
+          "labor,",
+          "premature",
+          "obstetric labor, premature"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Onset of OBSTETRIC LABOR before term (TERM BIRTH) but usually after the FETUS has become viable. In humans, it occurs sometime during the 29th through 38th week of PREGNANCY. TOCOLYSIS inhibits premature labor and can prevent the BIRTH of premature infants (INFANT, PREMATURE).",
+        "cleaned_description": "Onset of OBSTETRIC LABOR before term (TERM BIRTH) but usually after the FETUS has become viable. In humans, it occurs sometime during the 29th through 38th week of PREGNANCY. TOCOLYSIS inhibits premature labor and can prevent the BIRTH of premature infants (INFANT, PREMATURE).",
+        "description_summary": "Onset of OBSTETRIC LABOR before term (TERM BIRTH) but usually after the FETUS has become viable.",
+        "key_terms": [],
+        "word_count": 43
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pregnancy complication"
+        ],
+        "primary_categories": [
+          "Pregnancy complication"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pregnancy complication"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Unfolded Protein Response (UPR)",
+        "pathway_list": [
+          "Unfolded Protein Response (UPR)"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.890237",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010922",
+      "DiseaseName": "Placenta Diseases",
+      "DiseaseDescription": "Pathological processes or abnormal functions of the PLACENTA.",
+      "SlimMapping": "['Pregnancy complication']",
+      "PathwayNames": "Type II diabetes mellitus",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010922",
+        "standardized_id": "MESH:D010922",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Placenta Diseases",
+        "standardized_name": "Placenta Diseases",
+        "normalized_name": "placenta diseases",
+        "synonyms": [],
+        "search_terms": [
+          "placenta",
+          "placenta diseases",
+          "diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological processes or abnormal functions of the PLACENTA.",
+        "cleaned_description": "Pathological processes or abnormal functions of the PLACENTA.",
+        "description_summary": "Pathological processes or abnormal functions of the PLACENTA.",
+        "key_terms": [],
+        "word_count": 8
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pregnancy complication"
+        ],
+        "primary_categories": [
+          "Pregnancy complication"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pregnancy complication"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Type II diabetes mellitus",
+        "pathway_list": [
+          "Type II diabetes mellitus"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.917001",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006831",
+      "DiseaseName": "Polyhydramnios",
+      "DiseaseDescription": "A condition of abnormally high AMNIOTIC FLUID volume, such as greater than 2,000 ml in the LAST TRIMESTER and usually diagnosed by ultrasonographic criteria (AMNIOTIC FLUID INDEX). It is associated with maternal DIABETES MELLITUS; MULTIPLE PREGNANCY; CHROMOSOMAL DISORDERS; and congenital abnormalities.",
+      "SlimMapping": "['Pregnancy complication']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006831",
+        "standardized_id": "MESH:D006831",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Polyhydramnios",
+        "standardized_name": "Polyhydramnios",
+        "normalized_name": "polyhydramnios",
+        "synonyms": [],
+        "search_terms": [
+          "polyhydramnios"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition of abnormally high AMNIOTIC FLUID volume, such as greater than 2,000 ml in the LAST TRIMESTER and usually diagnosed by ultrasonographic criteria (AMNIOTIC FLUID INDEX). It is associated with maternal DIABETES MELLITUS; MULTIPLE PREGNANCY; CHROMOSOMAL DISORDERS; and congenital abnormalities.",
+        "cleaned_description": "A condition of abnormally high AMNIOTIC FLUID volume, such as greater than 2,000 ml in the LAST TRIMESTER and usually diagnosed by ultrasonographic criteria (AMNIOTIC FLUID INDEX). It is associated with maternal DIABETES MELLITUS; MULTIPLE PREGNANCY; CHROMOSOMAL DISORDERS; and congenital abnormalities.",
+        "description_summary": "A condition of abnormally high AMNIOTIC FLUID volume, such as greater than 2,000 ml in the LAST TRIMESTER and usually diagnosed by ultrasonographic criteria (AMNIOTIC FLUID INDEX).",
+        "key_terms": [],
+        "word_count": 41
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pregnancy complication"
+        ],
+        "primary_categories": [
+          "Pregnancy complication"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pregnancy complication"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.923392",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011225",
+      "DiseaseName": "Pre-Eclampsia",
+      "DiseaseDescription": "A complication of PREGNANCY, characterized by a complex of symptoms including maternal HYPERTENSION and PROTEINURIA with or without pathological EDEMA. Symptoms may range between mild and severe. Pre-eclampsia usually occurs after the 20th week of gestation, but may develop before this time in the presence of trophoblastic disease.",
+      "SlimMapping": "['Pregnancy complication']",
+      "PathwayNames": "VEGF signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011225",
+        "standardized_id": "MESH:D011225",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pre-Eclampsia",
+        "standardized_name": "Pre-Eclampsia",
+        "normalized_name": "pre-eclampsia",
+        "synonyms": [],
+        "search_terms": [
+          "pre-eclampsia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A complication of PREGNANCY, characterized by a complex of symptoms including maternal HYPERTENSION and PROTEINURIA with or without pathological EDEMA. Symptoms may range between mild and severe. Pre-eclampsia usually occurs after the 20th week of gestation, but may develop before this time in the presence of trophoblastic disease.",
+        "cleaned_description": "A complication of PREGNANCY, characterized by a complex of symptoms including maternal HYPERTENSION and PROTEINURIA with or without pathological EDEMA. Symptoms may range between mild and severe. Pre-eclampsia usually occurs after the 20th week of gestation, but may develop before this time in the presence of trophoblastic disease.",
+        "description_summary": "A complication of PREGNANCY, characterized by a complex of symptoms including maternal HYPERTENSION and PROTEINURIA with or without pathological EDEMA.",
+        "key_terms": [],
+        "word_count": 48
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pregnancy complication"
+        ],
+        "primary_categories": [
+          "Pregnancy complication"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pregnancy complication"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGF signaling pathway",
+        "pathway_list": [
+          "VEGF signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGF signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.926822",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011248",
+      "DiseaseName": "Pregnancy Complications",
+      "DiseaseDescription": "Conditions or pathological processes associated with pregnancy. They can occur during or after pregnancy, and range from minor discomforts to serious diseases that require medical interventions. They include diseases in pregnant females, and pregnancies in females with diseases.",
+      "SlimMapping": "['Pregnancy complication']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011248",
+        "standardized_id": "MESH:D011248",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pregnancy Complications",
+        "standardized_name": "Pregnancy Complications",
+        "normalized_name": "pregnancy complications",
+        "synonyms": [],
+        "search_terms": [
+          "pregnancy",
+          "pregnancy complications",
+          "complications"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Conditions or pathological processes associated with pregnancy. They can occur during or after pregnancy, and range from minor discomforts to serious diseases that require medical interventions. They include diseases in pregnant females, and pregnancies in females with diseases.",
+        "cleaned_description": "Conditions or pathological processes associated with pregnancy. They can occur during or after pregnancy, and range from minor discomforts to serious diseases that require medical interventions. They include diseases in pregnant females, and pregnancies in females with diseases.",
+        "description_summary": "Conditions or pathological processes associated with pregnancy.",
+        "key_terms": [],
+        "word_count": 38
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pregnancy complication"
+        ],
+        "primary_categories": [
+          "Pregnancy complication"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pregnancy complication"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.926957",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011271",
+      "DiseaseName": "Pregnancy, Ectopic",
+      "DiseaseDescription": "A potentially life-threatening condition in which EMBRYO IMPLANTATION occurs outside the cavity of the UTERUS. Most ectopic pregnancies (>96%) occur in the FALLOPIAN TUBES, known as TUBAL PREGNANCY. They can be in other locations, such as UTERINE CERVIX; OVARY; and abdominal cavity (PREGNANCY, ABDOMINAL).",
+      "SlimMapping": "['Pregnancy complication']",
+      "PathwayNames": "Neutrophil degranulation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011271",
+        "standardized_id": "MESH:D011271",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pregnancy, Ectopic",
+        "standardized_name": "Pregnancy, Ectopic",
+        "normalized_name": "pregnancy ectopic",
+        "synonyms": [],
+        "search_terms": [
+          "ectopic",
+          "pregnancy, ectopic",
+          "pregnancy,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A potentially life-threatening condition in which EMBRYO IMPLANTATION occurs outside the cavity of the UTERUS. Most ectopic pregnancies (>96%) occur in the FALLOPIAN TUBES, known as TUBAL PREGNANCY. They can be in other locations, such as UTERINE CERVIX; OVARY; and abdominal cavity (PREGNANCY, ABDOMINAL).",
+        "cleaned_description": "A potentially life-threatening condition in which EMBRYO IMPLANTATION occurs outside the cavity of the UTERUS. Most ectopic pregnancies (>96%) occur in the FALLOPIAN TUBES, known as TUBAL PREGNANCY. They can be in other locations, such as UTERINE CERVIX; OVARY; and abdominal cavity (PREGNANCY, ABDOMINAL).",
+        "description_summary": "A potentially life-threatening condition in which EMBRYO IMPLANTATION occurs outside the cavity of the UTERUS.",
+        "key_terms": [],
+        "word_count": 44
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pregnancy complication"
+        ],
+        "primary_categories": [
+          "Pregnancy complication"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pregnancy complication"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Neutrophil degranulation",
+        "pathway_list": [
+          "Neutrophil degranulation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.927454",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D047928",
+      "DiseaseName": "Premature Birth",
+      "DiseaseDescription": "CHILDBIRTH before 37 weeks of PREGNANCY (259 days from the first day of the mother's last menstrual period, or 245 days after FERTILIZATION).",
+      "SlimMapping": "['Pregnancy complication']",
+      "PathwayNames": "VEGF signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D047928",
+        "standardized_id": "MESH:D047928",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Premature Birth",
+        "standardized_name": "Premature Birth",
+        "normalized_name": "premature birth",
+        "synonyms": [],
+        "search_terms": [
+          "premature birth",
+          "birth",
+          "premature"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "CHILDBIRTH before 37 weeks of PREGNANCY (259 days from the first day of the mother's last menstrual period, or 245 days after FERTILIZATION).",
+        "cleaned_description": "CHILDBIRTH before 37 weeks of PREGNANCY (259 days from the first day of the mother's last menstrual period, or 245 days after FERTILIZATION).",
+        "description_summary": "CHILDBIRTH before 37 weeks of PREGNANCY (259 days from the first day of the mother's last menstrual period, or 245 days after FERTILIZATION).",
+        "key_terms": [],
+        "word_count": 23
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pregnancy complication"
+        ],
+        "primary_categories": [
+          "Pregnancy complication"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pregnancy complication"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGF signaling pathway",
+        "pathway_list": [
+          "VEGF signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGF signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.927648",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011297",
+      "DiseaseName": "Prenatal Exposure Delayed Effects",
+      "DiseaseDescription": "The consequences of exposing the FETUS in utero to certain factors, such as NUTRITION PHYSIOLOGICAL PHENOMENA; PHYSIOLOGICAL STRESS; DRUGS; RADIATION; and other physical or chemical factors. These consequences are observed later in the offspring after BIRTH.",
+      "SlimMapping": "['Pregnancy complication']",
+      "PathwayNames": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011297",
+        "standardized_id": "MESH:D011297",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Prenatal Exposure Delayed Effects",
+        "standardized_name": "Prenatal Exposure Delayed Effects",
+        "normalized_name": "prenatal exposure delayed effects",
+        "synonyms": [],
+        "search_terms": [
+          "effects",
+          "prenatal exposure delayed effects",
+          "exposure",
+          "prenatal",
+          "delayed"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The consequences of exposing the FETUS in utero to certain factors, such as NUTRITION PHYSIOLOGICAL PHENOMENA; PHYSIOLOGICAL STRESS; DRUGS; RADIATION; and other physical or chemical factors. These consequences are observed later in the offspring after BIRTH.",
+        "cleaned_description": "The consequences of exposing the FETUS in utero to certain factors, such as NUTRITION PHYSIOLOGICAL PHENOMENA; PHYSIOLOGICAL STRESS; DRUGS; RADIATION; and other physical or chemical factors. These consequences are observed later in the offspring after BIRTH.",
+        "description_summary": "The consequences of exposing the FETUS in utero to certain factors, such as NUTRITION PHYSIOLOGICAL PHENOMENA; PHYSIOLOGICAL STRESS; DRUGS; RADIATION; and other physical or chemical factors.",
+        "key_terms": [],
+        "word_count": 36
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pregnancy complication"
+        ],
+        "primary_categories": [
+          "Pregnancy complication"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pregnancy complication"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "YAP1- and WWTR1 (TAZ)-stimulated gene expression",
+        "pathway_list": [
+          "YAP1- and WWTR1 (TAZ)-stimulated gene expression"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.927917",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D049188",
+      "DiseaseName": "Prenatal Injuries",
+      "DiseaseDescription": "Damages to the EMBRYO, MAMMALIAN or the FETUS before BIRTH. Damages can be caused by any factors including biological, chemical, or physical.",
+      "SlimMapping": "['Pregnancy complication']",
+      "PathwayNames": "Zinc transporters",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D049188",
+        "standardized_id": "MESH:D049188",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Prenatal Injuries",
+        "standardized_name": "Prenatal Injuries",
+        "normalized_name": "prenatal injuries",
+        "synonyms": [],
+        "search_terms": [
+          "injuries",
+          "prenatal injuries",
+          "prenatal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Damages to the EMBRYO, MAMMALIAN or the FETUS before BIRTH. Damages can be caused by any factors including biological, chemical, or physical.",
+        "cleaned_description": "Damages to the EMBRYO, MAMMALIAN or the FETUS before BIRTH. Damages can be caused by any factors including biological, chemical, or physical.",
+        "description_summary": "Damages to the EMBRYO, MAMMALIAN or the FETUS before BIRTH.",
+        "key_terms": [],
+        "word_count": 22
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pregnancy complication"
+        ],
+        "primary_categories": [
+          "Pregnancy complication"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pregnancy complication"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Zinc transporters",
+        "pathway_list": [
+          "Zinc transporters"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.928110",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011644",
+      "DiseaseName": "Puerperal Disorders",
+      "DiseaseDescription": "Disorders or diseases associated with PUERPERIUM, the six-to-eight-week period immediately after PARTURITION in humans.",
+      "SlimMapping": "['Pregnancy complication']",
+      "PathwayNames": "Prolactin signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011644",
+        "standardized_id": "MESH:D011644",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Puerperal Disorders",
+        "standardized_name": "Puerperal Disorders",
+        "normalized_name": "puerperal disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "puerperal",
+          "puerperal disorders"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Disorders or diseases associated with PUERPERIUM, the six-to-eight-week period immediately after PARTURITION in humans.",
+        "cleaned_description": "Disorders or diseases associated with PUERPERIUM, the six-to-eight-week period immediately after PARTURITION in humans.",
+        "description_summary": "Disorders or diseases associated with PUERPERIUM, the six-to-eight-week period immediately after PARTURITION in humans.",
+        "key_terms": [],
+        "word_count": 14
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pregnancy complication"
+        ],
+        "primary_categories": [
+          "Pregnancy complication"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pregnancy complication"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Prolactin signaling pathway",
+        "pathway_list": [
+          "Prolactin signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Prolactin signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.940080",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

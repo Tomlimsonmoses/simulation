@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Substance-related disorder']",
+    "export_timestamp": "2026-03-28T22:11:35.480049",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D020751",
+      "DiseaseName": "Alcohol-Induced Disorders",
+      "DiseaseDescription": "Disorders stemming from the misuse and abuse of alcohol.",
+      "SlimMapping": "['Substance-related disorder']",
+      "PathwayNames": "Valine, leucine and isoleucine degradation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020751",
+        "standardized_id": "MESH:D020751",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Alcohol-Induced Disorders",
+        "standardized_name": "Alcohol-Induced Disorders",
+        "normalized_name": "alcohol-induced disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "alcohol-induced disorders",
+          "alcohol-induced"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Disorders stemming from the misuse and abuse of alcohol.",
+        "cleaned_description": "Disorders stemming from the misuse and abuse of alcohol.",
+        "description_summary": "Disorders stemming from the misuse and abuse of alcohol.",
+        "key_terms": [],
+        "word_count": 9
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Substance-related disorder"
+        ],
+        "primary_categories": [
+          "Substance-related disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Substance-related disorder"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Valine, leucine and isoleucine degradation",
+        "pathway_list": [
+          "leucine and isoleucine degradation",
+          "Valine"
+        ],
+        "pathway_count": 2,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.359156",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D062787",
+      "DiseaseName": "Drug Overdose",
+      "DiseaseDescription": "Accidental or deliberate use of a medication or street drug in excess of normal dosage.",
+      "SlimMapping": "['Substance-related disorder']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D062787",
+        "standardized_id": "MESH:D062787",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Drug Overdose",
+        "standardized_name": "Drug Overdose",
+        "normalized_name": "drug overdose",
+        "synonyms": [],
+        "search_terms": [
+          "overdose",
+          "drug overdose",
+          "drug"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Accidental or deliberate use of a medication or street drug in excess of normal dosage.",
+        "cleaned_description": "Accidental or deliberate use of a medication or street drug in excess of normal dosage.",
+        "description_summary": "Accidental or deliberate use of a medication or street drug in excess of normal dosage.",
+        "key_terms": [],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Substance-related disorder"
+        ],
+        "primary_categories": [
+          "Substance-related disorder"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Substance-related disorder"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.483282",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

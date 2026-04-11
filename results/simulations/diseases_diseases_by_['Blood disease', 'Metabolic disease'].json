@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Blood disease', 'Metabolic disease']",
+    "export_timestamp": "2026-03-28T22:11:35.525424",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D018798",
+      "DiseaseName": "Anemia, Iron-Deficiency",
+      "DiseaseDescription": "Anemia characterized by decreased or absent iron stores, low serum iron concentration, low transferrin saturation, and low hemoglobin concentration or hematocrit value. The erythrocytes are hypochromic and microcytic and the iron binding capacity is increased.",
+      "SlimMapping": "['Blood disease', 'Metabolic disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018798",
+        "standardized_id": "MESH:D018798",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Anemia, Iron-Deficiency",
+        "standardized_name": "Anemia, Iron-Deficiency",
+        "normalized_name": "anemia iron-deficiency",
+        "synonyms": [],
+        "search_terms": [
+          "anemia,",
+          "iron-deficiency",
+          "anemia, iron-deficiency"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Anemia characterized by decreased or absent iron stores, low serum iron concentration, low transferrin saturation, and low hemoglobin concentration or hematocrit value. The erythrocytes are hypochromic and microcytic and the iron binding capacity is increased.",
+        "cleaned_description": "Anemia characterized by decreased or absent iron stores, low serum iron concentration, low transferrin saturation, and low hemoglobin concentration or hematocrit value. The erythrocytes are hypochromic and microcytic and the iron binding capacity is increased.",
+        "description_summary": "Anemia characterized by decreased or absent iron stores, low serum iron concentration, low transferrin saturation, and low hemoglobin concentration or hematocrit value.",
+        "key_terms": [
+          "Anemia"
+        ],
+        "word_count": 35
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic"
+        ],
+        "all_categories": [
+          "Blood disease",
+          "Metabolic disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.363648",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

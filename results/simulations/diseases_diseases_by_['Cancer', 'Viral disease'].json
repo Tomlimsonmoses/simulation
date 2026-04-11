@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Viral disease']",
+    "export_timestamp": "2026-03-28T22:11:35.842525",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D015266",
+      "DiseaseName": "Carcinoma, Merkel Cell",
+      "DiseaseDescription": "A carcinoma arising from MERKEL CELLS located in the basal layer of the epidermis and occurring most commonly as a primary neuroendocrine carcinoma of the skin. Merkel cells are tactile cells of neuroectodermal origin and histologically show neurosecretory granules. The skin of the head and neck are a common site of Merkel cell carcinoma, occurring generally in elderly patients. (Holland et al., Cancer Medicine, 3d ed, p1245)",
+      "SlimMapping": "['Cancer', 'Viral disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D015266",
+        "standardized_id": "MESH:D015266",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Carcinoma, Merkel Cell",
+        "standardized_name": "Carcinoma, Merkel Cell",
+        "normalized_name": "carcinoma merkel cell",
+        "synonyms": [],
+        "search_terms": [
+          "carcinoma,",
+          "merkel",
+          "cell",
+          "carcinoma, merkel cell"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A carcinoma arising from MERKEL CELLS located in the basal layer of the epidermis and occurring most commonly as a primary neuroendocrine carcinoma of the skin. Merkel cells are tactile cells of neuroectodermal origin and histologically show neurosecretory granules. The skin of the head and neck are a common site of Merkel cell carcinoma, occurring generally in elderly patients. (Holland et al., Cancer Medicine, 3d ed, p1245)",
+        "cleaned_description": "A carcinoma arising from MERKEL CELLS located in the basal layer of the epidermis and occurring most commonly as a primary neuroendocrine carcinoma of the skin. Merkel cells are tactile cells of neuroectodermal origin and histologically show neurosecretory granules. The skin of the head and neck are a common site of Merkel cell carcinoma, occurring generally in elderly patients. (Holland et al., Cancer Medicine, 3d ed, p1245)",
+        "description_summary": "A carcinoma arising from MERKEL CELLS located in the basal layer of the epidermis and occurring most commonly as a primary neuroendocrine carcinoma of the skin.",
+        "key_terms": [],
+        "word_count": 67
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Viral disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.423352",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012514",
+      "DiseaseName": "Sarcoma, Kaposi",
+      "DiseaseDescription": "A multicentric, malignant neoplastic vascular proliferation characterized by the development of bluish-red cutaneous nodules, usually on the lower extremities, most often on the toes or feet, and slowly increasing in size and number and spreading to more proximal areas. The tumors have endothelium-lined channels and vascular spaces admixed with variably sized aggregates of spindle-shaped cells, and often remain confined to the skin and subcutaneous tissue, but widespread visceral involvement may occur. Kaposi's sarcoma occurs spontaneously in Jewish and Italian males in Europe and the United States. An aggressive variant in young children is endemic in some areas of Africa. A third form occurs in about 0.04% of kidney transplant patients. There is also a high incidence in AIDS patients. (From Dorland, 27th ed & Holland et al., Cancer Medicine, 3d ed, pp2105-7) HHV-8 is the suspected cause.",
+      "SlimMapping": "['Cancer', 'Viral disease']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012514",
+        "standardized_id": "MESH:D012514",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Sarcoma, Kaposi",
+        "standardized_name": "Sarcoma, Kaposi",
+        "normalized_name": "sarcoma kaposi",
+        "synonyms": [],
+        "search_terms": [
+          "sarcoma, kaposi",
+          "kaposi",
+          "sarcoma,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A multicentric, malignant neoplastic vascular proliferation characterized by the development of bluish-red cutaneous nodules, usually on the lower extremities, most often on the toes or feet, and slowly increasing in size and number and spreading to more proximal areas. The tumors have endothelium-lined channels and vascular spaces admixed with variably sized aggregates of spindle-shaped cells, and often remain confined to the skin and subcutaneous tissue, but widespread visceral involvement may occur. Kaposi's sarcoma occurs spontaneously in Jewish and Italian males in Europe and the United States. An aggressive variant in young children is endemic in some areas of Africa. A third form occurs in about 0.04% of kidney transplant patients. There is also a high incidence in AIDS patients. (From Dorland, 27th ed & Holland et al., Cancer Medicine, 3d ed, pp2105-7) HHV-8 is the suspected cause.",
+        "cleaned_description": "A multicentric, malignant neoplastic vascular proliferation characterized by the development of bluish-red cutaneous nodules, usually on the lower extremities, most often on the toes or feet, and slowly increasing in size and number and spreading to more proximal areas. The tumors have endothelium-lined channels and vascular spaces admixed with variably sized aggregates of spindle-shaped cells, and often remain confined to the skin and subcutaneous tissue, but widespread visceral involvement may occur. Kaposi's sarcoma occurs spontaneously in Jewish and Italian males in Europe and the United States. An aggressive variant in young children is endemic in some areas of Africa. A third form occurs in about 0.04% of kidney transplant patients. There is also a high incidence in AIDS patients. (From Dorland, 27th ed & Holland et al., Cancer Medicine, 3d ed, pp2105-7) HHV-8 is the suspected cause.",
+        "description_summary": "A multicentric, malignant neoplastic vascular proliferation characterized by the development of bluish-red cutaneous nodules, usually on the lower extremities, most often on the toes or feet, and slowly increasing in size and number and spreading to more proximal areas.",
+        "key_terms": [],
+        "word_count": 137
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Viral disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Viral disease"
+        ],
+        "broad_categories": [
+          "infectious"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Viral disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.959679",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

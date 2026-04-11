@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Digestive system disease', 'Pathology (anatomical condition)']",
+    "export_timestamp": "2026-03-28T22:11:36.023381",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D042882",
+      "DiseaseName": "Gallstones",
+      "DiseaseDescription": "Solid crystalline precipitates in the BILIARY TRACT, usually formed in the GALLBLADDER, resulting in the condition of CHOLELITHIASIS. Gallstones, derived from the BILE, consist mainly of calcium, cholesterol, or bilirubin.",
+      "SlimMapping": "['Digestive system disease', 'Pathology (anatomical condition)']",
+      "PathwayNames": "Vibrio cholerae infection",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D042882",
+        "standardized_id": "MESH:D042882",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Gallstones",
+        "standardized_name": "Gallstones",
+        "normalized_name": "gallstones",
+        "synonyms": [],
+        "search_terms": [
+          "gallstones"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Solid crystalline precipitates in the BILIARY TRACT, usually formed in the GALLBLADDER, resulting in the condition of CHOLELITHIASIS. Gallstones, derived from the BILE, consist mainly of calcium, cholesterol, or bilirubin.",
+        "cleaned_description": "Solid crystalline precipitates in the BILIARY TRACT, usually formed in the GALLBLADDER, resulting in the condition of CHOLELITHIASIS. Gallstones, derived from the BILE, consist mainly of calcium, cholesterol, or bilirubin.",
+        "description_summary": "Solid crystalline precipitates in the BILIARY TRACT, usually formed in the GALLBLADDER, resulting in the condition of CHOLELITHIASIS.",
+        "key_terms": [],
+        "word_count": 30
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease",
+          "Pathology (anatomical condition)"
+        ],
+        "primary_categories": [
+          "Digestive system disease",
+          "Pathology (anatomical condition)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease",
+          "Pathology (anatomical condition)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vibrio cholerae infection",
+        "pathway_list": [
+          "Vibrio cholerae infection"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.532470",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006529",
+      "DiseaseName": "Hepatomegaly",
+      "DiseaseDescription": "Enlargement of the liver.",
+      "SlimMapping": "['Digestive system disease', 'Pathology (anatomical condition)']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006529",
+        "standardized_id": "MESH:D006529",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hepatomegaly",
+        "standardized_name": "Hepatomegaly",
+        "normalized_name": "hepatomegaly",
+        "synonyms": [],
+        "search_terms": [
+          "hepatomegaly"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Enlargement of the liver.",
+        "cleaned_description": "Enlargement of the liver.",
+        "description_summary": "Enlargement of the liver.",
+        "key_terms": [],
+        "word_count": 4
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease",
+          "Pathology (anatomical condition)"
+        ],
+        "primary_categories": [
+          "Digestive system disease",
+          "Pathology (anatomical condition)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease",
+          "Pathology (anatomical condition)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.654579",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": [
+            "Very short or missing description"
+          ]
+        }
+      }
+    }
+  ]
+}

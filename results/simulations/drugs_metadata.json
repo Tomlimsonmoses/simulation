@@ -1,0 +1,40 @@
+{
+  "export_info": {
+    "data_type": "drugs",
+    "export_timestamp": "2026-03-28T22:11:32.661842",
+    "exporter_version": "1.0.0",
+    "output_format": "json",
+    "compression": false
+  },
+  "consolidation_metadata": {
+    "data_type": "drugs",
+    "sources": [
+      "primary_drugs"
+    ],
+    "consolidation_config": {
+      "merge_strategy": "merge",
+      "conflict_resolution": "highest_priority",
+      "deduplication": true,
+      "validation_enabled": true,
+      "output_format": "json"
+    },
+    "processing_timestamp": "2026-03-28T22:11:30.176190"
+  },
+  "processing_info": {
+    "total_sources": 1,
+    "total_records_processed": 1410,
+    "total_records_consolidated": 1410,
+    "duplicates_removed": 0,
+    "conflicts_resolved": 0,
+    "validation_errors_count": 0,
+    "warnings_count": 0
+  },
+  "data_distribution": {
+    "drugs": 1410
+  },
+  "quality_assessment": {
+    "validation_errors": [],
+    "warnings": [],
+    "overall_quality_score": 1
+  }
+}

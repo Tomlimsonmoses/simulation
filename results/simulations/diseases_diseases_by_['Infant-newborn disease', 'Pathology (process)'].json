@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Infant-newborn disease', 'Pathology (process)']",
+    "export_timestamp": "2026-03-28T22:11:36.122543",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D007567",
+      "DiseaseName": "Jaundice, Neonatal",
+      "DiseaseDescription": "Yellow discoloration of the SKIN; MUCOUS MEMBRANE; and SCLERA in the NEWBORN. It is a sign of NEONATAL HYPERBILIRUBINEMIA. Most cases are transient self-limiting (PHYSIOLOGICAL NEONATAL JAUNDICE) occurring in the first week of life, but some can be a sign of pathological disorders, particularly LIVER DISEASES.",
+      "SlimMapping": "['Infant-newborn disease', 'Pathology (process)']",
+      "PathwayNames": "Nuclear Receptor transcription pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007567",
+        "standardized_id": "MESH:D007567",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Jaundice, Neonatal",
+        "standardized_name": "Jaundice, Neonatal",
+        "normalized_name": "jaundice neonatal",
+        "synonyms": [],
+        "search_terms": [
+          "jaundice,",
+          "jaundice, neonatal",
+          "neonatal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Yellow discoloration of the SKIN; MUCOUS MEMBRANE; and SCLERA in the NEWBORN. It is a sign of NEONATAL HYPERBILIRUBINEMIA. Most cases are transient self-limiting (PHYSIOLOGICAL NEONATAL JAUNDICE) occurring in the first week of life, but some can be a sign of pathological disorders, particularly LIVER DISEASES.",
+        "cleaned_description": "Yellow discoloration of the SKIN; MUCOUS MEMBRANE; and SCLERA in the NEWBORN. It is a sign of NEONATAL HYPERBILIRUBINEMIA. Most cases are transient self-limiting (PHYSIOLOGICAL NEONATAL JAUNDICE) occurring in the first week of life, but some can be a sign of pathological disorders, particularly LIVER DISEASES.",
+        "description_summary": "Yellow discoloration of the SKIN; MUCOUS MEMBRANE; and SCLERA in the NEWBORN.",
+        "key_terms": [
+          "HYPERBILIRUBINEMIA"
+        ],
+        "word_count": 46
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Infant-newborn disease",
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Infant-newborn disease",
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Infant-newborn disease",
+          "Pathology (process)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Nuclear Receptor transcription pathway",
+        "pathway_list": [
+          "Nuclear Receptor transcription pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Nuclear Receptor transcription pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.794611",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

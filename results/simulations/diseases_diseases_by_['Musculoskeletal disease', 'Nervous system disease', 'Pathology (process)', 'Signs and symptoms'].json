@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Musculoskeletal disease', 'Nervous system disease', 'Pathology (process)', 'Signs and symptoms']",
+    "export_timestamp": "2026-03-28T22:11:36.203427",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D018908",
+      "DiseaseName": "Muscle Weakness",
+      "DiseaseDescription": "A vague complaint of debility, fatigue, or exhaustion attributable to weakness of various muscles. The weakness can be characterized as subacute or chronic, often progressive, and is a manifestation of many muscle and neuromuscular diseases. (From Wyngaarden et al., Cecil Textbook of Medicine, 19th ed, p2251)",
+      "SlimMapping": "['Musculoskeletal disease', 'Nervous system disease', 'Pathology (process)', 'Signs and symptoms']",
+      "PathwayNames": "Visual phototransduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018908",
+        "standardized_id": "MESH:D018908",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Muscle Weakness",
+        "standardized_name": "Muscle Weakness",
+        "normalized_name": "muscle weakness",
+        "synonyms": [],
+        "search_terms": [
+          "muscle",
+          "muscle weakness",
+          "weakness"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A vague complaint of debility, fatigue, or exhaustion attributable to weakness of various muscles. The weakness can be characterized as subacute or chronic, often progressive, and is a manifestation of many muscle and neuromuscular diseases. (From Wyngaarden et al., Cecil Textbook of Medicine, 19th ed, p2251)",
+        "cleaned_description": "A vague complaint of debility, fatigue, or exhaustion attributable to weakness of various muscles. The weakness can be characterized as subacute or chronic, often progressive, and is a manifestation of many muscle and neuromuscular diseases. (From Wyngaarden et al., Cecil Textbook of Medicine, 19th ed, p2251)",
+        "description_summary": "A vague complaint of debility, fatigue, or exhaustion attributable to weakness of various muscles.",
+        "key_terms": [],
+        "word_count": 46
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease",
+          "Nervous system disease",
+          "Pathology (process)",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease",
+          "Nervous system disease",
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease",
+          "Nervous system disease",
+          "Pathology (process)",
+          "Signs and symptoms"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Visual phototransduction",
+        "pathway_list": [
+          "Visual phototransduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.860543",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

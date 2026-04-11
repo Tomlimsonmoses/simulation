@@ -1,0 +1,201 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Animal disease']",
+    "export_timestamp": "2026-03-28T22:11:35.957503",
+    "total_records": 3
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D004195",
+      "DiseaseName": "Disease Models, Animal",
+      "DiseaseDescription": "Naturally-occurring or experimentally-induced animal diseases with pathological processes analogous to human diseases.",
+      "SlimMapping": "['Animal disease']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004195",
+        "standardized_id": "MESH:D004195",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Disease Models, Animal",
+        "standardized_name": "Disease Models, Animal",
+        "normalized_name": "disease models animal",
+        "synonyms": [],
+        "search_terms": [
+          "disease models, animal",
+          "animal",
+          "models,",
+          "disease"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Naturally-occurring or experimentally-induced animal diseases with pathological processes analogous to human diseases.",
+        "cleaned_description": "Naturally-occurring or experimentally-induced animal diseases with pathological processes analogous to human diseases.",
+        "description_summary": "Naturally-occurring or experimentally-induced animal diseases with pathological processes analogous to human diseases.",
+        "key_terms": [],
+        "word_count": 12
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Animal disease"
+        ],
+        "primary_categories": [
+          "Animal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Animal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.481528",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004283",
+      "DiseaseName": "Dog Diseases",
+      "DiseaseDescription": "Diseases of the domestic dog (Canis familiaris). This term does not include diseases of wild dogs, WOLVES; FOXES; and other Canidae for which the heading CARNIVORA is used.",
+      "SlimMapping": "['Animal disease']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004283",
+        "standardized_id": "MESH:D004283",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Dog Diseases",
+        "standardized_name": "Dog Diseases",
+        "normalized_name": "dog diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "dog",
+          "dog diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Diseases of the domestic dog (Canis familiaris). This term does not include diseases of wild dogs, WOLVES; FOXES; and other Canidae for which the heading CARNIVORA is used.",
+        "cleaned_description": "Diseases of the domestic dog (Canis familiaris). This term does not include diseases of wild dogs, WOLVES; FOXES; and other Canidae for which the heading CARNIVORA is used.",
+        "description_summary": "Diseases of the domestic dog (Canis familiaris).",
+        "key_terms": [],
+        "word_count": 28
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Animal disease"
+        ],
+        "primary_categories": [
+          "Animal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Animal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.482558",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009137",
+      "DiseaseName": "Muscular Dystrophy, Animal",
+      "DiseaseDescription": "MUSCULAR DYSTROPHY that occurs in VERTEBRATE animals.",
+      "SlimMapping": "['Animal disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009137",
+        "standardized_id": "MESH:D009137",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Muscular Dystrophy, Animal",
+        "standardized_name": "Muscular Dystrophy, Animal",
+        "normalized_name": "muscular dystrophy animal",
+        "synonyms": [],
+        "search_terms": [
+          "muscular dystrophy, animal",
+          "animal",
+          "dystrophy,",
+          "muscular"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "MUSCULAR DYSTROPHY that occurs in VERTEBRATE animals.",
+        "cleaned_description": "MUSCULAR DYSTROPHY that occurs in VERTEBRATE animals.",
+        "description_summary": "MUSCULAR DYSTROPHY that occurs in VERTEBRATE animals.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Animal disease"
+        ],
+        "primary_categories": [
+          "Animal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Animal disease"
+        ],
+        "category_count": 1
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.861198",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

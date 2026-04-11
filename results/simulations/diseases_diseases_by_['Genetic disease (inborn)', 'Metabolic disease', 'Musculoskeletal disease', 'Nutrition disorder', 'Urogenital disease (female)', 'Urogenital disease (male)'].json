@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Genetic disease (inborn)', 'Metabolic disease', 'Musculoskeletal disease', 'Nutrition disorder', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+    "export_timestamp": "2026-03-28T22:11:36.007065",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D053098",
+      "DiseaseName": "Familial Hypophosphatemic Rickets",
+      "DiseaseDescription": "A hereditary disorder characterized by HYPOPHOSPHATEMIA; RICKETS; OSTEOMALACIA; renal defects in phosphate reabsorption and vitamin D metabolism; and growth retardation. Autosomal and X-linked dominant and recessive variants have been reported.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Metabolic disease', 'Musculoskeletal disease', 'Nutrition disorder', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Transmembrane transport of small molecules",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D053098",
+        "standardized_id": "MESH:D053098",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Familial Hypophosphatemic Rickets",
+        "standardized_name": "Familial Hypophosphatemic Rickets",
+        "normalized_name": "familial hypophosphatemic rickets",
+        "synonyms": [],
+        "search_terms": [
+          "familial hypophosphatemic rickets",
+          "familial",
+          "rickets",
+          "hypophosphatemic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A hereditary disorder characterized by HYPOPHOSPHATEMIA; RICKETS; OSTEOMALACIA; renal defects in phosphate reabsorption and vitamin D metabolism; and growth retardation. Autosomal and X-linked dominant and recessive variants have been reported.",
+        "cleaned_description": "A hereditary disorder characterized by HYPOPHOSPHATEMIA; RICKETS; OSTEOMALACIA; renal defects in phosphate reabsorption and vitamin D metabolism; and growth retardation. Autosomal and X-linked dominant and recessive variants have been reported.",
+        "description_summary": "A hereditary disorder characterized by HYPOPHOSPHATEMIA; RICKETS; OSTEOMALACIA; renal defects in phosphate reabsorption and vitamin D metabolism; and growth retardation.",
+        "key_terms": [
+          "HYPOPHOSPHATEMIA"
+        ],
+        "word_count": 30
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Musculoskeletal disease",
+          "Nutrition disorder",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Metabolic disease",
+          "Musculoskeletal disease",
+          "Nutrition disorder",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 6
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmembrane transport of small molecules",
+        "pathway_list": [
+          "Transmembrane transport of small molecules"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.515840",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Fetal disease', 'Pregnancy complication']",
+    "export_timestamp": "2026-03-28T22:11:36.015150",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D005315",
+      "DiseaseName": "Fetal Diseases",
+      "DiseaseDescription": "Pathophysiological conditions of the FETUS in the UTERUS. Some fetal diseases may be treated with FETAL THERAPIES.",
+      "SlimMapping": "['Fetal disease', 'Pregnancy complication']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005315",
+        "standardized_id": "MESH:D005315",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Fetal Diseases",
+        "standardized_name": "Fetal Diseases",
+        "normalized_name": "fetal diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "fetal diseases",
+          "fetal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathophysiological conditions of the FETUS in the UTERUS. Some fetal diseases may be treated with FETAL THERAPIES.",
+        "cleaned_description": "Pathophysiological conditions of the FETUS in the UTERUS. Some fetal diseases may be treated with FETAL THERAPIES.",
+        "description_summary": "Pathophysiological conditions of the FETUS in the UTERUS.",
+        "key_terms": [],
+        "word_count": 17
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Fetal disease",
+          "Pregnancy complication"
+        ],
+        "primary_categories": [
+          "Fetal disease",
+          "Pregnancy complication"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Fetal disease",
+          "Pregnancy complication"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.524187",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

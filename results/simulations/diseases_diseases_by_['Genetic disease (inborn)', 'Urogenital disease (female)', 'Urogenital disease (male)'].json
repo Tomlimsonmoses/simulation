@@ -1,0 +1,304 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Genetic disease (inborn)', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+    "export_timestamp": "2026-03-28T22:11:35.937111",
+    "total_records": 4
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D057973",
+      "DiseaseName": "Dent Disease",
+      "DiseaseDescription": "X-linked recessive NEPHROLITHIASIS characterized by HYPERCALCIURIA; HYPOPHOSPHATEMIA; NEPHROCALCINOSIS; and PROTEINURIA. It is associated with mutations in the voltage-gated chloride channel, CLC-5 (Dent Disease I). Another group of mutations associated with this disease is in phosphatidylinositol 4,5-bisphosphate-5-phosphatase gene.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Transmembrane transport of small molecules",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D057973",
+        "standardized_id": "MESH:D057973",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Dent Disease",
+        "standardized_name": "Dent Disease",
+        "normalized_name": "dent disease",
+        "synonyms": [],
+        "search_terms": [
+          "disease",
+          "dent disease",
+          "dent"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "X-linked recessive NEPHROLITHIASIS characterized by HYPERCALCIURIA; HYPOPHOSPHATEMIA; NEPHROCALCINOSIS; and PROTEINURIA. It is associated with mutations in the voltage-gated chloride channel, CLC-5 (Dent Disease I). Another group of mutations associated with this disease is in phosphatidylinositol 4,5-bisphosphate-5-phosphatase gene.",
+        "cleaned_description": "X-linked recessive NEPHROLITHIASIS characterized by HYPERCALCIURIA; HYPOPHOSPHATEMIA; NEPHROCALCINOSIS; and PROTEINURIA. It is associated with mutations in the voltage-gated chloride channel, CLC-5 (Dent Disease I). Another group of mutations associated with this disease is in phosphatidylinositol 4,5-bisphosphate-5-phosphatase gene.",
+        "description_summary": "X-linked recessive NEPHROLITHIASIS characterized by HYPERCALCIURIA; HYPOPHOSPHATEMIA; NEPHROCALCINOSIS; and PROTEINURIA.",
+        "key_terms": [
+          "NEPHROCALCINOSIS",
+          "HYPOPHOSPHATEMIA"
+        ],
+        "word_count": 37
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmembrane transport of small molecules",
+        "pathway_list": [
+          "Transmembrane transport of small molecules"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.473354",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005198",
+      "DiseaseName": "Fanconi Syndrome",
+      "DiseaseDescription": "A hereditary or acquired form of generalized dysfunction of the PROXIMAL KIDNEY TUBULE without primary involvement of the KIDNEY GLOMERULUS. It is usually characterized by the tubular wasting of nutrients and salts (GLUCOSE; AMINO ACIDS; PHOSPHATES; and BICARBONATES) resulting in HYPOKALEMIA; ACIDOSIS; HYPERCALCIURIA; and PROTEINURIA.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Valine, leucine and isoleucine degradation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005198",
+        "standardized_id": "MESH:D005198",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Fanconi Syndrome",
+        "standardized_name": "Fanconi Syndrome",
+        "normalized_name": "fanconi syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "syndrome",
+          "fanconi syndrome",
+          "fanconi"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A hereditary or acquired form of generalized dysfunction of the PROXIMAL KIDNEY TUBULE without primary involvement of the KIDNEY GLOMERULUS. It is usually characterized by the tubular wasting of nutrients and salts (GLUCOSE; AMINO ACIDS; PHOSPHATES; and BICARBONATES) resulting in HYPOKALEMIA; ACIDOSIS; HYPERCALCIURIA; and PROTEINURIA.",
+        "cleaned_description": "A hereditary or acquired form of generalized dysfunction of the PROXIMAL KIDNEY TUBULE without primary involvement of the KIDNEY GLOMERULUS. It is usually characterized by the tubular wasting of nutrients and salts (GLUCOSE; AMINO ACIDS; PHOSPHATES; and BICARBONATES) resulting in HYPOKALEMIA; ACIDOSIS; HYPERCALCIURIA; and PROTEINURIA.",
+        "description_summary": "A hereditary or acquired form of generalized dysfunction of the PROXIMAL KIDNEY TUBULE without primary involvement of the KIDNEY GLOMERULUS.",
+        "key_terms": [
+          "ACIDOSIS",
+          "HYPOKALEMIA"
+        ],
+        "word_count": 45
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Valine, leucine and isoleucine degradation",
+        "pathway_list": [
+          "leucine and isoleucine degradation",
+          "Valine"
+        ],
+        "pathway_count": 2,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.516882",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D056929",
+      "DiseaseName": "Liddle Syndrome",
+      "DiseaseDescription": "Familial pseudoaldosteronism characterized by autosomal dominant inheritance of hypertension with HYPOKALEMIA; ALKALOSIS; RENIN and ALDOSTERONE level decreases. It is caused by mutations in EPITHELIAL SODIUM CHANNELS beta and gamma subunits. Different mutations in the same EPITHELIAL SODIUM CHANNELS subunits can cause PSEUDOHYPOALDOSTERONISM, TYPE I, AUTOSOMAL DOMINANT.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Transmembrane transport of small molecules",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D056929",
+        "standardized_id": "MESH:D056929",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Liddle Syndrome",
+        "standardized_name": "Liddle Syndrome",
+        "normalized_name": "liddle syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "liddle syndrome",
+          "syndrome",
+          "liddle"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Familial pseudoaldosteronism characterized by autosomal dominant inheritance of hypertension with HYPOKALEMIA; ALKALOSIS; RENIN and ALDOSTERONE level decreases. It is caused by mutations in EPITHELIAL SODIUM CHANNELS beta and gamma subunits. Different mutations in the same EPITHELIAL SODIUM CHANNELS subunits can cause PSEUDOHYPOALDOSTERONISM, TYPE I, AUTOSOMAL DOMINANT.",
+        "cleaned_description": "Familial pseudoaldosteronism characterized by autosomal dominant inheritance of hypertension with HYPOKALEMIA; ALKALOSIS; RENIN and ALDOSTERONE level decreases. It is caused by mutations in EPITHELIAL SODIUM CHANNELS beta and gamma subunits. Different mutations in the same EPITHELIAL SODIUM CHANNELS subunits can cause PSEUDOHYPOALDOSTERONISM, TYPE I, AUTOSOMAL DOMINANT.",
+        "description_summary": "Familial pseudoaldosteronism characterized by autosomal dominant inheritance of hypertension with HYPOKALEMIA; ALKALOSIS; RENIN and ALDOSTERONE level decreases.",
+        "key_terms": [
+          "HYPOKALEMIA",
+          "ALKALOSIS"
+        ],
+        "word_count": 46
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmembrane transport of small molecules",
+        "pathway_list": [
+          "Transmembrane transport of small molecules"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.815116",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011546",
+      "DiseaseName": "Pseudohypoaldosteronism",
+      "DiseaseDescription": "A heterogeneous group of disorders characterized by renal electrolyte transport dysfunctions. Congenital forms are rare autosomal disorders characterized by neonatal hypertension, HYPERKALEMIA, increased RENIN activity and ALDOSTERONE concentration. The Type I features HYPERKALEMIA with sodium wasting; Type II, HYPERKALEMIA without sodium wasting. Pseudohypoaldosteronism can be the result of a defective renal electrolyte transport protein or acquired after KIDNEY TRANSPLANTATION.",
+      "SlimMapping": "['Genetic disease (inborn)', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Vibrio cholerae infection",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011546",
+        "standardized_id": "MESH:D011546",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pseudohypoaldosteronism",
+        "standardized_name": "Pseudohypoaldosteronism",
+        "normalized_name": "pseudohypoaldosteronism",
+        "synonyms": [],
+        "search_terms": [
+          "pseudohypoaldosteronism"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A heterogeneous group of disorders characterized by renal electrolyte transport dysfunctions. Congenital forms are rare autosomal disorders characterized by neonatal hypertension, HYPERKALEMIA, increased RENIN activity and ALDOSTERONE concentration. The Type I features HYPERKALEMIA with sodium wasting; Type II, HYPERKALEMIA without sodium wasting. Pseudohypoaldosteronism can be the result of a defective renal electrolyte transport protein or acquired after KIDNEY TRANSPLANTATION.",
+        "cleaned_description": "A heterogeneous group of disorders characterized by renal electrolyte transport dysfunctions. Congenital forms are rare autosomal disorders characterized by neonatal hypertension, HYPERKALEMIA, increased RENIN activity and ALDOSTERONE concentration. The Type I features HYPERKALEMIA with sodium wasting; Type II, HYPERKALEMIA without sodium wasting. Pseudohypoaldosteronism can be the result of a defective renal electrolyte transport protein or acquired after KIDNEY TRANSPLANTATION.",
+        "description_summary": "A heterogeneous group of disorders characterized by renal electrolyte transport dysfunctions.",
+        "key_terms": [
+          "HYPERKALEMIA"
+        ],
+        "word_count": 59
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Genetic disease (inborn)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Genetic disease (inborn)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [
+          "genetic"
+        ],
+        "all_categories": [
+          "Genetic disease (inborn)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vibrio cholerae infection",
+        "pathway_list": [
+          "Vibrio cholerae infection"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.936815",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

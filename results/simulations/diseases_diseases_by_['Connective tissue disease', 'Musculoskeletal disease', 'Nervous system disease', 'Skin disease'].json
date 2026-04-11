@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Connective tissue disease', 'Musculoskeletal disease', 'Nervous system disease', 'Skin disease']",
+    "export_timestamp": "2026-03-28T22:11:35.943738",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D003882",
+      "DiseaseName": "Dermatomyositis",
+      "DiseaseDescription": "A subacute or chronic inflammatory disease of muscle and skin, marked by proximal muscle weakness and a characteristic skin rash. The illness occurs with approximately equal frequency in children and adults. The skin lesions usually take the form of a purplish rash (or less often an exfoliative dermatitis) involving the nose, cheeks, forehead, upper trunk, and arms. The disease is associated with a complement mediated intramuscular microangiopathy, leading to loss of capillaries, muscle ischemia, muscle-fiber necrosis, and perifascicular atrophy. The childhood form of this disease tends to evolve into a systemic vasculitis. Dermatomyositis may occur in association with malignant neoplasms. (From Adams et al., Principles of Neurology, 6th ed, pp1405-6)",
+      "SlimMapping": "['Connective tissue disease', 'Musculoskeletal disease', 'Nervous system disease', 'Skin disease']",
+      "PathwayNames": "Viral myocarditis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003882",
+        "standardized_id": "MESH:D003882",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Dermatomyositis",
+        "standardized_name": "Dermatomyositis",
+        "normalized_name": "dermatomyositis",
+        "synonyms": [],
+        "search_terms": [
+          "dermatomyositis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A subacute or chronic inflammatory disease of muscle and skin, marked by proximal muscle weakness and a characteristic skin rash. The illness occurs with approximately equal frequency in children and adults. The skin lesions usually take the form of a purplish rash (or less often an exfoliative dermatitis) involving the nose, cheeks, forehead, upper trunk, and arms. The disease is associated with a complement mediated intramuscular microangiopathy, leading to loss of capillaries, muscle ischemia, muscle-fiber necrosis, and perifascicular atrophy. The childhood form of this disease tends to evolve into a systemic vasculitis. Dermatomyositis may occur in association with malignant neoplasms. (From Adams et al., Principles of Neurology, 6th ed, pp1405-6)",
+        "cleaned_description": "A subacute or chronic inflammatory disease of muscle and skin, marked by proximal muscle weakness and a characteristic skin rash. The illness occurs with approximately equal frequency in children and adults. The skin lesions usually take the form of a purplish rash (or less often an exfoliative dermatitis) involving the nose, cheeks, forehead, upper trunk, and arms. The disease is associated with a complement mediated intramuscular microangiopathy, leading to loss of capillaries, muscle ischemia, muscle-fiber necrosis, and perifascicular atrophy. The childhood form of this disease tends to evolve into a systemic vasculitis. Dermatomyositis may occur in association with malignant neoplasms. (From Adams et al., Principles of Neurology, 6th ed, pp1405-6)",
+        "description_summary": "A subacute or chronic inflammatory disease of muscle and skin, marked by proximal muscle weakness and a characteristic skin rash.",
+        "key_terms": [
+          "ischemia",
+          "Dermatomyositis",
+          "dermatitis",
+          "microangiopathy",
+          "necrosis",
+          "vasculitis"
+        ],
+        "word_count": 110
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Connective tissue disease",
+          "Musculoskeletal disease",
+          "Nervous system disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Connective tissue disease",
+          "Musculoskeletal disease",
+          "Nervous system disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Connective tissue disease",
+          "Musculoskeletal disease",
+          "Nervous system disease",
+          "Skin disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral myocarditis",
+        "pathway_list": [
+          "Viral myocarditis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.477570",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

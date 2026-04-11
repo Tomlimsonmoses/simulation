@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Musculoskeletal disease', 'Pathology (process)']",
+    "export_timestamp": "2026-03-28T22:11:36.012922",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D005271",
+      "DiseaseName": "Femur Head Necrosis",
+      "DiseaseDescription": "Aseptic or avascular necrosis of the femoral head. The major types are idiopathic (primary), as a complication of fractures or dislocations, and LEGG-CALVE-PERTHES DISEASE.",
+      "SlimMapping": "['Musculoskeletal disease', 'Pathology (process)']",
+      "PathwayNames": "TRP channels",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005271",
+        "standardized_id": "MESH:D005271",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Femur Head Necrosis",
+        "standardized_name": "Femur Head Necrosis",
+        "normalized_name": "femur head necrosis",
+        "synonyms": [],
+        "search_terms": [
+          "necrosis",
+          "femur head necrosis",
+          "femur",
+          "head"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Aseptic or avascular necrosis of the femoral head. The major types are idiopathic (primary), as a complication of fractures or dislocations, and LEGG-CALVE-PERTHES DISEASE.",
+        "cleaned_description": "Aseptic or avascular necrosis of the femoral head. The major types are idiopathic (primary), as a complication of fractures or dislocations, and LEGG-CALVE-PERTHES DISEASE.",
+        "description_summary": "Aseptic or avascular necrosis of the femoral head.",
+        "key_terms": [
+          "necrosis"
+        ],
+        "word_count": 24
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease",
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease",
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease",
+          "Pathology (process)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "TRP channels",
+        "pathway_list": [
+          "TRP channels"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.523299",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010020",
+      "DiseaseName": "Osteonecrosis",
+      "DiseaseDescription": "Death of a bone or part of a bone, either atraumatic or posttraumatic.",
+      "SlimMapping": "['Musculoskeletal disease', 'Pathology (process)']",
+      "PathwayNames": "Signaling by Interleukins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010020",
+        "standardized_id": "MESH:D010020",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Osteonecrosis",
+        "standardized_name": "Osteonecrosis",
+        "normalized_name": "osteonecrosis",
+        "synonyms": [],
+        "search_terms": [
+          "osteonecrosis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Death of a bone or part of a bone, either atraumatic or posttraumatic.",
+        "cleaned_description": "Death of a bone or part of a bone, either atraumatic or posttraumatic.",
+        "description_summary": "Death of a bone or part of a bone, either atraumatic or posttraumatic.",
+        "key_terms": [],
+        "word_count": 13
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease",
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease",
+          "Pathology (process)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease",
+          "Pathology (process)"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signaling by Interleukins",
+        "pathway_list": [
+          "Signaling by Interleukins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.898312",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

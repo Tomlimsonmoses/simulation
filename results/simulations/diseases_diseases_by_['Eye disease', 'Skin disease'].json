@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Eye disease', 'Skin disease']",
+    "export_timestamp": "2026-03-28T22:11:36.264658",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D010390",
+      "DiseaseName": "Pemphigoid, Benign Mucous Membrane",
+      "DiseaseDescription": "A chronic blistering disease with predilection for mucous membranes and less frequently the skin, and with a tendency to scarring. It is sometimes called ocular pemphigoid because of conjunctival mucous membrane involvement.",
+      "SlimMapping": "['Eye disease', 'Skin disease']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010390",
+        "standardized_id": "MESH:D010390",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Pemphigoid, Benign Mucous Membrane",
+        "standardized_name": "Pemphigoid, Benign Mucous Membrane",
+        "normalized_name": "pemphigoid benign mucous membrane",
+        "synonyms": [],
+        "search_terms": [
+          "pemphigoid,",
+          "mucous",
+          "pemphigoid, benign mucous membrane",
+          "benign",
+          "membrane"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A chronic blistering disease with predilection for mucous membranes and less frequently the skin, and with a tendency to scarring. It is sometimes called ocular pemphigoid because of conjunctival mucous membrane involvement.",
+        "cleaned_description": "A chronic blistering disease with predilection for mucous membranes and less frequently the skin, and with a tendency to scarring. It is sometimes called ocular pemphigoid because of conjunctival mucous membrane involvement.",
+        "description_summary": "A chronic blistering disease with predilection for mucous membranes and less frequently the skin, and with a tendency to scarring.",
+        "key_terms": [],
+        "word_count": 32
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Eye disease",
+          "Skin disease"
+        ],
+        "primary_categories": [
+          "Eye disease",
+          "Skin disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Eye disease",
+          "Skin disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.911279",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

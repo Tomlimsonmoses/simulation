@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Fetal disease', 'Pathology (process)', 'Pregnancy complication']",
+    "export_timestamp": "2026-03-28T22:11:36.016454",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D005317",
+      "DiseaseName": "Fetal Growth Retardation",
+      "DiseaseDescription": "Failure of a FETUS to attain expected GROWTH.",
+      "SlimMapping": "['Fetal disease', 'Pathology (process)', 'Pregnancy complication']",
+      "PathwayNames": "Visual phototransduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005317",
+        "standardized_id": "MESH:D005317",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Fetal Growth Retardation",
+        "standardized_name": "Fetal Growth Retardation",
+        "normalized_name": "fetal growth retardation",
+        "synonyms": [],
+        "search_terms": [
+          "retardation",
+          "growth",
+          "fetal",
+          "fetal growth retardation"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Failure of a FETUS to attain expected GROWTH.",
+        "cleaned_description": "Failure of a FETUS to attain expected GROWTH.",
+        "description_summary": "Failure of a FETUS to attain expected GROWTH.",
+        "key_terms": [],
+        "word_count": 8
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Fetal disease",
+          "Pathology (process)",
+          "Pregnancy complication"
+        ],
+        "primary_categories": [
+          "Fetal disease",
+          "Pathology (process)",
+          "Pregnancy complication"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Fetal disease",
+          "Pathology (process)",
+          "Pregnancy complication"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Visual phototransduction",
+        "pathway_list": [
+          "Visual phototransduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.524603",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

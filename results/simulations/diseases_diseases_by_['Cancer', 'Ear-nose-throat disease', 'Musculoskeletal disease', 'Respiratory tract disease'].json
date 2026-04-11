@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Ear-nose-throat disease', 'Musculoskeletal disease', 'Respiratory tract disease']",
+    "export_timestamp": "2026-03-28T22:11:36.229765",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D009669",
+      "DiseaseName": "Nose Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the NOSE.",
+      "SlimMapping": "['Cancer', 'Ear-nose-throat disease', 'Musculoskeletal disease', 'Respiratory tract disease']",
+      "PathwayNames": "Signaling by Interleukins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009669",
+        "standardized_id": "MESH:D009669",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Nose Neoplasms",
+        "standardized_name": "Nose Neoplasms",
+        "normalized_name": "nose neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "neoplasms",
+          "nose",
+          "nose neoplasms"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the NOSE.",
+        "cleaned_description": "Tumors or cancer of the NOSE.",
+        "description_summary": "Tumors or cancer of the NOSE.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Ear-nose-throat disease",
+          "Musculoskeletal disease",
+          "Respiratory tract disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Ear-nose-throat disease",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [
+          "respiratory"
+        ],
+        "all_categories": [
+          "Cancer",
+          "Ear-nose-throat disease",
+          "Musculoskeletal disease",
+          "Respiratory tract disease"
+        ],
+        "category_count": 4
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signaling by Interleukins",
+        "pathway_list": [
+          "Signaling by Interleukins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.888865",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

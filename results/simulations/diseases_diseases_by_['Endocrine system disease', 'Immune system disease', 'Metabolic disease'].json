@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Endocrine system disease', 'Immune system disease', 'Metabolic disease']",
+    "export_timestamp": "2026-03-28T22:11:35.948015",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D003922",
+      "DiseaseName": "Diabetes Mellitus, Type 1",
+      "DiseaseDescription": "A subtype of DIABETES MELLITUS that is characterized by INSULIN deficiency. It is manifested by the sudden onset of severe HYPERGLYCEMIA, rapid progression to DIABETIC KETOACIDOSIS, and DEATH unless treated with insulin. The disease may occur at any age, but is most common in childhood or adolescence.",
+      "SlimMapping": "['Endocrine system disease', 'Immune system disease', 'Metabolic disease']",
+      "PathwayNames": "Visual phototransduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003922",
+        "standardized_id": "MESH:D003922",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Diabetes Mellitus, Type 1",
+        "standardized_name": "Diabetes Mellitus, Type 1",
+        "normalized_name": "diabetes mellitus type 1",
+        "synonyms": [],
+        "search_terms": [
+          "diabetes",
+          "mellitus,",
+          "diabetes mellitus, type 1",
+          "type"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A subtype of DIABETES MELLITUS that is characterized by INSULIN deficiency. It is manifested by the sudden onset of severe HYPERGLYCEMIA, rapid progression to DIABETIC KETOACIDOSIS, and DEATH unless treated with insulin. The disease may occur at any age, but is most common in childhood or adolescence.",
+        "cleaned_description": "A subtype of DIABETES MELLITUS that is characterized by INSULIN deficiency. It is manifested by the sudden onset of severe HYPERGLYCEMIA, rapid progression to DIABETIC KETOACIDOSIS, and DEATH unless treated with insulin. The disease may occur at any age, but is most common in childhood or adolescence.",
+        "description_summary": "A subtype of DIABETES MELLITUS that is characterized by INSULIN deficiency.",
+        "key_terms": [
+          "KETOACIDOSIS",
+          "HYPERGLYCEMIA"
+        ],
+        "word_count": 47
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Endocrine system disease",
+          "Immune system disease",
+          "Metabolic disease"
+        ],
+        "primary_categories": [
+          "Endocrine system disease",
+          "Immune system disease",
+          "Metabolic disease"
+        ],
+        "broad_categories": [
+          "metabolic",
+          "immune_system"
+        ],
+        "all_categories": [
+          "Endocrine system disease",
+          "Immune system disease",
+          "Metabolic disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Visual phototransduction",
+        "pathway_list": [
+          "Visual phototransduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.480065",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

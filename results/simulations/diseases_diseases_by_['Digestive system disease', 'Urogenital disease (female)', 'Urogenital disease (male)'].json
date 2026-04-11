@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Digestive system disease', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+    "export_timestamp": "2026-03-28T22:11:36.054495",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D006530",
+      "DiseaseName": "Hepatorenal Syndrome",
+      "DiseaseDescription": "Functional KIDNEY FAILURE in patients with liver disease, usually LIVER CIRRHOSIS or portal hypertension (HYPERTENSION, PORTAL), and in the absence of intrinsic renal disease or kidney abnormality. It is characterized by intense renal vasculature constriction, reduced renal blood flow, OLIGURIA, and sodium retention.",
+      "SlimMapping": "['Digestive system disease', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Transmembrane transport of small molecules",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006530",
+        "standardized_id": "MESH:D006530",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hepatorenal Syndrome",
+        "standardized_name": "Hepatorenal Syndrome",
+        "normalized_name": "hepatorenal syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "hepatorenal syndrome",
+          "hepatorenal",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Functional KIDNEY FAILURE in patients with liver disease, usually LIVER CIRRHOSIS or portal hypertension (HYPERTENSION, PORTAL), and in the absence of intrinsic renal disease or kidney abnormality. It is characterized by intense renal vasculature constriction, reduced renal blood flow, OLIGURIA, and sodium retention.",
+        "cleaned_description": "Functional KIDNEY FAILURE in patients with liver disease, usually LIVER CIRRHOSIS or portal hypertension (HYPERTENSION, PORTAL), and in the absence of intrinsic renal disease or kidney abnormality. It is characterized by intense renal vasculature constriction, reduced renal blood flow, OLIGURIA, and sodium retention.",
+        "description_summary": "Functional KIDNEY FAILURE in patients with liver disease, usually LIVER CIRRHOSIS or portal hypertension (HYPERTENSION, PORTAL), and in the absence of intrinsic renal disease or kidney abnormality.",
+        "key_terms": [
+          "CIRRHOSIS"
+        ],
+        "word_count": 43
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Digestive system disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Digestive system disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Digestive system disease",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmembrane transport of small molecules",
+        "pathway_list": [
+          "Transmembrane transport of small molecules"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.654888",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,3740 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Nervous system disease', 'Signs and symptoms']",
+    "export_timestamp": "2026-03-28T22:11:35.569555",
+    "total_records": 57
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D001037",
+      "DiseaseName": "Aphasia",
+      "DiseaseDescription": "A cognitive disorder marked by an impaired ability to comprehend or express language in its written or spoken form. This condition is caused by diseases which affect the language areas of the dominant hemisphere. Clinical features are used to classify the various subtypes of this condition. General categories include receptive, expressive, and mixed forms of aphasia.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Transcriptional misregulation in cancer",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001037",
+        "standardized_id": "MESH:D001037",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Aphasia",
+        "standardized_name": "Aphasia",
+        "normalized_name": "aphasia",
+        "synonyms": [],
+        "search_terms": [
+          "aphasia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A cognitive disorder marked by an impaired ability to comprehend or express language in its written or spoken form. This condition is caused by diseases which affect the language areas of the dominant hemisphere. Clinical features are used to classify the various subtypes of this condition. General categories include receptive, expressive, and mixed forms of aphasia.",
+        "cleaned_description": "A cognitive disorder marked by an impaired ability to comprehend or express language in its written or spoken form. This condition is caused by diseases which affect the language areas of the dominant hemisphere. Clinical features are used to classify the various subtypes of this condition. General categories include receptive, expressive, and mixed forms of aphasia.",
+        "description_summary": "A cognitive disorder marked by an impaired ability to comprehend or express language in its written or spoken form.",
+        "key_terms": [],
+        "word_count": 56
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transcriptional misregulation in cancer",
+        "pathway_list": [
+          "Transcriptional misregulation in cancer"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Transcriptional misregulation in cancer"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.372777",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D001259",
+      "DiseaseName": "Ataxia",
+      "DiseaseDescription": "Impairment of the ability to perform smoothly coordinated voluntary movements. This condition may affect the limbs, trunk, eyes, pharynx, larynx, and other structures. Ataxia may result from impaired sensory or motor function. Sensory ataxia may result from posterior column injury or PERIPHERAL NERVE DISEASES. Motor ataxia may be associated with CEREBELLAR DISEASES; CEREBRAL CORTEX diseases; THALAMIC DISEASES; BASAL GANGLIA DISEASES; injury to the RED NUCLEUS; and other conditions.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Vitamin C (ascorbate) metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D001259",
+        "standardized_id": "MESH:D001259",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Ataxia",
+        "standardized_name": "Ataxia",
+        "normalized_name": "ataxia",
+        "synonyms": [],
+        "search_terms": [
+          "ataxia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Impairment of the ability to perform smoothly coordinated voluntary movements. This condition may affect the limbs, trunk, eyes, pharynx, larynx, and other structures. Ataxia may result from impaired sensory or motor function. Sensory ataxia may result from posterior column injury or PERIPHERAL NERVE DISEASES. Motor ataxia may be associated with CEREBELLAR DISEASES; CEREBRAL CORTEX diseases; THALAMIC DISEASES; BASAL GANGLIA DISEASES; injury to the RED NUCLEUS; and other conditions.",
+        "cleaned_description": "Impairment of the ability to perform smoothly coordinated voluntary movements. This condition may affect the limbs, trunk, eyes, pharynx, larynx, and other structures. Ataxia may result from impaired sensory or motor function. Sensory ataxia may result from posterior column injury or PERIPHERAL NERVE DISEASES. Motor ataxia may be associated with CEREBELLAR DISEASES; CEREBRAL CORTEX diseases; THALAMIC DISEASES; BASAL GANGLIA DISEASES; injury to the RED NUCLEUS; and other conditions.",
+        "description_summary": "Impairment of the ability to perform smoothly coordinated voluntary movements.",
+        "key_terms": [],
+        "word_count": 68
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vitamin C (ascorbate) metabolism",
+        "pathway_list": [
+          "Vitamin C (ascorbate) metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.380429",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002375",
+      "DiseaseName": "Catalepsy",
+      "DiseaseDescription": "A condition characterized by inactivity, decreased responsiveness to stimuli, and a tendency to maintain an immobile posture. The limbs tend to remain in whatever position they are placed (waxy flexibility). Catalepsy may be associated with PSYCHOTIC DISORDERS (e.g., SCHIZOPHRENIA, CATATONIC), nervous system drug toxicity, and other conditions.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "VLDL interactions",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002375",
+        "standardized_id": "MESH:D002375",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Catalepsy",
+        "standardized_name": "Catalepsy",
+        "normalized_name": "catalepsy",
+        "synonyms": [],
+        "search_terms": [
+          "catalepsy"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition characterized by inactivity, decreased responsiveness to stimuli, and a tendency to maintain an immobile posture. The limbs tend to remain in whatever position they are placed (waxy flexibility). Catalepsy may be associated with PSYCHOTIC DISORDERS (e.g., SCHIZOPHRENIA, CATATONIC), nervous system drug toxicity, and other conditions.",
+        "cleaned_description": "A condition characterized by inactivity, decreased responsiveness to stimuli, and a tendency to maintain an immobile posture. The limbs tend to remain in whatever position they are placed (waxy flexibility). Catalepsy may be associated with PSYCHOTIC DISORDERS (e.g., SCHIZOPHRENIA, CATATONIC), nervous system drug toxicity, and other conditions.",
+        "description_summary": "A condition characterized by inactivity, decreased responsiveness to stimuli, and a tendency to maintain an immobile posture.",
+        "key_terms": [],
+        "word_count": 47
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "VLDL interactions",
+        "pathway_list": [
+          "VLDL interactions"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.431436",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002389",
+      "DiseaseName": "Catatonia",
+      "DiseaseDescription": "A neuropsychiatric disorder characterized by one or more of the following essential features: immobility, mutism, negativism (active or passive refusal to follow commands), mannerisms, stereotypies, posturing, grimacing, excitement, echolalia, echopraxia, muscular rigidity, and stupor; sometimes punctuated by sudden violent outbursts, panic, or hallucinations. This condition may be associated with psychiatric illnesses (e.g., SCHIZOPHRENIA; MOOD DISORDERS) or organic disorders (NEUROLEPTIC MALIGNANT SYNDROME; ENCEPHALITIS, etc.). (From DSM-IV, 4th ed, 1994; APA, Thesaurus of Psychological Index Terms, 1994)",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002389",
+        "standardized_id": "MESH:D002389",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Catatonia",
+        "standardized_name": "Catatonia",
+        "normalized_name": "catatonia",
+        "synonyms": [],
+        "search_terms": [
+          "catatonia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A neuropsychiatric disorder characterized by one or more of the following essential features: immobility, mutism, negativism (active or passive refusal to follow commands), mannerisms, stereotypies, posturing, grimacing, excitement, echolalia, echopraxia, muscular rigidity, and stupor; sometimes punctuated by sudden violent outbursts, panic, or hallucinations. This condition may be associated with psychiatric illnesses (e.g., SCHIZOPHRENIA; MOOD DISORDERS) or organic disorders (NEUROLEPTIC MALIGNANT SYNDROME; ENCEPHALITIS, etc.). (From DSM-IV, 4th ed, 1994; APA, Thesaurus of Psychological Index Terms, 1994)",
+        "cleaned_description": "A neuropsychiatric disorder characterized by one or more of the following essential features: immobility, mutism, negativism (active or passive refusal to follow commands), mannerisms, stereotypies, posturing, grimacing, excitement, echolalia, echopraxia, muscular rigidity, and stupor; sometimes punctuated by sudden violent outbursts, panic, or hallucinations. This condition may be associated with psychiatric illnesses (e.g., SCHIZOPHRENIA; MOOD DISORDERS) or organic disorders (NEUROLEPTIC MALIGNANT SYNDROME; ENCEPHALITIS, etc.). (From DSM-IV, 4th ed, 1994; APA, Thesaurus of Psychological Index Terms, 1994)",
+        "description_summary": "A neuropsychiatric disorder characterized by one or more of the following essential features: immobility, mutism, negativism (active or passive refusal to follow commands), mannerisms, stereotypies, posturing, grimacing, excitement, echolalia, echopraxia, muscular rigidity, and stupor; sometimes pun",
+        "key_terms": [
+          "ENCEPHALITIS"
+        ],
+        "word_count": 75
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.432035",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002524",
+      "DiseaseName": "Cerebellar Ataxia",
+      "DiseaseDescription": "Incoordination of voluntary movements that occur as a manifestation of CEREBELLAR DISEASES. Characteristic features include a tendency for limb movements to overshoot or undershoot a target (dysmetria), a tremor that occurs during attempted movements (intention TREMOR), impaired force and rhythm of diadochokinesis (rapidly alternating movements), and GAIT ATAXIA. (From Adams et al., Principles of Neurology, 6th ed, p90)",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Viral mRNA Translation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002524",
+        "standardized_id": "MESH:D002524",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cerebellar Ataxia",
+        "standardized_name": "Cerebellar Ataxia",
+        "normalized_name": "cerebellar ataxia",
+        "synonyms": [],
+        "search_terms": [
+          "cerebellar",
+          "ataxia",
+          "cerebellar ataxia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Incoordination of voluntary movements that occur as a manifestation of CEREBELLAR DISEASES. Characteristic features include a tendency for limb movements to overshoot or undershoot a target (dysmetria), a tremor that occurs during attempted movements (intention TREMOR), impaired force and rhythm of diadochokinesis (rapidly alternating movements), and GAIT ATAXIA. (From Adams et al., Principles of Neurology, 6th ed, p90)",
+        "cleaned_description": "Incoordination of voluntary movements that occur as a manifestation of CEREBELLAR DISEASES. Characteristic features include a tendency for limb movements to overshoot or undershoot a target (dysmetria), a tremor that occurs during attempted movements (intention TREMOR), impaired force and rhythm of diadochokinesis (rapidly alternating movements), and GAIT ATAXIA. (From Adams et al., Principles of Neurology, 6th ed, p90)",
+        "description_summary": "Incoordination of voluntary movements that occur as a manifestation of CEREBELLAR DISEASES.",
+        "key_terms": [],
+        "word_count": 58
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral mRNA Translation",
+        "pathway_list": [
+          "Viral mRNA Translation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.439067",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002819",
+      "DiseaseName": "Chorea",
+      "DiseaseDescription": "Involuntary, forcible, rapid, jerky movements that may be subtle or become confluent, markedly altering normal patterns of movement. Hypotonia and pendular reflexes are often associated. Conditions which feature recurrent or persistent episodes of chorea as a primary manifestation of disease are referred to as CHOREATIC DISORDERS. Chorea is also a frequent manifestation of BASAL GANGLIA DISEASES.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Transmission across Chemical Synapses",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002819",
+        "standardized_id": "MESH:D002819",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Chorea",
+        "standardized_name": "Chorea",
+        "normalized_name": "chorea",
+        "synonyms": [],
+        "search_terms": [
+          "chorea"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Involuntary, forcible, rapid, jerky movements that may be subtle or become confluent, markedly altering normal patterns of movement. Hypotonia and pendular reflexes are often associated. Conditions which feature recurrent or persistent episodes of chorea as a primary manifestation of disease are referred to as CHOREATIC DISORDERS. Chorea is also a frequent manifestation of BASAL GANGLIA DISEASES.",
+        "cleaned_description": "Involuntary, forcible, rapid, jerky movements that may be subtle or become confluent, markedly altering normal patterns of movement. Hypotonia and pendular reflexes are often associated. Conditions which feature recurrent or persistent episodes of chorea as a primary manifestation of disease are referred to as CHOREATIC DISORDERS. Chorea is also a frequent manifestation of BASAL GANGLIA DISEASES.",
+        "description_summary": "Involuntary, forcible, rapid, jerky movements that may be subtle or become confluent, markedly altering normal patterns of movement.",
+        "key_terms": [],
+        "word_count": 56
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmission across Chemical Synapses",
+        "pathway_list": [
+          "Transmission across Chemical Synapses"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.443706",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003128",
+      "DiseaseName": "Coma",
+      "DiseaseDescription": "A profound state of unconsciousness associated with depressed cerebral activity from which the individual cannot be aroused. Coma generally occurs when there is dysfunction or injury involving both cerebral hemispheres or the brain stem RETICULAR FORMATION.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003128",
+        "standardized_id": "MESH:D003128",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Coma",
+        "standardized_name": "Coma",
+        "normalized_name": "coma",
+        "synonyms": [],
+        "search_terms": [
+          "coma"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A profound state of unconsciousness associated with depressed cerebral activity from which the individual cannot be aroused. Coma generally occurs when there is dysfunction or injury involving both cerebral hemispheres or the brain stem RETICULAR FORMATION.",
+        "cleaned_description": "A profound state of unconsciousness associated with depressed cerebral activity from which the individual cannot be aroused. Coma generally occurs when there is dysfunction or injury involving both cerebral hemispheres or the brain stem RETICULAR FORMATION.",
+        "description_summary": "A profound state of unconsciousness associated with depressed cerebral activity from which the individual cannot be aroused.",
+        "key_terms": [],
+        "word_count": 36
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.449331",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004401",
+      "DiseaseName": "Dysarthria",
+      "DiseaseDescription": "Disorders of speech articulation caused by imperfect coordination of pharynx, larynx, tongue, or face muscles. This may result from CRANIAL NERVE DISEASES; NEUROMUSCULAR DISEASES; CEREBELLAR DISEASES; BASAL GANGLIA DISEASES; BRAIN STEM diseases; or diseases of the corticobulbar tracts (see PYRAMIDAL TRACTS). The cortical language centers are intact in this condition. (From Adams et al., Principles of Neurology, 6th ed, p489)",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004401",
+        "standardized_id": "MESH:D004401",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Dysarthria",
+        "standardized_name": "Dysarthria",
+        "normalized_name": "dysarthria",
+        "synonyms": [],
+        "search_terms": [
+          "dysarthria"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Disorders of speech articulation caused by imperfect coordination of pharynx, larynx, tongue, or face muscles. This may result from CRANIAL NERVE DISEASES; NEUROMUSCULAR DISEASES; CEREBELLAR DISEASES; BASAL GANGLIA DISEASES; BRAIN STEM diseases; or diseases of the corticobulbar tracts (see PYRAMIDAL TRACTS). The cortical language centers are intact in this condition. (From Adams et al., Principles of Neurology, 6th ed, p489)",
+        "cleaned_description": "Disorders of speech articulation caused by imperfect coordination of pharynx, larynx, tongue, or face muscles. This may result from CRANIAL NERVE DISEASES; NEUROMUSCULAR DISEASES; CEREBELLAR DISEASES; BASAL GANGLIA DISEASES; BRAIN STEM diseases; or diseases of the corticobulbar tracts (see PYRAMIDAL TRACTS). The cortical language centers are intact in this condition. (From Adams et al., Principles of Neurology, 6th ed, p489)",
+        "description_summary": "Disorders of speech articulation caused by imperfect coordination of pharynx, larynx, tongue, or face muscles.",
+        "key_terms": [],
+        "word_count": 60
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.487048",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004409",
+      "DiseaseName": "Dyskinesia, Drug-Induced",
+      "DiseaseDescription": "Abnormal movements, including HYPERKINESIS; HYPOKINESIA; TREMOR; and DYSTONIA, associated with the use of certain medications or drugs. Muscles of the face, trunk, neck, and extremities are most commonly affected. Tardive dyskinesia refers to abnormal hyperkinetic movements of the muscles of the face, tongue, and neck associated with the use of neuroleptic agents (see ANTIPSYCHOTIC AGENTS). (Adams et al., Principles of Neurology, 6th ed, p1199)",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Visual phototransduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004409",
+        "standardized_id": "MESH:D004409",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Dyskinesia, Drug-Induced",
+        "standardized_name": "Dyskinesia, Drug-Induced",
+        "normalized_name": "dyskinesia drug-induced",
+        "synonyms": [],
+        "search_terms": [
+          "dyskinesia,",
+          "drug-induced",
+          "dyskinesia, drug-induced"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormal movements, including HYPERKINESIS; HYPOKINESIA; TREMOR; and DYSTONIA, associated with the use of certain medications or drugs. Muscles of the face, trunk, neck, and extremities are most commonly affected. Tardive dyskinesia refers to abnormal hyperkinetic movements of the muscles of the face, tongue, and neck associated with the use of neuroleptic agents (see ANTIPSYCHOTIC AGENTS). (Adams et al., Principles of Neurology, 6th ed, p1199)",
+        "cleaned_description": "Abnormal movements, including HYPERKINESIS; HYPOKINESIA; TREMOR; and DYSTONIA, associated with the use of certain medications or drugs. Muscles of the face, trunk, neck, and extremities are most commonly affected. Tardive dyskinesia refers to abnormal hyperkinetic movements of the muscles of the face, tongue, and neck associated with the use of neuroleptic agents (see ANTIPSYCHOTIC AGENTS). (Adams et al., Principles of Neurology, 6th ed, p1199)",
+        "description_summary": "Abnormal movements, including HYPERKINESIS; HYPOKINESIA; TREMOR; and DYSTONIA, associated with the use of certain medications or drugs.",
+        "key_terms": [],
+        "word_count": 64
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Visual phototransduction",
+        "pathway_list": [
+          "Visual phototransduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.487723",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020820",
+      "DiseaseName": "Dyskinesias",
+      "DiseaseDescription": "Abnormal involuntary movements which primarily affect the extremities, trunk, or jaw that occur as a manifestation of an underlying disease process. Conditions which feature recurrent or persistent episodes of dyskinesia as a primary manifestation of disease may be referred to as dyskinesia syndromes (see MOVEMENT DISORDERS). Dyskinesias are also a relatively common manifestation of BASAL GANGLIA DISEASES.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020820",
+        "standardized_id": "MESH:D020820",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Dyskinesias",
+        "standardized_name": "Dyskinesias",
+        "normalized_name": "dyskinesias",
+        "synonyms": [],
+        "search_terms": [
+          "dyskinesias"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormal involuntary movements which primarily affect the extremities, trunk, or jaw that occur as a manifestation of an underlying disease process. Conditions which feature recurrent or persistent episodes of dyskinesia as a primary manifestation of disease may be referred to as dyskinesia syndromes (see MOVEMENT DISORDERS). Dyskinesias are also a relatively common manifestation of BASAL GANGLIA DISEASES.",
+        "cleaned_description": "Abnormal involuntary movements which primarily affect the extremities, trunk, or jaw that occur as a manifestation of an underlying disease process. Conditions which feature recurrent or persistent episodes of dyskinesia as a primary manifestation of disease may be referred to as dyskinesia syndromes (see MOVEMENT DISORDERS). Dyskinesias are also a relatively common manifestation of BASAL GANGLIA DISEASES.",
+        "description_summary": "Abnormal involuntary movements which primarily affect the extremities, trunk, or jaw that occur as a manifestation of an underlying disease process.",
+        "key_terms": [],
+        "word_count": 57
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds",
+        "pathway_list": [
+          "metal ions and amine compounds",
+          "Transport of glucose and other sugars",
+          "bile salts and organic acids"
+        ],
+        "pathway_count": 3,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.488640",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D004421",
+      "DiseaseName": "Dystonia",
+      "DiseaseDescription": "An attitude or posture due to the co-contraction of agonists and antagonist muscles in one region of the body. It most often affects the large axial muscles of the trunk and limb girdles. Conditions which feature persistent or recurrent episodes of dystonia as a primary manifestation of disease are referred to as DYSTONIC DISORDERS. (Adams et al., Principles of Neurology, 6th ed, p77)",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D004421",
+        "standardized_id": "MESH:D004421",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Dystonia",
+        "standardized_name": "Dystonia",
+        "normalized_name": "dystonia",
+        "synonyms": [],
+        "search_terms": [
+          "dystonia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An attitude or posture due to the co-contraction of agonists and antagonist muscles in one region of the body. It most often affects the large axial muscles of the trunk and limb girdles. Conditions which feature persistent or recurrent episodes of dystonia as a primary manifestation of disease are referred to as DYSTONIC DISORDERS. (Adams et al., Principles of Neurology, 6th ed, p77)",
+        "cleaned_description": "An attitude or posture due to the co-contraction of agonists and antagonist muscles in one region of the body. It most often affects the large axial muscles of the trunk and limb girdles. Conditions which feature persistent or recurrent episodes of dystonia as a primary manifestation of disease are referred to as DYSTONIC DISORDERS. (Adams et al., Principles of Neurology, 6th ed, p77)",
+        "description_summary": "An attitude or posture due to the co-contraction of agonists and antagonist muscles in one region of the body.",
+        "key_terms": [],
+        "word_count": 63
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.490102",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D005207",
+      "DiseaseName": "Fasciculation",
+      "DiseaseDescription": "Involuntary contraction of the muscle fibers innervated by a motor unit. Fasciculations may be visualized as a muscle twitch or dimpling under the skin, but usually do not generate sufficient force to move a limb. They may represent a benign condition or occur as a manifestation of MOTOR NEURON DISEASE or PERIPHERAL NERVOUS SYSTEM DISEASES. (Adams et al., Principles of Neurology, 6th ed, p1294)",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Transmission across Chemical Synapses",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D005207",
+        "standardized_id": "MESH:D005207",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Fasciculation",
+        "standardized_name": "Fasciculation",
+        "normalized_name": "fasciculation",
+        "synonyms": [],
+        "search_terms": [
+          "fasciculation"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Involuntary contraction of the muscle fibers innervated by a motor unit. Fasciculations may be visualized as a muscle twitch or dimpling under the skin, but usually do not generate sufficient force to move a limb. They may represent a benign condition or occur as a manifestation of MOTOR NEURON DISEASE or PERIPHERAL NERVOUS SYSTEM DISEASES. (Adams et al., Principles of Neurology, 6th ed, p1294)",
+        "cleaned_description": "Involuntary contraction of the muscle fibers innervated by a motor unit. Fasciculations may be visualized as a muscle twitch or dimpling under the skin, but usually do not generate sufficient force to move a limb. They may represent a benign condition or occur as a manifestation of MOTOR NEURON DISEASE or PERIPHERAL NERVOUS SYSTEM DISEASES. (Adams et al., Principles of Neurology, 6th ed, p1294)",
+        "description_summary": "Involuntary contraction of the muscle fibers innervated by a motor unit.",
+        "key_terms": [],
+        "word_count": 64
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmission across Chemical Synapses",
+        "pathway_list": [
+          "Transmission across Chemical Synapses"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.517065",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020234",
+      "DiseaseName": "Gait Ataxia",
+      "DiseaseDescription": "Impairment of the ability to coordinate the movements required for normal ambulation (WALKING) which may result from impairments of motor function or sensory feedback. This condition may be associated with BRAIN DISEASES (including CEREBELLAR DISEASES and BASAL GANGLIA DISEASES); SPINAL CORD DISEASES; or PERIPHERAL NERVOUS SYSTEM DISEASES.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Ub-specific processing proteases",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020234",
+        "standardized_id": "MESH:D020234",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Gait Ataxia",
+        "standardized_name": "Gait Ataxia",
+        "normalized_name": "gait ataxia",
+        "synonyms": [],
+        "search_terms": [
+          "ataxia",
+          "gait",
+          "gait ataxia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Impairment of the ability to coordinate the movements required for normal ambulation (WALKING) which may result from impairments of motor function or sensory feedback. This condition may be associated with BRAIN DISEASES (including CEREBELLAR DISEASES and BASAL GANGLIA DISEASES); SPINAL CORD DISEASES; or PERIPHERAL NERVOUS SYSTEM DISEASES.",
+        "cleaned_description": "Impairment of the ability to coordinate the movements required for normal ambulation (WALKING) which may result from impairments of motor function or sensory feedback. This condition may be associated with BRAIN DISEASES (including CEREBELLAR DISEASES and BASAL GANGLIA DISEASES); SPINAL CORD DISEASES; or PERIPHERAL NERVOUS SYSTEM DISEASES.",
+        "description_summary": "Impairment of the ability to coordinate the movements required for normal ambulation (WALKING) which may result from impairments of motor function or sensory feedback.",
+        "key_terms": [],
+        "word_count": 47
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Ub-specific processing proteases",
+        "pathway_list": [
+          "Ub-specific processing proteases"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.531459",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020233",
+      "DiseaseName": "Gait Disorders, Neurologic",
+      "DiseaseDescription": "Gait abnormalities that are a manifestation of nervous system dysfunction. These conditions may be caused by a wide variety of disorders which affect motor control, sensory feedback, and muscle strength including: CENTRAL NERVOUS SYSTEM DISEASES; PERIPHERAL NERVOUS SYSTEM DISEASES; NEUROMUSCULAR DISEASES; or MUSCULAR DISEASES.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Signal transduction by L1",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020233",
+        "standardized_id": "MESH:D020233",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Gait Disorders, Neurologic",
+        "standardized_name": "Gait Disorders, Neurologic",
+        "normalized_name": "gait disorders neurologic",
+        "synonyms": [],
+        "search_terms": [
+          "gait disorders, neurologic",
+          "neurologic",
+          "gait",
+          "disorders,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Gait abnormalities that are a manifestation of nervous system dysfunction. These conditions may be caused by a wide variety of disorders which affect motor control, sensory feedback, and muscle strength including: CENTRAL NERVOUS SYSTEM DISEASES; PERIPHERAL NERVOUS SYSTEM DISEASES; NEUROMUSCULAR DISEASES; or MUSCULAR DISEASES.",
+        "cleaned_description": "Gait abnormalities that are a manifestation of nervous system dysfunction. These conditions may be caused by a wide variety of disorders which affect motor control, sensory feedback, and muscle strength including: CENTRAL NERVOUS SYSTEM DISEASES; PERIPHERAL NERVOUS SYSTEM DISEASES; NEUROMUSCULAR DISEASES; or MUSCULAR DISEASES.",
+        "description_summary": "Gait abnormalities that are a manifestation of nervous system dysfunction.",
+        "key_terms": [],
+        "word_count": 44
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal transduction by L1",
+        "pathway_list": [
+          "Signal transduction by L1"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.531785",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006212",
+      "DiseaseName": "Hallucinations",
+      "DiseaseDescription": "Subjectively experienced sensations in the absence of an appropriate stimulus, but which are regarded by the individual as real. They may be of organic origin or associated with MENTAL DISORDERS.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006212",
+        "standardized_id": "MESH:D006212",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hallucinations",
+        "standardized_name": "Hallucinations",
+        "normalized_name": "hallucinations",
+        "synonyms": [],
+        "search_terms": [
+          "hallucinations"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Subjectively experienced sensations in the absence of an appropriate stimulus, but which are regarded by the individual as real. They may be of organic origin or associated with MENTAL DISORDERS.",
+        "cleaned_description": "Subjectively experienced sensations in the absence of an appropriate stimulus, but which are regarded by the individual as real. They may be of organic origin or associated with MENTAL DISORDERS.",
+        "description_summary": "Subjectively experienced sensations in the absence of an appropriate stimulus, but which are regarded by the individual as real.",
+        "key_terms": [],
+        "word_count": 30
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.604362",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006429",
+      "DiseaseName": "Hemiplegia",
+      "DiseaseDescription": "Severe or complete loss of motor function on one side of the body. This condition is usually caused by BRAIN DISEASES that are localized to the cerebral hemisphere opposite to the side of weakness. Less frequently, BRAIN STEM lesions; cervical SPINAL CORD DISEASES; PERIPHERAL NERVOUS SYSTEM DISEASES; and other conditions may manifest as hemiplegia. The term hemiparesis (see PARESIS) refers to mild to moderate weakness involving one side of the body.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Transport to the Golgi and subsequent modification",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006429",
+        "standardized_id": "MESH:D006429",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hemiplegia",
+        "standardized_name": "Hemiplegia",
+        "normalized_name": "hemiplegia",
+        "synonyms": [],
+        "search_terms": [
+          "hemiplegia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Severe or complete loss of motor function on one side of the body. This condition is usually caused by BRAIN DISEASES that are localized to the cerebral hemisphere opposite to the side of weakness. Less frequently, BRAIN STEM lesions; cervical SPINAL CORD DISEASES; PERIPHERAL NERVOUS SYSTEM DISEASES; and other conditions may manifest as hemiplegia. The term hemiparesis (see PARESIS) refers to mild to moderate weakness involving one side of the body.",
+        "cleaned_description": "Severe or complete loss of motor function on one side of the body. This condition is usually caused by BRAIN DISEASES that are localized to the cerebral hemisphere opposite to the side of weakness. Less frequently, BRAIN STEM lesions; cervical SPINAL CORD DISEASES; PERIPHERAL NERVOUS SYSTEM DISEASES; and other conditions may manifest as hemiplegia. The term hemiparesis (see PARESIS) refers to mild to moderate weakness involving one side of the body.",
+        "description_summary": "Severe or complete loss of motor function on one side of the body.",
+        "key_terms": [],
+        "word_count": 71
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport to the Golgi and subsequent modification",
+        "pathway_list": [
+          "Transport to the Golgi and subsequent modification"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.643267",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006930",
+      "DiseaseName": "Hyperalgesia",
+      "DiseaseDescription": "An increased sensation of pain or discomfort produced by minimally noxious stimuli due to damage to soft tissue containing NOCICEPTORS or injury to a peripheral nerve.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006930",
+        "standardized_id": "MESH:D006930",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperalgesia",
+        "standardized_name": "Hyperalgesia",
+        "normalized_name": "hyperalgesia",
+        "synonyms": [],
+        "search_terms": [
+          "hyperalgesia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An increased sensation of pain or discomfort produced by minimally noxious stimuli due to damage to soft tissue containing NOCICEPTORS or injury to a peripheral nerve.",
+        "cleaned_description": "An increased sensation of pain or discomfort produced by minimally noxious stimuli due to damage to soft tissue containing NOCICEPTORS or injury to a peripheral nerve.",
+        "description_summary": "An increased sensation of pain or discomfort produced by minimally noxious stimuli due to damage to soft tissue containing NOCICEPTORS or injury to a peripheral nerve.",
+        "key_terms": [],
+        "word_count": 26
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.673620",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006941",
+      "DiseaseName": "Hyperesthesia",
+      "DiseaseDescription": "Increased sensitivity to cutaneous stimulation due to a diminished threshold or an increased response to stimuli.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006941",
+        "standardized_id": "MESH:D006941",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperesthesia",
+        "standardized_name": "Hyperesthesia",
+        "normalized_name": "hyperesthesia",
+        "synonyms": [],
+        "search_terms": [
+          "hyperesthesia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Increased sensitivity to cutaneous stimulation due to a diminished threshold or an increased response to stimuli.",
+        "cleaned_description": "Increased sensitivity to cutaneous stimulation due to a diminished threshold or an increased response to stimuli.",
+        "description_summary": "Increased sensitivity to cutaneous stimulation due to a diminished threshold or an increased response to stimuli.",
+        "key_terms": [],
+        "word_count": 16
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.678056",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006948",
+      "DiseaseName": "Hyperkinesis",
+      "DiseaseDescription": "Excessive movement of muscles of the body as a whole, which may be associated with organic or psychological disorders.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006948",
+        "standardized_id": "MESH:D006948",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hyperkinesis",
+        "standardized_name": "Hyperkinesis",
+        "normalized_name": "hyperkinesis",
+        "synonyms": [],
+        "search_terms": [
+          "hyperkinesis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Excessive movement of muscles of the body as a whole, which may be associated with organic or psychological disorders.",
+        "cleaned_description": "Excessive movement of muscles of the body as a whole, which may be associated with organic or psychological disorders.",
+        "description_summary": "Excessive movement of muscles of the body as a whole, which may be associated with organic or psychological disorders.",
+        "key_terms": [],
+        "word_count": 19
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.727279",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D018476",
+      "DiseaseName": "Hypokinesia",
+      "DiseaseDescription": "Slow or diminished movement of body musculature. It may be associated with BASAL GANGLIA DISEASES; MENTAL DISORDERS; prolonged inactivity due to illness; and other conditions.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Zinc transporters",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018476",
+        "standardized_id": "MESH:D018476",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypokinesia",
+        "standardized_name": "Hypokinesia",
+        "normalized_name": "hypokinesia",
+        "synonyms": [],
+        "search_terms": [
+          "hypokinesia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Slow or diminished movement of body musculature. It may be associated with BASAL GANGLIA DISEASES; MENTAL DISORDERS; prolonged inactivity due to illness; and other conditions.",
+        "cleaned_description": "Slow or diminished movement of body musculature. It may be associated with BASAL GANGLIA DISEASES; MENTAL DISORDERS; prolonged inactivity due to illness; and other conditions.",
+        "description_summary": "Slow or diminished movement of body musculature.",
+        "key_terms": [],
+        "word_count": 25
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Zinc transporters",
+        "pathway_list": [
+          "Zinc transporters"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.774657",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D002534",
+      "DiseaseName": "Hypoxia, Brain",
+      "DiseaseDescription": "A reduction in brain oxygen supply due to ANOXEMIA (a reduced amount of oxygen being carried in the blood by HEMOGLOBIN), or to a restriction of the blood supply to the brain, or both. Severe hypoxia is referred to as anoxia and is a relatively common cause of injury to the central nervous system. Prolonged brain anoxia may lead to BRAIN DEATH or a PERSISTENT VEGETATIVE STATE. Histologically, this condition is characterized by neuronal loss which is most prominent in the HIPPOCAMPUS; GLOBUS PALLIDUS; CEREBELLUM; and inferior olives.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002534",
+        "standardized_id": "MESH:D002534",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hypoxia, Brain",
+        "standardized_name": "Hypoxia, Brain",
+        "normalized_name": "hypoxia brain",
+        "synonyms": [],
+        "search_terms": [
+          "hypoxia,",
+          "brain",
+          "hypoxia, brain"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A reduction in brain oxygen supply due to ANOXEMIA (a reduced amount of oxygen being carried in the blood by HEMOGLOBIN), or to a restriction of the blood supply to the brain, or both. Severe hypoxia is referred to as anoxia and is a relatively common cause of injury to the central nervous system. Prolonged brain anoxia may lead to BRAIN DEATH or a PERSISTENT VEGETATIVE STATE. Histologically, this condition is characterized by neuronal loss which is most prominent in the HIPPOCAMPUS; GLOBUS PALLIDUS; CEREBELLUM; and inferior olives.",
+        "cleaned_description": "A reduction in brain oxygen supply due to ANOXEMIA (a reduced amount of oxygen being carried in the blood by HEMOGLOBIN), or to a restriction of the blood supply to the brain, or both. Severe hypoxia is referred to as anoxia and is a relatively common cause of injury to the central nervous system. Prolonged brain anoxia may lead to BRAIN DEATH or a PERSISTENT VEGETATIVE STATE. Histologically, this condition is characterized by neuronal loss which is most prominent in the HIPPOCAMPUS; GLOBUS PALLIDUS; CEREBELLUM; and inferior olives.",
+        "description_summary": "A reduction in brain oxygen supply due to ANOXEMIA (a reduced amount of oxygen being carried in the blood by HEMOGLOBIN), or to a restriction of the blood supply to the brain, or both.",
+        "key_terms": [
+          "ANOXEMIA"
+        ],
+        "word_count": 88
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.780073",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007805",
+      "DiseaseName": "Language Development Disorders",
+      "DiseaseDescription": "Conditions characterized by language abilities (comprehension and expression of speech and writing) that are below the expected level for a given age, generally in the absence of an intellectual impairment. These conditions may be associated with DEAFNESS; BRAIN DISEASES; MENTAL DISORDERS; or environmental factors.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Voltage gated Potassium channels",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007805",
+        "standardized_id": "MESH:D007805",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Language Development Disorders",
+        "standardized_name": "Language Development Disorders",
+        "normalized_name": "language development disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "development",
+          "language development disorders",
+          "language"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Conditions characterized by language abilities (comprehension and expression of speech and writing) that are below the expected level for a given age, generally in the absence of an intellectual impairment. These conditions may be associated with DEAFNESS; BRAIN DISEASES; MENTAL DISORDERS; or environmental factors.",
+        "cleaned_description": "Conditions characterized by language abilities (comprehension and expression of speech and writing) that are below the expected level for a given age, generally in the absence of an intellectual impairment. These conditions may be associated with DEAFNESS; BRAIN DISEASES; MENTAL DISORDERS; or environmental factors.",
+        "description_summary": "Conditions characterized by language abilities (comprehension and expression of speech and writing) that are below the expected level for a given age, generally in the absence of an intellectual impairment.",
+        "key_terms": [],
+        "word_count": 44
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Voltage gated Potassium channels",
+        "pathway_list": [
+          "Voltage gated Potassium channels"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.800418",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007806",
+      "DiseaseName": "Language Disorders",
+      "DiseaseDescription": "Conditions characterized by deficiencies of comprehension or expression of written and spoken forms of language. These include acquired and developmental disorders.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007806",
+        "standardized_id": "MESH:D007806",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Language Disorders",
+        "standardized_name": "Language Disorders",
+        "normalized_name": "language disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "language disorders",
+          "language"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Conditions characterized by deficiencies of comprehension or expression of written and spoken forms of language. These include acquired and developmental disorders.",
+        "cleaned_description": "Conditions characterized by deficiencies of comprehension or expression of written and spoken forms of language. These include acquired and developmental disorders.",
+        "description_summary": "Conditions characterized by deficiencies of comprehension or expression of written and spoken forms of language.",
+        "key_terms": [],
+        "word_count": 21
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.803026",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D053609",
+      "DiseaseName": "Lethargy",
+      "DiseaseDescription": "A general state of sluggishness, listless, or uninterested, with being tired, and having difficulty concentrating and doing simple tasks. It may be related to DEPRESSION or DRUG ADDICTION.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Valine, leucine and isoleucine degradation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D053609",
+        "standardized_id": "MESH:D053609",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Lethargy",
+        "standardized_name": "Lethargy",
+        "normalized_name": "lethargy",
+        "synonyms": [],
+        "search_terms": [
+          "lethargy"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A general state of sluggishness, listless, or uninterested, with being tired, and having difficulty concentrating and doing simple tasks. It may be related to DEPRESSION or DRUG ADDICTION.",
+        "cleaned_description": "A general state of sluggishness, listless, or uninterested, with being tired, and having difficulty concentrating and doing simple tasks. It may be related to DEPRESSION or DRUG ADDICTION.",
+        "description_summary": "A general state of sluggishness, listless, or uninterested, with being tired, and having difficulty concentrating and doing simple tasks.",
+        "key_terms": [],
+        "word_count": 28
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Valine, leucine and isoleucine degradation",
+        "pathway_list": [
+          "leucine and isoleucine degradation",
+          "Valine"
+        ],
+        "pathway_count": 2,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.807161",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008569",
+      "DiseaseName": "Memory Disorders",
+      "DiseaseDescription": "Disturbances in registering an impression, in the retention of an acquired impression, or in the recall of an impression. Memory impairments are associated with DEMENTIA; CRANIOCEREBRAL TRAUMA; ENCEPHALITIS; ALCOHOLISM (see also ALCOHOL AMNESTIC DISORDER); SCHIZOPHRENIA; and other conditions.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008569",
+        "standardized_id": "MESH:D008569",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Memory Disorders",
+        "standardized_name": "Memory Disorders",
+        "normalized_name": "memory disorders",
+        "synonyms": [],
+        "search_terms": [
+          "memory disorders",
+          "memory",
+          "disorders"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Disturbances in registering an impression, in the retention of an acquired impression, or in the recall of an impression. Memory impairments are associated with DEMENTIA; CRANIOCEREBRAL TRAUMA; ENCEPHALITIS; ALCOHOLISM (see also ALCOHOL AMNESTIC DISORDER); SCHIZOPHRENIA; and other conditions.",
+        "cleaned_description": "Disturbances in registering an impression, in the retention of an acquired impression, or in the recall of an impression. Memory impairments are associated with DEMENTIA; CRANIOCEREBRAL TRAUMA; ENCEPHALITIS; ALCOHOLISM (see also ALCOHOL AMNESTIC DISORDER); SCHIZOPHRENIA; and other conditions.",
+        "description_summary": "Disturbances in registering an impression, in the retention of an acquired impression, or in the recall of an impression.",
+        "key_terms": [
+          "ENCEPHALITIS"
+        ],
+        "word_count": 38
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.841689",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D008580",
+      "DiseaseName": "Meningism",
+      "DiseaseDescription": "A condition characterized by neck stiffness, headache, and other symptoms suggestive of meningeal irritation, but without actual inflammation of the meninges (MENINGITIS). Spinal fluid pressure may be elevated but spinal fluid is normal. (DeJong, The Neurologic Examination, 4th ed, p673)",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Tuberculosis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008580",
+        "standardized_id": "MESH:D008580",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Meningism",
+        "standardized_name": "Meningism",
+        "normalized_name": "meningism",
+        "synonyms": [],
+        "search_terms": [
+          "meningism"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition characterized by neck stiffness, headache, and other symptoms suggestive of meningeal irritation, but without actual inflammation of the meninges (MENINGITIS). Spinal fluid pressure may be elevated but spinal fluid is normal. (DeJong, The Neurologic Examination, 4th ed, p673)",
+        "cleaned_description": "A condition characterized by neck stiffness, headache, and other symptoms suggestive of meningeal irritation, but without actual inflammation of the meninges (MENINGITIS). Spinal fluid pressure may be elevated but spinal fluid is normal. (DeJong, The Neurologic Examination, 4th ed, p673)",
+        "description_summary": "A condition characterized by neck stiffness, headache, and other symptoms suggestive of meningeal irritation, but without actual inflammation of the meninges (MENINGITIS).",
+        "key_terms": [
+          "MENINGITIS"
+        ],
+        "word_count": 40
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tuberculosis",
+        "pathway_list": [
+          "Tuberculosis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.842472",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009122",
+      "DiseaseName": "Muscle Hypertonia",
+      "DiseaseDescription": "Abnormal increase in skeletal or smooth muscle tone. Skeletal muscle hypertonicity may be associated with PYRAMIDAL TRACT lesions or BASAL GANGLIA DISEASES.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Vasopressin-like receptors",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009122",
+        "standardized_id": "MESH:D009122",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Muscle Hypertonia",
+        "standardized_name": "Muscle Hypertonia",
+        "normalized_name": "muscle hypertonia",
+        "synonyms": [],
+        "search_terms": [
+          "hypertonia",
+          "muscle",
+          "muscle hypertonia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormal increase in skeletal or smooth muscle tone. Skeletal muscle hypertonicity may be associated with PYRAMIDAL TRACT lesions or BASAL GANGLIA DISEASES.",
+        "cleaned_description": "Abnormal increase in skeletal or smooth muscle tone. Skeletal muscle hypertonicity may be associated with PYRAMIDAL TRACT lesions or BASAL GANGLIA DISEASES.",
+        "description_summary": "Abnormal increase in skeletal or smooth muscle tone.",
+        "key_terms": [],
+        "word_count": 22
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vasopressin-like receptors",
+        "pathway_list": [
+          "Vasopressin-like receptors"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.859841",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009123",
+      "DiseaseName": "Muscle Hypotonia",
+      "DiseaseDescription": "A diminution of the skeletal muscle tone marked by a diminished resistance to passive stretching.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Valine, leucine and isoleucine degradation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009123",
+        "standardized_id": "MESH:D009123",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Muscle Hypotonia",
+        "standardized_name": "Muscle Hypotonia",
+        "normalized_name": "muscle hypotonia",
+        "synonyms": [],
+        "search_terms": [
+          "hypotonia",
+          "muscle",
+          "muscle hypotonia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A diminution of the skeletal muscle tone marked by a diminished resistance to passive stretching.",
+        "cleaned_description": "A diminution of the skeletal muscle tone marked by a diminished resistance to passive stretching.",
+        "description_summary": "A diminution of the skeletal muscle tone marked by a diminished resistance to passive stretching.",
+        "key_terms": [],
+        "word_count": 15
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Valine, leucine and isoleucine degradation",
+        "pathway_list": [
+          "leucine and isoleucine degradation",
+          "Valine"
+        ],
+        "pathway_count": 2,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.859945",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009222",
+      "DiseaseName": "Myotonia",
+      "DiseaseDescription": "Prolonged failure of muscle relaxation after contraction. This may occur after voluntary contractions, muscle percussion, or electrical stimulation of the muscle. Myotonia is a characteristic feature of MYOTONIC DISORDERS.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Phase 0 - rapid depolarisation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009222",
+        "standardized_id": "MESH:D009222",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Myotonia",
+        "standardized_name": "Myotonia",
+        "normalized_name": "myotonia",
+        "synonyms": [],
+        "search_terms": [
+          "myotonia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Prolonged failure of muscle relaxation after contraction. This may occur after voluntary contractions, muscle percussion, or electrical stimulation of the muscle. Myotonia is a characteristic feature of MYOTONIC DISORDERS.",
+        "cleaned_description": "Prolonged failure of muscle relaxation after contraction. This may occur after voluntary contractions, muscle percussion, or electrical stimulation of the muscle. Myotonia is a characteristic feature of MYOTONIC DISORDERS.",
+        "description_summary": "Prolonged failure of muscle relaxation after contraction.",
+        "key_terms": [],
+        "word_count": 29
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Phase 0 - rapid depolarisation",
+        "pathway_list": [
+          "Phase 0 - rapid depolarisation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.864793",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009437",
+      "DiseaseName": "Neuralgia",
+      "DiseaseDescription": "Intense or aching pain that occurs along the course or distribution of a peripheral or cranial nerve.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009437",
+        "standardized_id": "MESH:D009437",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Neuralgia",
+        "standardized_name": "Neuralgia",
+        "normalized_name": "neuralgia",
+        "synonyms": [],
+        "search_terms": [
+          "neuralgia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Intense or aching pain that occurs along the course or distribution of a peripheral or cranial nerve.",
+        "cleaned_description": "Intense or aching pain that occurs along the course or distribution of a peripheral or cranial nerve.",
+        "description_summary": "Intense or aching pain that occurs along the course or distribution of a peripheral or cranial nerve.",
+        "key_terms": [],
+        "word_count": 17
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.878742",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D051474",
+      "DiseaseName": "Neuralgia, Postherpetic",
+      "DiseaseDescription": "Pain in nerves, frequently involving facial SKIN, resulting from the activation the latent varicella-zoster virus (HERPESVIRUS 3, HUMAN). The two forms of the condition preceding the pain are HERPES ZOSTER OTICUS; and HERPES ZOSTER OPHTHALMICUS. Following the healing of the rashes and blisters, the pain sometimes persists.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Unfolded Protein Response (UPR)",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D051474",
+        "standardized_id": "MESH:D051474",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Neuralgia, Postherpetic",
+        "standardized_name": "Neuralgia, Postherpetic",
+        "normalized_name": "neuralgia postherpetic",
+        "synonyms": [],
+        "search_terms": [
+          "neuralgia,",
+          "neuralgia, postherpetic",
+          "postherpetic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pain in nerves, frequently involving facial SKIN, resulting from the activation the latent varicella-zoster virus (HERPESVIRUS 3, HUMAN). The two forms of the condition preceding the pain are HERPES ZOSTER OTICUS; and HERPES ZOSTER OPHTHALMICUS. Following the healing of the rashes and blisters, the pain sometimes persists.",
+        "cleaned_description": "Pain in nerves, frequently involving facial SKIN, resulting from the activation the latent varicella-zoster virus (HERPESVIRUS 3, HUMAN). The two forms of the condition preceding the pain are HERPES ZOSTER OTICUS; and HERPES ZOSTER OPHTHALMICUS. Following the healing of the rashes and blisters, the pain sometimes persists.",
+        "description_summary": "Pain in nerves, frequently involving facial SKIN, resulting from the activation the latent varicella-zoster virus (HERPESVIRUS 3, HUMAN).",
+        "key_terms": [],
+        "word_count": 47
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Unfolded Protein Response (UPR)",
+        "pathway_list": [
+          "Unfolded Protein Response (UPR)"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.879064",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D019954",
+      "DiseaseName": "Neurobehavioral Manifestations",
+      "DiseaseDescription": "Signs and symptoms of higher cortical dysfunction caused by organic conditions. These include certain behavioral alterations and impairments of skills involved in the acquisition, processing, and utilization of knowledge or information.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Visual phototransduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D019954",
+        "standardized_id": "MESH:D019954",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Neurobehavioral Manifestations",
+        "standardized_name": "Neurobehavioral Manifestations",
+        "normalized_name": "neurobehavioral manifestations",
+        "synonyms": [],
+        "search_terms": [
+          "neurobehavioral",
+          "manifestations",
+          "neurobehavioral manifestations"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Signs and symptoms of higher cortical dysfunction caused by organic conditions. These include certain behavioral alterations and impairments of skills involved in the acquisition, processing, and utilization of knowledge or information.",
+        "cleaned_description": "Signs and symptoms of higher cortical dysfunction caused by organic conditions. These include certain behavioral alterations and impairments of skills involved in the acquisition, processing, and utilization of knowledge or information.",
+        "description_summary": "Signs and symptoms of higher cortical dysfunction caused by organic conditions.",
+        "key_terms": [],
+        "word_count": 31
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Visual phototransduction",
+        "pathway_list": [
+          "Visual phototransduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.880578",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D009461",
+      "DiseaseName": "Neurologic Manifestations",
+      "DiseaseDescription": "Clinical signs and symptoms caused by nervous system injury or dysfunction.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009461",
+        "standardized_id": "MESH:D009461",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Neurologic Manifestations",
+        "standardized_name": "Neurologic Manifestations",
+        "normalized_name": "neurologic manifestations",
+        "synonyms": [],
+        "search_terms": [
+          "neurologic",
+          "manifestations",
+          "neurologic manifestations"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Clinical signs and symptoms caused by nervous system injury or dysfunction.",
+        "cleaned_description": "Clinical signs and symptoms caused by nervous system injury or dysfunction.",
+        "description_summary": "Clinical signs and symptoms caused by nervous system injury or dysfunction.",
+        "key_terms": [],
+        "word_count": 11
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.883606",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020879",
+      "DiseaseName": "Neuromuscular Manifestations",
+      "DiseaseDescription": "Signs and symptoms associated with diseases of the muscle, neuromuscular junction, or peripheral nerves.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020879",
+        "standardized_id": "MESH:D020879",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Neuromuscular Manifestations",
+        "standardized_name": "Neuromuscular Manifestations",
+        "normalized_name": "neuromuscular manifestations",
+        "synonyms": [],
+        "search_terms": [
+          "neuromuscular",
+          "manifestations",
+          "neuromuscular manifestations"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Signs and symptoms associated with diseases of the muscle, neuromuscular junction, or peripheral nerves.",
+        "cleaned_description": "Signs and symptoms associated with diseases of the muscle, neuromuscular junction, or peripheral nerves.",
+        "description_summary": "Signs and symptoms associated with diseases of the muscle, neuromuscular junction, or peripheral nerves.",
+        "key_terms": [],
+        "word_count": 14
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.887054",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D000857",
+      "DiseaseName": "Olfaction Disorders",
+      "DiseaseDescription": "Impaired ability to smell. This may be caused by OLFACTORY NERVE DISEASES; PARANASAL SINUS DISEASES; viral RESPIRATORY TRACT INFECTIONS; CRANIOCEREBRAL TRAUMA; SMOKING; and other conditions.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D000857",
+        "standardized_id": "MESH:D000857",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Olfaction Disorders",
+        "standardized_name": "Olfaction Disorders",
+        "normalized_name": "olfaction disorders",
+        "synonyms": [],
+        "search_terms": [
+          "olfaction disorders",
+          "olfaction",
+          "disorders"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Impaired ability to smell. This may be caused by OLFACTORY NERVE DISEASES; PARANASAL SINUS DISEASES; viral RESPIRATORY TRACT INFECTIONS; CRANIOCEREBRAL TRAUMA; SMOKING; and other conditions.",
+        "cleaned_description": "Impaired ability to smell. This may be caused by OLFACTORY NERVE DISEASES; PARANASAL SINUS DISEASES; viral RESPIRATORY TRACT INFECTIONS; CRANIOCEREBRAL TRAUMA; SMOKING; and other conditions.",
+        "description_summary": "Impaired ability to smell.",
+        "key_terms": [],
+        "word_count": 25
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.890826",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D054971",
+      "DiseaseName": "Orthostatic Intolerance",
+      "DiseaseDescription": "Symptoms of cerebral hypoperfusion or autonomic overaction which develop while the subject is standing, but are relieved on recumbency. Types of this include NEUROCARDIOGENIC SYNCOPE; POSTURAL ORTHOSTATIC TACHYCARDIA SYNDROME; and neurogenic ORTHOSTATIC HYPOTENSION. (From Noseworthy, JH., Neurological Therapeutics Principles and Practice, 2007, p2575-2576)",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D054971",
+        "standardized_id": "MESH:D054971",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Orthostatic Intolerance",
+        "standardized_name": "Orthostatic Intolerance",
+        "normalized_name": "orthostatic intolerance",
+        "synonyms": [],
+        "search_terms": [
+          "intolerance",
+          "orthostatic intolerance",
+          "orthostatic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Symptoms of cerebral hypoperfusion or autonomic overaction which develop while the subject is standing, but are relieved on recumbency. Types of this include NEUROCARDIOGENIC SYNCOPE; POSTURAL ORTHOSTATIC TACHYCARDIA SYNDROME; and neurogenic ORTHOSTATIC HYPOTENSION. (From Noseworthy, JH., Neurological Therapeutics Principles and Practice, 2007, p2575-2576)",
+        "cleaned_description": "Symptoms of cerebral hypoperfusion or autonomic overaction which develop while the subject is standing, but are relieved on recumbency. Types of this include NEUROCARDIOGENIC SYNCOPE; POSTURAL ORTHOSTATIC TACHYCARDIA SYNDROME; and neurogenic ORTHOSTATIC HYPOTENSION. (From Noseworthy, JH., Neurological Therapeutics Principles and Practice, 2007, p2575-2576)",
+        "description_summary": "Symptoms of cerebral hypoperfusion or autonomic overaction which develop while the subject is standing, but are relieved on recumbency.",
+        "key_terms": [
+          "NEUROCARDIOGENIC",
+          "neurogenic"
+        ],
+        "word_count": 43
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds",
+        "pathway_list": [
+          "metal ions and amine compounds",
+          "Transport of glucose and other sugars",
+          "bile salts and organic acids"
+        ],
+        "pathway_count": 3,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.897188",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010243",
+      "DiseaseName": "Paralysis",
+      "DiseaseDescription": "A general term most often used to describe severe or complete loss of muscle strength due to motor system disease from the level of the cerebral cortex to the muscle fiber. This term may also occasionally refer to a loss of sensory function. (From Adams et al., Principles of Neurology, 6th ed, p45)",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010243",
+        "standardized_id": "MESH:D010243",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Paralysis",
+        "standardized_name": "Paralysis",
+        "normalized_name": "paralysis",
+        "synonyms": [],
+        "search_terms": [
+          "paralysis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A general term most often used to describe severe or complete loss of muscle strength due to motor system disease from the level of the cerebral cortex to the muscle fiber. This term may also occasionally refer to a loss of sensory function. (From Adams et al., Principles of Neurology, 6th ed, p45)",
+        "cleaned_description": "A general term most often used to describe severe or complete loss of muscle strength due to motor system disease from the level of the cerebral cortex to the muscle fiber. This term may also occasionally refer to a loss of sensory function. (From Adams et al., Principles of Neurology, 6th ed, p45)",
+        "description_summary": "A general term most often used to describe severe or complete loss of muscle strength due to motor system disease from the level of the cerebral cortex to the muscle fiber.",
+        "key_terms": [],
+        "word_count": 53
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.907742",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010291",
+      "DiseaseName": "Paresis",
+      "DiseaseDescription": "A general term referring to a mild to moderate degree of muscular weakness, occasionally used as a synonym for PARALYSIS (severe or complete loss of motor function). In the older literature, paresis often referred specifically to paretic neurosyphilis (see NEUROSYPHILIS). 'General paresis' and 'general paralysis' may still carry that connotation. Bilateral lower extremity paresis is referred to as PARAPARESIS.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Transmission across Chemical Synapses",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010291",
+        "standardized_id": "MESH:D010291",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Paresis",
+        "standardized_name": "Paresis",
+        "normalized_name": "paresis",
+        "synonyms": [],
+        "search_terms": [
+          "paresis"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A general term referring to a mild to moderate degree of muscular weakness, occasionally used as a synonym for PARALYSIS (severe or complete loss of motor function). In the older literature, paresis often referred specifically to paretic neurosyphilis (see NEUROSYPHILIS). 'General paresis' and 'general paralysis' may still carry that connotation. Bilateral lower extremity paresis is referred to as PARAPARESIS.",
+        "cleaned_description": "A general term referring to a mild to moderate degree of muscular weakness, occasionally used as a synonym for PARALYSIS (severe or complete loss of motor function). In the older literature, paresis often referred specifically to paretic neurosyphilis (see NEUROSYPHILIS). 'General paresis' and 'general paralysis' may still carry that connotation. Bilateral lower extremity paresis is referred to as PARAPARESIS.",
+        "description_summary": "A general term referring to a mild to moderate degree of muscular weakness, occasionally used as a synonym for PARALYSIS (severe or complete loss of motor function).",
+        "key_terms": [],
+        "word_count": 59
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmission across Chemical Synapses",
+        "pathway_list": [
+          "Transmission across Chemical Synapses"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.909146",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D010292",
+      "DiseaseName": "Paresthesia",
+      "DiseaseDescription": "Subjective cutaneous sensations (e.g., cold, warmth, tingling, pressure, etc.) that are experienced spontaneously in the absence of stimulation.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D010292",
+        "standardized_id": "MESH:D010292",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Paresthesia",
+        "standardized_name": "Paresthesia",
+        "normalized_name": "paresthesia",
+        "synonyms": [],
+        "search_terms": [
+          "paresthesia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Subjective cutaneous sensations (e.g., cold, warmth, tingling, pressure, etc.) that are experienced spontaneously in the absence of stimulation.",
+        "cleaned_description": "Subjective cutaneous sensations (e.g., cold, warmth, tingling, pressure, etc.) that are experienced spontaneously in the absence of stimulation.",
+        "description_summary": "Subjective cutaneous sensations (e.",
+        "key_terms": [],
+        "word_count": 18
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.909383",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011595",
+      "DiseaseName": "Psychomotor Agitation",
+      "DiseaseDescription": "A feeling of restlessness associated with increased motor activity. This may occur as a manifestation of nervous system drug toxicity or other conditions.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Vascular smooth muscle contraction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011595",
+        "standardized_id": "MESH:D011595",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Psychomotor Agitation",
+        "standardized_name": "Psychomotor Agitation",
+        "normalized_name": "psychomotor agitation",
+        "synonyms": [],
+        "search_terms": [
+          "psychomotor agitation",
+          "agitation",
+          "psychomotor"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A feeling of restlessness associated with increased motor activity. This may occur as a manifestation of nervous system drug toxicity or other conditions.",
+        "cleaned_description": "A feeling of restlessness associated with increased motor activity. This may occur as a manifestation of nervous system drug toxicity or other conditions.",
+        "description_summary": "A feeling of restlessness associated with increased motor activity.",
+        "key_terms": [],
+        "word_count": 23
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vascular smooth muscle contraction",
+        "pathway_list": [
+          "Vascular smooth muscle contraction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.938438",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011596",
+      "DiseaseName": "Psychomotor Disorders",
+      "DiseaseDescription": "Abnormalities of motor function that are associated with organic and non-organic cognitive disorders.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011596",
+        "standardized_id": "MESH:D011596",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Psychomotor Disorders",
+        "standardized_name": "Psychomotor Disorders",
+        "normalized_name": "psychomotor disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "psychomotor",
+          "psychomotor disorders"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Abnormalities of motor function that are associated with organic and non-organic cognitive disorders.",
+        "cleaned_description": "Abnormalities of motor function that are associated with organic and non-organic cognitive disorders.",
+        "description_summary": "Abnormalities of motor function that are associated with organic and non-organic cognitive disorders.",
+        "key_terms": [],
+        "word_count": 13
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.938638",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D011782",
+      "DiseaseName": "Quadriplegia",
+      "DiseaseDescription": "Severe or complete loss of motor function in all four limbs which may result from BRAIN DISEASES; SPINAL CORD DISEASES; PERIPHERAL NERVOUS SYSTEM DISEASES; NEUROMUSCULAR DISEASES; or rarely MUSCULAR DISEASES. The locked-in syndrome is characterized by quadriplegia in combination with cranial muscle paralysis. Consciousness is spared and the only retained voluntary motor activity may be limited eye movements. This condition is usually caused by a lesion in the upper BRAIN STEM which injures the descending cortico-spinal and cortico-bulbar tracts.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Protein folding",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D011782",
+        "standardized_id": "MESH:D011782",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Quadriplegia",
+        "standardized_name": "Quadriplegia",
+        "normalized_name": "quadriplegia",
+        "synonyms": [],
+        "search_terms": [
+          "quadriplegia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Severe or complete loss of motor function in all four limbs which may result from BRAIN DISEASES; SPINAL CORD DISEASES; PERIPHERAL NERVOUS SYSTEM DISEASES; NEUROMUSCULAR DISEASES; or rarely MUSCULAR DISEASES. The locked-in syndrome is characterized by quadriplegia in combination with cranial muscle paralysis. Consciousness is spared and the only retained voluntary motor activity may be limited eye movements. This condition is usually caused by a lesion in the upper BRAIN STEM which injures the descending cortico-spinal and cortico-bulbar tracts.",
+        "cleaned_description": "Severe or complete loss of motor function in all four limbs which may result from BRAIN DISEASES; SPINAL CORD DISEASES; PERIPHERAL NERVOUS SYSTEM DISEASES; NEUROMUSCULAR DISEASES; or rarely MUSCULAR DISEASES. The locked-in syndrome is characterized by quadriplegia in combination with cranial muscle paralysis. Consciousness is spared and the only retained voluntary motor activity may be limited eye movements. This condition is usually caused by a lesion in the upper BRAIN STEM which injures the descending cortico-spinal and cortico-bulbar tracts.",
+        "description_summary": "Severe or complete loss of motor function in all four limbs which may result from BRAIN DISEASES; SPINAL CORD DISEASES; PERIPHERAL NERVOUS SYSTEM DISEASES; NEUROMUSCULAR DISEASES; or rarely MUSCULAR DISEASES.",
+        "key_terms": [],
+        "word_count": 79
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Protein folding",
+        "pathway_list": [
+          "Protein folding"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.944391",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012021",
+      "DiseaseName": "Reflex, Abnormal",
+      "DiseaseDescription": "An abnormal response to a stimulus applied to the sensory components of the nervous system. This may take the form of increased, decreased, or absent reflexes.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Valine, leucine and isoleucine degradation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012021",
+        "standardized_id": "MESH:D012021",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Reflex, Abnormal",
+        "standardized_name": "Reflex, Abnormal",
+        "normalized_name": "reflex abnormal",
+        "synonyms": [],
+        "search_terms": [
+          "reflex, abnormal",
+          "reflex,",
+          "abnormal"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An abnormal response to a stimulus applied to the sensory components of the nervous system. This may take the form of increased, decreased, or absent reflexes.",
+        "cleaned_description": "An abnormal response to a stimulus applied to the sensory components of the nervous system. This may take the form of increased, decreased, or absent reflexes.",
+        "description_summary": "An abnormal response to a stimulus applied to the sensory components of the nervous system.",
+        "key_terms": [],
+        "word_count": 26
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Valine, leucine and isoleucine degradation",
+        "pathway_list": [
+          "leucine and isoleucine degradation",
+          "Valine"
+        ],
+        "pathway_count": 2,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.945517",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012640",
+      "DiseaseName": "Seizures",
+      "DiseaseDescription": "Clinical or subclinical disturbances of cortical function due to a sudden, abnormal, excessive, and disorganized discharge of brain cells. Clinical manifestations include abnormal motor, sensory and psychic phenomena. Recurrent seizures are usually referred to as EPILEPSY or 'seizure disorder.'",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Zinc transporters",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012640",
+        "standardized_id": "MESH:D012640",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Seizures",
+        "standardized_name": "Seizures",
+        "normalized_name": "seizures",
+        "synonyms": [],
+        "search_terms": [
+          "seizures"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Clinical or subclinical disturbances of cortical function due to a sudden, abnormal, excessive, and disorganized discharge of brain cells. Clinical manifestations include abnormal motor, sensory and psychic phenomena. Recurrent seizures are usually referred to as EPILEPSY or 'seizure disorder.'",
+        "cleaned_description": "Clinical or subclinical disturbances of cortical function due to a sudden, abnormal, excessive, and disorganized discharge of brain cells. Clinical manifestations include abnormal motor, sensory and psychic phenomena. Recurrent seizures are usually referred to as EPILEPSY or 'seizure disorder.'",
+        "description_summary": "Clinical or subclinical disturbances of cortical function due to a sudden, abnormal, excessive, and disorganized discharge of brain cells.",
+        "key_terms": [],
+        "word_count": 39
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Zinc transporters",
+        "pathway_list": [
+          "Zinc transporters"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.961791",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D003294",
+      "DiseaseName": "Seizures, Febrile",
+      "DiseaseDescription": "Seizures that occur during a febrile episode. It is a common condition, affecting 2-5% of children aged 3 months to five years. An autosomal dominant pattern of inheritance has been identified in some families. The majority are simple febrile seizures (generally defined as generalized onset, single seizures with a duration of less than 30 minutes). Complex febrile seizures are characterized by focal onset, duration greater than 30 minutes, and/or more than one seizure in a 24 hour period. The likelihood of developing epilepsy (i.e., a nonfebrile seizure disorder) following simple febrile seizures is low. Complex febrile seizures are associated with a moderately increased incidence of epilepsy. (From Menkes, Textbook of Child Neurology, 5th ed, p784)",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Uptake and actions of bacterial toxins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D003294",
+        "standardized_id": "MESH:D003294",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Seizures, Febrile",
+        "standardized_name": "Seizures, Febrile",
+        "normalized_name": "seizures febrile",
+        "synonyms": [],
+        "search_terms": [
+          "seizures, febrile",
+          "febrile",
+          "seizures,"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Seizures that occur during a febrile episode. It is a common condition, affecting 2-5% of children aged 3 months to five years. An autosomal dominant pattern of inheritance has been identified in some families. The majority are simple febrile seizures (generally defined as generalized onset, single seizures with a duration of less than 30 minutes). Complex febrile seizures are characterized by focal onset, duration greater than 30 minutes, and/or more than one seizure in a 24 hour period. The likelihood of developing epilepsy (i.e., a nonfebrile seizure disorder) following simple febrile seizures is low. Complex febrile seizures are associated with a moderately increased incidence of epilepsy. (From Menkes, Textbook of Child Neurology, 5th ed, p784)",
+        "cleaned_description": "Seizures that occur during a febrile episode. It is a common condition, affecting 2-5% of children aged 3 months to five years. An autosomal dominant pattern of inheritance has been identified in some families. The majority are simple febrile seizures (generally defined as generalized onset, single seizures with a duration of less than 30 minutes). Complex febrile seizures are characterized by focal onset, duration greater than 30 minutes, and/or more than one seizure in a 24 hour period. The likelihood of developing epilepsy (i.e., a nonfebrile seizure disorder) following simple febrile seizures is low. Complex febrile seizures are associated with a moderately increased incidence of epilepsy. (From Menkes, Textbook of Child Neurology, 5th ed, p784)",
+        "description_summary": "Seizures that occur during a febrile episode.",
+        "key_terms": [],
+        "word_count": 115
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Uptake and actions of bacterial toxins",
+        "pathway_list": [
+          "Uptake and actions of bacterial toxins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.962171",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012678",
+      "DiseaseName": "Sensation Disorders",
+      "DiseaseDescription": "Disorders of the special senses (i.e., VISION; HEARING; TASTE; and SMELL) or somatosensory system (i.e., afferent components of the PERIPHERAL NERVOUS SYSTEM).",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012678",
+        "standardized_id": "MESH:D012678",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Sensation Disorders",
+        "standardized_name": "Sensation Disorders",
+        "normalized_name": "sensation disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "sensation disorders",
+          "sensation"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Disorders of the special senses (i.e., VISION; HEARING; TASTE; and SMELL) or somatosensory system (i.e., afferent components of the PERIPHERAL NERVOUS SYSTEM).",
+        "cleaned_description": "Disorders of the special senses (i.e., VISION; HEARING; TASTE; and SMELL) or somatosensory system (i.e., afferent components of the PERIPHERAL NERVOUS SYSTEM).",
+        "description_summary": "Disorders of the special senses (i.",
+        "key_terms": [],
+        "word_count": 22
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.962541",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020886",
+      "DiseaseName": "Somatosensory Disorders",
+      "DiseaseDescription": "Disorders of sensory information received from superficial and deep regions of the body. The somatosensory system conveys neural impulses which pertain to proprioception, tactile sensation, thermal sensation, pressure sensation, and pain. PERIPHERAL NERVOUS SYSTEM DISEASES; SPINAL CORD DISEASES; and BRAIN DISEASES may be associated with impaired or abnormal somatic sensation.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Signaling by Interleukins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020886",
+        "standardized_id": "MESH:D020886",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Somatosensory Disorders",
+        "standardized_name": "Somatosensory Disorders",
+        "normalized_name": "somatosensory disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "somatosensory",
+          "somatosensory disorders"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Disorders of sensory information received from superficial and deep regions of the body. The somatosensory system conveys neural impulses which pertain to proprioception, tactile sensation, thermal sensation, pressure sensation, and pain. PERIPHERAL NERVOUS SYSTEM DISEASES; SPINAL CORD DISEASES; and BRAIN DISEASES may be associated with impaired or abnormal somatic sensation.",
+        "cleaned_description": "Disorders of sensory information received from superficial and deep regions of the body. The somatosensory system conveys neural impulses which pertain to proprioception, tactile sensation, thermal sensation, pressure sensation, and pain. PERIPHERAL NERVOUS SYSTEM DISEASES; SPINAL CORD DISEASES; and BRAIN DISEASES may be associated with impaired or abnormal somatic sensation.",
+        "description_summary": "Disorders of sensory information received from superficial and deep regions of the body.",
+        "key_terms": [],
+        "word_count": 50
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signaling by Interleukins",
+        "pathway_list": [
+          "Signaling by Interleukins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.972286",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013035",
+      "DiseaseName": "Spasm",
+      "DiseaseDescription": "An involuntary contraction of a muscle or group of muscles. Spasms may involve SKELETAL MUSCLE or SMOOTH MUSCLE.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Vasopressin-like receptors",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013035",
+        "standardized_id": "MESH:D013035",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Spasm",
+        "standardized_name": "Spasm",
+        "normalized_name": "spasm",
+        "synonyms": [],
+        "search_terms": [
+          "spasm"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "An involuntary contraction of a muscle or group of muscles. Spasms may involve SKELETAL MUSCLE or SMOOTH MUSCLE.",
+        "cleaned_description": "An involuntary contraction of a muscle or group of muscles. Spasms may involve SKELETAL MUSCLE or SMOOTH MUSCLE.",
+        "description_summary": "An involuntary contraction of a muscle or group of muscles.",
+        "key_terms": [],
+        "word_count": 18
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vasopressin-like receptors",
+        "pathway_list": [
+          "Vasopressin-like receptors"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.972505",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013064",
+      "DiseaseName": "Speech Disorders",
+      "DiseaseDescription": "Acquired or developmental conditions marked by an impaired ability to comprehend or generate spoken forms of language.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "VEGFR2 mediated cell proliferation",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013064",
+        "standardized_id": "MESH:D013064",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Speech Disorders",
+        "standardized_name": "Speech Disorders",
+        "normalized_name": "speech disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "speech",
+          "speech disorders"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Acquired or developmental conditions marked by an impaired ability to comprehend or generate spoken forms of language.",
+        "cleaned_description": "Acquired or developmental conditions marked by an impaired ability to comprehend or generate spoken forms of language.",
+        "description_summary": "Acquired or developmental conditions marked by an impaired ability to comprehend or generate spoken forms of language.",
+        "key_terms": [],
+        "word_count": 17
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "VEGFR2 mediated cell proliferation",
+        "pathway_list": [
+          "VEGFR2 mediated cell proliferation"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "VEGFR2 mediated cell proliferation"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.973306",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013226",
+      "DiseaseName": "Status Epilepticus",
+      "DiseaseDescription": "A prolonged seizure or seizures repeated frequently enough to prevent recovery between episodes occurring over a period of 20-30 minutes. The most common subtype is generalized tonic-clonic status epilepticus, a potentially fatal condition associated with neuronal injury and respiratory and metabolic dysfunction. Nonconvulsive forms include petit mal status and complex partial status, which may manifest as behavioral disturbances. Simple partial status epilepticus consists of persistent motor, sensory, or autonomic seizures that do not impair cognition (see also EPILEPSIA PARTIALIS CONTINUA). Subclinical status epilepticus generally refers to seizures occurring in an unresponsive or comatose individual in the absence of overt signs of seizure activity. (From N Engl J Med 1998 Apr 2;338(14):970-6; Neurologia 1997 Dec;12 Suppl 6:25-30)",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013226",
+        "standardized_id": "MESH:D013226",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Status Epilepticus",
+        "standardized_name": "Status Epilepticus",
+        "normalized_name": "status epilepticus",
+        "synonyms": [],
+        "search_terms": [
+          "status epilepticus",
+          "epilepticus",
+          "status"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A prolonged seizure or seizures repeated frequently enough to prevent recovery between episodes occurring over a period of 20-30 minutes. The most common subtype is generalized tonic-clonic status epilepticus, a potentially fatal condition associated with neuronal injury and respiratory and metabolic dysfunction. Nonconvulsive forms include petit mal status and complex partial status, which may manifest as behavioral disturbances. Simple partial status epilepticus consists of persistent motor, sensory, or autonomic seizures that do not impair cognition (see also EPILEPSIA PARTIALIS CONTINUA). Subclinical status epilepticus generally refers to seizures occurring in an unresponsive or comatose individual in the absence of overt signs of seizure activity. (From N Engl J Med 1998 Apr 2;338(14):970-6; Neurologia 1997 Dec;12 Suppl 6:25-30)",
+        "cleaned_description": "A prolonged seizure or seizures repeated frequently enough to prevent recovery between episodes occurring over a period of 20-30 minutes. The most common subtype is generalized tonic-clonic status epilepticus, a potentially fatal condition associated with neuronal injury and respiratory and metabolic dysfunction. Nonconvulsive forms include petit mal status and complex partial status, which may manifest as behavioral disturbances. Simple partial status epilepticus consists of persistent motor, sensory, or autonomic seizures that do not impair cognition (see also EPILEPSIA PARTIALIS CONTINUA). Subclinical status epilepticus generally refers to seizures occurring in an unresponsive or comatose individual in the absence of overt signs of seizure activity. (From N Engl J Med 1998 Apr 2;338(14):970-6; Neurologia 1997 Dec;12 Suppl 6:25-30)",
+        "description_summary": "A prolonged seizure or seizures repeated frequently enough to prevent recovery between episodes occurring over a period of 20-30 minutes.",
+        "key_terms": [],
+        "word_count": 116
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.978106",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D053608",
+      "DiseaseName": "Stupor",
+      "DiseaseDescription": "A state of reduced sensibility and response to stimuli which is distinguished from COMA in that the person can be aroused by vigorous and repeated stimulation. The person is still conscious and can make voluntary movements. It can be induced by CENTRAL NERVOUS SYSTEM AGENTS. The word derives from Latin stupere and is related to stunned, stupid, dazed or LETHARGY.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D053608",
+        "standardized_id": "MESH:D053608",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Stupor",
+        "standardized_name": "Stupor",
+        "normalized_name": "stupor",
+        "synonyms": [],
+        "search_terms": [
+          "stupor"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A state of reduced sensibility and response to stimuli which is distinguished from COMA in that the person can be aroused by vigorous and repeated stimulation. The person is still conscious and can make voluntary movements. It can be induced by CENTRAL NERVOUS SYSTEM AGENTS. The word derives from Latin stupere and is related to stunned, stupid, dazed or LETHARGY.",
+        "cleaned_description": "A state of reduced sensibility and response to stimuli which is distinguished from COMA in that the person can be aroused by vigorous and repeated stimulation. The person is still conscious and can make voluntary movements. It can be induced by CENTRAL NERVOUS SYSTEM AGENTS. The word derives from Latin stupere and is related to stunned, stupid, dazed or LETHARGY.",
+        "description_summary": "A state of reduced sensibility and response to stimuli which is distinguished from COMA in that the person can be aroused by vigorous and repeated stimulation.",
+        "key_terms": [],
+        "word_count": 60
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.980769",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013342",
+      "DiseaseName": "Stuttering",
+      "DiseaseDescription": "A disturbance in the normal fluency and time patterning of speech that is inappropriate for the individual's age. This disturbance is characterized by frequent repetitions or prolongations of sounds or syllables. Various other types of speech dysfluencies may also be involved including interjections, broken words, audible or silent blocking, circumlocutions, words produced with an excess of physical tension, and monosyllabic whole word repetitions. Stuttering may occur as a developmental condition in childhood or as an acquired disorder which may be associated with BRAIN INFARCTIONS and other BRAIN DISEASES. (From DSM-IV, 1994)",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Cell adhesion molecules (CAMs)",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013342",
+        "standardized_id": "MESH:D013342",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Stuttering",
+        "standardized_name": "Stuttering",
+        "normalized_name": "stuttering",
+        "synonyms": [],
+        "search_terms": [
+          "stuttering"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A disturbance in the normal fluency and time patterning of speech that is inappropriate for the individual's age. This disturbance is characterized by frequent repetitions or prolongations of sounds or syllables. Various other types of speech dysfluencies may also be involved including interjections, broken words, audible or silent blocking, circumlocutions, words produced with an excess of physical tension, and monosyllabic whole word repetitions. Stuttering may occur as a developmental condition in childhood or as an acquired disorder which may be associated with BRAIN INFARCTIONS and other BRAIN DISEASES. (From DSM-IV, 1994)",
+        "cleaned_description": "A disturbance in the normal fluency and time patterning of speech that is inappropriate for the individual's age. This disturbance is characterized by frequent repetitions or prolongations of sounds or syllables. Various other types of speech dysfluencies may also be involved including interjections, broken words, audible or silent blocking, circumlocutions, words produced with an excess of physical tension, and monosyllabic whole word repetitions. Stuttering may occur as a developmental condition in childhood or as an acquired disorder which may be associated with BRAIN INFARCTIONS and other BRAIN DISEASES. (From DSM-IV, 1994)",
+        "description_summary": "A disturbance in the normal fluency and time patterning of speech that is inappropriate for the individual's age.",
+        "key_terms": [],
+        "word_count": 91
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Cell adhesion molecules (CAMs)",
+        "pathway_list": [
+          "Cell adhesion molecules (CAMs)"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.981552",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D013651",
+      "DiseaseName": "Taste Disorders",
+      "DiseaseDescription": "Conditions characterized by an alteration in gustatory function or perception. Taste disorders are frequently associated with OLFACTION DISORDERS. Additional potential etiologies include METABOLIC DISEASES; DRUG TOXICITY; and taste pathway disorders (e.g., TASTE BUD diseases; FACIAL NERVE DISEASES; GLOSSOPHARYNGEAL NERVE DISEASES; and BRAIN STEM diseases).",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Vasopressin-like receptors",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D013651",
+        "standardized_id": "MESH:D013651",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Taste Disorders",
+        "standardized_name": "Taste Disorders",
+        "normalized_name": "taste disorders",
+        "synonyms": [],
+        "search_terms": [
+          "disorders",
+          "taste",
+          "taste disorders"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Conditions characterized by an alteration in gustatory function or perception. Taste disorders are frequently associated with OLFACTION DISORDERS. Additional potential etiologies include METABOLIC DISEASES; DRUG TOXICITY; and taste pathway disorders (e.g., TASTE BUD diseases; FACIAL NERVE DISEASES; GLOSSOPHARYNGEAL NERVE DISEASES; and BRAIN STEM diseases).",
+        "cleaned_description": "Conditions characterized by an alteration in gustatory function or perception. Taste disorders are frequently associated with OLFACTION DISORDERS. Additional potential etiologies include METABOLIC DISEASES; DRUG TOXICITY; and taste pathway disorders (e.g., TASTE BUD diseases; FACIAL NERVE DISEASES; GLOSSOPHARYNGEAL NERVE DISEASES; and BRAIN STEM diseases).",
+        "description_summary": "Conditions characterized by an alteration in gustatory function or perception.",
+        "key_terms": [],
+        "word_count": 44
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vasopressin-like receptors",
+        "pathway_list": [
+          "Vasopressin-like receptors"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.991022",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D020323",
+      "DiseaseName": "Tics",
+      "DiseaseDescription": "Habitual, repeated, rapid contraction of certain muscles, resulting in stereotyped individualized actions that can be voluntarily suppressed for only brief periods. They often involve the face, vocal cords, neck, and less often the extremities. Examples include repetitive throat clearing, vocalizations, sniffing, pursing the lips, and excessive blinking. Tics tend to be aggravated by emotional stress. When frequent they may interfere with speech and INTERPERSONAL RELATIONS. Conditions which feature frequent and prominent tics as a primary manifestation of disease are referred to as TIC DISORDERS. (From Adams et al., Principles of Neurology, 6th ed, pp109-10)",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Uptake and actions of bacterial toxins",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D020323",
+        "standardized_id": "MESH:D020323",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Tics",
+        "standardized_name": "Tics",
+        "normalized_name": "tics",
+        "synonyms": [],
+        "search_terms": [
+          "tics"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Habitual, repeated, rapid contraction of certain muscles, resulting in stereotyped individualized actions that can be voluntarily suppressed for only brief periods. They often involve the face, vocal cords, neck, and less often the extremities. Examples include repetitive throat clearing, vocalizations, sniffing, pursing the lips, and excessive blinking. Tics tend to be aggravated by emotional stress. When frequent they may interfere with speech and INTERPERSONAL RELATIONS. Conditions which feature frequent and prominent tics as a primary manifestation of disease are referred to as TIC DISORDERS. (From Adams et al., Principles of Neurology, 6th ed, pp109-10)",
+        "cleaned_description": "Habitual, repeated, rapid contraction of certain muscles, resulting in stereotyped individualized actions that can be voluntarily suppressed for only brief periods. They often involve the face, vocal cords, neck, and less often the extremities. Examples include repetitive throat clearing, vocalizations, sniffing, pursing the lips, and excessive blinking. Tics tend to be aggravated by emotional stress. When frequent they may interfere with speech and INTERPERSONAL RELATIONS. Conditions which feature frequent and prominent tics as a primary manifestation of disease are referred to as TIC DISORDERS. (From Adams et al., Principles of Neurology, 6th ed, pp109-10)",
+        "description_summary": "Habitual, repeated, rapid contraction of certain muscles, resulting in stereotyped individualized actions that can be voluntarily suppressed for only brief periods.",
+        "key_terms": [],
+        "word_count": 94
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Uptake and actions of bacterial toxins",
+        "pathway_list": [
+          "Uptake and actions of bacterial toxins"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.998019",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014202",
+      "DiseaseName": "Tremor",
+      "DiseaseDescription": "Cyclical movement of a body part that can represent either a physiologic process or a manifestation of disease. Intention or action tremor, a common manifestation of CEREBELLAR DISEASES, is aggravated by movement. In contrast, resting tremor is maximal when there is no attempt at voluntary movement, and occurs as a relatively frequent manifestation of PARKINSON DISEASE.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014202",
+        "standardized_id": "MESH:D014202",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Tremor",
+        "standardized_name": "Tremor",
+        "normalized_name": "tremor",
+        "synonyms": [],
+        "search_terms": [
+          "tremor"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Cyclical movement of a body part that can represent either a physiologic process or a manifestation of disease. Intention or action tremor, a common manifestation of CEREBELLAR DISEASES, is aggravated by movement. In contrast, resting tremor is maximal when there is no attempt at voluntary movement, and occurs as a relatively frequent manifestation of PARKINSON DISEASE.",
+        "cleaned_description": "Cyclical movement of a body part that can represent either a physiologic process or a manifestation of disease. Intention or action tremor, a common manifestation of CEREBELLAR DISEASES, is aggravated by movement. In contrast, resting tremor is maximal when there is no attempt at voluntary movement, and occurs as a relatively frequent manifestation of PARKINSON DISEASE.",
+        "description_summary": "Cyclical movement of a body part that can represent either a physiologic process or a manifestation of disease.",
+        "key_terms": [],
+        "word_count": 56
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.005102",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014313",
+      "DiseaseName": "Trismus",
+      "DiseaseDescription": "Spasmodic contraction of the masseter muscle resulting in forceful jaw closure. This may be seen with a variety of diseases, including TETANUS, as a complication of radiation therapy, trauma, or in association with neoplastic conditions.",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Transmission across Chemical Synapses",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014313",
+        "standardized_id": "MESH:D014313",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Trismus",
+        "standardized_name": "Trismus",
+        "normalized_name": "trismus",
+        "synonyms": [],
+        "search_terms": [
+          "trismus"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Spasmodic contraction of the masseter muscle resulting in forceful jaw closure. This may be seen with a variety of diseases, including TETANUS, as a complication of radiation therapy, trauma, or in association with neoplastic conditions.",
+        "cleaned_description": "Spasmodic contraction of the masseter muscle resulting in forceful jaw closure. This may be seen with a variety of diseases, including TETANUS, as a complication of radiation therapy, trauma, or in association with neoplastic conditions.",
+        "description_summary": "Spasmodic contraction of the masseter muscle resulting in forceful jaw closure.",
+        "key_terms": [],
+        "word_count": 35
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Transmission across Chemical Synapses",
+        "pathway_list": [
+          "Transmission across Chemical Synapses"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.006104",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014474",
+      "DiseaseName": "Unconsciousness",
+      "DiseaseDescription": "Loss of the ability to maintain awareness of self and environment combined with markedly reduced responsiveness to environmental stimuli. (From Adams et al., Principles of Neurology, 6th ed, pp344-5)",
+      "SlimMapping": "['Nervous system disease', 'Signs and symptoms']",
+      "PathwayNames": "Signal Transduction",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014474",
+        "standardized_id": "MESH:D014474",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Unconsciousness",
+        "standardized_name": "Unconsciousness",
+        "normalized_name": "unconsciousness",
+        "synonyms": [],
+        "search_terms": [
+          "unconsciousness"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Loss of the ability to maintain awareness of self and environment combined with markedly reduced responsiveness to environmental stimuli. (From Adams et al., Principles of Neurology, 6th ed, pp344-5)",
+        "cleaned_description": "Loss of the ability to maintain awareness of self and environment combined with markedly reduced responsiveness to environmental stimuli. (From Adams et al., Principles of Neurology, 6th ed, pp344-5)",
+        "description_summary": "Loss of the ability to maintain awareness of self and environment combined with markedly reduced responsiveness to environmental stimuli.",
+        "key_terms": [],
+        "word_count": 29
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Nervous system disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Signal Transduction",
+        "pathway_list": [
+          "Signal Transduction"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:34.008873",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

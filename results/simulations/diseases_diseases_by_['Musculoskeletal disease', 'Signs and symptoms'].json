@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Musculoskeletal disease', 'Signs and symptoms']",
+    "export_timestamp": "2026-03-28T22:11:35.630248",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D018771",
+      "DiseaseName": "Arthralgia",
+      "DiseaseDescription": "Pain in the joint.",
+      "SlimMapping": "['Musculoskeletal disease', 'Signs and symptoms']",
+      "PathwayNames": "Terpenoid backbone biosynthesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D018771",
+        "standardized_id": "MESH:D018771",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Arthralgia",
+        "standardized_name": "Arthralgia",
+        "normalized_name": "arthralgia",
+        "synonyms": [],
+        "search_terms": [
+          "arthralgia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pain in the joint.",
+        "cleaned_description": "Pain in the joint.",
+        "description_summary": "Pain in the joint.",
+        "key_terms": [],
+        "word_count": 4
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Terpenoid backbone biosynthesis",
+        "pathway_list": [
+          "Terpenoid backbone biosynthesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.374346",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": [
+            "Very short or missing description"
+          ]
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D059352",
+      "DiseaseName": "Musculoskeletal Pain",
+      "DiseaseDescription": "Discomfort stemming from muscles, LIGAMENTS, tendons, and bones.",
+      "SlimMapping": "['Musculoskeletal disease', 'Signs and symptoms']",
+      "PathwayNames": "Tyrosine metabolism",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D059352",
+        "standardized_id": "MESH:D059352",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Musculoskeletal Pain",
+        "standardized_name": "Musculoskeletal Pain",
+        "normalized_name": "musculoskeletal pain",
+        "synonyms": [],
+        "search_terms": [
+          "pain",
+          "musculoskeletal",
+          "musculoskeletal pain"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Discomfort stemming from muscles, LIGAMENTS, tendons, and bones.",
+        "cleaned_description": "Discomfort stemming from muscles, LIGAMENTS, tendons, and bones.",
+        "description_summary": "Discomfort stemming from muscles, LIGAMENTS, tendons, and bones.",
+        "key_terms": [],
+        "word_count": 8
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Musculoskeletal disease",
+          "Signs and symptoms"
+        ],
+        "primary_categories": [
+          "Musculoskeletal disease",
+          "Signs and symptoms"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Musculoskeletal disease",
+          "Signs and symptoms"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Tyrosine metabolism",
+        "pathway_list": [
+          "Tyrosine metabolism"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.861675",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

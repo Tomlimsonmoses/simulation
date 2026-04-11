@@ -1,0 +1,290 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Pathology (process)', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+    "export_timestamp": "2026-03-28T22:11:35.682368",
+    "total_records": 4
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D053099",
+      "DiseaseName": "Azotemia",
+      "DiseaseDescription": "A biochemical abnormality referring to an elevation of BLOOD UREA NITROGEN and CREATININE. Azotemia can be produced by KIDNEY DISEASES or other extrarenal disorders. When azotemia becomes associated with a constellation of clinical signs, it is termed UREMIA.",
+      "SlimMapping": "['Pathology (process)', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Synthesis, secretion, and deacylation of Ghrelin",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D053099",
+        "standardized_id": "MESH:D053099",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Azotemia",
+        "standardized_name": "Azotemia",
+        "normalized_name": "azotemia",
+        "synonyms": [],
+        "search_terms": [
+          "azotemia"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A biochemical abnormality referring to an elevation of BLOOD UREA NITROGEN and CREATININE. Azotemia can be produced by KIDNEY DISEASES or other extrarenal disorders. When azotemia becomes associated with a constellation of clinical signs, it is termed UREMIA.",
+        "cleaned_description": "A biochemical abnormality referring to an elevation of BLOOD UREA NITROGEN and CREATININE. Azotemia can be produced by KIDNEY DISEASES or other extrarenal disorders. When azotemia becomes associated with a constellation of clinical signs, it is termed UREMIA.",
+        "description_summary": "A biochemical abnormality referring to an elevation of BLOOD UREA NITROGEN and CREATININE.",
+        "key_terms": [
+          "Azotemia",
+          "azotemia",
+          "UREMIA"
+        ],
+        "word_count": 38
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Pathology (process)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Synthesis, secretion, and deacylation of Ghrelin",
+        "pathway_list": [
+          "and deacylation of Ghrelin",
+          "Synthesis",
+          "secretion"
+        ],
+        "pathway_count": 3,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.389262",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D006417",
+      "DiseaseName": "Hematuria",
+      "DiseaseDescription": "Presence of blood in the urine.",
+      "SlimMapping": "['Pathology (process)', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D006417",
+        "standardized_id": "MESH:D006417",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Hematuria",
+        "standardized_name": "Hematuria",
+        "normalized_name": "hematuria",
+        "synonyms": [],
+        "search_terms": [
+          "hematuria"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Presence of blood in the urine.",
+        "cleaned_description": "Presence of blood in the urine.",
+        "description_summary": "Presence of blood in the urine.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Pathology (process)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.642884",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D007676",
+      "DiseaseName": "Kidney Failure, Chronic",
+      "DiseaseDescription": "The end-stage of CHRONIC RENAL INSUFFICIENCY. It is characterized by the severe irreversible kidney damage (as measured by the level of PROTEINURIA) and the reduction in GLOMERULAR FILTRATION RATE to less than 15 ml per min (Kidney Foundation: Kidney Disease Outcome Quality Initiative, 2002). These patients generally require HEMODIALYSIS or KIDNEY TRANSPLANTATION.",
+      "SlimMapping": "['Pathology (process)', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "ZBP1(DAI) mediated induction of type I IFNs",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007676",
+        "standardized_id": "MESH:D007676",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Kidney Failure, Chronic",
+        "standardized_name": "Kidney Failure, Chronic",
+        "normalized_name": "kidney failure chronic",
+        "synonyms": [],
+        "search_terms": [
+          "kidney failure, chronic",
+          "chronic",
+          "failure,",
+          "kidney"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "The end-stage of CHRONIC RENAL INSUFFICIENCY. It is characterized by the severe irreversible kidney damage (as measured by the level of PROTEINURIA) and the reduction in GLOMERULAR FILTRATION RATE to less than 15 ml per min (Kidney Foundation: Kidney Disease Outcome Quality Initiative, 2002). These patients generally require HEMODIALYSIS or KIDNEY TRANSPLANTATION.",
+        "cleaned_description": "The end-stage of CHRONIC RENAL INSUFFICIENCY. It is characterized by the severe irreversible kidney damage (as measured by the level of PROTEINURIA) and the reduction in GLOMERULAR FILTRATION RATE to less than 15 ml per min (Kidney Foundation: Kidney Disease Outcome Quality Initiative, 2002). These patients generally require HEMODIALYSIS or KIDNEY TRANSPLANTATION.",
+        "description_summary": "The end-stage of CHRONIC RENAL INSUFFICIENCY.",
+        "key_terms": [],
+        "word_count": 52
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Pathology (process)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "ZBP1(DAI) mediated induction of type I IFNs",
+        "pathway_list": [
+          "ZBP1(DAI) mediated induction of type I IFNs"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.799440",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D051436",
+      "DiseaseName": "Renal Insufficiency, Chronic",
+      "DiseaseDescription": "Conditions in which the KIDNEYS perform below the normal level for more than three months. Chronic kidney insufficiency is classified by five stages according to the decline in GLOMERULAR FILTRATION RATE and the degree of kidney damage (as measured by the level of PROTEINURIA). The most severe form is the end-stage renal disease (CHRONIC KIDNEY FAILURE). (Kidney Foundation: Kidney Disease Outcome Quality Initiative, 2002)",
+      "SlimMapping": "['Pathology (process)', 'Urogenital disease (female)', 'Urogenital disease (male)']",
+      "PathwayNames": "Vesicle-mediated transport",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D051436",
+        "standardized_id": "MESH:D051436",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Renal Insufficiency, Chronic",
+        "standardized_name": "Renal Insufficiency, Chronic",
+        "normalized_name": "renal insufficiency chronic",
+        "synonyms": [],
+        "search_terms": [
+          "renal",
+          "insufficiency,",
+          "chronic",
+          "renal insufficiency, chronic"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Conditions in which the KIDNEYS perform below the normal level for more than three months. Chronic kidney insufficiency is classified by five stages according to the decline in GLOMERULAR FILTRATION RATE and the degree of kidney damage (as measured by the level of PROTEINURIA). The most severe form is the end-stage renal disease (CHRONIC KIDNEY FAILURE). (Kidney Foundation: Kidney Disease Outcome Quality Initiative, 2002)",
+        "cleaned_description": "Conditions in which the KIDNEYS perform below the normal level for more than three months. Chronic kidney insufficiency is classified by five stages according to the decline in GLOMERULAR FILTRATION RATE and the degree of kidney damage (as measured by the level of PROTEINURIA). The most severe form is the end-stage renal disease (CHRONIC KIDNEY FAILURE). (Kidney Foundation: Kidney Disease Outcome Quality Initiative, 2002)",
+        "description_summary": "Conditions in which the KIDNEYS perform below the normal level for more than three months.",
+        "key_terms": [],
+        "word_count": 64
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Pathology (process)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "primary_categories": [
+          "Pathology (process)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Pathology (process)",
+          "Urogenital disease (female)",
+          "Urogenital disease (male)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Vesicle-mediated transport",
+        "pathway_list": [
+          "Vesicle-mediated transport"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.946730",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

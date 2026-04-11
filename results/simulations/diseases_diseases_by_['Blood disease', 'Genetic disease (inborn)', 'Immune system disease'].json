@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Blood disease', 'Genetic disease (inborn)', 'Immune system disease']",
+    "export_timestamp": "2026-03-28T22:11:36.124906",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D007589",
+      "DiseaseName": "Job Syndrome",
+      "DiseaseDescription": "Primary immunodeficiency syndrome characterized by recurrent infections and hyperimmunoglobulinemia E. Most cases are sporadic. Of the rare familial forms, the dominantly inherited subtype has additional connective tissue, dental and skeletal involvement that the recessive type does not share.",
+      "SlimMapping": "['Blood disease', 'Genetic disease (inborn)', 'Immune system disease']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D007589",
+        "standardized_id": "MESH:D007589",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Job Syndrome",
+        "standardized_name": "Job Syndrome",
+        "normalized_name": "job syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "syndrome",
+          "job",
+          "job syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Primary immunodeficiency syndrome characterized by recurrent infections and hyperimmunoglobulinemia E. Most cases are sporadic. Of the rare familial forms, the dominantly inherited subtype has additional connective tissue, dental and skeletal involvement that the recessive type does not share.",
+        "cleaned_description": "Primary immunodeficiency syndrome characterized by recurrent infections and hyperimmunoglobulinemia E. Most cases are sporadic. Of the rare familial forms, the dominantly inherited subtype has additional connective tissue, dental and skeletal involvement that the recessive type does not share.",
+        "description_summary": "Primary immunodeficiency syndrome characterized by recurrent infections and hyperimmunoglobulinemia E.",
+        "key_terms": [
+          "hyperimmunoglobulinemia"
+        ],
+        "word_count": 38
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Blood disease",
+          "Genetic disease (inborn)",
+          "Immune system disease"
+        ],
+        "primary_categories": [
+          "Blood disease",
+          "Genetic disease (inborn)",
+          "Immune system disease"
+        ],
+        "broad_categories": [
+          "genetic",
+          "immune_system"
+        ],
+        "all_categories": [
+          "Blood disease",
+          "Genetic disease (inborn)",
+          "Immune system disease"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.796319",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

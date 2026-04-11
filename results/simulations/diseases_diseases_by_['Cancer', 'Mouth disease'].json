@@ -1,0 +1,213 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cancer', 'Mouth disease']",
+    "export_timestamp": "2026-03-28T22:11:36.190781",
+    "total_records": 3
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D009062",
+      "DiseaseName": "Mouth Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the MOUTH.",
+      "SlimMapping": "['Cancer', 'Mouth disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D009062",
+        "standardized_id": "MESH:D009062",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Mouth Neoplasms",
+        "standardized_name": "Mouth Neoplasms",
+        "normalized_name": "mouth neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "mouth neoplasms",
+          "mouth",
+          "neoplasms"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the MOUTH.",
+        "cleaned_description": "Tumors or cancer of the MOUTH.",
+        "description_summary": "Tumors or cancer of the MOUTH.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Mouth disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Mouth disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Mouth disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.857284",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D012468",
+      "DiseaseName": "Salivary Gland Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the SALIVARY GLANDS.",
+      "SlimMapping": "['Cancer', 'Mouth disease']",
+      "PathwayNames": "Wnt signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D012468",
+        "standardized_id": "MESH:D012468",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Salivary Gland Neoplasms",
+        "standardized_name": "Salivary Gland Neoplasms",
+        "normalized_name": "salivary gland neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "gland",
+          "salivary",
+          "salivary gland neoplasms",
+          "neoplasms"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the SALIVARY GLANDS.",
+        "cleaned_description": "Tumors or cancer of the SALIVARY GLANDS.",
+        "description_summary": "Tumors or cancer of the SALIVARY GLANDS.",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Mouth disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Mouth disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Mouth disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Wnt signaling pathway",
+        "pathway_list": [
+          "Wnt signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "Wnt signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.958663",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D014062",
+      "DiseaseName": "Tongue Neoplasms",
+      "DiseaseDescription": "Tumors or cancer of the TONGUE.",
+      "SlimMapping": "['Cancer', 'Mouth disease']",
+      "PathwayNames": "Viral carcinogenesis",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D014062",
+        "standardized_id": "MESH:D014062",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Tongue Neoplasms",
+        "standardized_name": "Tongue Neoplasms",
+        "normalized_name": "tongue neoplasms",
+        "synonyms": [],
+        "search_terms": [
+          "tongue neoplasms",
+          "tongue",
+          "neoplasms"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Tumors or cancer of the TONGUE.",
+        "cleaned_description": "Tumors or cancer of the TONGUE.",
+        "description_summary": "Tumors or cancer of the TONGUE.",
+        "key_terms": [],
+        "word_count": 6
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cancer",
+          "Mouth disease"
+        ],
+        "primary_categories": [
+          "Cancer",
+          "Mouth disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Cancer",
+          "Mouth disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "Viral carcinogenesis",
+        "pathway_list": [
+          "Viral carcinogenesis"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.998846",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

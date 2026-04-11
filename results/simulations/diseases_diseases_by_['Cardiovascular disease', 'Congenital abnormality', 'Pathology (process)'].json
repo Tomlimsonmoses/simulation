@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Cardiovascular disease', 'Congenital abnormality', 'Pathology (process)']",
+    "export_timestamp": "2026-03-28T22:11:36.142915",
+    "total_records": 2
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D008133",
+      "DiseaseName": "Long QT Syndrome",
+      "DiseaseDescription": "A condition that is characterized by episodes of fainting (SYNCOPE) and varying degree of ventricular arrhythmia as indicated by the prolonged QT interval. The inherited forms are caused by mutation of genes encoding cardiac ion channel proteins. The two major forms are ROMANO-WARD SYNDROME and JERVELL-LANGE NIELSEN SYNDROME.",
+      "SlimMapping": "['Cardiovascular disease', 'Congenital abnormality', 'Pathology (process)']",
+      "PathwayNames": "Xenobiotics",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D008133",
+        "standardized_id": "MESH:D008133",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Long QT Syndrome",
+        "standardized_name": "Long QT Syndrome",
+        "normalized_name": "long qt syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "long qt syndrome",
+          "long",
+          "syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A condition that is characterized by episodes of fainting (SYNCOPE) and varying degree of ventricular arrhythmia as indicated by the prolonged QT interval. The inherited forms are caused by mutation of genes encoding cardiac ion channel proteins. The two major forms are ROMANO-WARD SYNDROME and JERVELL-LANGE NIELSEN SYNDROME.",
+        "cleaned_description": "A condition that is characterized by episodes of fainting (SYNCOPE) and varying degree of ventricular arrhythmia as indicated by the prolonged QT interval. The inherited forms are caused by mutation of genes encoding cardiac ion channel proteins. The two major forms are ROMANO-WARD SYNDROME and JERVELL-LANGE NIELSEN SYNDROME.",
+        "description_summary": "A condition that is characterized by episodes of fainting (SYNCOPE) and varying degree of ventricular arrhythmia as indicated by the prolonged QT interval.",
+        "key_terms": [],
+        "word_count": 48
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality",
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality",
+          "Pathology (process)"
+        ],
+        "broad_categories": [
+          "cardiovascular",
+          "genetic"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality",
+          "Pathology (process)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Xenobiotics",
+        "pathway_list": [
+          "Xenobiotics"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.822281",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    },
+    {
+      "DiseaseID": "MESH:D029597",
+      "DiseaseName": "Romano-Ward Syndrome",
+      "DiseaseDescription": "A form of long QT syndrome that is without congenital deafness. It is caused by mutation of the KCNQ1 gene which encodes a protein in the VOLTAGE-GATED POTASSIUM CHANNEL.",
+      "SlimMapping": "['Cardiovascular disease', 'Congenital abnormality', 'Pathology (process)']",
+      "PathwayNames": "Voltage gated Potassium channels",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D029597",
+        "standardized_id": "MESH:D029597",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Romano-Ward Syndrome",
+        "standardized_name": "Romano-Ward Syndrome",
+        "normalized_name": "romano-ward syndrome",
+        "synonyms": [],
+        "search_terms": [
+          "romano-ward",
+          "syndrome",
+          "romano-ward syndrome"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "A form of long QT syndrome that is without congenital deafness. It is caused by mutation of the KCNQ1 gene which encodes a protein in the VOLTAGE-GATED POTASSIUM CHANNEL.",
+        "cleaned_description": "A form of long QT syndrome that is without congenital deafness. It is caused by mutation of the KCNQ1 gene which encodes a protein in the VOLTAGE-GATED POTASSIUM CHANNEL.",
+        "description_summary": "A form of long QT syndrome that is without congenital deafness.",
+        "key_terms": [],
+        "word_count": 29
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality",
+          "Pathology (process)"
+        ],
+        "primary_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality",
+          "Pathology (process)"
+        ],
+        "broad_categories": [
+          "cardiovascular",
+          "genetic"
+        ],
+        "all_categories": [
+          "Cardiovascular disease",
+          "Congenital abnormality",
+          "Pathology (process)"
+        ],
+        "category_count": 3
+      },
+      "processed_pathways": {
+        "raw_pathways": "Voltage gated Potassium channels",
+        "pathway_list": [
+          "Voltage gated Potassium channels"
+        ],
+        "pathway_count": 1,
+        "key_pathways": []
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.957888",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}

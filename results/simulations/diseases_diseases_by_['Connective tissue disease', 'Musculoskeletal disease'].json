@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "data_type": "diseases",
+    "grouping_type": "diseases_by_['Connective tissue disease', 'Musculoskeletal disease']",
+    "export_timestamp": "2026-03-28T22:11:35.863065",
+    "total_records": 1
+  },
+  "data": [
+    {
+      "DiseaseID": "MESH:D002357",
+      "DiseaseName": "Cartilage Diseases",
+      "DiseaseDescription": "Pathological processes involving the chondral tissue (CARTILAGE).",
+      "SlimMapping": "['Connective tissue disease', 'Musculoskeletal disease']",
+      "PathwayNames": "TNF signaling pathway",
+      "_source": "primary_diseases",
+      "_source_priority": 1,
+      "standardized_disease_id": {
+        "original_id": "MESH:D002357",
+        "standardized_id": "MESH:D002357",
+        "source": "mesh",
+        "is_valid": true
+      },
+      "standardized_disease_name": {
+        "original_name": "Cartilage Diseases",
+        "standardized_name": "Cartilage Diseases",
+        "normalized_name": "cartilage diseases",
+        "synonyms": [],
+        "search_terms": [
+          "diseases",
+          "cartilage",
+          "cartilage diseases"
+        ]
+      },
+      "processed_description": {
+        "raw_description": "Pathological processes involving the chondral tissue (CARTILAGE).",
+        "cleaned_description": "Pathological processes involving the chondral tissue (CARTILAGE).",
+        "description_summary": "Pathological processes involving the chondral tissue (CARTILAGE).",
+        "key_terms": [],
+        "word_count": 7
+      },
+      "processed_categories": {
+        "raw_categories": [
+          "Connective tissue disease",
+          "Musculoskeletal disease"
+        ],
+        "primary_categories": [
+          "Connective tissue disease",
+          "Musculoskeletal disease"
+        ],
+        "broad_categories": [],
+        "all_categories": [
+          "Connective tissue disease",
+          "Musculoskeletal disease"
+        ],
+        "category_count": 2
+      },
+      "processed_pathways": {
+        "raw_pathways": "TNF signaling pathway",
+        "pathway_list": [
+          "TNF signaling pathway"
+        ],
+        "pathway_count": 1,
+        "key_pathways": [
+          "TNF signaling pathway"
+        ]
+      },
+      "_processing_info": {
+        "processor": "DiseaseProcessor",
+        "timestamp": "2026-03-28T22:11:33.430815",
+        "validation_status": {
+          "is_valid": true,
+          "errors": [],
+          "warnings": []
+        }
+      }
+    }
+  ]
+}
