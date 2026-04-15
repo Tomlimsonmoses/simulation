@@ -1,19 +1,50 @@
-# GNN-Based PK-PD Model for Organ Drug Response
+# PK-PD Interactive Dashboard
 
-This project implements a Graph Neural Network (GNN) and Deep Multilayer Perceptron (MLP) approach for Pharmacokinetic-Pharmacodynamic (PK-PD) modeling to simulate organ responses to drugs in a virtual human biological system. 
+A mechanistic PK-PD simulation platform with a real-time web dashboard powered by FastAPI (backend) + HTML/CSS/JS (frontend).
 
-It handles:
-- **Pharmacokinetics (PK)**: How drugs move through the body (absorption, distribution, metabolism, excretion)
-- **Pharmacodynamics (PD)**: How organs respond to drugs (receptor binding, signal transduction, physiological effects)
-- **Simulations**: Interactive or script-based predictions for various patient profiles
+**Capabilities:**
+- **Mechanistic PBPK** — Bateman equation with Poulin-Theil tissue partitioning across 13 organs
+- **Pharmacodynamics** — Signal transduction ODEs, disease progression, organ health tracking
+- **GNN inference** — Graph-based organ interaction modelling (via OrganGraphBuilder)
+- **Population cohort** — 50–200 virtual patient simulations with percentile envelopes
+- **Interactive dashboard** — Real-time organ body SVG, PK chart (D3.js), radar, side-effect timeline, cell viewer
+
+## Quick Start
+
+```bash
+# From the project root
+uvicorn app.server:app --reload --host 0.0.0.0 --port 8000
+# then open http://localhost:8000
+```
+
+## API Endpoints
+
+| Method | Path | Description |
+|--------|------|-------------|
+| GET | `/api/drugs` | List all 15 drugs with PK properties |
+| GET | `/api/diseases` | List all 15 disease models |
+| POST | `/api/simulate` | Run mechanistic PK-PD simulation |
+| POST | `/api/population` | Run population cohort (n patients) |
+| POST | `/api/cell` | Cell-level organ detail data |
+| POST | `/api/interactions` | Drug–drug interaction check |
 
 ## Project Structure
 
 ```
 PK-PD/
-├── apps/                          # Streamlit web interfaces
-│   ├── advanced_dashboard.py      # Primary simulation dashboard (run this)
-│   └── clinical_dashboard.py      # Secondary EHR-style clinical interface
+├── app/                           # Web application
+│   ├── server.py                  # FastAPI backend — main entry point
+│   ├── templates/index.html       # Full HTML dashboard
+│   └── static/
+│       ├── css/dashboard.css      # Glassmorphism styling
+│       └── js/                    # Modular JS controllers
+│           ├── app.js             # Main controller (boots, dispatches results)
+│           ├── organ_viz.js       # SVG organ body visualisation
+│           ├── pk_chart.js        # D3.js PK concentration chart
+│           ├── radar_chart.js     # Organ health radar
+│           ├── timeline.js        # Side-effect timeline
+│           ├── biomarkers.js      # Biomarker panel
+│           └── cell_view.js       # Cell-level drawer
 ├── scripts/                       # CLI entry points
 │   ├── train.py                   # Train all neural network models
 │   ├── evaluate.py                # Evaluate trained models

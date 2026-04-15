@@ -1,49 +1,12 @@
+PK-PD Model Evaluation Report
 ============================================================
-PK-PD MODEL TRAINING PERFORMANCE REPORT
-============================================================
 
-📊 CLINICAL_OUTCOMES:
-----------------------------------------
+Test samples : 200
+Feature dims : 32
 
-🎯 Target: treatment_success
-   random_forest: Accuracy = 0.670
-   gradient_boosting: Accuracy = 0.630
-   logistic: Accuracy = 0.760
-   mlp: Accuracy = 0.640
-   🏆 Best: logistic (Accuracy = 0.760)
-
-🎯 Target: adverse_event_risk
-   random_forest: Accuracy = 0.980
-   gradient_boosting: Accuracy = 0.970
-   logistic: Accuracy = 0.980
-   mlp: Accuracy = 0.980
-   🏆 Best: random_forest (Accuracy = 0.980)
-
-🎯 Target: qol_improvement
-   random_forest: R² = -0.104
-   gradient_boosting: R² = -0.241
-   linear: R² = -0.070
-   ridge: R² = -0.070
-   mlp: R² = -0.347
-   🏆 Best: ridge (R² = -0.070)
-
-📊 DRUG_CLASSIFICATION:
-----------------------------------------
-
-🎯 Target: drug_class
-   random_forest: Accuracy = 1.000
-   gradient_boosting: Accuracy = 0.997
-   logistic: Accuracy = 0.977
-   mlp: Accuracy = 0.997
-   🏆 Best: random_forest (Accuracy = 1.000)
-
-🎯 Target: bioavailability
-   random_forest: Accuracy = 0.970
-   gradient_boosting: Accuracy = 0.967
-   logistic: Accuracy = 0.970
-   mlp: Accuracy = 0.970
-   🏆 Best: random_forest (Accuracy = 0.970)
-
-============================================================
-MODEL TRAINING COMPLETED SUCCESSFULLY
-============================================================
+Model                            R�     RMSE      MAE    PK_R�    PD_R�
+------------------------------------------------------------
+  simple_mlp_model           0.5608   0.0823   0.0417   0.5587   0.4820
+  deep_mlp_model             0.5141   0.0866   0.0489   0.2991   0.4399
+  staged_pkpd_model          0.2890   0.1047   0.0593   0.0527   0.1755
+  residual_mlp_model        -0.0995   0.1302   0.0783  -5.3971   0.0241

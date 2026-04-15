@@ -1,56 +1,36 @@
 """
-GNN-Based PK-PD Model for Organ Drug Response
+PK-PD Biological System Simulator — Python package.
 
-This package implements a comprehensive Graph Neural Network approach for
-Pharmacokinetic-Pharmacodynamic (PK-PD) modeling to simulate organ responses
-to drugs in virtual human biological systems.
+Live simulation stack
+---------------------
+MechanisticPKPDEngine  — primary ODE/Bateman PBPK/PD engine (app/server.py)
+PopulationCohortRunner — virtual patient cohort (/api/cohort endpoint)
+OrganGraphBuilder      — builds PyG organ graph for optional GNN inference
 
-Main Components:
-- Models: GNN architecture, PK simulator, PD simulator
-- Biological System: Virtual human, disease models
-- Data: Dataset specifications, processing pipeline
-- Training: Training framework, evaluation metrics
-- Simulation: Main simulation runner with customizable parameters
+Training utilities (CLI, not used by live server)
+--------------------------------------------------
+  python -m src.training.train          # train SimpleMLP / DeepMLP / ResidualMLP
+  python -m src.training.train_staged   # train StagedPKPDModel
+  python -m src.training.evaluate       # evaluate all checkpoints
 """
 
 __version__ = "1.0.0"
 __author__ = "PK-PD Research Team"
 
-# Core imports
-from .models.gnn_pkpd import PKPDGNN, PKPDDataProcessor, PKPDTrainer
-from .models.pk_simulator import MultiCompartmentPK, PhysiologicallyBasedPK, DrugProperties
-from .models.pd_simulator import SystemicPDModel, OrganSpecificPD
-from .biological_system.organ_network import VirtualHuman, PopulationGenerator
-from .biological_system.disease_models import DiseaseSimulator, DiseaseDrugInteractions
-from .simulation.runner import PKPDSimulationRunner, SimulationConfig
-from .data.dataset_specs import DatasetRequirements, DataPipeline
-from .training.trainer import PKPDTrainer, PKPDLossFunction
+# Live simulation exports
+from .simulation.mechanistic_engine import MechanisticPKPDEngine, EngineResult
+from .simulation.population_cohort import PopulationCohortRunner
+from .simulation.organ_graph_builder import OrganGraphBuilder
+from .models.mlp_architectures import SimpleMLP, DeepMLP, ResidualMLP
+from .models.pkpd_staged import StagedPKPDModel
 
 __all__ = [
-    # Core classes
-    "PKPDGNN",
-    "PKPDSimulationRunner",
-    "VirtualHuman",
-    "DiseaseSimulator",
-    
-    # Model components
-    "MultiCompartmentPK",
-    "PhysiologicallyBasedPK",
-    "SystemicPDModel",
-    "OrganSpecificPD",
-    
-    # Configuration
-    "SimulationConfig",
-    "DrugProperties",
-    
-    # Data and training
-    "DatasetRequirements",
-    "DataPipeline",
-    "PKPDTrainer",
-    "PKPDLossFunction",
-    
-    # Utilities
-    "PopulationGenerator",
-    "DiseaseDrugInteractions",
-    "PKPDDataProcessor"
+    "MechanisticPKPDEngine",
+    "EngineResult",
+    "PopulationCohortRunner",
+    "OrganGraphBuilder",
+    "SimpleMLP",
+    "DeepMLP",
+    "ResidualMLP",
+    "StagedPKPDModel",
 ]
