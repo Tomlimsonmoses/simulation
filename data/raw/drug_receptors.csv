@@ -1,0 +1,18 @@
+drug_name,receptor,effect_type,organ_affinity
+Lisinopril,ACE,inhibition,heart|kidneys|lungs
+Metoprolol,β1-Adrenergic,blockade,heart|brain
+Ibuprofen,COX-1,inhibition,gut|kidneys
+Ibuprofen,COX-2,inhibition,joints|immune_system
+Naproxen,COX-1,inhibition,gut
+Naproxen,COX-2,inhibition,joints
+Atorvastatin,HMG-CoA Reductase,inhibition,liver
+Amlodipine,L-Ca2+ Channel,blockade,heart|brain
+Metformin,AMPK,activation,liver|muscle
+Glipizide,KATP (SUR1),closure,pancreas
+Amoxicillin,PBP,inhibition,immune_system|gut
+Ciprofloxacin,DNA Gyrase,inhibition,immune_system
+Sertraline,SERT,inhibition,brain
+Lorazepam,GABA-A,potentiation,brain
+Levothyroxine,TR-a/b,agonism,heart|brain|muscle
+Prednisone,GR (Glucocorticoid),agonism,immune_system|lungs
+Acetaminophen,COX-3 / TRPV1,inhibition,brain|liver

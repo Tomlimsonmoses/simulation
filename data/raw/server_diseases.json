@@ -1,0 +1,250 @@
+{
+  "Hypertension": {
+    "severity": 0.55,
+    "progression_rate": 0.004,
+    "affected_organs": [
+      "heart",
+      "kidneys",
+      "brain"
+    ],
+    "biomarkers": {
+      "systolic_bp": 150.0,
+      "diastolic_bp": 95.0,
+      "heart_rate": 82.0
+    }
+  },
+  "Heart Failure (Mild)": {
+    "severity": 0.4,
+    "progression_rate": 0.006,
+    "affected_organs": [
+      "heart",
+      "lungs",
+      "kidneys"
+    ],
+    "biomarkers": {
+      "ejection_fraction": 50.0,
+      "bnp": 250.0,
+      "heart_rate": 90.0
+    }
+  },
+  "Heart Failure (Moderate)": {
+    "severity": 0.65,
+    "progression_rate": 0.009,
+    "affected_organs": [
+      "heart",
+      "lungs",
+      "kidneys",
+      "liver"
+    ],
+    "biomarkers": {
+      "ejection_fraction": 35.0,
+      "bnp": 600.0,
+      "heart_rate": 100.0
+    }
+  },
+  "Heart Failure (Severe)": {
+    "severity": 0.85,
+    "progression_rate": 0.015,
+    "affected_organs": [
+      "heart",
+      "lungs",
+      "kidneys",
+      "liver",
+      "brain"
+    ],
+    "biomarkers": {
+      "ejection_fraction": 20.0,
+      "bnp": 1200.0,
+      "heart_rate": 115.0
+    }
+  },
+  "Type 2 Diabetes (Mild)": {
+    "severity": 0.35,
+    "progression_rate": 0.005,
+    "affected_organs": [
+      "pancreas",
+      "liver"
+    ],
+    "biomarkers": {
+      "fasting_glucose": 130.0,
+      "hba1c": 7.2,
+      "insulin_resistance": 1.5
+    }
+  },
+  "Type 2 Diabetes (Moderate)": {
+    "severity": 0.55,
+    "progression_rate": 0.008,
+    "affected_organs": [
+      "pancreas",
+      "liver",
+      "kidneys"
+    ],
+    "biomarkers": {
+      "fasting_glucose": 160.0,
+      "hba1c": 8.5,
+      "insulin_resistance": 2.5
+    }
+  },
+  "Type 2 Diabetes (Severe)": {
+    "severity": 0.75,
+    "progression_rate": 0.012,
+    "affected_organs": [
+      "pancreas",
+      "liver",
+      "kidneys",
+      "heart"
+    ],
+    "biomarkers": {
+      "fasting_glucose": 200.0,
+      "hba1c": 10.5,
+      "insulin_resistance": 4.0
+    }
+  },
+  "Type 2 Diabetes": {
+    "severity": 0.55,
+    "progression_rate": 0.008,
+    "affected_organs": [
+      "pancreas",
+      "liver",
+      "kidneys"
+    ],
+    "biomarkers": {
+      "fasting_glucose": 160.0,
+      "hba1c": 8.5,
+      "insulin_resistance": 2.5
+    }
+  },
+  "COPD (Moderate)": {
+    "severity": 0.55,
+    "progression_rate": 0.007,
+    "affected_organs": [
+      "lungs",
+      "heart"
+    ],
+    "biomarkers": {
+      "fev1_pct": 58.0,
+      "o2_saturation": 92.0,
+      "fvc": 70.0
+    }
+  },
+  "COPD (Severe)": {
+    "severity": 0.8,
+    "progression_rate": 0.012,
+    "affected_organs": [
+      "lungs",
+      "heart",
+      "muscle"
+    ],
+    "biomarkers": {
+      "fev1_pct": 33.0,
+      "o2_saturation": 87.0,
+      "fvc": 55.0
+    }
+  },
+  "Chronic Kidney Disease": {
+    "severity": 0.5,
+    "progression_rate": 0.006,
+    "affected_organs": [
+      "kidneys",
+      "heart",
+      "brain"
+    ],
+    "biomarkers": {
+      "gfr": 40.0,
+      "creatinine": 2.2,
+      "urea": 25.0
+    }
+  },
+  "Arthritis": {
+    "severity": 0.45,
+    "progression_rate": 0.003,
+    "affected_organs": [
+      "joints",
+      "immune_system"
+    ],
+    "biomarkers": {
+      "crp": 8.0,
+      "esr": 45.0,
+      "pain_score": 6.0
+    }
+  },
+  "Depression": {
+    "severity": 0.5,
+    "progression_rate": 0.004,
+    "affected_organs": [
+      "brain"
+    ],
+    "biomarkers": {
+      "cortisol": 25.0,
+      "serotonin_index": 0.5,
+      "sleep_quality": 0.4
+    }
+  },
+  "Anxiety Disorder": {
+    "severity": 0.45,
+    "progression_rate": 0.004,
+    "affected_organs": [
+      "brain",
+      "heart"
+    ],
+    "biomarkers": {
+      "cortisol": 28.0,
+      "heart_rate": 90.0,
+      "gaba_index": 0.6
+    }
+  },
+  "Hypothyroidism": {
+    "severity": 0.4,
+    "progression_rate": 0.003,
+    "affected_organs": [
+      "heart",
+      "brain",
+      "muscle"
+    ],
+    "biomarkers": {
+      "tsh": 8.0,
+      "t4_free": 0.6,
+      "metabolic_rate": 0.75
+    }
+  },
+  "Bacterial Infection": {
+    "severity": 0.6,
+    "progression_rate": 0.02,
+    "affected_organs": [
+      "immune_system",
+      "gut",
+      "liver"
+    ],
+    "biomarkers": {
+      "wbc": 14.0,
+      "crp": 50.0,
+      "temperature": 38.8
+    }
+  },
+  "Autoimmune Disease": {
+    "severity": 0.6,
+    "progression_rate": 0.006,
+    "affected_organs": [
+      "immune_system",
+      "joints",
+      "kidneys"
+    ],
+    "biomarkers": {
+      "crp": 20.0,
+      "esr": 55.0,
+      "wbc": 11.0
+    }
+  },
+  "Major Depressive Disorder": {
+    "severity": 0.6,
+    "progression_rate": 0.004,
+    "affected_organs": [
+      "brain"
+    ],
+    "biomarkers": {
+      "cortisol": 28.0,
+      "serotonin_index": 0.35,
+      "sleep_quality": 0.3
+    }
+  }
+}

@@ -1,0 +1,37 @@
+disease_name,drug_name
+Hypertension,Lisinopril
+Hypertension,Metoprolol
+Hypertension,Amlodipine
+Hypertension,Atorvastatin
+Heart Failure (Mild),Lisinopril
+Heart Failure (Mild),Metoprolol
+Heart Failure (Mild),Atorvastatin
+Heart Failure (Moderate),Lisinopril
+Heart Failure (Moderate),Metoprolol
+Heart Failure (Moderate),Atorvastatin
+Heart Failure (Severe),Lisinopril
+Heart Failure (Severe),Metoprolol
+Type 2 Diabetes (Mild),Metformin
+Type 2 Diabetes (Mild),Glipizide
+Type 2 Diabetes (Moderate),Metformin
+Type 2 Diabetes (Moderate),Glipizide
+Type 2 Diabetes (Severe),Metformin
+Type 2 Diabetes (Severe),Glipizide
+Type 2 Diabetes,Metformin
+Type 2 Diabetes,Glipizide
+COPD (Moderate),Prednisone
+COPD (Severe),Prednisone
+Chronic Kidney Disease,Lisinopril
+Chronic Kidney Disease,Amlodipine
+Arthritis,Ibuprofen
+Arthritis,Naproxen
+Arthritis,Prednisone
+Arthritis,Acetaminophen
+Depression,Sertraline
+Anxiety Disorder,Sertraline
+Anxiety Disorder,Lorazepam
+Hypothyroidism,Levothyroxine
+Bacterial Infection,Amoxicillin
+Bacterial Infection,Ciprofloxacin
+Autoimmune Disease,Prednisone
+Major Depressive Disorder,Sertraline

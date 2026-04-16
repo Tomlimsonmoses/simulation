@@ -33,6 +33,9 @@ PROJECT_DIR = os.path.dirname(BASE_DIR)
 sys.path.insert(0, PROJECT_DIR)
 sys.path.insert(0, os.path.join(PROJECT_DIR, "src"))
 
+# DataLoader — all seed data lives in data/raw/; files are created on first run
+from data.data_loader import get_data_loader  # noqa: E402
+
 # ===========================================================================
 # ── Simulation Domain Classes (extracted from advanced_dashboard.py) ─────
 # ===========================================================================
@@ -88,213 +91,94 @@ class SideEffect:
         self.end_time: Optional[float] = None
 
 
-# ---------------------------------------------------------------------------
-# Drug → receptor binding table
-# ---------------------------------------------------------------------------
-DRUG_RECEPTORS: Dict[str, List[Dict[str, Any]]] = {
-    "Lisinopril":    [{"receptor": "ACE",                "effect": "inhibition",  "organ_affinity": ["heart","kidneys","lungs"]}],
-    "Metoprolol":    [{"receptor": "β1-Adrenergic",      "effect": "blockade",    "organ_affinity": ["heart","brain"]}],
-    "Ibuprofen":     [{"receptor": "COX-1",              "effect": "inhibition",  "organ_affinity": ["gut","kidneys"]},
-                      {"receptor": "COX-2",              "effect": "inhibition",  "organ_affinity": ["joints","immune_system"]}],
-    "Naproxen":      [{"receptor": "COX-1",              "effect": "inhibition",  "organ_affinity": ["gut"]},
-                      {"receptor": "COX-2",              "effect": "inhibition",  "organ_affinity": ["joints"]}],
-    "Atorvastatin":  [{"receptor": "HMG-CoA Reductase",  "effect": "inhibition",  "organ_affinity": ["liver"]}],
-    "Amlodipine":    [{"receptor": "L-Ca²⁺ Channel",     "effect": "blockade",    "organ_affinity": ["heart","brain"]}],
-    "Metformin":     [{"receptor": "AMPK",               "effect": "activation",  "organ_affinity": ["liver","muscle"]}],
-    "Glipizide":     [{"receptor": "KATP (SUR1)",        "effect": "closure",     "organ_affinity": ["pancreas"]}],
-    "Amoxicillin":   [{"receptor": "PBP",                "effect": "inhibition",  "organ_affinity": ["immune_system","gut"]}],
-    "Ciprofloxacin": [{"receptor": "DNA Gyrase",         "effect": "inhibition",  "organ_affinity": ["immune_system"]}],
-    "Sertraline":    [{"receptor": "SERT",               "effect": "inhibition",  "organ_affinity": ["brain"]}],
-    "Lorazepam":     [{"receptor": "GABA-A",             "effect": "potentiation","organ_affinity": ["brain"]}],
-    "Levothyroxine": [{"receptor": "TR-α/β",             "effect": "agonism",     "organ_affinity": ["heart","brain","muscle"]}],
-    "Prednisone":    [{"receptor": "GR (Glucocorticoid)","effect": "agonism",     "organ_affinity": ["immune_system","lungs"]}],
-    "Acetaminophen": [{"receptor": "COX-3 / TRPV1",      "effect": "inhibition",  "organ_affinity": ["brain","liver"]}],
-}
+# Drug → receptor binding table is loaded from data/raw/drug_receptors.csv
+# (accessed via BiologicalSystemSimulator._drug_receptors)
 
 
 class BiologicalSystemSimulator:
     """Pure-Python simulation engine — no Streamlit dependencies."""
 
     def __init__(self):
-        self.drug_database       = self._build_drug_database()
-        self.disease_database    = self._build_disease_database()
-        self.side_effects_db     = self._build_side_effects_database()
-        self.drug_disease_map    = self._build_drug_disease_map()
-        self.drug_incompatibilities = self._build_drug_incompatibilities()
-        self.organ_drug_effects  = self._build_organ_drug_effects()
+        _dl = get_data_loader()
+        self.drug_database          = self._build_drug_database(_dl.load_drugs())
+        self.disease_database       = self._build_disease_database(_dl.load_diseases())
+        self.side_effects_db        = self._build_side_effects_database(_dl.load_side_effects())
+        self.drug_disease_map       = self._build_drug_disease_map(_dl.load_drug_disease_map())
+        self.drug_incompatibilities = self._build_drug_incompatibilities(_dl.load_drug_interactions())
+        self.organ_drug_effects     = self._build_organ_drug_effects(_dl.load_drug_organ_effects())
+        self._drug_receptors        = self._build_drug_receptors(_dl.load_drug_receptors())
 
     # ------------------------------------------------------------------ dbs
-    def _build_drug_database(self) -> Dict[str, DrugProperties]:
-        return {
-            "Acetaminophen": DrugProperties("Acetaminophen", 151.16,  1.0, 0.88,  2.5, 21.0,  42.0, 500.0,  "oral","qid",  0.10, (10.0,  50.0)),
-            "Ibuprofen":     DrugProperties("Ibuprofen",     206.29,  3.5, 0.80,  2.0,  6.3,   9.8, 400.0,  "oral","tid",  0.99, (10.0,  40.0)),
-            "Naproxen":      DrugProperties("Naproxen",      230.26,  3.2, 0.95, 17.0,  0.42,  9.0, 500.0,  "oral","bid",  0.99, (20.0,  80.0)),
-            "Lisinopril":    DrugProperties("Lisinopril",    405.49, -0.5, 0.25, 12.0,  2.1, 120.0,  10.0,  "oral","daily",0.00, ( 5.0,  40.0)),
-            "Metoprolol":    DrugProperties("Metoprolol",    267.37,  1.9, 0.50,  3.5, 14.7, 280.0,  50.0,  "oral","bid",  0.12, (30.0, 200.0)),
-            "Atorvastatin":  DrugProperties("Atorvastatin",  558.64,  6.4, 0.14, 14.0, 12.6, 381.0,  20.0,  "oral","daily",0.98, (10.0,  80.0)),
-            "Amlodipine":    DrugProperties("Amlodipine",    408.88,  3.0, 0.64, 35.0,  4.2, 840.0,   5.0,  "oral","daily",0.97, ( 5.0,  15.0)),
-            "Metformin":     DrugProperties("Metformin",     129.16, -6.1, 0.55,  6.0, 35.0, 126.0, 850.0,  "oral","bid",  0.00, ( 0.5,   2.5)),
-            "Glipizide":     DrugProperties("Glipizide",     445.54,  1.9, 0.90,  7.0,  1.4,  14.0,   5.0,  "oral","daily",0.98, (50.0, 150.0)),
-            "Amoxicillin":   DrugProperties("Amoxicillin",   365.40, -2.5, 0.75,  1.5, 14.0,  21.0, 500.0,  "oral","tid",  0.18, ( 1.0,   8.0)),
-            "Ciprofloxacin": DrugProperties("Ciprofloxacin", 331.35,  0.3, 0.70,  4.0, 37.8, 210.0, 500.0,  "oral","bid",  0.30, ( 0.5,   4.0)),
-            "Sertraline":    DrugProperties("Sertraline",    306.23,  5.1, 0.44, 26.0,  1.4, 273.0,  50.0,  "oral","daily",0.98, (10.0, 150.0)),
-            "Lorazepam":     DrugProperties("Lorazepam",     321.16,  2.4, 0.85, 14.0,  1.26,121.0,   1.0,  "oral","bid",  0.91, (10.0,  60.0)),
-            "Levothyroxine": DrugProperties("Levothyroxine", 776.87,  3.5, 0.70,168.0,  0.105,10.5,  0.1,  "oral","daily",0.999,( 0.5,   2.0)),
-            "Prednisone":    DrugProperties("Prednisone",    358.43,  1.5, 0.70,  3.5,  3.57, 35.0,  20.0,  "oral","daily",0.70, (10.0, 100.0)),
-        }
+    def _build_drug_database(self, rows: List[Dict]) -> Dict[str, DrugProperties]:
+        result: Dict[str, DrugProperties] = {}
+        for r in rows:
+            result[r["drug_name"]] = DrugProperties(
+                name=r["drug_name"],
+                molecular_weight=float(r["molecular_weight"]),
+                logp=float(r["logp"]),
+                bioavailability=float(r["bioavailability"]),
+                half_life=float(r["half_life"]),
+                clearance=float(r["clearance"]),
+                volume_distribution=float(r["volume_distribution"]),
+                dose_mg=float(r["dose_mg"]),
+                administration_route=r["administration_route"],
+                dosing_frequency=r["dosing_frequency"],
+                protein_binding=float(r["protein_binding"]),
+                therapeutic_window=(
+                    float(r["therapeutic_window_lo"]),
+                    float(r["therapeutic_window_hi"]),
+                ),
+            )
+        return result
 
-    def _build_disease_database(self) -> Dict[str, DiseaseState]:
-        return {
-            "Hypertension":                DiseaseState("Hypertension",          0.55,0.004,["heart","kidneys","brain"],          {"systolic_bp":150.,"diastolic_bp":95.,"heart_rate":82.}),
-            "Heart Failure (Mild)":        DiseaseState("Heart Failure (Mild)",  0.40,0.006,["heart","lungs","kidneys"],           {"ejection_fraction":50.,"bnp":250.,"heart_rate":90.}),
-            "Heart Failure (Moderate)":    DiseaseState("Heart Failure (Moderate)",0.65,0.009,["heart","lungs","kidneys","liver"],  {"ejection_fraction":35.,"bnp":600.,"heart_rate":100.}),
-            "Heart Failure (Severe)":      DiseaseState("Heart Failure (Severe)",0.85,0.015,["heart","lungs","kidneys","liver","brain"],{"ejection_fraction":20.,"bnp":1200.,"heart_rate":115.}),
-            "Type 2 Diabetes (Mild)":      DiseaseState("Type 2 Diabetes (Mild)",0.35,0.005,["pancreas","liver"],                  {"fasting_glucose":130.,"hba1c":7.2,"insulin_resistance":1.5}),
-            "Type 2 Diabetes (Moderate)":  DiseaseState("Type 2 Diabetes (Mod)",0.55,0.008,["pancreas","liver","kidneys"],         {"fasting_glucose":160.,"hba1c":8.5,"insulin_resistance":2.5}),
-            "Type 2 Diabetes (Severe)":    DiseaseState("Type 2 Diabetes (Sev)",0.75,0.012,["pancreas","liver","kidneys","heart"], {"fasting_glucose":200.,"hba1c":10.5,"insulin_resistance":4.0}),
-            "COPD (Moderate)":             DiseaseState("COPD (Moderate)",       0.55,0.007,["lungs","heart"],                     {"fev1_pct":58.,"o2_saturation":92.,"fvc":70.}),
-            "COPD (Severe)":               DiseaseState("COPD (Severe)",         0.80,0.012,["lungs","heart","muscle"],            {"fev1_pct":33.,"o2_saturation":87.,"fvc":55.}),
-            "Chronic Kidney Disease":      DiseaseState("Chronic Kidney Disease",0.50,0.006,["kidneys","heart","brain"],           {"gfr":40.,"creatinine":2.2,"urea":25.}),
-            "Arthritis":                   DiseaseState("Arthritis",             0.45,0.003,["joints","immune_system"],            {"crp":8.,"esr":45.,"pain_score":6.}),
-            "Depression":                  DiseaseState("Depression",            0.50,0.004,["brain"],                             {"cortisol":25.,"serotonin_index":0.5,"sleep_quality":0.4}),
-            "Anxiety Disorder":            DiseaseState("Anxiety Disorder",      0.45,0.004,["brain","heart"],                    {"cortisol":28.,"heart_rate":90.,"gaba_index":0.6}),
-            "Hypothyroidism":              DiseaseState("Hypothyroidism",        0.40,0.003,["heart","brain","muscle"],            {"tsh":8.,"t4_free":0.6,"metabolic_rate":0.75}),
-            "Bacterial Infection":         DiseaseState("Bacterial Infection",   0.60,0.020,["immune_system","gut","liver"],       {"wbc":14.,"crp":50.,"temperature":38.8}),
-        }
+    def _build_disease_database(self, disease_dict: Dict) -> Dict[str, DiseaseState]:
+        result: Dict[str, DiseaseState] = {}
+        for name, d in disease_dict.items():
+            result[name] = DiseaseState(
+                name=name,
+                severity=float(d["severity"]),
+                progression_rate=float(d["progression_rate"]),
+                affected_organs=list(d["affected_organs"]),
+                biomarkers={k: float(v) for k, v in d["biomarkers"].items()},
+            )
+        return result
 
-    def _build_side_effects_database(self) -> Dict[str, List[SideEffect]]:
-        return {
-            "Acetaminophen": [
-                SideEffect("Liver Toxicity",     "high",  24.0, 48.0, 0.05, "Elevated liver enzymes; hepatotoxicity at supratherapeutic doses"),
-                SideEffect("Nausea",             "low",    1.0,  2.0, 0.12, "Mild gastrointestinal discomfort"),
-                SideEffect("Allergic Reaction",  "medium", 0.5,  4.0, 0.02, "Skin rash, urticaria, potential anaphylaxis"),
-            ],
-            "Ibuprofen": [
-                SideEffect("GI Bleeding",        "high",  12.0, 24.0, 0.07, "Gastric ulcers and gastrointestinal bleeding"),
-                SideEffect("Kidney Damage",      "medium",48.0, 72.0, 0.05, "Reduced renal perfusion; acute kidney injury risk"),
-                SideEffect("Headache",           "low",    2.0,  4.0, 0.18, "Mild to moderate headache"),
-            ],
-            "Naproxen": [
-                SideEffect("GI Irritation",      "medium", 4.0, 24.0, 0.12, "Abdominal pain, dyspepsia, peptic ulceration"),
-                SideEffect("Fluid Retention",    "medium",24.0, 48.0, 0.08, "Oedema due to renal prostaglandin inhibition"),
-                SideEffect("Kidney Damage",      "medium",72.0, 96.0, 0.04, "Impaired renal function with prolonged use"),
-            ],
-            "Lisinopril": [
-                SideEffect("Angioedema",         "high",   2.0, 24.0, 0.01, "Swelling of face/lips/tongue — medical emergency"),
-                SideEffect("Dry Cough",          "low",   24.0,168.0, 0.20, "Persistent bradykinin-mediated dry cough"),
-                SideEffect("Hyperkalemia",       "medium",48.0, 72.0, 0.05, "Elevated potassium; risk in renal impairment"),
-                SideEffect("Hypotension",        "medium", 1.0,  4.0, 0.08, "First-dose hypotension"),
-            ],
-            "Metoprolol": [
-                SideEffect("Bradycardia",        "medium", 2.0,  8.0, 0.10, "Heart rate below 50 bpm"),
-                SideEffect("Fatigue",            "low",   24.0, 72.0, 0.25, "Reduced exercise tolerance, lethargy"),
-                SideEffect("Bronchospasm",       "high",   1.0,  6.0, 0.04, "Beta-2 mediated bronchoconstriction — caution in asthma/COPD"),
-                SideEffect("Cold Extremities",   "low",   12.0, 48.0, 0.15, "Peripheral vasoconstriction"),
-            ],
-            "Atorvastatin": [
-                SideEffect("Myopathy",           "medium",168.0,336.0,0.05, "Muscle pain, weakness; check CK if symptomatic"),
-                SideEffect("Liver Enzyme Elev.", "medium", 48.0, 96.0, 0.03, "Elevated ALT/AST; monitor LFTs"),
-                SideEffect("Rhabdomyolysis",     "high",  336.0,168.0,0.005,"Severe muscle breakdown; risk increases with interactions"),
-            ],
-            "Amlodipine": [
-                SideEffect("Peripheral Oedema",  "low",   24.0, 72.0, 0.20, "Ankle swelling due to vasodilation"),
-                SideEffect("Flushing",           "low",    1.0,  4.0, 0.12, "Facial flushing and warmth"),
-                SideEffect("Reflex Tachycardia", "medium", 2.0,  6.0, 0.08, "Compensatory heart rate increase"),
-            ],
-            "Metformin": [
-                SideEffect("Lactic Acidosis",    "high",  72.0, 48.0, 0.01, "Rare but serious; risk increased in renal impairment"),
-                SideEffect("GI Distress",        "medium", 1.0, 24.0, 0.30, "Diarrhoea, nausea, abdominal discomfort — take with food"),
-                SideEffect("Vitamin B12 Defic.", "low",   720.0,168.0, 0.10, "Long-term B12 malabsorption; monitor annually"),
-            ],
-            "Glipizide": [
-                SideEffect("Hypoglycaemia",      "high",   2.0,  6.0, 0.12, "Blood glucose <3.5 mmol/L; dizziness, sweating, confusion"),
-                SideEffect("Weight Gain",        "low",   168.0,336.0,0.20, "Insulin secretagogue effect promotes weight gain"),
-                SideEffect("Nausea",             "low",    1.0,  4.0, 0.08, "Mild GI discomfort"),
-            ],
-            "Amoxicillin": [
-                SideEffect("Allergic Reaction",  "high",   0.5,  6.0, 0.05, "Penicillin hypersensitivity; anaphylaxis risk"),
-                SideEffect("Diarrhoea",          "low",    4.0, 24.0, 0.20, "Antibiotic-associated GI disruption"),
-                SideEffect("C.diff Infection",   "high",  72.0,168.0, 0.03, "Dysbiosis leading to C. diff colitis"),
-            ],
-            "Ciprofloxacin": [
-                SideEffect("Tendinopathy",       "medium", 48.0, 96.0, 0.04, "Tendon inflammation/rupture, especially Achilles"),
-                SideEffect("CNS Effects",        "medium", 4.0, 12.0, 0.06, "Headache, dizziness, seizure risk in susceptible patients"),
-                SideEffect("QT Prolongation",    "high",   4.0, 12.0, 0.03, "Cardiac arrhythmia risk"),
-            ],
-            "Sertraline": [
-                SideEffect("Nausea",             "low",    4.0, 24.0, 0.25, "Common early-treatment GI symptom — usually resolves"),
-                SideEffect("Insomnia",           "low",   12.0, 72.0, 0.15, "Sleep disturbance, vivid dreams"),
-                SideEffect("Serotonin Syndrome", "high",   2.0, 12.0, 0.01, "Hyperthermia, agitation, clonus — risk with MAOIs"),
-            ],
-            "Lorazepam": [
-                SideEffect("Sedation",           "medium", 1.0,  6.0, 0.40, "CNS depression; impairs driving/coordination"),
-                SideEffect("Respiratory Depr.",  "high",   1.0,  6.0, 0.03, "Reduced respiratory drive; additive with opioids/alcohol"),
-                SideEffect("Dependence",         "high",  336.0,672.0,0.15, "Physical and psychological dependence with prolonged use"),
-            ],
-            "Levothyroxine": [
-                SideEffect("Palpitations",       "medium",24.0, 48.0, 0.08, "Supraphysiological dosing causes tachyarrhythmia"),
-                SideEffect("Insomnia",           "low",   24.0, 72.0, 0.10, "CNS stimulation at high doses"),
-                SideEffect("Chest Pain",         "high",  12.0, 24.0, 0.02, "Angina risk in ischaemic heart disease patients"),
-            ],
-            "Prednisone": [
-                SideEffect("Hyperglycaemia",     "medium", 2.0, 24.0, 0.30, "Steroid-induced glucose elevation"),
-                SideEffect("Immunosuppression",  "high",  24.0, 72.0, 0.50, "Increased infection risk"),
-                SideEffect("GI Ulceration",      "medium",12.0, 48.0, 0.10, "Gastric irritation; take with food or PPI cover"),
-                SideEffect("Osteoporosis",       "medium",720.0,336.0,0.20, "Long-term bone density loss"),
-            ],
-        }
+    def _build_side_effects_database(self, rows: List[Dict]) -> Dict[str, List[SideEffect]]:
+        result: Dict[str, List[SideEffect]] = {}
+        for r in rows:
+            se = SideEffect(
+                r["effect_name"], r["severity"],
+                float(r["onset_hours"]), float(r["duration_hours"]),
+                float(r["probability"]), r["description"],
+            )
+            result.setdefault(r["drug_name"], []).append(se)
+        return result
 
-    def _build_drug_disease_map(self) -> Dict[str, List[str]]:
-        return {
-            "Hypertension":              ["Lisinopril","Metoprolol","Amlodipine","Atorvastatin"],
-            "Heart Failure (Mild)":      ["Lisinopril","Metoprolol","Atorvastatin"],
-            "Heart Failure (Moderate)":  ["Lisinopril","Metoprolol","Atorvastatin"],
-            "Heart Failure (Severe)":    ["Lisinopril","Metoprolol"],
-            "Type 2 Diabetes (Mild)":    ["Metformin","Glipizide"],
-            "Type 2 Diabetes (Moderate)":["Metformin","Glipizide"],
-            "Type 2 Diabetes (Severe)":  ["Metformin","Glipizide"],
-            "COPD (Moderate)":           ["Prednisone"],
-            "COPD (Severe)":             ["Prednisone"],
-            "Chronic Kidney Disease":    ["Lisinopril","Amlodipine"],
-            "Arthritis":                 ["Ibuprofen","Naproxen","Prednisone","Acetaminophen"],
-            "Depression":                ["Sertraline"],
-            "Anxiety Disorder":          ["Sertraline","Lorazepam"],
-            "Hypothyroidism":            ["Levothyroxine"],
-            "Bacterial Infection":       ["Amoxicillin","Ciprofloxacin"],
-        }
+    def _build_drug_disease_map(self, rows: List[Dict]) -> Dict[str, List[str]]:
+        result: Dict[str, List[str]] = {}
+        for r in rows:
+            result.setdefault(r["disease_name"], []).append(r["drug_name"])
+        return result
 
-    def _build_drug_incompatibilities(self) -> Dict[tuple, str]:
-        return {
-            ("Ibuprofen",    "Lisinopril"):  "NSAIDs blunt ACE inhibitor efficacy and increase renal injury risk",
-            ("Naproxen",     "Lisinopril"):  "NSAIDs blunt ACE inhibitor efficacy and increase renal injury risk",
-            ("Ibuprofen",    "Metformin"):   "NSAIDs may increase metformin accumulation → lactic acidosis",
-            ("Metoprolol",   "Amlodipine"):  "Additive negative chronotropy — risk of excessive bradycardia",
-            ("Sertraline",   "Lorazepam"):   "Enhanced CNS depression — monitor respiratory function",
-            ("Prednisone",   "Ibuprofen"):   "Additive risk of GI ulceration and bleeding",
-            ("Prednisone",   "Naproxen"):    "Additive risk of GI ulceration and bleeding",
-            ("Levothyroxine","Metformin"):   "Metformin may reduce levothyroxine absorption — stagger doses",
-            ("Ciprofloxacin","Metformin"):   "Ciprofloxacin inhibits renal tubular transport of metformin",
-            ("Glipizide",    "Ibuprofen"):   "NSAIDs may potentiate hypoglycaemic effect of sulphonylureas",
-        }
+    def _build_drug_incompatibilities(self, rows: List[Dict]) -> Dict[tuple, str]:
+        return {(r["drug1"], r["drug2"]): r["description"] for r in rows}
 
-    def _build_organ_drug_effects(self) -> Dict[str, Dict[str, float]]:
-        return {
-            "Acetaminophen": {"liver": -0.15},
-            "Ibuprofen":     {"kidneys": -0.12, "gut": -0.10, "heart": -0.04},
-            "Naproxen":      {"kidneys": -0.10, "gut": -0.12},
-            "Lisinopril":    {"heart":   +0.15, "kidneys": +0.10},
-            "Metoprolol":    {"heart":   +0.18, "lungs": -0.06, "brain": +0.05},
-            "Atorvastatin":  {"liver":   -0.06, "muscle": -0.08, "heart": +0.10},
-            "Amlodipine":    {"heart":   +0.12, "brain":  +0.08},
-            "Metformin":     {"liver":   +0.10, "kidneys": -0.04},
-            "Glipizide":     {"pancreas":+0.15},
-            "Prednisone":    {"immune_system": -0.20, "gut": -0.08, "lungs": +0.12},
-            "Amoxicillin":   {"gut":     -0.06},
-            "Ciprofloxacin": {"gut":     -0.08, "muscle": -0.05},
-            "Sertraline":    {"brain":   +0.12, "gut": -0.04},
-            "Lorazepam":     {"brain":   +0.08, "lungs": -0.08},
-            "Levothyroxine": {"heart":   +0.08, "brain": +0.10, "muscle": +0.06},
-        }
+    def _build_organ_drug_effects(self, rows: List[Dict]) -> Dict[str, Dict[str, float]]:
+        result: Dict[str, Dict[str, float]] = {}
+        for r in rows:
+            result.setdefault(r["drug_name"], {})[r["organ"]] = float(r["effect_magnitude"])
+        return result
+
+    def _build_drug_receptors(self, rows: List[Dict]) -> Dict[str, List[Dict[str, Any]]]:
+        result: Dict[str, List[Dict[str, Any]]] = {}
+        for r in rows:
+            entry = {
+                "receptor": r["receptor"],
+                "effect": r["effect_type"],
+                "organ_affinity": [o.strip() for o in r["organ_affinity"].split("|")],
+            }
+            result.setdefault(r["drug_name"], []).append(entry)
+        return result
 
     # ----------------------------------------------------------------- math
     def calculate_concentration(self, drug: DrugProperties, t: float,
@@ -443,7 +327,7 @@ class BiologicalSystemSimulator:
         drug_binding_events = []
         total_occupancy = 0.0
         for drug_name, conc in drug_concentrations.items():
-            receptors = DRUG_RECEPTORS.get(drug_name, [])
+            receptors = self._drug_receptors.get(drug_name, [])
             for rec in receptors:
                 if organ in rec["organ_affinity"] or not rec["organ_affinity"]:
                     tw_hi = self.drug_database[drug_name].therapeutic_window[1] if drug_name in self.drug_database else 50.0
@@ -534,6 +418,21 @@ class SimulateRequest(BaseModel):
     heart_rate: float = 72.0
     metabolic_rate: float = 1.0
     duration_hours: float = 72.0
+
+class LongTermSimulateRequest(BaseModel):
+    drug: str = "Atorvastatin"
+    dose: float = 20.0
+    drug2: Optional[str] = None
+    dose2: Optional[float] = None
+    disease: str = "Hypertension"
+    severity: float = 0.55
+    age: float = 65.0
+    weight: float = 70.0
+    sex: int = 1
+    kidney_function: float = 0.8
+    liver_function: float = 0.9
+    duration_days: float = 180.0
+
 
 class CellRequest(BaseModel):
     organ: str
@@ -951,6 +850,56 @@ async def simulate(req: SimulateRequest):
         "heart_rate": bio.heart_rate,
         "engine": "mechanistic" if _engine is not None else "analytical",
     }
+
+
+# ───────────────────────────────────────────── long-term realistic sim ─────
+@app.post("/api/simulate/longterm")
+async def simulate_longterm(req: LongTermSimulateRequest):
+    """
+    Run a realistic multi-scale biological simulation spanning hours → years.
+
+    Unlike /api/simulate (which uses a 1-compartment model), this endpoint
+    uses ODE-based immune cascades, organ-damage biomarker kinetics, and
+    long-term adaptation models (CYP enzyme induction, receptor downregulation,
+    bone remodeling, microbiome disruption, and more).
+
+    Request body parameters:
+    - drug / dose: primary drug and dose (mg)
+    - drug2 / dose2: optional second drug (combination)
+    - disease / severity: disease name (0-1 severity)
+    - age, weight, sex: patient demographics
+    - kidney_function, liver_function: organ function (0-1)
+    - duration_days: simulation length from 0.5 to 1825 (5 years)
+
+    Returns: comprehensive JSON with plasma concentrations, immune markers,
+    23 biomarker trajectories, adaptations, clinical events, and a summary.
+    """
+    from simulation.realistic_simulator import get_realistic_simulator
+
+    drug_names = [req.drug]
+    doses: Dict[str, float] = {req.drug: req.dose}
+
+    if req.drug2 and req.drug2 not in ("None", "", "null"):
+        drug_names.append(req.drug2)
+        # Use provided dose2, or fall back to database default
+        dp2 = _simulator.drug_database.get(req.drug2)
+        doses[req.drug2] = req.dose2 if req.dose2 is not None else (dp2.dose_mg if dp2 else 10.0)
+
+    sim = get_realistic_simulator()
+    result = sim.simulate(
+        drug_names=drug_names,
+        doses_mg=doses,
+        disease_name=req.disease,
+        disease_severity=req.severity,
+        patient_age=req.age,
+        patient_weight_kg=req.weight,
+        patient_sex=req.sex,
+        kidney_function=req.kidney_function,
+        liver_function=req.liver_function,
+        dosing_frequency="daily",
+        duration_days=req.duration_days,
+    )
+    return result.to_api_dict()
 
 
 @app.post("/api/cell")

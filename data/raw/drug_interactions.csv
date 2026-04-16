@@ -1,0 +1,11 @@
+drug1,drug2,severity,description
+Ibuprofen,Lisinopril,high,NSAIDs blunt ACE inhibitor efficacy and increase renal injury risk
+Naproxen,Lisinopril,high,NSAIDs blunt ACE inhibitor efficacy and increase renal injury risk
+Ibuprofen,Metformin,high,NSAIDs may increase metformin accumulation → lactic acidosis
+Metoprolol,Amlodipine,medium,Additive negative chronotropy — risk of excessive bradycardia
+Sertraline,Lorazepam,medium,Enhanced CNS depression — monitor respiratory function
+Prednisone,Ibuprofen,high,Additive risk of GI ulceration and bleeding
+Prednisone,Naproxen,high,Additive risk of GI ulceration and bleeding
+Levothyroxine,Metformin,low,Metformin may reduce levothyroxine absorption — stagger doses
+Ciprofloxacin,Metformin,medium,Ciprofloxacin inhibits renal tubular transport of metformin
+Glipizide,Ibuprofen,medium,NSAIDs may potentiate hypoglycaemic effect of sulphonylureas

@@ -1,0 +1,49 @@
+drug_name,effect_name,severity,onset_hours,duration_hours,probability,description
+Acetaminophen,Liver Toxicity,high,24.0,48.0,0.05,Elevated liver enzymes; hepatotoxicity at supratherapeutic doses
+Acetaminophen,Nausea,low,1.0,2.0,0.12,Mild gastrointestinal discomfort
+Acetaminophen,Allergic Reaction,medium,0.5,4.0,0.02,"Skin rash, urticaria, potential anaphylaxis"
+Ibuprofen,GI Bleeding,high,12.0,24.0,0.07,Gastric ulcers and gastrointestinal bleeding
+Ibuprofen,Kidney Damage,medium,48.0,72.0,0.05,Reduced renal perfusion; acute kidney injury risk
+Ibuprofen,Headache,low,2.0,4.0,0.18,Mild to moderate headache
+Naproxen,GI Irritation,medium,4.0,24.0,0.12,"Abdominal pain, dyspepsia, peptic ulceration"
+Naproxen,Fluid Retention,medium,24.0,48.0,0.08,Oedema due to renal prostaglandin inhibition
+Naproxen,Kidney Damage,medium,72.0,96.0,0.04,Impaired renal function with prolonged use
+Lisinopril,Angioedema,high,2.0,24.0,0.01,Swelling of face/lips/tongue — medical emergency
+Lisinopril,Dry Cough,low,24.0,168.0,0.2,Persistent bradykinin-mediated dry cough
+Lisinopril,Hyperkalemia,medium,48.0,72.0,0.05,Elevated potassium; risk in renal impairment
+Lisinopril,Hypotension,medium,1.0,4.0,0.08,First-dose hypotension
+Metoprolol,Bradycardia,medium,2.0,8.0,0.1,Heart rate below 50 bpm
+Metoprolol,Fatigue,low,24.0,72.0,0.25,"Reduced exercise tolerance, lethargy"
+Metoprolol,Bronchospasm,high,1.0,6.0,0.04,Beta-2 mediated bronchoconstriction — caution in asthma/COPD
+Metoprolol,Cold Extremities,low,12.0,48.0,0.15,Peripheral vasoconstriction
+Atorvastatin,Myopathy,medium,168.0,336.0,0.05,"Muscle pain, weakness; check CK if symptomatic"
+Atorvastatin,Liver Enzyme Elev.,medium,48.0,96.0,0.03,Elevated ALT/AST; monitor LFTs
+Atorvastatin,Rhabdomyolysis,high,336.0,168.0,0.005,Severe muscle breakdown; risk increases with interactions
+Amlodipine,Peripheral Oedema,low,24.0,72.0,0.2,Ankle swelling due to vasodilation
+Amlodipine,Flushing,low,1.0,4.0,0.12,Facial flushing and warmth
+Amlodipine,Reflex Tachycardia,medium,2.0,6.0,0.08,Compensatory heart rate increase
+Metformin,Lactic Acidosis,high,72.0,48.0,0.01,Rare but serious; risk increased in renal impairment
+Metformin,GI Distress,medium,1.0,24.0,0.3,"Diarrhoea, nausea, abdominal discomfort — take with food"
+Metformin,Vitamin B12 Defic.,low,720.0,168.0,0.1,Long-term B12 malabsorption; monitor annually
+Glipizide,Hypoglycaemia,high,2.0,6.0,0.12,"Blood glucose <3.5 mmol/L; dizziness, sweating, confusion"
+Glipizide,Weight Gain,low,168.0,336.0,0.2,Insulin secretagogue effect promotes weight gain
+Glipizide,Nausea,low,1.0,4.0,0.08,Mild GI discomfort
+Amoxicillin,Allergic Reaction,high,0.5,6.0,0.05,Penicillin hypersensitivity; anaphylaxis risk
+Amoxicillin,Diarrhoea,low,4.0,24.0,0.2,Antibiotic-associated GI disruption
+Amoxicillin,C.diff Infection,high,72.0,168.0,0.03,Dysbiosis leading to C. diff colitis
+Ciprofloxacin,Tendinopathy,medium,48.0,96.0,0.04,"Tendon inflammation/rupture, especially Achilles"
+Ciprofloxacin,CNS Effects,medium,4.0,12.0,0.06,"Headache, dizziness, seizure risk in susceptible patients"
+Ciprofloxacin,QT Prolongation,high,4.0,12.0,0.03,Cardiac arrhythmia risk
+Sertraline,Nausea,low,4.0,24.0,0.25,Common early-treatment GI symptom — usually resolves
+Sertraline,Insomnia,low,12.0,72.0,0.15,"Sleep disturbance, vivid dreams"
+Sertraline,Serotonin Syndrome,high,2.0,12.0,0.01,"Hyperthermia, agitation, clonus — risk with MAOIs"
+Lorazepam,Sedation,medium,1.0,6.0,0.4,CNS depression; impairs driving/coordination
+Lorazepam,Respiratory Depr.,high,1.0,6.0,0.03,Reduced respiratory drive; additive with opioids/alcohol
+Lorazepam,Dependence,high,336.0,672.0,0.15,Physical and psychological dependence with prolonged use
+Levothyroxine,Palpitations,medium,24.0,48.0,0.08,Supraphysiological dosing causes tachyarrhythmia
+Levothyroxine,Insomnia,low,24.0,72.0,0.1,CNS stimulation at high doses
+Levothyroxine,Chest Pain,high,12.0,24.0,0.02,Angina risk in ischaemic heart disease patients
+Prednisone,Hyperglycaemia,medium,2.0,24.0,0.3,Steroid-induced glucose elevation
+Prednisone,Immunosuppression,high,24.0,72.0,0.5,Increased infection risk
+Prednisone,GI Ulceration,medium,12.0,48.0,0.1,Gastric irritation; take with food or PPI cover
+Prednisone,Osteoporosis,medium,720.0,336.0,0.2,Long-term bone density loss

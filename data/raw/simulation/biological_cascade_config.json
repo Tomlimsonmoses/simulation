@@ -1,0 +1,226 @@
+{
+  "healthy_baseline": {
+    "NEUTROPHIL": 4.0,
+    "MACROPHAGE": 0.05,
+    "NK_CELL": 0.2,
+    "MONOCYTE": 0.5,
+    "TH_CELL": 0.8,
+    "TC_CELL": 0.4,
+    "B_CELL": 0.25,
+    "ANTIBODY": 1.0,
+    "IL1B": 0.5,
+    "IL6": 1.5,
+    "TNFa": 5.0,
+    "IL17": 2.0,
+    "IFNG": 0.5,
+    "IL10": 3.0,
+    "IL4": 1.5,
+    "CRP": 1.0,
+    "FIBRINOGEN": 2.5,
+    "CRH": 10.0,
+    "ACTH": 20.0,
+    "CORTISOL": 400.0,
+    "TSH": 2.0,
+    "T4_FREE": 15.0,
+    "T3_FREE": 4.5,
+    "GLUCOSE": 5.0,
+    "INSULIN": 50.0,
+    "GLUCAGON": 60.0,
+    "RBC": 5.0,
+    "HEMOGLOBIN": 14.5,
+    "PLATELET": 250.0,
+    "WBC": 6.5,
+    "COMPLEMENT": 0.1,
+    "D_DIMER": 0.25,
+    "CIRC_PHASE": 0.0,
+    "PATHOGEN": 0.0,
+    "INFLAM_INDEX": 0.05
+  },
+  "disease_initial_states": {
+    "Hypertension": {
+      "IL6": 3.5,
+      "CRP": 4.0,
+      "INFLAM_INDEX": 0.15,
+      "FIBRINOGEN": 3.2,
+      "PLATELET": 280.0
+    },
+    "Heart Failure (Mild)": {
+      "IL6": 8.0,
+      "TNFa": 12.0,
+      "CRP": 8.0,
+      "BNP": 250.0,
+      "INFLAM_INDEX": 0.25,
+      "NEUTROPHIL": 7.0,
+      "WBC": 8.5
+    },
+    "Heart Failure (Moderate)": {
+      "IL6": 15.0,
+      "TNFa": 22.0,
+      "CRP": 15.0,
+      "INFLAM_INDEX": 0.4,
+      "NEUTROPHIL": 9.0,
+      "WBC": 10.5,
+      "FIBRINOGEN": 4.2
+    },
+    "Heart Failure (Severe)": {
+      "IL6": 35.0,
+      "TNFa": 40.0,
+      "CRP": 30.0,
+      "INFLAM_INDEX": 0.65,
+      "NEUTROPHIL": 12.0,
+      "WBC": 13.0
+    },
+    "Type 2 Diabetes (Mild)": {
+      "GLUCOSE": 8.0,
+      "INSULIN": 150.0,
+      "IL6": 4.0,
+      "CRP": 3.0,
+      "INFLAM_INDEX": 0.15,
+      "GLUCAGON": 90.0
+    },
+    "Type 2 Diabetes (Moderate)": {
+      "GLUCOSE": 10.5,
+      "INSULIN": 220.0,
+      "IL6": 7.5,
+      "CRP": 6.5,
+      "INFLAM_INDEX": 0.25,
+      "GLUCAGON": 120.0,
+      "FIBRINOGEN": 3.8
+    },
+    "Type 2 Diabetes (Severe)": {
+      "GLUCOSE": 14.0,
+      "INSULIN": 300.0,
+      "IL6": 12.0,
+      "CRP": 12.0,
+      "INFLAM_INDEX": 0.4,
+      "GLUCAGON": 160.0
+    },
+    "COPD (Moderate)": {
+      "NEUTROPHIL": 8.0,
+      "IL6": 10.0,
+      "IL17": 8.0,
+      "CRP": 10.0,
+      "WBC": 9.0,
+      "INFLAM_INDEX": 0.3,
+      "FIBRINOGEN": 4.0
+    },
+    "COPD (Severe)": {
+      "NEUTROPHIL": 12.0,
+      "IL6": 20.0,
+      "IL17": 15.0,
+      "CRP": 20.0,
+      "WBC": 12.0,
+      "INFLAM_INDEX": 0.55
+    },
+    "Chronic Kidney Disease": {
+      "IL6": 6.0,
+      "CRP": 7.0,
+      "INFLAM_INDEX": 0.2,
+      "NEUTROPHIL": 7.5,
+      "FIBRINOGEN": 3.5,
+      "PLATELET": 230.0
+    },
+    "Arthritis": {
+      "IL6": 25.0,
+      "TNFa": 30.0,
+      "IL1B": 8.0,
+      "IL17": 20.0,
+      "CRP": 25.0,
+      "INFLAM_INDEX": 0.5,
+      "WBC": 9.0,
+      "FIBRINOGEN": 4.5
+    },
+    "Depression": {
+      "IL6": 4.5,
+      "IL1B": 2.0,
+      "CRP": 3.5,
+      "CORTISOL": 550.0,
+      "INFLAM_INDEX": 0.15,
+      "ACTH": 35.0
+    },
+    "Anxiety Disorder": {
+      "CORTISOL": 580.0,
+      "ACTH": 40.0,
+      "CRH": 18.0,
+      "IL6": 3.5,
+      "INFLAM_INDEX": 0.1
+    },
+    "Hypothyroidism": {
+      "TSH": 8.0,
+      "T4_FREE": 8.0,
+      "T3_FREE": 2.5,
+      "GLUCOSE": 5.5,
+      "CHOLESTEROL": 6.8,
+      "INFLAM_INDEX": 0.12
+    },
+    "Bacterial Infection": {
+      "PATHOGEN": 6.0,
+      "NEUTROPHIL": 14.0,
+      "WBC": 15.0,
+      "IL6": 40.0,
+      "TNFa": 60.0,
+      "IL1B": 15.0,
+      "CRP": 80.0,
+      "INFLAM_INDEX": 0.8,
+      "FIBRINOGEN": 5.0
+    }
+  },
+  "drug_cascade_params": {
+    "Acetaminophen": {
+      "anti_inflammatory_effect": 0.15
+    },
+    "Ibuprofen": {
+      "anti_inflammatory_effect": 0.55,
+      "tnfa_modulation": -1.0
+    },
+    "Naproxen": {
+      "anti_inflammatory_effect": 0.5,
+      "tnfa_modulation": -0.8
+    },
+    "Lisinopril": {
+      "ace_inhibition": 0.85,
+      "il6_modulation": -0.5
+    },
+    "Metoprolol": {
+      "beta_blocker_intensity": 0.75,
+      "anti_inflammatory_effect": 0.05
+    },
+    "Atorvastatin": {
+      "anti_inflammatory_effect": 0.2,
+      "il6_modulation": -1.5
+    },
+    "Amlodipine": {
+      "anti_inflammatory_effect": 0.05
+    },
+    "Metformin": {
+      "insulin_sensitizer": 0.65,
+      "anti_inflammatory_effect": 0.1
+    },
+    "Glipizide": {
+      "insulin_secretagogue": 0.7
+    },
+    "Amoxicillin": {
+      "antimicrobial_effect": 0.85
+    },
+    "Ciprofloxacin": {
+      "antimicrobial_effect": 0.92
+    },
+    "Sertraline": {
+      "serotonin_reuptake_block": 0.9,
+      "anti_inflammatory_effect": 0.08
+    },
+    "Lorazepam": {
+      "anti_inflammatory_effect": 0.03
+    },
+    "Levothyroxine": {
+      "thyroid_supplement": 0.9
+    },
+    "Prednisone": {
+      "anti_inflammatory_effect": 0.8,
+      "immunosuppressive_effect": 0.72,
+      "cortisol_supplement": 0.85,
+      "il6_modulation": -5.0,
+      "tnfa_modulation": -4.0
+    }
+  }
+}
