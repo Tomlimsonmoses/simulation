@@ -21,6 +21,12 @@
     <span class="sidebar-title">PK-PD<br/><small>BioSim</small></span>
   </div>
 
+  <!-- MODE SWITCHER -->
+  <div class="mode-switcher">
+    <button class="mode-btn active" data-mode="short">Short-Term</button>
+    <button class="mode-btn" data-mode="long">Long-Term</button>
+  </div>
+
   <!-- PATIENT -->
   <div class="sidebar-section">
     <div class="section-header">
@@ -113,7 +119,7 @@
   </div>
 
   <!-- SIMULATION SETTINGS -->
-  <div class="sidebar-section">
+  <div class="sidebar-section" id="st-duration-section">
     <div class="section-header">
       <svg class="section-icon" viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M10 5v5l3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/></svg>
       Duration
@@ -123,6 +129,22 @@
       <button class="dur-btn active" data-h="72">72h</button>
       <button class="dur-btn" data-h="120">120h</button>
       <button class="dur-btn" data-h="168">168h</button>
+    </div>
+  </div>
+
+  <!-- LONG-TERM DURATION -->
+  <div class="sidebar-section" id="lt-duration-section" style="display:none">
+    <div class="section-header">
+      <svg class="section-icon" viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M10 5v5l3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/></svg>
+      Long-Term Duration
+    </div>
+    <div class="duration-grid lt-dur-grid">
+      <button class="dur-btn lt-dur-btn" data-d="7">7 days</button>
+      <button class="dur-btn lt-dur-btn active" data-d="30">30 days</button>
+      <button class="dur-btn lt-dur-btn" data-d="90">90 days</button>
+      <button class="dur-btn lt-dur-btn" data-d="180">180 days</button>
+      <button class="dur-btn lt-dur-btn" data-d="365">1 year</button>
+      <button class="dur-btn lt-dur-btn" data-d="730">2 years</button>
     </div>
   </div>
 
@@ -256,6 +278,75 @@
     </div>
   </div>
 
+  <!-- ─────── LONG-TERM SIMULATION PANEL ─────── -->
+  <div id="lt-panel" style="display:none">
+
+    <!-- Summary KPI row -->
+    <div class="lt-kpi-row">
+      <div class="lt-kpi-card" id="lt-kpi-bone-loss">
+        <div class="lt-kpi-val">—</div>
+        <div class="lt-kpi-label">Bone Loss/yr</div>
+      </div>
+      <div class="lt-kpi-card" id="lt-kpi-ldl">
+        <div class="lt-kpi-val">—</div>
+        <div class="lt-kpi-label">LDL Change</div>
+      </div>
+      <div class="lt-kpi-card" id="lt-kpi-b12">
+        <div class="lt-kpi-val">—</div>
+        <div class="lt-kpi-label">B12 Depletion</div>
+      </div>
+      <div class="lt-kpi-card" id="lt-kpi-events">
+        <div class="lt-kpi-val">—</div>
+        <div class="lt-kpi-label">Clinical Events</div>
+      </div>
+    </div>
+    <div class="lt-detail-bar" id="lt-kpi-detail"></div>
+
+    <!-- Row 2: Plasma + Immune -->
+    <div class="row lt-row2">
+      <div class="card lt-chart-card">
+        <div class="card-header">
+          <span class="card-title">Plasma Concentrations (Long-Term)</span>
+          <span class="card-hint">Drug levels over time</span>
+        </div>
+        <div id="lt-plasma-chart" style="height:240px"></div>
+      </div>
+      <div class="card lt-chart-card">
+        <div class="card-header">
+          <span class="card-title">Immune Markers</span>
+          <span class="card-hint">CRP · WBC · IL-6 · Cortisol</span>
+        </div>
+        <div id="lt-immune-chart" style="height:240px"></div>
+      </div>
+    </div>
+
+    <!-- Row 3: Biomarkers + Events -->
+    <div class="row lt-row3">
+      <div class="card" style="flex:3">
+        <div class="card-header"><span class="card-title">Biomarker Trends</span></div>
+        <div id="lt-biomarkers-grid" class="lt-spark-grid"></div>
+      </div>
+      <div class="card" style="flex:2">
+        <div class="card-header"><span class="card-title">Clinical Events</span></div>
+        <div id="lt-events-list" class="lt-events-list"></div>
+      </div>
+    </div>
+
+    <!-- Row 4: Adaptations + Disease severity -->
+    <div class="row lt-row4">
+      <div class="card" style="flex:3">
+        <div class="card-header"><span class="card-title">Long-Term Adaptations</span></div>
+        <div id="lt-adaptations-grid" class="lt-spark-grid"></div>
+      </div>
+      <div class="card" style="flex:2">
+        <div class="card-header"><span class="card-title">Disease Severity Trend</span></div>
+        <div id="lt-severity-trend" style="height:120px"></div>
+      </div>
+    </div>
+
+  </div>
+  <!-- ─────── END LONG-TERM PANEL ─────── -->
+
   <footer class="footer">PK-PD BioSim v1.0 · April 2026</footer>
 </main>
 
@@ -336,6 +427,7 @@
 <script src="/static/js/timeline.js"></script>
 <script src="/static/js/biomarkers.js"></script>
 <script src="/static/js/cell_view.js"></script>
+<script src="/static/js/longterm.js"></script>
 <script src="/static/js/app.js"></script>
 </body>
 </html>

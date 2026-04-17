@@ -11,6 +11,8 @@
     kidney: 0.80, liver: 0.90, hr: 72,
     duration: 72, useDrug2: false,
     lastResult: null,
+    ltMode: false,
+    ltDuration: 30,
   };
   let _drugsData = [], _diseasesData = [];
   let _debounceTimer = null;
@@ -216,8 +218,24 @@
       });
     });
 
-    // Run button
-    document.getElementById("run-btn")?.addEventListener("click", () => _runSim());
+    // Run button — dispatches to correct sim based on mode
+    document.getElementById("run-btn")?.addEventListener("click", () =>
+      _state.ltMode ? _runLongTermSim() : _runSim()
+    );
+
+    // Mode switcher
+    document.querySelectorAll(".mode-btn").forEach(btn => {
+      btn.addEventListener("click", () => _switchMode(btn.dataset.mode));
+    });
+
+    // LT duration buttons
+    document.querySelectorAll(".lt-dur-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll(".lt-dur-btn").forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        _state.ltDuration = parseInt(btn.dataset.d);
+      });
+    });
   }
 
   // ───────────────────────────────────────── live mode debounce
@@ -413,6 +431,72 @@
         .attr("stroke","#00e676").attr("stroke-width",2).attr("stroke-dasharray","6,3");
       svg.append("text").attr("x",legendX+22).attr("y",legendY+26).attr("fill","#00e676")
         .attr("font-size","10").attr("font-family","Inter,sans-serif").text("PD response");
+    }
+  }
+
+  // ─────────────────────────────────────────── mode switching
+  function _switchMode(mode) {
+    _state.ltMode = (mode === "long");
+    // toggle mode buttons
+    document.querySelectorAll(".mode-btn").forEach(b => b.classList.toggle("active", b.dataset.mode === mode));
+    // sidebar duration sections
+    const stDur = document.getElementById("st-duration-section");
+    const ltDur = document.getElementById("lt-duration-section");
+    if (stDur) stDur.style.display = _state.ltMode ? "none" : "";
+    if (ltDur) ltDur.style.display = _state.ltMode ? "" : "none";
+    // short-term rows
+    [".row1",".row2",".row3"].forEach(cls => {
+      const el = document.querySelector(cls);
+      if (el) el.style.display = _state.ltMode ? "none" : "";
+    });
+    const pdRow = document.getElementById("pd-row");
+    if (pdRow) pdRow.style.display = "none"; // managed by _renderPDChart anyway
+    // long-term panel
+    const ltPanel = document.getElementById("lt-panel");
+    if (ltPanel) ltPanel.style.display = _state.ltMode ? "" : "none";
+    // run button text
+    const runBtn = document.getElementById("run-btn");
+    if (runBtn) {
+      runBtn.childNodes[runBtn.childNodes.length - 1].textContent =
+        _state.ltMode ? " Run Long-Term" : " Run Simulation";
+    }
+  }
+
+  // ─────────────────────────────────────────── long-term simulation
+  async function _runLongTermSim() {
+    _setStatus("running", "Running long-term…");
+    _showLoading(true);
+    const payload = {
+      drug:            _state.drug1   || "Lisinopril",
+      dose:            _state.dose1   || 10,
+      drug2:           _state.useDrug2 ? (_state.drug2 || null) : null,
+      dose2:           _state.useDrug2 ? (_state.dose2 || null) : null,
+      disease:         _state.disease || "Hypertension",
+      severity:        _state.severity || 0.55,
+      age:             _state.age     || 65,
+      weight:          _state.weight  || 70,
+      sex:             _state.sex     || 1,
+      kidney_function: _state.kidney  || 0.80,
+      liver_function:  _state.liver   || 0.90,
+      duration_days:   _state.ltDuration || 30,
+    };
+    try {
+      const resp = await fetch("/api/simulate/longterm", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      const data = await resp.json();
+      LongTerm.render(data);
+      document.getElementById("sim-subtitle").textContent =
+        `${payload.drug} · ${payload.disease} · ${_state.ltDuration}-day long-term simulation`;
+      _setStatus("done", "Long-term complete");
+    } catch (e) {
+      console.error("Long-term simulation error:", e);
+      _setStatus("error", "Error — check console");
+    } finally {
+      _showLoading(false);
     }
   }
 

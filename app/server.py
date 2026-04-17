@@ -34,7 +34,7 @@ sys.path.insert(0, PROJECT_DIR)
 sys.path.insert(0, os.path.join(PROJECT_DIR, "src"))
 
 # DataLoader — all seed data lives in data/raw/; files are created on first run
-from data.data_loader import get_data_loader  # noqa: E402
+from src.data.data_loader import get_data_loader  # noqa: E402
 
 # ===========================================================================
 # ── Simulation Domain Classes (extracted from advanced_dashboard.py) ─────
@@ -393,7 +393,7 @@ _logger = logging.getLogger(__name__)
 async def _startup():
     global _engine
     try:
-        from simulation.mechanistic_engine import MechanisticPKPDEngine
+        from src.simulation.mechanistic_engine import MechanisticPKPDEngine
         _engine = MechanisticPKPDEngine()
         _logger.info("MechanisticPKPDEngine loaded successfully")
     except Exception as exc:
@@ -874,7 +874,7 @@ async def simulate_longterm(req: LongTermSimulateRequest):
     Returns: comprehensive JSON with plasma concentrations, immune markers,
     23 biomarker trajectories, adaptations, clinical events, and a summary.
     """
-    from simulation.realistic_simulator import get_realistic_simulator
+    from src.simulation.realistic_simulator import get_realistic_simulator
 
     drug_names = [req.drug]
     doses: Dict[str, float] = {req.drug: req.dose}
@@ -958,7 +958,7 @@ async def population_analysis(req: PopulationRequest):
     from fastapi import HTTPException
     if _engine is None:
         raise HTTPException(status_code=503, detail="Mechanistic engine not available")
-    from simulation.population_cohort import PopulationCohortRunner
+    from src.simulation.population_cohort import PopulationCohortRunner
     sim = _simulator
     dp = copy.deepcopy(sim.drug_database.get(req.drug, DrugProperties(name=req.drug)))
     dp.dose_mg = req.dose
