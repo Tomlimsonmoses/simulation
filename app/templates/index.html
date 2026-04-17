@@ -25,6 +25,7 @@
   <div class="mode-switcher">
     <button class="mode-btn active" data-mode="short">Short-Term</button>
     <button class="mode-btn" data-mode="long">Long-Term</button>
+    <button class="mode-btn" data-mode="pop">Population</button>
   </div>
 
   <!-- PATIENT -->
@@ -60,6 +61,16 @@
       <label>Heart Rate <span class="val-badge" id="lbl-hr">72 bpm</span></label>
       <input type="range" id="heart-rate" min="40" max="140" value="72" class="slider hr-slider"/>
     </div>
+    <div class="control-row">
+      <label>CYP Phenotype</label>
+      <select id="cyp-phenotype" class="select-input">
+        <option value="normal">Normal metabolizer</option>
+        <option value="poor">Poor metabolizer</option>
+        <option value="intermediate">Intermediate metabolizer</option>
+        <option value="ultra_rapid">Ultra-rapid metabolizer</option>
+      </select>
+    </div>
+    <div id="cyp-genomic-hint" style="display:none;font-size:10px;color:#7b8fb5;padding:3px 8px 6px;line-height:1.5;word-break:break-word;"></div>
   </div>
 
   <!-- DISEASE -->
@@ -172,6 +183,7 @@
       <span class="subtitle" id="sim-subtitle">Configure parameters and run simulation</span>
     </div>
     <div class="topbar-right">
+      <div class="engine-badge-row" id="engine-badge-row" style="display:flex;gap:6px;align-items:center;margin-right:8px;font-size:10px;font-family:Inter,sans-serif"></div>
       <div class="status-pill" id="status-pill">
         <span class="status-dot idle"></span> Ready
       </div>
@@ -346,6 +358,59 @@
 
   </div>
   <!-- ─────── END LONG-TERM PANEL ─────── -->
+
+  <!-- ─────── POPULATION COHORT PANEL ─────── -->
+  <div id="pop-panel" style="display:none">
+
+    <!-- N patients selector + run info -->
+    <div class="lt-kpi-row">
+      <div class="lt-kpi-card" id="pop-kpi-n">
+        <div class="lt-kpi-val">—</div>
+        <div class="lt-kpi-label">Patients</div>
+      </div>
+      <div class="lt-kpi-card" id="pop-kpi-within">
+        <div class="lt-kpi-val">—</div>
+        <div class="lt-kpi-label">Within Window</div>
+      </div>
+      <div class="lt-kpi-card" id="pop-kpi-cmax">
+        <div class="lt-kpi-val">—</div>
+        <div class="lt-kpi-label">Median C<sub>max</sub></div>
+      </div>
+      <div class="lt-kpi-card" id="pop-kpi-auc">
+        <div class="lt-kpi-val">—</div>
+        <div class="lt-kpi-label">Median AUC</div>
+      </div>
+    </div>
+
+    <!-- Population PK envelope chart -->
+    <div class="row">
+      <div class="card" style="flex:1">
+        <div class="card-header">
+          <span class="card-title">Population PK Envelope</span>
+          <span class="card-hint">Shaded bands: p5–p95 · p25–p75 · p50 median</span>
+        </div>
+        <div id="pop-pk-chart" style="height:300px;position:relative"></div>
+      </div>
+    </div>
+
+    <!-- Controls row -->
+    <div class="row" style="gap:12px;align-items:center;padding:0 4px">
+      <label style="font-size:12px;color:#7b8fb5">Cohort size:</label>
+      <div class="duration-grid" style="flex-wrap:wrap;gap:6px">
+        <button class="dur-btn pop-n-btn active" data-n="50">50</button>
+        <button class="dur-btn pop-n-btn" data-n="100">100</button>
+        <button class="dur-btn pop-n-btn" data-n="200">200</button>
+      </div>
+      <label style="font-size:12px;color:#7b8fb5;margin-left:12px">Duration:</label>
+      <div class="duration-grid" style="flex-wrap:wrap;gap:6px">
+        <button class="dur-btn pop-d-btn active" data-h="24">24h</button>
+        <button class="dur-btn pop-d-btn" data-h="72">72h</button>
+        <button class="dur-btn pop-d-btn" data-h="168">168h</button>
+      </div>
+    </div>
+
+  </div>
+  <!-- ─────── END POPULATION PANEL ─────── -->
 
   <footer class="footer">PK-PD BioSim v1.0 · April 2026</footer>
 </main>

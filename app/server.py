@@ -388,10 +388,33 @@ _simulator = BiologicalSystemSimulator()
 _engine = None
 _logger = logging.getLogger(__name__)
 
+# Genomic CYP variant data keyed by real drug name:
+#   {drug_name: [{"gene": "CYP2D6", "effect": "decreased_clearance", "significance": "Significant",
+#                 "allele_freq": 0.05, "recommendation": "Decrease dose"}, ...]}
+_GENOMIC_VARIANTS: Dict[str, List[Dict]] = {}
+
+# ---------------------------------------------------------------------------
+# CYP-inhibition pairs: inhibitor → substrate → fractional CL reduction
+# Seeded from hard-coded defaults; overridden at startup from drug_interactions.csv
+# ---------------------------------------------------------------------------
+# fmt: {(inhibitor, substrate): fraction_clearance_reduction}
+_CYP_INHIBITION_TABLE: Dict[Tuple[str, str], float] = {
+    ("Erythromycin",  "Atorvastatin"): 0.45,
+    ("Erythromycin",  "Amlodipine"):   0.35,
+    ("Erythromycin",  "Lorazepam"):    0.30,
+    ("Ciprofloxacin", "Metformin"):    0.40,
+    ("Ciprofloxacin", "Glipizide"):    0.20,
+    ("Prednisone",    "Metformin"):    0.15,
+    ("Ibuprofen",     "Metformin"):    0.25,
+    ("Naproxen",      "Metformin"):    0.20,
+    ("Sertraline",    "Metoprolol"):   0.60,
+    ("Amoxicillin",   "Glipizide"):    0.15,
+}
+
 
 @app.on_event("startup")
 async def _startup():
-    global _engine
+    global _engine, _CYP_INHIBITION_TABLE, _GENOMIC_VARIANTS
     try:
         from src.simulation.mechanistic_engine import MechanisticPKPDEngine
         _engine = MechanisticPKPDEngine()
@@ -400,9 +423,108 @@ async def _startup():
         _logger.warning(
             "MechanisticPKPDEngine not available — using analytical fallback. Reason: %s", exc
         )
+    # Extend CYP inhibition table from drug_interactions CSV
+    try:
+        _dl = get_data_loader()
+        _interactions = _dl.load_drug_interactions()
+        # CYP inhibition is encoded as "high" severity with "inhibits" in description
+        _SEVERITY_TO_FRAC = {"high": 0.40, "medium": 0.25, "low": 0.10}
+        for row in _interactions:
+            d1, d2 = row.get("drug1", ""), row.get("drug2", "")
+            sev = row.get("severity", "low")
+            desc = row.get("description", "").lower()
+            if "inhibit" in desc or "clearance" in desc or "cyp" in desc:
+                frac = _SEVERITY_TO_FRAC.get(sev, 0.15)
+                if (d1, d2) not in _CYP_INHIBITION_TABLE:
+                    _CYP_INHIBITION_TABLE[(d1, d2)] = frac
+        _logger.info("CYP inhibition table: %d pairs loaded", len(_CYP_INHIBITION_TABLE))
+    except Exception as exc:
+        _logger.debug("Could not extend CYP table from CSV: %s", exc)
+    # Load genomic CYP variant data
+    try:
+        import csv as _csv
+        import os as _os
+        _data_dir = _os.path.join(_os.path.dirname(_os.path.dirname(__file__)), "data", "raw")
+        _gd_path = _os.path.join(_data_dir, "genomic_data.csv")
+        _ct_path = _os.path.join(_data_dir, "clinical_trials.csv")
+        if _os.path.exists(_gd_path) and _os.path.exists(_ct_path):
+            # Build drug_id → most frequent drug_name from clinical_trials
+            _id_to_name: Dict[str, Dict] = {}
+            with open(_ct_path, newline="") as _f:
+                for _row in _csv.DictReader(_f):
+                    _did = _row.get("drug_id", "")
+                    _dname = _row.get("drug_name", "")
+                    if _did and _dname:
+                        _id_to_name.setdefault(_did, {})
+                        _id_to_name[_did][_dname] = _id_to_name[_did].get(_dname, 0) + 1
+            _best_id_map = {k: max(v, key=v.get) for k, v in _id_to_name.items()}
+            # Read genomic data
+            with open(_gd_path, newline="") as _f:
+                for _row in _csv.DictReader(_f):
+                    _did = _row.get("drug_id", "")
+                    _dname = _best_id_map.get(_did)
+                    if not _dname:
+                        continue
+                    _GENOMIC_VARIANTS.setdefault(_dname, []).append({
+                        "gene":           _row.get("gene_name", ""),
+                        "variant":        _row.get("variant_id", ""),
+                        "variant_type":   _row.get("variant_type", ""),
+                        "effect":         _row.get("effect_on_pk", ""),
+                        "pd_effect":      _row.get("effect_on_pd", ""),
+                        "significance":   _row.get("clinical_significance", ""),
+                        "allele_freq":    float(_row.get("allele_frequency", 0.0) or 0.0),
+                        "ethnicity":      _row.get("ethnic_distribution", "Global"),
+                        "recommendation": _row.get("dosing_recommendation", ""),
+                    })
+            _logger.info("Genomic variants loaded: %d drugs with data", len(_GENOMIC_VARIANTS))
+    except Exception as exc:
+        _logger.debug("Could not load genomic variant data: %s", exc)
 
 
 # ──────────────────────────────────────────────── Pydantic request models ──
+# ---------------------------------------------------------------------------
+# CYP Pharmacogenomics helpers
+# ---------------------------------------------------------------------------
+# Maps drug name → primary CYP enzyme responsible for metabolism
+_DRUG_CYP_MAP: Dict[str, str] = {
+    "Atorvastatin":   "CYP3A4",
+    "Amlodipine":     "CYP3A4",
+    "Lorazepam":      "CYP3A4",
+    "Erythromycin":   "CYP3A4",
+    "Prednisone":     "CYP3A4",
+    "Sertraline":     "CYP2D6",
+    "Metoprolol":     "CYP2D6",
+    "Metformin":      "CYP2C19",
+    "Glipizide":      "CYP2C9",
+    "Ibuprofen":      "CYP2C9",
+    "Naproxen":       "CYP2C9",
+    "Ciprofloxacin":  "CYP1A2",
+    "Amoxicillin":    "NON_CYP",
+    "Acetaminophen":  "CYP1A2",
+    "Levothyroxine":  "NON_CYP",
+    "Lisinopril":     "NON_CYP",
+}
+
+# phenotype → clearance multiplier per CYP enzyme
+_CYP_CLEARANCE_MULTIPLIER: Dict[str, Dict[str, float]] = {
+    "poor":           {"CYP3A4": 0.40, "CYP2D6": 0.25, "CYP2C19": 0.30, "CYP2C9": 0.45, "CYP1A2": 0.50, "NON_CYP": 1.0},
+    "intermediate":   {"CYP3A4": 0.70, "CYP2D6": 0.60, "CYP2C19": 0.65, "CYP2C9": 0.75, "CYP1A2": 0.80, "NON_CYP": 1.0},
+    "normal":         {"CYP3A4": 1.00, "CYP2D6": 1.00, "CYP2C19": 1.00, "CYP2C9": 1.00, "CYP1A2": 1.00, "NON_CYP": 1.0},
+    "ultra_rapid":    {"CYP3A4": 1.60, "CYP2D6": 1.80, "CYP2C19": 1.70, "CYP2C9": 1.40, "CYP1A2": 1.50, "NON_CYP": 1.0},
+}
+
+def _apply_cyp_phenotype(drug_props: Dict[str, "DrugProperties"], cyp_phenotype: str) -> None:
+    """Adjust clearance of each drug in-place based on patient CYP phenotype."""
+    if cyp_phenotype not in _CYP_CLEARANCE_MULTIPLIER:
+        return
+    mult_map = _CYP_CLEARANCE_MULTIPLIER[cyp_phenotype]
+    for dname, dp in drug_props.items():
+        cyp = _DRUG_CYP_MAP.get(dname, "NON_CYP")
+        mult = mult_map.get(cyp, 1.0)
+        if mult != 1.0:
+            dp.clearance = float(np.clip(dp.clearance * mult, 0.01, 1000.0))
+
+
 class SimulateRequest(BaseModel):
     drug: str = "Lisinopril"
     dose: float = 10.0
@@ -418,6 +540,7 @@ class SimulateRequest(BaseModel):
     heart_rate: float = 72.0
     metabolic_rate: float = 1.0
     duration_hours: float = 72.0
+    cyp_phenotype: str = "normal"   # poor | intermediate | normal | ultra_rapid
 
 class LongTermSimulateRequest(BaseModel):
     drug: str = "Atorvastatin"
@@ -432,6 +555,7 @@ class LongTermSimulateRequest(BaseModel):
     kidney_function: float = 0.8
     liver_function: float = 0.9
     duration_days: float = 180.0
+    cyp_phenotype: str = "normal"   # poor | intermediate | normal | ultra_rapid
 
 
 class CellRequest(BaseModel):
@@ -491,6 +615,49 @@ async def get_diseases():
     return out
 
 
+@app.get("/api/status")
+async def api_status():
+    """Engine / model status for the dashboard status badge."""
+    import os as _os
+    ml_loaded  = _engine is not None and getattr(_engine, "_ml_model", None) is not None
+    gnn_loaded = _engine is not None and getattr(_engine, "_gnn_model", None) is not None
+    # Also check if gnn checkpoint file exists even if not loaded
+    gnn_ckpt = _os.path.join(_os.path.dirname(_os.path.dirname(__file__)),
+                             "checkpoints", "gnn_pkpd.pth")
+    gnn_ckpt_exists = _os.path.isfile(gnn_ckpt)
+    return {
+        "engine":           "mechanistic" if _engine is not None else "analytical",
+        "ml_loaded":        ml_loaded,
+        "gnn_loaded":       gnn_loaded,
+        "gnn_ckpt_exists":  gnn_ckpt_exists,
+        "drug_count":       len(_simulator.drug_database),
+        "disease_count":    len(_simulator.disease_database),
+        "cyp_pairs":        len(_DRUG_CYP_MAP),
+        "drug_interactions": len(_drug_interactions),
+        "genomic_drugs":    len(_GENOMIC_VARIANTS),
+    }
+
+
+@app.get("/api/genomics/{drug_name}")
+async def get_genomic_variants(drug_name: str):
+    """Return CYP/pharmacogenomic variant data for a given drug name."""
+    variants = _GENOMIC_VARIANTS.get(drug_name, [])
+    # Sort by significance and allele frequency
+    _sig_order = {"Significant": 0, "Moderate": 1, "Preliminary": 2}
+    variants_sorted = sorted(
+        variants,
+        key=lambda v: (_sig_order.get(v.get("significance", "Preliminary"), 2),
+                       -float(v.get("allele_freq", 0.0)))
+    )
+    cyp_gene = _DRUG_CYP_MAP.get(drug_name, "NON_CYP")
+    return {
+        "drug":       drug_name,
+        "cyp_gene":   cyp_gene,
+        "variants":   variants_sorted,
+        "count":      len(variants_sorted),
+    }
+
+
 @app.post("/api/simulate")
 async def simulate(req: SimulateRequest):
     sim = _simulator
@@ -511,6 +678,9 @@ async def simulate(req: SimulateRequest):
             dp = copy.deepcopy(sim.drug_database[dname])
             dp.dose_mg = dose
             drug_props[dname] = dp
+
+    # Apply CYP pharmacogenomics — adjust clearance based on patient metabolizer phenotype
+    _apply_cyp_phenotype(drug_props, req.cyp_phenotype)
 
     disease_name = req.disease
     disease_base = sim.disease_database.get(disease_name)
@@ -549,23 +719,11 @@ async def simulate(req: SimulateRequest):
         _eng_results: Dict[str, Any] = {}
 
         # Phase 4 — CYP competitive inhibition: adjust clearance before engine
-        _CYP_INHIBITION = {
-            ("Erythromycin",  "Atorvastatin"): 0.45,
-            ("Erythromycin",  "Amlodipine"):   0.35,
-            ("Erythromycin",  "Lorazepam"):    0.30,
-            ("Ciprofloxacin", "Metformin"):    0.40,
-            ("Ciprofloxacin", "Glipizide"):    0.20,
-            ("Prednisone",    "Metformin"):    0.15,
-            ("Ibuprofen",     "Metformin"):    0.25,
-            ("Naproxen",      "Metformin"):    0.20,
-            ("Sertraline",    "Metoprolol"):   0.60,
-            ("Amoxicillin",   "Glipizide"):    0.15,
-        }
         _cyp_warnings: List[str] = []
         drug_name_list = list(drug_props.keys())
         for i_d, d1 in enumerate(drug_name_list):
             for d2 in drug_name_list[i_d+1:]:
-                for (inh, sub), frac in _CYP_INHIBITION.items():
+                for (inh, sub), frac in _CYP_INHIBITION_TABLE.items():
                     if d1 == inh and d2 == sub:
                         drug_props[d2] = copy.deepcopy(drug_props[d2])
                         drug_props[d2].clearance *= (1.0 - frac)
@@ -849,6 +1007,15 @@ async def simulate(req: SimulateRequest):
         "drugs": list(drug_props.keys()),
         "heart_rate": bio.heart_rate,
         "engine": "mechanistic" if _engine is not None else "analytical",
+        "cyp_phenotype": req.cyp_phenotype,
+        "ml_active": _engine is not None and getattr(_engine, "_ml_model", None) is not None,
+        "gnn_active": _engine is not None and getattr(_engine, "_gnn_model", None) is not None,
+        "genomic_variants": [
+            {"drug": d, "gene": v["gene"], "effect": v["effect"],
+             "significance": v["significance"], "recommendation": v["recommendation"]}
+            for d in list(drug_props.keys())
+            for v in _GENOMIC_VARIANTS.get(d, [])[:3]   # top-3 variants per drug
+        ],
     }
 
 
@@ -885,6 +1052,22 @@ async def simulate_longterm(req: LongTermSimulateRequest):
         dp2 = _simulator.drug_database.get(req.drug2)
         doses[req.drug2] = req.dose2 if req.dose2 is not None else (dp2.dose_mg if dp2 else 10.0)
 
+    # Apply CYP phenotype: build per-drug clearance multiplier dict
+    _lt_cyp_notes: List[str] = []
+    _lt_cyp_mults: Dict[str, float] = {}
+    if req.cyp_phenotype != "normal":
+        mult_map = _CYP_CLEARANCE_MULTIPLIER.get(req.cyp_phenotype, {})
+        for dname in drug_names:
+            cyp = _DRUG_CYP_MAP.get(dname, "NON_CYP")
+            mult = mult_map.get(cyp, 1.0)
+            if mult != 1.0:
+                _lt_cyp_mults[dname] = mult
+                direction = "reduced" if mult < 1.0 else "increased"
+                _lt_cyp_notes.append(
+                    f"{dname}: {cyp} {req.cyp_phenotype.replace('_',' ')} metabolizer — "
+                    f"clearance {direction} ~{abs(1-mult)*100:.0f}%"
+                )
+
     sim = get_realistic_simulator()
     result = sim.simulate(
         drug_names=drug_names,
@@ -898,8 +1081,12 @@ async def simulate_longterm(req: LongTermSimulateRequest):
         liver_function=req.liver_function,
         dosing_frequency="daily",
         duration_days=req.duration_days,
+        cyp_clearance_multipliers=_lt_cyp_mults if _lt_cyp_mults else None,
     )
-    return result.to_api_dict()
+    api_dict = result.to_api_dict()
+    if _lt_cyp_notes:
+        api_dict.setdefault("cyp_notes", []).extend(_lt_cyp_notes)
+    return api_dict
 
 
 @app.post("/api/cell")

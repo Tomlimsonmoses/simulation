@@ -53,14 +53,20 @@ class PKPDGNN(nn.Module):
         # Graph attention layers for spatial modeling
         self.gat_layers = nn.ModuleList()
         for i in range(num_layers):
-            in_dim = hidden_dim if i == 0 else hidden_dim * num_heads
+            in_dim  = hidden_dim if i == 0 else hidden_dim * num_heads
+            is_last = (i == num_layers - 1)
+            # Last layer: concat=False → output hidden_dim (matches pk/pd heads)
+            # Other layers: concat=True → output hidden_dim * num_heads
             self.gat_layers.append(
-                GATConv(in_dim, hidden_dim, heads=num_heads, dropout=dropout)
+                GATConv(
+                    in_dim, hidden_dim, heads=num_heads,
+                    dropout=dropout, concat=(not is_last),
+                )
             )
         
         # Temporal modeling for PK dynamics
         self.temporal_encoder = nn.LSTM(
-            input_size=hidden_dim * num_heads,
+            input_size=hidden_dim,   # last GAT layer uses concat=False → hidden_dim
             hidden_size=hidden_dim,
             num_layers=2,
             batch_first=True,

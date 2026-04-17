@@ -13,6 +13,10 @@
     lastResult: null,
     ltMode: false,
     ltDuration: 30,
+    popMode: false,
+    popN: 50,
+    popDuration: 72,
+    cypPhenotype: "normal",
   };
   let _drugsData = [], _diseasesData = [];
   let _debounceTimer = null;
@@ -79,12 +83,14 @@
       _state.dose1 = _drugsData[0]?.default_dose || 10;
       document.getElementById("dose1").value = _state.dose1;
       _updateDrugInfo("drug1", first);
+      _fetchGenomicVariants(first);
     }
     document.getElementById("drug1").addEventListener("change", e => {
       _state.drug1 = e.target.value;
       const dd = _drugsData.find(d => d.name === e.target.value);
       if (dd) { _state.dose1 = dd.default_dose; document.getElementById("dose1").value = dd.default_dose; document.getElementById("lbl-dose1").textContent = dd.default_dose; }
       _updateDrugInfo("drug1", e.target.value);
+      _fetchGenomicVariants(e.target.value);
       _triggerLiveOrNone();
     });
     document.getElementById("drug2").addEventListener("change", e => {
@@ -156,6 +162,47 @@
       TW: ${dd.therapeutic_window[0]}–${dd.therapeutic_window[1]} mg/L`;
   }
 
+  // ─── Genomic CYP variant fetch & CYP phenotype hint ──────────────────────
+  function _fetchGenomicVariants(drugName) {
+    if (!drugName) return;
+    fetch(`/api/genomics/${encodeURIComponent(drugName)}`)
+      .then(r => r.json())
+      .then(data => {
+        const hintEl = document.getElementById("cyp-genomic-hint");
+        if (!hintEl) return;
+        if (!data.variants || data.variants.length === 0) {
+          hintEl.innerHTML = "";
+          hintEl.style.display = "none";
+          return;
+        }
+        // Build concise hint
+        const gene = data.cyp_gene || "UNKNOWN";
+        const topV = data.variants.slice(0, 3);
+        const sigCount = topV.filter(v => v.significance === "Significant").length;
+        const effects = [...new Set(topV.map(v => v.effect).filter(Boolean))];
+        let hint = `<strong>${gene}</strong> substrate · ${data.count} variant${data.count !== 1 ? "s" : ""}`;
+        if (effects.length) hint += `<br><span style="color:#ffab40;font-size:9px">${effects.slice(0,2).join(" · ")}</span>`;
+        if (sigCount > 0)   hint += `<span style="color:#ef5350;font-size:9px"> · ${sigCount} significant</span>`;
+        hintEl.innerHTML = hint;
+        hintEl.style.display = "";
+        // Auto-suggest CYP phenotype if not already customised
+        if (_state.cypPhenotype === "normal") {
+          const hasPoorEffect = topV.some(v => v.effect && v.effect.includes("decreased_clearance"));
+          const hasUltraEffect = topV.some(v => v.effect && v.effect.includes("increased_clearance"));
+          const sel = document.getElementById("cyp-phenotype");
+          if (hasPoorEffect && sel) {
+            // Suggest but don't auto-set — just highlight
+            hint += `<br><span style="color:#ef9a9a;font-size:9px">↓ CYP: consider Poor Metabolizer</span>`;
+            hintEl.innerHTML = hint;
+          } else if (hasUltraEffect && sel) {
+            hint += `<br><span style="color:#a5d6a7;font-size:9px">↑ CYP: consider Ultra-Rapid Metabolizer</span>`;
+            hintEl.innerHTML = hint;
+          }
+        }
+      })
+      .catch(() => {});
+  }
+
   // ───────────────────────────────────────── slider wiring
   function _wireSliders() {
     const bindings = [
@@ -208,6 +255,12 @@
       _triggerLiveOrNone();
     });
 
+    // CYP phenotype
+    document.getElementById("cyp-phenotype")?.addEventListener("change", e => {
+      _state.cypPhenotype = e.target.value;
+      _triggerLiveOrNone();
+    });
+
     // Duration buttons
     document.querySelectorAll(".dur-btn").forEach(btn => {
       btn.addEventListener("click", () => {
@@ -219,9 +272,11 @@
     });
 
     // Run button — dispatches to correct sim based on mode
-    document.getElementById("run-btn")?.addEventListener("click", () =>
-      _state.ltMode ? _runLongTermSim() : _runSim()
-    );
+    document.getElementById("run-btn")?.addEventListener("click", () => {
+      if (_state.popMode) _runPopSim();
+      else if (_state.ltMode) _runLongTermSim();
+      else _runSim();
+    });
 
     // Mode switcher
     document.querySelectorAll(".mode-btn").forEach(btn => {
@@ -234,6 +289,24 @@
         document.querySelectorAll(".lt-dur-btn").forEach(b => b.classList.remove("active"));
         btn.classList.add("active");
         _state.ltDuration = parseInt(btn.dataset.d);
+      });
+    });
+
+    // Population cohort size buttons
+    document.querySelectorAll(".pop-n-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll(".pop-n-btn").forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        _state.popN = parseInt(btn.dataset.n);
+      });
+    });
+
+    // Population duration buttons
+    document.querySelectorAll(".pop-d-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll(".pop-d-btn").forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        _state.popDuration = parseInt(btn.dataset.h);
       });
     });
   }
@@ -264,6 +337,7 @@
       liver_function:  _state.liver  || 0.90,
       heart_rate:      _state.hr     || 72,
       duration_hours:  _state.duration || 72,
+      cyp_phenotype:   _state.cypPhenotype || "normal",
     };
 
     try {
@@ -353,6 +427,30 @@
 
     // Drug Effect Dynamics row
     _renderPDChart(data);
+
+    // Engine / ML / GNN status badges
+    _renderEngineBadges(data);
+  }
+
+  function _renderEngineBadges(data) {
+    const row = document.getElementById("engine-badge-row");
+    if (!row) return;
+    row.innerHTML = "";
+    const _badge = (label, active, activeColor) => {
+      const span = document.createElement("span");
+      span.style.cssText = `padding:2px 7px;border-radius:10px;font-size:10px;font-weight:500;` +
+        `background:${active ? activeColor + "22" : "rgba(255,255,255,0.05)"};` +
+        `color:${active ? activeColor : "#555c6e"};border:1px solid ${active ? activeColor + "55" : "rgba(255,255,255,0.08)"}`;
+      span.textContent = label;
+      row.appendChild(span);
+    };
+    _badge(data.engine === "mechanistic" ? "PBPK" : "Analytical", data.engine === "mechanistic", "#00bcd4");
+    _badge("ML",  data.ml_active  === true, "#ffab40");
+    _badge("GNN", data.gnn_active === true, "#e040fb");
+    if (data.cyp_phenotype && data.cyp_phenotype !== "normal") {
+      const labels = { poor: "PM", intermediate: "IM", ultra_rapid: "URM" };
+      _badge("CYP:" + (labels[data.cyp_phenotype] || data.cyp_phenotype), true, "#ff7043");
+    }
   }
 
   // ───────────────────────────────────────── PD chart (receptor occ + PD response)
@@ -436,29 +534,33 @@
 
   // ─────────────────────────────────────────── mode switching
   function _switchMode(mode) {
-    _state.ltMode = (mode === "long");
+    _state.ltMode  = (mode === "long");
+    _state.popMode = (mode === "pop");
+    const isShort = (mode === "short");
     // toggle mode buttons
     document.querySelectorAll(".mode-btn").forEach(b => b.classList.toggle("active", b.dataset.mode === mode));
     // sidebar duration sections
     const stDur = document.getElementById("st-duration-section");
     const ltDur = document.getElementById("lt-duration-section");
-    if (stDur) stDur.style.display = _state.ltMode ? "none" : "";
+    if (stDur) stDur.style.display = isShort ? "" : "none";
     if (ltDur) ltDur.style.display = _state.ltMode ? "" : "none";
     // short-term rows
     [".row1",".row2",".row3"].forEach(cls => {
       const el = document.querySelector(cls);
-      if (el) el.style.display = _state.ltMode ? "none" : "";
+      if (el) el.style.display = isShort ? "" : "none";
     });
-    const pdRow = document.getElementById("pd-row");
-    if (pdRow) pdRow.style.display = "none"; // managed by _renderPDChart anyway
-    // long-term panel
-    const ltPanel = document.getElementById("lt-panel");
-    if (ltPanel) ltPanel.style.display = _state.ltMode ? "" : "none";
+    const pdRow  = document.getElementById("pd-row");
+    if (pdRow) pdRow.style.display = "none";
+    // panels
+    const ltPanel  = document.getElementById("lt-panel");
+    const popPanel = document.getElementById("pop-panel");
+    if (ltPanel)  ltPanel.style.display  = _state.ltMode  ? "" : "none";
+    if (popPanel) popPanel.style.display = _state.popMode ? "" : "none";
     // run button text
     const runBtn = document.getElementById("run-btn");
     if (runBtn) {
-      runBtn.childNodes[runBtn.childNodes.length - 1].textContent =
-        _state.ltMode ? " Run Long-Term" : " Run Simulation";
+      const labels = { short: " Run Simulation", long: " Run Long-Term", pop: " Run Population" };
+      runBtn.childNodes[runBtn.childNodes.length - 1].textContent = labels[mode] || " Run Simulation";
     }
   }
 
@@ -479,6 +581,7 @@
       kidney_function: _state.kidney  || 0.80,
       liver_function:  _state.liver   || 0.90,
       duration_days:   _state.ltDuration || 30,
+      cyp_phenotype:   _state.cypPhenotype || "normal",
     };
     try {
       const resp = await fetch("/api/simulate/longterm", {
@@ -498,6 +601,143 @@
     } finally {
       _showLoading(false);
     }
+  }
+
+  // ─────────────────────────────────────────── population simulation
+  async function _runPopSim() {
+    _setStatus("running", "Running population cohort…");
+    _showLoading(true);
+    const payload = {
+      drug:            _state.drug1   || "Lisinopril",
+      dose:            _state.dose1   || 10,
+      disease:         _state.disease || "Hypertension",
+      severity:        _state.severity || 0.55,
+      age:             _state.age     || 65,
+      weight:          _state.weight  || 70,
+      sex:             _state.sex     || 1,
+      kidney_function: _state.kidney  || 0.80,
+      liver_function:  _state.liver   || 0.90,
+      n_patients:      _state.popN    || 50,
+      duration_hours:  _state.popDuration || 72,
+    };
+    try {
+      const resp = await fetch("/api/population", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}: ${await resp.text()}`);
+      const data = await resp.json();
+      _renderPopResults(data, payload);
+      document.getElementById("sim-subtitle").textContent =
+        `${payload.drug} · ${payload.disease} · ${payload.n_patients}-patient cohort`;
+      _setStatus("done", "Population complete");
+    } catch (e) {
+      console.error("Population simulation error:", e);
+      _setStatus("error", e.message || "Error — check console");
+    } finally {
+      _showLoading(false);
+    }
+  }
+
+  function _renderPopResults(data, payload) {
+    // KPIs
+    const setKpi = (id, val, decimals = 1) => {
+      const el = document.querySelector(`#${id} .lt-kpi-val`);
+      if (el) el.textContent = val != null ? (typeof val === "number" ? val.toFixed(decimals) : val) : "—";
+    };
+    setKpi("pop-kpi-n",      data.n_succeeded, 0);
+    setKpi("pop-kpi-within", (data.frac_within_window * 100), 1);
+    document.querySelector("#pop-kpi-within .lt-kpi-val").textContent =
+      data.frac_within_window != null ? (data.frac_within_window * 100).toFixed(1) + "%" : "—";
+    setKpi("pop-kpi-cmax",   data.cmax_p50);
+    setKpi("pop-kpi-auc",    data.auc_p50, 0);
+
+    // Population envelope chart
+    const container = document.getElementById("pop-pk-chart");
+    if (!container || !data.time_points) return;
+    d3.select(container).select("svg").remove();
+
+    const TW = data.therapeutic_window || [0, 100];
+    const margin = { top: 14, right: 24, bottom: 44, left: 56 };
+    const cw = container.clientWidth || 700;
+    const ch = container.clientHeight || 300;
+    const w  = cw - margin.left - margin.right;
+    const h  = ch - margin.top  - margin.bottom;
+
+    const svg = d3.select(container).append("svg").attr("width", cw).attr("height", ch);
+    const g   = svg.append("g").attr("transform", `translate(${margin.left},${margin.top})`);
+
+    const times = data.time_points;
+    const allVals = [...(data.p05||[]), ...(data.p95||[])].filter(isFinite);
+    const yMax = allVals.length ? Math.max(...allVals) * 1.15 : 10;
+
+    const xSc = d3.scaleLinear().domain([0, times[times.length - 1]]).range([0, w]);
+    const ySc = d3.scaleLinear().domain([0, yMax]).range([h, 0]).nice();
+
+    // Grid
+    g.append("g").call(d3.axisLeft(ySc).tickSize(-w).ticks(5).tickFormat(""))
+      .selectAll("line").attr("stroke", "rgba(255,255,255,0.05)");
+    g.selectAll(".domain").attr("stroke", "rgba(255,255,255,0.1)");
+
+    // Therapeutic window bands
+    g.append("rect")
+      .attr("x", 0).attr("y", ySc(TW[1]))
+      .attr("width", w).attr("height", Math.max(0, ySc(TW[0]) - ySc(TW[1])))
+      .attr("fill", "rgba(0,230,118,0.08)");
+    [TW[0], TW[1]].forEach(v => {
+      g.append("line")
+        .attr("x1", 0).attr("x2", w)
+        .attr("y1", ySc(v)).attr("y2", ySc(v))
+        .attr("stroke", "rgba(0,230,118,0.35)").attr("stroke-dasharray", "4,3");
+    });
+
+    // Shaded bands
+    const area = (lo, hi) => d3.area().x((_, i) => xSc(times[i]))
+      .y0(d => ySc(d)).y1((_, i) => ySc(hi[i]))
+      .defined((d, i) => isFinite(d) && isFinite(hi[i]));
+
+    if (data.p05 && data.p95)
+      g.append("path").datum(data.p05)
+        .attr("fill", "rgba(0,188,212,0.12)").attr("d", area(data.p05, data.p95));
+    if (data.p25 && data.p75)
+      g.append("path").datum(data.p25)
+        .attr("fill", "rgba(0,188,212,0.20)").attr("d", area(data.p25, data.p75));
+
+    // Median line
+    if (data.p50) {
+      const lineFn = d3.line().x((_, i) => xSc(times[i])).y(d => ySc(d))
+        .defined(d => isFinite(d)).curve(d3.curveCatmullRom.alpha(0.5));
+      g.append("path").datum(data.p50)
+        .attr("fill", "none").attr("stroke", "#00bcd4")
+        .attr("stroke-width", 2).attr("d", lineFn);
+    }
+
+    // Axes
+    g.append("g").attr("transform", `translate(0,${h})`)
+      .call(d3.axisBottom(xSc).ticks(8).tickFormat(d => `${d}h`))
+      .selectAll("text").attr("fill", "#7b8fb5").attr("font-size", "10");
+    g.append("g")
+      .call(d3.axisLeft(ySc).ticks(5))
+      .selectAll("text").attr("fill", "#7b8fb5").attr("font-size", "10");
+
+    // Y-axis label
+    svg.append("text").attr("transform", "rotate(-90)")
+      .attr("x", -(margin.top + h / 2)).attr("y", 14)
+      .attr("text-anchor", "middle").attr("fill", "#7b8fb5").attr("font-size", "10")
+      .attr("font-family", "Inter,sans-serif").text("Conc. (mg/L)");
+
+    // Legend
+    const lx = margin.left + 8, ly = margin.top + 8;
+    [["rgba(0,188,212,0.12)", "p5–p95"], ["rgba(0,188,212,0.20)", "p25–p75"]].forEach(([c, lbl], i) => {
+      svg.append("rect").attr("x", lx + i * 70).attr("y", ly).attr("width", 12).attr("height", 8).attr("fill", c);
+      svg.append("text").attr("x", lx + i * 70 + 16).attr("y", ly + 7)
+        .attr("fill", "#7b8fb5").attr("font-size", "9").attr("font-family", "Inter,sans-serif").text(lbl);
+    });
+    svg.append("line").attr("x1", lx + 144).attr("x2", lx + 158).attr("y1", ly + 4).attr("y2", ly + 4)
+      .attr("stroke", "#00bcd4").attr("stroke-width", 2);
+    svg.append("text").attr("x", lx + 162).attr("y", ly + 7)
+      .attr("fill", "#00bcd4").attr("font-size", "9").attr("font-family", "Inter,sans-serif").text("Median");
   }
 
   function _drawMainHealthRing(health) {

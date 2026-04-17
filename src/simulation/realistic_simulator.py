@@ -252,6 +252,7 @@ class RealisticSimulator:
         liver_function: float = 1.0,
         dosing_frequency: str = "daily",
         duration_days: float = 30.0,
+        cyp_clearance_multipliers: Optional[Dict[str, float]] = None,
     ) -> LongTermSimulationResult:
         """
         Run the complete multi-scale realistic simulation.
@@ -281,6 +282,7 @@ class RealisticSimulator:
             drug_names, doses_mg, time_h, dosing_frequency,
             kidney_function, liver_function, patient_weight_kg, patient_age,
             disease_name, disease_severity,
+            cyp_clearance_multipliers=cyp_clearance_multipliers,
         )
 
         # ------------------------------------------------------------------
@@ -461,6 +463,7 @@ class RealisticSimulator:
         age: float,
         disease_name: str,
         disease_severity: float,
+        cyp_clearance_multipliers: Optional[Dict[str, float]] = None,
     ) -> Dict[str, np.ndarray]:
         """
         Compute plasma concentrations using the existing MechanisticPKPDEngine.
@@ -490,11 +493,17 @@ class RealisticSimulator:
                 dp.dose_mg = doses_mg.get(d, dp.dose_mg)
                 dp.dosing_frequency = dosing_frequency
 
+                # Apply CYP phenotype clearance adjustment if provided
+                if cyp_clearance_multipliers and d in cyp_clearance_multipliers:
+                    dp.clearance = float(np.clip(
+                        dp.clearance * cyp_clearance_multipliers[d], 0.01, 1000.0
+                    ))
+
                 ds_base = _simulator.disease_database.get(disease_name)
                 ds = copy.deepcopy(ds_base) if ds_base else DiseaseState(name=disease_name, severity=disease_severity)
                 ds.severity = disease_severity
 
-                eng_result = engine.simulate_drug(dp, bio, [ds], time_h, apply_ml_correction=False)
+                eng_result = engine.simulate_drug(dp, bio, [ds], time_h, apply_ml_correction=True)
                 results[d] = np.clip(eng_result.plasma_conc, 0.0, None)
             return results
 
