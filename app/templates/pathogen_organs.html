@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pathogen–Organ Interactions — PK-PD BioSim</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="/static/css/dashboard.css"/>
+  <link rel="stylesheet" href="/static/css/nav.css"/>
+</head>
+<body class="ch4-page">
+
+<nav class="top-nav">
+  <div class="nav-brand">
+    <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+      <circle cx="16" cy="16" r="15" stroke="#00bcd4" stroke-width="1.5"/>
+      <path d="M8 16 Q12 8 16 16 Q20 24 24 16" stroke="#00bcd4" stroke-width="2" fill="none" stroke-linecap="round"/>
+    </svg>
+    <span class="nav-brand-text">PK-PD <small>BioSim</small></span>
+  </div>
+  <ul class="nav-links">
+    <li><a class="nav-link" href="/">Dashboard</a></li>
+    <li><a class="nav-link" href="/viral-sim">Viral Sim</a></li>
+    <li><a class="nav-link" href="/effectiveness">Effectiveness</a></li>
+    <li><a class="nav-link" href="/side-effects">Side Effects</a></li>
+    <li><a class="nav-link active" href="/pathogen-organs">Pathogen–Organs</a></li>
+    <li><a class="nav-link" href="/benchmarks">Benchmarks</a></li>
+  </ul>
+</nav>
+
+<div class="ch4-content">
+  <div class="ch4-page-header">
+    <div class="ch4-obj-badge">OBJECTIVE 4</div>
+    <h1 class="ch4-page-title">Pathogen–Organ Interaction Visualizations</h1>
+    <p class="ch4-page-subtitle">
+      Data visualisation techniques to explore and interpret patterns of pathogen-organ interactions
+      for clinical decision-making. Includes organ network graph, interaction matrices, and biomarker clinical panels.
+    </p>
+  </div>
+
+  <!-- Row 1: Organ network + Pathogen-organ matrix -->
+  <div class="ch4-row">
+    <div class="ch4-card" style="flex:1;min-width:320px">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">Organ Network Graph</span>
+        <span class="ch4-card-hint">Node size = blood flow · colour = viral exposure · edges = circulatory connections</span>
+      </div>
+      <div class="ch4-controls" style="margin-bottom:4px">
+        <span class="ch4-label">Pathogen:</span>
+        <button class="ch4-btn active" onclick="setPathogen(this,'respiratory')">SARS-CoV-2</button>
+        <button class="ch4-btn" onclick="setPathogen(this,'systemic')">Systemic Virus</button>
+      </div>
+      <div id="po-network-chart" style="height:360px;position:relative">
+        <div class="ch4-spinner" id="po-spinner1" style="display:block"></div>
+      </div>
+    </div>
+    <div class="ch4-card" style="flex:1;min-width:300px">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">Pathogen × Organ Interaction Matrix</span>
+        <span class="ch4-card-hint">Peak viral exposure score (0–1)</span>
+      </div>
+      <div id="po-matrix-chart" style="height:360px;position:relative">
+        <div class="ch4-spinner" id="po-spinner2" style="display:block"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 2: Biomarker clinical panel -->
+  <div class="ch4-row">
+    <div class="ch4-card full-width">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">Biomarker Clinical Reference Panel</span>
+        <span class="ch4-card-hint">Normal ranges · critical thresholds · organ system mapping</span>
+      </div>
+      <div id="po-biomarker-panel" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;padding:8px 0"></div>
+    </div>
+  </div>
+
+  <!-- Row 3: Drug-organ effects heatmap -->
+  <div class="ch4-row">
+    <div class="ch4-card full-width">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">Drug × Organ Effect Heatmap</span>
+        <span class="ch4-card-hint">Green = protective · Red = harmful · Magnitude from pharmacological database</span>
+      </div>
+      <div id="po-drug-organ-chart" style="height:320px;position:relative">
+        <div class="ch4-spinner" id="po-spinner3" style="display:block"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="ch4-tooltip" id="po-tooltip"></div>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="/static/js/pathogen_organs.js"></script>
+</body>
+</html>

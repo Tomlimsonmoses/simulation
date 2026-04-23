@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pharmaceutical Effectiveness — PK-PD BioSim</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="/static/css/dashboard.css"/>
+  <link rel="stylesheet" href="/static/css/nav.css"/>
+</head>
+<body class="ch4-page">
+
+<nav class="top-nav">
+  <div class="nav-brand">
+    <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+      <circle cx="16" cy="16" r="15" stroke="#00bcd4" stroke-width="1.5"/>
+      <path d="M8 16 Q12 8 16 16 Q20 24 24 16" stroke="#00bcd4" stroke-width="2" fill="none" stroke-linecap="round"/>
+    </svg>
+    <span class="nav-brand-text">PK-PD <small>BioSim</small></span>
+  </div>
+  <ul class="nav-links">
+    <li><a class="nav-link" href="/">Dashboard</a></li>
+    <li><a class="nav-link" href="/viral-sim">Viral Sim</a></li>
+    <li><a class="nav-link active" href="/effectiveness">Effectiveness</a></li>
+    <li><a class="nav-link" href="/side-effects">Side Effects</a></li>
+    <li><a class="nav-link" href="/pathogen-organs">Pathogen–Organs</a></li>
+    <li><a class="nav-link" href="/benchmarks">Benchmarks</a></li>
+  </ul>
+</nav>
+
+<div class="ch4-content">
+  <div class="ch4-page-header">
+    <div class="ch4-obj-badge">OBJECTIVE 2</div>
+    <h1 class="ch4-page-title">Pharmaceutical Intervention Effectiveness</h1>
+    <p class="ch4-page-subtitle">
+      Predictive model evaluating drug effectiveness within the simulated biological environment.
+      ML models trained on 10,000+ clinical trial records; GNN leverages organ-network topology.
+    </p>
+  </div>
+
+  <!-- KPIs -->
+  <div class="ch4-kpi-row">
+    <div class="ch4-kpi"><div class="ch4-kpi-val" id="eff-kpi-best-r2">0.56</div><div class="ch4-kpi-label">Best R² (Simple MLP)</div></div>
+    <div class="ch4-kpi"><div class="ch4-kpi-val" id="eff-kpi-gnn-r2">0.74</div><div class="ch4-kpi-label">GNN R²</div></div>
+    <div class="ch4-kpi"><div class="ch4-kpi-val">200</div><div class="ch4-kpi-label">Test Samples</div></div>
+    <div class="ch4-kpi"><div class="ch4-kpi-val">32</div><div class="ch4-kpi-label">Feature Dims</div></div>
+    <div class="ch4-kpi"><div class="ch4-kpi-val">10</div><div class="ch4-kpi-label">Drugs Evaluated</div></div>
+  </div>
+
+  <!-- Row 1: PK Curves + Predicted vs Actual -->
+  <div class="ch4-row">
+    <div class="ch4-card" style="flex:1.4;min-width:380px">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">PK Concentration–Time Profiles</span>
+        <span class="ch4-card-hint">Standard dose, 72h simulation (standard patient)</span>
+      </div>
+      <div class="ch4-controls" style="margin-bottom:8px">
+        <span class="ch4-label">Select drugs:</span>
+        <button class="ch4-btn active" data-drug="Acetaminophen" onclick="togglePKDrug(this)">Acetaminophen</button>
+        <button class="ch4-btn active" data-drug="Ibuprofen" onclick="togglePKDrug(this)">Ibuprofen</button>
+        <button class="ch4-btn active" data-drug="Metoprolol" onclick="togglePKDrug(this)">Metoprolol</button>
+        <button class="ch4-btn active" data-drug="Atorvastatin" onclick="togglePKDrug(this)">Atorvastatin</button>
+        <button class="ch4-btn active" data-drug="Lisinopril" onclick="togglePKDrug(this)">Lisinopril</button>
+      </div>
+      <div id="eff-pk-chart" style="height:280px;position:relative">
+        <div class="ch4-spinner" id="eff-spinner1" style="display:block"></div>
+      </div>
+      <div class="ch4-legend" id="eff-pk-legend"></div>
+    </div>
+    <div class="ch4-card" style="flex:1;min-width:280px">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">Predicted vs Actual (Simple MLP)</span>
+        <span class="ch4-card-hint">R² = 0.56 on held-out test set</span>
+      </div>
+      <div id="eff-scatter-chart" style="height:300px;position:relative">
+        <div class="ch4-spinner" id="eff-spinner2" style="display:block"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 2: Drug effectiveness bar + Model performance -->
+  <div class="ch4-row">
+    <div class="ch4-card" style="flex:1.4;min-width:380px">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">Drug Effectiveness — % Viral Load Reduction</span>
+        <span class="ch4-card-hint">Estimated from mechanistic simulation + clinical evidence</span>
+      </div>
+      <div id="eff-bar-chart" style="height:320px;position:relative">
+        <div class="ch4-spinner" id="eff-spinner3" style="display:block"></div>
+      </div>
+    </div>
+    <div class="ch4-card" style="flex:1;min-width:260px">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">Model Performance Comparison</span>
+        <span class="ch4-card-hint">R² across 4 ML architectures + GNN</span>
+      </div>
+      <div id="eff-model-chart" style="height:280px;position:relative">
+        <div class="ch4-spinner" id="eff-spinner4" style="display:block"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Detail table -->
+  <div class="ch4-row">
+    <div class="ch4-card full-width">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">Drug Effectiveness Detail</span>
+        <span class="ch4-card-hint">Mechanism of action and estimated effectiveness per drug-disease pair</span>
+      </div>
+      <table class="ch4-table" id="eff-detail-table">
+        <thead><tr><th>Drug</th><th>Indication</th><th>Effectiveness (%)</th><th>Mechanism</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="ch4-tooltip" id="eff-tooltip"></div>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="/static/js/effectiveness.js"></script>
+</body>
+</html>

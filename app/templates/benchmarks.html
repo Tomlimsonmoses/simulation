@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Accuracy Benchmarks — PK-PD BioSim</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="/static/css/dashboard.css"/>
+  <link rel="stylesheet" href="/static/css/nav.css"/>
+</head>
+<body class="ch4-page">
+
+<nav class="top-nav">
+  <div class="nav-brand">
+    <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+      <circle cx="16" cy="16" r="15" stroke="#00bcd4" stroke-width="1.5"/>
+      <path d="M8 16 Q12 8 16 16 Q20 24 24 16" stroke="#00bcd4" stroke-width="2" fill="none" stroke-linecap="round"/>
+    </svg>
+    <span class="nav-brand-text">PK-PD <small>BioSim</small></span>
+  </div>
+  <ul class="nav-links">
+    <li><a class="nav-link" href="/">Dashboard</a></li>
+    <li><a class="nav-link" href="/viral-sim">Viral Sim</a></li>
+    <li><a class="nav-link" href="/effectiveness">Effectiveness</a></li>
+    <li><a class="nav-link" href="/side-effects">Side Effects</a></li>
+    <li><a class="nav-link" href="/pathogen-organs">Pathogen–Organs</a></li>
+    <li><a class="nav-link active" href="/benchmarks">Benchmarks</a></li>
+  </ul>
+</nav>
+
+<div class="ch4-content">
+  <div class="ch4-page-header">
+    <div class="ch4-obj-badge">OBJECTIVE 5</div>
+    <h1 class="ch4-page-title">Simulation Accuracy vs Established Benchmarks</h1>
+    <p class="ch4-page-subtitle">
+      Quantitative assessment of simulation accuracy against published PK/PD benchmarks (Goodman &amp; Gilman,
+      2023; Rowland &amp; Tozer, 2011). Comparison of ML model performance against literature range for
+      pharmacokinetic R² (0.40–0.80).
+    </p>
+  </div>
+
+  <!-- KPIs -->
+  <div class="ch4-kpi-row">
+    <div class="ch4-kpi"><div class="ch4-kpi-val" id="bm-kpi-drugs">—</div><div class="ch4-kpi-label">Drugs Benchmarked</div></div>
+    <div class="ch4-kpi"><div class="ch4-kpi-val" id="bm-kpi-params">—</div><div class="ch4-kpi-label">PK Parameters</div></div>
+    <div class="ch4-kpi"><div class="ch4-kpi-val" id="bm-kpi-mape">—</div><div class="ch4-kpi-label">Mean Abs % Error</div></div>
+    <div class="ch4-kpi"><div class="ch4-kpi-val" id="bm-kpi-r2">—</div><div class="ch4-kpi-label">Best Model R²</div></div>
+  </div>
+
+  <!-- Row 1: Simulated vs Published PK + % Error heatmap -->
+  <div class="ch4-row">
+    <div class="ch4-card" style="flex:1.6;min-width:420px">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">Simulated vs Published PK Parameters</span>
+        <span class="ch4-card-hint">Select parameter:</span>
+        <div style="display:flex;gap:6px" id="bm-param-btns"></div>
+      </div>
+      <div id="bm-pk-chart" style="height:300px;position:relative">
+        <div class="ch4-spinner" id="bm-spinner1" style="display:block"></div>
+      </div>
+    </div>
+    <div class="ch4-card" style="flex:1;min-width:280px">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">% Error Heatmap</span>
+        <span class="ch4-card-hint">Simulated vs published · green ≤ 15%</span>
+      </div>
+      <div id="bm-error-heatmap" style="height:300px;position:relative">
+        <div class="ch4-spinner" id="bm-spinner2" style="display:block"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 2: Model R² vs Literature -->
+  <div class="ch4-row">
+    <div class="ch4-card" style="flex:1;min-width:320px">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">ML Model R² vs Literature Benchmark</span>
+        <span class="ch4-card-hint">Yellow band = published literature range (0.40–0.80)</span>
+      </div>
+      <div id="bm-model-chart" style="height:260px;position:relative">
+        <div class="ch4-spinner" id="bm-spinner3" style="display:block"></div>
+      </div>
+    </div>
+    <div class="ch4-card" style="flex:1.4;min-width:360px">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">PK Parameter Accuracy Summary</span>
+        <span class="ch4-card-hint">Per drug and parameter vs Goodman &amp; Gilman benchmarks</span>
+      </div>
+      <div style="overflow-x:auto">
+        <table class="ch4-table" id="bm-detail-table">
+          <thead><tr><th>Drug</th><th>Parameter</th><th>Published</th><th>Simulated</th><th>% Error</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="ch4-tooltip" id="bm-tooltip"></div>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="/static/js/benchmarks.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Viral Pathogen Simulation — PK-PD BioSim</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="/static/css/dashboard.css"/>
+  <link rel="stylesheet" href="/static/css/nav.css"/>
+</head>
+<body class="ch4-page">
+
+<!-- NAV -->
+<nav class="top-nav" id="top-nav">
+  <div class="nav-brand">
+    <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+      <circle cx="16" cy="16" r="15" stroke="#00bcd4" stroke-width="1.5"/>
+      <path d="M8 16 Q12 8 16 16 Q20 24 24 16" stroke="#00bcd4" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <circle cx="16" cy="16" r="3" fill="#00bcd4" opacity="0.8"/>
+    </svg>
+    <span class="nav-brand-text">PK-PD <small>BioSim</small></span>
+  </div>
+  <ul class="nav-links">
+    <li><a class="nav-link" href="/">Dashboard</a></li>
+    <li><a class="nav-link active" href="/viral-sim">Viral Sim</a></li>
+    <li><a class="nav-link" href="/effectiveness">Effectiveness</a></li>
+    <li><a class="nav-link" href="/side-effects">Side Effects</a></li>
+    <li><a class="nav-link" href="/pathogen-organs">Pathogen–Organs</a></li>
+    <li><a class="nav-link" href="/benchmarks">Benchmarks</a></li>
+  </ul>
+</nav>
+
+<div class="ch4-content">
+  <!-- Header -->
+  <div class="ch4-page-header">
+    <div class="ch4-obj-badge">OBJECTIVE 1</div>
+    <h1 class="ch4-page-title">Viral Pathogen Simulation Framework</h1>
+    <p class="ch4-page-subtitle">
+      Within-host ODE model replicating biological exposure of human organs to viral pathogens.
+      State variables: susceptible epithelial cells (S), infected cells (I), viral load (V), immune effectors (E).
+    </p>
+  </div>
+
+  <!-- Controls -->
+  <div class="ch4-controls">
+    <span class="ch4-label">Viral Archetype:</span>
+    <select class="ch4-select" id="vs-archetype">
+      <option value="respiratory">SARS-CoV-2-like (Respiratory)</option>
+      <option value="systemic">Haemorrhagic Fever Virus (Systemic)</option>
+    </select>
+    <span class="ch4-label">Immune Strength:</span>
+    <input type="range" class="ch4-slider" id="vs-immune" min="50" max="200" value="100"/>
+    <span class="val-badge" id="vs-immune-lbl">1.0×</span>
+    <span class="ch4-label">Duration (days):</span>
+    <button class="ch4-btn active" data-days="30" onclick="setDays(this,30)">30d</button>
+    <button class="ch4-btn" data-days="60" onclick="setDays(this,60)">60d</button>
+    <button class="ch4-btn" data-days="90" onclick="setDays(this,90)">90d</button>
+    <button class="ch4-btn" id="vs-run-btn" onclick="runViralSim()" style="margin-left:12px;background:rgba(0,188,212,0.22);border-color:#00bcd4">
+      ▶ Run Simulation
+    </button>
+  </div>
+
+  <!-- KPIs -->
+  <div class="ch4-kpi-row" id="vs-kpi-row" style="display:none">
+    <div class="ch4-kpi"><div class="ch4-kpi-val" id="kpi-peak-day">—</div><div class="ch4-kpi-label">Peak Viral Day</div></div>
+    <div class="ch4-kpi"><div class="ch4-kpi-val" id="kpi-lung-exp">—</div><div class="ch4-kpi-label">Lung Exposure</div></div>
+    <div class="ch4-kpi"><div class="ch4-kpi-val" id="kpi-max-il6">—</div><div class="ch4-kpi-label">Peak IL-6 (norm.)</div></div>
+    <div class="ch4-kpi"><div class="ch4-kpi-val" id="kpi-archetype">—</div><div class="ch4-kpi-label">Archetype</div></div>
+  </div>
+
+  <!-- Row 1: Viral load kinetics + exposure heatmap -->
+  <div class="ch4-row">
+    <div class="ch4-card" style="flex:1.6;min-width:420px">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">Viral Load Kinetics — Per Organ</span>
+        <span class="ch4-card-hint">Normalised to peak systemic load</span>
+      </div>
+      <div id="vs-kinetics-chart" style="height:300px;position:relative">
+        <div class="ch4-spinner" id="vs-spinner1"></div>
+      </div>
+      <div class="ch4-legend" id="vs-kinetics-legend"></div>
+    </div>
+    <div class="ch4-card" style="flex:1;min-width:280px">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">Organ Exposure Heatmap</span>
+        <span class="ch4-card-hint">Colour = cumulative viral concentration</span>
+      </div>
+      <div id="vs-heatmap-chart" style="height:300px;position:relative">
+        <div class="ch4-spinner" id="vs-spinner2"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 2: Immune response -->
+  <div class="ch4-row">
+    <div class="ch4-card full-width">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">Immune Response Kinetics</span>
+        <span class="ch4-card-hint">Innate and adaptive immune markers over simulation period</span>
+      </div>
+      <div id="vs-immune-chart" style="height:260px;position:relative">
+        <div class="ch4-spinner" id="vs-spinner3"></div>
+      </div>
+      <div class="ch4-legend" id="vs-immune-legend"></div>
+    </div>
+  </div>
+
+  <!-- ODE Model summary -->
+  <div class="ch4-row">
+    <div class="ch4-card full-width">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">ODE Model Parameters</span>
+        <span class="ch4-card-hint">Target-cell limited model (Perelson 2002; Gonçalves et al. 2020)</span>
+      </div>
+      <table class="ch4-table" id="vs-params-table">
+        <thead><tr><th>Parameter</th><th>Symbol</th><th>Respiratory</th><th>Systemic</th><th>Units</th></tr></thead>
+        <tbody>
+          <tr><td>Infection rate constant</td><td>β</td><td>3.2 × 10⁻⁵</td><td>1.8 × 10⁻⁵</td><td>mL·virion⁻¹·h⁻¹</td></tr>
+          <tr><td>Viral production rate</td><td>π</td><td>8.0</td><td>5.0</td><td>virions·cell⁻¹·h⁻¹</td></tr>
+          <tr><td>Viral clearance rate</td><td>c</td><td>6.0</td><td>3.5</td><td>h⁻¹</td></tr>
+          <tr><td>Infected cell death rate</td><td>δ<sub>I</sub></td><td>1.0</td><td>0.7</td><td>h⁻¹</td></tr>
+          <tr><td>Immune effector induction</td><td>α</td><td>0.8</td><td>0.8</td><td>cells·cell⁻¹·h⁻¹</td></tr>
+          <tr><td>Immune killing rate</td><td>k<sub>E</sub></td><td>0.12</td><td>0.12</td><td>cells·cell⁻¹·h⁻¹</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div><!-- /ch4-content -->
+
+<div class="ch4-tooltip" id="vs-tooltip"></div>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="/static/js/viral_sim.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Side Effect Forecasting — PK-PD BioSim</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="/static/css/dashboard.css"/>
+  <link rel="stylesheet" href="/static/css/nav.css"/>
+</head>
+<body class="ch4-page">
+
+<nav class="top-nav">
+  <div class="nav-brand">
+    <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+      <circle cx="16" cy="16" r="15" stroke="#00bcd4" stroke-width="1.5"/>
+      <path d="M8 16 Q12 8 16 16 Q20 24 24 16" stroke="#00bcd4" stroke-width="2" fill="none" stroke-linecap="round"/>
+    </svg>
+    <span class="nav-brand-text">PK-PD <small>BioSim</small></span>
+  </div>
+  <ul class="nav-links">
+    <li><a class="nav-link" href="/">Dashboard</a></li>
+    <li><a class="nav-link" href="/viral-sim">Viral Sim</a></li>
+    <li><a class="nav-link" href="/effectiveness">Effectiveness</a></li>
+    <li><a class="nav-link active" href="/side-effects">Side Effects</a></li>
+    <li><a class="nav-link" href="/pathogen-organs">Pathogen–Organs</a></li>
+    <li><a class="nav-link" href="/benchmarks">Benchmarks</a></li>
+  </ul>
+</nav>
+
+<div class="ch4-content">
+  <div class="ch4-page-header">
+    <div class="ch4-obj-badge">OBJECTIVE 3</div>
+    <h1 class="ch4-page-title">Long-Term Side Effect Forecasting Module</h1>
+    <p class="ch4-page-subtitle">
+      Forecasts potential future side effects based on simulated long-term organ exposure using
+      ODE-based biomarker kinetics, CYP enzyme adaptation, and receptor regulation models.
+    </p>
+  </div>
+
+  <!-- Controls -->
+  <div class="ch4-controls">
+    <span class="ch4-label">Drug:</span>
+    <select class="ch4-select" id="se-drug">
+      <option value="Acetaminophen">Acetaminophen</option>
+      <option value="Atorvastatin" selected>Atorvastatin</option>
+      <option value="Prednisone">Prednisone</option>
+      <option value="Metformin">Metformin</option>
+      <option value="Sertraline">Sertraline</option>
+      <option value="Metoprolol">Metoprolol</option>
+      <option value="Lisinopril">Lisinopril</option>
+    </select>
+    <span class="ch4-label">Duration:</span>
+    <button class="ch4-btn" data-d="90"  onclick="setSEDur(this,90)">90d</button>
+    <button class="ch4-btn" data-d="180" onclick="setSEDur(this,180)">180d</button>
+    <button class="ch4-btn active" data-d="365" onclick="setSEDur(this,365)">1 yr</button>
+    <span class="ch4-label">Disease:</span>
+    <select class="ch4-select" id="se-disease">
+      <option>Hypertension</option>
+      <option>Type 2 Diabetes (Moderate)</option>
+      <option>Heart Failure (Mild)</option>
+      <option>Viral Infection</option>
+    </select>
+    <button class="ch4-btn" id="se-run-btn" onclick="runSEForecast()" style="margin-left:12px;background:rgba(0,188,212,0.22);border-color:#00bcd4">
+      ▶ Run Forecast
+    </button>
+  </div>
+
+  <!-- KPIs -->
+  <div class="ch4-kpi-row" id="se-kpi-row">
+    <div class="ch4-kpi"><div class="ch4-kpi-val" id="se-kpi-drug">—</div><div class="ch4-kpi-label">Drug</div></div>
+    <div class="ch4-kpi"><div class="ch4-kpi-val" id="se-kpi-events">—</div><div class="ch4-kpi-label">Clinical Events</div></div>
+    <div class="ch4-kpi"><div class="ch4-kpi-val" id="se-kpi-risk">—</div><div class="ch4-kpi-label">High-Risk Organs</div></div>
+    <div class="ch4-kpi"><div class="ch4-kpi-val" id="se-kpi-dur">365d</div><div class="ch4-kpi-label">Sim Duration</div></div>
+  </div>
+
+  <!-- Row 1: Biomarker trajectories + toxicity heatmap -->
+  <div class="ch4-row">
+    <div class="ch4-card" style="flex:1.5;min-width:380px">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">Biomarker Trajectories with P5–P95 Population Bands</span>
+        <span class="ch4-card-hint">Select biomarker:</span>
+        <div style="display:flex;gap:6px;flex-wrap:wrap" id="se-bm-btns"></div>
+      </div>
+      <div id="se-trajectory-chart" style="height:280px;position:relative">
+        <div class="ch4-spinner" id="se-spinner1" style="display:block"></div>
+      </div>
+    </div>
+    <div class="ch4-card" style="flex:1;min-width:260px">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">Organ Toxicity Index</span>
+        <span class="ch4-card-hint">Cumulative deviation from baseline</span>
+      </div>
+      <div id="se-toxicity-chart" style="height:280px;position:relative">
+        <div class="ch4-spinner" id="se-spinner2" style="display:block"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 2: Side effect timeline -->
+  <div class="ch4-row">
+    <div class="ch4-card full-width">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">Predicted Side Effect Onset Timeline</span>
+        <span class="ch4-card-hint">Based on long-term ODE adaptation model</span>
+      </div>
+      <div id="se-events-list" style="display:flex;flex-direction:column;gap:8px;padding:4px 0;max-height:260px;overflow-y:auto"></div>
+    </div>
+  </div>
+</div>
+
+<div class="ch4-tooltip" id="se-tooltip"></div>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="/static/js/side_effects.js"></script>
+</body>
+</html>
