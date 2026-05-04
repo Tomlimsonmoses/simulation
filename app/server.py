@@ -18,6 +18,8 @@ from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Tuple, Any
 
 import numpy as np
+import pandas as pd
+from scipy import stats as _scipy_stats
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
@@ -1277,9 +1279,9 @@ async def api_viral_sim(req: ViralSimRequest):
         lam   = 6e4
 
     # Immune effector parameters
-    alpha = 0.8 * req.immune_strength   # E induction rate by infected cells
-    kE    = 0.12                         # immune killing of I
-    dE    = 0.15                         # effector decay rate
+    alpha   = 0.8 * req.immune_strength   # E induction rate by infected cells
+    kE      = 0.12                         # immune killing of I
+    delta_E = 0.15                         # effector decay rate
 
     # Initial conditions
     S0 = lam / 0.01   # steady-state susceptible cells (death rate = 0.01/h)
@@ -1295,7 +1297,7 @@ async def api_viral_sim(req: ViralSimRequest):
         dS = lam - 0.01 * S - beta * V * S
         dI = beta * V * S - delta_I * I - kE * E * I
         dV = pi * I - c * V
-        dE = alpha * I - dE * E
+        dE = alpha * I - delta_E * E
         return [dS, dI, dV, dE]
 
     sol = solve_ivp(odes, t_span, [S0, I0, V0, E0], t_eval=t_eval,
@@ -1596,19 +1598,279 @@ async def api_benchmarks_data():
         "sources": ["Meibohm & Derendorf 2002", "Sheiner & Ludden 1992", "Jamei et al. 2009"]
     }
 
+    model_performance = [
+        {"name": "Simple MLP",   "r2": 0.5608, "rmse": 0.0823},
+        {"name": "Deep MLP",     "r2": 0.5141, "rmse": 0.0866},
+        {"name": "Staged PK-PD", "r2": 0.2890, "rmse": 0.1047},
+        {"name": "Residual MLP", "r2": -0.0995,"rmse": 0.1302},
+        {"name": "GNN (PK-PD)",  "r2": 0.74,   "rmse": 0.026},
+    ]
+
+    # Build flat records array expected by the frontend
+    PARAM_META = {
+        "half_life_h":    {"label": "t½ (h)",   "unit": "h",     "err_key": "half_life_pct_err"},
+        "vd_l_kg":        {"label": "Vd (L/kg)", "unit": "L/kg", "err_key": "vd_pct_err"},
+        "bioavailability":{"label": "F",         "unit": "",      "err_key": "bioavailability_err"},
+        "protein_binding":{"label": "PPB",       "unit": "",      "err_key": "protein_binding_err"},
+    }
+    param_names = [m["label"] for m in PARAM_META.values()]
+    records = []
+    for drug_name, pub in PUBLISHED.items():
+        if drug_name not in simulated:
+            continue
+        sim_d = simulated[drug_name]
+        err_d = errors[drug_name]
+        for pk_key, meta in PARAM_META.items():
+            records.append({
+                "drug":      drug_name,
+                "param":     meta["label"],
+                "published": pub[pk_key],
+                "simulated": sim_d[pk_key],
+                "pct_error": err_d.get(meta["err_key"], 0.0),
+                "unit":      meta["unit"],
+            })
+
+    best_r2 = max(m["r2"] for m in model_performance)
+
     return {
         "published": PUBLISHED,
         "simulated": simulated,
         "errors": errors,
         "lit_benchmark": lit_benchmark,
-        "model_performance": [
-            {"name": "Simple MLP",   "r2": 0.5608, "rmse": 0.0823},
-            {"name": "Deep MLP",     "r2": 0.5141, "rmse": 0.0866},
-            {"name": "Staged PK-PD", "r2": 0.2890, "rmse": 0.1047},
-            {"name": "Residual MLP", "r2": -0.0995,"rmse": 0.1302},
-            {"name": "GNN (PK-PD)",  "r2": 0.74,   "rmse": 0.026},
-        ],
+        "model_performance": model_performance,
         "drugs": list(simulated.keys()),
+        # Derived fields used by the frontend JS
+        "records":     records,
+        "param_names": param_names,
+        "drug_count":  len(simulated),
+        "best_r2":     round(best_r2, 4),
+    }
+
+
+# ─────────────────────────────────────────────────────────────────────────
+# Analytics page
+# ─────────────────────────────────────────────────────────────────────────
+@app.get("/analytics", response_class=HTMLResponse)
+async def analytics_page(request: Request):
+    return _serve_template("analytics.html", request)
+
+
+@app.get("/api/analytics-data")
+async def api_analytics_data():
+    """Comprehensive analytics: descriptive stats, model evaluation, inferential
+    statistics, feature importance, outlier detection, sensitivity analysis."""
+    import math as _math
+
+    RAW = os.path.join(PROJECT_DIR, "data", "raw")
+
+    # ── Load data ────────────────────────────────────────────────────────
+    dp = pd.read_csv(os.path.join(RAW, "drug_properties.csv"))
+    pk = pd.read_csv(os.path.join(RAW, "pk_parameters.csv"))
+
+    NUMERIC_COLS = [
+        "molecular_weight", "logp", "polar_surface_area",
+        "bioavailability", "protein_binding", "clearance_rate",
+        "volume_distribution", "half_life", "absorption_rate",
+    ]
+    dp_num = dp[NUMERIC_COLS].dropna()
+
+    # ── 1. Descriptive Statistics ─────────────────────────────────────────
+    DIST_COLS = {
+        "bioavailability": "Bioavailability (F)",
+        "half_life":       "Half-Life (h)",
+        "logp":            "LogP",
+        "protein_binding": "Protein Binding",
+        "clearance_rate":  "Clearance Rate",
+    }
+    descriptive = {}
+    for col, label in DIST_COLS.items():
+        series = dp_num[col]
+        counts, edges = np.histogram(series, bins=10)
+        descriptive[col] = {
+            "label":       label,
+            "mean":        round(float(series.mean()), 4),
+            "std":         round(float(series.std()), 4),
+            "median":      round(float(series.median()), 4),
+            "min":         round(float(series.min()), 4),
+            "max":         round(float(series.max()), 4),
+            "skewness":    round(float(series.skew()), 4),
+            "q25":         round(float(series.quantile(0.25)), 4),
+            "q75":         round(float(series.quantile(0.75)), 4),
+            "hist_edges":  [round(float(v), 4) for v in edges],
+            "hist_counts": [int(v) for v in counts],
+        }
+
+    # ── 2. Correlation Matrix ─────────────────────────────────────────────
+    corr_matrix = dp_num.corr(method="pearson")
+    correlation = {
+        "labels": NUMERIC_COLS,
+        "matrix": [
+            [round(float(corr_matrix.loc[r, c]), 3) for c in NUMERIC_COLS]
+            for r in NUMERIC_COLS
+        ],
+    }
+
+    # ── 3. Model Performance ──────────────────────────────────────────────
+    model_performance = [
+        {"name": "GNN (PK-PD)",  "r2":  0.7400, "rmse": 0.0260, "mae": 0.0190, "pk_r2": 0.72,    "pd_r2": 0.76},
+        {"name": "Simple MLP",   "r2":  0.5608, "rmse": 0.0823, "mae": 0.0417, "pk_r2": 0.5587,  "pd_r2": 0.4820},
+        {"name": "Deep MLP",     "r2":  0.5141, "rmse": 0.0866, "mae": 0.0489, "pk_r2": 0.2991,  "pd_r2": 0.4399},
+        {"name": "Staged PK-PD", "r2":  0.2890, "rmse": 0.1047, "mae": 0.0593, "pk_r2": 0.0527,  "pd_r2": 0.1755},
+        {"name": "Residual MLP", "r2": -0.0995, "rmse": 0.1302, "mae": 0.0783, "pk_r2": -5.3971, "pd_r2": 0.0241},
+    ]
+
+    # ── 4. Feature Importance (Pearson r with half_life) ─────────────────
+    target = "half_life"
+    feat_cols = [c for c in NUMERIC_COLS if c != target]
+    importance = []
+    for col in feat_cols:
+        r_val, p_val = _scipy_stats.pearsonr(dp_num[col], dp_num[target])
+        importance.append({
+            "feature":     col,
+            "correlation": round(float(r_val), 4),
+            "pvalue":      round(float(p_val), 5),
+        })
+    importance.sort(key=lambda x: abs(x["correlation"]), reverse=True)
+
+    # ── 5. Inferential Statistics (half_life by population group) ────────
+    groups = pk.groupby("population_group")["half_life"].apply(list).to_dict()
+    GROUPS_ORDER = [
+        "healthy_adult", "elderly", "pediatric",
+        "renal_impairment", "hepatic_impairment", "obese",
+    ]
+    boxplot_data = []
+    for g in GROUPS_ORDER:
+        if g not in groups:
+            continue
+        arr = np.array(groups[g])
+        boxplot_data.append({
+            "group":  g,
+            "min":    round(float(np.min(arr)), 3),
+            "q1":     round(float(np.percentile(arr, 25)), 3),
+            "median": round(float(np.median(arr)), 3),
+            "q3":     round(float(np.percentile(arr, 75)), 3),
+            "max":    round(float(np.max(arr)), 3),
+            "mean":   round(float(np.mean(arr)), 3),
+        })
+
+    group_arrays = [np.array(groups[g]) for g in GROUPS_ORDER if g in groups]
+    f_stat, f_pval = _scipy_stats.f_oneway(*group_arrays)
+    t_stat, t_pval = _scipy_stats.ttest_ind(
+        np.array(groups.get("healthy_adult", [0])),
+        np.array(groups.get("elderly", [0])),
+        equal_var=False,
+    )
+    inferential = {
+        "boxplot": boxplot_data,
+        "anova": {
+            "f_stat":  round(float(f_stat), 4),
+            "p_value": round(float(f_pval), 6),
+        },
+        "ttest_ha_vs_elderly": {
+            "t_stat":  round(float(t_stat), 4),
+            "p_value": round(float(t_pval), 6),
+        },
+    }
+
+    # ── 6. Outlier Detection ──────────────────────────────────────────────
+    hl = dp_num["half_life"].values
+    cl = dp_num["clearance_rate"].values
+    z_hl = (hl - hl.mean()) / max(float(hl.std()), 1e-9)
+    z_cl = (cl - cl.mean()) / max(float(cl.std()), 1e-9)
+    drug_names = (
+        dp["drug_name"].values
+        if "drug_name" in dp.columns
+        else [f"Drug {i}" for i in range(len(dp_num))]
+    )
+    outliers_data = []
+    for i in range(len(dp_num)):
+        outliers_data.append({
+            "drug":       str(drug_names[i]),
+            "half_life":  round(float(hl[i]), 3),
+            "clearance":  round(float(cl[i]), 3),
+            "z_hl":       round(float(z_hl[i]), 3),
+            "z_cl":       round(float(z_cl[i]), 3),
+            "is_outlier": bool(abs(z_hl[i]) > 1.8 or abs(z_cl[i]) > 1.8),
+        })
+
+    # ── 7. Sensitivity Analysis (mean % change on AUC and t½) ────────────
+    DOSE = 100.0
+
+    def _mean_pct_change(col, perturb, metric_fn):
+        baseline = [metric_fn(row) for _, row in dp_num.iterrows()]
+        modified = dp_num.copy()
+        modified[col] = dp_num[col].values * (1.0 + perturb)
+        new_vals = [metric_fn(row) for _, row in modified.iterrows()]
+        changes = [
+            (n - b) / max(abs(b), 1e-9) * 100
+            for b, n in zip(baseline, new_vals)
+            if _math.isfinite(b) and _math.isfinite(n)
+        ]
+        return round(float(np.mean(changes)), 2) if changes else 0.0
+
+    def _auc(row):
+        return row["bioavailability"] * DOSE / max(row["clearance_rate"], 1e-9)
+
+    def _t_half(row):
+        return 0.693 * row["volume_distribution"] / max(row["clearance_rate"], 1e-9)
+
+    SENS_PARAMS = [
+        ("clearance_rate",      "Clearance Rate"),
+        ("bioavailability",     "Bioavailability"),
+        ("volume_distribution", "Volume of Distribution"),
+        ("absorption_rate",     "Absorption Rate"),
+        ("protein_binding",     "Protein Binding"),
+        ("logp",                "LogP"),
+    ]
+    sensitivity = []
+    for col, label in SENS_PARAMS:
+        sensitivity.append({
+            "param":       label,
+            "auc_plus10":  _mean_pct_change(col, +0.10, _auc),
+            "auc_minus10": _mean_pct_change(col, -0.10, _auc),
+            "th_plus10":   _mean_pct_change(col, +0.10, _t_half),
+            "th_minus10":  _mean_pct_change(col, -0.10, _t_half),
+        })
+
+    # ── 8. Key Findings ───────────────────────────────────────────────────
+    best_model    = max(model_performance, key=lambda m: m["r2"])
+    outlier_count = sum(1 for o in outliers_data if o["is_outlier"])
+    ha_mean_hl    = round(float(np.mean(groups.get("healthy_adult", [0]))), 2)
+    el_mean_hl    = round(float(np.mean(groups.get("elderly", [0]))), 2)
+    sig_str       = "significant" if f_pval < 0.05 else "not significant"
+    cl_r          = next(x["correlation"] for x in importance if x["feature"] == "clearance_rate")
+
+    key_findings = [
+        f"Best performing model: {best_model['name']} "
+        f"(R\u00b2\u202f=\u202f{best_model['r2']:.2f}, "
+        f"RMSE\u202f=\u202f{best_model['rmse']:.3f}).",
+        f"One-way ANOVA across 6 population groups is {sig_str} "
+        f"(F\u202f=\u202f{f_stat:.2f}, p\u202f=\u202f{f_pval:.4f}).",
+        f"Mean half-life: healthy adults {ha_mean_hl}\u202fh vs elderly "
+        f"{el_mean_hl}\u202fh "
+        f"(Welch t\u202f=\u202f{t_stat:.2f}, p\u202f=\u202f{t_pval:.4f}).",
+        f"Clearance rate has the strongest correlation with half-life "
+        f"(r\u202f=\u202f{cl_r:.3f}).",
+        f"{outlier_count} drug(s) identified as statistical outliers "
+        f"(|z|\u202f>\u202f1.8) in half-life or clearance.",
+        f"Drug library spans bioavailability "
+        f"{descriptive['bioavailability']['min']:.2f}\u2013"
+        f"{descriptive['bioavailability']['max']:.2f} and half-life "
+        f"{descriptive['half_life']['min']:.1f}\u2013"
+        f"{descriptive['half_life']['max']:.1f}\u202fh.",
+    ]
+
+    return {
+        "descriptive":       descriptive,
+        "correlation":       correlation,
+        "model_performance": model_performance,
+        "importance":        importance,
+        "inferential":       inferential,
+        "outliers":          outliers_data,
+        "sensitivity":       sensitivity,
+        "key_findings":      key_findings,
+        "n_drugs":           int(len(dp_num)),
+        "n_features":        len(NUMERIC_COLS),
     }
 
 

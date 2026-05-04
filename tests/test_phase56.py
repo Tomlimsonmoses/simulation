@@ -9,8 +9,8 @@ import numpy as np
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
 
 # ── Phase 5 ────────────────────────────────────────────────────────────────
-from simulation.organ_graph_builder import OrganGraphBuilder, gnn_infer_organ_pd
-from simulation.mechanistic_engine import MechanisticPKPDEngine, EngineResult
+from src.simulation.organ_graph_builder import OrganGraphBuilder, gnn_infer_organ_pd
+from src.simulation.mechanistic_engine import MechanisticPKPDEngine, EngineResult
 from dataclasses import dataclass, field
 from typing import Tuple, Dict, List
 

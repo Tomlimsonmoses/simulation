@@ -7,7 +7,7 @@ import numpy as np
 from dataclasses import dataclass, field
 from typing import Tuple, Dict, List
 
-from simulation.mechanistic_engine import MechanisticPKPDEngine
+from src.simulation.mechanistic_engine import MechanisticPKPDEngine
 
 
 @dataclass

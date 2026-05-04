@@ -22,7 +22,7 @@ def test_data_ingestion():
     
     try:
         # Import the orchestrator
-        from data.main_data_ingestion import DataIngestionOrchestrator
+        from src.data.main_data_ingestion import DataIngestionOrchestrator
         
         # Create output directory
         output_dir = project_root / "results" / "simulations"

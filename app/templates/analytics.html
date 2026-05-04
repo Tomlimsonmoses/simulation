@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Analytics — PK-PD BioSim</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="/static/css/nav.css?v=3"/>
+  <style>
+    /* Force scroll — dashboard.css is not loaded on this page */
+    html, body {
+      height: auto !important;
+      min-height: 100vh;
+      overflow-x: hidden !important;
+      overflow-y: auto !important;
+    }
+  </style>
+</head>
+<body class="ch4-page">
+
+<nav class="top-nav">
+  <div class="nav-brand">
+    <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+      <circle cx="16" cy="16" r="15" stroke="#00bcd4" stroke-width="1.5"/>
+      <path d="M8 16 Q12 8 16 16 Q20 24 24 16" stroke="#00bcd4" stroke-width="2" fill="none" stroke-linecap="round"/>
+    </svg>
+    <span class="nav-brand-text">PK-PD <small>BioSim</small></span>
+  </div>
+  <ul class="nav-links">
+    <li><a class="nav-link" href="/">Dashboard</a></li>
+    <li><a class="nav-link" href="/viral-sim">Viral Sim</a></li>
+    <li><a class="nav-link" href="/effectiveness">Effectiveness</a></li>
+    <li><a class="nav-link" href="/side-effects">Side Effects</a></li>
+    <li><a class="nav-link" href="/pathogen-organs">Pathogen–Organs</a></li>
+    <li><a class="nav-link" href="/benchmarks">Benchmarks</a></li>
+    <li><a class="nav-link active" href="/analytics">Analytics</a></li>
+  </ul>
+</nav>
+
+<div class="ch4-content">
+  <div class="ch4-page-header">
+    <h1 class="ch4-page-title">Statistical Analysis &amp; Model Insights</h1>
+    <p class="ch4-page-subtitle">
+      Descriptive statistics, model evaluation, inferential tests, feature correlations,
+      outlier detection and sensitivity analysis across the drug library.
+    </p>
+  </div>
+
+  <!-- KPIs -->
+  <div class="ch4-kpi-row">
+    <div class="ch4-kpi"><div class="ch4-kpi-val" id="an-kpi-drugs">—</div><div class="ch4-kpi-label">Drugs Analysed</div></div>
+    <div class="ch4-kpi"><div class="ch4-kpi-val" id="an-kpi-features">—</div><div class="ch4-kpi-label">PK Features</div></div>
+    <div class="ch4-kpi"><div class="ch4-kpi-val" id="an-kpi-best-r2">—</div><div class="ch4-kpi-label">Best Model R²</div></div>
+    <div class="ch4-kpi"><div class="ch4-kpi-val" id="an-kpi-outliers">—</div><div class="ch4-kpi-label">Outlier Drugs</div></div>
+    <div class="ch4-kpi"><div class="ch4-kpi-val" id="an-kpi-anova-p">—</div><div class="ch4-kpi-label">ANOVA p-value</div></div>
+  </div>
+
+  <!-- ═══ 4.3 Descriptive Statistics and Visualizations ═══ -->
+  <div class="an-section">
+    <span class="an-section-num">4.3</span>
+    <span class="an-section-title">Descriptive Statistics and Visualizations</span>
+    <span class="an-section-desc">Distribution histograms · summary stats · property correlations</span>
+  </div>
+
+  <div class="ch4-row">
+    <div class="ch4-card" style="flex:1;min-width:200px">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">Bioavailability (F)</span>
+        <span class="ch4-card-hint">Distribution across drug library</span>
+      </div>
+      <div id="an-hist-bav" style="height:220px;position:relative">
+        <div class="ch4-spinner" id="an-sp1" style="display:block"></div>
+      </div>
+    </div>
+    <div class="ch4-card" style="flex:1;min-width:200px">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">Half-Life (h)</span>
+        <span class="ch4-card-hint">Distribution across drug library</span>
+      </div>
+      <div id="an-hist-hl" style="height:220px;position:relative">
+        <div class="ch4-spinner" id="an-sp2" style="display:block"></div>
+      </div>
+    </div>
+    <div class="ch4-card" style="flex:1;min-width:200px">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">Clearance Rate</span>
+        <span class="ch4-card-hint">Distribution across drug library</span>
+      </div>
+      <div id="an-hist-cl" style="height:220px;position:relative">
+        <div class="ch4-spinner" id="an-sp3" style="display:block"></div>
+      </div>
+    </div>
+    <div class="ch4-card" style="flex:1;min-width:200px">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">LogP</span>
+        <span class="ch4-card-hint">Lipophilicity distribution</span>
+      </div>
+      <div id="an-hist-logp" style="height:220px;position:relative">
+        <div class="ch4-spinner" id="an-sp4" style="display:block"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ch4-row">
+    <div class="ch4-card" style="flex:1 0 100%">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">PK Property Correlation Matrix</span>
+        <span class="ch4-card-hint">Pearson r — blue = positive, red = negative</span>
+      </div>
+      <div id="an-corr-heatmap" style="height:360px;position:relative">
+        <div class="ch4-spinner" id="an-sp5" style="display:block"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ 4.4 Model Performance and Evaluation ═══ -->
+  <div class="an-section">
+    <span class="an-section-num">4.4</span>
+    <span class="an-section-title">Model Performance and Evaluation</span>
+    <span class="an-section-desc">R² (overall / PK / PD) · RMSE · benchmark comparison</span>
+  </div>
+
+  <div class="ch4-row">
+    <div class="ch4-card" style="flex:1 0 100%">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">Model Performance Comparison</span>
+        <span class="ch4-card-hint">R² (overall / PK / PD) and RMSE · yellow band = published literature range 0.40–0.80</span>
+      </div>
+      <div id="an-model-perf" style="height:300px;position:relative">
+        <div class="ch4-spinner" id="an-sp7" style="display:block"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ 4.5 Inferential Statistics ═══ -->
+  <div class="an-section">
+    <span class="an-section-num">4.5</span>
+    <span class="an-section-title">Inferential Statistics</span>
+    <span class="an-section-desc">ANOVA · Welch t-test · group comparisons across population cohorts</span>
+  </div>
+
+  <div class="ch4-row">
+    <div class="ch4-card" style="flex:1.6;min-width:400px">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">Half-Life by Population Group</span>
+        <span class="ch4-card-hint">IQR box · whiskers · median (white) · mean ◆ (orange)</span>
+      </div>
+      <div id="an-boxplot" style="height:300px;position:relative">
+        <div class="ch4-spinner" id="an-sp8" style="display:block"></div>
+      </div>
+    </div>
+    <div class="ch4-card" style="flex:1;min-width:260px">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">ANOVA &amp; Welch t-test Summary</span>
+        <span class="ch4-card-hint">*** p&lt;0.001 · ** p&lt;0.01 · * p&lt;0.05 · ns = not significant</span>
+      </div>
+      <div id="an-stats-table" style="height:300px;overflow-y:auto;padding:4px 0"></div>
+    </div>
+  </div>
+
+  <!-- ═══ 4.6 Statistical Analysis Results ═══ -->
+  <div class="an-section">
+    <span class="an-section-num">4.6</span>
+    <span class="an-section-title">Statistical Analysis Results</span>
+    <span class="an-section-desc">Descriptive summary table across all PK properties per drug class</span>
+  </div>
+
+  <div class="ch4-row">
+    <div class="ch4-card" style="flex:1 0 100%">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">PK Summary Statistics Table</span>
+        <span class="ch4-card-hint">Mean · SD · median · min · max · skewness across the library</span>
+      </div>
+      <div id="an-summary-table" style="overflow-x:auto;min-height:120px;padding:4px 0"></div>
+    </div>
+  </div>
+
+  <!-- ═══ 4.7 Feature Importance and Insights ═══ -->
+  <div class="an-section">
+    <span class="an-section-num">4.7</span>
+    <span class="an-section-title">Feature Importance and Insights</span>
+    <span class="an-section-desc">Pearson correlation of PK features with half-life · ranked by |r|</span>
+  </div>
+
+  <div class="ch4-row">
+    <div class="ch4-card" style="flex:1 0 100%">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">Feature Correlation with Half-Life</span>
+        <span class="ch4-card-hint">Pearson r · sorted by |r| · cyan = positive · red = negative</span>
+      </div>
+      <div id="an-feat-importance" style="height:300px;position:relative">
+        <div class="ch4-spinner" id="an-sp6" style="display:block"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ 4.8 Outliers and Anomalies ═══ -->
+  <div class="an-section">
+    <span class="an-section-num">4.8</span>
+    <span class="an-section-title">Outliers and Anomalies</span>
+    <span class="an-section-desc">Z-score based outlier detection · half-life × clearance space</span>
+  </div>
+
+  <div class="ch4-row">
+    <div class="ch4-card" style="flex:1 0 100%">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">Outlier Detection</span>
+        <span class="ch4-card-hint">Half-life × clearance · red = |z| &gt; 1.8 outlier · hover for drug name</span>
+      </div>
+      <div id="an-outlier-scatter" style="height:340px;position:relative">
+        <div class="ch4-spinner" id="an-sp9" style="display:block"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ 4.9 Robustness and Sensitivity Analysis ═══ -->
+  <div class="an-section">
+    <span class="an-section-num">4.9</span>
+    <span class="an-section-title">Robustness and Sensitivity Analysis</span>
+    <span class="an-section-desc">Tornado chart — mean % ΔAUC for ±10% parameter perturbation</span>
+  </div>
+
+  <div class="ch4-row">
+    <div class="ch4-card" style="flex:1 0 100%">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">Sensitivity Analysis — AUC</span>
+        <span class="ch4-card-hint">Mean % ΔAUC for ±10% parameter perturbation · cyan = increase · red = decrease</span>
+      </div>
+      <div id="an-tornado" style="height:320px;position:relative">
+        <div class="ch4-spinner" id="an-sp10" style="display:block"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ 4.10 Discussion and Interpretation ═══ -->
+  <div class="an-section">
+    <span class="an-section-num">4.10</span>
+    <span class="an-section-title">Discussion and Interpretation</span>
+    <span class="an-section-desc">Auto-generated key findings from statistical analysis</span>
+  </div>
+
+  <div class="ch4-row">
+    <div class="ch4-card" style="flex:1 0 100%">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">Key Findings</span>
+        <span class="ch4-card-hint">Synthesised insights across all statistical modules</span>
+      </div>
+      <ul id="an-findings" style="
+        margin:0;padding:0 0 8px 18px;
+        color:#c5d8f0;font-size:0.88rem;line-height:2;
+        list-style:disc;
+      "></ul>
+    </div>
+  </div>
+
+  <div style="height:40px"></div>
+</div>
+
+<div class="ch4-tooltip" id="an-tooltip"></div>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="/static/js/analytics.js?v=3"></script>
+</body>
+</html>

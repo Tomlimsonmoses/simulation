@@ -19,7 +19,7 @@ import os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'scripts'))
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
 
-from train import create_features, ROUTE_TO_ORGAN   # noqa: E402
+from src.training.train import create_features, ROUTE_TO_ORGAN   # noqa: E402
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), '..', 'data', 'raw')
 

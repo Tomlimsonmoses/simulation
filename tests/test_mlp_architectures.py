@@ -16,8 +16,8 @@ import os
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
 
-from models.mlp_architectures import SimpleMLP, DeepMLP, ResidualMLP
-from models.pkpd_staged import StagedPKPDModel, Stage1PKModel, Stage2PDModel
+from src.models.mlp_architectures import SimpleMLP, DeepMLP, ResidualMLP
+from src.models.pkpd_staged import StagedPKPDModel, Stage1PKModel, Stage2PDModel
 
 INPUT_DIM = 32
 BATCH = 16
