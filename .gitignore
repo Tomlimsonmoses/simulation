@@ -35,3 +35,9 @@ Desktop.ini
 # Logs and databases
 *.log
 *.sqlite3
+
+
+generate_chapter3_doc.py
+Chapter3_Changes_Summary.docx
+Chapter3_Methodology_Updated.docx
+

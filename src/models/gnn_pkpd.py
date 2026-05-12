@@ -133,9 +133,10 @@ class PKPDGNN(nn.Module):
         # Add disease effects to node features
         node_features = node_features + disease_broadcast
         
-        # Spatial message passing through GAT layers
+        # Spatial message passing through GAT layers (edge_attr omitted — GATConv
+        # was initialised without edge_dim; passing it would raise a runtime error)
         for i, gat_layer in enumerate(self.gat_layers):
-            node_features = gat_layer(node_features, edge_index, edge_attr)
+            node_features = gat_layer(node_features, edge_index)
             if i < len(self.gat_layers) - 1:
                 node_features = F.elu(node_features)
                 node_features = F.dropout(node_features, p=self.dropout, training=self.training)

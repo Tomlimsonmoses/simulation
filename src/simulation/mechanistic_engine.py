@@ -151,13 +151,13 @@ class MechanisticPKPDEngine:
             if os.path.exists(staged_ckpt):
                 from models.pkpd_staged import StagedPKPDModel
                 m = StagedPKPDModel(input_dim=32)
-                m.load_state_dict(torch.load(staged_ckpt, map_location="cpu"))
+                m.load_state_dict(torch.load(staged_ckpt, map_location="cpu", weights_only=False))
                 m.eval()
                 self._ml_model = m
             elif os.path.exists(simple_ckpt):
                 from models.mlp_architectures import SimpleMLP
                 m = SimpleMLP(input_dim=32, hidden_dim=128, output_dim=2)
-                state = torch.load(simple_ckpt, map_location="cpu")
+                state = torch.load(simple_ckpt, map_location="cpu", weights_only=False)
                 m.load_state_dict(state)
                 m.eval()
                 self._ml_model = m
@@ -184,7 +184,9 @@ class MechanisticPKPDEngine:
                     organ_features_dim=16, drug_features_dim=8,
                     hidden_dim=64, num_layers=3, num_heads=4,
                 )
-                m.load_state_dict(torch.load(gnn_ckpt, map_location="cpu"))
+                ckpt = torch.load(gnn_ckpt, map_location="cpu", weights_only=False)
+                state = ckpt["model_state"] if isinstance(ckpt, dict) and "model_state" in ckpt else ckpt
+                m.load_state_dict(state)
                 m.eval()
                 self._gnn_model = m
                 logger.info("GNN model loaded from %s", gnn_ckpt)

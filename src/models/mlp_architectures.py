@@ -5,7 +5,9 @@ MLP Architectures for PK-PD Modeling
 Shared neural network architectures used by training, evaluation, and simulation scripts.
 """
 
+import torch
 import torch.nn as nn
+import torch.nn.functional as F
 
 
 class SimpleMLP(nn.Module):
@@ -84,3 +86,66 @@ class ResidualMLP(nn.Module):
         for block in self.residual_blocks:
             x = block(x)
         return self.output_proj(x)
+
+
+class FeatureAttentionBlock(nn.Module):
+    """Soft feature-wise attention: learns which input dimensions matter most."""
+    def __init__(self, dim: int, reduction: int = 4):
+        super().__init__()
+        self.gate = nn.Sequential(
+            nn.Linear(dim, max(dim // reduction, 8)),
+            nn.ReLU(),
+            nn.Linear(max(dim // reduction, 8), dim),
+            nn.Sigmoid(),
+        )
+
+    def forward(self, x):
+        return x * self.gate(x)
+
+
+class AttentionMLP(nn.Module):
+    """
+    Deep MLP with feature-wise attention, residual connections, and layer norm.
+
+    Architecture:
+      Input → FeatureAttention → Linear(hidden) → 4× ResidualBlock(hidden)
+      → LayerNorm → Linear(hidden//2) → GELU → Dropout → Linear(output)
+
+    This is the highest-capacity model in the suite.  Use hidden_dim=256
+    for production training.
+    """
+    def __init__(self, input_dim: int = 32, hidden_dim: int = 256, output_dim: int = 2,
+                 dropout: float = 0.25, n_blocks: int = 4):
+        super().__init__()
+        self.attention = FeatureAttentionBlock(input_dim)
+        self.input_proj = nn.Sequential(
+            nn.Linear(input_dim, hidden_dim),
+            nn.LayerNorm(hidden_dim),
+            nn.GELU(),
+        )
+        self.blocks = nn.ModuleList([
+            nn.Sequential(
+                nn.Linear(hidden_dim, hidden_dim),
+                nn.LayerNorm(hidden_dim),
+                nn.GELU(),
+                nn.Dropout(dropout),
+                nn.Linear(hidden_dim, hidden_dim),
+                nn.LayerNorm(hidden_dim),
+            )
+            for _ in range(n_blocks)
+        ])
+        self.head = nn.Sequential(
+            nn.GELU(),
+            nn.Dropout(dropout * 0.5),
+            nn.Linear(hidden_dim, hidden_dim // 2),
+            nn.GELU(),
+            nn.Dropout(dropout * 0.5),
+            nn.Linear(hidden_dim // 2, output_dim),
+        )
+
+    def forward(self, x):
+        x = self.attention(x)
+        x = self.input_proj(x)
+        for block in self.blocks:
+            x = F.gelu(x + block(x))   # residual
+        return self.head(x)

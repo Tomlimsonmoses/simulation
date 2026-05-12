@@ -368,7 +368,8 @@
       `${data.drugs?.join(" + ")} · ${data.disease_name} · ${_state.duration}h simulation`;
 
     // Organ body
-    OrganViz.update(data.organ_health_final, data.concentrations);
+    OrganViz.update(data.organ_health_final, data.concentrations,
+                    data.fatal_organs, data.critical_organs);
     OrganViz.setHeartRate(data.heart_rate || 72);
     // Animate organ health series if available
     if (data.organ_health_series && data.organ_health_series.length > 1) {
@@ -430,6 +431,12 @@
 
     // Engine / ML / GNN status badges
     _renderEngineBadges(data);
+
+    // Patient vitality banner
+    _renderVitality(data);
+
+    // Simulation timing
+    _renderTiming(data);
   }
 
   function _renderEngineBadges(data) {
@@ -770,6 +777,101 @@
   function _onOrganClick(organId, organHealth) {
     const drugNames = _state.lastResult?.drugs || [_state.drug1];
     CellView.open(organId, organHealth, _state.lastResult, drugNames);
+  }
+
+  // ───────────────────────────────────────── patient vitality banner
+  function _renderVitality(data) {
+    const banner   = document.getElementById("vitality-banner");
+    const iconEl   = document.getElementById("vitality-icon");
+    const outcomeEl = document.getElementById("vitality-outcome");
+    const detailEl = document.getElementById("vitality-detail");
+    const survEl   = document.getElementById("vitality-survival");
+    const todEl    = document.getElementById("vitality-tod");
+    const todWrap  = document.getElementById("vitality-tod-wrap");
+    const pillsEl  = document.getElementById("vitality-organ-pills");
+    if (!banner) return;
+
+    const outcome = data.patient_outcome || "alive";
+    const surv    = data.survival_probability ?? 0.99;
+    const tod     = data.time_of_death;
+    const fatal   = data.fatal_organs   || [];
+    const crit    = data.critical_organs || [];
+    const events  = data.organ_failure_events || [];
+
+    banner.classList.remove("vitality-hidden","vitality-alive","vitality-critical","vitality-deceased");
+
+    if (outcome === "deceased") {
+      banner.classList.add("vitality-deceased");
+      iconEl.innerHTML = `<svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+        <circle cx="16" cy="16" r="14" stroke="#ff1744" stroke-width="2"/>
+        <path d="M8 16 L16 16" stroke="#ff1744" stroke-width="2.5" stroke-linecap="round"/>
+        <text x="16" y="10" text-anchor="middle" font-size="9" fill="#ff1744" font-family="Inter,sans-serif">FLATLINE</text>
+        <line x1="6" y1="16" x2="26" y2="16" stroke="#ff1744" stroke-width="1.5"/>
+      </svg>`;
+      outcomeEl.textContent = "PATIENT DECEASED";
+      detailEl.textContent  = data.cause_of_death || "Multi-organ failure";
+    } else if (outcome === "critical") {
+      banner.classList.add("vitality-critical");
+      iconEl.innerHTML = `<svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+        <circle cx="16" cy="16" r="14" stroke="#ff6d00" stroke-width="2"/>
+        <path d="M4 16 Q8 8 10 16 Q12 24 14 16 Q16 8 18 16 Q20 24 22 16 Q24 8 28 16"
+              stroke="#ff6d00" stroke-width="2" fill="none" stroke-linecap="round"/>
+      </svg>`;
+      outcomeEl.textContent = "CRITICAL CONDITION";
+      detailEl.textContent  = data.cause_of_death || "Multiple organs in critical state";
+    } else {
+      banner.classList.add("vitality-alive");
+      iconEl.innerHTML = `<svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+        <circle cx="16" cy="16" r="14" stroke="#00e676" stroke-width="2"/>
+        <path d="M4 16 Q8 10 10 16 Q12 22 14 14 Q16 6 18 16 Q20 26 22 16 Q24 12 28 16"
+              stroke="#00e676" stroke-width="2" fill="none" stroke-linecap="round"/>
+      </svg>`;
+      outcomeEl.textContent = "PATIENT ALIVE";
+      detailEl.textContent  = crit.length
+        ? `${crit.length} organ(s) under watch: ${crit.map(o=>o.replace("_"," ")).join(", ")}`
+        : "All organs within survivable range";
+    }
+
+    survEl.textContent  = Math.round(surv * 100) + "%";
+
+    if (tod != null) {
+      todWrap.style.display = "";
+      todEl.textContent = tod.toFixed(1) + " h";
+    } else {
+      todWrap.style.display = "none";
+    }
+
+    // Organ pills
+    pillsEl.innerHTML = "";
+    const allPills = [
+      ...fatal.map(o => ({ organ: o, cls: "pill-fatal",    label: o.replace(/_/g," ") + " ✕" })),
+      ...crit.map(o  => ({ organ: o, cls: "pill-critical", label: o.replace(/_/g," ") + " ⚠" })),
+    ];
+    allPills.forEach(({ organ, cls, label }) => {
+      const span = document.createElement("span");
+      span.className = `vitality-pill ${cls}`;
+      span.textContent = label;
+      pillsEl.appendChild(span);
+    });
+
+    // Failure events under body (if any)
+    if (events.length) {
+      const evSpan = document.createElement("span");
+      evSpan.className = "vitality-pill pill-event";
+      evSpan.textContent = `${events.length} failure event${events.length>1?"s":""}`;
+      pillsEl.appendChild(evSpan);
+    }
+  }
+
+  function _renderTiming(data) {
+    const el = document.getElementById("sim-timing");
+    if (!el) return;
+    if (data.simulation_ms != null) {
+      el.textContent = `Computed in ${data.simulation_ms.toFixed(0)} ms`;
+      el.style.display = "";
+    } else {
+      el.style.display = "none";
+    }
   }
 
   // ───────────────────────────────────────── init organ viz

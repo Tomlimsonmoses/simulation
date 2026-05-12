@@ -90,7 +90,7 @@ def test_engine_gnn_fields():
 
 
 def test_population_cohort():
-    from simulation.population_cohort import PopulationCohortRunner
+    from src.simulation.population_cohort import PopulationCohortRunner
 
     engine = MechanisticPKPDEngine()
     runner = PopulationCohortRunner()

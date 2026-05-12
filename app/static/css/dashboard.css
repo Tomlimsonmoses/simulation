@@ -1002,3 +1002,172 @@ html, body {
   .organ-body-card { flex: none; }
   .cell-drawer { width: 100%; }
 }
+
+/* ═══════════════════════════════════════ PATIENT VITALITY BANNER ═════════════════════════════ */
+
+.vitality-banner {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 0 0 12px 0;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.03);
+  font-family: var(--font);
+  transition: all 0.4s ease;
+  flex-wrap: wrap;
+}
+
+.vitality-hidden {
+  display: none;
+}
+
+/* ── Alive state ── */
+.vitality-alive {
+  background: rgba(0, 230, 118, 0.06);
+  border-color: rgba(0, 230, 118, 0.30);
+  box-shadow: 0 0 18px rgba(0, 230, 118, 0.10);
+}
+.vitality-alive .vitality-outcome { color: #00e676; }
+
+/* ── Critical state ── */
+.vitality-critical {
+  background: rgba(255, 109, 0, 0.08);
+  border-color: rgba(255, 109, 0, 0.40);
+  box-shadow: 0 0 18px rgba(255, 109, 0, 0.15);
+  animation: vitality-pulse-critical 2s ease-in-out infinite;
+}
+.vitality-critical .vitality-outcome { color: #ff6d00; }
+
+/* ── Deceased state ── */
+.vitality-deceased {
+  background: rgba(176, 0, 32, 0.10);
+  border-color: rgba(176, 0, 32, 0.50);
+  box-shadow: 0 0 24px rgba(176, 0, 32, 0.20);
+}
+.vitality-deceased .vitality-outcome { color: #ff1744; }
+
+@keyframes vitality-pulse-critical {
+  0%, 100% { box-shadow: 0 0 18px rgba(255, 109, 0, 0.15); }
+  50%       { box-shadow: 0 0 32px rgba(255, 109, 0, 0.35); }
+}
+
+.vitality-icon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vitality-main {
+  flex: 1;
+  min-width: 140px;
+}
+
+.vitality-outcome {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.vitality-detail {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 3px;
+  line-height: 1.4;
+}
+
+.vitality-stats {
+  display: flex;
+  gap: 20px;
+  flex-shrink: 0;
+}
+
+.vitality-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.vitality-stat-val {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-main);
+  line-height: 1;
+}
+
+.vitality-stat-label {
+  font-size: 9px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+}
+
+.vitality-organ-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  width: 100%;
+  margin-top: 4px;
+}
+
+.vitality-pill {
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  border: 1px solid transparent;
+}
+
+.pill-fatal {
+  background: rgba(176, 0, 32, 0.20);
+  border-color: rgba(255, 23, 68, 0.50);
+  color: #ff1744;
+}
+
+.pill-critical {
+  background: rgba(255, 109, 0, 0.15);
+  border-color: rgba(255, 109, 0, 0.40);
+  color: #ff6d00;
+}
+
+.pill-event {
+  background: rgba(123, 143, 181, 0.10);
+  border-color: rgba(123, 143, 181, 0.25);
+  color: var(--text-muted);
+}
+
+/* ─── Organ danger zone label on organ SVG ──────── */
+.critical-ring {
+  animation: critical-ring-pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes critical-ring-pulse {
+  0%, 100% { opacity: 0.8; }
+  50%       { opacity: 0.2; }
+}
+
+/* ─── Organ colour legend row (added below body viz) ─ */
+.organ-health-legend {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px 8px;
+  font-size: 9px;
+  color: var(--text-muted);
+  flex-wrap: wrap;
+}
+.legend-swatch {
+  width: 12px;
+  height: 8px;
+  border-radius: 2px;
+  display: inline-block;
+}

@@ -204,11 +204,34 @@
     </div>
     <div class="topbar-right">
       <div class="engine-badge-row" id="engine-badge-row" style="display:flex;gap:6px;align-items:center;margin-right:8px;font-size:10px;font-family:Inter,sans-serif"></div>
+      <span id="sim-timing" style="display:none;font-size:10px;color:#7b8fb5;margin-right:10px;font-family:Inter,sans-serif"></span>
       <div class="status-pill" id="status-pill">
         <span class="status-dot idle"></span> Ready
       </div>
     </div>
   </header>
+
+  <!-- ─────── PATIENT VITALITY BANNER ─────── -->
+  <div id="vitality-banner" class="vitality-banner vitality-hidden">
+    <div class="vitality-icon" id="vitality-icon">
+      <!-- Heartbeat / flatline SVG injected by JS -->
+    </div>
+    <div class="vitality-main">
+      <div class="vitality-outcome" id="vitality-outcome">—</div>
+      <div class="vitality-detail" id="vitality-detail"></div>
+    </div>
+    <div class="vitality-stats">
+      <div class="vitality-stat">
+        <span class="vitality-stat-val" id="vitality-survival">—</span>
+        <span class="vitality-stat-label">Survival probability</span>
+      </div>
+      <div class="vitality-stat" id="vitality-tod-wrap" style="display:none">
+        <span class="vitality-stat-val" id="vitality-tod">—</span>
+        <span class="vitality-stat-label">Time of first failure</span>
+      </div>
+    </div>
+    <div class="vitality-organ-pills" id="vitality-organ-pills"></div>
+  </div>
 
   <!-- ─────── ROW 1: Body + KPIs ─────── -->
   <div class="row row1">
@@ -229,6 +252,16 @@
         </svg>
         <input type="range" id="organ-time-scrubber" min="0" max="72" value="0" class="slider" style="flex:1;height:4px">
         <span id="scrubber-label" style="font-size:10px;color:rgba(0,188,212,0.7);min-width:60px;text-align:right">t = 0.0 h</span>
+      </div>
+      <!-- Organ health colour legend -->
+      <div class="organ-health-legend">
+        <span class="legend-swatch" style="background:#1a0000"></span>Fatal
+        <span class="legend-swatch" style="background:#6b0000;margin-left:4px"></span>Lethal
+        <span class="legend-swatch" style="background:#ef1a1a;margin-left:4px"></span>Critical
+        <span class="legend-swatch" style="background:#ef5350;margin-left:4px"></span>Severe
+        <span class="legend-swatch" style="background:#ffab40;margin-left:4px"></span>Impaired
+        <span class="legend-swatch" style="background:#c6ef00;margin-left:4px"></span>Moderate
+        <span class="legend-swatch" style="background:#00e676;margin-left:4px"></span>Healthy
       </div>
     </div>
 

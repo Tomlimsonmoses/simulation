@@ -44,11 +44,12 @@ from src.models.gnn_pkpd import PKPDGNN
 from src.simulation.organ_graph_builder import OrganGraphBuilder, _ORGAN_ORDER
 
 # ── hyper-parameters ──────────────────────────────────────────────────────────
-MAX_SAMPLES   = 5_000    # rows from clinical_trials.csv
-EPOCHS        = 40
-LR            = 1e-3
+MAX_SAMPLES   = 20_000   # rows from clinical_trials.csv + synthetic
+EPOCHS        = 80       # more epochs with early stopping
+LR            = 5e-4     # slightly lower LR for stability
 WEIGHT_DECAY  = 1e-4
-GRAD_ACCUM    = 8        # accumulate grads over N samples to simulate batch≈8
+GRAD_ACCUM    = 16       # larger effective batch
+PATIENCE      = 15       # early stopping patience
 DEVICE        = "cuda" if torch.cuda.is_available() else "cpu"
 CKPT_PATH     = os.path.join(_ROOT, "checkpoints", "gnn_pkpd.pth")
 DATA_DIR      = os.path.join(_ROOT, "data", "raw")
@@ -127,65 +128,61 @@ def _build_organ_conc_proxy(plasma_conc: float, weight_kg: float = 70.0) -> dict
 
 def _build_samples(data_dir: str, max_n: int) -> list[dict]:
     """
-    Load clinical_trials.csv and return a list of sample dicts.
-
-    Each dict has keys: plasma_conc, response_norm, drug_props, severity,
-    weight_kg, time_h.
+    Load clinical_trials.csv (+ synthetic_clinical_data.csv if available) and
+    return a list of sample dicts with PK/PD targets normalised to [0, 1].
     """
     import csv
-    ct_path = os.path.join(data_dir, "clinical_trials.csv")
-    if not os.path.exists(ct_path):
-        raise FileNotFoundError(f"clinical_trials.csv not found at {ct_path}")
 
     drug_props = _load_drug_props_extended(data_dir)
+    raw_rows: list[dict] = []
 
-    # Pre-scan max concentration for normalisation
-    max_conc, max_resp = 1.0, 1.0
-
-    samples: list[dict] = []
-    with open(ct_path, newline="") as f:
-        reader = csv.DictReader(f)
-        for i, row in enumerate(reader):
-            if i >= max_n:
-                break
-            try:
-                conc = float(row["concentration"])
-                resp = float(row["response_value"])
-                dose = float(row.get("dose", 100.0))
-                weight = float(row.get("weight", 70.0))
-                severity = float(row.get("severity", 0.0) if row.get("severity", "").replace(".", "").isdigit() else 0.3)
-                time_h   = float(row.get("time_point", 0.0))
-                drug_name = row.get("drug_name", "")
-
-                if not np.isfinite(conc) or not np.isfinite(resp):
+    def _read_csv(path: str, limit: int):
+        if not os.path.exists(path):
+            return
+        with open(path, newline="") as f:
+            for i, row in enumerate(csv.DictReader(f)):
+                if len(raw_rows) >= limit:
+                    break
+                try:
+                    conc     = float(row["concentration"])
+                    resp     = float(row["response_value"])
+                    dose     = float(row.get("dose", 100.0))
+                    weight   = float(row.get("weight", 70.0))
+                    sev_raw  = row.get("severity", "0.3")
+                    severity = float(sev_raw) if sev_raw.replace(".", "").lstrip("-").isdigit() else 0.3
+                    time_h   = float(row.get("time_point", 0.0))
+                    drug_name = row.get("drug_name", "")
+                    if not (np.isfinite(conc) and np.isfinite(resp)):
+                        continue
+                    dp = drug_props.get(drug_name, {
+                        "mw": 300, "logp": 1.0, "ba": 0.5, "pb": 0.5,
+                        "cl": 5.0, "vd": 50.0, "hl": 8.0, "dose": dose,
+                    })
+                    raw_rows.append({
+                        "conc": conc, "resp": resp, "dp": dp,
+                        "severity": float(np.clip(severity, 0.0, 1.0)),
+                        "weight_kg": weight, "time_h": time_h, "dose": dose,
+                    })
+                except (ValueError, TypeError):
                     continue
 
-                dp = drug_props.get(drug_name, {
-                    "mw": 300, "logp": 1.0, "ba": 0.5, "pb": 0.5,
-                    "cl": 5.0, "vd": 50.0, "hl": 8.0, "dose": dose,
-                })
+    _read_csv(os.path.join(data_dir, "clinical_trials.csv"), max_n // 2)
+    _read_csv(os.path.join(data_dir, "synthetic_clinical_data.csv"), max_n)
 
-                max_conc = max(max_conc, abs(conc))
-                max_resp = max(max_resp, abs(resp))
-                samples.append({
-                    "conc":      conc,
-                    "resp":      resp,
-                    "dp":        dp,
-                    "severity":  float(np.clip(severity, 0.0, 1.0)),
-                    "weight_kg": weight,
-                    "time_h":    time_h,
-                    "dose":      dose,
-                })
-            except (ValueError, TypeError):
-                continue
+    if not raw_rows:
+        raise FileNotFoundError("No training data found in data/raw/")
 
-    # Normalise targets
-    for s in samples:
+    max_conc = max((r["conc"] for r in raw_rows), default=1.0)
+    max_resp = max((r["resp"] for r in raw_rows), default=1.0)
+    max_conc = max(max_conc, 1.0)
+    max_resp = max(max_resp, 1.0)
+
+    for s in raw_rows:
         s["pk_target"] = float(np.clip(s["conc"] / max_conc, 0.0, 1.0))
         s["pd_target"] = float(np.clip(s["resp"] / max_resp, 0.0, 1.0))
 
-    print(f"  Loaded {len(samples)} samples  (max_conc={max_conc:.1f}, max_resp={max_resp:.1f})")
-    return samples
+    print(f"  Loaded {len(raw_rows)} samples  (max_conc={max_conc:.2f}, max_resp={max_resp:.2f})")
+    return raw_rows
 
 
 # ────────────────────────────────────────────────────────────────────────────
@@ -269,7 +266,8 @@ def _forward(model: PKPDGNN, data, device: str):
 # Training loop
 # ────────────────────────────────────────────────────────────────────────────
 
-def train_gnn(samples: list[dict], epochs: int = EPOCHS) -> PKPDGNN:
+def train_gnn(samples: list[dict], epochs: int = EPOCHS) -> tuple:
+    """Returns (model, val_metrics_dict)."""
     device = torch.device(DEVICE)
     print(f"  Device: {device}")
 
@@ -281,28 +279,28 @@ def train_gnn(samples: list[dict], epochs: int = EPOCHS) -> PKPDGNN:
         num_heads=4,
         dropout=0.2,
     ).to(device)
+    n_params = sum(p.numel() for p in model.parameters())
+    print(f"  Parameters: {n_params:,}")
 
-    optimizer = torch.optim.Adam(
-        model.parameters(), lr=LR, weight_decay=WEIGHT_DECAY
-    )
+    optimizer = torch.optim.AdamW(model.parameters(), lr=LR, weight_decay=WEIGHT_DECAY)
     scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(
-        optimizer, T_max=epochs, eta_min=LR / 10
+        optimizer, T_max=epochs, eta_min=LR / 20
     )
-    criterion = nn.MSELoss()
+    criterion = nn.HuberLoss(delta=0.2)   # robust to normalisation outliers
 
-    # Split 80/20
     rng = np.random.default_rng(42)
     idx = rng.permutation(len(samples))
-    split = int(0.8 * len(samples))
+    split = int(0.80 * len(samples))
     train_idx, val_idx = idx[:split], idx[split:]
-
     print(f"  Train: {len(train_idx)}  Val: {len(val_idx)}\n")
 
-    best_val = float("inf")
+    best_val   = float("inf")
+    best_state = None
+    no_improve = 0
+    train_losses, val_losses = [], []
     t0 = time.time()
 
     for epoch in range(1, epochs + 1):
-        # ── Train ─────────────────────────────────────────────────────────
         model.train()
         train_loss, n_steps = 0.0, 0
         optimizer.zero_grad()
@@ -315,12 +313,9 @@ def train_gnn(samples: list[dict], epochs: int = EPOCHS) -> PKPDGNN:
                 continue
 
             pk_pred, pd_pred = _forward(model, data, DEVICE)
-
-            pk_t  = data.pk_target.to(device)
-            pd_t  = data.pd_target.to(device)
-            loss  = criterion(pk_pred, pk_t) + criterion(pd_pred, pd_t)
+            loss = criterion(pk_pred, data.pk_target.to(device)) + \
+                   criterion(pd_pred, data.pd_target.to(device))
             (loss / GRAD_ACCUM).backward()
-
             train_loss += loss.item()
             n_steps    += 1
 
@@ -329,17 +324,15 @@ def train_gnn(samples: list[dict], epochs: int = EPOCHS) -> PKPDGNN:
                 optimizer.step()
                 optimizer.zero_grad()
 
-        # Final gradient step if leftover
         torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
         optimizer.step()
         optimizer.zero_grad()
-
         scheduler.step()
-        train_loss /= max(n_steps, 1)
+        train_losses.append(train_loss / max(n_steps, 1))
 
-        # ── Validate ──────────────────────────────────────────────────────
         model.eval()
         val_loss, n_val = 0.0, 0
+        pk_preds_v, pd_preds_v, pk_tgts_v, pd_tgts_v = [], [], [], []
         with torch.no_grad():
             for si in val_idx:
                 s = samples[si]
@@ -352,14 +345,21 @@ def train_gnn(samples: list[dict], epochs: int = EPOCHS) -> PKPDGNN:
                     criterion(pk_pred, data.pk_target.to(device)).item()
                     + criterion(pd_pred, data.pd_target.to(device)).item()
                 )
+                pk_preds_v.append(pk_pred.item())
+                pd_preds_v.append(pd_pred.item())
+                pk_tgts_v.append(s["pk_target"])
+                pd_tgts_v.append(s["pd_target"])
                 n_val += 1
         val_loss /= max(n_val, 1)
+        val_losses.append(val_loss)
 
-        if val_loss < best_val:
-            best_val = val_loss
+        if val_loss < best_val - 1e-7:
+            best_val   = val_loss
+            best_state = {k: v.cpu().clone() for k, v in model.state_dict().items()}
+            no_improve = 0
             torch.save({
                 "epoch":       epoch,
-                "model_state": model.state_dict(),
+                "model_state": best_state,
                 "val_loss":    best_val,
                 "arch": {
                     "organ_features_dim": 16,
@@ -370,18 +370,48 @@ def train_gnn(samples: list[dict], epochs: int = EPOCHS) -> PKPDGNN:
                     "dropout":            0.2,
                 },
             }, CKPT_PATH)
+        else:
+            no_improve += 1
 
-        if epoch % 5 == 0 or epoch == 1:
+        if epoch % 10 == 0 or epoch == 1:
             elapsed = time.time() - t0
-            print(
-                f"  Epoch {epoch:3d}/{epochs}  "
-                f"train={train_loss:.5f}  val={val_loss:.5f}  "
-                f"best={best_val:.5f}  {elapsed:.0f}s"
-            )
+            lr_now  = optimizer.param_groups[0]["lr"]
+            print(f"  Epoch {epoch:3d}/{epochs}  "
+                  f"train={train_losses[-1]:.5f}  val={val_loss:.5f}  "
+                  f"best={best_val:.5f}  lr={lr_now:.2e}  {elapsed:.0f}s")
+
+        if no_improve >= PATIENCE:
+            print(f"  Early stop at epoch {epoch} (patience={PATIENCE})")
+            break
+
+    if best_state is not None:
+        model.load_state_dict(best_state)
+
+    from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
+    pk_r2 = float(r2_score(pk_tgts_v, pk_preds_v)) if len(pk_preds_v) > 1 else 0.0
+    pd_r2 = float(r2_score(pd_tgts_v, pd_preds_v)) if len(pd_preds_v) > 1 else 0.0
+    all_y  = pk_tgts_v + pd_tgts_v
+    all_p  = pk_preds_v + pd_preds_v
+    overall_r2 = float(r2_score(all_y, all_p)) if len(all_y) > 1 else 0.0
+    rmse = float(np.sqrt(mean_squared_error(all_y, all_p))) if len(all_y) > 1 else 0.0
 
     print(f"\n  Training complete. Best val loss: {best_val:.5f}")
-    print(f"  Checkpoint saved → {CKPT_PATH}")
-    return model
+    print(f"  Val R²={overall_r2:.4f}  PK R²={pk_r2:.4f}  PD R²={pd_r2:.4f}  RMSE={rmse:.4f}")
+    print(f"  Checkpoint → {CKPT_PATH}")
+
+    val_metrics = {
+        "model":          "gnn_pkpd",
+        "epochs_run":     len(train_losses),
+        "training_sec":   round(time.time() - t0, 2),
+        "best_val_loss":  round(best_val, 6),
+        "val_r2":         round(overall_r2, 4),
+        "val_pk_r2":      round(pk_r2, 4),
+        "val_pd_r2":      round(pd_r2, 4),
+        "val_rmse":       round(rmse, 6),
+        "train_loss_curve": [round(v, 6) for v in train_losses],
+        "val_loss_curve":   [round(v, 6) for v in val_losses],
+    }
+    return model, val_metrics
 
 
 # ────────────────────────────────────────────────────────────────────────────
@@ -389,14 +419,55 @@ def train_gnn(samples: list[dict], epochs: int = EPOCHS) -> PKPDGNN:
 # ────────────────────────────────────────────────────────────────────────────
 
 def main():
-    print("GNN PK-PD Training")
+    import datetime, json
+
+    print("GNN PK-PD Training (v2)")
     print("=" * 60)
-    print(f"Loading up to {MAX_SAMPLES} samples from clinical_trials.csv …")
+
+    # Generate synthetic data if missing
+    syn_path = os.path.join(DATA_DIR, "synthetic_clinical_data.csv")
+    if not os.path.exists(syn_path):
+        print("Synthetic data not found — generating 50 000 samples…")
+        sys.path.insert(0, _ROOT)
+        from src.training.generate_synthetic_data import generate_samples
+        df = generate_samples(n=50_000, seed=42)
+        df.to_csv(syn_path, index=False)
+        print(f"  Saved {len(df):,} rows → {syn_path}")
+
+    print(f"Loading up to {MAX_SAMPLES} samples (real + synthetic)…")
     samples = _build_samples(DATA_DIR, MAX_SAMPLES)
     if not samples:
         print("ERROR: no samples loaded — check DATA_DIR path")
         return
-    train_gnn(samples, epochs=EPOCHS)
+
+    model, val_metrics = train_gnn(samples, epochs=EPOCHS)
+
+    results_dir = os.path.join(_ROOT, "results")
+    os.makedirs(results_dir, exist_ok=True)
+    output_json = {
+        "training_date": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+        "device":        DEVICE,
+        "dataset": {
+            "n_samples":  len(samples),
+            "max_samples":MAX_SAMPLES,
+        },
+        "hyperparameters": {
+            "epochs":     EPOCHS,
+            "lr":         LR,
+            "weight_decay": WEIGHT_DECAY,
+            "grad_accum": GRAD_ACCUM,
+            "patience":   PATIENCE,
+            "optimizer":  "AdamW",
+            "scheduler":  "CosineAnnealingLR",
+            "loss":       "HuberLoss(delta=0.2)",
+        },
+        "validation": val_metrics,
+        "checkpoint": CKPT_PATH,
+    }
+    json_path = os.path.join(results_dir, "gnn_training_results.json")
+    with open(json_path, "w") as f:
+        json.dump(output_json, f, indent=2)
+    print(f"\nValidation JSON → {json_path}")
 
 
 if __name__ == "__main__":

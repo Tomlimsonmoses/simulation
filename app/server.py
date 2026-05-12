@@ -14,6 +14,7 @@ import os
 import sys
 import random
 import math
+import time
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Tuple, Any
 
@@ -183,6 +184,10 @@ class BiologicalSystemSimulator:
         return result
 
     # ----------------------------------------------------------------- math
+    def calculate_drug_concentration(self, drug: DrugProperties, t: float,
+                                      bio: BiologicalParameters) -> float:
+        return self.calculate_concentration(drug, t, bio)
+
     def calculate_concentration(self, drug: DrugProperties, t: float,
                                  bio: BiologicalParameters) -> float:
         cl = drug.clearance * bio.kidney_function * bio.liver_function * bio.metabolic_rate
@@ -515,6 +520,124 @@ _CYP_CLEARANCE_MULTIPLIER: Dict[str, Dict[str, float]] = {
     "ultra_rapid":    {"CYP3A4": 1.60, "CYP2D6": 1.80, "CYP2C19": 1.70, "CYP2C9": 1.40, "CYP1A2": 1.50, "NON_CYP": 1.0},
 }
 
+# ── Organ vitality thresholds (evidence-based) ────────────────────────────────
+# Below these values the organ is considered to have failed fatally.
+# Sources: King's College criteria (liver), AKI staging (kidneys), cardiac arrest
+# thresholds (heart), P/F ratio <200 (lungs), cerebral ischemia (brain).
+_ORGAN_DEATH_THRESHOLDS: Dict[str, float] = {
+    "heart":         0.12,   # cardiac output < 12% → cardiac arrest
+    "lungs":         0.08,   # respiratory failure — PaO2/FiO2 < 100 mmHg
+    "brain":         0.05,   # cerebral ischemia → brain death
+    "liver":         0.08,   # acute liver failure (King's College criteria)
+    "kidneys":       0.06,   # anuria / severe AKI (KDIGO stage 3, no dialysis)
+    "immune_system": 0.03,   # refractory septic shock
+    "gut":           0.10,   # mesenteric ischemia / bowel necrosis
+    "pancreas":      0.05,   # necrotising pancreatitis with multi-organ failure
+}
+
+# Below these values the patient is in critical/ICU condition (reversible with intervention).
+_ORGAN_CRITICAL_THRESHOLDS: Dict[str, float] = {
+    "heart":         0.25,
+    "lungs":         0.20,
+    "brain":         0.15,
+    "liver":         0.20,
+    "kidneys":       0.18,
+    "immune_system": 0.10,
+    "gut":           0.22,
+    "pancreas":      0.12,
+    "skin":          0.15,
+    "muscle":        0.20,
+    "adipose":       0.20,
+    "joints":        0.20,
+}
+
+_ORGAN_FAILURE_LABELS: Dict[str, str] = {
+    "heart":         "Cardiac Arrest",
+    "lungs":         "Respiratory Failure",
+    "brain":         "Brain Death",
+    "liver":         "Acute Liver Failure",
+    "kidneys":       "Fatal Acute Kidney Injury",
+    "immune_system": "Refractory Septic Shock",
+    "gut":           "Mesenteric Ischaemia",
+    "pancreas":      "Necrotising Pancreatitis",
+}
+
+
+def _assess_patient_vitality(
+    organ_health: Dict[str, float],
+    organ_health_series: List[Dict],
+    time_points: List[float],
+) -> Dict:
+    """
+    Determine whether the patient survives, is critical, or has died based on
+    organ health values.  Also scans the time-series for the first moment an
+    organ crosses a death threshold.
+    """
+    fatal_organs:    List[str] = []
+    critical_organs: List[str] = []
+
+    for organ, h in organ_health.items():
+        death_thr = _ORGAN_DEATH_THRESHOLDS.get(organ)
+        crit_thr  = _ORGAN_CRITICAL_THRESHOLDS.get(organ)
+        if death_thr is not None and h <= death_thr:
+            fatal_organs.append(organ)
+        elif crit_thr is not None and h <= crit_thr:
+            critical_organs.append(organ)
+
+    # Survival probability: sigmoid based on minimum organ health relative to threshold
+    min_ratio = 1.0
+    for organ, h in organ_health.items():
+        death_thr = _ORGAN_DEATH_THRESHOLDS.get(organ)
+        if death_thr and death_thr > 0:
+            ratio = h / death_thr
+            if ratio < min_ratio:
+                min_ratio = ratio
+    # ratio=1 → 50% survival, ratio=3 → 95%, ratio=0 → 5%
+    survival_prob = float(np.clip(1.0 / (1.0 + math.exp(-(min_ratio - 1.0) * 3.0)), 0.05, 0.99))
+
+    if fatal_organs:
+        outcome = "deceased"
+        cause_label = _ORGAN_FAILURE_LABELS.get(fatal_organs[0], fatal_organs[0].replace("_"," ").title())
+        cause = f"{cause_label} (organ health ≤ {_ORGAN_DEATH_THRESHOLDS.get(fatal_organs[0], 0):.0%})"
+    elif critical_organs:
+        outcome = "critical"
+        cause = f"Critical organ dysfunction: {', '.join(o.replace('_',' ').title() for o in critical_organs)}"
+    else:
+        outcome = "alive"
+        cause = None
+
+    # Scan series for time_of_death (first crossing of any death threshold)
+    time_of_death: Optional[float] = None
+    organ_failure_events: List[Dict] = []
+
+    for i, frame in enumerate(organ_health_series):
+        t = time_points[i] if i < len(time_points) else None
+        for organ, h in frame.items():
+            death_thr = _ORGAN_DEATH_THRESHOLDS.get(organ)
+            if death_thr and h <= death_thr:
+                # Check if already logged this organ
+                already = any(e["organ"] == organ for e in organ_failure_events)
+                if not already:
+                    label = _ORGAN_FAILURE_LABELS.get(organ, organ.replace("_"," ").title())
+                    organ_failure_events.append({
+                        "organ":  organ,
+                        "label":  label,
+                        "time_h": round(t, 2) if t is not None else None,
+                        "health": round(h, 3),
+                    })
+                    if time_of_death is None and t is not None:
+                        time_of_death = round(t, 2)
+
+    return {
+        "patient_outcome":      outcome,
+        "cause_of_death":       cause,
+        "fatal_organs":         fatal_organs,
+        "critical_organs":      critical_organs,
+        "survival_probability": round(survival_prob, 3),
+        "time_of_death":        time_of_death,
+        "organ_failure_events": organ_failure_events,
+    }
+
 def _apply_cyp_phenotype(drug_props: Dict[str, "DrugProperties"], cyp_phenotype: str) -> None:
     """Adjust clearance of each drug in-place based on patient CYP phenotype."""
     if cyp_phenotype not in _CYP_CLEARANCE_MULTIPLIER:
@@ -662,6 +785,7 @@ async def get_genomic_variants(drug_name: str):
 
 @app.post("/api/simulate")
 async def simulate(req: SimulateRequest):
+    _sim_start = time.perf_counter()
     sim = _simulator
     bio = BiologicalParameters(
         age=req.age, weight=req.weight, sex=req.sex,
@@ -985,6 +1109,17 @@ async def simulate(req: SimulateRequest):
         _pd_response        = [0.0] * len(series_time_points)
         _series_time        = series_time_points
 
+    _final_series_time = _series_time if _engine is not None else series_time_points
+
+    # Vitality assessment — must run after organ_health_series is complete
+    _vitality = _assess_patient_vitality(
+        final_status["organ_health"],
+        organ_health_series,
+        _final_series_time,
+    )
+
+    _sim_ms = round((time.perf_counter() - _sim_start) * 1000, 1)
+
     return {
         "time_points": [round(t, 2) for t in time_points],
         "concentrations": concentrations,
@@ -993,7 +1128,7 @@ async def simulate(req: SimulateRequest):
         "disease_name": disease_name,
         # Time-series organ health (len ≤ 73)
         "organ_health_series": organ_health_series,
-        "series_time_points": _series_time if _engine is not None else series_time_points,
+        "series_time_points": _final_series_time,
         # Receptor occupancy & PD response time-series (primary drug)
         "receptor_occupancy": _receptor_occupancy,
         "pd_response": _pd_response,
@@ -1018,6 +1153,15 @@ async def simulate(req: SimulateRequest):
             for d in list(drug_props.keys())
             for v in _GENOMIC_VARIANTS.get(d, [])[:3]   # top-3 variants per drug
         ],
+        # ── Patient vitality ──────────────────────────────────────────────
+        "patient_outcome":      _vitality["patient_outcome"],
+        "cause_of_death":       _vitality["cause_of_death"],
+        "fatal_organs":         _vitality["fatal_organs"],
+        "critical_organs":      _vitality["critical_organs"],
+        "survival_probability": _vitality["survival_probability"],
+        "time_of_death":        _vitality["time_of_death"],
+        "organ_failure_events": _vitality["organ_failure_events"],
+        "simulation_ms":        _sim_ms,
     }
 
 

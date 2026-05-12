@@ -26,18 +26,39 @@ const OrganViz = (() => {
     ["muscle","joints"],["adipose","gut"],["skin","immune_system"],
   ];
 
+  // 7-stop colour scale matching clinical thresholds:
+  //   0–8%   near-black (organ death / flatline)
+  //   8–15%  deep crimson (fatal zone)
+  //   15–25% bright red (critical — ICU)
+  //   25–50% orange (severe impairment)
+  //   50–75% amber-green (moderate)
+  //   75–100% vivid green (healthy)
   const COLOR = d3.scaleLinear()
-    .domain([0, 0.5, 0.75, 1.0])
-    .range(["#ef5350","#ef5350","#ffab40","#00e676"])
+    .domain([0, 0.08, 0.15, 0.25, 0.50, 0.75, 1.0])
+    .range(["#1a0000","#6b0000","#ef1a1a","#ef5350","#ffab40","#c6ef00","#00e676"])
     .clamp(true);
+
+  // Death / critical thresholds mirrored from backend
+  const DEATH_THRESHOLDS = {
+    heart: 0.12, lungs: 0.08, brain: 0.05, liver: 0.08,
+    kidneys: 0.06, immune_system: 0.03, gut: 0.10, pancreas: 0.05,
+  };
+  const CRITICAL_THRESHOLDS = {
+    heart: 0.25, lungs: 0.20, brain: 0.15, liver: 0.20,
+    kidneys: 0.18, immune_system: 0.10, gut: 0.22, pancreas: 0.12,
+    skin: 0.15, muscle: 0.20, adipose: 0.20, joints: 0.20,
+  };
 
   let svg, organMap = {}, healthData = {}, heartbeatInterval, bpm = 72;
   let _onOrganClick = () => {};
   let _seriesData = null, _seriesTime = null;
   let _animFrame = null, _scrubberEl = null, _scrubLabelEl = null;
+  let _failedOrgans = new Set(), _criticalOrgans = new Set();
 
   function init(onOrganClick) {
     _onOrganClick = onOrganClick || _onOrganClick;
+    _failedOrgans.clear();
+    _criticalOrgans.clear();
     svg = d3.select("#organ-svg");
     svg.selectAll("*").remove();
 
@@ -115,33 +136,71 @@ const OrganViz = (() => {
     _startHeartbeat();
   }
 
-  function update(organHealth, drugConcs) {
+  function update(organHealth, drugConcs, fatalOrgans, criticalOrgans) {
     if (!svg) return;
     const drugs = drugConcs ? Object.keys(drugConcs) : [];
     const hasDrug = drugs.length > 0;
 
-    // Update organ colours with transition
+    _failedOrgans   = new Set(fatalOrgans   || []);
+    _criticalOrgans = new Set(criticalOrgans || []);
+
+    // Remove stale overlays
+    svg.selectAll(".death-overlay, .critical-ring, .death-skull").remove();
+
     ORGANS.forEach(org => {
       const h = organHealth ? (organHealth[org.id] ?? 0.85) : 0.85;
       organMap[org.id] = h;
       const col = COLOR(h);
+      const isDead     = _failedOrgans.has(org.id);
+      const isCritical = _criticalOrgans.has(org.id);
 
-      svg.select(`[data-id="${org.id}"] .organ-circle`)
-        .transition().duration(800)
+      const circle = svg.select(`[data-id="${org.id}"] .organ-circle`);
+      circle.transition().duration(800)
         .attr("fill", col)
-        .attr("stroke", hasDrug ? "rgba(0,188,212,0.6)" : "rgba(255,255,255,0.15)");
+        .attr("stroke", isDead
+          ? "#6b0000"
+          : isCritical
+            ? "#ef1a1a"
+            : hasDrug ? "rgba(0,188,212,0.6)" : "rgba(255,255,255,0.15)")
+        .attr("stroke-width", isDead || isCritical ? "2.5" : "1");
 
-      // Update pulse ring colour
-      svg.select(`[data-id="${org.id}"] .pulse-ring`)
-        .attr("stroke", col);
+      // Pulse ring colour
+      svg.select(`[data-id="${org.id}"] .pulse-ring`).attr("stroke", col);
+
+      const gNode = svg.select(`[data-id="${org.id}"]`);
+
+      if (isDead) {
+        // Cross / X overlay for dead organ
+        const s = org.r * 0.55;
+        gNode.append("line")
+          .attr("class","death-overlay")
+          .attr("x1",-s).attr("y1",-s).attr("x2",s).attr("y2",s)
+          .attr("stroke","#ff1744").attr("stroke-width","2").attr("stroke-linecap","round");
+        gNode.append("line")
+          .attr("class","death-overlay")
+          .attr("x1",s).attr("y1",-s).attr("x2",-s).attr("y2",s)
+          .attr("stroke","#ff1744").attr("stroke-width","2").attr("stroke-linecap","round");
+      } else if (isCritical) {
+        // Pulsing danger ring
+        gNode.append("circle")
+          .attr("class","critical-ring")
+          .attr("r", org.r + 3)
+          .attr("fill","none")
+          .attr("stroke","#ef1a1a")
+          .attr("stroke-width","1.5")
+          .attr("opacity","0.8");
+      }
     });
 
-    // Update edge colours based on drug transport
+    // Edge colours
     svg.selectAll(".drug-flow-path").each(function() {
       const el = d3.select(this);
       const a = el.attr("data-a"), b = el.attr("data-b");
       const avgHealth = ((organMap[a] || 0.85) + (organMap[b] || 0.85)) / 2;
-      el.attr("stroke", d3.interpolate("rgba(239,83,80,0.3)","rgba(0,188,212,0.5)")(avgHealth));
+      const anyFatal = _failedOrgans.has(a) || _failedOrgans.has(b);
+      el.attr("stroke", anyFatal
+        ? "rgba(107,0,0,0.5)"
+        : d3.interpolate("rgba(239,83,80,0.3)","rgba(0,188,212,0.5)")(avgHealth));
     });
   }
 
@@ -207,17 +266,56 @@ const OrganViz = (() => {
   function _applyFrame(idx) {
     if (!_seriesData || !svg) return;
     const frame = _seriesData[Math.min(idx, _seriesData.length - 1)];
+
+    // Determine which organs are fatal/critical at this frame
+    const frameFatal    = new Set();
+    const frameCritical = new Set();
+    for (const [organ, h] of Object.entries(frame)) {
+      const dt = DEATH_THRESHOLDS[organ];
+      const ct = CRITICAL_THRESHOLDS[organ];
+      if (dt && h <= dt) frameFatal.add(organ);
+      else if (ct && h <= ct) frameCritical.add(organ);
+    }
+
+    svg.selectAll(".death-overlay, .critical-ring").remove();
+
     ORGANS.forEach(org => {
       const h = frame[org.id] ?? 0.85;
       organMap[org.id] = h;
-      svg.select(`[data-id="${org.id}"] .organ-circle`).attr("fill", COLOR(h));
-      svg.select(`[data-id="${org.id}"] .pulse-ring`).attr("stroke", COLOR(h));
+      const col      = COLOR(h);
+      const isDead   = frameFatal.has(org.id);
+      const isCrit   = frameCritical.has(org.id);
+
+      svg.select(`[data-id="${org.id}"] .organ-circle`)
+        .attr("fill", col)
+        .attr("stroke", isDead ? "#6b0000" : isCrit ? "#ef1a1a" : "rgba(255,255,255,0.15)")
+        .attr("stroke-width", isDead || isCrit ? "2.5" : "1");
+      svg.select(`[data-id="${org.id}"] .pulse-ring`).attr("stroke", col);
+
+      const gNode = svg.select(`[data-id="${org.id}"]`);
+      if (isDead) {
+        const s = org.r * 0.55;
+        gNode.append("line").attr("class","death-overlay")
+          .attr("x1",-s).attr("y1",-s).attr("x2",s).attr("y2",s)
+          .attr("stroke","#ff1744").attr("stroke-width","2").attr("stroke-linecap","round");
+        gNode.append("line").attr("class","death-overlay")
+          .attr("x1",s).attr("y1",-s).attr("x2",-s).attr("y2",s)
+          .attr("stroke","#ff1744").attr("stroke-width","2").attr("stroke-linecap","round");
+      } else if (isCrit) {
+        gNode.append("circle").attr("class","critical-ring")
+          .attr("r", org.r + 3).attr("fill","none")
+          .attr("stroke","#ef1a1a").attr("stroke-width","1.5").attr("opacity","0.8");
+      }
     });
+
     svg.selectAll(".drug-flow-path").each(function() {
       const el = d3.select(this);
       const a = el.attr("data-a"), b = el.attr("data-b");
       const avg = ((organMap[a] || 0.85) + (organMap[b] || 0.85)) / 2;
-      el.attr("stroke", d3.interpolate("rgba(239,83,80,0.3)","rgba(0,188,212,0.5)")(avg));
+      const anyFatal = frameFatal.has(a) || frameFatal.has(b);
+      el.attr("stroke", anyFatal
+        ? "rgba(107,0,0,0.5)"
+        : d3.interpolate("rgba(239,83,80,0.3)","rgba(0,188,212,0.5)")(avg));
     });
   }
 
