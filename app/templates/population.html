@@ -1,0 +1,1424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Population Simulation — PK-PD BioSim</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="/static/css/nav.css?v=3"/>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    :root {
+      --bg:         #0a0d18;
+      --bg2:        #0f1322;
+      --card:       #121826;
+      --border:     rgba(66,99,148,0.25);
+      --accent:     #00bcd4;
+      --accent2:    #2b6f9b;
+      --text:       #f0f4fa;
+      --muted:      #6c7e9e;
+      --sub:        #9aaec5;
+      --success:    #00e676;
+      --warn:       #ffab40;
+      --danger:     #ef5350;
+      --shadow:     0 4px 16px rgba(0,0,0,0.4);
+      /* subgroup palette */
+      --sg-general: #00bcd4;
+      --sg-elderly: #ffab40;
+      --sg-preg:    #f48fb1;
+      --sg-paed:    #81c784;
+      --sg-renal:   #ef5350;
+      --sg-immuno:  #ce93d8;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+
+    /* ── layout ── */
+    .pop-layout {
+      display: flex;
+      gap: 0;
+      min-height: calc(100vh - 52px);
+      margin-top: 52px;
+    }
+
+    /* ── sidebar ── */
+    .pop-sidebar {
+      width: 300px;
+      flex-shrink: 0;
+      background: rgba(10,13,24,0.97);
+      border-right: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      height: calc(100vh - 52px);
+      overflow-y: auto;
+      position: sticky;
+      top: 52px;
+    }
+    .pop-sidebar::-webkit-scrollbar { width: 4px; }
+    .pop-sidebar::-webkit-scrollbar-thumb { background: rgba(0,188,212,0.25); border-radius: 4px; }
+
+    .sb-section {
+      padding: 16px 18px;
+      border-bottom: 1px solid var(--border);
+    }
+    .sb-title {
+      font-size: 9.5px;
+      font-weight: 700;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+    }
+    .sb-title svg { flex-shrink: 0; }
+
+    .sb-row { margin-bottom: 13px; }
+    .sb-row label {
+      display: flex;
+      justify-content: space-between;
+      font-size: 11px;
+      color: var(--sub);
+      font-weight: 500;
+      margin-bottom: 5px;
+    }
+    .sb-row label span { color: var(--accent); font-family: monospace; }
+    .sb-slider {
+      width: 100%;
+      height: 4px;
+      -webkit-appearance: none;
+      background: #1e2a3e;
+      border-radius: 4px;
+      outline: none;
+    }
+    .sb-slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 13px; height: 13px;
+      background: var(--accent);
+      border-radius: 50%;
+      cursor: pointer;
+      box-shadow: 0 0 4px var(--accent);
+    }
+    .sb-select {
+      width: 100%;
+      background: #1a1f2e;
+      border: 1px solid var(--border);
+      padding: 7px 9px;
+      border-radius: 7px;
+      color: var(--text);
+      font-size: 11.5px;
+    }
+    .chip-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      margin-top: 6px;
+    }
+    .chip {
+      padding: 3px 10px;
+      border-radius: 24px;
+      font-size: 10px;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1px solid transparent;
+      transition: all 0.15s;
+    }
+    .chip.active { border-color: currentColor; }
+
+    /* population size buttons */
+    .size-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 5px;
+      margin-top: 6px;
+    }
+    .size-btn {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid var(--border);
+      padding: 5px 4px;
+      border-radius: 6px;
+      font-size: 10.5px;
+      font-weight: 600;
+      color: var(--sub);
+      cursor: pointer;
+      transition: all 0.15s;
+      text-align: center;
+    }
+    .size-btn.active {
+      background: var(--accent);
+      color: #0a0d18;
+      border-color: var(--accent);
+    }
+
+    /* duration buttons */
+    .dur-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      margin-top: 6px;
+    }
+    .dur-btn {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid var(--border);
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 10.5px;
+      color: var(--sub);
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .dur-btn.active {
+      background: var(--accent);
+      color: #0a0d18;
+      border-color: var(--accent);
+    }
+
+    /* setting cards */
+    .setting-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 6px;
+      margin-top: 6px;
+    }
+    .setting-card {
+      background: #1a1f2e;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 8px 10px;
+      cursor: pointer;
+      transition: all 0.15s;
+      text-align: center;
+    }
+    .setting-card.active {
+      border-color: var(--accent);
+      background: rgba(0,188,212,0.08);
+    }
+    .setting-card .si { font-size: 18px; margin-bottom: 2px; }
+    .setting-card .sl { font-size: 9.5px; font-weight: 600; color: var(--sub); }
+    .setting-card .sd { font-size: 8.5px; color: var(--muted); margin-top: 1px; }
+
+    .run-btn {
+      width: 100%;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      border: none;
+      border-radius: 40px;
+      padding: 11px;
+      font-size: 13px;
+      font-weight: 700;
+      color: #0a0d18;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      transition: 0.2s;
+    }
+    .run-btn:hover { filter: brightness(1.1); }
+    .run-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    /* ── main content ── */
+    .pop-main {
+      flex: 1;
+      overflow-x: hidden;
+      padding: 24px 28px 40px;
+    }
+
+    .pop-header {
+      margin-bottom: 24px;
+    }
+    .pop-header h1 {
+      font-size: 1.6rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, #fff, var(--accent));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      letter-spacing: -0.4px;
+    }
+    .pop-header p { font-size: 12px; color: var(--muted); margin-top: 5px; }
+
+    /* KPI strip */
+    .kpi-strip {
+      display: flex;
+      gap: 14px;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+    }
+    .kpi-box {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 14px 18px;
+      flex: 1;
+      min-width: 120px;
+      text-align: center;
+    }
+    .kpi-box .kv {
+      font-size: 1.7rem;
+      font-weight: 800;
+      color: var(--accent);
+      line-height: 1.1;
+    }
+    .kpi-box .kl { font-size: 9.5px; text-transform: uppercase; color: var(--muted); margin-top: 5px; }
+
+    /* Grid layouts */
+    .grid-2 { display: flex; gap: 20px; margin-bottom: 20px; flex-wrap: wrap; }
+    .grid-3 { display: flex; gap: 20px; margin-bottom: 20px; flex-wrap: wrap; }
+
+    /* Chart cards */
+    .pchart {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+    .pchart-header {
+      padding: 12px 18px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .pchart-title { font-weight: 600; font-size: 13px; }
+    .pchart-hint  { font-size: 10px; color: var(--muted); }
+    .pchart-body  { padding: 10px 14px 14px; }
+
+    svg text { font-family: 'Inter', sans-serif; }
+
+    /* Subgroup table */
+    .sg-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 11.5px;
+    }
+    .sg-table th {
+      padding: 7px 12px;
+      text-align: left;
+      font-size: 9.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--muted);
+      border-bottom: 1px solid var(--border);
+    }
+    .sg-table td {
+      padding: 8px 12px;
+      border-bottom: 1px solid rgba(66,99,148,0.12);
+      color: var(--sub);
+    }
+    .sg-table tr:last-child td { border-bottom: none; }
+    .sg-dot {
+      display: inline-block;
+      width: 9px; height: 9px;
+      border-radius: 50%;
+      margin-right: 6px;
+      vertical-align: middle;
+    }
+    .rate-bar {
+      display: inline-block;
+      height: 6px;
+      border-radius: 3px;
+      vertical-align: middle;
+      margin-left: 6px;
+    }
+
+    /* Summary card */
+    .summary-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px 22px;
+      margin-bottom: 20px;
+    }
+    .summary-title {
+      font-weight: 700;
+      font-size: 13px;
+      color: var(--accent);
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 12px;
+    }
+    .summary-item {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 14px;
+    }
+    .summary-item .si-label { font-size: 9.5px; color: var(--muted); text-transform: uppercase; font-weight: 600; }
+    .summary-item .si-val   { font-size: 14px; font-weight: 700; color: var(--text); margin-top: 3px; }
+    .summary-item .si-sub   { font-size: 9.5px; color: var(--sub); margin-top: 2px; }
+
+    .note-ok    { border-left: 3px solid var(--success); }
+    .note-warn  { border-left: 3px solid var(--warn); }
+    .note-alert { border-left: 3px solid var(--danger); }
+    .note-info  { border-left: 3px solid var(--accent); }
+
+    /* patient table */
+    .pt-wrap {
+      max-height: 300px;
+      overflow-y: auto;
+    }
+    .pt-wrap::-webkit-scrollbar { width: 4px; }
+    .pt-wrap::-webkit-scrollbar-thumb { background: rgba(0,188,212,0.2); border-radius: 4px; }
+    .pt-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 10.5px;
+    }
+    .pt-table th {
+      position: sticky;
+      top: 0;
+      background: #1a1f2e;
+      padding: 6px 8px;
+      text-align: left;
+      font-size: 9.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      color: var(--muted);
+      border-bottom: 1px solid var(--border);
+      z-index: 5;
+    }
+    .pt-table td {
+      padding: 5px 8px;
+      border-bottom: 1px solid rgba(66,99,148,0.1);
+      color: var(--sub);
+    }
+    .tag {
+      display: inline-block;
+      padding: 1px 7px;
+      border-radius: 20px;
+      font-size: 9.5px;
+      font-weight: 600;
+    }
+    .tag-ok    { background: rgba(0,230,118,0.12); color: #00e676; }
+    .tag-warn  { background: rgba(255,171,64,0.12); color: #ffab40; }
+    .tag-bad   { background: rgba(239,83,80,0.12);  color: #ef5350; }
+
+    /* Empty / loading state */
+    .empty-state {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 20px;
+      color: var(--muted);
+      text-align: center;
+      gap: 12px;
+    }
+    .empty-state svg { opacity: 0.3; }
+    .empty-state p { font-size: 12px; max-width: 300px; }
+
+    .spinner {
+      border: 2px solid rgba(0,188,212,0.2);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      width: 28px; height: 28px;
+      animation: spin 0.7s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* Subgroup legend pill */
+    .sg-legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 14px;
+      padding: 0 4px;
+    }
+    .sg-pill {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 10.5px;
+      color: var(--sub);
+      cursor: pointer;
+      opacity: 0.55;
+      transition: 0.15s;
+    }
+    .sg-pill.active { opacity: 1; }
+    .sg-pill .dot { width: 8px; height: 8px; border-radius: 50%; }
+
+    /* Density indicator */
+    .density-bar-wrap {
+      margin-top: 10px;
+      background: rgba(255,255,255,0.05);
+      border-radius: 6px;
+      height: 6px;
+      overflow: hidden;
+    }
+    .density-bar-fill {
+      height: 100%;
+      border-radius: 6px;
+      background: linear-gradient(90deg, #00bcd4, #ff9800);
+      transition: width 0.4s ease;
+    }
+    .density-label { font-size: 9.5px; color: var(--muted); margin-top: 4px; text-align: right; }
+  </style>
+</head>
+<body>
+
+<!-- ══════════ TOP NAV ══════════ -->
+<nav class="top-nav" id="top-nav">
+  <div class="nav-brand">
+    <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+      <circle cx="16" cy="16" r="15" stroke="#00bcd4" stroke-width="1.5"/>
+      <path d="M8 16 Q12 8 16 16 Q20 24 24 16" stroke="#00bcd4" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <circle cx="16" cy="16" r="3" fill="#00bcd4" opacity="0.8"/>
+    </svg>
+    <span class="nav-brand-text">PK-PD <small>BioSim</small></span>
+  </div>
+  <ul class="nav-links">
+    <li><a class="nav-link" href="/">Dashboard</a></li>
+    <li><a class="nav-link" href="/viral-sim">Viral Sim</a></li>
+    <li><a class="nav-link" href="/effectiveness">Effectiveness</a></li>
+    <li><a class="nav-link" href="/side-effects">Side Effects</a></li>
+    <li><a class="nav-link" href="/pathogen-organs">Pathogen–Organs</a></li>
+    <li><a class="nav-link" href="/benchmarks">Benchmarks</a></li>
+    <li><a class="nav-link" href="/analytics">Analytics</a></li>
+    <li><a class="nav-link active" href="/population">Population</a></li>
+  </ul>
+  <div class="nav-status">
+    <span class="status-dot idle" id="nav-dot"></span>
+  </div>
+</nav>
+
+<!-- ══════════ LAYOUT ══════════ -->
+<div class="pop-layout">
+
+  <!-- ══ SIDEBAR ══ -->
+  <aside class="pop-sidebar">
+
+    <!-- Drug & Disease -->
+    <div class="sb-section">
+      <div class="sb-title">
+        <svg width="14" height="14" viewBox="0 0 20 20" fill="none"><rect x="3" y="8" width="14" height="10" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M7 8V6a3 3 0 0 1 6 0v2" stroke="currentColor" stroke-width="1.5"/></svg>
+        Intervention
+      </div>
+      <div class="sb-row">
+        <label>Disease / Pathogen</label>
+        <select id="sb-disease" class="sb-select"></select>
+      </div>
+      <div class="sb-row">
+        <label>Drug <span id="lbl-drug-class" style="font-size:9.5px;color:var(--muted)"></span></label>
+        <select id="sb-drug" class="sb-select"></select>
+      </div>
+      <div class="sb-row">
+        <label>Dose (mg) <span id="lbl-dose">10</span></label>
+        <input type="range" id="sb-dose" class="sb-slider" min="1" max="1000" step="1" value="10"/>
+      </div>
+      <div class="sb-row">
+        <label>Disease Severity <span id="lbl-severity">55%</span></label>
+        <input type="range" id="sb-severity" class="sb-slider" min="10" max="100" step="5" value="55"/>
+      </div>
+    </div>
+
+    <!-- Population -->
+    <div class="sb-section">
+      <div class="sb-title">
+        <svg width="14" height="14" viewBox="0 0 20 20" fill="none"><circle cx="7" cy="6" r="3" stroke="currentColor" stroke-width="1.5"/><circle cx="14" cy="6" r="3" stroke="currentColor" stroke-width="1.5"/><path d="M1 17c0-3 2.7-5 6-5h6c3.3 0 6 2 6 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        Population Size
+      </div>
+      <div class="size-grid">
+        <button class="size-btn" data-n="25">25</button>
+        <button class="size-btn active" data-n="50">50</button>
+        <button class="size-btn" data-n="100">100</button>
+        <button class="size-btn" data-n="200">200</button>
+        <button class="size-btn" data-n="500">500</button>
+        <button class="size-btn" data-n="1000">1k</button>
+        <button class="size-btn" data-n="2000">2k</button>
+        <button class="size-btn" data-n="5000">5k</button>
+      </div>
+      <div style="margin-top:10px;font-size:9.5px;color:var(--muted)">Larger populations take longer to compute. Cohorts ≥ 500 are sampled.</div>
+    </div>
+
+    <!-- Duration -->
+    <div class="sb-section">
+      <div class="sb-title">
+        <svg width="14" height="14" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="1.5"/><path d="M10 5v5l3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        Simulation Duration
+      </div>
+      <div class="dur-grid">
+        <button class="dur-btn" data-h="24">24 h</button>
+        <button class="dur-btn active" data-h="72">72 h</button>
+        <button class="dur-btn" data-h="168">1 week</button>
+        <button class="dur-btn" data-h="336">2 weeks</button>
+        <button class="dur-btn" data-h="720">30 days</button>
+      </div>
+    </div>
+
+    <!-- Setting / Density -->
+    <div class="sb-section">
+      <div class="sb-title">
+        <svg width="14" height="14" viewBox="0 0 20 20" fill="none"><path d="M3 17V8l7-5 7 5v9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><rect x="8" y="13" width="4" height="4" rx="0.5" stroke="currentColor" stroke-width="1.2"/></svg>
+        Population Setting
+      </div>
+      <div class="setting-grid">
+        <div class="setting-card active" data-setting="urban">
+          <div class="si">🏙️</div>
+          <div class="sl">Urban</div>
+          <div class="sd">5,000/km²</div>
+        </div>
+        <div class="setting-card" data-setting="suburban">
+          <div class="si">🏘️</div>
+          <div class="sl">Suburban</div>
+          <div class="sd">1,200/km²</div>
+        </div>
+        <div class="setting-card" data-setting="rural">
+          <div class="si">🌾</div>
+          <div class="sl">Rural</div>
+          <div class="sd">120/km²</div>
+        </div>
+        <div class="setting-card" data-setting="hospital">
+          <div class="si">🏥</div>
+          <div class="sl">Hospital</div>
+          <div class="sd">15,000/km²</div>
+        </div>
+        <div class="setting-card" data-setting="school">
+          <div class="si">🏫</div>
+          <div class="sl">School</div>
+          <div class="sd">3,000/km²</div>
+        </div>
+        <div class="setting-card" data-setting="nursing_home">
+          <div class="si">🛏️</div>
+          <div class="sl">Care Home</div>
+          <div class="sd">2,000/km²</div>
+        </div>
+      </div>
+      <div id="density-readout" style="margin-top:8px">
+        <div class="density-bar-wrap"><div class="density-bar-fill" id="density-bar" style="width:42%"></div></div>
+        <div class="density-label" id="density-label">Urban — 5,000 persons/km²</div>
+      </div>
+    </div>
+
+    <!-- Run -->
+    <div class="sb-section" style="border-bottom:none;margin-top:auto">
+      <button class="run-btn" id="run-pop-btn">
+        <svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor"><path d="M5 4l12 6-12 6V4z"/></svg>
+        Run Population Sim
+      </button>
+      <div id="run-status" style="text-align:center;font-size:10px;color:var(--muted);margin-top:8px"></div>
+    </div>
+
+  </aside>
+
+  <!-- ══ MAIN ══ -->
+  <main class="pop-main" id="pop-main">
+
+    <div class="pop-header">
+      <h1>Population Drug Response Simulation</h1>
+      <p>Model the pharmacokinetic and pharmacodynamic effects of a drug on a diverse population. Subgroups are automatically generated based on the selected setting and include elderly, pregnant, paediatric, renally-impaired, and immunocompromised individuals.</p>
+    </div>
+
+    <!-- Initial empty state -->
+    <div class="empty-state" id="empty-state">
+      <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+        <circle cx="22" cy="20" r="9" stroke="#00bcd4" stroke-width="2"/>
+        <circle cx="42" cy="20" r="9" stroke="#00bcd4" stroke-width="2"/>
+        <path d="M4 56c0-9.9 8-18 18-18h20c10 0 18 8.1 18 18" stroke="#00bcd4" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="32" cy="46" r="4" fill="#00bcd4" opacity="0.4"/>
+      </svg>
+      <p>Select a drug, disease, population size and setting, then click <strong>Run Population Sim</strong> to model drug effects across a diverse virtual cohort.</p>
+    </div>
+
+    <!-- Loading state (hidden) -->
+    <div class="empty-state" id="loading-state" style="display:none">
+      <div class="spinner"></div>
+      <p id="loading-msg">Simulating cohort…</p>
+    </div>
+
+    <!-- Results (hidden until sim) -->
+    <div id="results-wrap" style="display:none">
+
+      <!-- KPI strip -->
+      <div class="kpi-strip">
+        <div class="kpi-box"><div class="kv" id="kpi-n">—</div><div class="kl">Patients Simulated</div></div>
+        <div class="kpi-box"><div class="kv" id="kpi-resp" style="color:var(--success)">—</div><div class="kl">In Therapeutic Window</div></div>
+        <div class="kpi-box"><div class="kv" id="kpi-adv" style="color:var(--danger)">—</div><div class="kl">Adverse Exposure</div></div>
+        <div class="kpi-box"><div class="kv" id="kpi-cmax">—</div><div class="kl">Median C<sub>max</sub> mg/L</div></div>
+        <div class="kpi-box"><div class="kv" id="kpi-auc">—</div><div class="kl">Median AUC mg·h/L</div></div>
+        <div class="kpi-box"><div class="kv" id="kpi-density">—</div><div class="kl">Density /km²</div></div>
+      </div>
+
+      <!-- Row 1: Population PK envelope + Cmax distribution -->
+      <div class="grid-2">
+        <div class="pchart" style="flex:1.6;min-width:360px">
+          <div class="pchart-header">
+            <span class="pchart-title">Population PK Envelope — Plasma Concentration</span>
+            <span class="pchart-hint">P5/P25/P50/P75/P95 · Subgroup medians</span>
+          </div>
+          <div class="pchart-body">
+            <div class="sg-legend" id="pk-sg-legend"></div>
+            <svg id="chart-pk" width="100%" height="300"></svg>
+          </div>
+        </div>
+        <div class="pchart" style="flex:1;min-width:260px">
+          <div class="pchart-header">
+            <span class="pchart-title">C<sub>max</sub> Distribution</span>
+            <span class="pchart-hint">Histogram across cohort</span>
+          </div>
+          <div class="pchart-body">
+            <svg id="chart-cmax" width="100%" height="300"></svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 2: Subgroup response + Age distribution -->
+      <div class="grid-2">
+        <div class="pchart" style="flex:1;min-width:280px">
+          <div class="pchart-header">
+            <span class="pchart-title">Subgroup Response &amp; Adverse Rates</span>
+            <span class="pchart-hint">% in therapeutic window vs adverse</span>
+          </div>
+          <div class="pchart-body">
+            <svg id="chart-subgroup" width="100%" height="260"></svg>
+          </div>
+        </div>
+        <div class="pchart" style="flex:1;min-width:260px">
+          <div class="pchart-header">
+            <span class="pchart-title">Age &amp; Sex Distribution</span>
+            <span class="pchart-hint">Cohort demographics</span>
+          </div>
+          <div class="pchart-body">
+            <svg id="chart-demog" width="100%" height="260"></svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- Subgroup table -->
+      <div class="pchart" style="margin-bottom:20px">
+        <div class="pchart-header">
+          <span class="pchart-title">Subgroup Summary</span>
+          <span class="pchart-hint">Detailed per-group pharmacokinetic analysis</span>
+        </div>
+        <div class="pchart-body" style="padding:0">
+          <table class="sg-table" id="sg-table">
+            <thead>
+              <tr>
+                <th>Subgroup</th>
+                <th>N</th>
+                <th>Median C<sub>max</sub> (mg/L)</th>
+                <th>Median AUC (mg·h/L)</th>
+                <th>Response Rate</th>
+                <th>Adverse Rate</th>
+              </tr>
+            </thead>
+            <tbody id="sg-tbody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Simulation summary card -->
+      <div class="summary-card" id="summary-card">
+        <div class="summary-title">
+          <svg width="16" height="16" viewBox="0 0 20 20" fill="none"><path d="M10 2a8 8 0 1 0 0 16A8 8 0 0 0 10 2zm0 4v4l3 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          Simulation Summary &amp; Clinical Interpretation
+        </div>
+        <div class="summary-grid" id="summary-grid"></div>
+      </div>
+
+      <!-- Patient table -->
+      <div class="pchart" style="margin-bottom:20px">
+        <div class="pchart-header">
+          <span class="pchart-title">Virtual Patient Registry</span>
+          <span class="pchart-hint">First 200 patients shown</span>
+        </div>
+        <div class="pchart-body" style="padding:0">
+          <div class="pt-wrap">
+            <table class="pt-table" id="pt-table">
+              <thead>
+                <tr>
+                  <th>#</th><th>Subgroup</th><th>Age</th><th>Sex</th>
+                  <th>Weight (kg)</th><th>Kidney Fn</th><th>Liver Fn</th>
+                  <th>C<sub>max</sub></th><th>AUC</th><th>Status</th>
+                </tr>
+              </thead>
+              <tbody id="pt-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /results-wrap -->
+  </main>
+</div><!-- /pop-layout -->
+
+<script>
+(function () {
+  // ── State ──────────────────────────────────────────────────────────────────
+  const S = {
+    drug: null, disease: null, dose: 10, severity: 0.55,
+    n: 50, duration: 72, setting: "urban",
+    drugsData: [], diseasesData: [],
+    lastResult: null,
+  };
+
+  const SG_COLORS = {
+    general_adult:   "#00bcd4",
+    elderly:         "#ffab40",
+    pregnant:        "#f48fb1",
+    paediatric:      "#81c784",
+    renal_impaired:  "#ef5350",
+    immunocompromised: "#ce93d8",
+  };
+  const SG_LABELS = {
+    general_adult:   "General Adult",
+    elderly:         "Elderly (65+)",
+    pregnant:        "Pregnant",
+    paediatric:      "Paediatric",
+    renal_impaired:  "Renal Impaired",
+    immunocompromised: "Immunocompromised",
+  };
+  const DENSITY_MAP = {
+    urban: 5000, suburban: 1200, rural: 120, hospital: 15000, school: 3000, nursing_home: 2000,
+  };
+
+  // ── Init ───────────────────────────────────────────────────────────────────
+  async function init() {
+    const [drugs, diseases] = await Promise.all([
+      fetch("/api/drugs").then(r => r.json()),
+      fetch("/api/diseases").then(r => r.json()),
+    ]);
+    S.drugsData    = drugs;
+    S.diseasesData = diseases;
+
+    const dSel = document.getElementById("sb-disease");
+    diseases.forEach(d => { const o = new Option(d.name, d.name); dSel.appendChild(o); });
+
+    const drugSel = document.getElementById("sb-drug");
+    drugs.forEach(d => { const o = new Option(`${d.name} (${d.drug_class})`, d.name); drugSel.appendChild(o); });
+
+    // Set defaults
+    S.disease = diseases[0]?.name || "Hypertension";
+    S.drug    = drugs[0]?.name    || "Lisinopril";
+    dSel.value = S.disease;
+    drugSel.value = S.drug;
+    _filterDrugsByDisease();
+
+    wireEvents();
+  }
+
+  function _filterDrugsByDisease() {
+    const dis = S.diseasesData.find(d => d.name === S.disease);
+    const drugSel = document.getElementById("sb-drug");
+    const indicated = dis?.indicated_drugs || [];
+    if (indicated.length > 0) {
+      // move indicated to top
+      Array.from(drugSel.options).sort((a, b) => {
+        const ai = indicated.indexOf(a.value), bi = indicated.indexOf(b.value);
+        if (ai >= 0 && bi < 0) return -1;
+        if (bi >= 0 && ai < 0) return 1;
+        return a.text.localeCompare(b.text);
+      }).forEach(o => drugSel.appendChild(o));
+      if (indicated.includes(drugSel.value) === false) {
+        drugSel.value = indicated[0];
+        S.drug = indicated[0];
+      }
+    }
+    _updateDrugInfo();
+  }
+
+  function _updateDrugInfo() {
+    const dd = S.drugsData.find(d => d.name === S.drug);
+    if (!dd) return;
+    document.getElementById("lbl-drug-class").textContent = dd.drug_class;
+    const doseEl = document.getElementById("sb-dose");
+    doseEl.value = dd.default_dose || 10;
+    S.dose = dd.default_dose || 10;
+    document.getElementById("lbl-dose").textContent = S.dose;
+    doseEl.max = Math.max(1000, S.dose * 10);
+  }
+
+  function wireEvents() {
+    document.getElementById("sb-disease").addEventListener("change", e => {
+      S.disease = e.target.value;
+      _filterDrugsByDisease();
+    });
+    document.getElementById("sb-drug").addEventListener("change", e => {
+      S.drug = e.target.value;
+      _updateDrugInfo();
+    });
+    document.getElementById("sb-dose").addEventListener("input", e => {
+      S.dose = +e.target.value;
+      document.getElementById("lbl-dose").textContent = S.dose;
+    });
+    document.getElementById("sb-severity").addEventListener("input", e => {
+      S.severity = +e.target.value / 100;
+      document.getElementById("lbl-severity").textContent = e.target.value + "%";
+    });
+
+    // Size buttons
+    document.querySelectorAll(".size-btn").forEach(b => {
+      b.addEventListener("click", () => {
+        document.querySelectorAll(".size-btn").forEach(x => x.classList.remove("active"));
+        b.classList.add("active");
+        S.n = +b.dataset.n;
+      });
+    });
+
+    // Duration buttons
+    document.querySelectorAll(".dur-btn").forEach(b => {
+      b.addEventListener("click", () => {
+        document.querySelectorAll(".dur-btn").forEach(x => x.classList.remove("active"));
+        b.classList.add("active");
+        S.duration = +b.dataset.h;
+      });
+    });
+
+    // Setting cards
+    document.querySelectorAll(".setting-card").forEach(c => {
+      c.addEventListener("click", () => {
+        document.querySelectorAll(".setting-card").forEach(x => x.classList.remove("active"));
+        c.classList.add("active");
+        S.setting = c.dataset.setting;
+        _updateDensityBar();
+      });
+    });
+
+    document.getElementById("run-pop-btn").addEventListener("click", runSim);
+  }
+
+  function _updateDensityBar() {
+    const d = DENSITY_MAP[S.setting] || 5000;
+    const maxD = 15000;
+    const pct = Math.min(100, Math.round(d / maxD * 100));
+    document.getElementById("density-bar").style.width = pct + "%";
+    const label = document.querySelector(`.setting-card[data-setting="${S.setting}"] .sl`)?.textContent || S.setting;
+    document.getElementById("density-label").textContent = `${label} — ${d.toLocaleString()} persons/km²`;
+  }
+
+  // ── Simulation ─────────────────────────────────────────────────────────────
+  async function runSim() {
+    const btn = document.getElementById("run-pop-btn");
+    btn.disabled = true;
+    document.getElementById("nav-dot").className = "status-dot";
+    document.getElementById("nav-dot").style.background = "#ffab40";
+    document.getElementById("empty-state").style.display = "none";
+    document.getElementById("results-wrap").style.display = "none";
+    document.getElementById("loading-state").style.display = "flex";
+
+    // For large cohorts, use server-side sampling
+    const effectiveN = Math.min(S.n, 500);
+    const msg = S.n > 500 ? `Simulating representative sample of ${effectiveN} from ${S.n.toLocaleString()} population…` : `Simulating ${S.n} patients…`;
+    document.getElementById("loading-msg").textContent = msg;
+    document.getElementById("run-status").textContent = msg;
+
+    try {
+      const resp = await fetch("/api/population", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          drug: S.drug,
+          dose: S.dose,
+          disease: S.disease,
+          severity: S.severity,
+          n_patients: effectiveN,
+          duration_hours: S.duration,
+          setting: S.setting,
+        }),
+      });
+      if (!resp.ok) throw new Error(`Server error ${resp.status}`);
+      const data = await resp.json();
+      S.lastResult = data;
+      // Inflate n for large populations
+      if (S.n > 500) {
+        data._display_n = S.n;
+        data._scale = S.n / data.n_succeeded;
+      }
+      document.getElementById("loading-state").style.display = "none";
+      const rw = document.getElementById("results-wrap");
+      rw.style.display = "block";
+      // Force a synchronous reflow so getBoundingClientRect() returns real
+      // pixel dimensions for all chart containers before D3 draws.
+      void rw.offsetWidth;
+      renderAll(data);
+      document.getElementById("nav-dot").className = "status-dot";
+      document.getElementById("nav-dot").style.background = "#00e676";
+      document.getElementById("run-status").textContent = `Done — ${data.n_succeeded} patients computed`;
+    } catch (err) {
+      document.getElementById("loading-state").style.display = "none";
+      document.getElementById("empty-state").style.display = "flex";
+      document.getElementById("run-status").textContent = "Error: " + err.message;
+      document.getElementById("nav-dot").style.background = "#ef5350";
+    } finally {
+      btn.disabled = false;
+    }
+  }
+
+  // ── Render all charts ──────────────────────────────────────────────────────
+  function renderAll(d) {
+    const displayN = d._display_n || d.n_succeeded;
+    const scale    = d._scale || 1;
+
+    // KPIs
+    document.getElementById("kpi-n").textContent    = displayN.toLocaleString();
+    document.getElementById("kpi-resp").textContent  = Math.round(d.frac_within_window * 100) + "%";
+    document.getElementById("kpi-adv").textContent   = Math.round(d.overall_adverse_rate * 100) + "%";
+    document.getElementById("kpi-cmax").textContent  = d.cmax_p50?.toFixed(2) ?? "—";
+    document.getElementById("kpi-auc").textContent   = d.auc_p50?.toFixed(0) ?? "—";
+    document.getElementById("kpi-density").textContent = (DENSITY_MAP[d.setting] || 0).toLocaleString();
+
+    const _tryChart = (name, fn) => {
+      try { fn(); } catch(e) {
+        console.error(`Chart [${name}] failed:`, e);
+        const el = document.getElementById("chart-" + name);
+        if (el) { el.innerHTML = ""; const t = document.createElementNS("http://www.w3.org/2000/svg","text"); t.setAttribute("x","50%"); t.setAttribute("y","50%"); t.setAttribute("text-anchor","middle"); t.setAttribute("fill","#ef5350"); t.setAttribute("font-size","11"); t.textContent = "Chart error: " + e.message; el.appendChild(t); }
+      }
+    };
+    _tryChart("pk",         () => renderPKChart(d));
+    _tryChart("cmax",       () => renderCmaxHist(d));
+    _tryChart("subgroup",   () => renderSubgroupChart(d));
+    _tryChart("demog",      () => renderDemogChart(d));
+    renderSGTable(d);
+    renderPatientTable(d);
+    renderSummary(d, displayN, scale);
+  }
+
+  // ─── PK Envelope chart ────────────────────────────────────────────────────
+  function renderPKChart(d) {
+    const el = document.getElementById("chart-pk");
+    el.innerHTML = "";
+    const W = Math.max(el.parentElement.getBoundingClientRect().width - 28, 320);
+    const H = 300;
+    const M = { top: 14, right: 20, bottom: 38, left: 50 };
+    const w = W - M.left - M.right;
+    const h = H - M.top - M.bottom;
+
+    const svg = d3.select(el).attr("width", W).attr("height", H);
+    const g   = svg.append("g").attr("transform", `translate(${M.left},${M.top})`);
+
+    const xScale = d3.scaleLinear().domain([0, d3.max(d.time_points)]).range([0, w]);
+    const allVals = [...d.p05, ...d.p95];
+    const yMax = d3.max(allVals) * 1.1 || 1;
+    const yScale = d3.scaleLinear().domain([0, yMax]).range([h, 0]);
+
+    // Grid
+    g.append("g").attr("class", "grid")
+      .call(d3.axisLeft(yScale).ticks(5).tickSize(-w).tickFormat(""))
+      .call(g => g.selectAll("line").attr("stroke", "rgba(255,255,255,0.05)").attr("stroke-dasharray","3,3"))
+      .call(g => g.select(".domain").remove());
+
+    // Therapeutic window band
+    const [twLo, twHi] = d.therapeutic_window;
+    const yLo = yScale(Math.min(twHi, yMax));
+    const yHi = yScale(Math.min(twLo, yMax));
+    g.append("rect").attr("x", 0).attr("y", yLo)
+      .attr("width", w).attr("height", Math.max(0, yHi - yLo))
+      .attr("fill", "rgba(0,230,118,0.07)");
+    g.append("line").attr("x1",0).attr("x2",w).attr("y1",yScale(twHi)).attr("y2",yScale(twHi))
+      .attr("stroke","#00e676").attr("stroke-width",1).attr("stroke-dasharray","4,3").attr("opacity",0.6);
+    g.append("line").attr("x1",0).attr("x2",w).attr("y1",yScale(twLo)).attr("y2",yScale(twLo))
+      .attr("stroke","#00e676").attr("stroke-width",1).attr("stroke-dasharray","4,3").attr("opacity",0.6);
+
+    const area = (p0, p1) => d3.area()
+      .x((_, i) => xScale(d.time_points[i]))
+      .y0((_, i) => yScale(d[p0][i]))
+      .y1((_, i) => yScale(d[p1][i]))
+      .curve(d3.curveBasis);
+
+    // P5-P95 band
+    g.append("path").datum(d.p05)
+      .attr("fill", "rgba(0,188,212,0.08)")
+      .attr("d", area("p05","p95")(d.p05));
+    // P25-P75 band
+    g.append("path").datum(d.p25)
+      .attr("fill", "rgba(0,188,212,0.14)")
+      .attr("d", area("p25","p75")(d.p25));
+
+    // Subgroup medians
+    const sgKeys = Object.keys(d.subgroup_summary || {});
+    sgKeys.forEach(sg => {
+      const sg_d = d.subgroup_summary[sg];
+      if (!sg_d?.plasma_p50) return;
+      const line = d3.line()
+        .x((_, i) => xScale(d.time_points[i]))
+        .y(v => yScale(v))
+        .curve(d3.curveBasis);
+      g.append("path")
+        .datum(sg_d.plasma_p50)
+        .attr("fill","none")
+        .attr("stroke", SG_COLORS[sg] || "#aaa")
+        .attr("stroke-width", 1.5)
+        .attr("stroke-dasharray","5,3")
+        .attr("opacity", 0.75)
+        .attr("d", line);
+    });
+
+    // P50 bold line
+    const lineP50 = d3.line().x((_, i) => xScale(d.time_points[i])).y(v => yScale(v)).curve(d3.curveBasis);
+    g.append("path").datum(d.p50).attr("fill","none").attr("stroke","#00bcd4").attr("stroke-width",2).attr("d", lineP50);
+
+    // Axes
+    g.append("g").attr("transform",`translate(0,${h})`)
+      .call(d3.axisBottom(xScale).ticks(8).tickFormat(v => v + "h"))
+      .call(g => { g.select(".domain").remove(); g.selectAll("line").attr("stroke","rgba(255,255,255,0.1)"); g.selectAll("text").attr("fill","#6c7e9e").attr("font-size","9px"); });
+    g.append("g")
+      .call(d3.axisLeft(yScale).ticks(5))
+      .call(g => { g.select(".domain").remove(); g.selectAll("line").attr("stroke","rgba(255,255,255,0.1)"); g.selectAll("text").attr("fill","#6c7e9e").attr("font-size","9px"); });
+    g.append("text").attr("transform","rotate(-90)").attr("x",-h/2).attr("y",-38)
+      .attr("text-anchor","middle").attr("fill","#6c7e9e").attr("font-size","9px").text("Plasma conc. (mg/L)");
+
+    // Legend (envelope only)
+    const legendG = g.append("g").attr("transform",`translate(${w - 140},0)`);
+    [{label:"P5–P95",color:"rgba(0,188,212,0.3)"},{label:"P25–P75",color:"rgba(0,188,212,0.55)"},{label:"Median",color:"#00bcd4"},{label:"Therapeutic",color:"#00e676"}]
+      .forEach((item, i) => {
+        legendG.append("rect").attr("x",0).attr("y",i*14).attr("width",10).attr("height",4).attr("fill",item.color).attr("rx",1);
+        legendG.append("text").attr("x",14).attr("y",i*14+5).attr("fill","#6c7e9e").attr("font-size","8px").text(item.label);
+      });
+
+    // Build SG legend above chart
+    const legEl = document.getElementById("pk-sg-legend");
+    legEl.innerHTML = "";
+    sgKeys.forEach(sg => {
+      const pill = document.createElement("div");
+      pill.className = "sg-pill active";
+      pill.innerHTML = `<div class="dot" style="background:${SG_COLORS[sg]||"#aaa"}"></div>${SG_LABELS[sg]||sg}`;
+      legEl.appendChild(pill);
+    });
+  }
+
+  // ─── Cmax Histogram ───────────────────────────────────────────────────────
+  function renderCmaxHist(d) {
+    const el = document.getElementById("chart-cmax");
+    el.innerHTML = "";
+    const W = Math.max(el.parentElement.getBoundingClientRect().width - 28, 280);
+    const H = 300;
+    const M = { top: 14, right: 14, bottom: 38, left: 46 };
+    const w = W - M.left - M.right;
+    const h = H - M.top - M.bottom;
+
+    const svg = d3.select(el).attr("width", W).attr("height", H);
+    const g   = svg.append("g").attr("transform", `translate(${M.left},${M.top})`);
+
+    const vals = d.cmax_distribution || [];
+    const xScale = d3.scaleLinear().domain([0, d3.max(vals) * 1.05]).nice().range([0, w]);
+    const binner = (d3.bin || d3.histogram)();
+    const bins   = binner.domain(xScale.domain()).thresholds(xScale.ticks(20))(vals);
+    const yScale = d3.scaleLinear().domain([0, d3.max(bins, b => b.length)]).nice().range([h, 0]);
+
+    const [twLo, twHi] = d.therapeutic_window;
+    // TW band
+    g.append("rect")
+      .attr("x", xScale(twLo)).attr("y", 0)
+      .attr("width", Math.max(0, xScale(twHi) - xScale(twLo))).attr("height", h)
+      .attr("fill", "rgba(0,230,118,0.06)");
+
+    g.selectAll(".bar").data(bins).join("rect")
+      .attr("class","bar")
+      .attr("x", b => xScale(b.x0) + 1)
+      .attr("y", b => yScale(b.length))
+      .attr("width", b => Math.max(0, xScale(b.x1) - xScale(b.x0) - 2))
+      .attr("height", b => h - yScale(b.length))
+      .attr("fill", b => {
+        const mid = (b.x0 + b.x1) / 2;
+        return mid < twLo ? "#ef5350" : mid <= twHi ? "#00e676" : "#ffab40";
+      })
+      .attr("opacity", 0.8);
+
+    // Median line
+    const med = d.cmax_p50;
+    if (med) {
+      g.append("line").attr("x1",xScale(med)).attr("x2",xScale(med)).attr("y1",0).attr("y2",h)
+        .attr("stroke","#00bcd4").attr("stroke-width",1.5).attr("stroke-dasharray","4,3");
+      g.append("text").attr("x",xScale(med)+3).attr("y",12).attr("fill","#00bcd4").attr("font-size","9px").text(`P50: ${med.toFixed(2)}`);
+    }
+
+    g.append("g").attr("transform",`translate(0,${h})`)
+      .call(d3.axisBottom(xScale).ticks(6))
+      .call(g => { g.select(".domain").remove(); g.selectAll("text").attr("fill","#6c7e9e").attr("font-size","9px"); });
+    g.append("g").call(d3.axisLeft(yScale).ticks(5))
+      .call(g => { g.select(".domain").remove(); g.selectAll("text").attr("fill","#6c7e9e").attr("font-size","9px"); });
+    g.append("text").attr("transform",`translate(${w/2},${h+30})`).attr("text-anchor","middle").attr("fill","#6c7e9e").attr("font-size","9px").text("Cmax (mg/L)");
+    g.append("text").attr("transform","rotate(-90)").attr("x",-h/2).attr("y",-34).attr("text-anchor","middle").attr("fill","#6c7e9e").attr("font-size","9px").text("Count");
+  }
+
+  // ─── Subgroup bar chart ────────────────────────────────────────────────────
+  function renderSubgroupChart(d) {
+    const el = document.getElementById("chart-subgroup");
+    el.innerHTML = "";
+    const sgs = Object.entries(d.subgroup_summary || {});
+    if (!sgs.length) return;
+
+    const W = Math.max(el.parentElement.getBoundingClientRect().width - 28, 280);
+    const H = 260;
+    const M = { top: 10, right: 14, bottom: 60, left: 50 };
+    const w = W - M.left - M.right;
+    const h = H - M.top - M.bottom;
+
+    const svg = d3.select(el).attr("width", W).attr("height", H);
+    const g   = svg.append("g").attr("transform", `translate(${M.left},${M.top})`);
+
+    const labels  = sgs.map(([k]) => SG_LABELS[k] || k);
+    const respArr = sgs.map(([,v]) => v.response_rate * 100);
+    const advArr  = sgs.map(([,v]) => v.adverse_rate  * 100);
+
+    const xScale = d3.scaleBand().domain(labels).range([0, w]).padding(0.3);
+    const yScale = d3.scaleLinear().domain([0, 100]).range([h, 0]);
+
+    // Response bars
+    g.selectAll(".bar-resp").data(sgs).join("rect")
+      .attr("class","bar-resp")
+      .attr("x", (_, i) => xScale(labels[i]))
+      .attr("y", (_, i) => yScale(respArr[i]))
+      .attr("width", xScale.bandwidth() / 2 - 2)
+      .attr("height", (_, i) => h - yScale(respArr[i]))
+      .attr("fill", ([k]) => SG_COLORS[k] || "#00bcd4")
+      .attr("opacity", 0.85)
+      .attr("rx", 3);
+
+    // Adverse bars
+    g.selectAll(".bar-adv").data(sgs).join("rect")
+      .attr("class","bar-adv")
+      .attr("x", (_, i) => xScale(labels[i]) + xScale.bandwidth() / 2 + 1)
+      .attr("y", (_, i) => yScale(advArr[i]))
+      .attr("width", xScale.bandwidth() / 2 - 2)
+      .attr("height", (_, i) => h - yScale(advArr[i]))
+      .attr("fill", "#ef5350")
+      .attr("opacity", 0.7)
+      .attr("rx", 3);
+
+    // Axes
+    g.append("g").attr("transform",`translate(0,${h})`)
+      .call(d3.axisBottom(xScale))
+      .call(g => {
+        g.select(".domain").remove();
+        g.selectAll("text").attr("fill","#6c7e9e").attr("font-size","8.5px")
+          .attr("text-anchor","end").attr("transform","rotate(-30)").attr("dx","-4px").attr("dy","2px");
+      });
+    g.append("g").call(d3.axisLeft(yScale).ticks(5).tickFormat(v => v + "%"))
+      .call(g => { g.select(".domain").remove(); g.selectAll("text").attr("fill","#6c7e9e").attr("font-size","9px"); });
+
+    // Legend
+    const lG = g.append("g").attr("transform",`translate(${w-110},0)`);
+    lG.append("rect").attr("width",8).attr("height",8).attr("fill","#00bcd4").attr("rx",1);
+    lG.append("text").attr("x",12).attr("y",7).attr("fill","#6c7e9e").attr("font-size","8px").text("Response rate");
+    lG.append("rect").attr("width",8).attr("height",8).attr("y",14).attr("fill","#ef5350").attr("rx",1);
+    lG.append("text").attr("x",12).attr("y",21).attr("fill","#6c7e9e").attr("font-size","8px").text("Adverse rate");
+  }
+
+  // ─── Demographics chart ───────────────────────────────────────────────────
+  function renderDemogChart(d) {
+    const el = document.getElementById("chart-demog");
+    el.innerHTML = "";
+    const W = Math.max(el.parentElement.getBoundingClientRect().width - 28, 260);
+    const H = 260;
+    const M = { top: 20, right: 14, bottom: 38, left: 46 };
+    const w = W - M.left - M.right;
+    const h = H - M.top - M.bottom;
+
+    const svg = d3.select(el).attr("width", W).attr("height", H);
+    const g   = svg.append("g").attr("transform", `translate(${M.left},${M.top})`);
+
+    // Age distribution grouped bar
+    const ageBins = d.age_distribution || {};
+    const labels  = Object.keys(ageBins);
+    const mCounts = labels.map(k => {
+      const matching = (d.patient_demographics || []).filter(p => {
+        const a = p.age;
+        if (k === "0-17")  return a <  18;
+        if (k === "18-39") return a >= 18 && a < 40;
+        if (k === "40-59") return a >= 40 && a < 60;
+        if (k === "60-74") return a >= 60 && a < 75;
+        return a >= 75;
+      });
+      return {
+        total: matching.length,
+        M: matching.filter(p => p.sex === "M").length,
+        F: matching.filter(p => p.sex === "F").length,
+      };
+    });
+
+    const xScale = d3.scaleBand().domain(labels).range([0, w]).padding(0.3);
+    const yMax   = d3.max(mCounts, c => c.total) || 1;
+    const yScale = d3.scaleLinear().domain([0, yMax]).nice().range([h, 0]);
+
+    mCounts.forEach((c, i) => {
+      const x = xScale(labels[i]);
+      const bw = xScale.bandwidth() / 2 - 1;
+      g.append("rect").attr("x", x).attr("y", yScale(c.M)).attr("width", bw).attr("height", h - yScale(c.M))
+        .attr("fill","#00bcd4").attr("opacity",0.8).attr("rx",2);
+      g.append("rect").attr("x", x + bw + 2).attr("y", yScale(c.F)).attr("width", bw).attr("height", h - yScale(c.F))
+        .attr("fill","#f48fb1").attr("opacity",0.8).attr("rx",2);
+    });
+
+    g.append("g").attr("transform",`translate(0,${h})`)
+      .call(d3.axisBottom(xScale))
+      .call(g => { g.select(".domain").remove(); g.selectAll("text").attr("fill","#6c7e9e").attr("font-size","9px"); });
+    g.append("g").call(d3.axisLeft(yScale).ticks(5))
+      .call(g => { g.select(".domain").remove(); g.selectAll("text").attr("fill","#6c7e9e").attr("font-size","9px"); });
+
+    // Legend
+    const lG = g.append("g").attr("transform",`translate(${w-60},0)`);
+    lG.append("rect").attr("width",8).attr("height",8).attr("fill","#00bcd4").attr("rx",1);
+    lG.append("text").attr("x",12).attr("y",7).attr("fill","#6c7e9e").attr("font-size","8px").text("Male");
+    lG.append("rect").attr("width",8).attr("height",8).attr("y",14).attr("fill","#f48fb1").attr("rx",1);
+    lG.append("text").attr("x",12).attr("y",21).attr("fill","#6c7e9e").attr("font-size","8px").text("Female");
+
+    g.append("text").attr("transform",`translate(${w/2},${h+30})`).attr("text-anchor","middle")
+      .attr("fill","#6c7e9e").attr("font-size","9px").text("Age Band");
+  }
+
+  // ─── Subgroup table ────────────────────────────────────────────────────────
+  function renderSGTable(d) {
+    const tbody = document.getElementById("sg-tbody");
+    tbody.innerHTML = "";
+    Object.entries(d.subgroup_summary || {}).forEach(([sg, v]) => {
+      const tr = document.createElement("tr");
+      const respPct = Math.round(v.response_rate * 100);
+      const advPct  = Math.round(v.adverse_rate  * 100);
+      tr.innerHTML = `
+        <td><span class="sg-dot" style="background:${SG_COLORS[sg]||'#aaa'}"></span>${SG_LABELS[sg]||sg}</td>
+        <td style="color:var(--text)">${v.n}</td>
+        <td style="color:var(--text)">${v.cmax_median.toFixed(3)}</td>
+        <td style="color:var(--text)">${v.auc_median.toFixed(1)}</td>
+        <td>
+          <span style="color:${respPct > 60 ? 'var(--success)' : respPct > 35 ? 'var(--warn)' : 'var(--danger)'}">${respPct}%</span>
+          <span class="rate-bar" style="width:${respPct}px;background:${respPct > 60 ? 'var(--success)' : respPct > 35 ? 'var(--warn)' : 'var(--danger)'};opacity:0.4"></span>
+        </td>
+        <td>
+          <span style="color:${advPct < 5 ? 'var(--success)' : advPct < 15 ? 'var(--warn)' : 'var(--danger)'}">${advPct}%</span>
+          <span class="rate-bar" style="width:${advPct}px;background:var(--danger);opacity:0.4"></span>
+        </td>
+      `;
+      tbody.appendChild(tr);
+    });
+  }
+
+  // ─── Patient table ─────────────────────────────────────────────────────────
+  function renderPatientTable(d) {
+    const tbody = document.getElementById("pt-tbody");
+    tbody.innerHTML = "";
+    (d.patient_demographics || []).slice(0, 200).forEach(p => {
+      const status = p.in_window ? "Therapeutic" : p.adverse ? "Adverse" : "Sub-therapeutic";
+      const tagCls  = p.in_window ? "tag-ok" : p.adverse ? "tag-bad" : "tag-warn";
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td style="color:var(--muted)">${p.patient}</td>
+        <td><span class="sg-dot" style="background:${SG_COLORS[p.subgroup]||'#aaa'};width:7px;height:7px"></span>${SG_LABELS[p.subgroup]||p.subgroup}</td>
+        <td>${p.age}</td>
+        <td>${p.sex}</td>
+        <td>${p.weight_kg}</td>
+        <td>${p.kidney_function.toFixed(2)}</td>
+        <td>${p.liver_function.toFixed(2)}</td>
+        <td>${p["Cmax (mg/L)"].toFixed(3)}</td>
+        <td>${p["AUC (mg·h/L)"].toFixed(1)}</td>
+        <td><span class="tag ${tagCls}">${status}</span></td>
+      `;
+      tbody.appendChild(tr);
+    });
+  }
+
+  // ─── Summary card ──────────────────────────────────────────────────────────
+  function renderSummary(d, displayN, scale) {
+    const grid = document.getElementById("summary-grid");
+    grid.innerHTML = "";
+
+    const tw = d.therapeutic_window;
+    const respPct = Math.round(d.frac_within_window * 100);
+    const advPct  = Math.round(d.overall_adverse_rate * 100);
+    const subPct  = 100 - respPct - advPct;
+
+    const items = [
+      {
+        cls: "note-info",
+        label: "Drug & Disease",
+        val: `${d.drug}`,
+        sub: `vs ${d.disease} · dose ${S.dose} mg`,
+      },
+      {
+        cls: "note-info",
+        label: "Population Setting",
+        val: d.setting.replace("_"," ").replace(/\b\w/g, c => c.toUpperCase()),
+        sub: `Density: ${(DENSITY_MAP[d.setting]||0).toLocaleString()} persons/km²`,
+      },
+      {
+        cls: respPct >= 60 ? "note-ok" : respPct >= 40 ? "note-warn" : "note-alert",
+        label: "Therapeutic Response",
+        val: respPct + "%",
+        sub: `${Math.round(respPct/100 * displayN).toLocaleString()} of ${displayN.toLocaleString()} patients in window`,
+      },
+      {
+        cls: advPct <= 5 ? "note-ok" : advPct <= 15 ? "note-warn" : "note-alert",
+        label: "Adverse Exposure",
+        val: advPct + "%",
+        sub: `C${String.fromCodePoint(0x2099)}${String.fromCodePoint(0x2090)}${String.fromCodePoint(0x2093)} > ${(tw[1]*1.5).toFixed(1)} mg/L`,
+      },
+      {
+        cls: "note-info",
+        label: "Therapeutic Window",
+        val: `${tw[0]}–${tw[1]} mg/L`,
+        sub: `Median Cmax: ${d.cmax_p50?.toFixed(2)} mg/L`,
+      },
+      {
+        cls: "note-info",
+        label: "Median Exposure (AUC)",
+        val: d.auc_p50?.toFixed(0) + " mg·h/L",
+        sub: `Duration: ${S.duration}h simulation`,
+      },
+    ];
+
+    // Find most vulnerable subgroup
+    let worstSG = null, worstResp = 1.0;
+    Object.entries(d.subgroup_summary || {}).forEach(([sg, v]) => {
+      if (v.response_rate < worstResp) { worstResp = v.response_rate; worstSG = sg; }
+    });
+    if (worstSG) {
+      const v = d.subgroup_summary[worstSG];
+      items.push({
+        cls: v.response_rate < 0.4 ? "note-alert" : "note-warn",
+        label: "Most Vulnerable Subgroup",
+        val: SG_LABELS[worstSG] || worstSG,
+        sub: `Only ${Math.round(v.response_rate*100)}% therapeutic response — consider dose adjustment`,
+      });
+    }
+
+    // Best subgroup
+    let bestSG = null, bestResp = 0;
+    Object.entries(d.subgroup_summary || {}).forEach(([sg, v]) => {
+      if (v.response_rate > bestResp) { bestResp = v.response_rate; bestSG = sg; }
+    });
+    if (bestSG) {
+      items.push({
+        cls: "note-ok",
+        label: "Best Responding Subgroup",
+        val: SG_LABELS[bestSG] || bestSG,
+        sub: `${Math.round(bestResp*100)}% in therapeutic window`,
+      });
+    }
+
+    items.forEach(item => {
+      const div = document.createElement("div");
+      div.className = `summary-item ${item.cls}`;
+      div.innerHTML = `<div class="si-label">${item.label}</div><div class="si-val">${item.val}</div><div class="si-sub">${item.sub}</div>`;
+      grid.appendChild(div);
+    });
+  }
+
+  init();
+
+  // Redraw charts on resize
+  let _resizeTimer;
+  window.addEventListener("resize", () => {
+    clearTimeout(_resizeTimer);
+    _resizeTimer = setTimeout(() => {
+      if (S.lastResult && document.getElementById("results-wrap").style.display !== "none") {
+        void document.getElementById("results-wrap").offsetWidth; // force reflow
+        renderPKChart(S.lastResult);
+        renderCmaxHist(S.lastResult);
+        renderSubgroupChart(S.lastResult);
+        renderDemogChart(S.lastResult);
+      }
+    }, 150);
+  });
+})();
+</script>
+</body>
+</html>

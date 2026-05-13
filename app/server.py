@@ -1281,13 +1281,15 @@ class PopulationRequest(BaseModel):
     sex: int = 1
     kidney_function: float = 0.8
     liver_function: float = 0.9
-    n_patients: int = 50
+    n_patients: int = 100
     duration_hours: float = 72.0
+    setting: str = "urban"          # urban / suburban / rural / hospital / school / nursing_home
+    cyp_phenotype: str = "normal"
 
 
 @app.post("/api/population")
 async def population_analysis(req: PopulationRequest):
-    """Run a population cohort simulation and return percentile plasma envelopes."""
+    """Run a population cohort simulation and return percentile envelopes + subgroup breakdown."""
     from fastapi import HTTPException
     if _engine is None:
         raise HTTPException(status_code=503, detail="Mechanistic engine not available")
@@ -1307,23 +1309,48 @@ async def population_analysis(req: PopulationRequest):
     step = 1.0 if req.duration_hours <= 96 else 2.0
     time_arr = np.arange(0, req.duration_hours + step / 2, step)
     runner = PopulationCohortRunner()
-    cohort = runner.run(_engine, dp, bio, [disease_obj], n=req.n_patients, time_points=time_arr)
+    cohort = runner.run(_engine, dp, bio, [disease_obj],
+                        n=req.n_patients, time_points=time_arr,
+                        setting=req.setting)
     tw = cohort.therapeutic_window
+
+    # Build age-band histogram from demographics
+    age_bins = {"0-17": 0, "18-39": 0, "40-59": 0, "60-74": 0, "75+": 0}
+    sex_counts = {"M": 0, "F": 0}
+    for d in cohort.patient_demographics:
+        a = d["age"]
+        if a < 18:   age_bins["0-17"]  += 1
+        elif a < 40: age_bins["18-39"] += 1
+        elif a < 60: age_bins["40-59"] += 1
+        elif a < 75: age_bins["60-74"] += 1
+        else:        age_bins["75+"]   += 1
+        sex_counts[d["sex"]] = sex_counts.get(d["sex"], 0) + 1
+
     return {
-        "time_points": [round(float(t), 2) for t in cohort.time],
-        "p05":  [round(float(v), 4) for v in cohort.plasma_p05],
-        "p25":  [round(float(v), 4) for v in cohort.plasma_p25],
-        "p50":  [round(float(v), 4) for v in cohort.plasma_p50],
-        "p75":  [round(float(v), 4) for v in cohort.plasma_p75],
-        "p95":  [round(float(v), 4) for v in cohort.plasma_p95],
-        "therapeutic_window": [float(tw[0]), float(tw[1])],
-        "frac_within_window": round(float(cohort.frac_within_window), 4),
-        "n_patients": cohort.n_patients,
-        "n_succeeded": cohort.n_succeeded,
-        "drug": req.drug,
-        "disease": req.disease,
-        "cmax_p50": round(float(np.median(cohort.cmax_distribution)), 4),
-        "auc_p50":  round(float(np.median(cohort.auc_distribution)), 4),
+        "time_points":           [round(float(t), 2) for t in cohort.time],
+        "p05":                   [round(float(v), 4) for v in cohort.plasma_p05],
+        "p25":                   [round(float(v), 4) for v in cohort.plasma_p25],
+        "p50":                   [round(float(v), 4) for v in cohort.plasma_p50],
+        "p75":                   [round(float(v), 4) for v in cohort.plasma_p75],
+        "p95":                   [round(float(v), 4) for v in cohort.plasma_p95],
+        "therapeutic_window":    [float(tw[0]), float(tw[1])],
+        "frac_within_window":    round(float(cohort.frac_within_window), 4),
+        "overall_response_rate": round(float(cohort.overall_response_rate), 4),
+        "overall_adverse_rate":  round(float(cohort.overall_adverse_rate), 4),
+        "n_patients":            cohort.n_patients,
+        "n_succeeded":           cohort.n_succeeded,
+        "drug":                  req.drug,
+        "disease":               req.disease,
+        "setting":               cohort.setting,
+        "density_km2":           cohort.density_km2,
+        "cmax_p50":              round(float(np.median(cohort.cmax_distribution)), 4),
+        "auc_p50":               round(float(np.median(cohort.auc_distribution)), 4),
+        "cmax_distribution":     [round(float(v), 4) for v in cohort.cmax_distribution],
+        "auc_distribution":      [round(float(v), 2) for v in cohort.auc_distribution],
+        "subgroup_summary":      cohort.subgroup_summary,
+        "patient_demographics":  cohort.patient_demographics[:200],  # cap to avoid huge payload
+        "age_distribution":      age_bins,
+        "sex_distribution":      sex_counts,
     }
 
 
@@ -1374,6 +1401,11 @@ async def page_pathogen_organs(request: Request):
 @app.get("/benchmarks", response_class=HTMLResponse)
 async def page_benchmarks(request: Request):
     return _serve_template("benchmarks.html", request)
+
+
+@app.get("/population", response_class=HTMLResponse)
+async def page_population(request: Request):
+    return _serve_template("population.html", request)
 
 
 # ═══════════════════════════════════════════════════════════════════

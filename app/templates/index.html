@@ -2,544 +2,830 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>PK-PD Biological System Simulator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+  <title>PK-PD Biological System Simulator | Professional Dashboard</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
-  <link rel="stylesheet" href="/static/css/dashboard.css"/>
-  <link rel="stylesheet" href="/static/css/nav.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="/static/css/nav.css?v=3"/>
+  <style>
+    /* ----- RESET & BASE ----- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #0b0e1a;
+      color: #eef2ff;
+      overflow-x: hidden;
+    }
+
+    /* ----- CSS VARIABLES (Professional Medical Theme) ----- */
+    :root {
+      --bg-primary: #0a0d18;
+      --bg-secondary: #0f1322;
+      --card-bg: rgba(18, 24, 38, 0.85);
+      --card-bg-solid: #121826;
+      --border-subtle: rgba(66, 99, 148, 0.25);
+      --border-glow: rgba(0, 188, 212, 0.4);
+      --accent-primary: #00bcd4;
+      --accent-primary-dark: #0097a7;
+      --accent-secondary: #2b6f9b;
+      --text-primary: #f0f4fa;
+      --text-secondary: #9aaec5;
+      --text-muted: #6c7e9e;
+      --success: #00e676;
+      --warning: #ffab40;
+      --danger: #ef5350;
+      --critical: #ef1a1a;
+      --fatal: #6b0000;
+      --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.3);
+      --shadow-md: 0 8px 20px rgba(0, 0, 0, 0.4);
+      --transition: all 0.2s ease;
+    }
+
+    /* ----- LAYOUT ----- */
+    .app-wrapper {
+      display: flex;
+      margin-top: 52px;
+      min-height: 100vh;
+    }
+
+    /* SIDEBAR (left) */
+    .sidebar {
+      width: 300px;
+      background: rgba(10, 13, 24, 0.96);
+      backdrop-filter: blur(6px);
+      border-right: 1px solid var(--border-subtle);
+      display: flex;
+      flex-direction: column;
+      position: sticky;
+      top: 52px;
+      height: calc(100vh - 52px);
+      overflow-y: auto;
+      z-index: 20;
+      transition: var(--transition);
+    }
+
+    .sidebar-logo {
+      padding: 24px 20px 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border-bottom: 1px solid var(--border-subtle);
+      margin-bottom: 16px;
+    }
+
+    .sidebar-logo svg {
+      flex-shrink: 0;
+    }
+
+    .sidebar-title {
+      font-weight: 700;
+      font-size: 1.35rem;
+      letter-spacing: -0.3px;
+      line-height: 1.3;
+    }
+
+    .sidebar-title small {
+      font-size: 0.7rem;
+      font-weight: 400;
+      color: var(--text-secondary);
+    }
+
+    .mode-switcher {
+      display: flex;
+      gap: 6px;
+      padding: 12px 20px;
+      background: rgba(0, 0, 0, 0.2);
+      margin: 0 12px 16px;
+      border-radius: 48px;
+    }
+
+    .mode-btn {
+      flex: 1;
+      background: transparent;
+      border: none;
+      color: var(--text-secondary);
+      font-weight: 500;
+      font-size: 0.75rem;
+      padding: 6px 0;
+      border-radius: 32px;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .mode-btn.active {
+      background: var(--accent-primary);
+      color: #0a0d18;
+      box-shadow: 0 0 8px rgba(0, 188, 212, 0.5);
+    }
+
+    .sidebar-section {
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 600;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--accent-primary);
+      margin-bottom: 16px;
+    }
+
+    .section-icon {
+      width: 18px;
+      height: 18px;
+    }
+
+    .control-row {
+      margin-bottom: 16px;
+    }
+
+    .control-row label {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.75rem;
+      font-weight: 500;
+      margin-bottom: 6px;
+      color: var(--text-secondary);
+    }
+
+    .val-badge {
+      background: rgba(0, 188, 212, 0.15);
+      padding: 2px 8px;
+      border-radius: 20px;
+      font-family: monospace;
+      font-size: 0.7rem;
+      color: var(--accent-primary);
+    }
+
+    .slider {
+      width: 100%;
+      height: 4px;
+      -webkit-appearance: none;
+      background: #23304c;
+      border-radius: 4px;
+      outline: none;
+    }
+
+    .slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 14px;
+      height: 14px;
+      background: var(--accent-primary);
+      border-radius: 50%;
+      cursor: pointer;
+      box-shadow: 0 0 4px var(--accent-primary);
+    }
+
+    .toggle-group {
+      display: flex;
+      gap: 8px;
+    }
+
+    .toggle-btn {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-subtle);
+      padding: 4px 12px;
+      border-radius: 24px;
+      font-size: 0.7rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: var(--transition);
+      color: var(--text-secondary);
+    }
+
+    .toggle-btn.active {
+      background: var(--accent-primary);
+      border-color: var(--accent-primary);
+      color: #0a0d18;
+    }
+
+    .select-input {
+      width: 100%;
+      background: #1a1f2e;
+      border: 1px solid var(--border-subtle);
+      padding: 8px 10px;
+      border-radius: 8px;
+      color: var(--text-primary);
+      font-size: 0.8rem;
+    }
+
+    .num-input {
+      background: #1a1f2e;
+      border: 1px solid var(--border-subtle);
+      padding: 8px 10px;
+      border-radius: 8px;
+      color: var(--text-primary);
+      width: 100%;
+    }
+
+    .drug-info {
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      margin-top: 6px;
+    }
+
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 36px;
+      height: 20px;
+    }
+
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .switch-knob {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #2a3448;
+      border-radius: 20px;
+      transition: 0.2s;
+    }
+
+    .switch-knob:before {
+      position: absolute;
+      content: "";
+      height: 16px;
+      width: 16px;
+      left: 2px;
+      bottom: 2px;
+      background-color: white;
+      border-radius: 50%;
+      transition: 0.2s;
+    }
+
+    input:checked + .switch-knob {
+      background-color: var(--accent-primary);
+    }
+
+    input:checked + .switch-knob:before {
+      transform: translateX(16px);
+    }
+
+    .duration-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    .dur-btn {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-subtle);
+      padding: 5px 12px;
+      border-radius: 24px;
+      font-size: 0.7rem;
+      font-weight: 500;
+      cursor: pointer;
+      color: var(--text-secondary);
+    }
+
+    .dur-btn.active {
+      background: var(--accent-primary);
+      color: #0a0d18;
+      border-color: var(--accent-primary);
+    }
+
+    .sidebar-run {
+      padding: 20px;
+      margin-top: auto;
+      border-top: 1px solid var(--border-subtle);
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .run-btn {
+      flex: 2;
+      background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+      border: none;
+      padding: 10px;
+      border-radius: 40px;
+      font-weight: 700;
+      font-size: 0.8rem;
+      color: #0a0d18;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      transition: 0.2s;
+    }
+
+    .live-toggle {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.7rem;
+      background: rgba(0, 0, 0, 0.3);
+      padding: 4px 10px;
+      border-radius: 32px;
+      cursor: pointer;
+    }
+
+    /* MAIN CONTENT */
+    .main-content {
+      flex: 1;
+      background: var(--bg-primary);
+      overflow-x: hidden;
+      padding: 0 24px 32px 24px;
+    }
+
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 0 16px;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .page-title {
+      font-size: 1.7rem;
+      font-weight: 600;
+      letter-spacing: -0.5px;
+      background: linear-gradient(135deg, #fff, var(--accent-primary));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .subtitle {
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+      margin-left: 8px;
+    }
+
+    .status-pill {
+      background: #121826;
+      padding: 6px 14px;
+      border-radius: 40px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.75rem;
+      border: 1px solid var(--border-subtle);
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #7b8fb5;
+    }
+
+    .status-dot.idle {
+      background: #ffab40;
+      box-shadow: 0 0 4px #ffab40;
+    }
+
+    /* Cards */
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      margin-bottom: 24px;
+    }
+
+    .card {
+      background: var(--card-bg-solid);
+      backdrop-filter: blur(2px);
+      border: 1px solid var(--border-subtle);
+      border-radius: 20px;
+      overflow: hidden;
+      transition: var(--transition);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .card-header {
+      padding: 14px 20px;
+      border-bottom: 1px solid var(--border-subtle);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .card-title {
+      font-weight: 600;
+      font-size: 1rem;
+    }
+
+    .card-hint {
+      font-size: 0.7rem;
+      color: var(--text-muted);
+    }
+
+    .organ-body-card {
+      flex: 2;
+      min-width: 400px;
+    }
+
+    .kpi-col {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    }
+
+    .kpi-card {
+      background: #10141f;
+      border-radius: 18px;
+      padding: 16px;
+      text-align: center;
+      border: 1px solid var(--border-subtle);
+    }
+
+    .kpi-val {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--accent-primary);
+      line-height: 1.2;
+    }
+
+    .kpi-label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-top: 6px;
+    }
+
+    .health-ring-card {
+      padding: 12px;
+      text-align: center;
+    }
+
+    .health-ring-wrap {
+      position: relative;
+      display: inline-block;
+      margin: 8px auto;
+    }
+
+    .health-ring-label {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      font-weight: bold;
+    }
+
+    #health-pct {
+      font-size: 1.8rem;
+      font-weight: 800;
+    }
+
+    .pk-card, .radar-card {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    .timeline-card, .alerts-card {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    #pk-chart-container, #radar-chart-container, #timeline-container {
+      height: 280px;
+      padding: 8px;
+    }
+
+    .organ-health-legend {
+      padding: 10px 16px;
+      font-size: 0.65rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      background: rgba(0, 0, 0, 0.2);
+      border-top: 1px solid var(--border-subtle);
+    }
+
+    .legend-swatch {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      border-radius: 2px;
+      margin-right: 4px;
+      vertical-align: middle;
+    }
+
+    /* long-term & population panels */
+    .lt-kpi-row {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .lt-kpi-card {
+      background: #10141f;
+      border-radius: 20px;
+      padding: 16px;
+      flex: 1;
+      text-align: center;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.7rem;
+      color: #4a5b7c;
+      border-top: 1px solid var(--border-subtle);
+      padding-top: 24px;
+    }
+
+    /* cell drawer (unchanged, but improved overlay) */
+    .cell-drawer {
+      position: fixed;
+      right: -420px;
+      top: 0;
+      width: 420px;
+      height: 100%;
+      background: #0f1322;
+      border-left: 1px solid var(--border-subtle);
+      transition: right 0.3s ease;
+      z-index: 1000;
+      overflow-y: auto;
+    }
+
+    .cell-drawer.open {
+      right: 0;
+    }
+
+    .drawer-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.6);
+      backdrop-filter: blur(3px);
+      z-index: 999;
+      display: none;
+    }
+
+    /* loading overlay */
+    .loading-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.8);
+      backdrop-filter: blur(8px);
+      z-index: 2000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 16px;
+      visibility: hidden;
+      opacity: 0;
+      transition: 0.2s;
+    }
+
+    .loading-overlay.active {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .spinner {
+      width: 50px;
+      height: 50px;
+      border: 4px solid rgba(0,188,212,0.2);
+      border-top-color: var(--accent-primary);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    /* responsiveness */
+    @media (max-width: 1000px) {
+      .sidebar { width: 260px; }
+      .main-content { padding: 0 16px 24px; }
+      .organ-body-card { min-width: 300px; }
+    }
+    @media (max-width: 780px) {
+      .app-wrapper { flex-direction: column; }
+      .sidebar { width: 100%; height: auto; position: relative; }
+    }
+  </style>
 </head>
 <body>
-
-<nav class="top-nav">
+<!-- ═══════════════ TOP NAVIGATION BAR ═══════════════ -->
+<nav class="top-nav" id="top-nav">
   <div class="nav-brand">
     <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
       <circle cx="16" cy="16" r="15" stroke="#00bcd4" stroke-width="1.5"/>
       <path d="M8 16 Q12 8 16 16 Q20 24 24 16" stroke="#00bcd4" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <circle cx="16" cy="16" r="3" fill="#00bcd4" opacity="0.8"/>
     </svg>
     <span class="nav-brand-text">PK-PD <small>BioSim</small></span>
   </div>
   <ul class="nav-links">
-    <li><a class="nav-link active" href="/">Dashboard</a></li>
-    <li><a class="nav-link" href="/viral-sim">Viral Sim</a></li>
-    <li><a class="nav-link" href="/effectiveness">Effectiveness</a></li>
-    <li><a class="nav-link" href="/side-effects">Side Effects</a></li>
-    <li><a class="nav-link" href="/pathogen-organs">Pathogen–Organs</a></li>
-    <li><a class="nav-link" href="/benchmarks">Benchmarks</a></li>
-    <li><a class="nav-link" href="/analytics">Analytics</a></li>
+    <li><a class="nav-link active" href="/" title="Main simulation dashboard">
+      <svg class="nav-icon" viewBox="0 0 20 20"><rect x="2" y="2" width="7" height="7" rx="1.5" fill="currentColor" opacity=".9"/><rect x="11" y="2" width="7" height="7" rx="1.5" fill="currentColor" opacity=".6"/><rect x="2" y="11" width="7" height="7" rx="1.5" fill="currentColor" opacity=".6"/><rect x="11" y="11" width="7" height="7" rx="1.5" fill="currentColor" opacity=".6"/></svg>
+      Dashboard
+    </a></li>
+    <li><a class="nav-link" href="/viral-sim" title="Objective 1 — Viral pathogen simulation">
+      <svg class="nav-icon" viewBox="0 0 20 20"><circle cx="10" cy="10" r="3" fill="currentColor"/><circle cx="10" cy="3" r="1.5" fill="currentColor" opacity=".8"/><circle cx="10" cy="17" r="1.5" fill="currentColor" opacity=".8"/><circle cx="3" cy="10" r="1.5" fill="currentColor" opacity=".8"/><circle cx="17" cy="10" r="1.5" fill="currentColor" opacity=".8"/><circle cx="5.1" cy="5.1" r="1.5" fill="currentColor" opacity=".6"/><circle cx="14.9" cy="14.9" r="1.5" fill="currentColor" opacity=".6"/><circle cx="14.9" cy="5.1" r="1.5" fill="currentColor" opacity=".6"/><circle cx="5.1" cy="14.9" r="1.5" fill="currentColor" opacity=".6"/></svg>
+      Viral Sim
+    </a></li>
+    <li><a class="nav-link" href="/effectiveness" title="Objective 2 — Pharmaceutical effectiveness">
+      <svg class="nav-icon" viewBox="0 0 20 20"><path d="M3 15 L7 9 L11 12 L15 5 L18 8" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="18" cy="8" r="1.5" fill="currentColor"/></svg>
+      Effectiveness
+    </a></li>
+    <li><a class="nav-link" href="/side-effects" title="Objective 3 — Side effect forecasting">
+      <svg class="nav-icon" viewBox="0 0 20 20"><path d="M10 2L2 17h16L10 2z" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linejoin="round"/><line x1="10" y1="8" x2="10" y2="12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="10" cy="14.5" r="1" fill="currentColor"/></svg>
+      Side Effects
+    </a></li>
+    <li><a class="nav-link" href="/pathogen-organs" title="Objective 4 — Pathogen-organ interaction visualization">
+      <svg class="nav-icon" viewBox="0 0 20 20"><circle cx="10" cy="10" r="2.5" stroke="currentColor" stroke-width="1.5" fill="none"/><circle cx="4" cy="4" r="1.8" fill="currentColor" opacity=".7"/><circle cx="16" cy="4" r="1.8" fill="currentColor" opacity=".7"/><circle cx="4" cy="16" r="1.8" fill="currentColor" opacity=".7"/><circle cx="16" cy="16" r="1.8" fill="currentColor" opacity=".7"/><line x1="5.3" y1="5.3" x2="8.2" y2="8.2" stroke="currentColor" stroke-width="1.2"/><line x1="14.7" y1="5.3" x2="11.8" y2="8.2" stroke="currentColor" stroke-width="1.2"/><line x1="5.3" y1="14.7" x2="8.2" y2="11.8" stroke="currentColor" stroke-width="1.2"/><line x1="14.7" y1="14.7" x2="11.8" y2="11.8" stroke="currentColor" stroke-width="1.2"/></svg>
+      Pathogen–Organs
+    </a></li>
+    <li><a class="nav-link" href="/benchmarks" title="Objective 5 — Accuracy vs benchmarks">
+      <svg class="nav-icon" viewBox="0 0 20 20"><rect x="3" y="12" width="3" height="6" rx="1" fill="currentColor" opacity=".7"/><rect x="8.5" y="8" width="3" height="10" rx="1" fill="currentColor" opacity=".85"/><rect x="14" y="4" width="3" height="14" rx="1" fill="currentColor"/><line x1="2" y1="18" x2="18" y2="18" stroke="currentColor" stroke-width="1.2"/></svg>
+      Benchmarks
+    </a></li>
+    <li><a class="nav-link" href="/analytics" title="Statistical analysis and model insights">
+      <svg class="nav-icon" viewBox="0 0 20 20"><path d="M2 10 Q5 4 8 10 Q11 16 14 10 Q17 4 18 8" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="2" cy="10" r="1.5" fill="currentColor"/><circle cx="18" cy="8" r="1.5" fill="currentColor"/></svg>
+      Analytics
+    </a></li>
+    <li><a class="nav-link" href="/population" title="Population cohort drug response simulation">
+      <svg class="nav-icon" viewBox="0 0 20 20"><circle cx="7" cy="6" r="2.5" stroke="currentColor" stroke-width="1.5" fill="none"/><circle cx="13" cy="6" r="2.5" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M1 17c0-3 2.5-5 6-5h6c3.5 0 6 2 6 5" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg>
+      Population
+    </a></li>
   </ul>
+  <div class="nav-status" id="nav-status-dot" title="System status">
+    <span class="status-dot idle" id="nav-status-dot-inner"></span>
+  </div>
 </nav>
 
-<!-- ═══════════════════════════════════════════════ SIDEBAR ══════════════════════════════════════ -->
-<aside class="sidebar" id="sidebar" style="top:52px;height:calc(100vh - 52px)">
-  <div class="sidebar-logo">
-    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-      <circle cx="16" cy="16" r="15" stroke="#00bcd4" stroke-width="1.5"/>
-      <path d="M8 16 Q12 8 16 16 Q20 24 24 16" stroke="#00bcd4" stroke-width="2" fill="none" stroke-linecap="round"/>
-      <circle cx="16" cy="16" r="3" fill="#00bcd4" opacity="0.8"/>
-    </svg>
-    <span class="sidebar-title">PK-PD<br/><small>BioSim</small></span>
-  </div>
-
-  <!-- MODE SWITCHER -->
-  <div class="mode-switcher">
-    <button class="mode-btn active" data-mode="short">Short-Term</button>
-    <button class="mode-btn" data-mode="long">Long-Term</button>
-    <button class="mode-btn" data-mode="pop">Population</button>
-  </div>
-
-  <!-- PATIENT -->
-  <div class="sidebar-section">
-    <div class="section-header">
-      <svg class="section-icon" viewBox="0 0 20 20"><path d="M10 10a4 4 0 100-8 4 4 0 000 8zm0 2c-5 0-8 2-8 4v1h16v-1c0-2-3-4-8-4z" fill="currentColor"/></svg>
-      Patient Profile
+<div class="app-wrapper">
+  <!-- SIDEBAR (identical structure but with improved styling) -->
+  <aside class="sidebar">
+    <div class="sidebar-logo">
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+        <circle cx="16" cy="16" r="15" stroke="#00bcd4" stroke-width="1.5"/>
+        <path d="M8 16 Q12 8 16 16 Q20 24 24 16" stroke="#00bcd4" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <circle cx="16" cy="16" r="3" fill="#00bcd4" opacity="0.8"/>
+      </svg>
+      <span class="sidebar-title">PK-PD<br/><small>BioSim</small></span>
     </div>
-    <div class="control-row">
-      <label>Age <span class="val-badge" id="lbl-age">65</span></label>
-      <input type="range" id="age" min="18" max="100" value="65" class="slider"/>
+    <div class="mode-switcher">
+      <button class="mode-btn active" data-mode="short">Short-Term</button>
+      <button class="mode-btn" data-mode="long">Long-Term</button>
+      <button class="mode-btn" data-mode="pop">Population</button>
     </div>
-    <div class="control-row">
-      <label>Weight (kg) <span class="val-badge" id="lbl-weight">70</span></label>
-      <input type="range" id="weight" min="40" max="160" value="70" class="slider"/>
+    <!-- Patient Profile -->
+    <div class="sidebar-section">
+      <div class="section-header"><svg class="section-icon" viewBox="0 0 20 20"><path d="M10 10a4 4 0 100-8 4 4 0 000 8zm0 2c-5 0-8 2-8 4v1h16v-1c0-2-3-4-8-4z" fill="currentColor"/></svg> Patient Profile</div>
+      <div class="control-row"><label>Age <span class="val-badge" id="lbl-age">65</span></label><input type="range" id="age" min="18" max="100" value="65" class="slider"/></div>
+      <div class="control-row"><label>Weight (kg) <span class="val-badge" id="lbl-weight">70</span></label><input type="range" id="weight" min="40" max="160" value="70" class="slider"/></div>
+      <div class="control-row"><label>Sex</label><div class="toggle-group"><button class="toggle-btn active" data-val="1" id="sex-m">Male</button><button class="toggle-btn" data-val="0" id="sex-f">Female</button></div></div>
+      <div class="control-row"><label>Kidney Fn <span class="val-badge" id="lbl-kidney">80%</span></label><input type="range" id="kidney" min="10" max="100" value="80" class="slider"/></div>
+      <div class="control-row"><label>Liver Fn <span class="val-badge" id="lbl-liver">90%</span></label><input type="range" id="liver" min="10" max="100" value="90" class="slider"/></div>
+      <div class="control-row"><label>Heart Rate <span class="val-badge" id="lbl-hr">72 bpm</span></label><input type="range" id="heart-rate" min="40" max="140" value="72" class="slider"/></div>
     </div>
-    <div class="control-row">
-      <label>Sex</label>
-      <div class="toggle-group">
-        <button class="toggle-btn active" data-val="1" id="sex-m">Male</button>
-        <button class="toggle-btn" data-val="0" id="sex-f">Female</button>
+    <!-- Disease -->
+    <div class="sidebar-section"><div class="section-header"><svg class="section-icon" viewBox="0 0 20 20"><path d="M10 2a8 8 0 100 16A8 8 0 0010 2zm1 11H9v-2h2v2zm0-4H9V5h2v4z" fill="currentColor"/></svg> Disease</div>
+      <div class="control-row"><label>Condition</label><select id="disease" class="select-input"></select></div>
+      <div class="control-row"><label>Severity <span class="val-badge" id="lbl-severity">55%</span></label><input type="range" id="severity" min="1" max="100" value="55" class="slider"/></div>
+      <div id="disease-info-strip" style="display:none;margin-top:8px"></div>
+    </div>
+    <!-- Genetics & Metabolism -->
+    <div class="sidebar-section" id="st-genetics-section">
+      <div class="section-header"><svg class="section-icon" viewBox="0 0 20 20"><path d="M7 2c0 2 2 3 2 5s-2 3-2 5m6-10c0 2-2 3-2 5s2 3 2 5M5 7h10M5 13h10" stroke="currentColor" stroke-width="1.5" fill="none"/></svg> Genetics &amp; Metabolism</div>
+      <div class="control-row"><label>CYP Phenotype</label><select id="cyp-phenotype" class="select-input"><option value="normal">Normal metabolizer</option><option value="poor">Poor metabolizer</option><option value="intermediate">Intermediate metabolizer</option><option value="ultra_rapid">Ultra-rapid metabolizer</option></select></div>
+      <div class="control-row"><label>HLA-B Allele</label><select id="hla-b-allele" class="select-input"><option value="none">None / Unknown</option><option value="HLA-B*5701">HLA-B*5701 (Abacavir risk)</option><option value="HLA-B*5801">HLA-B*5801 (Allopurinol risk)</option><option value="HLA-B*1502">HLA-B*1502 (Carbamazepine risk)</option></select></div>
+      <div class="gene-toggles">
+        <label class="gene-toggle-item"><input type="checkbox" id="dpyd-deficient"><span>DPYD deficiency</span></label>
+        <label class="gene-toggle-item"><input type="checkbox" id="g6pd-deficient"><span>G6PD deficiency</span></label>
+        <label class="gene-toggle-item"><input type="checkbox" id="tpmt-low"><span>Low TPMT activity</span></label>
       </div>
+      <div id="cyp-genomic-hint" class="drug-info" style="display:none;margin-top:8px;padding:6px 8px;background:rgba(0,0,0,0.3);border-radius:6px;border-left:2px solid var(--accent-primary)"></div>
     </div>
-    <div class="control-row">
-      <label>Kidney Fn <span class="val-badge" id="lbl-kidney">80%</span></label>
-      <input type="range" id="kidney" min="10" max="100" value="80" class="slider kidney-slider"/>
+    <!-- Primary Drug -->
+    <div class="sidebar-section"><div class="section-header"><svg class="section-icon" viewBox="0 0 20 20"><rect x="2" y="9" width="16" height="2" rx="1" fill="currentColor"/><rect x="9" y="2" width="2" height="16" rx="1" fill="currentColor"/></svg> Indicated Medications</div>
+      <div id="indicated-drug-chips" class="drug-chip-row"></div>
+      <div class="control-row" style="margin-top:6px"><label>Drug <a id="show-all-drugs-link" href="#" style="font-size:9px;color:var(--accent-primary);margin-left:6px;text-decoration:none;opacity:0.8">Show all</a></label><select id="drug1" class="select-input"></select></div>
+      <div class="control-row"><label>Route</label><select id="route1" class="select-input"><option value="oral">Oral</option><option value="iv">Intravenous (IV)</option><option value="subcutaneous">Subcutaneous</option><option value="im">Intramuscular (IM)</option><option value="sublingual">Sublingual</option><option value="transdermal">Transdermal</option><option value="inhalation">Inhalation</option></select></div>
+      <div id="route1-info" style="font-size:10px;color:var(--text-muted);margin:-8px 0 8px;line-height:1.4;display:none"></div>
+      <div class="control-row"><label>Dose (mg) <span class="val-badge" id="lbl-dose1">—</span> <span id="rec-dose1" class="rec-badge" title="Click to apply recommended dose">Rec: —</span></label><input type="number" id="dose1" min="0.01" step="0.1" class="num-input" value="10"/></div>
+      <div class="drug-info" id="drug1-info"></div>
     </div>
-    <div class="control-row">
-      <label>Liver Fn <span class="val-badge" id="lbl-liver">90%</span></label>
-      <input type="range" id="liver" min="10" max="100" value="90" class="slider liver-slider"/>
-    </div>
-    <div class="control-row">
-      <label>Heart Rate <span class="val-badge" id="lbl-hr">72 bpm</span></label>
-      <input type="range" id="heart-rate" min="40" max="140" value="72" class="slider hr-slider"/>
-    </div>
-    <div class="control-row">
-      <label>CYP Phenotype</label>
-      <select id="cyp-phenotype" class="select-input">
-        <option value="normal">Normal metabolizer</option>
-        <option value="poor">Poor metabolizer</option>
-        <option value="intermediate">Intermediate metabolizer</option>
-        <option value="ultra_rapid">Ultra-rapid metabolizer</option>
-      </select>
-    </div>
-    <div id="cyp-genomic-hint" style="display:none;font-size:10px;color:#7b8fb5;padding:3px 8px 6px;line-height:1.5;word-break:break-word;"></div>
-  </div>
-
-  <!-- DISEASE -->
-  <div class="sidebar-section">
-    <div class="section-header">
-      <svg class="section-icon" viewBox="0 0 20 20"><path d="M10 2a8 8 0 100 16A8 8 0 0010 2zm1 11H9v-2h2v2zm0-4H9V5h2v4z" fill="currentColor"/></svg>
-      Disease
-    </div>
-    <div class="control-row">
-      <label>Condition</label>
-      <select id="disease" class="select-input"></select>
-    </div>
-    <div class="control-row">
-      <label>Severity <span class="val-badge" id="lbl-severity">55%</span></label>
-      <input type="range" id="severity" min="1" max="100" value="55" class="slider severity-slider"/>
-    </div>
-  </div>
-
-  <!-- PRIMARY DRUG -->
-  <div class="sidebar-section">
-    <div class="section-header">
-      <svg class="section-icon" viewBox="0 0 20 20"><rect x="2" y="9" width="16" height="2" rx="1" fill="currentColor"/><rect x="9" y="2" width="2" height="16" rx="1" fill="currentColor"/></svg>
-      Primary Drug
-    </div>
-    <div class="control-row">
-      <label>Drug</label>
-      <select id="drug1" class="select-input"></select>
-    </div>
-    <div class="control-row">
-      <label>Dose (mg) <span class="val-badge" id="lbl-dose1">—</span></label>
-      <input type="number" id="dose1" min="0.01" step="0.1" class="num-input" value="10"/>
-    </div>
-    <div class="drug-info" id="drug1-info"></div>
-  </div>
-
-  <!-- SECOND DRUG -->
-  <div class="sidebar-section">
-    <div class="section-header">
-      <svg class="section-icon" viewBox="0 0 20 20"><rect x="2" y="9" width="16" height="2" rx="1" fill="currentColor"/><rect x="9" y="2" width="2" height="16" rx="1" fill="currentColor"/></svg>
-      Second Drug
-      <label class="switch" style="margin-left:auto">
-        <input type="checkbox" id="drug2-toggle"/>
-        <span class="switch-knob"></span>
-      </label>
-    </div>
-    <div id="drug2-panel" class="collapsed">
-      <div class="control-row">
-        <label>Drug</label>
-        <select id="drug2" class="select-input"></select>
-      </div>
-      <div class="control-row">
-        <label>Dose (mg) <span class="val-badge" id="lbl-dose2">—</span></label>
-        <input type="number" id="dose2" min="0.01" step="0.1" class="num-input" value="10"/>
-      </div>
-      <div class="drug-info" id="drug2-info"></div>
-    </div>
-  </div>
-
-  <!-- SIMULATION SETTINGS -->
-  <div class="sidebar-section" id="st-duration-section">
-    <div class="section-header">
-      <svg class="section-icon" viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M10 5v5l3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/></svg>
-      Duration
-    </div>
-    <div class="duration-grid">
-      <button class="dur-btn" data-h="24">24h</button>
-      <button class="dur-btn active" data-h="72">72h</button>
-      <button class="dur-btn" data-h="120">120h</button>
-      <button class="dur-btn" data-h="168">168h</button>
-    </div>
-  </div>
-
-  <!-- LONG-TERM DURATION -->
-  <div class="sidebar-section" id="lt-duration-section" style="display:none">
-    <div class="section-header">
-      <svg class="section-icon" viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M10 5v5l3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/></svg>
-      Long-Term Duration
-    </div>
-    <div class="duration-grid lt-dur-grid">
-      <button class="dur-btn lt-dur-btn" data-d="7">7 days</button>
-      <button class="dur-btn lt-dur-btn active" data-d="30">30 days</button>
-      <button class="dur-btn lt-dur-btn" data-d="90">90 days</button>
-      <button class="dur-btn lt-dur-btn" data-d="180">180 days</button>
-      <button class="dur-btn lt-dur-btn" data-d="365">1 year</button>
-      <button class="dur-btn lt-dur-btn" data-d="730">2 years</button>
-    </div>
-  </div>
-
-  <!-- RUN -->
-  <div class="sidebar-run">
-    <button class="run-btn" id="run-btn">
-      <svg width="18" height="18" viewBox="0 0 18 18"><polygon points="5,3 15,9 5,15" fill="white"/></svg>
-      Run Simulation
-    </button>
-    <label class="live-toggle">
-      <input type="checkbox" id="live-mode"/>
-      <span class="live-dot"></span>
-      Live Mode
-    </label>
-  </div>
-</aside>
-
-<!-- ═══════════════════════════════════════════════ MAIN ══════════════════════════════════════════ -->
-<main class="main-content" id="main-content">
-
-  <!-- TOP BAR -->
-  <header class="topbar">
-    <div class="topbar-left">
-      <h1 class="page-title">Biological System Simulator</h1>
-      <span class="subtitle" id="sim-subtitle">Configure parameters and run simulation</span>
-    </div>
-    <div class="topbar-right">
-      <div class="engine-badge-row" id="engine-badge-row" style="display:flex;gap:6px;align-items:center;margin-right:8px;font-size:10px;font-family:Inter,sans-serif"></div>
-      <span id="sim-timing" style="display:none;font-size:10px;color:#7b8fb5;margin-right:10px;font-family:Inter,sans-serif"></span>
-      <div class="status-pill" id="status-pill">
-        <span class="status-dot idle"></span> Ready
-      </div>
-    </div>
-  </header>
-
-  <!-- ─────── PATIENT VITALITY BANNER ─────── -->
-  <div id="vitality-banner" class="vitality-banner vitality-hidden">
-    <div class="vitality-icon" id="vitality-icon">
-      <!-- Heartbeat / flatline SVG injected by JS -->
-    </div>
-    <div class="vitality-main">
-      <div class="vitality-outcome" id="vitality-outcome">—</div>
-      <div class="vitality-detail" id="vitality-detail"></div>
-    </div>
-    <div class="vitality-stats">
-      <div class="vitality-stat">
-        <span class="vitality-stat-val" id="vitality-survival">—</span>
-        <span class="vitality-stat-label">Survival probability</span>
-      </div>
-      <div class="vitality-stat" id="vitality-tod-wrap" style="display:none">
-        <span class="vitality-stat-val" id="vitality-tod">—</span>
-        <span class="vitality-stat-label">Time of first failure</span>
-      </div>
-    </div>
-    <div class="vitality-organ-pills" id="vitality-organ-pills"></div>
-  </div>
-
-  <!-- ─────── ROW 1: Body + KPIs ─────── -->
-  <div class="row row1">
-
-    <!-- Virtual Organ Body -->
-    <div class="card organ-body-card">
-      <div class="card-header">
-        <span class="card-title">Virtual Human Model</span>
-        <span class="card-hint">Click organ for cell detail</span>
-      </div>
-      <div class="organ-body-wrap">
-        <svg id="organ-svg" viewBox="0 0 300 520" preserveAspectRatio="xMidYMid meet"></svg>
-      </div>
-      <div class="scrubber-row" style="display:flex;align-items:center;gap:8px;padding:6px 12px 4px;">
-        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" style="flex-shrink:0">
-          <circle cx="7" cy="7" r="6" stroke="rgba(0,188,212,0.6)" stroke-width="1.2"/>
-          <path d="M7 3.5v3.5l2 2" stroke="rgba(0,188,212,0.6)" stroke-width="1.2" stroke-linecap="round"/>
-        </svg>
-        <input type="range" id="organ-time-scrubber" min="0" max="72" value="0" class="slider" style="flex:1;height:4px">
-        <span id="scrubber-label" style="font-size:10px;color:rgba(0,188,212,0.7);min-width:60px;text-align:right">t = 0.0 h</span>
-      </div>
-      <!-- Organ health colour legend -->
-      <div class="organ-health-legend">
-        <span class="legend-swatch" style="background:#1a0000"></span>Fatal
-        <span class="legend-swatch" style="background:#6b0000;margin-left:4px"></span>Lethal
-        <span class="legend-swatch" style="background:#ef1a1a;margin-left:4px"></span>Critical
-        <span class="legend-swatch" style="background:#ef5350;margin-left:4px"></span>Severe
-        <span class="legend-swatch" style="background:#ffab40;margin-left:4px"></span>Impaired
-        <span class="legend-swatch" style="background:#c6ef00;margin-left:4px"></span>Moderate
-        <span class="legend-swatch" style="background:#00e676;margin-left:4px"></span>Healthy
-      </div>
-    </div>
-
-    <!-- KPI Grid -->
-    <div class="kpi-col">
-      <!-- Therapeutic Status -->
-      <div class="card status-card" id="therapeutic-status-card">
-        <div class="status-label">Therapeutic Status</div>
-        <div class="status-value" id="therapeutic-status">—</div>
-      </div>
-      <!-- 4-KPI grid -->
-      <div class="kpi-grid">
-        <div class="kpi-card" id="kpi-cmax">
-          <div class="kpi-val">—</div>
-          <div class="kpi-label">C<sub>max</sub> (mg/L)</div>
+    <!-- Drug Combination -->
+    <div class="sidebar-section"><div class="section-header"><svg class="section-icon" viewBox="0 0 20 20"><rect x="2" y="9" width="16" height="2" rx="1" fill="currentColor"/><rect x="9" y="2" width="2" height="16" rx="1" fill="currentColor"/></svg> Drug Combination <label class="switch" style="margin-left:auto"><input type="checkbox" id="drug2-toggle"/><span class="switch-knob"></span></label></div>
+      <div id="drug2-panel" class="collapsed">
+        <div class="control-row"><label>Drug 2</label><select id="drug2" class="select-input"></select></div>
+        <div class="control-row"><label>Dose (mg) <span class="val-badge" id="lbl-dose2">—</span></label><input type="number" id="dose2" min="0.01" step="0.1" class="num-input" value="10"/></div>
+        <div class="drug-info" id="drug2-info"></div>
+        <button id="add-drug3-btn" class="add-drug-btn" style="display:none;margin-top:8px">+ Add Third Drug</button>
+        <div id="combo-drug3-row" style="display:none;margin-top:8px">
+          <div class="control-row"><label>Drug 3</label><select id="drug3" class="select-input"></select></div>
+          <div class="control-row"><label>Dose (mg)</label><input type="number" id="dose3" min="0.01" step="0.1" class="num-input" value="10"/></div>
         </div>
-        <div class="kpi-card" id="kpi-tmax">
-          <div class="kpi-val">—</div>
-          <div class="kpi-label">T<sub>max</sub> (h)</div>
-        </div>
-        <div class="kpi-card" id="kpi-auc">
-          <div class="kpi-val">—</div>
-          <div class="kpi-label">AUC (mg·h/L)</div>
-        </div>
-        <div class="kpi-card" id="kpi-halflife">
-          <div class="kpi-val">—</div>
-          <div class="kpi-label">t<sub>½</sub> (h)</div>
-        </div>
-      </div>
-      <!-- Overall health ring -->
-      <div class="card health-ring-card">
-        <div class="card-header"><span class="card-title">Overall Organ Health</span></div>
-        <div class="health-ring-wrap">
-          <svg id="health-ring-svg" viewBox="0 0 160 160" width="160" height="160"></svg>
-          <div class="health-ring-label">
-            <span id="health-pct">—</span>
-            <small>health</small>
-          </div>
-        </div>
+        <div id="interaction-warning-panel" style="display:none;margin-top:8px"></div>
       </div>
     </div>
-  </div>
-
-  <!-- ─────── ROW 2: PK Chart + Radar ─────── -->
-  <div class="row row2">
-    <div class="card pk-card">
-      <div class="card-header">
-        <span class="card-title">PK Concentration Profile</span>
-        <div class="chart-legend" id="pk-legend"></div>
-      </div>
-      <div id="pk-chart-container"></div>
+    <!-- Duration -->
+    <div class="sidebar-section" id="st-duration-section"><div class="section-header"><svg class="section-icon" viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M10 5v5l3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg> Duration</div>
+      <div class="duration-grid"><button class="dur-btn" data-h="24">24h</button><button class="dur-btn active" data-h="72">72h</button><button class="dur-btn" data-h="120">120h</button><button class="dur-btn" data-h="168">168h</button></div>
+      <div class="control-row" style="margin-top:12px"><label>Playback Speed <span class="val-badge" id="lbl-timescale">1×</span></label></div>
+      <div class="duration-grid"><button class="ts-btn active" data-scale="1">Real</button><button class="ts-btn" data-scale="6">6×</button><button class="ts-btn" data-scale="12">12×</button><button class="ts-btn" data-scale="24">24×</button></div>
+      <div id="timescale-hint" style="font-size:9px;color:var(--text-muted);margin-top:4px">Each animation frame = 1 hour</div>
     </div>
-    <div class="card radar-card">
-      <div class="card-header"><span class="card-title">Organ Health Radar</span></div>
-      <div id="radar-chart-container"></div>
+    <div class="sidebar-section" id="lt-duration-section" style="display:none"><div class="section-header"><svg class="section-icon" viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M10 5v5l3 3" stroke="currentColor" stroke-width="1.5" fill="none"/></svg> Long-Term Duration</div>
+      <div class="duration-grid lt-dur-grid"><button class="dur-btn lt-dur-btn" data-d="7">7d</button><button class="dur-btn lt-dur-btn active" data-d="30">30d</button><button class="dur-btn lt-dur-btn" data-d="90">90d</button><button class="dur-btn lt-dur-btn" data-d="180">180d</button><button class="dur-btn lt-dur-btn" data-d="365">1y</button><button class="dur-btn lt-dur-btn" data-d="730">2y</button></div>
     </div>
-  </div>
+    <div class="sidebar-run"><button class="run-btn" id="run-btn"><svg width="18" height="18" viewBox="0 0 18 18"><polygon points="5,3 15,9 5,15" fill="white"/></svg> Run Simulation</button><label class="live-toggle"><input type="checkbox" id="live-mode"/><span class="live-dot"></span> Live Mode</label></div>
+  </aside>
 
-  <!-- ─────── ROW 3: Timeline + Alerts ─────── -->
-  <div class="row row3">
-    <div class="card timeline-card">
-      <div class="card-header"><span class="card-title">Side Effects Timeline</span></div>
-      <div id="timeline-container"></div>
-    </div>
-    <div class="card alerts-card">
-      <div class="card-header"><span class="card-title">Alerts &amp; Biomarkers</span></div>
-      <div id="alerts-container"></div>
-    </div>
-  </div>
-
-  <!-- ─────── ROW 4: Drug Effect Dynamics ─────── -->
-  <div class="row row4" id="pd-row" style="display:none">
-    <div class="card" style="flex:1">
-      <div class="card-header">
-        <span class="card-title">Drug Effect Dynamics</span>
-        <span class="card-hint">Receptor occupancy &amp; pharmacodynamic response over time</span>
-      </div>
-      <div id="pd-chart-container" style="height:220px;position:relative"></div>
-    </div>
-  </div>
-
-  <!-- ─────── LONG-TERM SIMULATION PANEL ─────── -->
-  <div id="lt-panel" style="display:none">
-
-    <!-- Summary KPI row -->
-    <div class="lt-kpi-row">
-      <div class="lt-kpi-card" id="lt-kpi-bone-loss">
-        <div class="lt-kpi-val">—</div>
-        <div class="lt-kpi-label">Bone Loss/yr</div>
-      </div>
-      <div class="lt-kpi-card" id="lt-kpi-ldl">
-        <div class="lt-kpi-val">—</div>
-        <div class="lt-kpi-label">LDL Change</div>
-      </div>
-      <div class="lt-kpi-card" id="lt-kpi-b12">
-        <div class="lt-kpi-val">—</div>
-        <div class="lt-kpi-label">B12 Depletion</div>
-      </div>
-      <div class="lt-kpi-card" id="lt-kpi-events">
-        <div class="lt-kpi-val">—</div>
-        <div class="lt-kpi-label">Clinical Events</div>
-      </div>
-    </div>
-    <div class="lt-detail-bar" id="lt-kpi-detail"></div>
-
-    <!-- Row 2: Plasma + Immune -->
-    <div class="row lt-row2">
-      <div class="card lt-chart-card">
-        <div class="card-header">
-          <span class="card-title">Plasma Concentrations (Long-Term)</span>
-          <span class="card-hint">Drug levels over time</span>
-        </div>
-        <div id="lt-plasma-chart" style="height:240px"></div>
-      </div>
-      <div class="card lt-chart-card">
-        <div class="card-header">
-          <span class="card-title">Immune Markers</span>
-          <span class="card-hint">CRP · WBC · IL-6 · Cortisol</span>
-        </div>
-        <div id="lt-immune-chart" style="height:240px"></div>
-      </div>
+  <!-- MAIN CONTENT (exactly same structure but with polished classes) -->
+  <main class="main-content">
+    <div class="topbar">
+      <div><h1 class="page-title">Biological System Simulator</h1><span class="subtitle" id="sim-subtitle">Configure parameters and run simulation</span></div>
+      <div class="topbar-right" style="display:flex;align-items:center;gap:12px"><div id="engine-badge-row" style="display:flex;gap:6px;font-size:10px"></div><span id="sim-timing" style="display:none;font-size:10px"></span><div class="status-pill"><span class="status-dot idle"></span> Ready</div></div>
     </div>
 
-    <!-- Row 3: Biomarkers + Events -->
-    <div class="row lt-row3">
-      <div class="card" style="flex:3">
-        <div class="card-header"><span class="card-title">Biomarker Trends</span></div>
-        <div id="lt-biomarkers-grid" class="lt-spark-grid"></div>
-      </div>
-      <div class="card" style="flex:2">
-        <div class="card-header"><span class="card-title">Clinical Events</span></div>
-        <div id="lt-events-list" class="lt-events-list"></div>
-      </div>
-    </div>
+    <!-- Vitality banner -->
+    <div id="vitality-banner" class="vitality-banner vitality-hidden" style="display:none;background:#121826;border-radius:20px;padding:16px;margin-bottom:24px;border-left:4px solid var(--accent-primary)"></div>
 
-    <!-- Row 4: Adaptations + Disease severity -->
-    <div class="row lt-row4">
-      <div class="card" style="flex:3">
-        <div class="card-header"><span class="card-title">Long-Term Adaptations</span></div>
-        <div id="lt-adaptations-grid" class="lt-spark-grid"></div>
-      </div>
-      <div class="card" style="flex:2">
-        <div class="card-header"><span class="card-title">Disease Severity Trend</span></div>
-        <div id="lt-severity-trend" style="height:120px"></div>
-      </div>
-    </div>
-
-  </div>
-  <!-- ─────── END LONG-TERM PANEL ─────── -->
-
-  <!-- ─────── POPULATION COHORT PANEL ─────── -->
-  <div id="pop-panel" style="display:none">
-
-    <!-- N patients selector + run info -->
-    <div class="lt-kpi-row">
-      <div class="lt-kpi-card" id="pop-kpi-n">
-        <div class="lt-kpi-val">—</div>
-        <div class="lt-kpi-label">Patients</div>
-      </div>
-      <div class="lt-kpi-card" id="pop-kpi-within">
-        <div class="lt-kpi-val">—</div>
-        <div class="lt-kpi-label">Within Window</div>
-      </div>
-      <div class="lt-kpi-card" id="pop-kpi-cmax">
-        <div class="lt-kpi-val">—</div>
-        <div class="lt-kpi-label">Median C<sub>max</sub></div>
-      </div>
-      <div class="lt-kpi-card" id="pop-kpi-auc">
-        <div class="lt-kpi-val">—</div>
-        <div class="lt-kpi-label">Median AUC</div>
-      </div>
-    </div>
-
-    <!-- Population PK envelope chart -->
+    <!-- Row1: Body + KPIs -->
     <div class="row">
-      <div class="card" style="flex:1">
-        <div class="card-header">
-          <span class="card-title">Population PK Envelope</span>
-          <span class="card-hint">Shaded bands: p5–p95 · p25–p75 · p50 median</span>
-        </div>
-        <div id="pop-pk-chart" style="height:300px;position:relative"></div>
+      <div class="card organ-body-card">
+        <div class="card-header"><span class="card-title">Virtual Human Model</span><span class="card-hint">Click organ for cell detail</span></div>
+        <div id="human-3d-container" style="width:100%;height:600px;position:relative;"><canvas id="human-3d-canvas" style="width:100%;height:100%;display:block;"></canvas><div style="position:absolute;top:8px;right:8px;display:flex;flex-direction:column;gap:3px;z-index:50"><button id="organ-back-btn" onclick="InteractionController.deselect()" style="display:none;background:rgba(0,188,212,0.20);border:1px solid rgba(0,188,212,0.75);color:#00e5ff;padding:4px 10px;font-size:10px;font-weight:700;border-radius:3px;cursor:pointer;letter-spacing:0.04em;margin-bottom:3px">← Overview</button><button onclick="HumanBody3D.setCameraPreset('front')" style="background:rgba(4,6,14,0.78);border:1px solid rgba(0,188,212,0.40);color:#00bcd4;padding:3px 9px;font-size:10px;border-radius:3px">▶ Front</button><button onclick="HumanBody3D.setCameraPreset('back')" style="background:rgba(4,6,14,0.78);border:1px solid rgba(0,188,212,0.40);color:#00bcd4;padding:3px 9px;font-size:10px;border-radius:3px">◀ Back</button><button onclick="HumanBody3D.setCameraPreset('left')" style="background:rgba(4,6,14,0.78);border:1px solid rgba(0,188,212,0.40);color:#00bcd4;padding:3px 9px;font-size:10px;border-radius:3px">◁ Left</button><button onclick="HumanBody3D.setCameraPreset('right')" style="background:rgba(4,6,14,0.78);border:1px solid rgba(0,188,212,0.40);color:#00bcd4;padding:3px 9px;font-size:10px;border-radius:3px">▷ Right</button><button onclick="HumanBody3D.setCameraPreset('top')" style="background:rgba(4,6,14,0.78);border:1px solid rgba(0,188,212,0.40);color:#00bcd4;padding:3px 9px;font-size:10px;border-radius:3px">▲ Top</button><button onclick="HumanBody3D.zoomCamera(1)" title="Zoom in" style="background:rgba(4,6,14,0.78);border:1px solid rgba(0,188,212,0.40);color:#00bcd4;padding:3px 9px;font-size:13px;line-height:1;border-radius:3px;font-weight:700">+</button><button onclick="HumanBody3D.zoomCamera(-1)" title="Zoom out" style="background:rgba(4,6,14,0.78);border:1px solid rgba(0,188,212,0.40);color:#00bcd4;padding:3px 9px;font-size:13px;line-height:1;border-radius:3px;font-weight:700">−</button><button onclick="HumanBody3D.toggleBodyVisibility()" id="body-vis-btn" style="background:rgba(4,6,14,0.78);border:1px solid rgba(255,255,255,0.22);color:rgba(255,255,255,0.62);padding:3px 9px;font-size:10px;border-radius:3px;margin-top:3px">◉ Body</button><button onclick="HumanBody3D.toggleLabels()" id="labels-vis-btn" style="background:rgba(4,6,14,0.78);border:1px solid rgba(255,255,255,0.22);color:rgba(255,255,255,0.62);padding:3px 9px;font-size:10px;border-radius:3px">⊕ Labels</button></div></div>
+        <div class="scrubber-row" style="display:flex;align-items:center;gap:8px;padding:6px 12px;"><svg width="14" height="14" viewBox="0 0 14 14"><circle cx="7" cy="7" r="6" stroke="rgba(0,188,212,0.6)" stroke-width="1.2"/><path d="M7 3.5v3.5l2 2" stroke="rgba(0,188,212,0.6)" stroke-width="1.2" stroke-linecap="round"/></svg><input type="range" id="organ-time-scrubber" min="0" max="72" value="0" class="slider" style="flex:1;height:4px"><span id="scrubber-label" style="font-size:10px;color:#7b8fb5;min-width:60px;text-align:right">t = 0.0 h</span></div>
+        <div class="organ-health-legend"><span class="legend-swatch" style="background:#1a0000"></span>Fatal <span class="legend-swatch" style="background:#6b0000;margin-left:4px"></span>Lethal <span class="legend-swatch" style="background:#ef1a1a;margin-left:4px"></span>Critical <span class="legend-swatch" style="background:#ef5350;margin-left:4px"></span>Severe <span class="legend-swatch" style="background:#ffab40;margin-left:4px"></span>Impaired <span class="legend-swatch" style="background:#c6ef00;margin-left:4px"></span>Moderate <span class="legend-swatch" style="background:#00e676;margin-left:4px"></span>Healthy</div>
+      </div>
+      <div class="kpi-col">
+        <div class="card status-card" id="therapeutic-status-card"><div class="status-label" style="padding:12px 16px 0">Therapeutic Status</div><div class="status-value" id="therapeutic-status" style="font-size:2rem;font-weight:bold;padding:0 16px 16px">—</div></div>
+        <div class="kpi-grid"><div class="kpi-card" id="kpi-cmax"><div class="kpi-val">—</div><div class="kpi-label">C<sub>max</sub> (mg/L)</div></div><div class="kpi-card" id="kpi-tmax"><div class="kpi-val">—</div><div class="kpi-label">T<sub>max</sub> (h)</div></div><div class="kpi-card" id="kpi-auc"><div class="kpi-val">—</div><div class="kpi-label">AUC (mg·h/L)</div></div><div class="kpi-card" id="kpi-halflife"><div class="kpi-val">—</div><div class="kpi-label">t<sub>½</sub> (h)</div></div></div>
+        <div class="card health-ring-card"><div class="card-header"><span class="card-title">Overall Organ Health</span></div><div class="health-ring-wrap"><svg id="health-ring-svg" viewBox="0 0 160 160" width="160" height="160"></svg><div class="health-ring-label"><span id="health-pct">—</span><small>health</small></div></div></div>
       </div>
     </div>
 
-    <!-- Controls row -->
-    <div class="row" style="gap:12px;align-items:center;padding:0 4px">
-      <label style="font-size:12px;color:#7b8fb5">Cohort size:</label>
-      <div class="duration-grid" style="flex-wrap:wrap;gap:6px">
-        <button class="dur-btn pop-n-btn active" data-n="50">50</button>
-        <button class="dur-btn pop-n-btn" data-n="100">100</button>
-        <button class="dur-btn pop-n-btn" data-n="200">200</button>
+    <!-- Row2: PK + Radar -->
+    <div class="row"><div class="card pk-card"><div class="card-header"><span class="card-title">PK Concentration Profile</span><div class="chart-legend" id="pk-legend"></div></div><div id="pk-chart-container"></div></div><div class="card radar-card"><div class="card-header"><span class="card-title">Organ Health Radar</span></div><div id="radar-chart-container"></div></div></div>
+    <!-- Row3: Timeline + Alerts -->
+    <div class="row"><div class="card timeline-card"><div class="card-header"><span class="card-title">Side Effects Timeline</span></div><div id="timeline-container"></div></div><div class="card alerts-card"><div class="card-header"><span class="card-title">Alerts &amp; Biomarkers</span></div><div id="alerts-container"></div></div></div>
+    <!-- PD Row -->
+    <div class="row" id="pd-row" style="display:none"><div class="card" style="flex:1"><div class="card-header"><span class="card-title">Drug Effect Dynamics</span><span class="card-hint">Receptor occupancy &amp; pharmacodynamic response over time</span></div><div id="pd-chart-container" style="height:220px"></div></div></div>
+
+    <!-- Simulation Insights Row -->
+    <div class="row" id="insights-row" style="display:none;margin-bottom:24px">
+      <div class="card" style="flex:3;min-width:280px">
+        <div class="card-header"><span class="card-title">Side Effect Analysis</span><span class="card-hint" id="se-analysis-hint"></span></div>
+        <div id="se-analysis-container" style="padding:12px 16px;max-height:360px;overflow-y:auto"></div>
       </div>
-      <label style="font-size:12px;color:#7b8fb5;margin-left:12px">Duration:</label>
-      <div class="duration-grid" style="flex-wrap:wrap;gap:6px">
-        <button class="dur-btn pop-d-btn active" data-h="24">24h</button>
-        <button class="dur-btn pop-d-btn" data-h="72">72h</button>
-        <button class="dur-btn pop-d-btn" data-h="168">168h</button>
-      </div>
-    </div>
-
-  </div>
-  <!-- ─────── END POPULATION PANEL ─────── -->
-
-  <footer class="footer">PK-PD BioSim v1.0 · April 2026</footer>
-</main>
-
-<!-- ═══════════════════════════════════════════════ CELL DRAWER ═══════════════════════════════════ -->
-<div class="cell-drawer" id="cell-drawer">
-  <div class="cell-drawer-header">
-    <div class="cell-drawer-title">
-      <svg id="cell-organ-icon" width="24" height="24" viewBox="0 0 24 24"></svg>
-      <span id="cell-organ-name">Organ</span>
-    </div>
-    <button class="drawer-close" id="drawer-close">✕</button>
-  </div>
-  <div class="cell-drawer-body">
-    <div id="cell-health-ring-wrap">
-      <svg id="cell-health-ring" viewBox="0 0 120 120" width="120" height="120"></svg>
-      <div class="cell-health-label">
-        <span id="cell-health-pct">—</span>
-        <small>organ health</small>
+      <div class="card" style="flex:2;min-width:220px">
+        <div class="card-header"><span class="card-title">Simulation Key Notes</span></div>
+        <div id="sim-notes-container" style="padding:12px 16px;max-height:360px;overflow-y:auto"></div>
       </div>
     </div>
 
-    <!-- Cell SVG cross-section -->
-    <div class="cell-svg-wrap">
-      <svg id="cell-svg" viewBox="0 0 360 360" preserveAspectRatio="xMidYMid meet"></svg>
-    </div>
+    <!-- Long-term panel -->
+    <div id="lt-panel" style="display:none"><div class="lt-kpi-row"><div class="lt-kpi-card" id="lt-kpi-bone-loss"><div class="lt-kpi-val">—</div><div class="lt-kpi-label">Bone Loss/yr</div></div><div class="lt-kpi-card" id="lt-kpi-ldl"><div class="lt-kpi-val">—</div><div class="lt-kpi-label">LDL Change</div></div><div class="lt-kpi-card" id="lt-kpi-b12"><div class="lt-kpi-val">—</div><div class="lt-kpi-label">B12 Depletion</div></div><div class="lt-kpi-card" id="lt-kpi-events"><div class="lt-kpi-val">—</div><div class="lt-kpi-label">Clinical Events</div></div></div><div class="lt-detail-bar" id="lt-kpi-detail"></div><div class="row lt-row2"><div class="card" style="flex:1"><div class="card-header"><span class="card-title">Plasma Concentrations (Long-Term)</span></div><div id="lt-plasma-chart" style="height:240px"></div></div><div class="card" style="flex:1"><div class="card-header"><span class="card-title">Immune Markers</span></div><div id="lt-immune-chart" style="height:240px"></div></div></div><div class="row lt-row3"><div class="card" style="flex:3"><div class="card-header"><span class="card-title">Biomarker Trends</span></div><div id="lt-biomarkers-grid" class="lt-spark-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px"></div></div><div class="card" style="flex:2"><div class="card-header"><span class="card-title">Clinical Events</span></div><div id="lt-events-list" class="lt-events-list"></div></div></div><div class="row lt-row4"><div class="card" style="flex:3"><div class="card-header"><span class="card-title">Long-Term Adaptations</span></div><div id="lt-adaptations-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px"></div></div><div class="card" style="flex:2"><div class="card-header"><span class="card-title">Disease Severity Trend</span></div><div id="lt-severity-trend" style="height:120px"></div></div></div></div>
 
-    <!-- Metric bars -->
-    <div class="cell-metrics">
-      <div class="cell-metric-bar">
-        <div class="cm-label">Membrane Integrity</div>
-        <div class="cm-track"><div class="cm-fill membrane-fill" id="bar-membrane"></div></div>
-        <div class="cm-val" id="val-membrane">—</div>
-      </div>
-      <div class="cell-metric-bar">
-        <div class="cm-label">ATP / Mitochondrial</div>
-        <div class="cm-track"><div class="cm-fill atp-fill" id="bar-atp"></div></div>
-        <div class="cm-val" id="val-atp">—</div>
-      </div>
-      <div class="cell-metric-bar">
-        <div class="cm-label">Receptor Occupancy</div>
-        <div class="cm-track"><div class="cm-fill receptor-fill" id="bar-receptor"></div></div>
-        <div class="cm-val" id="val-receptor">—</div>
-      </div>
-      <div class="cell-metric-bar">
-        <div class="cm-label">Apoptosis Risk</div>
-        <div class="cm-track"><div class="cm-fill apoptosis-fill" id="bar-apoptosis"></div></div>
-        <div class="cm-val" id="val-apoptosis">—</div>
-      </div>
-    </div>
-
-    <!-- Recovery indicator -->
-    <div class="recovery-indicator" id="recovery-indicator">—</div>
-
-    <!-- Receptor binding table -->
-    <div class="binding-table-wrap">
-      <div class="binding-title">Receptor Binding</div>
-      <table class="binding-table" id="binding-table">
-        <thead><tr><th>Receptor</th><th>Drug</th><th>Occupancy</th><th>Effect</th></tr></thead>
-        <tbody></tbody>
-      </table>
-    </div>
-  </div>
+    <!-- Population panel -->
+    <div id="pop-panel" style="display:none"><div class="lt-kpi-row"><div class="lt-kpi-card" id="pop-kpi-n"><div class="lt-kpi-val">—</div><div class="lt-kpi-label">Patients</div></div><div class="lt-kpi-card" id="pop-kpi-within"><div class="lt-kpi-val">—</div><div class="lt-kpi-label">Within Window</div></div><div class="lt-kpi-card" id="pop-kpi-cmax"><div class="lt-kpi-val">—</div><div class="lt-kpi-label">Median C<sub>max</sub></div></div><div class="lt-kpi-card" id="pop-kpi-auc"><div class="lt-kpi-val">—</div><div class="lt-kpi-label">Median AUC</div></div></div><div class="row"><div class="card" style="flex:1"><div class="card-header"><span class="card-title">Population PK Envelope</span><span class="card-hint">Shaded bands: p5–p95 · p25–p75 · p50 median</span></div><div id="pop-pk-chart" style="height:300px"></div></div></div><div class="row" style="gap:12px;align-items:center;padding:0 4px"><label style="font-size:12px;color:#7b8fb5">Cohort size:</label><div class="duration-grid"><button class="dur-btn pop-n-btn active" data-n="50">50</button><button class="dur-btn pop-n-btn" data-n="100">100</button><button class="dur-btn pop-n-btn" data-n="200">200</button></div><label style="font-size:12px;color:#7b8fb5;margin-left:12px">Duration:</label><div class="duration-grid"><button class="dur-btn pop-d-btn active" data-h="24">24h</button><button class="dur-btn pop-d-btn" data-h="72">72h</button><button class="dur-btn pop-d-btn" data-h="168">168h</button></div></div></div>
+    <footer class="footer">PK-PD BioSim v1.0 · Advanced Medical Simulation Platform</footer>
+  </main>
 </div>
+
+<!-- cell drawer + overlay -->
+<div class="cell-drawer" id="cell-drawer"><div class="cell-drawer-header"><div class="cell-drawer-title"><svg id="cell-organ-icon" width="24" height="24" viewBox="0 0 24 24"></svg><span id="cell-organ-name">Organ</span></div><button class="drawer-close" id="drawer-close">✕</button></div><div class="cell-drawer-body"><div id="cell-health-ring-wrap"><svg id="cell-health-ring" viewBox="0 0 120 120" width="120" height="120"></svg><div class="cell-health-label"><span id="cell-health-pct">—</span><small>organ health</small></div></div><div class="cell-svg-wrap"><svg id="cell-svg" viewBox="0 0 360 360"></svg></div><div class="cell-metrics"><div class="cell-metric-bar"><div class="cm-label">Membrane Integrity</div><div class="cm-track"><div class="cm-fill membrane-fill" id="bar-membrane"></div></div><div class="cm-val" id="val-membrane">—</div></div><div class="cell-metric-bar"><div class="cm-label">ATP / Mitochondrial</div><div class="cm-track"><div class="cm-fill atp-fill" id="bar-atp"></div></div><div class="cm-val" id="val-atp">—</div></div><div class="cell-metric-bar"><div class="cm-label">Receptor Occupancy</div><div class="cm-track"><div class="cm-fill receptor-fill" id="bar-receptor"></div></div><div class="cm-val" id="val-receptor">—</div></div><div class="cell-metric-bar"><div class="cm-label">Apoptosis Risk</div><div class="cm-track"><div class="cm-fill apoptosis-fill" id="bar-apoptosis"></div></div><div class="cm-val" id="val-apoptosis">—</div></div></div><div class="recovery-indicator" id="recovery-indicator">—</div><div class="binding-table-wrap"><div class="binding-title">Receptor Binding</div><table class="binding-table" id="binding-table"><thead><tr><th>Receptor</th><th>Drug</th><th>Occupancy</th><th>Effect</th></tr></thead><tbody></tbody></table></div></div></div>
 <div class="drawer-overlay" id="drawer-overlay"></div>
+<div class="loading-overlay" id="loading-overlay"><div class="spinner"></div><div class="loading-text">Running simulation…</div></div>
 
-<!-- Loading overlay -->
-<div class="loading-overlay" id="loading-overlay">
-  <div class="spinner"></div>
-  <div class="loading-text">Running simulation…</div>
-</div>
-
-<!-- D3.js v7 -->
+<!-- scripts (unchanged) -->
 <script src="https://d3js.org/d3.v7.min.js"></script>
-<!-- App modules -->
-<script src="/static/js/organ_viz.js"></script>
+<script src="https://cdn.babylonjs.com/babylon.js"></script>
+<script src="/static/js/utils/AnimationUtils.js"></script>
+<script src="/static/js/3d/OrganModels.js?v=20260513d"></script>
+<script src="/static/js/3d/MorphingEngine.js"></script>
+<script src="/static/js/3d/InteractionController.js?v=20260513e"></script>
+<script src="/static/js/3d/ResponsiveSystem.js"></script>
+<script src="/static/js/3d/HumanBody3D.js?v=20260513f"></script>
 <script src="/static/js/pk_chart.js"></script>
 <script src="/static/js/radar_chart.js"></script>
 <script src="/static/js/timeline.js"></script>

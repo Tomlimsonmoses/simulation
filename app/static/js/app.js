@@ -5,18 +5,23 @@
 (async () => {
   // ───────────────────────────────────────── state
   let _state = {
-    drug1: null, drug2: null, dose1: null, dose2: null,
+    drug1: null, drug2: null, drug3: null,
+    dose1: null, dose2: null, dose3: null,
     disease: null, severity: 0.55,
     age: 65, weight: 70, sex: 1,
     kidney: 0.80, liver: 0.90, hr: 72,
-    duration: 72, useDrug2: false,
+    duration: 72, useDrug2: false, useDrug3: false,
     lastResult: null,
-    ltMode: false,
-    ltDuration: 30,
-    popMode: false,
-    popN: 50,
-    popDuration: 72,
+    ltMode: false, ltDuration: 30,
+    popMode: false, popN: 50, popDuration: 72,
     cypPhenotype: "normal",
+    route1: "oral",
+    timeScale: 1,
+    hlaBAllele: "none",
+    dpydDeficient: false,
+    g6pdDeficient: false,
+    tpmtLow: false,
+    showAllDrugs: false,
   };
   let _drugsData = [], _diseasesData = [];
   let _debounceTimer = null;
@@ -27,10 +32,7 @@
     _wireSliders();
     CellView.init();
     PKChart.init();
-    OrganViz.setScrubber(
-      document.getElementById("organ-time-scrubber"),
-      document.getElementById("scrubber-label")
-    );
+    HumanBody3D.init('human-3d-container', _onOrganClick);
     await Promise.all([_fetchDrugs(), _fetchDiseases()]);
     _populateDiseases();
     _populateDrugs();
@@ -76,6 +78,7 @@
   function _populateDrugs() {
     _fillDrugSelect("drug1");
     _fillDrugSelect("drug2");
+    _fillDrugSelect("drug3");
     const first = _drugsData[0]?.name;
     if (first) {
       _state.drug1 = first;
@@ -127,30 +130,90 @@
 
   function _filterDrugsByDisease() {
     const dis = _diseasesData.find(d => d.name === _state.disease);
-    if (!dis || !dis.indicated_drugs || dis.indicated_drugs.length === 0) return;
-    // Sort drug selects: indicated drugs first
-    ["drug1","drug2"].forEach(id => {
+    const indicated = (dis && dis.indicated_drugs) ? dis.indicated_drugs : [];
+    const drugsToShow = (_state.showAllDrugs || indicated.length === 0)
+      ? _drugsData
+      : _drugsData.filter(d => indicated.includes(d.name));
+
+    // Repopulate all three drug selects
+    ["drug1", "drug2", "drug3"].forEach(id => {
       const sel = document.getElementById(id);
-      const indicated = dis.indicated_drugs;
-      const allOpts = Array.from(sel.options);
-      allOpts.sort((a,b) => {
-        const ai = indicated.indexOf(a.value), bi = indicated.indexOf(b.value);
-        if (ai >= 0 && bi < 0) return -1;
-        if (bi >= 0 && ai < 0) return 1;
-        return a.text.localeCompare(b.text);
-      });
+      if (!sel) return;
+      const curVal = sel.value;
       sel.innerHTML = "";
-      allOpts.forEach(o => sel.appendChild(o));
+      drugsToShow.forEach(d => {
+        const opt = document.createElement("option");
+        opt.value = d.name;
+        opt.textContent = `${d.name} (${d.drug_class})`;
+        sel.appendChild(opt);
+      });
+      if (drugsToShow.find(d => d.name === curVal)) sel.value = curVal;
     });
-    // Auto-select first indicated drug
-    if (dis.indicated_drugs.length > 0) {
+
+    _renderDrugChips(indicated);
+    _renderDiseaseInfoStrip(dis, indicated);
+
+    // Auto-select first indicated drug for drug1
+    const pick = indicated.length > 0 ? indicated[0] : drugsToShow[0]?.name;
+    if (pick) {
       const sel = document.getElementById("drug1");
-      sel.value = dis.indicated_drugs[0];
-      _state.drug1 = dis.indicated_drugs[0];
-      const dd = _drugsData.find(d => d.name === _state.drug1);
-      if (dd) { _state.dose1 = dd.default_dose; document.getElementById("dose1").value = dd.default_dose; document.getElementById("lbl-dose1").textContent = dd.default_dose; }
-      _updateDrugInfo("drug1", _state.drug1);
+      if (sel) sel.value = pick;
+      _state.drug1 = pick;
+      const dd = _drugsData.find(d => d.name === pick);
+      if (dd) {
+        _state.dose1 = dd.default_dose;
+        document.getElementById("dose1").value = dd.default_dose;
+        document.getElementById("lbl-dose1").textContent = dd.default_dose;
+      }
+      _updateDrugInfo("drug1", pick);
+      _fetchGenomicVariants(pick);
     }
+  }
+
+  function _renderDrugChips(indicated) {
+    const container = document.getElementById("indicated-drug-chips");
+    if (!container) return;
+    container.innerHTML = "";
+    if (!indicated || indicated.length === 0) return;
+    indicated.forEach(name => {
+      const chip = document.createElement("button");
+      chip.type = "button";
+      chip.className = "drug-chip" + (name === _state.drug1 ? " selected" : "");
+      chip.textContent = name;
+      chip.title = name;
+      chip.addEventListener("click", () => {
+        _state.drug1 = name;
+        const sel = document.getElementById("drug1");
+        if (sel) sel.value = name;
+        const dd = _drugsData.find(d => d.name === name);
+        if (dd) {
+          _state.dose1 = dd.default_dose;
+          document.getElementById("dose1").value = dd.default_dose;
+          document.getElementById("lbl-dose1").textContent = dd.default_dose;
+        }
+        _updateDrugInfo("drug1", name);
+        _fetchGenomicVariants(name);
+        container.querySelectorAll(".drug-chip").forEach(c => c.classList.remove("selected"));
+        chip.classList.add("selected");
+        _triggerLiveOrNone();
+      });
+      container.appendChild(chip);
+    });
+  }
+
+  function _renderDiseaseInfoStrip(dis, indicated) {
+    const strip = document.getElementById("disease-info-strip");
+    if (!strip) return;
+    if (!dis) { strip.style.display = "none"; return; }
+    const organTags = (dis.affected_organs || []).map(o =>
+      `<span class="organ-tag">${o.replace(/_/g, " ")}</span>`
+    ).join(" ");
+    const drugNames = indicated.slice(0, 4).map(n => `<strong style="color:var(--accent)">${n}</strong>`).join(", ");
+    strip.innerHTML = `
+      <div style="font-size:9.5px;color:var(--text-muted);margin-bottom:3px">Affected: ${organTags || "—"}</div>
+      ${indicated.length ? `<div style="font-size:9.5px;color:var(--text-muted)">First-line: ${drugNames}${indicated.length > 4 ? " +" + (indicated.length - 4) + " more" : ""}</div>` : ""}
+    `;
+    strip.style.display = "";
   }
 
   function _updateDrugInfo(target, drugName) {
@@ -160,6 +223,60 @@
     el.innerHTML = `<strong>${dd.drug_class}</strong> · ${dd.administration_route} · ${dd.dosing_frequency}<br/>
       t½: ${dd.half_life}h · F: ${Math.round(dd.bioavailability*100)}% · PB: ${Math.round(dd.protein_binding*100)}%<br/>
       TW: ${dd.therapeutic_window[0]}–${dd.therapeutic_window[1]} mg/L`;
+    if (target === "drug1") {
+      const routeSel = document.getElementById("route1");
+      if (routeSel) {
+        const routeMap = { oral: "oral", iv: "iv", intravenous: "iv", subcutaneous: "subcutaneous",
+          im: "im", intramuscular: "im", sublingual: "sublingual", transdermal: "transdermal",
+          inhalation: "inhalation" };
+        const normalized = routeMap[dd.administration_route?.toLowerCase()] || "oral";
+        routeSel.value = normalized;
+        _state.route1 = normalized;
+        _updateRouteInfo(normalized, dd.bioavailability, dd.default_dose);
+      }
+      _calcRecommendedDose(drugName);
+    }
+  }
+
+  function _calcRecommendedDose(drugName) {
+    const dd = _drugsData.find(d => d.name === drugName);
+    const badge = document.getElementById("rec-dose1");
+    if (!dd || !badge) return null;
+    // Allometric weight scaling (Anderson & Holford)
+    const wtFactor = Math.pow(Math.max(1, _state.weight) / 70, 0.75);
+    // Renal adjustment: applies if low protein binding OR short half-life
+    const renalDep = dd.protein_binding < 0.5 || dd.half_life < 6;
+    const renalFactor = renalDep ? Math.max(0.25, _state.kidney) : 1.0;
+    // Hepatic adjustment: applies if low oral bioavailability (heavy first-pass)
+    const hepaticDep = dd.bioavailability < 0.4;
+    const liverFactor = hepaticDep ? Math.max(0.5, Math.sqrt(Math.max(0.01, _state.liver))) : 1.0;
+    const rec = Math.round(dd.default_dose * wtFactor * renalFactor * liverFactor * 10) / 10;
+    badge.textContent = `Rec: ${rec} mg`;
+    badge.dataset.dose = rec;
+    return rec;
+  }
+
+  function _updateRouteInfo(routeValue, bioavailability, baseDose) {
+    const el = document.getElementById("route1-info");
+    if (!el) return;
+    const ba = Math.round((bioavailability || 0.7) * 100);
+    let msg = "";
+    if (routeValue === "iv") {
+      const equiv = Math.round((baseDose || 10) * (bioavailability || 0.7) * 10) / 10;
+      msg = `100% bioavailability — oral-to-IV equivalent ≈ ${equiv} mg`;
+    } else if (routeValue === "sublingual") {
+      msg = `Bypasses first-pass metabolism — faster onset than oral`;
+    } else if (routeValue === "oral") {
+      msg = `Oral bioavailability: ${ba}% — may vary with food intake`;
+    } else if (routeValue === "transdermal") {
+      msg = `Slow sustained absorption — steady-state reached over days`;
+    } else if (routeValue === "inhalation") {
+      msg = `Direct pulmonary absorption — fast onset, lower systemic exposure`;
+    } else {
+      msg = `Bioavailability: ${ba}%`;
+    }
+    el.textContent = msg;
+    el.style.display = msg ? "" : "none";
   }
 
   // ─── Genomic CYP variant fetch & CYP phenotype hint ──────────────────────
@@ -220,6 +337,8 @@
       el.addEventListener("input", () => {
         lbl && (lbl.textContent = b.fmt(el.value));
         _state[b.key] = b.parse(el.value);
+        if (b.id === "age") HumanBody3D.updateAge(_state.age);
+        if (["weight", "kidney", "liver"].includes(b.id)) _calcRecommendedDose(_state.drug1);
         _triggerLiveOrNone();
       });
     });
@@ -229,12 +348,14 @@
       _state.sex = 1;
       document.getElementById("sex-m").classList.add("active");
       document.getElementById("sex-f").classList.remove("active");
+      HumanBody3D.updateGender('male');
       _triggerLiveOrNone();
     });
     document.getElementById("sex-f")?.addEventListener("click", () => {
       _state.sex = 0;
       document.getElementById("sex-f").classList.add("active");
       document.getElementById("sex-m").classList.remove("active");
+      HumanBody3D.updateGender('female');
       _triggerLiveOrNone();
     });
   }
@@ -245,14 +366,71 @@
       _state.useDrug2 = e.target.checked;
       const panel = document.getElementById("drug2-panel");
       panel.classList.toggle("open", _state.useDrug2);
+      const addBtn = document.getElementById("add-drug3-btn");
+      if (addBtn) addBtn.style.display = _state.useDrug2 ? "" : "none";
       if (_state.useDrug2) {
         const sel = document.getElementById("drug2");
         _state.drug2 = sel.value;
         _updateDrugInfo("drug2", _state.drug2);
       } else {
         _state.drug2 = null;
+        _state.useDrug3 = false;
+        _state.drug3 = null;
+        const d3row = document.getElementById("combo-drug3-row");
+        if (d3row) d3row.style.display = "none";
+        if (addBtn) addBtn.style.display = "none";
       }
+      _checkInteractions();
       _triggerLiveOrNone();
+    });
+
+    // Add drug3 button
+    document.getElementById("add-drug3-btn")?.addEventListener("click", () => {
+      _state.useDrug3 = true;
+      const row = document.getElementById("combo-drug3-row");
+      if (row) row.style.display = "";
+      document.getElementById("add-drug3-btn").style.display = "none";
+      const sel = document.getElementById("drug3");
+      if (sel && sel.value) { _state.drug3 = sel.value; }
+      _checkInteractions();
+    });
+
+    // Drug3 changes
+    document.getElementById("drug3")?.addEventListener("change", e => {
+      _state.drug3 = e.target.value;
+      _checkInteractions();
+      _triggerLiveOrNone();
+    });
+    document.getElementById("dose3")?.addEventListener("input", e => {
+      _state.dose3 = parseFloat(e.target.value) || 10;
+      _triggerLiveOrNone();
+    });
+
+    // Show all drugs link
+    document.getElementById("show-all-drugs-link")?.addEventListener("click", e => {
+      e.preventDefault();
+      _state.showAllDrugs = !_state.showAllDrugs;
+      e.target.textContent = _state.showAllDrugs ? "Show indicated" : "Show all";
+      _filterDrugsByDisease();
+    });
+
+    // Route selector
+    document.getElementById("route1")?.addEventListener("change", e => {
+      _state.route1 = e.target.value;
+      const dd = _drugsData.find(d => d.name === _state.drug1);
+      _updateRouteInfo(e.target.value, dd?.bioavailability, dd?.default_dose);
+    });
+
+    // Recommended dose badge click
+    document.getElementById("rec-dose1")?.addEventListener("click", () => {
+      const badge = document.getElementById("rec-dose1");
+      const dose = parseFloat(badge.dataset.dose);
+      if (!isNaN(dose)) {
+        document.getElementById("dose1").value = dose;
+        document.getElementById("lbl-dose1").textContent = dose;
+        _state.dose1 = dose;
+        _triggerLiveOrNone();
+      }
     });
 
     // CYP phenotype
@@ -261,13 +439,36 @@
       _triggerLiveOrNone();
     });
 
-    // Duration buttons
-    document.querySelectorAll(".dur-btn").forEach(btn => {
+    // HLA-B allele
+    document.getElementById("hla-b-allele")?.addEventListener("change", e => {
+      _state.hlaBAllele = e.target.value;
+    });
+
+    // Gene deficiency checkboxes
+    document.getElementById("dpyd-deficient")?.addEventListener("change", e => { _state.dpydDeficient = e.target.checked; });
+    document.getElementById("g6pd-deficient")?.addEventListener("change", e => { _state.g6pdDeficient = e.target.checked; });
+    document.getElementById("tpmt-low")?.addEventListener("change", e => { _state.tpmtLow = e.target.checked; });
+
+    // Duration buttons (short-term only)
+    document.querySelectorAll("#st-duration-section .dur-btn[data-h]").forEach(btn => {
       btn.addEventListener("click", () => {
-        document.querySelectorAll(".dur-btn").forEach(b => b.classList.remove("active"));
+        document.querySelectorAll("#st-duration-section .dur-btn[data-h]").forEach(b => b.classList.remove("active"));
         btn.classList.add("active");
         _state.duration = parseInt(btn.dataset.h);
         _triggerLiveOrNone();
+      });
+    });
+
+    // Time-scale buttons
+    document.querySelectorAll(".ts-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll(".ts-btn").forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        _state.timeScale = parseInt(btn.dataset.scale) || 1;
+        const lbl = document.getElementById("lbl-timescale");
+        const hint = document.getElementById("timescale-hint");
+        if (lbl) lbl.textContent = _state.timeScale + "×";
+        if (hint) hint.textContent = `Each animation frame = ${_state.timeScale} hour${_state.timeScale > 1 ? "s" : ""}`;
       });
     });
 
@@ -309,6 +510,46 @@
         _state.popDuration = parseInt(btn.dataset.h);
       });
     });
+  }
+
+  // ─── Drug interaction checker ─────────────────────────────────────────────
+  function _checkInteractions() {
+    const panel = document.getElementById("interaction-warning-panel");
+    if (!panel) return;
+    const selectedDrugs = [_state.drug1, _state.useDrug2 ? _state.drug2 : null, _state.useDrug3 ? _state.drug3 : null]
+      .filter(Boolean);
+    if (selectedDrugs.length < 2) { panel.style.display = "none"; return; }
+
+    const warnings = [];
+    // Check for same-class interactions
+    for (let i = 0; i < selectedDrugs.length; i++) {
+      for (let j = i + 1; j < selectedDrugs.length; j++) {
+        const a = _drugsData.find(d => d.name === selectedDrugs[i]);
+        const b = _drugsData.find(d => d.name === selectedDrugs[j]);
+        if (!a || !b) continue;
+        if (a.drug_class === b.drug_class) {
+          warnings.push(`<div class="interaction-warn-item">⚠ ${a.name} + ${b.name}: same class (${a.drug_class}) — additive toxicity risk</div>`);
+        }
+        // QT-prolonging drug combo check
+        const qtDrugs = ["Ciprofloxacin", "Sertraline", "Lorazepam"];
+        if (qtDrugs.includes(a.name) && qtDrugs.includes(b.name)) {
+          warnings.push(`<div class="interaction-warn-item">⚠ ${a.name} + ${b.name}: additive QT prolongation risk</div>`);
+        }
+        // CNS depressants
+        const cnsDrugs = ["Lorazepam", "Sertraline"];
+        if (cnsDrugs.includes(a.name) && cnsDrugs.includes(b.name)) {
+          warnings.push(`<div class="interaction-warn-item">⚠ ${a.name} + ${b.name}: additive CNS depression</div>`);
+        }
+        // Renal/nephrotoxic combos
+        const renalRisk = ["Ibuprofen", "Naproxen", "Ciprofloxacin"];
+        if (renalRisk.includes(a.name) && renalRisk.includes(b.name)) {
+          warnings.push(`<div class="interaction-warn-item">⚠ ${a.name} + ${b.name}: increased nephrotoxicity risk</div>`);
+        }
+      }
+    }
+    if (warnings.length === 0) { panel.style.display = "none"; return; }
+    panel.innerHTML = `<div class="interaction-warn"><div class="interaction-warn-title">⚠ Drug Interactions Detected</div>${warnings.join("")}</div>`;
+    panel.style.display = "";
   }
 
   // ───────────────────────────────────────── live mode debounce
@@ -368,12 +609,19 @@
       `${data.drugs?.join(" + ")} · ${data.disease_name} · ${_state.duration}h simulation`;
 
     // Organ body
-    OrganViz.update(data.organ_health_final, data.concentrations,
-                    data.fatal_organs, data.critical_organs);
-    OrganViz.setHeartRate(data.heart_rate || 72);
+    if (data.organ_health_final) {
+      // Disease wave first, then health colour update
+      HumanBody3D.playDiseaseEffect(data.organ_health_final);
+      Object.entries(data.organ_health_final).forEach(([organId, health]) => {
+        HumanBody3D.updateOrganHealth(organId, health);
+      });
+      // Medication absorption wave ~300 ms after health colours settle
+      const organIds = Object.keys(data.organ_health_final);
+      setTimeout(() => HumanBody3D.playMedicationEffect(organIds), 350);
+    }
     // Animate organ health series if available
     if (data.organ_health_series && data.organ_health_series.length > 1) {
-      OrganViz.animateSeries(data.organ_health_series, data.series_time_points);
+      HumanBody3D.animateSeries(data.organ_health_series, data.series_time_points, _state.timeScale);
     }
 
     // PK Chart (with receptor occupancy overlay)
@@ -437,6 +685,9 @@
 
     // Simulation timing
     _renderTiming(data);
+
+    // Simulation insights (side effects analysis + key notes)
+    _renderSimInsights(data);
   }
 
   function _renderEngineBadges(data) {
@@ -549,8 +800,10 @@
     // sidebar duration sections
     const stDur = document.getElementById("st-duration-section");
     const ltDur = document.getElementById("lt-duration-section");
+    const genSec = document.getElementById("st-genetics-section");
     if (stDur) stDur.style.display = isShort ? "" : "none";
     if (ltDur) ltDur.style.display = _state.ltMode ? "" : "none";
+    if (genSec) genSec.style.display = isShort ? "" : "none";
     // short-term rows
     [".row1",".row2",".row3"].forEach(cls => {
       const el = document.querySelector(cls);
@@ -558,6 +811,9 @@
     });
     const pdRow  = document.getElementById("pd-row");
     if (pdRow) pdRow.style.display = "none";
+    // hide insights when not in short mode
+    const insRow = document.getElementById("insights-row");
+    if (insRow && !isShort) insRow.style.display = "none";
     // panels
     const ltPanel  = document.getElementById("lt-panel");
     const popPanel = document.getElementById("pop-panel");
@@ -773,7 +1029,7 @@
     el?.classList.toggle("active", show);
   }
 
-  // ───────────────────────────────────────── organ click → cell drawer
+  // ───────────────────────────────────────── organ click → cell detail drawer
   function _onOrganClick(organId, organHealth) {
     const drugNames = _state.lastResult?.drugs || [_state.drug1];
     CellView.open(organId, organHealth, _state.lastResult, drugNames);
@@ -874,8 +1130,200 @@
     }
   }
 
+  // ─────────────────────────────────────────── Side Effect Management Table
+  const _SE_MANAGEMENT = {
+    "Liver Toxicity":          "Monitor LFTs; consider N-acetylcysteine for severe cases; avoid alcohol",
+    "Nausea":                  "Take with food; antiemetics if persistent; usually resolves within 1–2 weeks",
+    "Allergic Reaction":       "STOP drug immediately; administer antihistamine; epinephrine if anaphylaxis",
+    "GI Bleeding":             "STOP NSAID immediately; add PPI cover; endoscopy if haematemesis/melena",
+    "Kidney Damage":           "Monitor creatinine & eGFR; reduce dose or discontinue; ensure hydration",
+    "GI Irritation":           "Take with food; antacids or PPI; consider dose reduction",
+    "Fluid Retention":         "Restrict sodium; consider low-dose diuretic; monitor daily weight",
+    "Angioedema":              "EMERGENCY — stop drug immediately; epinephrine 0.3 mg IM; airway assessment",
+    "Dry Cough":               "Switch to ARB (e.g. losartan) if cough persists beyond 2–4 weeks",
+    "Hyperkalemia":            "Check serum K⁺; avoid K⁺ supplements & K-sparing diuretics; may reduce dose",
+    "Hypotension":             "Lie supine; monitor BP; take first dose at night; ensure adequate fluid intake",
+    "Bradycardia":             "Check HR and ECG; reduce dose; withhold if HR < 50 bpm",
+    "Fatigue":                 "Usually resolves; dose in evening; review after 4–6 weeks",
+    "Bronchospasm":            "STOP beta-blocker immediately; bronchodilator; avoid in asthma/COPD",
+    "Cold Extremities":        "Reassure; compression stockings; switch to vasodilating beta-blocker if severe",
+    "Myopathy":                "Check CK; stop statin if CK > 10× ULN; ensure adequate hydration",
+    "Liver Enzyme Elev.":      "Monitor LFTs at 3 and 12 months; consider dose reduction if > 3× ULN",
+    "Rhabdomyolysis":          "EMERGENCY — IV fluids; stop statin; creatinine monitoring; ICU if AKI",
+    "Peripheral Oedema":       "Elevate legs; reduce salt; may add low-dose diuretic; usually benign",
+    "Flushing":                "Usually self-limiting; take at bedtime; avoid hot drinks after dose",
+    "Reflex Tachycardia":      "Monitor HR; add low-dose beta-blocker if symptomatic",
+    "Lactic Acidosis":         "EMERGENCY — stop metformin; IV bicarbonate; consider dialysis if renal failure",
+    "GI Distress":             "Take with food; start at lowest dose and titrate; probiotics may help",
+    "Vitamin B12 Defic.":      "Annual B12 monitoring; supplement 500–1000 mcg/day if deficient",
+    "Hypoglycaemia":           "15 g fast-acting carbs; recheck in 15 min; adjust dose/frequency",
+    "Weight Gain":             "Diet & exercise review; consider switch to weight-neutral agent",
+    "C.diff Infection":        "Isolate; oral vancomycin or fidaxomicin; stop causative antibiotic",
+    "Diarrhoea":               "Oral rehydration; probiotics; stop if severe (> 6/day or with blood)",
+    "Tendinopathy":            "STOP fluoroquinolone; rest; physiotherapy; avoid corticosteroids",
+    "CNS Effects":             "Avoid driving; reduce dose if seizure risk; monitor neurological status",
+    "QT Prolongation":         "Check ECG QTc; avoid co-administration with other QT-prolonging drugs",
+    "Serotonin Syndrome":      "STOP serotonergic drug immediately; benzodiazepines for agitation; cyproheptadine",
+    "Insomnia":                "Dose in the morning; sleep hygiene; melatonin if persistent",
+    "Sedation":                "Avoid driving/alcohol; dose in evening; assess falls risk",
+    "Respiratory Depr.":       "Monitor SpO₂; have reversal agent available; reduce dose or discontinue",
+    "Dependence":              "Do NOT stop abruptly; taper over 4–8 weeks; consider CBT support",
+    "Palpitations":            "Check ECG and TSH; dose adjustment likely needed; check for over-replacement",
+    "Chest Pain":              "Urgent cardiology review; ECG; consider dose reduction or switch",
+    "Hyperglycaemia":          "Monitor blood glucose; dietary review; may require insulin adjustment",
+    "Immunosuppression":       "Prophylactic antibiotics if high-risk; avoid live vaccines; infection monitoring",
+    "GI Ulceration":           "Add PPI co-prescription; always take with food; check for occult blood",
+    "Osteoporosis":            "Calcium & vitamin D supplementation; DEXA scan; bisphosphonate if indicated",
+    "Amoxicillin Reaction":    "STOP immediately; check cross-reactivity with other penicillins; MedicAlert",
+  };
+
+  // ─────────────────────────────────────────── Simulation Insights
+  function _renderSimInsights(data) {
+    const row = document.getElementById("insights-row");
+    if (!row) return;
+    row.style.display = "flex";
+    _renderSEAnalysis(data);
+    _renderKeyNotes(data);
+  }
+
+  function _renderSEAnalysis(data) {
+    const container = document.getElementById("se-analysis-container");
+    const hint = document.getElementById("se-analysis-hint");
+    if (!container) return;
+
+    const sideEffects = data.side_effects || [];
+    if (hint) hint.textContent = sideEffects.length > 0 ? `${sideEffects.length} effect(s) detected` : "None detected";
+
+    if (sideEffects.length === 0) {
+      container.innerHTML = `<div style="padding:24px;text-align:center;color:var(--text-muted);font-size:11px">
+        <div style="font-size:22px;margin-bottom:8px">✓</div>
+        No adverse effects detected in this simulation period.<br/>
+        See Key Notes for a summary of this simulation.
+      </div>`;
+      return;
+    }
+
+    // Sort: high → medium → low
+    const sevOrder = { high: 0, medium: 1, low: 2 };
+    const sorted = [...sideEffects].sort((a, b) =>
+      (sevOrder[a.severity] ?? 2) - (sevOrder[b.severity] ?? 2)
+    );
+
+    // Deduplicate by name
+    const seen = new Set();
+    const unique = sorted.filter(e => { if (seen.has(e.name)) return false; seen.add(e.name); return true; });
+
+    container.innerHTML = "";
+    unique.forEach(e => {
+      const sev = e.severity || "low";
+      const onsetH = e.onset_time != null ? e.onset_time.toFixed(1) : "?";
+      const durationH = e.duration != null ? e.duration.toFixed(0) : "?";
+      const probPct = e.probability != null ? Math.round(e.probability * 100) : "?";
+      const management = _SE_MANAGEMENT[e.name]
+        || (sev === "high"   ? "URGENT — seek immediate medical review; do not delay"
+          : sev === "medium" ? "Monitor closely; review with prescriber at next appointment"
+          :                    "Typically self-limiting; manage symptomatically");
+
+      const card = document.createElement("div");
+      card.className = `se-card se-${sev}`;
+      card.innerHTML = `
+        <div class="se-card-header">
+          <span class="se-name">${e.name}</span>
+          <span class="se-sev-badge se-sev-${sev}">${sev}</span>
+          <span class="se-onset-badge">Onset ~${onsetH}h</span>
+        </div>
+        <div class="se-meta">
+          <span>Duration ~${durationH}h</span>
+          <span class="se-prob">Likelihood: ${probPct}%</span>
+        </div>
+        ${e.description ? `<div class="se-description">${e.description}</div>` : ""}
+        <div class="se-management"><span class="se-management-label">Management:</span>${management}</div>
+      `;
+      container.appendChild(card);
+    });
+  }
+
+  function _renderKeyNotes(data) {
+    const container = document.getElementById("sim-notes-container");
+    if (!container) return;
+
+    const firstDrug = data.drugs?.[0] || _state.drug1;
+    const m = (firstDrug && data.pk_metrics?.[firstDrug]) ? data.pk_metrics[firstDrug] : null;
+    const ts = data.therapeutic_status || "therapeutic";
+    const health = data.overall_health ?? 0.85;
+
+    const notes = [];
+
+    // 1. Therapeutic status
+    if (ts === "therapeutic") {
+      notes.push({ cls: "note-ok", icon: "✓", title: "Therapeutic Range", text: `Plasma concentration is within the therapeutic window — effective dosing confirmed.` });
+    } else if (ts === "sub-therapeutic") {
+      notes.push({ cls: "note-warn", icon: "↓", title: "Sub-Therapeutic", text: `Concentration below minimum effective level. Consider increasing dose or frequency.` });
+    } else if (ts === "toxic") {
+      notes.push({ cls: "note-alert", icon: "⚠", title: "Toxic Exposure", text: `Concentration exceeds therapeutic window. Dose reduction or drug holiday recommended.` });
+    } else {
+      notes.push({ cls: "note-info", icon: "◎", title: "Status: " + ts.replace("-", " ").toUpperCase(), text: `Review simulation parameters and clinical context.` });
+    }
+
+    // 2. Peak concentration
+    if (m) {
+      notes.push({ cls: "note-info", icon: "⬆", title: "Peak Concentration",
+        text: `C<sub>max</sub> = ${m.cmax?.toFixed(2) ?? "—"} mg/L at T<sub>max</sub> = ${m.tmax?.toFixed(1) ?? "—"}h · AUC = ${m.auc?.toFixed(0) ?? "—"} mg·h/L` });
+    }
+
+    // 3. Half-life and steady-state
+    if (m && m.half_life) {
+      const ss = (m.half_life * 4).toFixed(0);
+      notes.push({ cls: "note-info", icon: "⏱", title: "Pharmacokinetics",
+        text: `t<sub>½</sub> = ${m.half_life.toFixed(1)}h — steady-state reached in ~${ss}h (4×t<sub>½</sub>). ${m.mechanistic ? "Mechanistic PBPK model." : "Analytical PK model."}` });
+    }
+
+    // 4. Organ health summary
+    const organFinal = data.organ_health_final || {};
+    const weakOrgans = Object.entries(organFinal).filter(([, v]) => v < 0.7).map(([k]) => k.replace(/_/g, " "));
+    if (weakOrgans.length === 0) {
+      notes.push({ cls: "note-ok", icon: "🫀", title: "Organ Health", text: `All organs within healthy range (overall: ${Math.round(health * 100)}%).` });
+    } else {
+      notes.push({ cls: "note-warn", icon: "🫀", title: "Organ Health", text: `${weakOrgans.length} organ(s) under stress: ${weakOrgans.slice(0, 3).join(", ")}${weakOrgans.length > 3 ? " +" + (weakOrgans.length - 3) + " more" : ""}. (Overall: ${Math.round(health * 100)}%)` });
+    }
+
+    // 5. CYP / Metabolism note
+    const cypLabels = { normal: "Normal metabolizer — standard dosing applies",
+      poor: "Poor metabolizer — expect higher exposure; consider dose reduction",
+      intermediate: "Intermediate metabolizer — slightly elevated exposure",
+      ultra_rapid: "Ultra-rapid metabolizer — may need higher dose for efficacy" };
+    notes.push({ cls: "note-info", icon: "⚗", title: "CYP Metabolism",
+      text: cypLabels[_state.cypPhenotype] || "Standard metabolism assumed" });
+
+    // 6. Drug combination note
+    if (_state.useDrug2 && _state.drug2) {
+      const drug2m = data.pk_metrics?.[_state.drug2];
+      const drugList = [firstDrug, _state.drug2, _state.useDrug3 && _state.drug3 ? _state.drug3 : null].filter(Boolean);
+      notes.push({ cls: "note-info", icon: "⊕", title: "Combination Therapy",
+        text: `${drugList.join(" + ")} — monitor for additive effects. CYP interactions may alter plasma levels of co-administered drugs.` });
+    }
+
+    // 7. Genetics / allele flags
+    const geneFlags = [];
+    if (_state.hlaBAllele !== "none") geneFlags.push(`${_state.hlaBAllele} allele active — screen for hypersensitivity before administration`);
+    if (_state.dpydDeficient) geneFlags.push("DPYD deficiency — avoid fluoropyrimidine-based chemotherapy");
+    if (_state.g6pdDeficient) geneFlags.push("G6PD deficiency — avoid oxidant drugs (primaquine, dapsone, high-dose aspirin)");
+    if (_state.tpmtLow) geneFlags.push("Low TPMT activity — thiopurine dose reduction required (azathioprine, mercaptopurine)");
+    if (geneFlags.length > 0) {
+      notes.push({ cls: "note-gene", icon: "🧬", title: "Genetic Flags", text: geneFlags.join(" · ") });
+    }
+
+    container.innerHTML = "";
+    notes.forEach(n => {
+      const card = document.createElement("div");
+      card.className = `note-card ${n.cls}`;
+      card.innerHTML = `<div class="note-icon">${n.icon}</div><div class="note-body"><div class="note-title">${n.title}</div><div class="note-text">${n.text}</div></div>`;
+      container.appendChild(card);
+    });
+  }
+
   // ───────────────────────────────────────── init organ viz
-  OrganViz.init(_onOrganClick);
+  // HumanBody3D is already initialized in boot() function
 
   // ───────────────────────────────────────── start
   boot();
