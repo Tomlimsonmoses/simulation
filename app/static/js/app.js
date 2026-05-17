@@ -31,6 +31,7 @@
   async function boot() {
     _wireSliders();
     CellView.init();
+    OrganDetailView.init();
     PKChart.init();
     HumanBody3D.init('human-3d-container', _onOrganClick);
     await Promise.all([_fetchDrugs(), _fetchDiseases()]);
@@ -1032,7 +1033,7 @@
   // ───────────────────────────────────────── organ click → cell detail drawer
   function _onOrganClick(organId, organHealth) {
     const drugNames = _state.lastResult?.drugs || [_state.drug1];
-    CellView.open(organId, organHealth, _state.lastResult, drugNames);
+    OrganDetailView.open(organId, organHealth, _state.lastResult, drugNames);
   }
 
   // ───────────────────────────────────────── patient vitality banner

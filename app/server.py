@@ -388,6 +388,16 @@ os.makedirs(TEMPLATE_DIR, exist_ok=True)
 app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
 templates = Jinja2Templates(directory=TEMPLATE_DIR)
 
+def _sv(path: str) -> str:
+    full = os.path.join(STATIC_DIR, path.lstrip("/"))
+    try:
+        v = str(int(os.path.getmtime(full)))
+    except OSError:
+        v = "0"
+    return f"/static/{path}?v={v}"
+
+_TMPL_CTX: dict = {"sv": _sv}
+
 # Shared simulator instance
 _simulator = BiologicalSystemSimulator()
 
@@ -700,9 +710,7 @@ class CellRequest(BaseModel):
 # ───────────────────────────────────────────────────────────── routes ──────
 @app.get("/", response_class=HTMLResponse)
 async def index(request: Request):
-    html_path = os.path.join(TEMPLATE_DIR, "index.html")
-    with open(html_path, "r", encoding="utf-8") as f:
-        return HTMLResponse(content=f.read())
+    return templates.TemplateResponse(request, "index.html", context=_TMPL_CTX)
 
 
 @app.get("/api/drugs")
@@ -1373,9 +1381,7 @@ def _infer_class(name: str) -> str:
 # ═══════════════════════════════════════════════════════════════════
 
 def _serve_template(name: str, request: Request) -> HTMLResponse:
-    html_path = os.path.join(TEMPLATE_DIR, name)
-    with open(html_path, "r", encoding="utf-8") as f:
-        return HTMLResponse(content=f.read())
+    return templates.TemplateResponse(request, name, context=_TMPL_CTX)
 
 
 @app.get("/viral-sim", response_class=HTMLResponse)

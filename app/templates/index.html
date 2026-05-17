@@ -6,7 +6,7 @@
   <title>PK-PD Biological System Simulator | Professional Dashboard</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet"/>
-  <link rel="stylesheet" href="/static/css/nav.css?v=3"/>
+  <link rel="stylesheet" href="{{ sv('css/nav.css') }}"/>
   <style>
     /* ----- RESET & BASE ----- */
     * {
@@ -812,6 +812,31 @@
   </main>
 </div>
 
+<!-- ── Organ 3D detail modal ───────────────────────────────── -->
+<div id="organ-detail-modal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.85);z-index:1000;align-items:center;justify-content:center;opacity:0;transition:opacity 0.28s ease">
+  <div style="position:relative;width:min(92vw,860px);background:linear-gradient(145deg,#060d1a 0%,#0b1a2e 100%);border:1px solid rgba(0,188,212,0.30);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 24px 80px rgba(0,0,0,0.7)">
+    <!-- header bar -->
+    <div style="display:flex;align-items:center;gap:16px;padding:18px 22px;border-bottom:1px solid rgba(0,188,212,0.12)">
+      <div style="flex:1">
+        <div id="odv-title" style="font-size:22px;font-weight:700;color:#e0f7ff;letter-spacing:0.05em;font-family:'IBM Plex Mono',monospace">—</div>
+        <div id="odv-status" style="font-size:13px;font-weight:600;margin-top:4px;color:#00e676;font-family:'IBM Plex Mono',monospace"></div>
+        <div style="background:rgba(255,255,255,0.07);border-radius:4px;height:5px;width:220px;margin-top:7px;overflow:hidden">
+          <div id="odv-health-bar-fill" style="height:100%;width:85%;background:#00e676;border-radius:4px;transition:width 0.5s,background 0.5s"></div>
+        </div>
+      </div>
+      <div style="display:flex;gap:10px;align-items:center">
+        <button id="odv-cell-btn" style="background:rgba(0,188,212,0.12);border:1px solid rgba(0,188,212,0.50);color:#00bcd4;padding:8px 16px;border-radius:7px;font-size:12px;cursor:pointer;font-family:'IBM Plex Mono',monospace;transition:background 0.15s" onmouseover="this.style.background='rgba(0,188,212,0.25)'" onmouseout="this.style.background='rgba(0,188,212,0.12)'">Cell Detail →</button>
+        <button id="odv-close" style="background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.15);color:#aaa;width:34px;height:34px;border-radius:7px;font-size:17px;cursor:pointer;line-height:1;transition:background 0.15s" onmouseover="this.style.background='rgba(255,255,255,0.14)'" onmouseout="this.style.background='rgba(255,255,255,0.06)'">✕</button>
+      </div>
+    </div>
+    <!-- 3-D canvas -->
+    <canvas id="odv-canvas" style="width:100%;height:500px;display:block;outline:none;touch-action:none"></canvas>
+    <!-- footer hint -->
+    <div style="padding:9px 22px;font-size:10px;color:rgba(255,255,255,0.28);font-family:'IBM Plex Mono',monospace;border-top:1px solid rgba(255,255,255,0.05);letter-spacing:0.06em">DRAG TO ORBIT · SCROLL TO ZOOM · ESC TO CLOSE</div>
+  </div>
+</div>
+<style>#organ-detail-modal.visible{opacity:1!important}</style>
+
 <!-- cell drawer + overlay -->
 <div class="cell-drawer" id="cell-drawer"><div class="cell-drawer-header"><div class="cell-drawer-title"><svg id="cell-organ-icon" width="24" height="24" viewBox="0 0 24 24"></svg><span id="cell-organ-name">Organ</span></div><button class="drawer-close" id="drawer-close">✕</button></div><div class="cell-drawer-body"><div id="cell-health-ring-wrap"><svg id="cell-health-ring" viewBox="0 0 120 120" width="120" height="120"></svg><div class="cell-health-label"><span id="cell-health-pct">—</span><small>organ health</small></div></div><div class="cell-svg-wrap"><svg id="cell-svg" viewBox="0 0 360 360"></svg></div><div class="cell-metrics"><div class="cell-metric-bar"><div class="cm-label">Membrane Integrity</div><div class="cm-track"><div class="cm-fill membrane-fill" id="bar-membrane"></div></div><div class="cm-val" id="val-membrane">—</div></div><div class="cell-metric-bar"><div class="cm-label">ATP / Mitochondrial</div><div class="cm-track"><div class="cm-fill atp-fill" id="bar-atp"></div></div><div class="cm-val" id="val-atp">—</div></div><div class="cell-metric-bar"><div class="cm-label">Receptor Occupancy</div><div class="cm-track"><div class="cm-fill receptor-fill" id="bar-receptor"></div></div><div class="cm-val" id="val-receptor">—</div></div><div class="cell-metric-bar"><div class="cm-label">Apoptosis Risk</div><div class="cm-track"><div class="cm-fill apoptosis-fill" id="bar-apoptosis"></div></div><div class="cm-val" id="val-apoptosis">—</div></div></div><div class="recovery-indicator" id="recovery-indicator">—</div><div class="binding-table-wrap"><div class="binding-title">Receptor Binding</div><table class="binding-table" id="binding-table"><thead><tr><th>Receptor</th><th>Drug</th><th>Occupancy</th><th>Effect</th></tr></thead><tbody></tbody></table></div></div></div>
 <div class="drawer-overlay" id="drawer-overlay"></div>
@@ -821,16 +846,17 @@
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script src="https://cdn.babylonjs.com/babylon.js"></script>
 <script src="/static/js/utils/AnimationUtils.js"></script>
-<script src="/static/js/3d/OrganModels.js?v=20260513d"></script>
+<script src="{{ sv('js/3d/OrganModels.js') }}"></script>
 <script src="/static/js/3d/MorphingEngine.js"></script>
-<script src="/static/js/3d/InteractionController.js?v=20260513e"></script>
+<script src="{{ sv('js/3d/InteractionController.js') }}"></script>
 <script src="/static/js/3d/ResponsiveSystem.js"></script>
-<script src="/static/js/3d/HumanBody3D.js?v=20260513f"></script>
+<script src="{{ sv('js/3d/HumanBody3D.js') }}"></script>
 <script src="/static/js/pk_chart.js"></script>
 <script src="/static/js/radar_chart.js"></script>
 <script src="/static/js/timeline.js"></script>
 <script src="/static/js/biomarkers.js"></script>
 <script src="/static/js/cell_view.js"></script>
+<script src="{{ sv('js/3d/OrganDetailView.js') }}"></script>
 <script src="/static/js/longterm.js"></script>
 <script src="/static/js/app.js"></script>
 </body>

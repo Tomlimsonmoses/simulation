@@ -11,7 +11,7 @@ const HumanBody3D = (() => {
   let organHealthData = {};
   let age = 65, gender = 'male';
   let isAnimating = false;
-  let bodyVisible = true, labelsVisible = false;
+  let bodyVisible = false, labelsVisible = false;
   const _labels = {};
   let glowDisc, glowDiscMat, scanNode, scanMats = [];
 
@@ -20,17 +20,16 @@ const HumanBody3D = (() => {
   ------------------------------------------------------------------ */
   const ORGAN_DEFINITIONS = [
     { id: 'brain',      label: 'Brain',      pos: [ 0.00,  1.32,  0.00], scale: 1.28 },
-    { id: 'heart',      label: 'Heart',      pos: [ 0.06,  0.62,  0.06], scale: 1.10 },
-    { id: 'lungs',      label: 'Lungs',      pos: [ 0.00,  0.60, -0.03], scale: 1.18 },
-    { id: 'liver',      label: 'Liver',      pos: [ 0.14,  0.14,  0.00], scale: 1.08 },
-    { id: 'kidneys',    label: 'Kidneys',    pos: [ 0.00,  0.04, -0.07], scale: 1.05 },
-    { id: 'stomach',    label: 'Stomach',    pos: [ 0.04,  0.22,  0.05], scale: 1.00 },
-    { id: 'intestines', label: 'Intestines', pos: [ 0.00, -0.08,  0.00], scale: 0.92 },
-    { id: 'pancreas',   label: 'Pancreas',   pos: [-0.06,  0.12,  0.02], scale: 0.95 },
-    { id: 'spleen',     label: 'Spleen',     pos: [-0.16,  0.16, -0.04], scale: 1.00 },
-    { id: 'bladder',    label: 'Bladder',    pos: [ 0.00, -0.38,  0.05], scale: 1.15 },
-    { id: 'muscle',     label: 'Muscle',     pos: [ 0.42,  0.05,  0.00], scale: 1.10 },
-    { id: 'skin',       label: 'Skin',       pos: [ 0.00,  0.20,  0.00], scale: 1.00 },
+    { id: 'heart',      label: 'Heart',      pos: [-0.04,  0.65,  0.06], scale: 1.10 },
+    { id: 'lungs',      label: 'Lungs',      pos: [ 0.00,  0.58, -0.02], scale: 1.18 },
+    { id: 'liver',      label: 'Liver',      pos: [ 0.12,  0.22,  0.00], scale: 1.08 },
+    { id: 'kidneys',    label: 'Kidneys',    pos: [ 0.00,  0.16, -0.10], scale: 1.05 },
+    { id: 'stomach',    label: 'Stomach',    pos: [-0.04,  0.26,  0.04], scale: 1.00 },
+    { id: 'intestines', label: 'Intestines', pos: [ 0.00,  0.02,  0.00], scale: 0.92 },
+    { id: 'pancreas',   label: 'Pancreas',   pos: [-0.02,  0.14, -0.06], scale: 0.95 },
+    { id: 'spleen',     label: 'Spleen',     pos: [-0.16,  0.20, -0.04], scale: 1.00 },
+    { id: 'bladder',    label: 'Bladder',    pos: [ 0.00, -0.36,  0.05], scale: 1.15 },
+    { id: 'muscle',     label: 'Muscle',     pos: [ 0.42,  0.61,  0.00], scale: 1.10 },
   ];
 
   const HEALTH_COLORS = [
@@ -236,119 +235,127 @@ const HumanBody3D = (() => {
     addScanDisc(0.015, 0.35);
   }
 
-  // ─── Organic Human Body Shell (PBR skin) ──────────────────────
+  // ─── Body Shell (stub — organs-only mode) ─────────────────────
   function _createBodyShell() {
     bodyRoot      = new BABYLON.TransformNode('bodyRoot', scene);
     bodyShellNode = new BABYLON.TransformNode('bodyShell', scene);
     bodyShellNode.parent = bodyRoot;
+    bodyShellNode.setEnabled(false);
+  }
 
-    // PBR skin: warm natural tone, semi-opaque so organs glow through subtly
+  function _createBodyShell_UNUSED() {
+    bodyRoot      = new BABYLON.TransformNode('bodyRoot', scene);
+    bodyShellNode = new BABYLON.TransformNode('bodyShell', scene);
+    bodyShellNode.parent = bodyRoot;
+
     const skinMat = new BABYLON.PBRMaterial('skin', scene);
-    skinMat.albedoColor   = new BABYLON.Color3(0.900, 0.720, 0.640); // warm peach skin
-    skinMat.emissiveColor = new BABYLON.Color3(0.028, 0.014, 0.008); // barely-emissive — no red glow
+    skinMat.albedoColor   = new BABYLON.Color3(0.900, 0.720, 0.640);
+    skinMat.emissiveColor = new BABYLON.Color3(0.028, 0.014, 0.008);
     skinMat.metallic  = 0.02;
-    skinMat.roughness = 0.68;  // realistic skin roughness — not plastic-shiny
-    skinMat.alpha     = 0.72;  // solid enough to read as skin, organs glow faintly through
+    skinMat.roughness = 0.68;
+    skinMat.alpha     = 0.72;
     skinMat.backFaceCulling = false;
     skinMat.subSurface.isTranslucencyEnabled = true;
-    skinMat.subSurface.translucencyIntensity = 0.55;  // SSS for realistic skin
-    skinMat.subSurface.tintColor = new BABYLON.Color3(0.95, 0.45, 0.30); // blood-red SSS tint
+    skinMat.subSurface.translucencyIntensity = 0.55;
+    skinMat.subSurface.tintColor = new BABYLON.Color3(0.95, 0.45, 0.30);
     skinMat.transparencyMode = BABYLON.PBRMaterial.PBRMATERIAL_ALPHABLEND;
 
-    function skinPart() { return skinMat; }
+    function blob(name, sx, sy, sz, px, py, pz) {
+      const m = BABYLON.MeshBuilder.CreateSphere(name, { diameter: 1, segments: 24 }, scene);
+      m.scaling.set(sx, sy, sz);
+      m.position.set(px, py, pz);
+      m.material = skinMat;
+      m.parent   = bodyShellNode;
+      shadowGen.addShadowCaster(m, true);
+      return m;
+    }
 
-    function taperedCyl(name, rTop, rBot, height, tess, x, y, z, rotZ) {
+    function tube(name, rT, rB, h, tess, px, py, pz, rx, rz) {
       const m = BABYLON.MeshBuilder.CreateCylinder(name, {
-        height, diameterTop: rTop * 2, diameterBottom: rBot * 2, tessellation: tess
+        height: h, diameterTop: rT * 2, diameterBottom: rB * 2, tessellation: tess || 18,
       }, scene);
-      m.position.set(x || 0, y, z || 0);
-      if (rotZ) m.rotation.z = rotZ;
+      m.position.set(px, py, pz);
+      if (rx) m.rotation.x = rx;
+      if (rz) m.rotation.z = rz;
       m.material = skinMat;
       m.parent   = bodyShellNode;
       shadowGen.addShadowCaster(m, true);
       return m;
     }
 
-    function ellipsoid(name, rx, ry, rz, x, y, z) {
-      const m = BABYLON.MeshBuilder.CreateSphere(name, { diameter: 2, segments: 24 }, scene);
-      m.scaling.set(rx, ry, rz);
-      m.position.set(x, y, z);
-      m.material = skinMat;
-      m.parent   = bodyShellNode;
-      shadowGen.addShadowCaster(m, true);
-      return m;
-    }
+    // ─── Head & Neck ───────────────────────────────────────────────
+    blob('head',  0.175, 0.215, 0.185, 0, 1.365, 0);
+    blob('earL',  0.050, 0.080, 0.030, -0.192, 1.348, 0.008);
+    blob('earR',  0.050, 0.080, 0.030,  0.192, 1.348, 0.008);
+    // Neck widens at base to blend into shoulders
+    tube('neck',  0.075, 0.096, 0.22, 14, 0, 1.062, 0);
 
-    // ─── Head & Neck ────────────────────────────────────────────
-    ellipsoid('head',  0.165, 0.19,  0.165, 0,     1.36, 0);
-    ellipsoid('earL',  0.055, 0.085, 0.035, -0.18, 1.34, 0.02);
-    ellipsoid('earR',  0.055, 0.085, 0.035,  0.18, 1.34, 0.02);
-    taperedCyl('neck', 0.072, 0.082, 0.20, 12, 0, 1.05, 0);
+    // ─── Torso ─────────────────────────────────────────────────────
+    // Upper chest: wide at shoulders, taper toward waist
+    tube('chest',     0.268, 0.220, 0.68, 28, 0, 0.622, 0);
+    // Mid abdomen: waist
+    tube('abdomen',   0.220, 0.228, 0.44, 24, 0, 0.112, 0);
+    // Pelvis
+    tube('pelvis',    0.228, 0.218, 0.30, 24, 0, -0.212, 0);
+    // Fill sphere at chest-abdomen join (hides cylinder seam)
+    blob('waistFill', 0.232, 0.090, 0.228, 0, 0.282, 0.000);
+    // Hip flares — organic pelvis width
+    blob('hipL',      0.188, 0.165, 0.202, -0.218, -0.258, 0.016);
+    blob('hipR',      0.188, 0.165, 0.202,  0.218, -0.258, 0.016);
+    // Lower pubic fill
+    blob('pubis',     0.162, 0.110, 0.150, 0, -0.378, 0.024);
 
-    // ─── Torso ──────────────────────────────────────────────────
-    taperedCyl('chest',   0.275, 0.215, 0.68, 24, 0, 0.58, 0);
-    taperedCyl('abdomen', 0.215, 0.245, 0.52, 24, 0, 0.07, 0);
-    taperedCyl('pelvis',  0.245, 0.225, 0.32, 24, 0, -0.30, 0);
-
+    // Shoulder caps — large enough to hide arm attachment
+    blob('shoulL',    0.212, 0.192, 0.190, -0.352, 0.880, 0.012);
+    blob('shoulR',    0.212, 0.192, 0.190,  0.352, 0.880, 0.012);
     // Pectorals
-    const pecMat = skinMat.clone('pecMat');
-    pecMat.alpha = 0.65;
-    [-1, 1].forEach(s => {
-      const pec = BABYLON.MeshBuilder.CreateSphere('pec' + s, { diameter: 0.24, segments: 20 }, scene);
-      pec.scaling.set(0.9, 0.7, 0.4);
-      pec.position.set(s * 0.18, 0.82, 0.12);
-      pec.material = pecMat;
-      pec.parent   = bodyShellNode;
-    });
+    blob('pecL',      0.206, 0.140, 0.134, -0.148, 0.800, 0.092);
+    blob('pecR',      0.206, 0.140, 0.134,  0.148, 0.800, 0.092);
 
-    // Deltoids
-    [-1, 1].forEach(s => {
-      const d = BABYLON.MeshBuilder.CreateSphere('delt' + s, { diameter: 0.20, segments: 20 }, scene);
-      d.scaling.set(1.0, 0.9, 0.8);
-      d.position.set(s * 0.34, 0.85, 0.05);
-      d.material = skinMat;
-      d.parent   = bodyShellNode;
-    });
+    // ─── Arms — straight down, segments chained end-to-end ──────────
+    // Arm X: ±0.422  (shoulder cap outer edge)
+    const AX = 0.422;
+    // Upper arm: top at 0.845, center 0.610, bottom 0.375
+    tube('uarmL',  0.078, 0.062, 0.47, 18, -AX, 0.610, 0);
+    tube('uarmR',  0.078, 0.062, 0.47, 18,  AX, 0.610, 0);
+    // Elbow: sphere covering bottom of upper arm and top of forearm
+    blob('elbowL', 0.078, 0.072, 0.078, -AX, 0.348, 0.008);
+    blob('elbowR', 0.078, 0.072, 0.078,  AX, 0.348, 0.008);
+    // Forearm: top at 0.325, center 0.090, bottom −0.145
+    tube('farmL',  0.062, 0.048, 0.47, 16, -AX, 0.090, 0);
+    tube('farmR',  0.062, 0.048, 0.47, 16,  AX, 0.090, 0);
+    // Wrist
+    blob('wristL', 0.059, 0.053, 0.055, -AX, -0.162, 0.010);
+    blob('wristR', 0.059, 0.053, 0.055,  AX, -0.162, 0.010);
+    // Hand
+    blob('handL',  0.100, 0.072, 0.060, -AX + 0.008, -0.222, 0.025);
+    blob('handR',  0.100, 0.072, 0.060,  AX - 0.008, -0.222, 0.025);
 
-    // ─── Arms ───────────────────────────────────────────────────
-    taperedCyl('uarmL', 0.070, 0.058, 0.46, 16, -0.44, 0.54, 0,  0.28);
-    taperedCyl('uarmR', 0.070, 0.058, 0.46, 16,  0.44, 0.54, 0, -0.28);
-    ellipsoid('elbowL', 0.065, 0.060, 0.065, -0.53, 0.27, 0);
-    ellipsoid('elbowR', 0.065, 0.060, 0.065,  0.53, 0.27, 0);
-    taperedCyl('farmL', 0.055, 0.045, 0.44, 14, -0.56, 0.00, 0,  0.15);
-    taperedCyl('farmR', 0.055, 0.045, 0.44, 14,  0.56, 0.00, 0, -0.15);
+    // ─── Legs — straight down, segments chained end-to-end ──────────
+    const LX = 0.148;
+    // Groin fill: hip-to-thigh bridge
+    blob('groinL', 0.122, 0.116, 0.120, -LX, -0.434, 0.014);
+    blob('groinR', 0.122, 0.116, 0.120,  LX, -0.434, 0.014);
+    // Thigh: top at −0.380, center −0.640, bottom −0.900
+    tube('thighL', 0.122, 0.096, 0.52, 22, -LX, -0.640, 0);
+    tube('thighR', 0.122, 0.096, 0.52, 22,  LX, -0.640, 0);
+    // Knee: sphere covering thigh bottom and calf top
+    blob('kneeL',  0.104, 0.096, 0.098, -LX, -0.912, 0.006);
+    blob('kneeR',  0.104, 0.096, 0.098,  LX, -0.912, 0.006);
+    // Calf: top at −0.905, center −1.155, bottom −1.405
+    tube('calfL',  0.090, 0.064, 0.50, 20, -LX, -1.155, 0);
+    tube('calfR',  0.090, 0.064, 0.50, 20,  LX, -1.155, 0);
+    // Ankle
+    blob('ankleL', 0.075, 0.067, 0.071, -LX + 0.005, -1.418, 0.005);
+    blob('ankleR', 0.075, 0.067, 0.071,  LX - 0.005, -1.418, 0.005);
+    // Foot
+    blob('footL',  0.084, 0.064, 0.178, -0.166, -1.470, 0.070);
+    blob('footR',  0.084, 0.064, 0.178,  0.166, -1.470, 0.070);
+    // Toes
+    blob('toeL',   0.072, 0.044, 0.072, -0.163, -1.488, 0.152);
+    blob('toeR',   0.072, 0.044, 0.072,  0.163, -1.488, 0.152);
 
-    const handGeoOpts = { height: 0.12, diameterTop: 0.090, diameterBottom: 0.060, tessellation: 8 };
-    const handL = BABYLON.MeshBuilder.CreateCylinder('handL', handGeoOpts, scene);
-    handL.position.set(-0.64, -0.12, 0.02);
-    handL.rotation.z = 0.3;
-    handL.material = skinMat; handL.parent = bodyShellNode;
-
-    const handR = BABYLON.MeshBuilder.CreateCylinder('handR', handGeoOpts, scene);
-    handR.position.set(0.64, -0.12, 0.02);
-    handR.rotation.z = -0.3;
-    handR.material = skinMat; handR.parent = bodyShellNode;
-
-    // ─── Legs ───────────────────────────────────────────────────
-    taperedCyl('thighL', 0.105, 0.082, 0.52, 20, -0.16, -0.60, 0);
-    taperedCyl('thighR', 0.105, 0.082, 0.52, 20,  0.16, -0.60, 0);
-    ellipsoid('kneeL', 0.085, 0.075, 0.085, -0.16, -0.88, 0);
-    ellipsoid('kneeR', 0.085, 0.075, 0.085,  0.16, -0.88, 0);
-    taperedCyl('calfL', 0.078, 0.058, 0.52, 18, -0.16, -1.15, 0);
-    taperedCyl('calfR', 0.078, 0.058, 0.52, 18,  0.16, -1.15, 0);
-
-    const footOpts = { height: 0.22, diameterTop: 0.090, diameterBottom: 0.070, tessellation: 12 };
-    const footL = BABYLON.MeshBuilder.CreateCylinder('footL', footOpts, scene);
-    footL.position.set(-0.22, -1.44, 0.10);
-    footL.rotation.x = 0.2;
-    footL.material = skinMat; footL.parent = bodyShellNode;
-
-    const footR = BABYLON.MeshBuilder.CreateCylinder('footR', footOpts, scene);
-    footR.position.set(0.22, -1.44, 0.10);
-    footR.rotation.x = 0.2;
-    footR.material = skinMat; footR.parent = bodyShellNode;
-
-    // ─── Spine hint ─────────────────────────────────────────────
+    // ─── Spine hint ─────────────────────────────────────────────────
     const spine = BABYLON.MeshBuilder.CreateCylinder('spine', { height: 1.12, diameter: 0.028, tessellation: 6 }, scene);
     spine.position.set(0, 0.28, -0.22);
     const spineMat = new BABYLON.StandardMaterial('spineMat', scene);
@@ -357,27 +364,25 @@ const HumanBody3D = (() => {
     spine.material = spineMat;
     spine.parent = bodyShellNode;
 
-    // ─── Ribcage arcs ────────────────────────────────────────────
+    // ─── Ribcage arcs ────────────────────────────────────────────────
     const RIB_Y = [0.72, 0.63, 0.54, 0.45, 0.36, 0.28];
     const RIB_R = [0.210, 0.224, 0.234, 0.234, 0.222, 0.210];
     const ribMat = new BABYLON.StandardMaterial('ribMat', scene);
     ribMat.emissiveColor = new BABYLON.Color3(0.8, 0.667, 0.533);
     ribMat.alpha = 0.20;
     ribMat.backFaceCulling = false;
-
     RIB_Y.forEach((y, i) => {
-      // Approximate arc using a torus (partial — Babylon torus is full, so scale to flatten)
       const rib = BABYLON.MeshBuilder.CreateTorus('rib' + i, {
         diameter: RIB_R[i] * 2, thickness: 0.018, tessellation: 32
       }, scene);
-      rib.scaling.y = 0.3;  // Flatten to a ring shape
+      rib.scaling.y = 0.3;
       rib.rotation.x = -Math.PI / 2;
       rib.position.set(0, y, 0.018);
       rib.material = ribMat;
       rib.parent = bodyShellNode;
     });
 
-    // ─── Clavicles ───────────────────────────────────────────────
+    // ─── Clavicles ───────────────────────────────────────────────────
     const clavMat = new BABYLON.StandardMaterial('clavMat', scene);
     clavMat.emissiveColor = new BABYLON.Color3(0.8, 0.667, 0.533);
     clavMat.alpha = 0.30;
@@ -390,7 +395,7 @@ const HumanBody3D = (() => {
       clav.parent = bodyShellNode;
     });
 
-    // Skin shell must never intercept organ clicks — make all shell meshes non-pickable
+    // Skin shell must never intercept organ clicks
     bodyShellNode.getChildMeshes(false).forEach(m => { m.isPickable = false; });
   }
 
