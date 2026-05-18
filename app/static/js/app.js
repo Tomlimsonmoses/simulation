@@ -340,7 +340,12 @@
         _state[b.key] = b.parse(el.value);
         if (b.id === "age") HumanBody3D.updateAge(_state.age);
         if (["weight", "kidney", "liver"].includes(b.id)) _calcRecommendedDose(_state.drug1);
-        _triggerLiveOrNone();
+        if (["kidney", "liver", "severity"].includes(b.id)) {
+          clearTimeout(_debounceTimer);
+          _debounceTimer = setTimeout(() => _runSim(), DEBOUNCE_MS);
+        } else {
+          _triggerLiveOrNone();
+        }
       });
     });
 
@@ -1193,7 +1198,14 @@
     if (!container) return;
 
     const sideEffects = data.side_effects || [];
-    if (hint) hint.textContent = sideEffects.length > 0 ? `${sideEffects.length} effect(s) detected` : "None detected";
+    const highCount = sideEffects.filter(e => e.severity === "high").length;
+    const medCount = sideEffects.filter(e => e.severity === "medium").length;
+    const lowCount = sideEffects.filter(e => e.severity === "low").length;
+    if (hint) {
+      hint.textContent = sideEffects.length > 0
+        ? `${sideEffects.length} effect(s) detected (${highCount} high, ${medCount} medium, ${lowCount} low)`
+        : "No adverse effects detected";
+    }
 
     if (sideEffects.length === 0) {
       container.innerHTML = `<div style="padding:24px;text-align:center;color:var(--text-muted);font-size:11px">

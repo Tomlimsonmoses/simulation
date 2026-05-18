@@ -50,14 +50,18 @@ async function runViralSim() {
 
   // KPIs
   document.getElementById("vs-kpi-row").style.display = "flex";
+  document.getElementById("vs-summary-row").style.display = "block";
   document.getElementById("kpi-peak-day").textContent = "Day " + _vsData.peak_viral_day;
   document.getElementById("kpi-lung-exp").textContent = ((_vsData.organ_peak_exposure.lungs || 0) * 100).toFixed(0) + "%";
   document.getElementById("kpi-max-il6").textContent  = (d3.max(_vsData.il6) * 100).toFixed(0) + "%";
   document.getElementById("kpi-archetype").textContent = archetype === "respiratory" ? "Respiratory" : "Systemic";
 
+  drawSummary(_vsData);
   drawKineticsChart(_vsData);
   drawHeatmap(_vsData);
   drawImmuneChart(_vsData);
+  drawTimeline(_vsData);
+  drawAdvice(_vsData);
 }
 
 /* ── Kinetics line chart ── */
@@ -279,6 +283,171 @@ function drawImmuneChart(data) {
       .style("height", s.dash ? "0" : "2px");
     item.append("span").text(s.label);
   });
+}
+
+/* ── Summary Card Rendering ── */
+function drawSummary(data) {
+  const container = document.getElementById("vs-summary-content");
+  container.innerHTML = "";
+  if (!data.summary) return;
+
+  const items = [
+    { label: "Overall Severity", value: data.summary.overall_severity || "Unknown" },
+    { label: "Peak Day", value: data.summary.peak_day !== undefined && data.summary.peak_day !== null ? `Day ${data.summary.peak_day}` : "—" },
+    { label: "Primary Organ", value: data.summary.primary_organ ? data.summary.primary_organ.charAt(0).toUpperCase() + data.summary.primary_organ.slice(1) : "—" },
+    { label: "Primary Exposure", value: data.summary.primary_exposure_pct !== undefined && data.summary.primary_exposure_pct !== null ? `${data.summary.primary_exposure_pct}%` : "—" },
+    { label: "IL-6 Peak", value: data.summary.il6_peak_pct !== undefined && data.summary.il6_peak_pct !== null ? `${data.summary.il6_peak_pct}%` : "—" },
+    { label: "Recovery Day", value: data.summary.recovery_expected_day !== undefined && data.summary.recovery_expected_day !== null ? `Day ${data.summary.recovery_expected_day}` : "Est. later" },
+  ];
+
+  items.forEach(item => {
+    const card = document.createElement("div");
+    card.style.cssText = "background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; padding: 16px; min-width: 140px;";
+
+    const label = document.createElement("div");
+    label.style.cssText = "font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: #8a9aae; margin-bottom: 8px;";
+    label.textContent = item.label;
+    card.appendChild(label);
+
+    const value = document.createElement("div");
+    value.style.cssText = "font-size: 18px; font-weight: 700; color: #ffffff;";
+    value.textContent = item.value;
+    card.appendChild(value);
+
+    container.appendChild(card);
+  });
+
+  if (data.summary.short_recommendation) {
+    const note = document.createElement("div");
+    note.style.cssText = "grid-column: 1 / -1; background: rgba(0,188,212,0.1); border-left: 3px solid #00bcd4; padding: 14px; border-radius: 8px; color: #eaf7fb; font-size: 13px; line-height: 1.45;";
+    note.innerHTML = `<strong>Summary</strong>: ${data.summary.short_recommendation}`;
+    container.appendChild(note);
+  }
+}
+
+/* ── Timeline Rendering ── */
+function drawTimeline(data) {
+  const container = document.getElementById("vs-timeline-content");
+  container.innerHTML = "";
+  
+  if (!data.timeline_events || data.timeline_events.length === 0) return;
+  
+  const timeline = document.createElement("div");
+  timeline.style.cssText = "position: relative; padding: 20px 0;";
+  
+  // Vertical line connecting events
+  const line = document.createElement("div");
+  line.style.cssText = "position: absolute; left: 15px; top: 0; bottom: 0; width: 2px; background: linear-gradient(180deg, #00bcd4 0%, #8bc34a 50%, #4caf50 100%); opacity: 0.3;";
+  timeline.appendChild(line);
+  
+  data.timeline_events.forEach((event, idx) => {
+    const item = document.createElement("div");
+    item.style.cssText = "margin-bottom: 24px; padding-left: 50px; position: relative;";
+    
+    const severityColors = {
+      critical: "#f44336",
+      high: "#ff9800",
+      moderate: "#ffc107",
+      warning: "#ff6f00",
+      low: "#4caf50",
+      success: "#4caf50",
+      info: "#00bcd4"
+    };
+    
+    const dotColor = severityColors[event.severity] || "#9e9e9e";
+    
+    // Timeline dot
+    const dot = document.createElement("div");
+    dot.style.cssText = `position: absolute; left: 4px; top: 4px; width: 24px; height: 24px; background: ${dotColor}; border: 3px solid #1a2a3a; border-radius: 50%; box-shadow: 0 0 0 4px rgba(${hexToRgb(dotColor).join(',')}, 0.2);`;
+    item.appendChild(dot);
+    
+    // Event header
+    const header = document.createElement("div");
+    header.style.cssText = "display: flex; align-items: center; gap: 12px; margin-bottom: 6px;";
+    
+    const title = document.createElement("span");
+    title.style.cssText = `font-weight: 600; font-size: 13px; color: ${dotColor};`;
+    title.textContent = event.event;
+    header.appendChild(title);
+    
+    const dayLabel = document.createElement("span");
+    dayLabel.style.cssText = `font-size: 12px; color: #6a7f9e; background: rgba(0,0,0,0.2); padding: 2px 8px; border-radius: 3px;`;
+    dayLabel.textContent = `Day ${event.day}`;
+    header.appendChild(dayLabel);
+    
+    item.appendChild(header);
+    
+    // Event description
+    const desc = document.createElement("p");
+    desc.style.cssText = "margin: 6px 0 0 0; font-size: 12px; color: #8a9aae; line-height: 1.4;";
+    desc.textContent = event.description;
+    item.appendChild(desc);
+    
+    timeline.appendChild(item);
+  });
+  
+  container.appendChild(timeline);
+}
+
+/* ── Clinical Advice Rendering ── */
+function drawAdvice(data) {
+  const container = document.getElementById("vs-advice-content");
+  container.innerHTML = "";
+  
+  if (!data.clinical_advice || data.clinical_advice.length === 0) return;
+  
+  const adviceGrid = document.createElement("div");
+  adviceGrid.style.cssText = "display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;";
+  
+  const priorityIcons = {
+    critical: "🚨",
+    high: "⚠️",
+    moderate: "ℹ️",
+    low: "✓"
+  };
+  
+  const priorityColors = {
+    critical: { bg: "rgba(244,67,54,0.1)", border: "#f44336", text: "#f44336" },
+    high: { bg: "rgba(255,152,0,0.1)", border: "#ff9800", text: "#ff9800" },
+    moderate: { bg: "rgba(76,175,80,0.1)", border: "#8bc34a", text: "#8bc34a" },
+    low: { bg: "rgba(0,188,212,0.1)", border: "#00bcd4", text: "#00bcd4" }
+  };
+  
+  data.clinical_advice.forEach((advice, idx) => {
+    const card = document.createElement("div");
+    const colors = priorityColors[advice.priority] || priorityColors.moderate;
+    
+    card.style.cssText = `
+      background: ${colors.bg};
+      border-left: 4px solid ${colors.border};
+      padding: 14px;
+      border-radius: 4px;
+      font-size: 13px;
+      line-height: 1.5;
+    `;
+    
+    // Category header
+    const categoryDiv = document.createElement("div");
+    categoryDiv.style.cssText = `font-weight: 600; color: ${colors.text}; margin-bottom: 8px; display: flex; align-items: center; gap: 6px;`;
+    categoryDiv.innerHTML = `<span>${priorityIcons[advice.priority] || "•"}</span><span>${advice.category}</span>`;
+    card.appendChild(categoryDiv);
+    
+    // Recommendation
+    const recDiv = document.createElement("div");
+    recDiv.style.cssText = "color: #a0b0c0;";
+    recDiv.textContent = advice.recommendation;
+    card.appendChild(recDiv);
+    
+    adviceGrid.appendChild(card);
+  });
+  
+  container.appendChild(adviceGrid);
+}
+
+// Helper: convert hex to rgb
+function hexToRgb(hex) {
+  const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+  return result ? [parseInt(result[1], 16), parseInt(result[2], 16), parseInt(result[3], 16)] : [0, 0, 0];
 }
 
 // Auto-run on load

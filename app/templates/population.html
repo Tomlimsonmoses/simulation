@@ -462,6 +462,105 @@
       transition: width 0.4s ease;
     }
     .density-label { font-size: 9.5px; color: var(--muted); margin-top: 4px; text-align: right; }
+
+    /* ── Export / Analyse toolbar ── */
+    .tbl-toolbar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .tbl-btn {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 4px 12px;
+      font-size: 10.5px;
+      font-weight: 600;
+      color: var(--sub);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      transition: 0.15s;
+    }
+    .tbl-btn:hover { background: rgba(0,188,212,0.12); border-color: var(--accent); color: var(--accent); }
+    .tbl-btn.active { background: rgba(0,188,212,0.14); border-color: var(--accent); color: var(--accent); }
+
+    /* ── Deep analysis panel ── */
+    #analysis-panel {
+      margin-top: 20px;
+    }
+    .analysis-section-title {
+      font-size: 9.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: var(--accent);
+      margin: 18px 0 10px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .stat-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 10.5px;
+    }
+    .stat-table th {
+      padding: 6px 10px;
+      text-align: left;
+      font-size: 9px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      color: var(--muted);
+      border-bottom: 1px solid var(--border);
+      background: #151c2b;
+      position: sticky;
+      top: 0;
+    }
+    .stat-table td {
+      padding: 7px 10px;
+      border-bottom: 1px solid rgba(66,99,148,0.1);
+      color: var(--sub);
+    }
+    .stat-table tr:last-child td { border-bottom: none; }
+    .stat-table .hi  { color: var(--danger); font-weight: 600; }
+    .stat-table .ok  { color: var(--success); font-weight: 600; }
+    .stat-table .mid { color: var(--warn); font-weight: 600; }
+
+    .dose-rec-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 10px;
+      margin-top: 4px;
+    }
+    .dose-rec-card {
+      background: rgba(255,255,255,0.025);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 11px 14px;
+    }
+    .dose-rec-card .drc-title {
+      font-size: 11px;
+      font-weight: 700;
+      margin-bottom: 5px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .dose-rec-card .drc-row {
+      font-size: 10.5px;
+      color: var(--sub);
+      line-height: 1.6;
+    }
+    .drc-badge {
+      font-size: 9px;
+      font-weight: 800;
+      padding: 1px 6px;
+      border-radius: 3px;
+      letter-spacing: .04em;
+    }
   </style>
 </head>
 <body>
@@ -552,6 +651,11 @@
         <button class="dur-btn" data-h="168">1 week</button>
         <button class="dur-btn" data-h="336">2 weeks</button>
         <button class="dur-btn" data-h="720">30 days</button>
+        <button class="dur-btn" data-h="2160">3 months</button>
+        <button class="dur-btn" data-h="4380">6 months</button>
+        <button class="dur-btn" data-h="8760">1 year</button>
+        <button class="dur-btn" data-h="17520">2 years</button>
+        <button class="dur-btn" data-h="43800">5 years</button>
       </div>
     </div>
 
@@ -729,7 +833,16 @@
       <div class="pchart" style="margin-bottom:20px">
         <div class="pchart-header">
           <span class="pchart-title">Virtual Patient Registry</span>
-          <span class="pchart-hint">First 200 patients shown</span>
+          <div class="tbl-toolbar">
+            <span class="pchart-hint">First 200 patients shown</span>
+            <button class="tbl-btn" id="btn-export-csv" onclick="exportCSV()">
+              <svg width="12" height="12" viewBox="0 0 20 20" fill="none"><path d="M4 14v3h12v-3M10 3v10m-4-4 4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Export CSV
+            </button>
+            <button class="tbl-btn" id="btn-analyse" onclick="toggleAnalysis()">
+              🔬 Deep Analysis
+            </button>
+          </div>
         </div>
         <div class="pchart-body" style="padding:0">
           <div class="pt-wrap">
@@ -748,6 +861,55 @@
       </div>
 
     </div><!-- /results-wrap -->
+
+    <!-- ══ DEEP ANALYSIS PANEL ══ -->
+    <div id="analysis-panel" style="display:none">
+
+      <div class="analysis-section-title">📊 Distribution Analysis</div>
+      <div class="grid-2">
+        <div class="pchart" style="flex:1;min-width:280px">
+          <div class="pchart-header">
+            <span class="pchart-title">AUC Distribution</span>
+            <span class="pchart-hint">Area under curve histogram</span>
+          </div>
+          <div class="pchart-body">
+            <svg id="chart-auc" width="100%" height="260"></svg>
+          </div>
+        </div>
+        <div class="pchart" style="flex:1;min-width:280px">
+          <div class="pchart-header">
+            <span class="pchart-title">Age vs C<sub>max</sub></span>
+            <span class="pchart-hint">Each dot = one patient · coloured by outcome</span>
+          </div>
+          <div class="pchart-body">
+            <svg id="chart-scatter" width="100%" height="260"></svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="analysis-section-title">📋 Statistical Summary by Subgroup</div>
+      <div class="pchart" style="margin-bottom:20px">
+        <div class="pchart-body" style="padding:0;overflow-x:auto">
+          <table class="stat-table" id="stat-table">
+            <thead>
+              <tr>
+                <th>Subgroup</th><th>N</th>
+                <th>Cmax Mean</th><th>Cmax SD</th><th>Cmax P5</th><th>Cmax P50</th><th>Cmax P95</th>
+                <th>AUC Mean</th><th>AUC P50</th>
+                <th>Response</th><th>Adverse</th>
+              </tr>
+            </thead>
+            <tbody id="stat-tbody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="analysis-section-title">💊 Dose Adjustment Recommendations</div>
+      <div class="dose-rec-grid" id="dose-rec-grid"></div>
+
+      <div style="height:24px"></div>
+    </div><!-- /analysis-panel -->
+
   </main>
 </div><!-- /pop-layout -->
 
@@ -980,6 +1142,10 @@
     renderSGTable(d);
     renderPatientTable(d);
     renderSummary(d, displayN, scale);
+    // If analysis panel is open, refresh it
+    if (document.getElementById("analysis-panel").style.display !== "none") {
+      renderAnalysisPanel(d);
+    }
   }
 
   // ─── PK Envelope chart ────────────────────────────────────────────────────
@@ -1401,6 +1567,242 @@
       grid.appendChild(div);
     });
   }
+
+  // ── CSV Export ─────────────────────────────────────────────────────────────
+  function exportCSV() {
+    if (!S.lastResult) return;
+    const pts = S.lastResult.patient_demographics || [];
+    if (!pts.length) return;
+    const headers = ["#","Subgroup","Age","Sex","Weight_kg","Kidney_Fn","Liver_Fn",
+                     "CL_L_h","Vd_L","Cmax_mg_L","AUC_mgh_L","In_Window","Adverse","Status"];
+    const rows = pts.map(p => {
+      const status = p.in_window ? "Therapeutic" : p.adverse ? "Adverse" : "Sub-therapeutic";
+      return [
+        p.patient, p.subgroup, p.age, p.sex, p.weight_kg,
+        p.kidney_function, p.liver_function,
+        p["CL (L/h)"], p["Vd (L)"],
+        p["Cmax (mg/L)"], p["AUC (mg·h/L)"],
+        p.in_window ? "1" : "0", p.adverse ? "1" : "0", status,
+      ].join(",");
+    });
+    const csv = [headers.join(","), ...rows].join("\n");
+    const blob = new Blob([csv], { type: "text/csv" });
+    const url  = URL.createObjectURL(blob);
+    const a    = document.createElement("a");
+    a.href = url;
+    a.download = `population_${S.drug}_${S.disease}_n${pts.length}.csv`.replace(/\s+/g,"_");
+    a.click();
+    URL.revokeObjectURL(url);
+  }
+
+  // ── Deep Analysis panel toggle ──────────────────────────────────────────────
+  function toggleAnalysis() {
+    const panel = document.getElementById("analysis-panel");
+    const btn   = document.getElementById("btn-analyse");
+    const open  = panel.style.display === "none" || panel.style.display === "";
+    panel.style.display = open ? "block" : "none";
+    btn.classList.toggle("active", open);
+    if (open && S.lastResult) {
+      renderAnalysisPanel(S.lastResult);
+      panel.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
+
+  function renderAnalysisPanel(d) {
+    // force reflow so SVG gets real widths
+    void document.getElementById("analysis-panel").offsetWidth;
+    renderAUCHist(d);
+    renderScatterAge(d);
+    renderStatTable(d);
+    renderDoseRecs(d);
+  }
+
+  // ── AUC Histogram ──────────────────────────────────────────────────────────
+  function renderAUCHist(d) {
+    const el = document.getElementById("chart-auc");
+    el.innerHTML = "";
+    const W = Math.max(el.parentElement.getBoundingClientRect().width - 28, 280);
+    const H = 260;
+    const M = { top: 14, right: 14, bottom: 38, left: 50 };
+    const w = W - M.left - M.right;
+    const h = H - M.top - M.bottom;
+
+    const svg = d3.select(el).attr("width", W).attr("height", H);
+    const g   = svg.append("g").attr("transform", `translate(${M.left},${M.top})`);
+
+    const vals = d.auc_distribution || [];
+    if (!vals.length) return;
+    const xScale = d3.scaleLinear().domain([0, d3.max(vals) * 1.05]).nice().range([0, w]);
+    const binner = (d3.bin || d3.histogram)();
+    const bins   = binner.domain(xScale.domain()).thresholds(xScale.ticks(20))(vals);
+    const yScale = d3.scaleLinear().domain([0, d3.max(bins, b => b.length)]).nice().range([h, 0]);
+
+    g.selectAll(".bar").data(bins).join("rect")
+      .attr("class","bar")
+      .attr("x", b => xScale(b.x0) + 1)
+      .attr("y", b => yScale(b.length))
+      .attr("width", b => Math.max(0, xScale(b.x1) - xScale(b.x0) - 2))
+      .attr("height", b => h - yScale(b.length))
+      .attr("fill", "#00bcd4").attr("opacity", 0.75).attr("rx", 2);
+
+    // Median line
+    const vals_sorted = [...vals].sort((a,b) => a-b);
+    const med = vals_sorted[Math.floor(vals_sorted.length/2)];
+    g.append("line").attr("x1",xScale(med)).attr("x2",xScale(med)).attr("y1",0).attr("y2",h)
+      .attr("stroke","#ffab40").attr("stroke-width",1.5).attr("stroke-dasharray","4,3");
+    g.append("text").attr("x",xScale(med)+3).attr("y",12).attr("fill","#ffab40").attr("font-size","9px").text(`P50: ${med.toFixed(0)}`);
+
+    g.append("g").attr("transform",`translate(0,${h})`)
+      .call(d3.axisBottom(xScale).ticks(6))
+      .call(g => { g.select(".domain").remove(); g.selectAll("text").attr("fill","#6c7e9e").attr("font-size","9px"); });
+    g.append("g").call(d3.axisLeft(yScale).ticks(5))
+      .call(g => { g.select(".domain").remove(); g.selectAll("text").attr("fill","#6c7e9e").attr("font-size","9px"); });
+    g.append("text").attr("transform",`translate(${w/2},${h+30})`).attr("text-anchor","middle").attr("fill","#6c7e9e").attr("font-size","9px").text("AUC (mg·h/L)");
+    g.append("text").attr("transform","rotate(-90)").attr("x",-h/2).attr("y",-38).attr("text-anchor","middle").attr("fill","#6c7e9e").attr("font-size","9px").text("Count");
+  }
+
+  // ── Age vs Cmax Scatter ────────────────────────────────────────────────────
+  function renderScatterAge(d) {
+    const el = document.getElementById("chart-scatter");
+    el.innerHTML = "";
+    const pts = d.patient_demographics || [];
+    if (!pts.length) return;
+
+    const W = Math.max(el.parentElement.getBoundingClientRect().width - 28, 280);
+    const H = 260;
+    const M = { top: 14, right: 14, bottom: 38, left: 50 };
+    const w = W - M.left - M.right;
+    const h = H - M.top - M.bottom;
+
+    const svg = d3.select(el).attr("width", W).attr("height", H);
+    const g   = svg.append("g").attr("transform", `translate(${M.left},${M.top})`);
+
+    const xScale = d3.scaleLinear().domain([0, d3.max(pts, p => p.age) + 2]).range([0, w]);
+    const yScale = d3.scaleLinear().domain([0, d3.max(pts, p => p["Cmax (mg/L)"]) * 1.1]).range([h, 0]);
+
+    // Grid
+    g.append("g").call(d3.axisLeft(yScale).ticks(5).tickSize(-w).tickFormat(""))
+      .call(g => { g.selectAll("line").attr("stroke","rgba(255,255,255,0.04)"); g.select(".domain").remove(); });
+
+    // Therapeutic window band
+    const [twLo, twHi] = d.therapeutic_window;
+    g.append("rect").attr("x",0).attr("y",yScale(twHi)).attr("width",w)
+      .attr("height", Math.max(0, yScale(twLo)-yScale(twHi))).attr("fill","rgba(0,230,118,0.06)");
+
+    // Scatter dots
+    g.selectAll(".dot").data(pts).join("circle")
+      .attr("class","dot")
+      .attr("cx", p => xScale(p.age))
+      .attr("cy", p => yScale(p["Cmax (mg/L)"]))
+      .attr("r", 3.5)
+      .attr("fill", p => p.in_window ? "#00e676" : p.adverse ? "#ef5350" : "#ffab40")
+      .attr("opacity", 0.7)
+      .attr("stroke", "rgba(0,0,0,0.3)").attr("stroke-width","0.5");
+
+    g.append("g").attr("transform",`translate(0,${h})`)
+      .call(d3.axisBottom(xScale).ticks(8))
+      .call(g => { g.select(".domain").remove(); g.selectAll("text").attr("fill","#6c7e9e").attr("font-size","9px"); });
+    g.append("g").call(d3.axisLeft(yScale).ticks(5))
+      .call(g => { g.select(".domain").remove(); g.selectAll("text").attr("fill","#6c7e9e").attr("font-size","9px"); });
+
+    g.append("text").attr("transform",`translate(${w/2},${h+30})`).attr("text-anchor","middle").attr("fill","#6c7e9e").attr("font-size","9px").text("Age (years)");
+    g.append("text").attr("transform","rotate(-90)").attr("x",-h/2).attr("y",-38).attr("text-anchor","middle").attr("fill","#6c7e9e").attr("font-size","9px").text("Cmax (mg/L)");
+
+    // Legend
+    const lG = g.append("g").attr("transform",`translate(${w-120},4)`);
+    [["#00e676","Therapeutic"],["#ffab40","Sub-therapeutic"],["#ef5350","Adverse"]].forEach(([c,l],i) => {
+      lG.append("circle").attr("cx",4).attr("cy",i*13).attr("r",3.5).attr("fill",c).attr("opacity",0.8);
+      lG.append("text").attr("x",11).attr("y",i*13+4).attr("fill","#6c7e9e").attr("font-size","8px").text(l);
+    });
+  }
+
+  // ── Statistical Summary Table ──────────────────────────────────────────────
+  function renderStatTable(d) {
+    const tbody = document.getElementById("stat-tbody");
+    tbody.innerHTML = "";
+    Object.entries(d.subgroup_summary || {}).forEach(([sg, v]) => {
+      // Calculate detailed stats from patient_demographics for this subgroup
+      const pts = (d.patient_demographics || []).filter(p => p.subgroup === sg);
+      if (!pts.length) return;
+      const cmaxArr = pts.map(p => p["Cmax (mg/L)"]).sort((a,b) => a-b);
+      const aucArr  = pts.map(p => p["AUC (mg·h/L)"]).sort((a,b) => a-b);
+      const mean  = arr => arr.reduce((s,x) => s+x, 0) / arr.length;
+      const sd    = arr => { const m = mean(arr); return Math.sqrt(arr.reduce((s,x) => s+(x-m)**2, 0)/arr.length); };
+      const pct   = (arr, p) => arr[Math.floor((p/100) * arr.length)];
+
+      const respPct = Math.round(v.response_rate * 100);
+      const advPct  = Math.round(v.adverse_rate * 100);
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td><span class="sg-dot" style="background:${SG_COLORS[sg]||'#aaa'}"></span>${SG_LABELS[sg]||sg}</td>
+        <td style="color:var(--text)">${pts.length}</td>
+        <td style="color:var(--text)">${mean(cmaxArr).toFixed(3)}</td>
+        <td>${sd(cmaxArr).toFixed(3)}</td>
+        <td>${pct(cmaxArr,5)?.toFixed(3)??'—'}</td>
+        <td style="color:var(--text)">${pct(cmaxArr,50)?.toFixed(3)??'—'}</td>
+        <td>${pct(cmaxArr,95)?.toFixed(3)??'—'}</td>
+        <td>${mean(aucArr).toFixed(1)}</td>
+        <td style="color:var(--text)">${pct(aucArr,50)?.toFixed(1)??'—'}</td>
+        <td class="${respPct>=60?'ok':respPct>=35?'mid':'hi'}">${respPct}%</td>
+        <td class="${advPct<=5?'ok':advPct<=15?'mid':'hi'}">${advPct}%</td>
+      `;
+      tbody.appendChild(tr);
+    });
+  }
+
+  // ── Dose Recommendation Cards ──────────────────────────────────────────────
+  function renderDoseRecs(d) {
+    const grid = document.getElementById("dose-rec-grid");
+    grid.innerHTML = "";
+    const tw = d.therapeutic_window || [0, 100];
+
+    const REC_MAP = {
+      general_adult:   { icon:"👤", adj:"Standard dose appropriate for most patients." },
+      elderly:         { icon:"🧓", adj:"Reduce dose by 20–30%. Monitor for accumulation due to reduced renal clearance with age." },
+      pregnant:        { icon:"🤰", adj:"Increased CL during pregnancy may require dose increase of 20–25%. Monitor closely." },
+      paediatric:      { icon:"🧒", adj:"Weight-based dosing recommended. Use per-kg calculation; CL/kg is higher in children." },
+      renal_impaired:  { icon:"🫘", adj:"Significant dose reduction required. Consider GFR-based dose adjustment (Cockcroft-Gault)." },
+      immunocompromised:{ icon:"🛡️", adj:"Reduced hepatic metabolism may increase exposure. Start at lower end; monitor carefully." },
+    };
+
+    Object.entries(d.subgroup_summary || {}).forEach(([sg, v]) => {
+      const respPct = Math.round(v.response_rate * 100);
+      const advPct  = Math.round(v.adverse_rate  * 100);
+      const info = REC_MAP[sg] || { icon:"👤", adj:"Standard monitoring." };
+      const cmaxRatio = v.cmax_median / tw[1];
+      let status, statusCls, action;
+      if (advPct > 15) {
+        status = "REDUCE DOSE"; statusCls = "hi";
+        action = `C${String.fromCodePoint(0x2099)}${String.fromCodePoint(0x2090)}${String.fromCodePoint(0x2093)} is ${(cmaxRatio*100).toFixed(0)}% of upper limit — dose reduction advised.`;
+      } else if (respPct < 35) {
+        status = "INCREASE DOSE"; statusCls = "mid";
+        action = `Only ${respPct}% reach therapeutic window — consider dose escalation.`;
+      } else {
+        status = "APPROPRIATE"; statusCls = "ok";
+        action = `${respPct}% in therapeutic range — current dose is appropriate.`;
+      }
+      const col = statusCls==="hi" ? "var(--danger)" : statusCls==="mid" ? "var(--warn)" : "var(--success)";
+      const card = document.createElement("div");
+      card.className = "dose-rec-card";
+      card.innerHTML = `
+        <div class="drc-title" style="color:${SG_COLORS[sg]||'#aaa'}">
+          ${info.icon} ${SG_LABELS[sg]||sg}
+          <span class="drc-badge ${statusCls}" style="background:${col}22;color:${col};border:1px solid ${col}44">${status}</span>
+        </div>
+        <div class="drc-row"><strong style="color:var(--text)">Action:</strong> ${action}</div>
+        <div class="drc-row" style="margin-top:4px;color:var(--muted)">${info.adj}</div>
+        <div class="drc-row" style="margin-top:6px;display:flex;gap:12px">
+          <span style="color:var(--success)">✓ ${respPct}% therapeutic</span>
+          <span style="color:var(--danger)">⚠ ${advPct}% adverse</span>
+          <span style="color:var(--sub)">N=${v.n}</span>
+        </div>`;
+      grid.appendChild(card);
+    });
+  }
+
+  // Expose button handlers to global scope (onclick attributes need window-level access)
+  window.exportCSV      = exportCSV;
+  window.toggleAnalysis = toggleAnalysis;
 
   init();
 

@@ -266,10 +266,14 @@ class BiologicalSystemSimulator:
         organ_health: Dict[str, float] = {}
         organ_drug_effects: Dict[str, Dict[str, float]] = {o: {} for o in ALL_ORGANS}
 
+        # Impaired kidneys/liver reduce systemic clearance, affecting all organs
+        systemic_deficit = (1.0 - bio.kidney_function) * 0.15 + (1.0 - bio.liver_function) * 0.15
+
         for org in ALL_ORGANS:
             h = 1.0
             if org == "kidneys": h *= bio.kidney_function
             elif org == "liver":  h *= bio.liver_function
+            else: h -= systemic_deficit
             for ds in disease_states:
                 if org in ds.affected_organs:
                     h -= ds.severity * 0.30
@@ -385,7 +389,14 @@ TEMPLATE_DIR  = os.path.join(BASE_DIR, "templates")
 os.makedirs(STATIC_DIR,   exist_ok=True)
 os.makedirs(TEMPLATE_DIR, exist_ok=True)
 
-app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
+app.mount("/static", StaticFiles(directory=STATIC_DIR, html=False), name="static")
+
+@app.middleware("http")
+async def _no_cache_static(request, call_next):
+    response = await call_next(request)
+    if request.url.path.startswith("/static/js/") or request.url.path.startswith("/static/css/"):
+        response.headers["Cache-Control"] = "no-cache, must-revalidate"
+    return response
 templates = Jinja2Templates(directory=TEMPLATE_DIR)
 
 def _sv(path: str) -> str:
@@ -986,8 +997,8 @@ async def simulate(req: SimulateRequest):
                             "duration":   round(dur_h2, 2),
                             "probability": 1.0,
                             "description": (
-                                f"{eng_org.title()} concentration ({peak2:.2f} mg/L) exceeded "
-                                f"safety threshold at t={onset_h2:.1f}h."
+                                f"Onset at hour {onset_h2:.0f} · Persists ~{dur_h2:.0f}h · "
+                                f"{'Critical' if peak2 > org_thresh * 1.5 else 'Elevated'} exposure in {eng_org} tissue."
                             ),
                             "active":     True,
                             "start_time": round(onset_h2, 2),
@@ -1314,12 +1325,23 @@ async def population_analysis(req: PopulationRequest):
         name=req.disease, severity=req.severity
     )
     disease_obj.severity = req.severity
-    step = 1.0 if req.duration_hours <= 96 else 2.0
-    time_arr = np.arange(0, req.duration_hours + step / 2, step)
+    # Adaptive time step — cap output at ~500 points regardless of duration
+    dur = float(req.duration_hours)
+    if dur <= 96:
+        step = 1.0
+    elif dur <= 720:
+        step = 2.0
+    elif dur <= 4380:
+        step = 12.0
+    elif dur <= 17520:
+        step = 24.0
+    else:
+        step = 72.0   # 5-year sim at 3-day resolution
+    time_arr = np.arange(0, dur + step / 2, step)
     runner = PopulationCohortRunner()
     cohort = runner.run(_engine, dp, bio, [disease_obj],
                         n=req.n_patients, time_points=time_arr,
-                        setting=req.setting)
+                        setting=req.setting, disease_name=req.disease)
     tw = cohort.therapeutic_window
 
     # Build age-band histogram from demographics
@@ -1527,6 +1549,214 @@ async def api_viral_sim(req: ViralSimRequest):
 
     time_days = [round(float(t) / 24.0, 3) for t in t_eval]
 
+    # ──────────────────────────────────────────────────────────────────────
+    # Generate timeline events (key milestones)
+    # ──────────────────────────────────────────────────────────────────────
+    timeline_events = []
+    
+    # Day 0: Infection onset
+    timeline_events.append({
+        "day": 0,
+        "event": "Viral Exposure",
+        "description": "Initial inoculation dose administered",
+        "severity": "info"
+    })
+    
+    # First immune response detection
+    immune_threshold = 0.15
+    for idx, val in enumerate(E_raw):
+        if val / (E_peak + 1e-10) > immune_threshold:
+            event_day = round(float(t_eval[idx]) / 24.0, 1)
+            timeline_events.append({
+                "day": event_day,
+                "event": "Immune Response Onset",
+                "description": f"Innate immune system activation detected (effectors ~{int(val/E_peak*100)}%)",
+                "severity": "warning"
+            })
+            break
+    
+    # Peak viral load
+    timeline_events.append({
+        "day": peak_day,
+        "event": "Peak Viral Load",
+        "description": f"Maximum viral replication reached (~{int(np.max(V_norm)*100)}% normalised)",
+        "severity": "critical" if peak_day < 5 else "high" if peak_day < 10 else "moderate"
+    })
+    
+    # Cytokine storm threshold (IL-6 peak)
+    il6_peak_idx = np.argmax(il6)
+    il6_peak_day = round(float(t_eval[il6_peak_idx]) / 24.0, 1)
+    il6_peak_val = float(il6[il6_peak_idx])
+    timeline_events.append({
+        "day": il6_peak_day,
+        "event": "Peak Inflammatory Response",
+        "description": f"IL-6 cytokine surge (~{int(il6_peak_val*100)}%) - risk of systemic inflammation",
+        "severity": "high" if il6_peak_val > 0.7 else "moderate" if il6_peak_val > 0.4 else "low"
+    })
+    
+    # Multi-organ involvement (identify which organs are heavily affected)
+    most_affected_organs = sorted(
+        [(org, max(organ_viral[org])) for org in ORGANS],
+        key=lambda x: x[1],
+        reverse=True
+    )[:3]
+    max_organ_exposure_day = 0
+    max_organ_exposure = 0
+    for org, vals in organ_viral.items():
+        max_val = max(vals)
+        if max_val > max_organ_exposure:
+            max_organ_exposure = max_val
+            max_organ_exposure_day = round(float(t_eval[vals.index(max(vals))]) / 24.0, 1)
+    
+    if most_affected_organs[0][1] > 0.3:  # Significant multi-organ involvement
+        timeline_events.append({
+            "day": max_organ_exposure_day,
+            "event": "Multi-organ Involvement",
+            "description": f"Systemic spread detected: {', '.join([o[0].capitalize() for o in most_affected_organs])} most affected",
+            "severity": "critical" if max_organ_exposure > 0.6 else "high"
+        })
+    
+    # Recovery phase detection (viral load declining)
+    recovery_start_idx = None
+    recovery_day = None
+    for idx in range(len(V_norm) - 1):
+        if V_norm[idx] > 0.5 and V_norm[idx + 1] < 0.5 * V_norm[idx]:
+            recovery_start_idx = idx
+            recovery_day = round(float(t_eval[idx]) / 24.0, 1)
+            break
+    
+    if recovery_day is not None:
+        timeline_events.append({
+            "day": recovery_day,
+            "event": "Recovery Phase Initiated",
+            "description": "Viral load declining - immune system gaining control",
+            "severity": "success"
+        })
+    
+    # Final status (at end of simulation)
+    final_viral = V_norm[-1]
+    final_il6 = il6[-1]
+    final_effectors = E_raw[-1] / (E_peak + 1e-10)
+    
+    timeline_events.append({
+        "day": req.duration_days,
+        "event": "Simulation End",
+        "description": f"Final status: Viral load {int(final_viral*100)}% | IL-6 {int(final_il6*100)}% | Immune response {int(final_effectors*100)}%",
+        "severity": "info"
+    })
+    
+    # Sort events by day
+    timeline_events.sort(key=lambda x: x["day"])
+    
+    # Summary of the single-person simulation
+    overall_severity = "critical" if il6_peak_val > 0.8 or max_organ_exposure > 0.7 else "high" if il6_peak_val > 0.5 or peak_day < 7 or max_organ_exposure > 0.4 else "moderate"
+    primary_organ = most_affected_organs[0][0].capitalize()
+    primary_exposure_pct = int(most_affected_organs[0][1] * 100)
+    secondary_organs = [org.capitalize() for org, _ in most_affected_organs[1:]]
+    secondary_label = ", ".join(secondary_organs) if secondary_organs else "None"
+    recovery_label = f"Day {recovery_day}" if recovery_day is not None else "Not detected"
+    
+    summary = {
+        "peak_day": peak_day,
+        "peak_description": "Initial inoculation peak" if peak_day == 0 else f"Peak at day {peak_day}",
+        "primary_organ": primary_organ,
+        "primary_exposure_pct": primary_exposure_pct,
+        "secondary_organs": secondary_label,
+        "il6_peak_pct": int(il6_peak_val * 100),
+        "overall_severity": overall_severity,
+        "recovery_expected_day": recovery_day,
+        "recovery_label": recovery_label,
+        "short_recommendation": (
+            "Immediate escalation for cytokine storm and organ support." if overall_severity == "critical" else
+            "Close monitoring and antiviral support recommended." if overall_severity == "high" else
+            "Continue supportive care and monitor recovery."),
+    }
+    
+    # ──────────────────────────────────────────────────────────────────────
+    # Generate clinical advice
+    # ──────────────────────────────────────────────────────────────────────
+    
+    # Helper function for organ-specific measures
+    def _organ_protective_measures(organ: str) -> str:
+        measures = {
+            "lungs": "oxygen therapy, mechanical ventilation if needed, lung-protective ventilation strategies",
+            "heart": "cardiac monitoring, inotropic support if needed, ACE-I/ARB consideration",
+            "kidneys": "fluid balance management, nephroprotective agents, renal replacement therapy if needed",
+            "liver": "hepatoprotective agents, avoid hepatotoxic medications, liver function monitoring",
+            "brain": "seizure prophylaxis if indicated, neuromonitoring, ICP management",
+            "gut": "enteral nutrition if possible, probiotics, barrier protection with glutamine"
+        }
+        return measures.get(organ, "organ-specific supportive care")
+    
+    advice = []
+    
+    # Severity classification
+    if il6_peak_val > 0.8:
+        advice.append({
+            "category": "Cytokine Management",
+            "recommendation": "HIGH CYTOKINE STORM RISK: Consider anti-inflammatory intervention (corticosteroids, IL-6 inhibitors). Monitor for ARDS, multi-organ failure.",
+            "priority": "critical"
+        })
+    elif il6_peak_val > 0.5:
+        advice.append({
+            "category": "Cytokine Management",
+            "recommendation": "Elevated cytokine response detected. Monitor inflammatory markers. Supportive care with NSAIDs if appropriate.",
+            "priority": "high"
+        })
+    
+    # Peak viral load advice
+    if peak_day < 3:
+        advice.append({
+            "category": "Antiviral Strategy",
+            "recommendation": "EARLY PEAK: Rapid viral replication detected. Initiate high-dose antiviral therapy immediately. Consider combination therapy.",
+            "priority": "critical"
+        })
+    elif peak_day < 7:
+        advice.append({
+            "category": "Antiviral Strategy",
+            "recommendation": "Standard antiviral course recommended. Ensure adequate dose and frequency. Monitor viral markers daily.",
+            "priority": "high"
+        })
+    else:
+        advice.append({
+            "category": "Antiviral Strategy",
+            "recommendation": "Delayed peak observed. Verify medication adherence and absorption. Consider dose escalation or alternative antivirals.",
+            "priority": "moderate"
+        })
+    
+    # Immune support
+    if final_effectors < 0.3:
+        advice.append({
+            "category": "Immune Support",
+            "recommendation": "Insufficient immune response at endpoint. Consider immune enhancement: interferons, immunoglobulins, or nutritional support.",
+            "priority": "high"
+        })
+    elif final_effectors > 0.6:
+        advice.append({
+            "category": "Immune Support",
+            "recommendation": "Strong immune response maintained. Continue supportive care. Monitor for autoimmune complications.",
+            "priority": "low"
+        })
+    
+    # Organ-specific guidance
+    if most_affected_organs[0][1] > 0.7:
+        primary_organ = most_affected_organs[0][0].capitalize()
+        advice.append({
+            "category": "Organ Protection",
+            "recommendation": f"{primary_organ} is primary target organ (load ~{int(most_affected_organs[0][1]*100)}%). Implement {_organ_protective_measures(most_affected_organs[0][0])}.",
+            "priority": "high"
+        })
+    
+    # Recovery timeline
+    if recovery_start_idx is not None and req.duration_days > recovery_day:
+        remaining_days = req.duration_days - recovery_day
+        advice.append({
+            "category": "Recovery Monitoring",
+            "recommendation": f"Recovery phase expected around day {recovery_day}. Plan {remaining_days:.0f}-day convalescence period. Monitor for post-viral fatigue and complications.",
+            "priority": "moderate"
+        })
+    
+    
     return {
         "time_days": time_days,
         "organs": ORGANS,
@@ -1542,6 +1772,9 @@ async def api_viral_sim(req: ViralSimRequest):
         "organ_peak_exposure": {
             org: round(float(max(organ_viral[org])), 4) for org in ORGANS
         },
+        "summary": summary,
+        "timeline_events": timeline_events,
+        "clinical_advice": advice,
     }
 
 
@@ -1595,6 +1828,12 @@ async def api_effectiveness_data():
     }
 
 
+@app.get("/api/drug-organ-effects")
+async def api_drug_organ_effects():
+    """Return the drug → organ effect magnitudes used by the simulator."""
+    return _simulator.organ_drug_effects
+
+
 @app.post("/api/side-effects-forecast")
 async def api_side_effects_forecast(req: LongTermSimulateRequest):
     """
@@ -1604,7 +1843,7 @@ async def api_side_effects_forecast(req: LongTermSimulateRequest):
     """
     from src.simulation.realistic_simulator import get_realistic_simulator
 
-    duration = min(float(req.duration_days), 365.0)
+    duration = min(float(req.duration_days), 1825.0)
     sim = get_realistic_simulator()
     result = sim.simulate(
         drug_names=[req.drug],

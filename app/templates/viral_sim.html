@@ -69,6 +69,16 @@
     <div class="ch4-kpi"><div class="ch4-kpi-val" id="kpi-archetype">—</div><div class="ch4-kpi-label">Archetype</div></div>
   </div>
 
+  <div class="ch4-row" id="vs-summary-row" style="display:none">
+    <div class="ch4-card full-width">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">Patient Simulation Summary</span>
+        <span class="ch4-card-hint">Concise single-person outcome and risk indicators</span>
+      </div>
+      <div id="vs-summary-content" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;padding:16px 0;"></div>
+    </div>
+  </div>
+
   <!-- Row 1: Viral load kinetics + exposure heatmap -->
   <div class="ch4-row">
     <div class="ch4-card" style="flex:1.6;min-width:420px">
@@ -103,6 +113,32 @@
         <div class="ch4-spinner" id="vs-spinner3"></div>
       </div>
       <div class="ch4-legend" id="vs-immune-legend"></div>
+    </div>
+  </div>
+
+  <!-- Timeline Summary -->
+  <div class="ch4-row">
+    <div class="ch4-card full-width">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">Clinical Timeline Summary</span>
+        <span class="ch4-card-hint">Key milestones and events during simulation</span>
+      </div>
+      <div id="vs-timeline-container" style="padding: 16px;">
+        <div class="timeline" id="vs-timeline-content"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Clinical Advice -->
+  <div class="ch4-row">
+    <div class="ch4-card full-width">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">Clinical Recommendations</span>
+        <span class="ch4-card-hint">Evidence-based management strategies based on simulation results</span>
+      </div>
+      <div id="vs-advice-container" style="padding: 16px;">
+        <div id="vs-advice-content"></div>
+      </div>
     </div>
   </div>
 

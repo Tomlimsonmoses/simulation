@@ -41,26 +41,26 @@
 
   <!-- Controls -->
   <div class="ch4-controls">
-    <span class="ch4-label">Drug:</span>
+    <span class="ch4-label">Disease:</span>
+    <select class="ch4-select" id="se-disease">
+      <option disabled selected>Loading…</option>
+    </select>
+    <span class="ch4-label">Medication:</span>
     <select class="ch4-select" id="se-drug">
-      <option value="Acetaminophen">Acetaminophen</option>
-      <option value="Atorvastatin" selected>Atorvastatin</option>
-      <option value="Prednisone">Prednisone</option>
-      <option value="Metformin">Metformin</option>
-      <option value="Sertraline">Sertraline</option>
-      <option value="Metoprolol">Metoprolol</option>
-      <option value="Lisinopril">Lisinopril</option>
+      <option disabled selected>—</option>
     </select>
     <span class="ch4-label">Duration:</span>
     <button class="ch4-btn" data-d="90"  onclick="setSEDur(this,90)">90d</button>
     <button class="ch4-btn" data-d="180" onclick="setSEDur(this,180)">180d</button>
     <button class="ch4-btn active" data-d="365" onclick="setSEDur(this,365)">1 yr</button>
-    <span class="ch4-label">Disease:</span>
-    <select class="ch4-select" id="se-disease">
-      <option>Hypertension</option>
-      <option>Type 2 Diabetes (Moderate)</option>
-      <option>Heart Failure (Mild)</option>
-      <option>Viral Infection</option>
+    <button class="ch4-btn" data-d="730" onclick="setSEDur(this,730)">2 yr</button>
+    <button class="ch4-btn" data-d="1825" onclick="setSEDur(this,1825)">5 yr</button>
+    <span class="ch4-label">Gene Type:</span>
+    <select class="ch4-select" id="se-gene-type" style="max-width:140px">
+      <option value="Global">Global</option>
+      <option value="African" selected>African (Zimbabwe)</option>
+      <option value="Asian">Asian</option>
+      <option value="European">European</option>
     </select>
     <button class="ch4-btn" id="se-run-btn" onclick="runSEForecast()" style="margin-left:12px;background:rgba(0,188,212,0.22);border-color:#00bcd4">
       ▶ Run Forecast
@@ -98,12 +98,28 @@
     </div>
   </div>
 
-  <!-- Row 2: Side effect timeline -->
+  <!-- Row 2: Clinical summary + Side effect timeline -->
   <div class="ch4-row">
-    <div class="ch4-card full-width">
+    <div class="ch4-card" style="flex:1;min-width:260px">
       <div class="ch4-card-header">
-        <span class="ch4-card-title">Predicted Side Effect Onset Timeline</span>
-        <span class="ch4-card-hint">Based on long-term ODE adaptation model</span>
+        <span class="ch4-card-title">Simulation Summary</span>
+        <span class="ch4-card-hint">Key findings & timeframe</span>
+      </div>
+      <div id="se-summary-box" style="padding:12px;display:flex;flex-direction:column;gap:10px">
+        <div style="font-size:11px;color:#6a7f9e">
+          <div style="margin-bottom:8px"><strong style="color:#00bcd4">Duration:</strong> <span id="se-summary-duration">365 days</span></div>
+          <div style="margin-bottom:8px"><strong style="color:#00bcd4">Peak Organ Stress:</strong> <span id="se-summary-peak-stress">—</span></div>
+          <div style="margin-bottom:8px"><strong style="color:#00bcd4">Clinical Events Detected:</strong> <span id="se-summary-events-count">0</span></div>
+          <div style="margin-bottom:8px"><strong style="color:#00bcd4">Highest Risk Organ:</strong> <span id="se-summary-risk-organ">—</span></div>
+          <div style="border-top:1px solid rgba(255,255,255,0.1);padding-top:8px;margin-top:8px"><strong style="color:#00bcd4">Biomarker Changes:</strong></div>
+          <div id="se-summary-biomarkers" style="font-size:10px;color:#4a5e7a;margin-top:4px"></div>
+        </div>
+      </div>
+    </div>
+    <div class="ch4-card full-width" style="flex:1.5">
+      <div class="ch4-card-header">
+        <span class="ch4-card-title">Clinical Events Timeline</span>
+        <span class="ch4-card-hint">Detected adverse effects & milestones (earliest to latest)</span>
       </div>
       <div id="se-events-list" style="display:flex;flex-direction:column;gap:8px;padding:4px 0;max-height:260px;overflow-y:auto"></div>
     </div>
@@ -112,6 +128,15 @@
 
 <div class="ch4-tooltip" id="se-tooltip"></div>
 <script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+  // If initSEPage hasn't replaced the dropdown within 4s, the JS failed to load
+  setTimeout(() => {
+    const el = document.getElementById("se-disease");
+    if (el && el.options[0] && el.options[0].disabled) {
+      el.innerHTML = '<option value="" disabled selected>⚠ Failed to load — try refreshing (Ctrl+Shift+R)</option>';
+    }
+  }, 4000);
+</script>
 <script src="/static/js/side_effects.js"></script>
 </body>
 </html>
